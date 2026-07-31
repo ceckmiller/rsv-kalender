@@ -68,3 +68,36 @@ Die bisherigen öffentlichen ICS-Adressen bleiben bestehen.
 - Der Countdown verwendet größere Zahlen und Beschriftungen.
 - Externe Vereinslogos werden über `/api/logo` von einer Netlify Function geladen und zwischengespeichert. Dadurch ist die Darstellung nicht mehr davon abhängig, ob der Browser externe Logo-Hosts direkt blockiert.
 - Wenn eine Logoquelle dennoch nicht erreichbar ist, bleiben Vereinsinitialen als Rückfallebene erhalten.
+
+## Release Candidate 1
+
+- Spieltermine aller vier Mannschaften verwenden dieselbe Struktur.
+- Wochentag und Datum bleiben in einer Zeile; die Uhrzeit steht darunter.
+- Die Tabelle ist ohne horizontales Scrollen größer und besser lesbar.
+- Schiedsrichter wird mit einer klaren Outline-Pfeife dargestellt.
+- Tickets und Wetter erscheinen als zwei gleich große Chips.
+- Stadionname und vollständige Adresse werden zweizeilig dargestellt und öffnen Google Maps.
+- In „Alle Spieltermine“ lassen sich einzelne Spiele aufklappen; immer nur ein Termin ist geöffnet.
+- Mannschaftsnamen in Termin- und Hauptkarten öffnen bei bekanntem Spielort die Navigation.
+- Lok Leipzig/Lokomotive Leipzig und Erzgebirge Aue/FC Erzgebirge Aue werden über Aliase zusammengeführt.
+
+## Spielbezogene Ticketlinks
+
+Die App liest bei jedem regulären Datenlauf zusätzlich die Ticketübersicht der 1. Herren:
+
+`https://rsv-eintracht.vereinsticket.de/herren/`
+
+Für veröffentlichte Veranstaltungen wird die jeweilige Detailseite anhand von Gegner und Termin dem Heimspiel zugeordnet. Gibt es noch keine Detailseite, führt der Ticket-Chip auf die Herren-Übersichtsseite. Die zuletzt bekannten Detailseiten liegen zusätzlich in `data/tickets.json`, damit bei einem vorübergehenden Ausfall des Ticketshops keine bereits bekannte Zuordnung verloren geht.
+
+Der Ticketshop wird damit im bestehenden Rhythmus geprüft:
+
+- einmal innerhalb der täglichen Datenaktualisierung,
+- sechs Stunden vor bekannten Spielen,
+- eine Stunde nach dem errechneten Spielende,
+- zwei Stunden nach dem errechneten Spielende,
+- sowie bei jedem manuellen Workflow-Start.
+
+
+## Vereins-Homepages
+
+Mannschaftsnamen sind in Spielkarten, Ergebnislisten, vollständigen Spielterminen und Tabellen mit der jeweiligen Vereins-Homepage verknüpft. Die Links öffnen in einem neuen Tab und werden ohne sichtbare Unterstreichung dargestellt. Abweichende Schreibweisen werden über `data/club-aliases.json` auf den kanonischen Verein abgebildet. Die URLs werden in `data/clubs.json` gepflegt und beim Datenaufbau als `club_websites` sowie `club_aliases` in `site-data.json` veröffentlicht.

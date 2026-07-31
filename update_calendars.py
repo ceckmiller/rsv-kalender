@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import argparse, hashlib, json, os, re, sys, warnings
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, urljoin
 from copy import deepcopy
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -16,6 +16,73 @@ TZ=ZoneInfo('Europe/Berlin')
 UA='Mozilla/5.0 (compatible; RSV-Kalender/1.0; +https://github.com/)'
 
 DATE_RE=re.compile(r'(\d{2})\.(\d{2})\.(\d{4}).*?(\d{2}):(\d{2})')
+
+TICKET_OVERVIEW_URL='https://rsv-eintracht.vereinsticket.de/herren/'
+
+def normalize_match_name(value):
+    name=canonical_club_name(value)
+    name=re.sub(r'\bRSV Eintracht(?: 1949)?(?: I|1\. Herren|Herren)?\b','RSV Eintracht 1949',name,flags=re.I)
+    name=re.sub(r'\s+',' ',name).strip().casefold()
+    return name
+
+def load_saved_ticket_events():
+    path=DATA/'tickets.json'
+    if not path.exists():
+        return []
+    raw=load_json(path)
+    events=raw.get('events',[]) if isinstance(raw,dict) else raw
+    return [{**x,'opponent_key':normalize_match_name(x.get('opponent',''))} for x in events if x.get('url')]
+
+def fetch_ticket_events():
+    """Read and cache event-specific links from the Herren ticket shop."""
+    saved=load_saved_ticket_events()
+    if os.environ.get('RSV_OFFLINE') == '1':
+        return saved
+    try:
+        html=fetch(TICKET_OVERVIEW_URL)
+        soup=BeautifulSoup(html,'html.parser')
+        urls=[]
+        for a in soup.find_all('a', href=True):
+            href=urljoin(TICKET_OVERVIEW_URL,a.get('href',''))
+            if re.fullmatch(r'https://rsv-eintracht\.vereinsticket\.de/herren/\d+/?',href) and href not in urls:
+                urls.append(href)
+        events=[]
+        months={'januar':1,'februar':2,'märz':3,'april':4,'mai':5,'juni':6,'juli':7,'august':8,'september':9,'oktober':10,'november':11,'dezember':12}
+        for href in urls:
+            detail=BeautifulSoup(fetch(href),'html.parser')
+            title_node=next((h for h in detail.find_all(['h1','h2','h3']) if re.search(r'RSV Eintracht\s*[-–]',h.get_text(' ',strip=True),re.I)),None)
+            title=' '.join(title_node.get_text(' ',strip=True).split()) if title_node else ''
+            opponent=re.sub(r'^RSV Eintracht(?: 1949)?\s*[-–]\s*','',title,flags=re.I).strip()
+            text=' '.join(detail.get_text(' ',strip=True).split())
+            dm=re.search(r'(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',text,re.I)
+            date=''
+            if dm:
+                date=f"{int(dm.group(3)):04d}-{months[dm.group(2).casefold()]:02d}-{int(dm.group(1)):02d}"
+            if opponent:
+                events.append({'url':href,'date':date,'opponent':opponent,'opponent_key':normalize_match_name(opponent)})
+        if events:
+            save_json(DATA/'tickets.json',{'overview_url':TICKET_OVERVIEW_URL,'updated_at':datetime.now(TZ).isoformat(),'events':[{k:v for k,v in x.items() if k!='opponent_key'} for x in events]})
+            print(f'Ticketshop: {len(events)} Detailseiten erkannt')
+            return events
+        warnings.warn('Ticketshop enthielt keine erkennbaren Detailseiten; gespeicherte Zuordnungen werden verwendet.')
+    except Exception as exc:
+        warnings.warn(f'Ticketshop konnte nicht gelesen werden: {exc}; gespeicherte Zuordnungen werden verwendet.')
+    return saved
+
+def ticket_url_for_game(game, team_name, ticket_events):
+    if game.get('home') != team_name:
+        return ''
+    opponent_key=normalize_match_name(game.get('away',''))
+    date=game.get('date','')
+    for event in ticket_events:
+        if event.get('date') == date and event.get('opponent_key') == opponent_key:
+            return event['url']
+    # Name match is a safe fallback if a fixture date was moved in one source
+    # before the other source was updated.
+    matches=[event for event in ticket_events if event.get('opponent_key') == opponent_key]
+    if len(matches)==1:
+        return matches[0]['url']
+    return TICKET_OVERVIEW_URL
 
 WEATHER_CODES = {
     0: 'klar', 1: 'überwiegend klar', 2: 'teilweise bewölkt', 3: 'bewölkt',
@@ -175,7 +242,7 @@ def venue_for_game(game, venues):
     explicit = str(game.get('location') or '').strip()
     if explicit:
         return explicit
-    venue = venues.get(game.get('home', ''), {})
+    venue = venues.get(canonical_club_name(game.get('home', '')), venues.get(game.get('home', ''), {}))
     if isinstance(venue, str):
         return venue
     name = str(venue.get('stadium') or '').strip()
@@ -183,7 +250,7 @@ def venue_for_game(game, venues):
     return ', '.join(x for x in (name, address) if x)
 
 def venue_record_for_game(game, venues):
-    venue=venues.get(game.get('home',''), {})
+    venue=venues.get(canonical_club_name(game.get('home','')), venues.get(game.get('home',''), {}))
     return venue if isinstance(venue, dict) else {}
 
 def parse_score(value):
@@ -406,11 +473,12 @@ def make_ics(meta,games):
     lines.append('END:VCALENDAR')
     return '\r\n'.join(fold(x) for x in lines)+'\r\n'
 
-def build_site_data(team_configs):
+def build_site_data(team_configs, ticket_events=None):
     """Create the JSON used by the results, upcoming matches and table view."""
-    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}}
+    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}, 'club_aliases': load_club_aliases()}
     venues = load_venues()
     clubs = load_clubs()
+    ticket_events = ticket_events or []
     today = datetime.now(TZ).date()
 
     for key, meta, games in team_configs:
@@ -429,7 +497,9 @@ def build_site_data(team_configs):
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
                     'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
-                    'result':g.get('result') or ''
+                    'result':g.get('result') or '', 'location':location, 'maps_url':maps_url(location),
+                    'weather_url':weather_search_url(location, g.get('date','')),
+                    'ticket_url':ticket_url_for_game(g, team_name, ticket_events) if key=='regionalliga' and not g.get('result') and str(g.get('date','')) >= today.isoformat() else ''
             })
 
             if g.get('result'):
@@ -462,7 +532,8 @@ def build_site_data(team_configs):
                 'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
                 'location':location, 'maps_url':maps_url(location),
                 'weather':None, 'weather_url':weather_search_url(location, g.get('date','')),
-                'is_home':g.get('home') == team_name
+                'is_home':g.get('home') == team_name,
+                'ticket_url':ticket_url_for_game(g, team_name, ticket_events) if key=='regionalliga' else ''
             })
 
         completed.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
@@ -519,7 +590,9 @@ def process(key,offline=False):
         except Exception as e: err=str(e); remote=[]
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
-    if not merged and meta.get('minimum_games',0)>0: raise RuntimeError(f'{key}: keine Basisdaten vorhanden')
+    minimum=meta.get('minimum_games',0)
+    if len(merged) < minimum:
+        raise RuntimeError(f'{key}: unvollstaendiger Spielplan ({len(merged)}/{minimum}); vorhandene Live-Daten werden nicht ueberschrieben')
     # Persist only when remote passed validation; baseline remains source of truth.
     if remote:
         meta['games']=merged; save_json(path,meta)
@@ -533,6 +606,7 @@ def process(key,offline=False):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--offline',action='store_true'); args=ap.parse_args()
     ok=True; configs=[]
+    ticket_events=fetch_ticket_events()
     for key in ('regionalliga','u23','u21','u19'):
         try:
             ok=process(key,args.offline) and ok
@@ -541,7 +615,7 @@ def main():
             configs.append((key,meta,games))
         except Exception as e:
             print(f'{key}: FEHLER: {e}',file=sys.stderr); ok=False
-    build_site_data(configs)
+    build_site_data(configs, ticket_events)
     required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics')
     if not ok and not all((DOCS/x).exists() for x in required): return 1
     return 0

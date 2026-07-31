@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rsv-eintracht-v2-1-readable-logos';
+const CACHE_NAME = 'rsv-2-1-rc-club-links';
 const APP_SHELL = [
   '/',
   '/index.html',
