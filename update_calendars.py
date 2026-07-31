@@ -269,7 +269,7 @@ def enrich_team_stats(meta, games):
 
 def make_ics(meta,games):
     now=datetime.now(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')
-    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'X-WR-TIMEZONE:Europe/Berlin','X-PUBLISHED-TTL:PT6H','REFRESH-INTERVAL;VALUE=DURATION:PT6H']
+    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'X-PUBLISHED-TTL:PT6H']
     venues = load_venues()
     clubs = load_clubs()
     is_first_team = bool(meta.get('first_team')) or 'Regionalliga' in meta.get('calendar_name','')
@@ -339,8 +339,8 @@ def make_ics(meta,games):
             'BEGIN:VEVENT',
             f"UID:{g['id']}@rsv-kalender",
             f'DTSTAMP:{now}',
-            f"DTSTART;TZID=Europe/Berlin:{start.strftime('%Y%m%dT%H%M%S')}",
-            f"DTEND;TZID=Europe/Berlin:{end.strftime('%Y%m%dT%H%M%S')}",
+            f"DTSTART:{start.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTEND:{end.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
             f'SUMMARY:{esc(summary)}',
             f'DESCRIPTION:{esc(chr(10).join(desc))}',
             f'LOCATION:{esc(location)}',
