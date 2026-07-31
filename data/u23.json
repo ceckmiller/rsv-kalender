@@ -1,8 +1,8 @@
 {
   "calendar_name": "RSV Eintracht – U23",
   "team_name": "RSV Eintracht 1949 U23",
-  "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren",
-  "minimum_games": 5,
+  "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+  "minimum_games": 20,
   "first_team": false,
   "games": [
     {
@@ -59,6 +59,70 @@
       "result": null,
       "location": "",
       "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    },
+    {
+      "id": "u23-610138020",
+      "date": "2026-09-13",
+      "time": "15:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "SV Ruhlsdorf I",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+      "match_number": "610138020"
+    },
+    {
+      "id": "u23-610138026",
+      "date": "2026-09-20",
+      "time": "15:00",
+      "home": "SG Geltow",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+      "match_number": "610138026"
+    },
+    {
+      "id": "u23-610138036",
+      "date": "2026-09-27",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "Fortuna Babelsberg II",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+      "match_number": "610138036"
+    },
+    {
+      "id": "u23-610138047",
+      "date": "2026-10-04",
+      "time": "15:00",
+      "home": "BSG Stahl Brandenburg U23",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+      "match_number": "610138047"
+    },
+    {
+      "id": "u23-610138052",
+      "date": "2026-10-11",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "SV Dallgow 47",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+      "match_number": "610138052"
     }
+  ],
+  "source_urls": [
+    "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-01/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+    "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7"
   ]
 }

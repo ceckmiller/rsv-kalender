@@ -1,23 +1,26 @@
-# RSV Kalender – Version 2.0
+# RSV Eintracht App – Version 2.0
 
-Diese Version enthält das neue App-Design mit Tag- und Nachtmodus sowie die erweiterten Terminansichten.
+Diese Version bündelt Spieltage, Tabellen und Kalender-Abonnements in einer installierbaren Web-App.
 
 ## Neu in diesem Paket
 
-- Tagmodus in RSV-Blau/Weiß als Standard
-- Nachtmodus in Schwarz/Gold
-- sanfte Animation beim Öffnen der Spieldetails
-- Google-Maps-Link bei kommenden Spielen, sobald ein Spielort hinterlegt ist
-- Wetterprognose für kommende Spiele im verfügbaren Vorhersagezeitraum
-- Wetter-Link als Fallback außerhalb des Vorhersagezeitraums
-- Vereinslogos in Spielansetzungen, Tabellen und der Liste aller Spieltermine
-- automatische Logo-Nachladung über die hinterlegte offizielle Vereinswebsite
-- automatische Initialen-Kachel, wenn kein Logo verfügbar ist
-- korrigierte Logo-Domains für Hallescher FC, VSG Altglienicke und SV Tasmania Berlin
-- Liga-, Pokal- und Freundschaftsspiele gemeinsam unter „Alle Spieltermine“
-- verständliche Kennzeichnung als Spieltag, Pokal oder Freundschaftsspiel
-- U23-Basistermine aus dem vorliegenden Spielplan ergänzt
+- luftiges App-Design mit sauber ausgerichteter Ergebnisachse
+- Tagmodus als Standard und Schwarz/Gold-Nachtmodus
+- ausschließlich zwei feste Navigationspunkte am unteren Rand
+- scrollbarerer RSV-Abbinder bleibt auch nachts blau
+- nächstes und letztes Spiel als kompakte Karten
+- Torverlauf direkt unter dem Ergebnis, letztes Tor oben
+- Minute und Torschütze immer auf der Seite der erfolgreichen Mannschaft
+- kompaktere absolvierte Spiele sowie vollständige Terminlisten
+- Liga-, Pokal- und Freundschaftsspiele werden getrennt bezeichnet
+- U21-/U23-Nulltabellen werden bis zur offiziellen Tabelle alphabetisch aufgebaut
+- robustere FUSSBALL.DE-Quellen mit mehreren Quellen und Mindestmengenprüfung
+- stündliche Open-Meteo-Prognose zur Anstoßzeit
+- feste Stadionkoordinaten plus mehrstufiges Geocoding und sichtbare Workflow-Warnungen
+- Vereinslogo-Fallbacks und automatische Nachladeversuche
 
-## Upload
+## Deployment
 
-Den kompletten Inhalt dieses Ordners in das GitHub-Repository übernehmen und vorhandene Dateien ersetzen. Anschließend committen und den GitHub-Workflow ausführen.
+Den gesamten Ordnerinhalt in das GitHub-Repository übernehmen und vorhandene Dateien ersetzen. Danach den Workflow `Update calendars` ausführen. Netlify veröffentlicht anschließend den Inhalt des Ordners `docs`.
+
+Hinweis: Wetterdaten werden während des Online-Workflows geladen. Beim lokalen Offline-Build bleiben sie erwartungsgemäß leer.

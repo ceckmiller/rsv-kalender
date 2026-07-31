@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T14:56:23.436017+02:00",
+  "generated_at": "2026-07-31T15:25:15.435667+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -17,6 +17,7 @@
           "home_logo": "https://www.google.com/s2/favicons?domain=bfc-preussen.de&sz=128",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": "1:1",
+          "halftime_result": "1:0",
           "scorers": [
             "21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0",
             "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
@@ -524,6 +525,66 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "",
           "result": ""
+        },
+        {
+          "id": "u23-610138020",
+          "matchday": 3,
+          "date": "2026-09-13",
+          "time": "15:00",
+          "competition": "Kreisoberliga",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "SV Ruhlsdorf I",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "away_logo": "",
+          "result": ""
+        },
+        {
+          "id": "u23-610138026",
+          "matchday": 4,
+          "date": "2026-09-20",
+          "time": "15:00",
+          "competition": "Kreisoberliga",
+          "home": "SG Geltow",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-610138036",
+          "matchday": 5,
+          "date": "2026-09-27",
+          "time": "14:00",
+          "competition": "Kreisoberliga",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "Fortuna Babelsberg II",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "away_logo": "",
+          "result": ""
+        },
+        {
+          "id": "u23-610138047",
+          "matchday": 6,
+          "date": "2026-10-04",
+          "time": "15:00",
+          "competition": "Kreisoberliga",
+          "home": "BSG Stahl Brandenburg U23",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-610138052",
+          "matchday": 7,
+          "date": "2026-10-11",
+          "time": "14:00",
+          "competition": "Kreisoberliga",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "SV Dallgow 47",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "away_logo": "",
+          "result": ""
         }
       ],
       "next_game": {
@@ -944,14 +1005,232 @@
       ]
     },
     "u23": {
-      "competition": "Kreisoberliga Havelland",
-      "updated_at": "",
-      "rows": []
+      "competition": "Kreisoberliga",
+      "updated_at": "Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt",
+      "rows": [
+        {
+          "position": 1,
+          "team": "BSG Stahl Brandenburg U23",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 2,
+          "team": "Fortuna Babelsberg II",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 3,
+          "team": "RSV Eintracht 1949 U23",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+        },
+        {
+          "position": 4,
+          "team": "SG Geltow",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 5,
+          "team": "SV Dallgow 47",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 6,
+          "team": "SV Falkensee-Finkenkrug II",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 7,
+          "team": "SV Ruhlsdorf I",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 8,
+          "team": "SV Ziesar 1",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        }
+      ]
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "",
-      "rows": []
+      "updated_at": "Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt",
+      "rows": [
+        {
+          "position": 1,
+          "team": "FSV Brück I",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 2,
+          "team": "FSV Grün-Weiß Niemegk",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 3,
+          "team": "FV Turbine Potsdam 55 I",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 4,
+          "team": "RSV Eintracht 1949 U21",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+        },
+        {
+          "position": 5,
+          "team": "Rot-Weiß Groß Glienicke",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 6,
+          "team": "SG Blau-Weiß Beelitz",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 7,
+          "team": "SG Bornim II",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 8,
+          "team": "SG Grün-Weiß Golm II",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 9,
+          "team": "SV 1948 Ferch",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        },
+        {
+          "position": 10,
+          "team": "Teltower FV 1913 II",
+          "played": 0,
+          "wins": 0,
+          "draws": 0,
+          "losses": 0,
+          "goals": "0:0",
+          "diff": "0",
+          "points": 0,
+          "logo_url": ""
+        }
+      ]
     }
   },
   "club_websites": {

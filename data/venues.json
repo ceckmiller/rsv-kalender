@@ -1,15 +1,21 @@
 {
   "RSV Eintracht 1949": {
     "stadium": "Preußenstadion",
-    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz"
+    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz",
+    "latitude": 52.432639,
+    "longitude": 13.354833
   },
   "RSV Eintracht 1949 U21": {
     "stadium": "Sportanlage Heinrich-Zille-Straße (Die Zille)",
-    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf"
+    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf",
+    "latitude": 52.3916,
+    "longitude": 13.2148
   },
   "BFC Preussen 1894": {
     "stadium": "Preußenstadion",
-    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz"
+    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz",
+    "latitude": 52.432639,
+    "longitude": 13.354833
   },
   "FSV 63 Luckenwalde": {
     "stadium": "Werner-Seelenbinder-Stadion",
@@ -77,6 +83,8 @@
   },
   "RSV Eintracht 1949 U23": {
     "stadium": "Sportanlage Heinrich-Zille-Straße (Die Zille)",
-    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf"
+    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf",
+    "latitude": 52.3916,
+    "longitude": 13.2148
   }
 }

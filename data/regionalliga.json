@@ -379,5 +379,8 @@
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
     }
   ],
-  "first_team": true
+  "first_team": true,
+  "source_urls": [
+    "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+  ]
 }

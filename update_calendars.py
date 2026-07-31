@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse, hashlib, json, os, re, sys
+import argparse, hashlib, json, os, re, sys, warnings
 from urllib.parse import quote_plus
 from copy import deepcopy
 from datetime import datetime, timedelta
@@ -65,6 +65,18 @@ def parse_fussball(html, team, source_url):
     soup=BeautifulSoup(html,'html.parser')
     text='\n'.join(x.strip() for x in soup.get_text('\n').splitlines() if x.strip())
     lines=text.splitlines(); out=[]
+    # FUSSBALL.DE often exposes crest URLs next to team links. Preserve them per fixture.
+    logo_map={}
+    for a in soup.find_all('a'):
+        name=' '.join(a.get_text(' ',strip=True).split())
+        if not name: continue
+        container=a.parent
+        img=(container.find('img') if container else None) or a.find('img')
+        if img:
+            src=img.get('data-src') or img.get('src') or ''
+            if src.startswith('//'): src='https:'+src
+            if src.startswith('/'): src='https://www.fussball.de'+src
+            if src.startswith('http'): logo_map[name]=src
     # Find date headers, then inspect the following compact block for match number and teams.
     for i,line in enumerate(lines):
         m=re.match(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s*(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}:\d{2})\s*Uhr\s*\|\s*(.+)',line)
@@ -95,7 +107,7 @@ def parse_fussball(html, team, source_url):
             else: home,away=other,team
         dt=datetime.strptime(date+' '+time,'%d.%m.%Y %H:%M')
         mid=no.group(1) if no else hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:10]
-        out.append({'id':'u21-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':'','source_url':source_url,'match_number':mid})
+        out.append({'id':'u21-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':'','source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
     return dedupe(out)
 
 def dedupe(games):
@@ -169,6 +181,10 @@ def venue_for_game(game, venues):
     address = str(venue.get('address') or '').strip()
     return ', '.join(x for x in (name, address) if x)
 
+def venue_record_for_game(game, venues):
+    venue=venues.get(game.get('home',''), {})
+    return venue if isinstance(venue, dict) else {}
+
 def parse_score(value):
     m = re.match(r'^\s*(\d+)\s*:\s*(\d+)\s*$', str(value or ''))
     return (int(m.group(1)), int(m.group(2))) if m else None
@@ -189,49 +205,76 @@ def youtube_search_url(game):
     query = f"{game.get('home','')} {game.get('away','')} OSTSPORT.TV"
     return f"https://www.youtube.com/results?search_query={quote_plus(query)}"
 
-def geocode_location(location):
+def geocode_location(location, venue=None):
+    """Resolve coordinates with deterministic venue coordinates first.
+
+    Falls back from the complete address to progressively simpler queries and
+    emits a workflow warning instead of failing silently.
+    """
+    if isinstance(venue, dict) and venue.get('latitude') is not None and venue.get('longitude') is not None:
+        return float(venue['latitude']), float(venue['longitude'])
     if not location:
         return None
-    try:
-        r=requests.get('https://geocoding-api.open-meteo.com/v1/search', params={
-            'name': location, 'count': 1, 'language': 'de', 'format': 'json'
-        }, headers={'User-Agent':UA}, timeout=20)
-        r.raise_for_status()
-        results=r.json().get('results') or []
-        if not results:
-            return None
-        return float(results[0]['latitude']), float(results[0]['longitude'])
-    except Exception:
-        return None
+    candidates=[location]
+    parts=[x.strip() for x in re.split(r',', location) if x.strip()]
+    if len(parts)>1:
+        candidates.append(', '.join(parts[-2:]))
+        candidates.append(parts[-1])
+    candidates += [re.sub(r'\([^)]*\)', '', location).strip()]
+    seen=set()
+    for query in candidates:
+        if not query or query in seen: continue
+        seen.add(query)
+        try:
+            r=requests.get('https://geocoding-api.open-meteo.com/v1/search', params={
+                'name': query, 'count': 5, 'language': 'de', 'format': 'json', 'countryCode':'DE'
+            }, headers={'User-Agent':UA}, timeout=20)
+            r.raise_for_status()
+            results=r.json().get('results') or []
+            if results:
+                best=results[0]
+                return float(best['latitude']), float(best['longitude'])
+        except Exception as exc:
+            warnings.warn(f'Geocoding fehlgeschlagen fuer {query}: {exc}')
+    warnings.warn(f'Keine Koordinaten gefunden fuer: {location}')
+    return None
 
-def weather_for_game(game, location):
+def weather_for_game(game, location, venue=None):
+    if os.environ.get('RSV_OFFLINE') == '1':
+        return None
+    """Hourly forecast at kickoff; supports Open-Meteo's forecast window."""
     try:
-        event_date=datetime.fromisoformat(game['date']).date()
-        today=datetime.now(TZ).date()
-        if not (today <= event_date <= today + timedelta(days=16)):
+        event_dt=datetime.fromisoformat(game['date']+'T'+(game.get('time') or '14:00')).replace(tzinfo=TZ)
+        now=datetime.now(TZ)
+        if not (now - timedelta(hours=4) <= event_dt <= now + timedelta(days=16)):
             return None
-        coords=geocode_location(location)
+        coords=geocode_location(location, venue)
         if not coords:
             return None
         lat,lon=coords
         r=requests.get('https://api.open-meteo.com/v1/forecast', params={
             'latitude':lat, 'longitude':lon, 'timezone':'Europe/Berlin',
             'start_date':game['date'], 'end_date':game['date'],
-            'daily':'weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,wind_speed_10m_max'
+            'hourly':'weather_code,temperature_2m,precipitation_probability,wind_speed_10m',
+            'forecast_days':16
         }, headers={'User-Agent':UA}, timeout=20)
         r.raise_for_status()
-        d=r.json().get('daily') or {}
-        if not d.get('time'):
-            return None
-        code=int(d.get('weather_code',[3])[0])
+        h=r.json().get('hourly') or {}
+        times=h.get('time') or []
+        if not times: return None
+        target=event_dt.replace(tzinfo=None)
+        idx=min(range(len(times)), key=lambda i: abs(datetime.fromisoformat(times[i])-target))
+        code=int((h.get('weather_code') or [3])[idx])
         return {
             'summary': WEATHER_CODES.get(code, 'Wetterlage unbekannt'),
-            'tmax': d.get('temperature_2m_max',[None])[0],
-            'tmin': d.get('temperature_2m_min',[None])[0],
-            'rain': d.get('precipitation_probability_max',[None])[0],
-            'wind': d.get('wind_speed_10m_max',[None])[0],
+            'temperature': (h.get('temperature_2m') or [None])[idx],
+            'rain': (h.get('precipitation_probability') or [None])[idx],
+            'wind': (h.get('wind_speed_10m') or [None])[idx],
+            'forecast_time': times[idx],
+            'latitude': lat, 'longitude': lon
         }
-    except Exception:
+    except Exception as exc:
+        warnings.warn(f'Wetterabfrage fehlgeschlagen fuer {game.get("home")} - {game.get("away")}: {exc}')
         return None
 
 def club_logo_url(team, clubs):
@@ -288,7 +331,7 @@ def make_ics(meta,games):
         location=venue_for_game(g, venues)
         map_link=maps_url(location)
         weather_link=weather_search_url(location, g['date'])
-        forecast=weather_for_game(g, location) if is_first_team and not g.get('result') else None
+        forecast=weather_for_game(g, location, venue_record_for_game(g, venues)) if not g.get('result') else None
         home_logo=club_logo_url(g.get('home',''), clubs)
         away_logo=club_logo_url(g.get('away',''), clubs)
 
@@ -317,7 +360,7 @@ def make_ics(meta,games):
 
         if is_first_team and not g.get('result'):
             if forecast:
-                temp=f"{forecast['tmin']}–{forecast['tmax']} °C" if forecast['tmin'] is not None and forecast['tmax'] is not None else 'Temperatur offen'
+                temp=f"{forecast['temperature']} °C" if forecast.get('temperature') is not None else 'Temperatur offen'
                 rain=f", Regenrisiko {forecast['rain']} %" if forecast['rain'] is not None else ''
                 wind=f", Wind bis {forecast['wind']} km/h" if forecast['wind'] is not None else ''
                 desc.extend(['', f"🌦️ Wetterprognose: {forecast['summary']}, {temp}{rain}{wind}"])
@@ -374,7 +417,7 @@ def build_site_data(team_configs):
             fixtures.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                    'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
+                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
                     'result':g.get('result') or '',
                     'home_logo':club_logo_url(g.get('home',''), clubs),
                     'away_logo':club_logo_url(g.get('away',''), clubs)
@@ -384,8 +427,8 @@ def build_site_data(team_configs):
                 completed.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                    'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
-                    'result':g.get('result'), 'scorers':g.get('scorers') or [],
+                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
+                    'result':g.get('result'), 'halftime_result':g.get('halftime_result') or g.get('halftime') or '', 'scorers':g.get('scorers') or [],
                     'attendance':g.get('attendance'), 'referee':g.get('referee'),
                     'location':location,
                     'maps_url':maps_url(location),
@@ -402,11 +445,11 @@ def build_site_data(team_configs):
             if event_date < today:
                 continue
 
-            forecast=weather_for_game(g, location)
+            forecast=weather_for_game(g, location, venue_record_for_game(g, venues))
             future.append({
                 'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                 'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
+                'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
                 'location':location, 'maps_url':maps_url(location),
                 'weather':forecast, 'weather_url':weather_search_url(location, g.get('date','')),
                 'is_home':g.get('home') == team_name
@@ -429,6 +472,19 @@ def build_site_data(team_configs):
             'next_game':next_game,
             'next_home':next_home
         }
+    # U21/U23: show a useful zero table before the association publishes standings.
+    for key, meta, games in team_configs:
+        if key in payload['tables'] and payload['tables'][key].get('rows'):
+            continue
+        league_games=[g for g in games if not any(w in competition_label(g.get('competition','')).lower() for w in ('pokal','freundschaft','testspiel'))]
+        teams=sorted({str(g.get('home','')).strip() for g in league_games}|{str(g.get('away','')).strip() for g in league_games})
+        teams=[t for t in teams if t]
+        payload['tables'][key]={
+            'competition': competition_label(league_games[0].get('competition','')) if league_games else '',
+            'updated_at':'Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt',
+            'rows':[{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs)} for i,t in enumerate(teams,1)]
+        }
+
     aliases = {
         '1. FC Lokomotive Leipzig': '1. FC Lok Leipzig',
         'FC Erzgebirge Aue': 'Erzgebirge Aue'
@@ -443,9 +499,18 @@ def process(key,offline=False):
     path=DATA/f'{key}.json'; meta=load_json(path); games=meta['games']; remote=[]; err=None
     if not offline:
         try:
-            html=fetch(meta['source_url'])
-            remote=parse_dfb(html,meta['team_name']) if key=='regionalliga' else (parse_fussball(html,meta['team_name'],meta['source_url']) if 'fussball.de' in meta.get('source_url','') else [])
-            if len(remote)<meta.get('minimum_games',0): raise RuntimeError(f'nur {len(remote)} Spiele erkannt; Mindestwert {meta.get("minimum_games")}')
+            urls=meta.get('source_urls') or [meta.get('source_url','')]
+            parsed=[]
+            source_errors=[]
+            for url in [u for u in urls if u]:
+                try:
+                    html=fetch(url)
+                    parsed += parse_dfb(html,meta['team_name']) if 'datencenter.dfb.de' in url else parse_fussball(html,meta['team_name'],url)
+                except Exception as source_exc:
+                    source_errors.append(f'{url}: {source_exc}')
+            remote=dedupe(parsed)
+            if len(remote)<meta.get('minimum_games',0):
+                raise RuntimeError(f'nur {len(remote)} Spiele erkannt; Mindestwert {meta.get("minimum_games")}; '+ ' | '.join(source_errors))
         except Exception as e: err=str(e); remote=[]
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
