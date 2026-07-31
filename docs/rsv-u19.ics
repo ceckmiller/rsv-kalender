@@ -7,564 +7,638 @@ X-WR-CALNAME:RSV Eintracht – U19
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u19-870019022@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260802T090000Z
 DTEND:20260802T110000Z
 SUMMARY:DFB-Pokal | DFB-Pokal | RSV Eintracht 1949 U19 – FC Bayern 
  München | Anstoß: 11:00 Uhr
 DESCRIPTION:DFB-Pokal\nDFB-Pokal\nRSV Eintracht 1949 U19 – FC Bayern 
  München\nAnstoß: 11:00 Uhr\n\n\nSpielort: Sportplatz 
- Rudolf-Breitscheid-Straße\, KR-Hauptplatz\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Rudolf-Breitsch
- eid-Stra%C3%9Fe%2C+KR-Hauptplatz\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Rudolf-Breitscheid-Stra%
- C3%9Fe%2C+KR-Hauptplatz+2026-08-02\n\nQuelle: 
- https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datu
- m-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999
- /mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7
-LOCATION:Sportplatz Rudolf-Breitscheid-Straße\, KR-Hauptplatz
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-08-02\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-bayern-mue
+ nchen/-/spiel/031BSD7IIK000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690002036@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260802T120000Z
 DTEND:20260802T140000Z
 SUMMARY:Regionalfreundschaftsspiele | Regionalfreundschaftsspiele | SFC 
  Stern – RSV Eintracht 1949 U19 | Anstoß: 14:00 Uhr
 DESCRIPTION:Regionalfreundschaftsspiele\nRegionalfreundschaftsspiele\nSFC 
  Stern – RSV Eintracht 1949 U19\nAnstoß: 14:00 Uhr\n\n\nSpielort: 
- Schildhornstraße KR1\nGoogle Maps: https://www.google.com/maps/search/?ap
- i=1&query=Schildhornstra%C3%9Fe+KR1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Schildhornstra%C3%9Fe+KR1+2026-08-0
- 2\n\nQuelle: https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u1
- 9/-/spiel/031JT3RU70000000VS5489BUVVKNMR0J
-LOCATION:Schildhornstraße KR1
+ Schildhornstraße KR1\, Paulsenstr. / Eing. Kreuznacher Str. 29\, 12163 
+ Berlin\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Schil
+ dhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163
+ +Berlin\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Schi
+ ldhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+1216
+ 3+Berlin+2026-08-02\n\nQuelle: https://www.fussball.de/spiel/sfc-stern-rsv
+ -eintracht-1949-u19/-/spiel/031JT3RU70000000VS5489BUVVKNMR0J
+LOCATION:Schildhornstraße KR1\, Paulsenstr. / Eing. Kreuznacher Str. 29\, 
+ 12163 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-810001078@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260808T110000Z
 DTEND:20260808T130000Z
 SUMMARY:Landesfreundschaftsspiele | Landesfreundschaftsspiele | FSV 
  Babelsberg 74 – RSV Eintracht 1949 U19 | Anstoß: 13:00 Uhr
 DESCRIPTION:Landesfreundschaftsspiele\nLandesfreundschaftsspiele\nFSV 
  Babelsberg 74 – RSV Eintracht 1949 U19\nAnstoß: 13:00 
- Uhr\n\n\nSpielort: Sportplatz Rudolf-Breitscheid-Straße\, 
- KR-Hauptplatz\nGoogle Maps: https://www.google.com/maps/search/?api=1&quer
- y=Sportplatz+Rudolf-Breitscheid-Stra%C3%9Fe%2C+KR-Hauptplatz\n\nWetter am 
- Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Rudolf-Breitsc
- heid-Stra%C3%9Fe%2C+KR-Hauptplatz+2026-08-08\n\nQuelle: 
+ Uhr\n\n\nSpielort: Sportplatz Rudolf-Breitscheid-Straße\, KR-Hauptplatz\,
+ Rudolf-Breitscheid-Str. 173\, 14482 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Rudolf-Breitsch
+ eid-Stra%C3%9Fe%2C+KR-Hauptplatz%2C+Rudolf-Breitscheid-Str.+173%2C+14482+P
+ otsdam\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Sport
+ platz+Rudolf-Breitscheid-Stra%C3%9Fe%2C+KR-Hauptplatz%2C+Rudolf-Breitschei
+ d-Str.+173%2C+14482+Potsdam+2026-08-08\n\nQuelle: 
  https://www.fussball.de/spiel/fsv-babelsberg-74-rsv-eintracht-1949-u19/-/s
  piel/031AIA61VC000000VS5489BUVV628VP4
-LOCATION:Sportplatz Rudolf-Breitscheid-Straße\, KR-Hauptplatz
+LOCATION:Sportplatz Rudolf-Breitscheid-Straße\, KR-Hauptplatz\, 
+ Rudolf-Breitscheid-Str. 173\, 14482 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-810007008@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260812T170000Z
 DTEND:20260812T190000Z
 SUMMARY:Landesfreundschaftsspiele | Landesfreundschaftsspiele | RSV 
  Eintracht 1949 U19 – BSV Eintracht Mahlsdorf | Anstoß: 19:00 Uhr
 DESCRIPTION:Landesfreundschaftsspiele\nLandesfreundschaftsspiele\nRSV 
  Eintracht 1949 U19 – BSV Eintracht Mahlsdorf\nAnstoß: 19:00 
- Uhr\n\n\nSpielort: Sportplatz Dreilinden\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden\n\nW
- etter am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Dreil
- inden+2026-08-12\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-19
- 49-u19-bsv-eintracht-mahlsdorf/-/spiel/0315FRKUGG000000VS5489BTVU7GTVLE
-LOCATION:Sportplatz Dreilinden
+ Uhr\n\n\nSpielort: Sportplatz Dreilinden\, Celsiusstraße\, 14532 
+ Kleinmachnow\nGoogle Maps: https://www.google.com/maps/search/?api=1&query
+ =Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow\n\nWett
+ er am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Dreilind
+ en%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow+2026-08-12\n\nQuelle: 
+ https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bsv-eintracht-mahlsdo
+ rf/-/spiel/0315FRKUGG000000VS5489BTVU7GTVLE
+LOCATION:Sportplatz Dreilinden\, Celsiusstraße\, 14532 Kleinmachnow
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007003@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260816T113000Z
 DTEND:20260816T133000Z
 SUMMARY:1. Spieltag | Regionalliga | SC Borea Dresden – RSV Eintracht 
  1949 U19 | Anstoß: 13:30 Uhr
 DESCRIPTION:1. Spieltag\nRegionalliga\nSC Borea Dresden – RSV Eintracht 
- 1949 U19\nAnstoß: 13:30 Uhr\n\n\nSpielort: Sportpark SG Weißig 
- Rasen\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportp
- ark+SG+Wei%C3%9Fig+Rasen\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportpark+SG+Wei%C3%9Fig+Rasen+2026
- -08-16\n\nQuelle: https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintr
- acht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4
-LOCATION:Sportpark SG Weißig Rasen
+ 1949 U19\nAnstoß: 13:30 Uhr\n\n\nSpielort: Sportpark SG Weißig Rasen\, 
+ Heinrich-Lange-Str. 37\, 01328 Dresden\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportpark+SG+Wei%C3%9Fig+R
+ asen%2C+Heinrich-Lange-Str.+37%2C+01328+Dresden\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportpark+SG+Wei%C3%9Fig+Rasen%2C+H
+ einrich-Lange-Str.+37%2C+01328+Dresden+2026-08-16\n\nQuelle: 
+ https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/sp
+ iel/031B3S0I0G000000VS5489BUVV628VP4
+LOCATION:Sportpark SG Weißig Rasen\, Heinrich-Lange-Str. 37\, 01328 
+ Dresden
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007011@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260822T100000Z
 DTEND:20260822T120000Z
 SUMMARY:2. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – BFC Dynamo 
  U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:2. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – BFC 
  Dynamo U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-08-22\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-bfc-dynamo-u19/-/spiel/031B3S0HMG000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-08-22\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bfc-dynamo-u1
+ 9/-/spiel/031B3S0HMG000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007021@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260830T100000Z
 DTEND:20260830T120000Z
 SUMMARY:3. Spieltag | Regionalliga | FSV Zwickau – RSV Eintracht 1949 U19
  | Anstoß: 12:00 Uhr
 DESCRIPTION:3. Spieltag\nRegionalliga\nFSV Zwickau – RSV Eintracht 1949 
- U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Hauptplatz Bürgerschacht\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Hauptplatz+B%C3%BCrg
- erschacht\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Ha
- uptplatz+B%C3%BCrgerschacht+2026-08-30\n\nQuelle: 
+ U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Hauptplatz Bürgerschacht\, 
+ Saarstr. 50\, 08056 Zwickau\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Hauptplatz+B%C3%BCrgerscha
+ cht%2C+Saarstr.+50%2C+08056+Zwickau\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Hauptplatz+B%C3%BCrgerschacht%2C+Sa
+ arstr.+50%2C+08056+Zwickau+2026-08-30\n\nQuelle: 
  https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949-u19/-/spiel/0
  31B3S0HES000000VS5489BUVV628VP4
-LOCATION:Hauptplatz Bürgerschacht
+LOCATION:Hauptplatz Bürgerschacht\, Saarstr. 50\, 08056 Zwickau
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007025@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260905T100000Z
 DTEND:20260905T120000Z
 SUMMARY:4. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – FC 
  Mecklenburg Schwerin U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:4. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – FC 
  Mecklenburg Schwerin U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-09-05\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-fc-mecklenburg-schwerin-u19/-/spiel/031B3S0GVG000000VS5489B
- UVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-09-05\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-mecklenbur
+ g-schwerin-u19/-/spiel/031B3S0GVG000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007033@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260912T113000Z
 DTEND:20260912T133000Z
 SUMMARY:5. Spieltag | Regionalliga | FC Hertha 03 Zehlendorf – RSV 
  Eintracht 1949 U19 | Anstoß: 13:30 Uhr
 DESCRIPTION:5. Spieltag\nRegionalliga\nFC Hertha 03 Zehlendorf – RSV 
  Eintracht 1949 U19\nAnstoß: 13:30 Uhr\n\n\nSpielort: Ernst-Reuter-Sportf.
- NR1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Ernst-Re
- uter-Sportf.+NR1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Ernst-Reuter-Sportf.+NR1+2026-09-12
- \n\nQuelle: https://www.fussball.de/spiel/fc-hertha-03-rsv-eintracht-1949-
- u19/-/spiel/031B3S0GN0000000VS5489BUVV628VP4
-LOCATION:Ernst-Reuter-Sportf. NR1
+ NR1\, Onkel-Tom-Str. 40\, 14169 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2
+ C+Onkel-Tom-Str.+40%2C+14169+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Ernst-Reuter-Sportf.+NR1%2C+Onkel-T
+ om-Str.+40%2C+14169+Berlin+2026-09-12\n\nQuelle: 
+ https://www.fussball.de/spiel/fc-hertha-03-rsv-eintracht-1949-u19/-/spiel/
+ 031B3S0GN0000000VS5489BUVV628VP4
+LOCATION:Ernst-Reuter-Sportf. NR1\, Onkel-Tom-Str. 40\, 14169 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007039@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260919T100000Z
 DTEND:20260919T120000Z
 SUMMARY:6. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – VFC Plauen 
  | Anstoß: 12:00 Uhr
 DESCRIPTION:6. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – VFC 
  Plauen\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-09-19\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-vfc-plauen/-/spiel/031B3S0GB0000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-09-19\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-vfc-plauen/-/
+ spiel/031B3S0GB0000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007046@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260926T100000Z
 DTEND:20260926T120000Z
 SUMMARY:7. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – Sport-Club 
  Staaken 1919 U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:7. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – 
  Sport-Club Staaken 1919 U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-09-26\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-sc-staaken-1919-u19/-/spiel/031B3S0G0S000000VS5489BUVV628VP
- 4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-09-26\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-staaken-19
+ 19-u19/-/spiel/031B3S0G0S000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007051@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261011T100000Z
 DTEND:20261011T120000Z
 SUMMARY:8. Spieltag | Regionalliga | 1. FC Frankfurt /​O. – RSV 
  Eintracht 1949 U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:8. Spieltag\nRegionalliga\n1. FC Frankfurt /​O. – RSV 
  Eintracht 1949 U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Stadion der 
- Freundschaft\, Hauptplatz\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Stadion+der+Freundschaft%2
- C+Hauptplatz\n\nWetter am Spielort: https://www.google.com/search?q=Wetter
- +Stadion+der+Freundschaft%2C+Hauptplatz+2026-10-11\n\nQuelle: 
- https://www.fussball.de/spiel/1-fc-frankfurt-rsv-eintracht-1949-u19/-/spie
- l/031B3S0FL4000000VS5489BUVV628VP4
-LOCATION:Stadion der Freundschaft\, Hauptplatz
+ Freundschaft\, Hauptplatz\, Buschmühlenweg 172\, 15230 Frankfurt 
+ (Oder)\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Stadi
+ on+der+Freundschaft%2C+Hauptplatz%2C+Buschm%C3%BChlenweg+172%2C+15230+Fran
+ kfurt+%28Oder%29\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stadion+der+Freundschaft%2C+Hauptpl
+ atz%2C+Buschm%C3%BChlenweg+172%2C+15230+Frankfurt+%28Oder%29+2026-10-11\n\
+ nQuelle: https://www.fussball.de/spiel/1-fc-frankfurt-rsv-eintracht-1949-u
+ 19/-/spiel/031B3S0FL4000000VS5489BUVV628VP4
+LOCATION:Stadion der Freundschaft\, Hauptplatz\, Buschmühlenweg 172\, 
+ 15230 Frankfurt (Oder)
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007060@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261017T100000Z
 DTEND:20261017T120000Z
 SUMMARY:9. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – FC Viktoria
  1889 Berlin U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:9. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – FC 
  Viktoria 1889 Berlin U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-10-17\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-viktoria-berlin-u19/-/spiel/031B3S0FEO000000VS5489BUVV628VP
- 4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-10-17\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-viktoria-berl
+ in-u19/-/spiel/031B3S0FEO000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007070@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261024T113000Z
 DTEND:20261024T133000Z
 SUMMARY:10. Spieltag | Regionalliga | 1. FC Lokomotive Leipzig U19 – RSV 
  Eintracht 1949 U19 | Anstoß: 13:30 Uhr
 DESCRIPTION:10. Spieltag\nRegionalliga\n1. FC Lokomotive Leipzig U19 – 
  RSV Eintracht 1949 U19\nAnstoß: 13:30 Uhr\n\n\nSpielort: 
- Br.-Plache-Stadion Großfeld 1 KR\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Br.-Plache-Stadion+Gro%C3%
- 9Ffeld+1+KR\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+
- Br.-Plache-Stadion+Gro%C3%9Ffeld+1+KR+2026-10-24\n\nQuelle: 
- https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-u19-rsv-eintracht-19
- 49-u19/-/spiel/031B3S0F9S000000VS5489BUVV628VP4
-LOCATION:Br.-Plache-Stadion Großfeld 1 KR
+ Br.-Plache-Stadion Großfeld 1 KR\, Connewitzer Str. 21\, 04289 
+ Leipzig\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Br.-
+ Plache-Stadion+Gro%C3%9Ffeld+1+KR%2C+Connewitzer+Str.+21%2C+04289+Leipzig\
+ n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Br.-Plache-S
+ tadion+Gro%C3%9Ffeld+1+KR%2C+Connewitzer+Str.+21%2C+04289+Leipzig+2026-10-
+ 24\n\nQuelle: https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-u19-rs
+ v-eintracht-1949-u19/-/spiel/031B3S0F9S000000VS5489BUVV628VP4
+LOCATION:Br.-Plache-Stadion Großfeld 1 KR\, Connewitzer Str. 21\, 04289 
+ Leipzig
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007074@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261031T110000Z
 DTEND:20261031T130000Z
 SUMMARY:11. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – Berliner 
  SC | Anstoß: 12:00 Uhr
 DESCRIPTION:11. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – Berliner
  SC\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Straße\, 
- Platz 1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Spor
- tplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-10-31\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-berliner-sc/-/spiel/031B3S0ETO000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Platz 1\, Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWe
+ tter am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinri
+ ch-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsd
+ orf+2026-10-31\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949
+ -u19-berliner-sc/-/spiel/031B3S0ETO000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007082@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261108T120000Z
 DTEND:20261108T140000Z
 SUMMARY:12. Spieltag | Regionalliga | Tennis Borussia Berlin U19 – RSV 
  Eintracht 1949 U19 | Anstoß: 13:00 Uhr
 DESCRIPTION:12. Spieltag\nRegionalliga\nTennis Borussia Berlin U19 – RSV 
  Eintracht 1949 U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: H.-Rosenthal-Sp.anl.
- NR1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=H.-Rosen
- thal-Sp.anl.+NR1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+H.-Rosenthal-Sp.anl.+NR1+2026-11-08
- \n\nQuelle: https://www.fussball.de/spiel/tennis-borussia-berlin-u19-rsv-e
- intracht-1949-u19/-/spiel/031B3S0ENC000000VS5489BUVV628VP4
-LOCATION:H.-Rosenthal-Sp.anl. NR1
+ NR1\, Kühler Weg 12\, 14055 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2
+ C+K%C3%BChler+Weg+12%2C+14055+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BC
+ hler+Weg+12%2C+14055+Berlin+2026-11-08\n\nQuelle: 
+ https://www.fussball.de/spiel/tennis-borussia-berlin-u19-rsv-eintracht-194
+ 9-u19/-/spiel/031B3S0ENC000000VS5489BUVV628VP4
+LOCATION:H.-Rosenthal-Sp.anl. NR1\, Kühler Weg 12\, 14055 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007088@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261121T110000Z
 DTEND:20261121T130000Z
 SUMMARY:13. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – Steglitzer
  FC Stern 1900 | Anstoß: 12:00 Uhr
 DESCRIPTION:13. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – 
  Steglitzer FC Stern 1900\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2026-11-21\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-sfc-stern/-/spiel/031B3S0EFC000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-11-21\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sfc-stern/-/s
+ piel/031B3S0EFC000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007094@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270227T110000Z
 DTEND:20270227T130000Z
 SUMMARY:14. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – SC Borea 
  Dresden | Anstoß: 12:00 Uhr
 DESCRIPTION:14. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – SC Borea
  Dresden\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-02-27\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-sc-borea-dresden/-/spiel/031B3S0OCG000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-02-27\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-borea-dres
+ den/-/spiel/031B3S0OCG000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007102@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270306T120000Z
 DTEND:20270306T140000Z
 SUMMARY:15. Spieltag | Regionalliga | BFC Dynamo U19 – RSV Eintracht 1949
  U19 | Anstoß: 13:00 Uhr
 DESCRIPTION:15. Spieltag\nRegionalliga\nBFC Dynamo U19 – RSV Eintracht 
- 1949 U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportforum Kunstrasen 
- KR2\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportfor
- um+Kunstrasen+KR2\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportforum+Kunstrasen+KR2+2027-03-0
- 6\n\nQuelle: https://www.fussball.de/spiel/bfc-dynamo-u19-rsv-eintracht-19
- 49-u19/-/spiel/031B3S0NSO000000VS5489BUVV628VP4
-LOCATION:Sportforum Kunstrasen KR2
+ 1949 U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportforum Kunstrasen KR2\, 
+ Weißenseer Weg 51-55\, 13053 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportforum+Kunstrasen+KR2%
+ 2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportforum+Kunstrasen+KR2%2C+Wei%C3
+ %9Fenseer+Weg+51-55%2C+13053+Berlin+2027-03-06\n\nQuelle: 
+ https://www.fussball.de/spiel/bfc-dynamo-u19-rsv-eintracht-1949-u19/-/spie
+ l/031B3S0NSO000000VS5489BUVV628VP4
+LOCATION:Sportforum Kunstrasen KR2\, Weißenseer Weg 51-55\, 13053 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007112@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270313T110000Z
 DTEND:20270313T130000Z
 SUMMARY:16. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – FSV 
  Zwickau | Anstoß: 12:00 Uhr
 DESCRIPTION:16. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – FSV 
  Zwickau\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-03-13\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-fsv-zwickau/-/spiel/031B3S0NIK000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-03-13\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fsv-zwickau/-
+ /spiel/031B3S0NIK000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007116@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270320T110000Z
 DTEND:20270320T130000Z
 SUMMARY:17. Spieltag | Regionalliga | FC Mecklenburg Schwerin U19 – RSV 
  Eintracht 1949 U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:17. Spieltag\nRegionalliga\nFC Mecklenburg Schwerin U19 – RSV
- Eintracht 1949 U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Görries Platz 
- I\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=G%C3%B6rri
- es+Platz+I\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+G
- %C3%B6rries+Platz+I+2027-03-20\n\nQuelle: 
+ Eintracht 1949 U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Görries Platz I\, 
+ Mittelstelle 11\, 19061 Schwerin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=G%C3%B6rries+Platz+I%2C+Mi
+ ttelstelle+11%2C+19061+Schwerin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+G%C3%B6rries+Platz+I%2C+Mittelstell
+ e+11%2C+19061+Schwerin+2027-03-20\n\nQuelle: 
  https://www.fussball.de/spiel/fc-mecklenburg-schwerin-u19-rsv-eintracht-19
  49-u19/-/spiel/031B3S0MPG000000VS5489BUVV628VP4
-LOCATION:Görries Platz I
+LOCATION:Görries Platz I\, Mittelstelle 11\, 19061 Schwerin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007124@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270403T100000Z
 DTEND:20270403T120000Z
 SUMMARY:18. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – FC Hertha 
  03 Zehlendorf | Anstoß: 12:00 Uhr
 DESCRIPTION:18. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – FC 
  Hertha 03 Zehlendorf\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-04-03\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-fc-hertha-03/-/spiel/031B3S0MCG000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-04-03\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-hertha-03/
+ -/spiel/031B3S0MCG000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007130@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270410T110000Z
 DTEND:20270410T130000Z
 SUMMARY:19. Spieltag | Regionalliga | VFC Plauen – RSV Eintracht 1949 U19
  | Anstoß: 13:00 Uhr
 DESCRIPTION:19. Spieltag\nRegionalliga\nVFC Plauen – RSV Eintracht 1949 
- U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportplatz Chrieschwitzer 
- Hang\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportpl
- atz+Chrieschwitzer+Hang\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Chrieschwitzer+Hang+2027
- -04-10\n\nQuelle: https://www.fussball.de/spiel/vfc-plauen-rsv-eintracht-1
- 949-u19/-/spiel/031B3S0LQK000000VS5489BUVV628VP4
-LOCATION:Sportplatz Chrieschwitzer Hang
+ U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportplatz Chrieschwitzer Hang\, 
+ Dr.-Theodor-Brugsch-Straße 33\, 08529 Plauen\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Chrieschwitzer+
+ Hang%2C+Dr.-Theodor-Brugsch-Stra%C3%9Fe+33%2C+08529+Plauen\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Chrieschwitzer
+ +Hang%2C+Dr.-Theodor-Brugsch-Stra%C3%9Fe+33%2C+08529+Plauen+2027-04-10\n\n
+ Quelle: https://www.fussball.de/spiel/vfc-plauen-rsv-eintracht-1949-u19/-/
+ spiel/031B3S0LQK000000VS5489BUVV628VP4
+LOCATION:Sportplatz Chrieschwitzer Hang\, Dr.-Theodor-Brugsch-Straße 33\, 
+ 08529 Plauen
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007137@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270418T110000Z
 DTEND:20270418T130000Z
 SUMMARY:20. Spieltag | Regionalliga | Sport-Club Staaken 1919 U19 – RSV 
  Eintracht 1949 U19 | Anstoß: 13:00 Uhr
 DESCRIPTION:20. Spieltag\nRegionalliga\nSport-Club Staaken 1919 U19 – RSV
  Eintracht 1949 U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportpark Staaken 
- KR1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportpar
- k+Staaken+KR1\n\nWetter am Spielort: https://www.google.com/search?q=Wette
- r+Sportpark+Staaken+KR1+2027-04-18\n\nQuelle: 
+ KR1\, Eichholzbahn 116\, 13591 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportpark+Staaken+KR1%2C+E
+ ichholzbahn+116%2C+13591+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportpark+Staaken+KR1%2C+Eichholzba
+ hn+116%2C+13591+Berlin+2027-04-18\n\nQuelle: 
  https://www.fussball.de/spiel/sc-staaken-1919-u19-rsv-eintracht-1949-u19/-
  /spiel/031B3S0LC4000000VS5489BUVV628VP4
-LOCATION:Sportpark Staaken KR1
+LOCATION:Sportpark Staaken KR1\, Eichholzbahn 116\, 13591 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007142@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270424T100000Z
 DTEND:20270424T120000Z
 SUMMARY:21. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – 1. FC 
  Frankfurt /​O. | Anstoß: 12:00 Uhr
 DESCRIPTION:21. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – 1. FC 
  Frankfurt /​O.\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-04-24\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-1-fc-frankfurt/-/spiel/031B3S0KMC000000VS5489BUVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-04-24\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-frankfur
+ t/-/spiel/031B3S0KMC000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007151@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270501T120000Z
 DTEND:20270501T140000Z
 SUMMARY:22. Spieltag | Regionalliga | FC Viktoria 1889 Berlin U19 – RSV 
  Eintracht 1949 U19 | Anstoß: 14:00 Uhr
 DESCRIPTION:22. Spieltag\nRegionalliga\nFC Viktoria 1889 Berlin U19 – RSV
  Eintracht 1949 U19\nAnstoß: 14:00 Uhr\n\n\nSpielort: Stadion Lichterfelde
- KR2\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Stadion+
- Lichterfelde+KR2\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Stadion+Lichterfelde+KR2+2027-05-01
- \n\nQuelle: https://www.fussball.de/spiel/viktoria-berlin-u19-rsv-eintrach
- t-1949-u19/-/spiel/031B3S0KBO000000VS5489BUVV628VP4
-LOCATION:Stadion Lichterfelde KR2
+ KR2\, Ostpreußendamm 3-17\, 12207 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde+KR2%2
+ C+Ostpreu%C3%9Fendamm+3-17%2C+12207+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stadion+Lichterfelde+KR2%2C+Ostpreu
+ %C3%9Fendamm+3-17%2C+12207+Berlin+2027-05-01\n\nQuelle: 
+ https://www.fussball.de/spiel/viktoria-berlin-u19-rsv-eintracht-1949-u19/-
+ /spiel/031B3S0KBO000000VS5489BUVV628VP4
+LOCATION:Stadion Lichterfelde KR2\, Ostpreußendamm 3-17\, 12207 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007161@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270508T100000Z
 DTEND:20270508T120000Z
 SUMMARY:23. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – 1. FC 
  Lokomotive Leipzig U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:23. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – 1. FC 
  Lokomotive Leipzig U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-05-08\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-1-fc-lokomotive-leipzig-u19/-/spiel/031B3S0K2K000000VS5489B
- UVV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-05-08\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-lokomoti
+ ve-leipzig-u19/-/spiel/031B3S0K2K000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007165@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270522T103000Z
 DTEND:20270522T123000Z
 SUMMARY:24. Spieltag | Regionalliga | Berliner SC – RSV Eintracht 1949 
  U19 | Anstoß: 12:30 Uhr
 DESCRIPTION:24. Spieltag\nRegionalliga\nBerliner SC – RSV Eintracht 1949 
- U19\nAnstoß: 12:30 Uhr\n\n\nSpielort: Hubertussportplatz NR1\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Hubertussportplatz+N
- R1\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Hubertuss
- portplatz+NR1+2027-05-22\n\nQuelle: https://www.fussball.de/spiel/berliner
- -sc-rsv-eintracht-1949-u19/-/spiel/031B3S0JE0000000VS5489BUVV628VP4
-LOCATION:Hubertussportplatz NR1
+ U19\nAnstoß: 12:30 Uhr\n\n\nSpielort: Hubertussportplatz NR1\, 
+ Hubertusallee 50\, 14193 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Hubertussportplatz+NR1%2C+
+ Hubertusallee+50%2C+14193+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Hubertussportplatz+NR1%2C+Hubertusa
+ llee+50%2C+14193+Berlin+2027-05-22\n\nQuelle: 
+ https://www.fussball.de/spiel/berliner-sc-rsv-eintracht-1949-u19/-/spiel/0
+ 31B3S0JE0000000VS5489BUVV628VP4
+LOCATION:Hubertussportplatz NR1\, Hubertusallee 50\, 14193 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007173@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270529T100000Z
 DTEND:20270529T120000Z
 SUMMARY:25. Spieltag | Regionalliga | RSV Eintracht 1949 U19 – Tennis 
  Borussia Berlin U19 | Anstoß: 12:00 Uhr
 DESCRIPTION:25. Spieltag\nRegionalliga\nRSV Eintracht 1949 U19 – Tennis 
  Borussia Berlin U19\nAnstoß: 12:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Straße\, Platz 1\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1\n\nWetter am Spielort: 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Stra%C3%9
- Fe%2C+Platz+1+2027-05-29\n\nQuelle: https://www.fussball.de/spiel/rsv-eint
- racht-1949-u19-tennis-borussia-berlin-u19/-/spiel/031B3S0J2C000000VS5489BU
- VV628VP4
-LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1
+ Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-05-29\n\n
+ Quelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u19-tennis-boruss
+ ia-berlin-u19/-/spiel/031B3S0J2C000000VS5489BUVV628VP4
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u19-690007179@rsv-kalender
-DTSTAMP:20260731T195455Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270606T110000Z
 DTEND:20270606T130000Z
 SUMMARY:26. Spieltag | Regionalliga | Steglitzer FC Stern 1900 – RSV 
  Eintracht 1949 U19 | Anstoß: 13:00 Uhr
 DESCRIPTION:26. Spieltag\nRegionalliga\nSteglitzer FC Stern 1900 – RSV 
  Eintracht 1949 U19\nAnstoß: 13:00 Uhr\n\n\nSpielort: Schildhornstraße 
- KR1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Schildho
- rnstra%C3%9Fe+KR1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Schildhornstra%C3%9Fe+KR1+2027-06-0
- 6\n\nQuelle: https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u1
- 9/-/spiel/031B3S0IJK000000VS5489BUVV628VP4
-LOCATION:Schildhornstraße KR1
+ KR1\, Paulsenstr. / Eing. Kreuznacher Str. 29\, 12163 Berlin\nGoogle Maps:
+ https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%
+ 2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Schildhornstra%C3%9Fe+KR1
+ %2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin+2027-06-06\n
+ \nQuelle: https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-
+ /spiel/031B3S0IJK000000VS5489BUVV628VP4
+LOCATION:Schildhornstraße KR1\, Paulsenstr. / Eing. Kreuznacher Str. 29\, 
+ 12163 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

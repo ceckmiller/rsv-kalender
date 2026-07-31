@@ -2,7 +2,7 @@
 from __future__ import annotations
 import argparse, hashlib, json, mimetypes, os, re, sys, warnings
 from io import BytesIO
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import quote_plus, unquote_plus, urljoin
 from copy import deepcopy
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -259,24 +259,74 @@ def parse_dfb(html, team):
         out.append({'id':'rl-'+key,'date':dt.strftime('%Y-%m-%d'),'time':t,'home':home,'away':away,'competition':'Regionalliga Nordost 2026/27','result':None if '-' in res else re.sub(r'\s','',res),'location':'','source_url':''})
     return dedupe(out)
 
+def _is_address_part(part):
+    """True when a fussball.de pipe segment looks like street / PLZ / city."""
+    part=' '.join(str(part or '').split())
+    if not part or len(part) > 120:
+        return False
+    if re.search(r'\b\d{5}\b', part):
+        return True
+    if re.search(
+        r'(?:str(?:\.|asse)?|straße|strasse|weg|allee|damm|ring|platz|eing\.?|chaussee|promenade)\b',
+        part,re.I
+    ):
+        return True
+    return bool(re.search(r'\d', part)) and len(part) <= 80
+
+
 def extract_location_from_text(text):
-    # Official print pages use varying labels. Keep only explicit venue/address
-    # text from the match block; never infer a venue from the home club here.
-    compact=' | '.join(x.strip() for x in str(text).split('|') if x.strip())
-    patterns=(
-        r'(?:Spielst(?:ä|ae)tte|Spielort|Sportplatz|Austragungsort|Platzanlage)\s*:?\s*([^|]{4,180})',
-        r'(?:Stadion|Sportpark|Sportanlage|Sportplatz|Arena|Kunstrasenplatz|Rasenplatz)\s+([^|]{0,150})',
+    """Extract venue + street + PLZ/city from official fussball.de match text.
+
+    Print pages typically expose:
+    ``Spielstätte:Name | Straße Nr | 12345 Ort``
+    All of that must be kept — never invent, never drop the address parts.
+    """
+    compact=' | '.join(x.strip() for x in re.split(r'\s*\|\s*', str(text)) if x.strip())
+    m=re.search(
+        r'(?:Spielst(?:ä|ae)tte|Spielort|Austragungsort|Platzanlage)\s*:?\s*(.+)$',
+        compact,re.I
     )
-    for pat in patterns:
-        m=re.search(pat,compact,re.I)
-        if m:
-            value=m.group(0 if pat.startswith('(?:Stadion') else 1).strip(' :-|')
-            value=re.split(r'\s+(?:Schiedsrichter|Zuschauer|Zum Spiel|ME|PO|FS)\b',value,1,flags=re.I)[0].strip()
-            if 4 <= len(value) <= 200:
-                return value
+    if m:
+        rest=re.split(
+            r'\s+(?:Schiedsrichter|Zuschauer|Zum Spiel|Absetzung)\b',
+            m.group(1),1,flags=re.I
+        )[0]
+        parts=[]
+        for part in re.split(r'\s*\|\s*', rest):
+            part=part.strip(' :-')
+            if not part or re.search(r'\b(?:ME|PO|FS)\b', part):
+                break
+            if not parts:
+                parts.append(part)
+                continue
+            if _is_address_part(part):
+                parts.append(part)
+            else:
+                break
+            if len(parts) >= 3:
+                break
+        value=', '.join(parts)
+        if 4 <= len(value) <= 240:
+            return value
+    # Fallback: venue-like name without the Spielstätte label.
+    m=re.search(
+        r'((?:Stadion|Sportpark|Sportanlage|Sportplatz|Arena|Kunstrasenplatz|Rasenplatz)\s+[^|]{2,150})'
+        r'(?:\s*\|\s*([^|]{2,120}))?(?:\s*\|\s*(\d{5}\s+[^|]{2,80}))?',
+        compact,re.I
+    )
+    if m:
+        parts=[p.strip(' :-|') for p in m.groups() if p and str(p).strip(' :-|')]
+        value=', '.join(parts)
+        value=re.split(r'\s+(?:Schiedsrichter|Zuschauer|Zum Spiel|ME|PO|FS)\b',value,1,flags=re.I)[0].strip()
+        if 4 <= len(value) <= 240:
+            return value
     # Address-only fallback, but only when a street suffix and postal code occur
     # in the same official match block.
-    m=re.search(r'([^|]{2,80}(?:straße|strasse|weg|allee|damm|ring|platz)\s+\d+[a-zA-Z]?(?:[–-]\d+)?\s*,?\s*\d{5}\s+[^|]{2,60})',compact,re.I)
+    m=re.search(
+        r'([^|]{2,80}(?:straße|strasse|weg|allee|damm|ring|platz)\s+\d+[a-zA-Z]?(?:[–-]\d+)?'
+        r'\s*,?\s*\d{5}\s+[^|]{2,60})',
+        compact,re.I
+    )
     return m.group(1).strip(' :-|') if m else ''
 
 def _absolute_fussball_url(value):
@@ -297,6 +347,33 @@ def _team_prefix(team):
     return 'u21'
 
 
+def _team_match_names(team):
+    """Return name variants used to recognize a team on fussball.de print pages.
+
+    Cup print rows often list the club without the U19/U21/U23 suffix while the
+    configured team_name includes it. Matching must accept both forms, but never
+    invent venues from another club.
+    """
+    name=' '.join(str(team or '').split())
+    if not name:
+        return []
+    names=[name]
+    base=re.sub(r'\s+U(?:19|21|23)\s*$', '', name, flags=re.I).strip()
+    if base and base.casefold() != name.casefold():
+        names.append(base)
+    return names
+
+
+def _team_in_fixture(team, home, away):
+    home_cf=str(home or '').casefold()
+    away_cf=str(away or '').casefold()
+    for candidate in _team_match_names(team):
+        cf=candidate.casefold()
+        if cf and (cf in home_cf or cf in away_cf):
+            return True
+    return False
+
+
 def _clean_team_name(name):
     name=PUA_RE.sub('', str(name or ''))
     name=' '.join(name.split()).strip(' :|-')
@@ -306,6 +383,16 @@ def _clean_team_name(name):
         name,1,flags=re.I
     )[0].strip(' :|-')
     return name
+
+
+def _location_from_match_tail(text):
+    """Take only the first explicit venue before the next fixture block."""
+    chunk=str(text or '')
+    chunk=re.split(
+        r'\s+(?:Zum Spiel|Absetzung|(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)|(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.)\b',
+        chunk,1,flags=re.I
+    )[0]
+    return extract_location_from_text(chunk)
 
 
 def _extract_team_cell(cell):
@@ -370,6 +457,14 @@ def _match_number_from_link(url):
     return ''
 
 
+def _normalize_location_value(value):
+    value=' '.join(str(value or '').split())
+    value=re.sub(r'^\s*Rasenplatz,\s*','',value,flags=re.I)
+    value=re.sub(r'\s*\|\s*',', ',value)
+    value=re.sub(r'\s*,\s*',', ',value).strip(' ,')
+    return value
+
+
 def _explicit_location_from_tag(tag):
     if not tag:
         return ''
@@ -378,8 +473,17 @@ def _explicit_location_from_tag(tag):
         node=tag.select_one(selector)
         if node:
             value=node.get('data-location') or node.get_text(' ',strip=True)
-            value=' '.join(str(value).split())
-            if value: return value.replace('Rasenplatz, ','',1)
+            value=_normalize_location_value(value)
+            # Detail links sometimes only expose the maps query — keep full text.
+            if value and not re.search(r'\b\d{5}\b', value):
+                href=_normalize_location_value(node.get('href') or '')
+                maps=re.search(r'[?&]q=([^&]+)', href)
+                if maps:
+                    query=_normalize_location_value(unquote_plus(maps.group(1)))
+                    if re.search(r'\b\d{5}\b', query):
+                        value=f'{value}, {query}' if value.casefold() not in query.casefold() else query
+            if value:
+                return value
     return extract_location_from_text(tag.get_text(' | ',strip=True))
 
 
@@ -436,13 +540,21 @@ def _prefer_game(existing, candidate):
     """Prefer the richer of two equivalent fixtures during dedupe."""
     def score(game):
         match_number=str(game.get('match_number') or '')
+        location=str(game.get('location') or '')
+        glued=bool(re.search(r'Schiedsrichter:|Spielstätte:', f"{game.get('home','')} {game.get('away','')}", re.I))
+        detail=1 if '/spiel/' in str(game.get('source_url') or '') else 0
+        full_address=1 if re.search(r'\b\d{5}\b', location) else 0
         return (
             1 if re.fullmatch(r'\d{6,}', match_number) else 0,
-            1 if game.get('location') else 0,
+            0 if glued else 1,
+            detail,
+            full_address,
+            1 if location else 0,
             1 if game.get('result') else 0,
             1 if game.get('home_logo') or game.get('away_logo') else 0,
             0 if PUA_RE.search(f"{game.get('home','')}{game.get('away','')}") else 1,
             len(match_number),
+            len(location),
         )
     return candidate if score(candidate) > score(existing) else existing
 
@@ -491,7 +603,7 @@ def parse_fussball_table(html, team, source_url):
         away=PUA_RE.sub('', away).strip()
         if not home or not away:
             continue
-        if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
+        if not _team_in_fixture(team, home, away):
             continue
         link=score_cell.find('a',href=True) or row.find('a',href=re.compile(r'/spiel/'))
         detail_url=_absolute_fussball_url(link.get('href','') if link else '')
@@ -501,13 +613,16 @@ def parse_fussball_table(html, team, source_url):
         if not match_number:
             match_number=hashlib.sha1(f'{dt.isoformat()}|{home}|{away}'.encode()).hexdigest()[:12]
         location=_explicit_location_from_tag(row)
-        # Some print layouts place venue information in the immediately following row.
+        # Venue belongs to the immediate following row-venue only — never a later fixture.
         if not location and idx+1<len(rows):
             next_row=rows[idx+1]
             next_classes=set(next_row.get('class') or [])
-            if 'row-venue' in next_classes or (
+            if 'row-venue' in next_classes:
+                location=_explicit_location_from_tag(next_row)
+            elif (
                 not next_row.select_one('td.column-score')
                 and not _parse_header_info(next_row.get_text(' ',strip=True))
+                and re.search(r'Spielst(?:ä|ae)tte|Spielort', next_row.get_text(' ',strip=True), re.I)
             ):
                 location=_explicit_location_from_tag(next_row)
         competition=current.get('competition','').strip()
@@ -537,21 +652,24 @@ def parse_fussball_text_fallback(html, team, source_url):
         r'(?P<competition>.*?)\s+(?P<kind>ME|PO|FS)\s*\|\s*'
         r'(?P<number>[A-Za-z0-9_-]{8,})\s+'
         r'(?P<home>.*?)\s*:\s*(?P<away>.*?)'
-        r'(?=\s+Zum Spiel|\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',re.I)
+        r'(?=\s+(?:-|–|:)\s*(?:-|–|:)\s*|\s+Schiedsrichter:|\s+Spielstätte:|\s+Zum Spiel|\s+Absetzung|'
+        r'\s+(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)\b|'
+        r'\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',re.I)
     for m in compact_re.finditer(flat):
-        home=PUA_RE.sub('', ' '.join(m.group('home').split())).strip()
-        away=PUA_RE.sub('', ' '.join(m.group('away').split())).strip()
-        if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
+        home=_clean_team_name(m.group('home'))
+        away=_clean_team_name(m.group('away'))
+        if not _team_in_fixture(team, home, away):
             continue
         raw=m.group('date'); fmt='%d.%m.%Y' if len(raw.rsplit('.',1)[-1])==4 else '%d.%m.%y'
         dt=datetime.strptime(raw+' '+m.group('time'),fmt+' %H:%M')
         number=m.group('number')
         competition=_competition_from_cell(m.group('competition')) or ' '.join(m.group('competition').split()).strip()
-        tail=flat[m.end():m.end()+500]
+        # Only the immediate post-match block may supply the venue.
+        tail=flat[m.end():m.end()+280]
         out.append({
             'id':prefix+'-'+number,'date':dt.strftime('%Y-%m-%d'),'time':m.group('time'),
             'home':home,'away':away,'competition':competition+' 2026/27',
-            'result':None,'location':extract_location_from_text(tail),'source_url':source_url,
+            'result':None,'location':_location_from_match_tail(tail),'source_url':source_url,
             'match_number':number,'home_logo':'','away_logo':''})
     return dedupe(out)
 
@@ -583,6 +701,34 @@ def dedupe(games):
         by_identity[identity]=game if previous is None else _prefer_game(previous, game)
     return sorted(by_identity.values(),key=lambda x:(x['date'],x.get('time','00:00'),x.get('id','')))
 
+def location_has_full_address(location):
+    """True when location includes a German PLZ (street/city usually accompany it)."""
+    return bool(re.search(r'\b\d{5}\b', str(location or '')))
+
+
+def prefer_location(old, new):
+    """Keep the more complete fussball.de venue string; never invent one."""
+    old=str(old or '').strip()
+    new=str(new or '').strip()
+    if not new:
+        return old
+    if not old:
+        return new
+    old_full=location_has_full_address(old)
+    new_full=location_has_full_address(new)
+    if new_full and not old_full:
+        return new
+    if old_full and not new_full:
+        return old
+    return new if len(new) >= len(old) else old
+
+
+def _venue_name_key(location):
+    name=str(location or '').split(',')[0].strip()
+    name=re.sub(r'\s+', ' ', name).casefold()
+    return name if len(name) >= 4 else ''
+
+
 def merge(base, remote):
     result={g['id']:deepcopy(g) for g in base}
     for game in result.values():
@@ -594,7 +740,9 @@ def merge(base, remote):
         g={**g,'home':_clean_team_name(g.get('home','')),'away':_clean_team_name(g.get('away',''))}
         target=g['id'] if g['id'] in result else by_identity.get((g['date'],g['home'],g['away']),g['id'])
         old=result.get(target,{})
-        result[target]={**old,**{k:v for k,v in g.items() if v not in ('',None)},'id':target}
+        merged={**old,**{k:v for k,v in g.items() if v not in ('',None)},'id':target}
+        merged['location']=prefer_location(old.get('location'), g.get('location'))
+        result[target]=merged
     return sorted(result.values(),key=lambda x:(x['date'],x.get('time','00:00')))
 
 def apply_overrides(key,games,overrides):
@@ -678,10 +826,13 @@ def apply_venue_cache(games, cache):
     out=[]
     for original in games:
         g=deepcopy(original)
-        if not str(g.get('location') or '').strip():
-            rec=records.get(venue_cache_key(g)) or by_identity.get(game_identity(g))
-            if isinstance(rec, dict) and rec.get('location'):
-                g['location']=rec['location']
+        current=str(g.get('location') or '').strip()
+        rec=records.get(venue_cache_key(g)) or by_identity.get(game_identity(g))
+        cached=str((rec or {}).get('location') or '').strip() if isinstance(rec, dict) else ''
+        chosen=prefer_location(current, cached)
+        if chosen and chosen != current:
+            g['location']=chosen
+            if isinstance(rec, dict):
                 g['location_source']=rec.get('source_url','')
         out.append(g)
     return out
@@ -695,13 +846,95 @@ def update_venue_cache(games, cache):
         if not location:
             continue
         key=venue_cache_key(g)
+        previous=str((records.get(key) or {}).get('location') or '')
+        location=prefer_location(previous, location)
+        if not location_has_full_address(location) and location_has_full_address(previous):
+            location=previous
         record={'identity':game_identity(g),'location':location,'source_url':g.get('source_url',''),'updated_at':now}
-        if records.get(key,{}).get('location') != location:
+        if previous != location:
             records[key]=record; changed+=1
         else:
-            records[key].update(record)
+            records[key]= {**records.get(key,{}), **record}
     cache['updated_at']=now
     return changed
+
+
+def extract_location_from_match_html(html):
+    """Full venue string from a fussball.de match detail page."""
+    soup=BeautifulSoup(html,'html.parser')
+    node=soup.select_one('a.location')
+    if node:
+        value=_normalize_location_value(node.get_text(' ',strip=True))
+        if not location_has_full_address(value):
+            href=node.get('href') or ''
+            maps=re.search(r'[?&]q=([^&]+)', href)
+            if maps:
+                query=_normalize_location_value(unquote_plus(maps.group(1)))
+                if location_has_full_address(query):
+                    value=f'{value}, {query}' if value and value.casefold() not in query.casefold() else query
+        if value:
+            return value
+    return extract_location_from_text(soup.get_text(' | ',strip=True))
+
+
+def enrich_locations_from_detail_pages(games, offline=False):
+    """Fill missing street/PLZ/city from the official match detail page."""
+    if offline:
+        return games
+    out=[]
+    for original in games:
+        g=deepcopy(original)
+        location=str(g.get('location') or '').strip()
+        source=str(g.get('source_url') or '')
+        if location_has_full_address(location) or '/spiel/' not in source:
+            out.append(g)
+            continue
+        try:
+            detail=extract_location_from_match_html(fetch(source))
+        except Exception as exc:
+            warnings.warn(f'Spielort-Detailseite fehlgeschlagen ({source}): {exc}')
+            detail=''
+        chosen=prefer_location(location, detail)
+        if chosen:
+            g['location']=chosen
+            g['location_source']=source
+        out.append(g)
+    return out
+
+
+def enrich_locations_from_known_venues(games, cache=None):
+    """Upgrade truncated pitch names using fuller fussball.de strings already seen."""
+    catalog={}
+    records=(cache or {}).get('games', {}) if isinstance(cache, dict) else {}
+    for source in list(games) + [v for v in records.values() if isinstance(v, dict)]:
+        loc=str((source.get('location') if isinstance(source, dict) else '') or '').strip()
+        if not location_has_full_address(loc):
+            continue
+        key=_venue_name_key(loc)
+        if key and len(loc) >= len(catalog.get(key, '')):
+            catalog[key]=loc
+    out=[]
+    for original in games:
+        g=deepcopy(original)
+        loc=str(g.get('location') or '').strip()
+        if loc and not location_has_full_address(loc):
+            fuller=catalog.get(_venue_name_key(loc))
+            if fuller:
+                g['location']=fuller
+        out.append(g)
+    return out
+
+
+def drop_incomplete_locations(games):
+    """Never keep pitch-only leftovers without street/PLZ/city from fussball.de."""
+    out=[]
+    for original in games:
+        g=deepcopy(original)
+        loc=str(g.get('location') or '').strip()
+        if loc and not location_has_full_address(loc):
+            g['location']=''
+        out.append(g)
+    return out
 
 def venue_for_game(game, venues, venue_cache=None):
     """Return only an explicitly sourced or exact-team venue.
@@ -711,7 +944,7 @@ def venue_for_game(game, venues, venue_cache=None):
     being shown for U19/U21/U23 fixtures.
     """
     explicit = str(game.get('location') or '').strip()
-    if explicit:
+    if location_has_full_address(explicit):
         return explicit
     if venue_cache:
         records=venue_cache.get('games',{})
@@ -719,14 +952,17 @@ def venue_for_game(game, venues, venue_cache=None):
         if not rec:
             identity=game_identity(game)
             rec=next((v for v in records.values() if isinstance(v,dict) and v.get('identity')==identity),None)
-        if isinstance(rec,dict) and rec.get('location'):
-            return str(rec['location']).strip()
+        cached=str((rec or {}).get('location') or '').strip() if isinstance(rec, dict) else ''
+        chosen=prefer_location(explicit, cached)
+        if location_has_full_address(chosen):
+            return chosen
     venue = venues.get(str(game.get('home', '')).strip(), {})
     if isinstance(venue, str):
-        return venue
+        return prefer_location(explicit, venue)
     name = str(venue.get('stadium') or '').strip()
     address = str(venue.get('address') or '').strip()
-    return ', '.join(x for x in (name, address) if x)
+    fallback=', '.join(x for x in (name, address) if x)
+    return prefer_location(explicit, fallback)
 
 def venue_record_for_game(game, venues):
     venue=venues.get(str(game.get('home','')).strip(), {})
@@ -1626,6 +1862,9 @@ def process(key,offline=False):
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
     merged=apply_venue_cache(merged,venue_cache)
+    merged=enrich_locations_from_detail_pages(merged, offline=offline)
+    merged=enrich_locations_from_known_venues(merged, venue_cache)
+    merged=drop_incomplete_locations(merged)
     update_venue_cache(merged,venue_cache)
     save_json(DATA/'venue-cache.json',venue_cache)
     validate_merged_schedule(key, meta, merged)

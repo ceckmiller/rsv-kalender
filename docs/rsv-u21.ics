@@ -7,557 +7,642 @@ X-WR-CALNAME:RSV Eintracht – U21
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u21-710089011@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260816T083000Z
 DTEND:20260816T103000Z
 SUMMARY:Kreispokal | Kreispokal | Rot-Weiß Groß Glienicke II – RSV 
  Eintracht 1949 U21 | Anstoß: 10:30 Uhr
 DESCRIPTION:Kreispokal\nKreispokal\nRot-Weiß Groß Glienicke II – RSV 
  Eintracht 1949 U21\nAnstoß: 10:30 Uhr\n\n\nSpielort: Sportplatz Groß 
- Glienicke\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sp
- ortplatz+Gro%C3%9F+Glienicke\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Gro%C3%9F+Glienicke+2026
- -08-16\n\nQuelle: https://www.fussball.de/spiel/rot-weiss-gross-glienicke-
- ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Groß Glienicke
+ Glienicke\, An der Sporthalle\, 14476 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glien
+ icke%2C+An+der+Sporthalle%2C+14476+Potsdam\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Gro%C3%9F+Glienicke%2C+A
+ n+der+Sporthalle%2C+14476+Potsdam+2026-08-16\n\nQuelle: 
+ https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1
+ 949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Groß Glienicke\, An der Sporthalle\, 14476 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480004@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260830T120000Z
 DTEND:20260830T140000Z
 SUMMARY:1. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – FV Turbine 
  Potsdam 55 I | Anstoß: 14:00 Uhr
 DESCRIPTION:1. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – FV Turbine 
  Potsdam 55 I\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-08-30\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-fv-turbine-potsdam-55-i/-/spiel/031D5U7IOO000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2026-08-30\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-fv-turbine-potsdam-55-i/-/spiel/031D5U7IOO000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480013@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260906T130000Z
 DTEND:20260906T150000Z
 SUMMARY:2. Spieltag | Kreisliga | SV 1948 Ferch – RSV Eintracht 1949 U21 
  | Anstoß: 15:00 Uhr
 DESCRIPTION:2. Spieltag\nKreisliga\nSV 1948 Ferch – RSV Eintracht 1949 
- U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Sportplatz Schwielowsee\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Sportplatz+Schwielow
- see\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Sportpla
- tz+Schwielowsee+2026-09-06\n\nQuelle: https://www.fussball.de/spiel/sv-194
- 8-ferch-rsv-eintracht-1949-u21/-/spiel/031D5U7DVS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Schwielowsee
+ U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Sportplatz Schwielowsee\, Glindower
+ Weg 31\, 14548 Schwielowsee\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Schwielowsee%2C
+ +Glindower+Weg+31%2C+14548+Schwielowsee\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Schwielowsee%2C+Glindowe
+ r+Weg+31%2C+14548+Schwielowsee+2026-09-06\n\nQuelle: 
+ https://www.fussball.de/spiel/sv-1948-ferch-rsv-eintracht-1949-u21/-/spiel
+ /031D5U7DVS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Schwielowsee\, Glindower Weg 31\, 14548 Schwielowsee
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480019@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260913T130000Z
 DTEND:20260913T150000Z
 SUMMARY:3. Spieltag | Kreisliga | FSV Grün-Weiß Niemegk – RSV Eintracht
  1949 U21 | Anstoß: 15:00 Uhr
 DESCRIPTION:3. Spieltag\nKreisliga\nFSV Grün-Weiß Niemegk – RSV 
  Eintracht 1949 U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Waldstadion 
- Niemegk\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Wald
- stadion+Niemegk\n\nWetter am Spielort: https://www.google.com/search?q=Wet
- ter+Waldstadion+Niemegk+2026-09-13\n\nQuelle: 
- https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-rsv-eintracht-1949-u
- 21/-/spiel/031D5U7I9C000000VS5489BTVUS470OH
-LOCATION:Waldstadion Niemegk
+ Niemegk\, Waldstr.\, 14823 Niemegk\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Waldstadion+Niemegk%2C+Wal
+ dstr.%2C+14823+Niemegk\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Waldstadion+Niemegk%2C+Waldstr.%2C+
+ 14823+Niemegk+2026-09-13\n\nQuelle: https://www.fussball.de/spiel/fsv-grue
+ n-weiss-niemegk-rsv-eintracht-1949-u21/-/spiel/031D5U7I9C000000VS5489BTVUS
+ 470OH
+LOCATION:Waldstadion Niemegk\, Waldstr.\, 14823 Niemegk
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480028@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260920T120000Z
 DTEND:20260920T140000Z
 SUMMARY:4. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – Teltower FV 
  1913 II | Anstoß: 14:00 Uhr
 DESCRIPTION:4. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – Teltower FV 
  1913 II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-09-20\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-teltower-fv-1913-ii/-/spiel/031D5U7HTK000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2026-09-20\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-teltower-fv-1913-ii/-/spiel/031D5U7HTK000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480033@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20260927T110000Z
 DTEND:20260927T130000Z
 SUMMARY:5. Spieltag | Kreisliga | SG Grün-Weiß Golm II – RSV Eintracht 
  1949 U21 | Anstoß: 13:00 Uhr
 DESCRIPTION:5. Spieltag\nKreisliga\nSG Grün-Weiß Golm II – RSV 
- Eintracht 1949 U21\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportplatz 
- Golm\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportpl
- atz+Golm\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spo
- rtplatz+Golm+2026-09-27\n\nQuelle: https://www.fussball.de/spiel/sg-gruen-
- weiss-golm-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7HB8000000VS5489BTVUS47
- 0OH
-LOCATION:Sportplatz Golm
+ Eintracht 1949 U21\nAnstoß: 13:00 Uhr\n\n\nSpielort: Sportplatz Golm\, 
+ Kuhfortdamm 7\, 14476 Golm\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Golm%2C+Kuhfort
+ damm+7%2C+14476+Golm\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Golm%2C+Kuhfortdamm+7%2C
+ +14476+Golm+2026-09-27\n\nQuelle: https://www.fussball.de/spiel/sg-gruen-w
+ eiss-golm-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7HB8000000VS5489BTVUS470
+ OH
+LOCATION:Sportplatz Golm\, Kuhfortdamm 7\, 14476 Golm
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480044@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261004T120000Z
 DTEND:20261004T140000Z
 SUMMARY:6. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SG Bornim II |
  Anstoß: 14:00 Uhr
 DESCRIPTION:6. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SG Bornim 
  II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, 
- KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportplat
- z+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-10-04\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sg-bornim-ii/-/spiel/031D5U7H30000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ KR\, Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille
+ -Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-10-04\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sg-bornim-ii/-/
+ spiel/031D5U7H30000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480055@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261011T133000Z
 DTEND:20261011T153000Z
 SUMMARY:7. Spieltag | Kreisliga | Rot-Weiß Groß Glienicke – RSV 
  Eintracht 1949 U21 | Anstoß: 15:30 Uhr
 DESCRIPTION:7. Spieltag\nKreisliga\nRot-Weiß Groß Glienicke – RSV 
  Eintracht 1949 U21\nAnstoß: 15:30 Uhr\n\n\nSpielort: Sportplatz Groß 
- Glienicke\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sp
- ortplatz+Gro%C3%9F+Glienicke\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Gro%C3%9F+Glienicke+2026
- -10-11\n\nQuelle: https://www.fussball.de/spiel/rot-weiss-gross-glienicke-
- rsv-eintracht-1949-u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH
-LOCATION:Sportplatz Groß Glienicke
+ Glienicke\, An der Sporthalle\, 14476 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glien
+ icke%2C+An+der+Sporthalle%2C+14476+Potsdam\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Gro%C3%9F+Glienicke%2C+A
+ n+der+Sporthalle%2C+14476+Potsdam+2026-10-11\n\nQuelle: 
+ https://www.fussball.de/spiel/rot-weiss-gross-glienicke-rsv-eintracht-1949
+ -u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH
+LOCATION:Sportplatz Groß Glienicke\, An der Sporthalle\, 14476 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480060@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261018T120000Z
 DTEND:20261018T140000Z
 SUMMARY:8. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – FSV Brück I |
  Anstoß: 14:00 Uhr
 DESCRIPTION:8. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – FSV Brück 
- I\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, 
- KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportplat
- z+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-10-18\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-fsv-brueck-i/-/spiel/031D5U7GBS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ I\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, KR\,
+ Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille
+ -Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-10-18\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u21-fsv-brueck-i/-/
+ spiel/031D5U7GBS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480069@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
 SUMMARY:9. Spieltag | Kreisliga | SG Blau-Weiß Beelitz – RSV Eintracht 
  1949 U21 | Anstoß: 14:00 Uhr
 DESCRIPTION:9. Spieltag\nKreisliga\nSG Blau-Weiß Beelitz – RSV Eintracht
- 1949 U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Stadion des Friedens\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Stadion+des+Friedens
- \n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Stadion+des
- +Friedens+2026-10-25\n\nQuelle: https://www.fussball.de/spiel/sg-blau-weis
- s-beelitz-rsv-eintracht-1949-u21/-/spiel/031D5U7G1C000000VS5489BTVUS470OH
-LOCATION:Stadion des Friedens
+ 1949 U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Stadion des Friedens\, 
+ Bergstr. 1\, 14547 Beelitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Stadion+des+Friedens%2C+Be
+ rgstr.+1%2C+14547+Beelitz\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stadion+des+Friedens%2C+Bergstr.+1%
+ 2C+14547+Beelitz+2026-10-25\n\nQuelle: https://www.fussball.de/spiel/sg-bl
+ au-weiss-beelitz-rsv-eintracht-1949-u21/-/spiel/031D5U7G1C000000VS5489BTVU
+ S470OH
+LOCATION:Stadion des Friedens\, Bergstr. 1\, 14547 Beelitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480073@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261101T130000Z
 DTEND:20261101T150000Z
 SUMMARY:10. Spieltag | Kreisliga | SV Viktoria Potsdam II – RSV Eintracht
  1949 U21 | Anstoß: 14:00 Uhr
 DESCRIPTION:10. Spieltag\nKreisliga\nSV Viktoria Potsdam II – RSV 
  Eintracht 1949 U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Templiner
- Straße\, KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query
- =Sportplatz+Templiner+Stra%C3%9Fe%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Templiner+Stra%C3%9Fe%2C
- +KR+2026-11-01\n\nQuelle: https://www.fussball.de/spiel/sv-viktoria-potsda
- m-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7FH0000000VS5489BTVUS470OH
-LOCATION:Sportplatz Templiner Straße\, KR
+ Straße\, KR\, Templiner Straße 24\, 14473 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Templiner+Stra%
+ C3%9Fe%2C+KR%2C+Templiner+Stra%C3%9Fe+24%2C+14473+Potsdam\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Templiner+Stra
+ %C3%9Fe%2C+KR%2C+Templiner+Stra%C3%9Fe+24%2C+14473+Potsdam+2026-11-01\n\nQ
+ uelle: https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-rsv-eintracht-
+ 1949-u21/-/spiel/031D5U7FH0000000VS5489BTVUS470OH
+LOCATION:Sportplatz Templiner Straße\, KR\, Templiner Straße 24\, 14473 
+ Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480084@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261108T130000Z
 DTEND:20261108T150000Z
 SUMMARY:11. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – Caputher SV 1
  | Anstoß: 14:00 Uhr
 DESCRIPTION:11. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – Caputher SV
- 1\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, 
- KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportplat
- z+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-11-08\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-caputher-sv-1/-/spiel/031D5U7FA0000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ 1\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, KR\,
+ Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille
+ -Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-11-08\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u21-caputher-sv-1/-
+ /spiel/031D5U7FA0000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480090@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SUMMARY:12. Spieltag | Kreisliga | SV 71 Busendorf – RSV Eintracht 1949 
  U21 | Anstoß: 14:00 Uhr
 DESCRIPTION:12. Spieltag\nKreisliga\nSV 71 Busendorf – RSV Eintracht 1949
- U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Busendorf\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Busendorf\n\nWe
- tter am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Busend
- orf+2026-11-15\n\nQuelle: https://www.fussball.de/spiel/sv-71-busendorf-rs
- v-eintracht-1949-u21/-/spiel/031D5U7EUG000000VS5489BTVUS470OH
-LOCATION:Sportplatz Busendorf
+ U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Busendorf\, Rädeler 
+ Weg\, 14547 Beelitz\nGoogle Maps: https://www.google.com/maps/search/?api=
+ 1&query=Sportplatz+Busendorf%2C+R%C3%A4deler+Weg%2C+14547+Beelitz\n\nWette
+ r am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Busendorf
+ %2C+R%C3%A4deler+Weg%2C+14547+Beelitz+2026-11-15\n\nQuelle: 
+ https://www.fussball.de/spiel/sv-71-busendorf-rsv-eintracht-1949-u21/-/spi
+ el/031D5U7EUG000000VS5489BTVUS470OH
+LOCATION:Sportplatz Busendorf\, Rädeler Weg\, 14547 Beelitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480100@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:13. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – ESV Lok 
  Seddin | Anstoß: 14:00 Uhr
 DESCRIPTION:13. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – ESV Lok 
  Seddin\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\,
- KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportplat
- z+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-11-22\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-esv-lok-seddin/-/spiel/031D5U7ENG000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ KR\, Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille
+ -Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2026-11-22\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u21-esv-lok-seddin/
+ -/spiel/031D5U7ENG000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480111@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261129T143000Z
 DTEND:20261129T163000Z
 SUMMARY:14. Spieltag | Kreisliga | SV 05 Rehbrücke – RSV Eintracht 1949 
  U21 | Anstoß: 15:30 Uhr
 DESCRIPTION:14. Spieltag\nKreisliga\nSV 05 Rehbrücke – RSV Eintracht 
  1949 U21\nAnstoß: 15:30 Uhr\n\n\nSpielort: Sportplatz Rehbrücke\, 
- Kunstrasenplatz\nGoogle Maps: https://www.google.com/maps/search/?api=1&qu
- ery=Sportplatz+Rehbr%C3%BCcke%2C+Kunstrasenplatz\n\nWetter am Spielort: 
+ Kunstrasenplatz\, Andersenweg\, 14558 Nuthetal\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Rehbr%C3%BCcke%
+ 2C+Kunstrasenplatz%2C+Andersenweg%2C+14558+Nuthetal\n\nWetter am Spielort:
  https://www.google.com/search?q=Wetter+Sportplatz+Rehbr%C3%BCcke%2C+Kunstr
- asenplatz+2026-11-29\n\nQuelle: https://www.fussball.de/spiel/sv-05-rehbru
- ecke-rsv-eintracht-1949-u21/-/spiel/031D5U7EHS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Rehbrücke\, Kunstrasenplatz
+ asenplatz%2C+Andersenweg%2C+14558+Nuthetal+2026-11-29\n\nQuelle: 
+ https://www.fussball.de/spiel/sv-05-rehbruecke-rsv-eintracht-1949-u21/-/sp
+ iel/031D5U7EHS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Rehbrücke\, Kunstrasenplatz\, Andersenweg\, 14558 
+ Nuthetal
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480116@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20261206T130000Z
 DTEND:20261206T150000Z
 SUMMARY:15. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – Potsdamer 
  Kickers 94 | Anstoß: 14:00 Uhr
 DESCRIPTION:15. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – Potsdamer 
  Kickers 94\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2026-12-06\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-potsdamer-kickers-94/-/spiel/031D5U7E6S000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2026-12-06\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-potsdamer-kickers-94/-/spiel/031D5U7E6S000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480122@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270221T130000Z
 DTEND:20270221T150000Z
 SUMMARY:16. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SV 71 
  Busendorf | Anstoß: 14:00 Uhr
 DESCRIPTION:16. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SV 71 
  Busendorf\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-02-21\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sv-71-busendorf/-/spiel/031D5U7L7G000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-02-21\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-sv-71-busendorf/-/spiel/031D5U7L7G000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480132@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270227T143000Z
 DTEND:20270227T163000Z
 SUMMARY:17. Spieltag | Kreisliga | FV Turbine Potsdam 55 I – RSV 
  Eintracht 1949 U21 | Anstoß: 15:30 Uhr
 DESCRIPTION:17. Spieltag\nKreisliga\nFV Turbine Potsdam 55 I – RSV 
  Eintracht 1949 U21\nAnstoß: 15:30 Uhr\n\n\nSpielort: Sportforum Potsdam 
- Waldstadt/Schlaatz\, Kunstrasen\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportforum+Potsdam+Waldsta
- dt%2FSchlaatz%2C+Kunstrasen\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportforum+Potsdam+Waldstadt%2FSchl
- aatz%2C+Kunstrasen+2027-02-27\n\nQuelle: 
+ Waldstadt/Schlaatz\, Kunstrasen\, Drewitzer Str. 40\, 14478 
+ Potsdam\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Spor
+ tforum+Potsdam+Waldstadt%2FSchlaatz%2C+Kunstrasen%2C+Drewitzer+Str.+40%2C+
+ 14478+Potsdam\n\nWetter am Spielort: https://www.google.com/search?q=Wette
+ r+Sportforum+Potsdam+Waldstadt%2FSchlaatz%2C+Kunstrasen%2C+Drewitzer+Str.+
+ 40%2C+14478+Potsdam+2027-02-27\n\nQuelle: 
  https://www.fussball.de/spiel/fv-turbine-potsdam-55-i-rsv-eintracht-1949-u
  21/-/spiel/031D5U7RGG000000VS5489BTVUS470OH
-LOCATION:Sportforum Potsdam Waldstadt/Schlaatz\, Kunstrasen
+LOCATION:Sportforum Potsdam Waldstadt/Schlaatz\, Kunstrasen\, Drewitzer 
+ Str. 40\, 14478 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480139@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270307T130000Z
 DTEND:20270307T150000Z
 SUMMARY:18. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – FSV 
  Grün-Weiß Niemegk | Anstoß: 14:00 Uhr
 DESCRIPTION:18. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – FSV 
  Grün-Weiß Niemegk\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-03-07\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-fsv-gruen-weiss-niemegk/-/spiel/031D5U7QOS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-03-07\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-fsv-gruen-weiss-niemegk/-/spiel/031D5U7QOS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480148@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270314T130000Z
 DTEND:20270314T150000Z
 SUMMARY:19. Spieltag | Kreisliga | Teltower FV 1913 II – RSV Eintracht 
  1949 U21 | Anstoß: 14:00 Uhr
 DESCRIPTION:19. Spieltag\nKreisliga\nTeltower FV 1913 II – RSV Eintracht 
  1949 U21\nAnstoß: 14:00 Uhr\n\n\nSpielort: Jahnsportplatz Teltow\, 
- Kunstrasen\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=J
- ahnsportplatz+Teltow%2C+Kunstrasen\n\nWetter am Spielort: 
+ Kunstrasen\, Jahnstr. 4\, 14513 Teltow\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Jahnsportplatz+Teltow%2C+K
+ unstrasen%2C+Jahnstr.+4%2C+14513+Teltow\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Jahnsportplatz+Teltow%2C+Kunstrasen
- +2027-03-14\n\nQuelle: https://www.fussball.de/spiel/teltower-fv-1913-ii-r
- sv-eintracht-1949-u21/-/spiel/031D5U7Q6G000000VS5489BTVUS470OH
-LOCATION:Jahnsportplatz Teltow\, Kunstrasen
+ %2C+Jahnstr.+4%2C+14513+Teltow+2027-03-14\n\nQuelle: 
+ https://www.fussball.de/spiel/teltower-fv-1913-ii-rsv-eintracht-1949-u21/-
+ /spiel/031D5U7Q6G000000VS5489BTVUS470OH
+LOCATION:Jahnsportplatz Teltow\, Kunstrasen\, Jahnstr. 4\, 14513 Teltow
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480153@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270321T130000Z
 DTEND:20270321T150000Z
 SUMMARY:20. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SG 
  Grün-Weiß Golm II | Anstoß: 14:00 Uhr
 DESCRIPTION:20. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SG 
  Grün-Weiß Golm II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-03-21\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sg-gruen-weiss-golm-ii/-/spiel/031D5U7P90000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-03-21\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-sg-gruen-weiss-golm-ii/-/spiel/031D5U7P90000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480164@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270404T130000Z
 DTEND:20270404T150000Z
 SUMMARY:21. Spieltag | Kreisliga | SG Bornim II – RSV Eintracht 1949 U21 
  | Anstoß: 15:00 Uhr
 DESCRIPTION:21. Spieltag\nKreisliga\nSG Bornim II – RSV Eintracht 1949 
- U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Stephan-Albrecht-Platz\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Stephan-Albrecht-Pla
- tz\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Stephan-A
- lbrecht-Platz+2027-04-04\n\nQuelle: https://www.fussball.de/spiel/sg-borni
- m-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7OS8000000VS5489BTVUS470OH
-LOCATION:Stephan-Albrecht-Platz
+ U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Stephan-Albrecht-Platz\, Golmer 
+ Chaussee 12\, 14469 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Stephan-Albrecht-Platz%2C+
+ Golmer+Chaussee+12%2C+14469+Potsdam\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stephan-Albrecht-Platz%2C+Golmer+Ch
+ aussee+12%2C+14469+Potsdam+2027-04-04\n\nQuelle: 
+ https://www.fussball.de/spiel/sg-bornim-ii-rsv-eintracht-1949-u21/-/spiel/
+ 031D5U7OS8000000VS5489BTVUS470OH
+LOCATION:Stephan-Albrecht-Platz\, Golmer Chaussee 12\, 14469 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480175@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270411T120000Z
 DTEND:20270411T140000Z
 SUMMARY:22. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – Rot-Weiß 
  Groß Glienicke | Anstoß: 14:00 Uhr
 DESCRIPTION:22. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – Rot-Weiß 
  Groß Glienicke\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-04-11\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-rot-weiss-gross-glienicke/-/spiel/031D5U7OES000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-04-11\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-rot-weiss-gross-glienicke/-/spiel/031D5U7OES000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480180@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270418T130000Z
 DTEND:20270418T150000Z
 SUMMARY:23. Spieltag | Kreisliga | FSV Brück I – RSV Eintracht 1949 U21 
  | Anstoß: 15:00 Uhr
 DESCRIPTION:23. Spieltag\nKreisliga\nFSV Brück I – RSV Eintracht 1949 
- U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Jahn-Sportplatz Brück\nGoogle 
- Maps: https://www.google.com/maps/search/?api=1&query=Jahn-Sportplatz+Br%C
- 3%BCck\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Jahn-
- Sportplatz+Br%C3%BCck+2027-04-18\n\nQuelle: 
- https://www.fussball.de/spiel/fsv-brueck-i-rsv-eintracht-1949-u21/-/spiel/
- 031D5U7NL4000000VS5489BTVUS470OH
-LOCATION:Jahn-Sportplatz Brück
+ U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Jahn-Sportplatz Brück\, 
+ Friedrich-Ludwig-Jahn-Str. 3\, 14822 Brück\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Jahn-Sportplatz+Br%C3%BCck
+ %2C+Friedrich-Ludwig-Jahn-Str.+3%2C+14822+Br%C3%BCck\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Jahn-Sportplatz+Br%C3%BCc
+ k%2C+Friedrich-Ludwig-Jahn-Str.+3%2C+14822+Br%C3%BCck+2027-04-18\n\nQuelle
+ : https://www.fussball.de/spiel/fsv-brueck-i-rsv-eintracht-1949-u21/-/spie
+ l/031D5U7NL4000000VS5489BTVUS470OH
+LOCATION:Jahn-Sportplatz Brück\, Friedrich-Ludwig-Jahn-Str. 3\, 14822 
+ Brück
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480189@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270425T120000Z
 DTEND:20270425T140000Z
 SUMMARY:24. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SG Blau-Weiß
  Beelitz | Anstoß: 14:00 Uhr
 DESCRIPTION:24. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SG 
  Blau-Weiß Beelitz\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-04-25\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sg-blau-weiss-beelitz/-/spiel/031D5U7N38000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-04-25\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-sg-blau-weiss-beelitz/-/spiel/031D5U7N38000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480193@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270502T120000Z
 DTEND:20270502T140000Z
 SUMMARY:25. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SV Viktoria 
  Potsdam II | Anstoß: 14:00 Uhr
 DESCRIPTION:25. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SV Viktoria
  Potsdam II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-05-02\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sv-viktoria-potsdam-ii/-/spiel/031D5U7M68000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-05-02\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-sv-viktoria-potsdam-ii/-/spiel/031D5U7M68000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480204@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270509T130000Z
 DTEND:20270509T150000Z
 SUMMARY:26. Spieltag | Kreisliga | Caputher SV 1 – RSV Eintracht 1949 U21
  | Anstoß: 15:00 Uhr
 DESCRIPTION:26. Spieltag\nKreisliga\nCaputher SV 1 – RSV Eintracht 1949 
  U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Sportplatz Michendorfer Chaussee\, 
- Platz 1\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Spor
- tplatz+Michendorfer+Chaussee%2C+Platz+1\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Michendorfer+Chaussee%2C
- +Platz+1+2027-05-09\n\nQuelle: https://www.fussball.de/spiel/caputher-sv-1
- -rsv-eintracht-1949-u21/-/spiel/031D5U7LRS000000VS5489BTVUS470OH
-LOCATION:Sportplatz Michendorfer Chaussee\, Platz 1
+ Platz 1\, Michendorfer Chaussee 34\, 14548 Schwielowsee\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Michendorfer+Ch
+ aussee%2C+Platz+1%2C+Michendorfer+Chaussee+34%2C+14548+Schwielowsee\n\nWet
+ ter am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Michend
+ orfer+Chaussee%2C+Platz+1%2C+Michendorfer+Chaussee+34%2C+14548+Schwielowse
+ e+2027-05-09\n\nQuelle: https://www.fussball.de/spiel/caputher-sv-1-rsv-ei
+ ntracht-1949-u21/-/spiel/031D5U7LRS000000VS5489BTVUS470OH
+LOCATION:Sportplatz Michendorfer Chaussee\, Platz 1\, Michendorfer Chaussee
+ 34\, 14548 Schwielowsee
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480212@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270523T130000Z
 DTEND:20270523T150000Z
 SUMMARY:27. Spieltag | Kreisliga | ESV Lok Seddin – RSV Eintracht 1949 
  U21 | Anstoß: 15:00 Uhr
 DESCRIPTION:27. Spieltag\nKreisliga\nESV Lok Seddin – RSV Eintracht 1949 
- U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Sportplatz Neuseddin\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Neuseddin\n\nWe
- tter am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Neused
- din+2027-05-23\n\nQuelle: https://www.fussball.de/spiel/esv-lok-seddin-rsv
- -eintracht-1949-u21/-/spiel/031D5U7KR8000000VS5489BTVUS470OH
-LOCATION:Sportplatz Neuseddin
+ U21\nAnstoß: 15:00 Uhr\n\n\nSpielort: Sportplatz Neuseddin\, Zum 
+ Sportplatz\, 14554 Seddiner See\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Neuseddin%2C+Zu
+ m+Sportplatz%2C+14554+Seddiner+See\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportplatz+Neuseddin%2C+Zum+Sportpl
+ atz%2C+14554+Seddiner+See+2027-05-23\n\nQuelle: 
+ https://www.fussball.de/spiel/esv-lok-seddin-rsv-eintracht-1949-u21/-/spie
+ l/031D5U7KR8000000VS5489BTVUS470OH
+LOCATION:Sportplatz Neuseddin\, Zum Sportplatz\, 14554 Seddiner See
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480223@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270530T120000Z
 DTEND:20270530T140000Z
 SUMMARY:28. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SV 05 
  Rehbrücke | Anstoß: 14:00 Uhr
 DESCRIPTION:28. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SV 05 
  Rehbrücke\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
- Heinrich-Zille-Str.\, KR\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-05-30\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sv-05-rehbruecke/-/spiel/031D5U7KH0000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Sta
+ hnsdorf\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahns
+ dorf+2027-05-30\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-194
+ 9-u21-sv-05-rehbruecke/-/spiel/031D5U7KH0000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480228@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270606T133000Z
 DTEND:20270606T153000Z
 SUMMARY:29. Spieltag | Kreisliga | Potsdamer Kickers 94 – RSV Eintracht 
  1949 U21 | Anstoß: 15:30 Uhr
 DESCRIPTION:29. Spieltag\nKreisliga\nPotsdamer Kickers 94 – RSV Eintracht
  1949 U21\nAnstoß: 15:30 Uhr\n\n\nSpielort: Sportplatz Potsdamer Kickers\,
- Kirschallee\, KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&q
- uery=Sportplatz+Potsdamer+Kickers%2C+Kirschallee%2C+KR\n\nWetter am 
- Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Potsdamer+Kick
- ers%2C+Kirschallee%2C+KR+2027-06-06\n\nQuelle: 
- https://www.fussball.de/spiel/potsdamer-kickers-94-rsv-eintracht-1949-u21/
- -/spiel/031D5U7JQC000000VS5489BTVUS470OH
-LOCATION:Sportplatz Potsdamer Kickers\, Kirschallee\, KR
+ Kirschallee\, KR\, Alexander-Klein-Str.\, 14469 Potsdam\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Potsdamer+Kicke
+ rs%2C+Kirschallee%2C+KR%2C+Alexander-Klein-Str.%2C+14469+Potsdam\n\nWetter
+ am Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Potsdamer+K
+ ickers%2C+Kirschallee%2C+KR%2C+Alexander-Klein-Str.%2C+14469+Potsdam+2027-
+ 06-06\n\nQuelle: https://www.fussball.de/spiel/potsdamer-kickers-94-rsv-ei
+ ntracht-1949-u21/-/spiel/031D5U7JQC000000VS5489BTVUS470OH
+LOCATION:Sportplatz Potsdamer Kickers\, Kirschallee\, KR\, 
+ Alexander-Klein-Str.\, 14469 Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480237@rsv-kalender
-DTSTAMP:20260731T195450Z
+DTSTAMP:20260731T202338Z
 DTSTART:20270612T150000Z
 DTEND:20270612T170000Z
 SUMMARY:30. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SV 1948 Ferch
  | Anstoß: 17:00 Uhr
 DESCRIPTION:30. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SV 1948 
  Ferch\nAnstoß: 17:00 Uhr\n\n\nSpielort: Sportplatz Heinrich-Zille-Str.\, 
- KR\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Sportplat
- z+Heinrich-Zille-Str.%2C+KR\n\nWetter am Spielort: 
- https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille-Str.%2C+K
- R+2027-06-12\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht-1949-u
- 21-sv-1948-ferch/-/spiel/031D5U7JAG000000VS5489BTVUS470OH
-LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+ KR\, Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Sportplatz+Heinrich-Zille
+ -Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf+2027-06-12\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sv-1948-ferch/-
+ /spiel/031D5U7JAG000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR\, Heinrich-Zille-Str. 32\, 
+ 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
