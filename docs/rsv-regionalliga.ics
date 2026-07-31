@@ -7,415 +7,403 @@ X-WR-CALNAME:RSV Eintracht – Regionalliga
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:rl-01@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260725T120000Z
 DTEND:20260725T140000Z
-SUMMARY:1. Spieltag | Regionalliga Nordost | BFC Preussen 1894 – RSV E
- intracht 1949 | Endstand: 1:1
-DESCRIPTION:1. Spieltag\nRegionalliga Nordost\nBFC Preussen 1894 – RSV
-  Eintracht 1949\nEndstand: 1:1\n\n📈 Tabellenplatz: 11.\n🏅 Punkte: 
- 1\n\n⚽ Tore RSV\n21. Minute – Nikolas Frank (BFC Preussen 1894) – 
- 1:0\n60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1\n\n👨‍
- ⚖️ Schiedsrichter: Patrick Kluge\n👥 Zuschauer: 526\n\n🏟️ Spi
- elort: Preussen-Stadion NR1\, Malteserstraße 24–36\, 12249 Berlin-Lan
- kwitz\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1&qu
- ery=Preussen-Stadion+NR1%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+1224
- 9+Berlin-Lankwitz\n\n▶️ OSTSPORT.TV-Beitrag suchen: https://www.yout
- ube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OST
- SPORT.TV\n\n📰 Spielbericht: https://datencenter.dfb.de/datencenter/re
- gionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2
- 425995\n\nQuelle: https://datencenter.dfb.de/competitions/regionallig
- a-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preussen-Stadion NR1\, Malteserstraße 24–36\, 12249 Berlin-La
- nkwitz
+SUMMARY:1. Spieltag | Regionalliga Nordost | BFC Preussen 1894 – RSV 
+ Eintracht 1949 | Endstand: 1:1
+DESCRIPTION:1. Spieltag\nRegionalliga Nordost\nBFC Preussen 1894 – RSV 
+ Eintracht 1949\nEndstand: 1:1\n\nTabellenplatz: 11.\nPunkte: 1\n\nTore 
+ RSV\n21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0\n60. Minute 
+ – Endi Jupolli (RSV Eintracht 1949) – 1:1\n\nSchiedsrichter: Patrick 
+ Kluge\nZuschauer: 526\n\nSpielort: Preussen-Stadion NR1\, Malteserstraße 
+ 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nOSTSPORT.TV-Be
+ itrag suchen: https://www.youtube.com/results?search_query=BFC+Preussen+18
+ 94+RSV+Eintracht+1949+OSTSPORT.TV\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bf
+ c-preussen-1894-rsv-eintracht-1949-2425995\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
+LOCATION:Preussen-Stadion NR1\, Malteserstraße 24–36\, 12249 
+ Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-02@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260801T120000Z
 DTEND:20260801T140000Z
-SUMMARY:2. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FSV 
- 63 Luckenwalde | Anstoß: 14:00 Uhr
-DESCRIPTION:2. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FS
- V 63 Luckenwalde\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2026-08-01\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:2. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FSV 63 
+ Luckenwalde | Anstoß: 14:00 Uhr
+DESCRIPTION:2. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FSV 
+ 63 Luckenwalde\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-01\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-03@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260804T170000Z
 DTEND:20260804T190000Z
 SUMMARY:3. Spieltag | Regionalliga Nordost | FC Carl Zeiss Jena – RSV 
  Eintracht 1949 | Anstoß: 19:00 Uhr
-DESCRIPTION:3. Spieltag\nRegionalliga Nordost\nFC Carl Zeiss Jena – RS
- V Eintracht 1949\nAnstoß: 19:00 Uhr\n\n\n🏟️ Spielort: Ernst-Abbe-S
- portfeld\, Roland-Ducke-Weg 1\, 07745 Jena\n🗺️ Google Maps: https:/
- /www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Rola
- nd-Ducke-Weg+1%2C+07745+Jena\n\n🌦️ Wetter am Spielort öffnen: http
- s://www.google.com/search?q=Wetter+Ernst-Abbe-Sportfeld%2C+Roland-Duc
- ke-Weg+1%2C+07745+Jena+2026-08-04\n\nQuelle: https://datencenter.dfb.
- de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eint
- racht-1949
+DESCRIPTION:3. Spieltag\nRegionalliga Nordost\nFC Carl Zeiss Jena – RSV 
+ Eintracht 1949\nAnstoß: 19:00 Uhr\n\n\nSpielort: Ernst-Abbe-Sportfeld\, 
+ Roland-Ducke-Weg 1\, 07745 Jena\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Ro
+ land-Ducke-Weg+1%2C+07745+Jena\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Ernst-Abbe-Sportfeld%2C+Roland-Duck
+ e-Weg+1%2C+07745+Jena+2026-08-04\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Ernst-Abbe-Sportfeld\, Roland-Ducke-Weg 1\, 07745 Jena
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-04@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260808T120000Z
 DTEND:20260808T140000Z
 SUMMARY:4. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BSG 
  Chemie Leipzig | Anstoß: 14:00 Uhr
-DESCRIPTION:4. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BS
- G Chemie Leipzig\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2026-08-08\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:4. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BSG 
+ Chemie Leipzig\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-08\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-05@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260816T120000Z
 DTEND:20260816T140000Z
-SUMMARY:5. Spieltag | Regionalliga Nordost | SV Babelsberg 03 – RSV Ei
- ntracht 1949 | Anstoß: 14:00 Uhr
+SUMMARY:5. Spieltag | Regionalliga Nordost | SV Babelsberg 03 – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
 DESCRIPTION:5. Spieltag\nRegionalliga Nordost\nSV Babelsberg 03 – RSV 
- Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Karl-Liebknech
- t-Stadion\, Karl-Liebknecht-Straße 90\, 14482 Potsdam\n🗺️ Google M
- aps: https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-
- Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam\n\n🌦️ We
- tter am Spielort öffnen: https://www.google.com/search?q=Wetter+Karl-
- Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam
- +2026-08-16\n\nQuelle: https://datencenter.dfb.de/competitions/region
- alliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 14482 P
- otsdam
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: 
+ Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 14482 
+ Potsdam\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=Karl
+ -Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam\n\n
+ Wetter am Spielort: https://www.google.com/search?q=Wetter+Karl-Liebknecht
+ -Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam+2026-08-16\n\n
+ Quelle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+LOCATION:Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 14482 
+ Potsdam
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:lp-01@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260822T130000Z
 DTEND:20260822T150000Z
-SUMMARY:Landespokal Brandenburg | Landespokal Brandenburg | Sieger Spr
- emberger SV / BSC Preußen 07 Blankenfelde-Mahlow – RSV Eintracht 1949
-  | Anstoß: 15:00 Uhr
-DESCRIPTION:Landespokal Brandenburg\nLandespokal Brandenburg\nSieger S
- premberger SV / BSC Preußen 07 Blankenfelde-Mahlow – RSV Eintracht 19
- 49\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinterlegt\n\n
- 🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wett
- er+2026-08-22\n\nQuelle: https://www.flb.de/
-LOCATION:
+SUMMARY:Landespokal Brandenburg | Landespokal Brandenburg | Sieger 
+ Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow – RSV Eintracht 
+ 1949 | Anstoß: 15:00 Uhr
+DESCRIPTION:Landespokal Brandenburg\nLandespokal Brandenburg\nSieger 
+ Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow – RSV Eintracht 
+ 1949\nAnstoß: 15:00 Uhr\n\n\nSpielort: noch nicht hinterlegt\n\nWetter am
+ Spielort: https://www.google.com/search?q=Wetter+2026-08-22\n\nQuelle: 
+ https://www.flb.de/
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-06@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260826T170000Z
 DTEND:20260826T190000Z
 SUMMARY:6. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FSV 
  Zwickau | Anstoß: 19:00 Uhr
-DESCRIPTION:6. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FS
- V Zwickau\nAnstoß: 19:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\, M
- alteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: htt
- ps://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+M
- alteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ Wet
- ter am Spielort öffnen: https://www.google.com/search?q=Wetter+Preu%C
- 3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-La
- nkwitz+2026-08-26\n\nQuelle: https://datencenter.dfb.de/competitions/
- regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:6. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FSV 
+ Zwickau\nAnstoß: 19:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-26\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-07@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260830T120000Z
 DTEND:20260830T140000Z
-SUMMARY:7. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. F
- C Magdeburg II | Anstoß: 14:00 Uhr
-DESCRIPTION:7. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1.
-  FC Magdeburg II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2026-08-30\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:7. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. FC 
+ Magdeburg II | Anstoß: 14:00 Uhr
+DESCRIPTION:7. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1. FC
+ Magdeburg II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-30\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-08@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260913T120000Z
 DTEND:20260913T140000Z
 SUMMARY:8. Spieltag | Regionalliga Nordost | FC Rot-Weiß Erfurt – RSV 
  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:8. Spieltag\nRegionalliga Nordost\nFC Rot-Weiß Erfurt – RS
- V Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Steigerwalds
- tadion\, Mozartallee 3\, 99096 Erfurt\n🗺️ Google Maps: https://www.
- google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Mozartallee
- +3%2C+99096+Erfurt\n\n🌦️ Wetter am Spielort öffnen: https://www.go
- ogle.com/search?q=Wetter+Steigerwaldstadion%2C+Mozartallee+3%2C+99096
- +Erfurt+2026-09-13\n\nQuelle: https://datencenter.dfb.de/competitions
- /regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
+DESCRIPTION:8. Spieltag\nRegionalliga Nordost\nFC Rot-Weiß Erfurt – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Steigerwaldstadion\, 
+ Mozartallee 3\, 99096 Erfurt\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Moza
+ rtallee+3%2C+99096+Erfurt\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Steigerwaldstadion%2C+Mozartallee+3
+ %2C+99096+Erfurt+2026-09-13\n\nQuelle: https://datencenter.dfb.de/competit
+ ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
 LOCATION:Steigerwaldstadion\, Mozartallee 3\, 99096 Erfurt
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-09@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260916T170000Z
 DTEND:20260916T190000Z
-SUMMARY:9. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Grei
- fswalder FC | Anstoß: 19:00 Uhr
-DESCRIPTION:9. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – Gr
- eifswalder FC\nAnstoß: 19:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion
- \, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps:
-  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%
- 2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️
-  Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Pr
- eu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berli
- n-Lankwitz+2026-09-16\n\nQuelle: https://datencenter.dfb.de/competiti
- ons/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:9. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
+ Greifswalder FC | Anstoß: 19:00 Uhr
+DESCRIPTION:9. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 
+ Greifswalder FC\nAnstoß: 19:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-16\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-10@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260920T120000Z
 DTEND:20260920T140000Z
-SUMMARY:10. Spieltag | Regionalliga Nordost | VSG Altglienicke – RSV E
- intracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:10. Spieltag\nRegionalliga Nordost\nVSG Altglienicke – RSV
-  Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Stadion Licht
- erfelde\, Ostpreußendamm 3–17\, 12207 Berlin\n🗺️ Google Maps: ht
- tps://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde%2C
- +Ostpreu%C3%9Fendamm+3%E2%80%9317%2C+12207+Berlin\n\n🌦️ Wetter am S
- pielort öffnen: https://www.google.com/search?q=Wetter+Stadion+Lichte
- rfelde%2C+Ostpreu%C3%9Fendamm+3%E2%80%9317%2C+12207+Berlin+2026-09-20
- \n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-nord
- ost/seasons/2026-2027/teams/rsv-eintracht-1949
+SUMMARY:10. Spieltag | Regionalliga Nordost | VSG Altglienicke – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:10. Spieltag\nRegionalliga Nordost\nVSG Altglienicke – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Stadion Lichterfelde\, 
+ Ostpreußendamm 3–17\, 12207 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde%2C+Os
+ tpreu%C3%9Fendamm+3%E2%80%9317%2C+12207+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stadion+Lichterfelde%2C+Ostpreu%C3%
+ 9Fendamm+3%E2%80%9317%2C+12207+Berlin+2026-09-20\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Stadion Lichterfelde\, Ostpreußendamm 3–17\, 12207 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-11@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20260927T120000Z
 DTEND:20260927T140000Z
-SUMMARY:11. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Che
- mnitzer FC | Anstoß: 14:00 Uhr
-DESCRIPTION:11. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – C
- hemnitzer FC\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\
- , Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: 
- https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2
- C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ 
- Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Pre
- u%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin
- -Lankwitz+2026-09-27\n\nQuelle: https://datencenter.dfb.de/competitio
- ns/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:11. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
+ Chemnitzer FC | Anstoß: 14:00 Uhr
+DESCRIPTION:11. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 
+ Chemnitzer FC\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-27\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-12@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261011T120000Z
 DTEND:20261011T140000Z
-SUMMARY:12. Spieltag | Regionalliga Nordost | Hallescher FC – RSV Eint
- racht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:12. Spieltag\nRegionalliga Nordost\nHallescher FC – RSV Ei
- ntracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Leuna-Chemie-Sta
- dion\, Kantstraße 2\, 06110 Halle (Saale)\n🗺️ Google Maps: https:/
- /www.google.com/maps/search/?api=1&query=Leuna-Chemie-Stadion%2C+Kant
- stra%C3%9Fe+2%2C+06110+Halle+%28Saale%29\n\n🌦️ Wetter am Spielort 
- öffnen: https://www.google.com/search?q=Wetter+Leuna-Chemie-Stadion%2
- C+Kantstra%C3%9Fe+2%2C+06110+Halle+%28Saale%29+2026-10-11\n\nQuelle: 
- https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+SUMMARY:12. Spieltag | Regionalliga Nordost | Hallescher FC – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:12. Spieltag\nRegionalliga Nordost\nHallescher FC – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Leuna-Chemie-Stadion\, 
+ Kantstraße 2\, 06110 Halle (Saale)\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Leuna-Chemie-Stadion%2C+Ka
+ ntstra%C3%9Fe+2%2C+06110+Halle+%28Saale%29\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Leuna-Chemie-Stadion%2C+Kantstra%C3
+ %9Fe+2%2C+06110+Halle+%28Saale%29+2026-10-11\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Leuna-Chemie-Stadion\, Kantstraße 2\, 06110 Halle (Saale)
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-13@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261018T120000Z
 DTEND:20261018T140000Z
-SUMMARY:13. Spieltag | Regionalliga Nordost | Hertha BSC II – RSV Eint
- racht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:13. Spieltag\nRegionalliga Nordost\nHertha BSC II – RSV Ei
- ntracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Stadion auf dem 
- Wurfplatz/Amateurstadion\, Friedrich-Friesen-Allee\, 14053 Berlin\n🗺
- ️ Google Maps: https://www.google.com/maps/search/?api=1&query=Stadio
- n+auf+dem+Wurfplatz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14
- 053+Berlin\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com
- /search?q=Wetter+Stadion+auf+dem+Wurfplatz%2FAmateurstadion%2C+Friedr
- ich-Friesen-Allee%2C+14053+Berlin+2026-10-18\n\nQuelle: https://daten
- center.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/tea
- ms/rsv-eintracht-1949
-LOCATION:Stadion auf dem Wurfplatz/Amateurstadion\, Friedrich-Friesen-
- Allee\, 14053 Berlin
+SUMMARY:13. Spieltag | Regionalliga Nordost | Hertha BSC II – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:13. Spieltag\nRegionalliga Nordost\nHertha BSC II – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Stadion auf dem 
+ Wurfplatz/Amateurstadion\, Friedrich-Friesen-Allee\, 14053 Berlin\nGoogle 
+ Maps: https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurf
+ platz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14053+Berlin\n\nWette
+ r am Spielort: https://www.google.com/search?q=Wetter+Stadion+auf+dem+Wurf
+ platz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14053+Berlin+2026-10-
+ 18\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-nordost
+ /seasons/2026-2027/teams/rsv-eintracht-1949
+LOCATION:Stadion auf dem Wurfplatz/Amateurstadion\, 
+ Friedrich-Friesen-Allee\, 14053 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-14@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
 SUMMARY:14. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – SV 
  Tasmania Berlin | Anstoß: 14:00 Uhr
-DESCRIPTION:14. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – S
- V Tasmania Berlin\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußensta
- dion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google M
- aps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstad
- ion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n
- 🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wett
- er+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+
- Berlin-Lankwitz+2026-10-25\n\nQuelle: https://datencenter.dfb.de/comp
- etitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:14. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – SV 
+ Tasmania Berlin\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-10-25\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-15@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261101T130000Z
 DTEND:20261101T150000Z
-SUMMARY:15. Spieltag | Regionalliga Nordost | BFC Dynamo – RSV Eintrac
- ht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:15. Spieltag\nRegionalliga Nordost\nBFC Dynamo – RSV Eintr
- acht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportforum Hohensch
- önhausen\, Weißenseer Weg 53\, 13053 Berlin\n🗺️ Google Maps: http
- s://www.google.com/maps/search/?api=1&query=Sportforum+Hohensch%C3%B6
- nhausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin\n\n🌦️ Wetter am S
- pielort öffnen: https://www.google.com/search?q=Wetter+Sportforum+Hoh
- ensch%C3%B6nhausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin+2026-11-
- 01\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-no
- rdost/seasons/2026-2027/teams/rsv-eintracht-1949
+SUMMARY:15. Spieltag | Regionalliga Nordost | BFC Dynamo – RSV Eintracht 
+ 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:15. Spieltag\nRegionalliga Nordost\nBFC Dynamo – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportforum 
+ Hohenschönhausen\, Weißenseer Weg 53\, 13053 Berlin\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportforum+Hohensch%C3%B6n
+ hausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Sportforum+Hohensch%C3%B6nhausen%2C
+ +Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin+2026-11-01\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Sportforum Hohenschönhausen\, Weißenseer Weg 53\, 13053 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-16@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261108T130000Z
 DTEND:20261108T150000Z
-SUMMARY:16. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Erz
- gebirge Aue | Anstoß: 14:00 Uhr
-DESCRIPTION:16. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – E
- rzgebirge Aue\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion
- \, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps:
-  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%
- 2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️
-  Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Pr
- eu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berli
- n-Lankwitz+2026-11-08\n\nQuelle: https://datencenter.dfb.de/competiti
- ons/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:16. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
+ Erzgebirge Aue | Anstoß: 14:00 Uhr
+DESCRIPTION:16. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 
+ Erzgebirge Aue\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-08\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-17@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:17. Spieltag | Regionalliga Nordost | 1. FC Lok Leipzig – RSV 
  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:17. Spieltag\nRegionalliga Nordost\n1. FC Lok Leipzig – RS
- V Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Bruno-Plache
- -Stadion\, Connewitzer Straße 21\, 04289 Leipzig\n🗺️ Google Maps: 
- https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion%
- 2C+Connewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig\n\n🌦️ Wetter am Spie
- lort öffnen: https://www.google.com/search?q=Wetter+Bruno-Plache-Stad
- ion%2C+Connewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig+2026-11-22\n\nQuel
- le: https://datencenter.dfb.de/competitions/regionalliga-nordost/seas
- ons/2026-2027/teams/rsv-eintracht-1949
+DESCRIPTION:17. Spieltag\nRegionalliga Nordost\n1. FC Lok Leipzig – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Bruno-Plache-Stadion\, 
+ Connewitzer Straße 21\, 04289 Leipzig\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion%2C+Co
+ nnewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Bruno-Plache-Stadion%2C+Connewitzer
+ +Stra%C3%9Fe+21%2C+04289+Leipzig+2026-11-22\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Bruno-Plache-Stadion\, Connewitzer Straße 21\, 04289 Leipzig
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-18@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261129T130000Z
 DTEND:20261129T150000Z
-SUMMARY:18. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC
-  Preussen 1894 | Anstoß: 14:00 Uhr
-DESCRIPTION:18. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – B
- FC Preussen 1894\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2026-11-29\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:18. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC 
+ Preussen 1894 | Anstoß: 14:00 Uhr
+DESCRIPTION:18. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BFC 
+ Preussen 1894\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-29\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-19@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261206T130000Z
 DTEND:20261206T150000Z
-SUMMARY:19. Spieltag | Regionalliga Nordost | FSV 63 Luckenwalde – RSV
-  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:19. Spieltag\nRegionalliga Nordost\nFSV 63 Luckenwalde – R
- SV Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Werner-Seel
- enbinder-Stadion\, Straße des Friedens 42\, 14943 Luckenwalde\n🗺️ 
- Google Maps: https://www.google.com/maps/search/?api=1&query=Werner-S
- eelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2C+14943+Luckenwal
- de\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?
- q=Wetter+Werner-Seelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2
- C+14943+Luckenwalde+2026-12-06\n\nQuelle: https://datencenter.dfb.de/
- competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintrac
- ht-1949
+SUMMARY:19. Spieltag | Regionalliga Nordost | FSV 63 Luckenwalde – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:19. Spieltag\nRegionalliga Nordost\nFSV 63 Luckenwalde – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: 
+ Werner-Seelenbinder-Stadion\, Straße des Friedens 42\, 14943 
+ Luckenwalde\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=
+ Werner-Seelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2C+14943+Lucken
+ walde\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Werner
+ -Seelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2C+14943+Luckenwalde+
+ 2026-12-06\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga
+ -nordost/seasons/2026-2027/teams/rsv-eintracht-1949
 LOCATION:Werner-Seelenbinder-Stadion\, Straße des Friedens 42\, 14943 
  Luckenwalde
 STATUS:CONFIRMED
@@ -423,312 +411,300 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-20@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20261213T130000Z
 DTEND:20261213T150000Z
 SUMMARY:20. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FC 
  Carl Zeiss Jena | Anstoß: 14:00 Uhr
-DESCRIPTION:20. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – F
- C Carl Zeiss Jena\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußensta
- dion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google M
- aps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstad
- ion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n
- 🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wett
- er+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+
- Berlin-Lankwitz+2026-12-13\n\nQuelle: https://datencenter.dfb.de/comp
- etitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:20. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FC 
+ Carl Zeiss Jena\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-12-13\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-21@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270214T130000Z
 DTEND:20270214T150000Z
-SUMMARY:21. Spieltag | Regionalliga Nordost | BSG Chemie Leipzig – RSV
-  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:21. Spieltag\nRegionalliga Nordost\nBSG Chemie Leipzig – R
- SV Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Alfred-Kunz
- e-Sportpark\, Am Sportpark 2\, 04179 Leipzig\n🗺️ Google Maps: https
- ://www.google.com/maps/search/?api=1&query=Alfred-Kunze-Sportpark%2C+
- Am+Sportpark+2%2C+04179+Leipzig\n\n🌦️ Wetter am Spielort öffnen: h
- ttps://www.google.com/search?q=Wetter+Alfred-Kunze-Sportpark%2C+Am+Sp
- ortpark+2%2C+04179+Leipzig+2027-02-14\n\nQuelle: https://datencenter.
- dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-
- eintracht-1949
+SUMMARY:21. Spieltag | Regionalliga Nordost | BSG Chemie Leipzig – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:21. Spieltag\nRegionalliga Nordost\nBSG Chemie Leipzig – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Alfred-Kunze-Sportpark\,
+ Am Sportpark 2\, 04179 Leipzig\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Alfred-Kunze-Sportpark%2C+
+ Am+Sportpark+2%2C+04179+Leipzig\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Alfred-Kunze-Sportpark%2C+Am+Sportp
+ ark+2%2C+04179+Leipzig+2027-02-14\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Alfred-Kunze-Sportpark\, Am Sportpark 2\, 04179 Leipzig
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-22@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270221T130000Z
 DTEND:20270221T150000Z
 SUMMARY:22. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – SV 
  Babelsberg 03 | Anstoß: 14:00 Uhr
-DESCRIPTION:22. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – S
- V Babelsberg 03\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadi
- on\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Map
- s: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadio
- n%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2027-02-21\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:22. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – SV 
+ Babelsberg 03\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-02-21\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-23@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270228T130000Z
 DTEND:20270228T150000Z
-SUMMARY:23. Spieltag | Regionalliga Nordost | FSV Zwickau – RSV Eintra
- cht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:23. Spieltag\nRegionalliga Nordost\nFSV Zwickau – RSV Eint
- racht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: GGZ Arena\, Stadio
- nallee 1\, 08066 Zwickau\n🗺️ Google Maps: https://www.google.com/ma
- ps/search/?api=1&query=GGZ+Arena%2C+Stadionallee+1%2C+08066+Zwickau\n
- \n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=We
- tter+GGZ+Arena%2C+Stadionallee+1%2C+08066+Zwickau+2027-02-28\n\nQuell
- e: https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
- ns/2026-2027/teams/rsv-eintracht-1949
+SUMMARY:23. Spieltag | Regionalliga Nordost | FSV Zwickau – RSV Eintracht
+ 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:23. Spieltag\nRegionalliga Nordost\nFSV Zwickau – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: GGZ Arena\, Stadionallee
+ 1\, 08066 Zwickau\nGoogle Maps: https://www.google.com/maps/search/?api=1&
+ query=GGZ+Arena%2C+Stadionallee+1%2C+08066+Zwickau\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+GGZ+Arena%2C+Stadionallee+1%2C+0806
+ 6+Zwickau+2027-02-28\n\nQuelle: https://datencenter.dfb.de/competitions/re
+ gionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
 LOCATION:GGZ Arena\, Stadionallee 1\, 08066 Zwickau
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-24@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270307T130000Z
 DTEND:20270307T150000Z
-SUMMARY:24. Spieltag | Regionalliga Nordost | 1. FC Magdeburg II – RSV
-  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:24. Spieltag\nRegionalliga Nordost\n1. FC Magdeburg II – R
- SV Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Heinrich-Ge
- rmer-Stadion\, Salzmannstraße 34\, 39112 Magdeburg\n🗺️ Google Maps
- : https://www.google.com/maps/search/?api=1&query=Heinrich-Germer-Sta
- dion%2C+Salzmannstra%C3%9Fe+34%2C+39112+Magdeburg\n\n🌦️ Wetter am S
- pielort öffnen: https://www.google.com/search?q=Wetter+Heinrich-Germe
- r-Stadion%2C+Salzmannstra%C3%9Fe+34%2C+39112+Magdeburg+2027-03-07\n\n
- Quelle: https://datencenter.dfb.de/competitions/regionalliga-nordost/
- seasons/2026-2027/teams/rsv-eintracht-1949
+SUMMARY:24. Spieltag | Regionalliga Nordost | 1. FC Magdeburg II – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:24. Spieltag\nRegionalliga Nordost\n1. FC Magdeburg II – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: 
+ Heinrich-Germer-Stadion\, Salzmannstraße 34\, 39112 Magdeburg\nGoogle 
+ Maps: https://www.google.com/maps/search/?api=1&query=Heinrich-Germer-Stad
+ ion%2C+Salzmannstra%C3%9Fe+34%2C+39112+Magdeburg\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Heinrich-Germer-Stadion%2C+Salzmann
+ stra%C3%9Fe+34%2C+39112+Magdeburg+2027-03-07\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Heinrich-Germer-Stadion\, Salzmannstraße 34\, 39112 Magdeburg
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-25@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270314T130000Z
 DTEND:20270314T150000Z
 SUMMARY:25. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FC 
  Rot-Weiß Erfurt | Anstoß: 14:00 Uhr
-DESCRIPTION:25. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – F
- C Rot-Weiß Erfurt\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenst
- adion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google 
- Maps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fensta
- dion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\
- n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wet
- ter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249
- +Berlin-Lankwitz+2027-03-14\n\nQuelle: https://datencenter.dfb.de/com
- petitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-
- 1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+DESCRIPTION:25. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FC 
+ Rot-Weiß Erfurt\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-03-14\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-26@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270321T130000Z
 DTEND:20270321T150000Z
-SUMMARY:26. Spieltag | Regionalliga Nordost | Greifswalder FC – RSV Ei
- ntracht 1949 | Anstoß: 14:00 Uhr
+SUMMARY:26. Spieltag | Regionalliga Nordost | Greifswalder FC – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
 DESCRIPTION:26. Spieltag\nRegionalliga Nordost\nGreifswalder FC – RSV 
- Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Volksstadion G
- reifswald\, Karl-Liebknecht-Ring 2\, 17491 Greifswald\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Volksstadion+Grei
- fswald%2C+Karl-Liebknecht-Ring+2%2C+17491+Greifswald\n\n🌦️ Wetter a
- m Spielort öffnen: https://www.google.com/search?q=Wetter+Volksstadio
- n+Greifswald%2C+Karl-Liebknecht-Ring+2%2C+17491+Greifswald+2027-03-21
- \n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-nord
- ost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Volksstadion Greifswald\, Karl-Liebknecht-Ring 2\, 17491 Grei
- fswald
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Volksstadion 
+ Greifswald\, Karl-Liebknecht-Ring 2\, 17491 Greifswald\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Volksstadion+Greifswald%2C
+ +Karl-Liebknecht-Ring+2%2C+17491+Greifswald\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Volksstadion+Greifswald%2C+Karl-Lie
+ bknecht-Ring+2%2C+17491+Greifswald+2027-03-21\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
+LOCATION:Volksstadion Greifswald\, Karl-Liebknecht-Ring 2\, 17491 
+ Greifswald
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-27@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270404T120000Z
 DTEND:20270404T140000Z
-SUMMARY:27. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – VSG
-  Altglienicke | Anstoß: 14:00 Uhr
-DESCRIPTION:27. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – V
- SG Altglienicke\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadi
- on\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Map
- s: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadio
- n%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2027-04-04\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:27. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – VSG 
+ Altglienicke | Anstoß: 14:00 Uhr
+DESCRIPTION:27. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – VSG 
+ Altglienicke\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-04\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-28@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270407T170000Z
 DTEND:20270407T190000Z
-SUMMARY:28. Spieltag | Regionalliga Nordost | Chemnitzer FC – RSV Eint
- racht 1949 | Anstoß: 19:00 Uhr
-DESCRIPTION:28. Spieltag\nRegionalliga Nordost\nChemnitzer FC – RSV Ei
- ntracht 1949\nAnstoß: 19:00 Uhr\n\n\n🏟️ Spielort: Stadion an der G
- ellertstraße\, Gellertstraße 25\, 09130 Chemnitz\n🗺️ Google Maps:
-  https://www.google.com/maps/search/?api=1&query=Stadion+an+der+Gelle
- rtstra%C3%9Fe%2C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz\n\n🌦️ Wett
- er am Spielort öffnen: https://www.google.com/search?q=Wetter+Stadion
- +an+der+Gellertstra%C3%9Fe%2C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz
- +2027-04-07\n\nQuelle: https://datencenter.dfb.de/competitions/region
- alliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Stadion an der Gellertstraße\, Gellertstraße 25\, 09130 Chemn
- itz
+SUMMARY:28. Spieltag | Regionalliga Nordost | Chemnitzer FC – RSV 
+ Eintracht 1949 | Anstoß: 19:00 Uhr
+DESCRIPTION:28. Spieltag\nRegionalliga Nordost\nChemnitzer FC – RSV 
+ Eintracht 1949\nAnstoß: 19:00 Uhr\n\n\nSpielort: Stadion an der 
+ Gellertstraße\, Gellertstraße 25\, 09130 Chemnitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Stadion+an+der+Gellertstra
+ %C3%9Fe%2C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Stadion+an+der+Gellertstra%C3%9Fe%2
+ C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz+2027-04-07\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
+LOCATION:Stadion an der Gellertstraße\, Gellertstraße 25\, 09130 Chemnitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-29@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270411T120000Z
 DTEND:20270411T140000Z
-SUMMARY:29. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Hal
- lescher FC | Anstoß: 14:00 Uhr
-DESCRIPTION:29. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – H
- allescher FC\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\
- , Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: 
- https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2
- C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ 
- Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Pre
- u%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin
- -Lankwitz+2027-04-11\n\nQuelle: https://datencenter.dfb.de/competitio
- ns/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:29. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
+ Hallescher FC | Anstoß: 14:00 Uhr
+DESCRIPTION:29. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 
+ Hallescher FC\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-11\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-30@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270418T120000Z
 DTEND:20270418T140000Z
-SUMMARY:30. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Her
- tha BSC II | Anstoß: 14:00 Uhr
-DESCRIPTION:30. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – H
- ertha BSC II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\
- , Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: 
- https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2
- C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ 
- Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Pre
- u%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin
- -Lankwitz+2027-04-18\n\nQuelle: https://datencenter.dfb.de/competitio
- ns/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:30. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Hertha
+ BSC II | Anstoß: 14:00 Uhr
+DESCRIPTION:30. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 
+ Hertha BSC II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-18\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-31@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270425T120000Z
 DTEND:20270425T140000Z
-SUMMARY:31. Spieltag | Regionalliga Nordost | SV Tasmania Berlin – RSV
-  Eintracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:31. Spieltag\nRegionalliga Nordost\nSV Tasmania Berlin – R
- SV Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Werner-Seel
- enbinder-Sportpark\, Oderstraße 182\, 12051 Berlin\n🗺️ Google Maps
- : https://www.google.com/maps/search/?api=1&query=Werner-Seelenbinder
- -Sportpark%2C+Oderstra%C3%9Fe+182%2C+12051+Berlin\n\n🌦️ Wetter am S
- pielort öffnen: https://www.google.com/search?q=Wetter+Werner-Seelenb
- inder-Sportpark%2C+Oderstra%C3%9Fe+182%2C+12051+Berlin+2027-04-25\n\n
- Quelle: https://datencenter.dfb.de/competitions/regionalliga-nordost/
- seasons/2026-2027/teams/rsv-eintracht-1949
+SUMMARY:31. Spieltag | Regionalliga Nordost | SV Tasmania Berlin – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:31. Spieltag\nRegionalliga Nordost\nSV Tasmania Berlin – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: 
+ Werner-Seelenbinder-Sportpark\, Oderstraße 182\, 12051 Berlin\nGoogle 
+ Maps: https://www.google.com/maps/search/?api=1&query=Werner-Seelenbinder-
+ Sportpark%2C+Oderstra%C3%9Fe+182%2C+12051+Berlin\n\nWetter am Spielort: 
+ https://www.google.com/search?q=Wetter+Werner-Seelenbinder-Sportpark%2C+Od
+ erstra%C3%9Fe+182%2C+12051+Berlin+2027-04-25\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Werner-Seelenbinder-Sportpark\, Oderstraße 182\, 12051 Berlin
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-32@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270509T120000Z
 DTEND:20270509T140000Z
-SUMMARY:32. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC
-  Dynamo | Anstoß: 14:00 Uhr
-DESCRIPTION:32. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – B
- FC Dynamo\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\, M
- alteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: htt
- ps://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+M
- alteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ Wet
- ter am Spielort öffnen: https://www.google.com/search?q=Wetter+Preu%C
- 3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-La
- nkwitz+2027-05-09\n\nQuelle: https://datencenter.dfb.de/competitions/
- regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:32. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC 
+ Dynamo | Anstoß: 14:00 Uhr
+DESCRIPTION:32. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BFC 
+ Dynamo\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-09\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-33@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270516T120000Z
 DTEND:20270516T140000Z
-SUMMARY:33. Spieltag | Regionalliga Nordost | Erzgebirge Aue – RSV Ein
- tracht 1949 | Anstoß: 14:00 Uhr
-DESCRIPTION:33. Spieltag\nRegionalliga Nordost\nErzgebirge Aue – RSV E
- intracht 1949\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Erzgebirgsstadi
- on\, Lößnitzer Straße 95\, 08280 Aue-Bad Schlema\n🗺️ Google Maps
- : https://www.google.com/maps/search/?api=1&query=Erzgebirgsstadion%2
- C+L%C3%B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema\n\n🌦️
-  Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+Er
- zgebirgsstadion%2C+L%C3%B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Ba
- d+Schlema+2027-05-16\n\nQuelle: https://datencenter.dfb.de/competitio
- ns/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Erzgebirgsstadion\, Lößnitzer Straße 95\, 08280 Aue-Bad Schle
- ma
+SUMMARY:33. Spieltag | Regionalliga Nordost | Erzgebirge Aue – RSV 
+ Eintracht 1949 | Anstoß: 14:00 Uhr
+DESCRIPTION:33. Spieltag\nRegionalliga Nordost\nErzgebirge Aue – RSV 
+ Eintracht 1949\nAnstoß: 14:00 Uhr\n\n\nSpielort: Erzgebirgsstadion\, 
+ Lößnitzer Straße 95\, 08280 Aue-Bad Schlema\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Erzgebirgsstadion%2C+L%C3%
+ B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Erzgebirgsstadion%2C+L%C3
+ %B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema+2027-05-16\n\nQuel
+ le: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2
+ 026-2027/teams/rsv-eintracht-1949
+LOCATION:Erzgebirgsstadion\, Lößnitzer Straße 95\, 08280 Aue-Bad Schlema
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-34@rsv-kalender
-DTSTAMP:20260731T165157Z
+DTSTAMP:20260731T173746Z
 DTSTART:20270523T120000Z
 DTEND:20270523T140000Z
-SUMMARY:34. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. 
- FC Lok Leipzig | Anstoß: 14:00 Uhr
-DESCRIPTION:34. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1
- . FC Lok Leipzig\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2027-05-23\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+SUMMARY:34. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. FC 
+ Lok Leipzig | Anstoß: 14:00 Uhr
+DESCRIPTION:34. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1. 
+ FC Lok Leipzig\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
+ Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
+ teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
+ Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-23\n\nQue
+ lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
+ 2026-2027/teams/rsv-eintracht-1949
+LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

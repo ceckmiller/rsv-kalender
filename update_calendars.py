@@ -608,13 +608,30 @@ def apply_overrides(key,games,overrides):
 def esc(s):
     return str(s or '').replace('\\','\\\\').replace('\n','\\n').replace(',','\\,').replace(';','\\;')
 
+def ics_plain(s):
+    """Strip emoji/symbols that break Apple Calendar subscriptions when folded."""
+    text=str(s or '')
+    text=re.sub(r'[\U0001F300-\U0001FAFF\U00002600-\U000027BF\U0000FE00-\U0000FE0F\u200d]+','',text)
+    return re.sub(r'[ \t]{2,}',' ',text).strip()
+
 def fold(line):
+    """RFC 5545 folding without splitting multi-byte UTF-8 codepoints."""
     out=[]
-    while len(line.encode('utf-8'))>73:
-        cut=70
-        while len(line[:cut].encode('utf-8'))>73:cut-=1
-        out.append(line[:cut]); line=' '+line[cut:]
-    out.append(line); return '\r\n'.join(out)
+    raw=str(line or '')
+    while len(raw.encode('utf-8'))>75:
+        cut=min(len(raw), 75)
+        while cut>1 and len(raw[:cut].encode('utf-8'))>75:
+            cut-=1
+        # Prefer breaking on spaces when possible for readability.
+        space=raw.rfind(' ', 40, cut+1)
+        if space>=40:
+            cut=space+1
+            while cut>1 and len(raw[:cut].encode('utf-8'))>75:
+                cut-=1
+        out.append(raw[:cut])
+        raw=' '+raw[cut:].lstrip(' ') if raw[cut:cut+1]==' ' else ' '+raw[cut:]
+    out.append(raw)
+    return '\r\n'.join(out)
 
 def competition_label(value):
     value = re.sub(r'\s+20\d{2}/\d{2}$', '', str(value or '')).strip()
@@ -961,39 +978,40 @@ def make_ics(meta,games):
         home_logo=club_logo_url(g.get('home',''), clubs)
         away_logo=club_logo_url(g.get('away',''), clubs)
 
+        # Keep ICS text Apple-Calendar-safe: no emoji (folding/ZWJ breaks subscriptions).
         desc=[first_line, comp, pairing, status_line, '']
         if g.get('result'):
             if g.get('table_position') not in (None, ''):
-                desc.append(f"📈 Tabellenplatz: {g['table_position']}.")
+                desc.append(f"Tabellenplatz: {g['table_position']}.")
             if g.get('points') not in (None, ''):
-                desc.append(f"🏅 Punkte: {g['points']}")
+                desc.append(f"Punkte: {g['points']}")
             if g.get('scorers'):
-                desc.extend(['', '⚽ Tore RSV'])
+                desc.extend(['', 'Tore RSV'])
                 if isinstance(g['scorers'], list):
                     desc.extend(str(x) for x in g['scorers'])
                 else:
                     desc.append(str(g['scorers']))
             if g.get('referee'):
-                desc.extend(['', f"👨‍⚖️ Schiedsrichter: {g['referee']}"])
+                desc.extend(['', f"Schiedsrichter: {g['referee']}"])
             if g.get('attendance') not in (None, ''):
-                desc.append(f"👥 Zuschauer: {g['attendance']}")
+                desc.append(f"Zuschauer: {g['attendance']}")
         if location:
-            desc.extend(['', f"🏟️ Spielort: {location}"])
+            desc.extend(['', f"Spielort: {location}"])
             if map_link:
-                desc.append(f"🗺️ Google Maps: {map_link}")
+                desc.append(f"Google Maps: {map_link}")
         else:
-            desc.extend(['', '🏟️ Spielort: noch nicht hinterlegt'])
+            desc.extend(['', 'Spielort: noch nicht hinterlegt'])
 
         if not g.get('result') and weather_link:
-            desc.extend(['', f"🌦️ Wetter am Spielort öffnen: {weather_link}"])
+            desc.extend(['', f"Wetter am Spielort: {weather_link}"])
 
         if is_first_team and g.get('result'):
             video=g.get('youtube_url') or youtube_search_url(g)
             label='OSTSPORT.TV-Beitrag' if g.get('youtube_url') else 'OSTSPORT.TV-Beitrag suchen'
-            desc.extend(['', f"▶️ {label}: {video}"])
+            desc.extend(['', f"{label}: {video}"])
 
         if g.get('report_url'):
-            desc.extend(['', f"📰 Spielbericht: {g['report_url']}"])
+            desc.extend(['', f"Spielbericht: {g['report_url']}"])
         if g.get('source_url'):
             desc.extend(['', f"Quelle: {g['source_url']}"])
 
@@ -1003,10 +1021,11 @@ def make_ics(meta,games):
             f'DTSTAMP:{now}',
             f"DTSTART:{start.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
-            f'SUMMARY:{esc(summary)}',
-            f'DESCRIPTION:{esc(chr(10).join(desc))}',
-            f'LOCATION:{esc(location)}',
+            f'SUMMARY:{esc(ics_plain(summary))}',
+            f'DESCRIPTION:{esc(ics_plain(chr(10).join(desc)))}',
         ]
+        if location:
+            event_lines.append(f'LOCATION:{esc(ics_plain(location))}')
         # External image attachments are intentionally omitted. Google Calendar
         # can reject URL subscriptions containing remote ATTACH properties.
         event_lines += ['STATUS:CONFIRMED', 'TRANSP:OPAQUE', 'END:VEVENT']
