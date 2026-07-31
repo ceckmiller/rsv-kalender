@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Berlin
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u21-710089011@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260816T103000
 DTEND;TZID=Europe/Berlin:20260816T123000
 SUMMARY:Rot-Weiß Groß Glienicke II – RSV
@@ -23,13 +23,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480004@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260830T140000
 DTEND;TZID=Europe/Berlin:20260830T160000
-SUMMARY:RSV – FV Turbine Potsdam 55 I
-DESCRIPTION:Heimspiel · Kreisliga 2026/27\\nQuelle: https://www.fussba
- ll.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenbur
- g/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+SUMMARY:FV Turbine Potsdam 55 I – RSV
+DESCRIPTION:Auswärtsspiel · Kreisliga 2026/27\\nQuelle: https://www.fu
+ ssball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brande
+ nburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 URL:https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eint
  racht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001
@@ -38,7 +38,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480013@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260906T150000
 DTEND;TZID=Europe/Berlin:20260906T170000
 SUMMARY:SV 1948 Ferch – RSV
@@ -53,7 +53,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480019@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260913T150000
 DTEND;TZID=Europe/Berlin:20260913T170000
 SUMMARY:FSV Grün-Weiß Niemegk – RSV
@@ -68,13 +68,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480028@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260920T140000
 DTEND;TZID=Europe/Berlin:20260920T160000
-SUMMARY:RSV – Teltower FV 1913 II
-DESCRIPTION:Heimspiel · Kreisliga 2026/27\\nQuelle: https://www.fussba
- ll.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenbur
- g/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+SUMMARY:Teltower FV 1913 II – RSV
+DESCRIPTION:Auswärtsspiel · Kreisliga 2026/27\\nQuelle: https://www.fu
+ ssball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brande
+ nburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 URL:https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eint
  racht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001
@@ -83,7 +83,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480033@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20260927T130000
 DTEND;TZID=Europe/Berlin:20260927T150000
 SUMMARY:SG Grün-Weiß Golm II – RSV
@@ -98,13 +98,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480044@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20261004T140000
 DTEND;TZID=Europe/Berlin:20261004T160000
-SUMMARY:RSV – SG Bornim II
-DESCRIPTION:Heimspiel · Kreisliga 2026/27\\nQuelle: https://www.fussba
- ll.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenbur
- g/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+SUMMARY:SG Bornim II – RSV
+DESCRIPTION:Auswärtsspiel · Kreisliga 2026/27\\nQuelle: https://www.fu
+ ssball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brande
+ nburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 URL:https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eint
  racht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001
@@ -113,7 +113,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480055@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20261011T153000
 DTEND;TZID=Europe/Berlin:20261011T173000
 SUMMARY:Rot-Weiß Groß Glienicke – RSV
@@ -128,13 +128,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480060@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20261018T140000
 DTEND;TZID=Europe/Berlin:20261018T160000
-SUMMARY:RSV – FSV Brück I
-DESCRIPTION:Heimspiel · Kreisliga 2026/27\\nQuelle: https://www.fussba
- ll.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenbur
- g/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+SUMMARY:FSV Brück I – RSV
+DESCRIPTION:Auswärtsspiel · Kreisliga 2026/27\\nQuelle: https://www.fu
+ ssball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brande
+ nburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 URL:https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eint
  racht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001
@@ -143,7 +143,7 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480069@rsv-kalender
-DTSTAMP:20260731T105047Z
+DTSTAMP:20260731T105834Z
 DTSTART;TZID=Europe/Berlin:20261025T140000
 DTEND;TZID=Europe/Berlin:20261025T160000
 SUMMARY:SG Blau-Weiß Beelitz – RSV
