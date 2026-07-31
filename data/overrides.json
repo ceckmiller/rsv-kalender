@@ -1,4 +1,23 @@
 {
-  "regionalliga": {},
-  "u21": {}
+  "regionalliga": {
+    "rl-01": {
+      "matchday": 1,
+      "date": "2026-07-25",
+      "time": "14:00",
+      "competition": "Regionalliga Nordost 2026/27",
+      "result": "1:1",
+      "scorers": [
+        "21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0",
+        "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
+      ],
+      "attendance": 526,
+      "referee": "Patrick Kluge",
+      "table_position": 11,
+      "points": 1,
+      "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995"
+    }
+  },
+  "u21": {},
+  "u23": {}
 }

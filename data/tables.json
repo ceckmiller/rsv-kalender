@@ -1,8 +1,207 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "",
-    "rows": []
+    "updated_at": "Stand nach dem 1. Spieltag",
+    "rows": [
+      {
+        "position": 1,
+        "team": "1. FC Magdeburg II",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "5:1",
+        "diff": "+4",
+        "points": 3
+      },
+      {
+        "position": 2,
+        "team": "Chemnitzer FC",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "4:0",
+        "diff": "+4",
+        "points": 3
+      },
+      {
+        "position": 3,
+        "team": "FC Rot-Weiß Erfurt",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "4:1",
+        "diff": "+3",
+        "points": 3
+      },
+      {
+        "position": 4,
+        "team": "1. FC Lokomotive Leipzig",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "3:1",
+        "diff": "+2",
+        "points": 3
+      },
+      {
+        "position": 5,
+        "team": "SV Babelsberg 03",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "2:0",
+        "diff": "+2",
+        "points": 3
+      },
+      {
+        "position": 6,
+        "team": "FSV Zwickau",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "2:1",
+        "diff": "+1",
+        "points": 3
+      },
+      {
+        "position": 7,
+        "team": "FC Erzgebirge Aue",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "3:3",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 7,
+        "team": "VSG Altglienicke",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "3:3",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 9,
+        "team": "Greifswalder FC",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "2:2",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 9,
+        "team": "Hallescher FC",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "2:2",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 11,
+        "team": "BFC Preussen 1894",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "1:1",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 11,
+        "team": "RSV Eintracht 1949",
+        "played": 1,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goals": "1:1",
+        "diff": "0",
+        "points": 1
+      },
+      {
+        "position": 13,
+        "team": "FC Carl Zeiss Jena",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "1:2",
+        "diff": "-1",
+        "points": 0
+      },
+      {
+        "position": 14,
+        "team": "FSV 63 Luckenwalde",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "1:3",
+        "diff": "-2",
+        "points": 0
+      },
+      {
+        "position": 15,
+        "team": "BSG Chemie Leipzig",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "0:2",
+        "diff": "-2",
+        "points": 0
+      },
+      {
+        "position": 16,
+        "team": "BFC Dynamo",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "1:4",
+        "diff": "-3",
+        "points": 0
+      },
+      {
+        "position": 17,
+        "team": "SV Tasmania Berlin",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "1:5",
+        "diff": "-4",
+        "points": 0
+      },
+      {
+        "position": 18,
+        "team": "Hertha BSC II",
+        "played": 1,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goals": "0:4",
+        "diff": "-4",
+        "points": 0
+      }
+    ]
   },
   "u23": {
     "competition": "Kreisoberliga Havelland",

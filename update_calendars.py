@@ -353,30 +353,92 @@ def make_ics(meta,games):
     return '\r\n'.join(fold(x) for x in lines)+'\r\n'
 
 def build_site_data(team_configs):
-    """Create one compact JSON file used by the mobile results/table view."""
-    payload={'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}}
+    """Create the JSON used by the results, upcoming matches and table view."""
+    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}}
+    venues = load_venues()
+    clubs = load_clubs()
+    today = datetime.now(TZ).date()
+
     for key, meta, games in team_configs:
         enriched=enrich_team_stats(meta, assign_matchdays(games))
         completed=[]
+        future=[]
+        fixtures=[]
+        team_name=meta.get('team_name','')
+
         for g in enriched:
-            if not g.get('result'):
-                continue
             comp=competition_label(g.get('competition',''))
-            # The user requested completed matchdays only; cup/friendlies remain excluded here.
-            if any(x in comp.lower() for x in ('pokal','freundschaft','testspiel')):
+            is_non_league=any(x in comp.lower() for x in ('pokal','freundschaft','testspiel'))
+            location=venue_for_game(g, venues)
+            if not is_non_league:
+                fixtures.append({
+                    'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
+                    'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
+                    'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
+                    'result':g.get('result') or '',
+                    'home_logo':club_logo_url(g.get('home',''), clubs),
+                    'away_logo':club_logo_url(g.get('away',''), clubs)
+                })
+
+            if g.get('result'):
+                if is_non_league:
+                    continue
+                completed.append({
+                    'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
+                    'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
+                    'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
+                    'result':g.get('result'), 'scorers':g.get('scorers') or [],
+                    'attendance':g.get('attendance'), 'referee':g.get('referee'),
+                    'location':location,
+                    'maps_url':maps_url(location),
+                    'youtube_url':g.get('youtube_url') or (youtube_search_url(g) if key=='regionalliga' else ''),
+                    'report_url':g.get('report_url') or '', 'points':g.get('points'),
+                    'table_position':g.get('table_position')
+                })
                 continue
-            completed.append({
+
+            try:
+                event_date=datetime.fromisoformat(g.get('date','')).date()
+            except Exception:
+                continue
+            if event_date < today or is_non_league:
+                continue
+
+            forecast=weather_for_game(g, location)
+            future.append({
                 'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                 'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                'result':g.get('result'), 'scorers':g.get('scorers') or [],
-                'attendance':g.get('attendance'), 'referee':g.get('referee'),
-                'location':venue_for_game(g, load_venues()),
-                'youtube_url':g.get('youtube_url') or (youtube_search_url(g) if key=='regionalliga' else ''),
-                'report_url':g.get('report_url') or '', 'points':g.get('points'),
-                'table_position':g.get('table_position')
+                'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
+                'location':location, 'maps_url':maps_url(location),
+                'weather':forecast, 'weather_url':weather_search_url(location, g.get('date','')),
+                'is_home':g.get('home') == team_name
             })
+
         completed.sort(key=lambda x: ((x.get('matchday') or 9999), x.get('date') or ''))
-        payload['teams'][key]={'name':meta.get('calendar_name',''), 'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '', 'matches':completed}
+        fixtures.sort(key=lambda x: ((x.get('matchday') or 9999), x.get('date') or '', x.get('time') or '00:00'))
+        future.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
+        next_game=future[0] if future else None
+        next_home=None
+        if next_game and not next_game.get('is_home'):
+            next_home=next((g for g in future[1:] if g.get('is_home')), None)
+
+        payload['teams'][key]={
+            'name':meta.get('calendar_name',''),
+            'team_name':team_name,
+            'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '',
+            'matches':completed,
+            'fixtures':fixtures,
+            'next_game':next_game,
+            'next_home':next_home
+        }
+    aliases = {
+        '1. FC Lokomotive Leipzig': '1. FC Lok Leipzig',
+        'FC Erzgebirge Aue': 'Erzgebirge Aue'
+    }
+    for table in payload.get('tables', {}).values():
+        for row in table.get('rows', []):
+            team = row.get('team', '')
+            row['logo_url'] = club_logo_url(aliases.get(team, team), clubs)
     (DOCS/'site-data.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def process(key,offline=False):
