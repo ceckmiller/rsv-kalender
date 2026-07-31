@@ -1,60 +1,75 @@
 {
   "RSV Eintracht 1949": {
-    "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+    "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+    "website": "https://www.rsv-eintracht-fussball.de"
   },
   "BFC Preussen 1894": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=bfc-preussen.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=bfc-preussen.de&sz=256",
+    "website": "https://bfc-preussen.de"
   },
   "FSV 63 Luckenwalde": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=fsv63-luckenwalde.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=fsv63-luckenwalde.de&sz=256",
+    "website": "https://fsv63-luckenwalde.de"
   },
   "FC Carl Zeiss Jena": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=fc-carlzeiss-jena.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=fc-carlzeiss-jena.de&sz=256",
+    "website": "https://www.fc-carlzeiss-jena.de"
   },
   "BSG Chemie Leipzig": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=chemie-leipzig.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=chemie-leipzig.de&sz=256",
+    "website": "https://www.chemie-leipzig.de"
   },
   "SV Babelsberg 03": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=babelsberg03.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=babelsberg03.de&sz=256",
+    "website": "https://babelsberg03.de"
   },
   "FSV Zwickau": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256",
+    "website": "https://fsv-zwickau.de"
   },
   "1. FC Magdeburg II": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=1.fc-magdeburg.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=fc-magdeburg.de&sz=256",
+    "website": "https://1.fc-magdeburg.de"
   },
   "FC Rot-Weiß Erfurt": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=rot-weiss-erfurt.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=rot-weiss-erfurt.de&sz=256",
+    "website": "https://www.rot-weiss-erfurt.de"
   },
   "Greifswalder FC": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=greifswalder-fc.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=greifswalder-fc.de&sz=256",
+    "website": "https://greifswalder-fc.de"
   },
   "VSG Altglienicke": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=www.fussball.vsg-altglienicke.de&sz=256",
+    "logo_url": "https://www.google.com/s2/favicons?domain=fussball.vsg-altglienicke.de&sz=256",
     "website": "https://www.fussball.vsg-altglienicke.de"
   },
   "1. FC Lok Leipzig": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256",
+    "website": "https://www.lok-leipzig.com"
   },
   "Hertha BSC II": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=herthabsc.com&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=herthabsc.com&sz=256",
+    "website": "https://www.herthabsc.com"
   },
   "Chemnitzer FC": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=chemnitzerfc.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=chemnitzerfc.de&sz=256",
+    "website": "https://www.chemnitzerfc.de"
   },
   "Hallescher FC": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=www.hallescherfc.de&sz=256",
+    "logo_url": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=256",
     "website": "https://www.hallescherfc.de"
   },
   "BFC Dynamo": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=bfc.com&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256",
+    "website": "https://bfc.com"
   },
   "SV Tasmania Berlin": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=www.sv-tasmania-berlin.de&sz=256",
+    "logo_url": "https://www.google.com/s2/favicons?domain=sv-tasmania-berlin.de&sz=256",
     "website": "https://www.sv-tasmania-berlin.de"
   },
   "Erzgebirge Aue": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=fc-erzgebirge.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=fc-erzgebirge.de&sz=256",
+    "website": "https://www.fc-erzgebirge.de"
   },
   "RSV Eintracht 1949 U21": {
     "website": "https://www.rsv-eintracht-fussball.de",
@@ -68,6 +83,127 @@
     "website": "https://babelsberg03.de"
   },
   "SV Falkensee-Finkenkrug II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=svff.de&sz=256",
     "website": "https://www.svff.de"
+  },
+  "FC Bayern München": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fcbayern.com&sz=256",
+    "website": "https://fcbayern.com"
+  },
+  "FC Hertha 03 Zehlendorf": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=h03.de&sz=256",
+    "website": "https://www.h03.de"
+  },
+  "FC Mecklenburg Schwerin": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fc-mecklenburg-schwerin.de&sz=256",
+    "website": "https://www.fc-mecklenburg-schwerin.de"
+  },
+  "FSV Babelsberg 74": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fsv-babelsberg74.de&sz=256",
+    "website": "https://www.fsv-babelsberg74.de"
+  },
+  "BSV Eintracht Mahlsdorf": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=eintracht-mahlsdorf.de&sz=256",
+    "website": "https://www.eintracht-mahlsdorf.de"
+  },
+  "SC Borea Dresden": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=scborea.de&sz=256",
+    "website": "https://www.scborea.de"
+  },
+  "VFC Plauen": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=vfc-plauen.de&sz=256",
+    "website": "https://vfc-plauen.de"
+  },
+  "Sport-Club Staaken 1919": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sc-staaken.de&sz=256",
+    "website": "https://www.sc-staaken.de"
+  },
+  "FC Viktoria 1889 Berlin": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=viktoria.berlin&sz=256",
+    "website": "https://viktoria.berlin"
+  },
+  "Tennis Borussia Berlin": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=tebe.de&sz=256",
+    "website": "https://www.tebe.de"
+  },
+  "Berliner SC": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=berlinersc-fussball.de&sz=256",
+    "website": "https://www.berlinersc-fussball.de"
+  },
+  "Steglitzer FC Stern 1900": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=stern1900.de&sz=256",
+    "website": "https://www.stern1900.de"
+  },
+  "1. FC Frankfurt (Oder)": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=1fcfrankfurt.de&sz=256",
+    "website": "https://www.1fcfrankfurt.de"
+  },
+  "SFC Stern": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sfcstern1900.de&sz=256",
+    "website": "https://www.sfcstern1900.de"
+  },
+  "BSG Stahl Brandenburg U23": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=bsg-stahl.de&sz=256",
+    "website": "https://www.bsg-stahl.de"
+  },
+  "Fortuna Babelsberg II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fortuna-babelsberg.de&sz=256",
+    "website": "https://www.fortuna-babelsberg.de"
+  },
+  "Teltower FV 1913 II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=teltowerfv1913.de&sz=256",
+    "website": "https://www.teltowerfv1913.de"
+  },
+  "SG Bornim II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sg-bornim.de&sz=256",
+    "website": "https://www.sg-bornim.de"
+  },
+  "FC Stern Marienfelde II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fcsternmarienfelde.de&sz=256",
+    "website": "https://www.fcsternmarienfelde.de"
+  },
+  "FSV Brück I": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fsv-brueck.de&sz=256",
+    "website": "https://www.fsv-brueck.de"
+  },
+  "FSV Grün-Weiß Niemegk": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=gw-niemegk.de&sz=256",
+    "website": "https://www.gw-niemegk.de"
+  },
+  "FV Turbine Potsdam 55 I": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=fvturbinepotsdam.de&sz=256",
+    "website": "https://www.fvturbinepotsdam.de"
+  },
+  "Rot-Weiß Groß Glienicke": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=rwgrossglienicke.de&sz=256",
+    "website": "https://www.rwgrossglienicke.de"
+  },
+  "SG Blau-Weiß Beelitz": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sg-beelitz.de&sz=256",
+    "website": "https://www.sg-beelitz.de"
+  },
+  "SG Geltow": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sg-geltow.de&sz=256",
+    "website": "https://www.sg-geltow.de"
+  },
+  "SG Grün-Weiß Golm II": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=gwgolm.de&sz=256",
+    "website": "https://www.gwgolm.de"
+  },
+  "SV 1948 Ferch": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=svferch.de&sz=256",
+    "website": "https://www.svferch.de"
+  },
+  "SV Dallgow 47": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=sv-dallgow.de&sz=256",
+    "website": "https://www.sv-dallgow.de"
+  },
+  "SV Ruhlsdorf I": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=svruhlsdorf.de&sz=256",
+    "website": "https://www.svruhlsdorf.de"
+  },
+  "SV Ziesar 1": {
+    "logo_url": "https://www.google.com/s2/favicons?domain=svziesar.de&sz=256",
+    "website": "https://www.svziesar.de"
   }
 }

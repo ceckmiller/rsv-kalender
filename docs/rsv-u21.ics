@@ -7,23 +7,24 @@ X-WR-CALNAME:RSV Eintracht – U21
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u21-710089011@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260816T083000Z
 DTEND:20260816T103000Z
 SUMMARY:Kreispokal | Kreispokal | Rot-Weiß Groß Glienicke II – RSV Ei
  ntracht 1949 U21 | Anstoß: 10:30 Uhr
 DESCRIPTION:Kreispokal\nKreispokal\nRot-Weiß Groß Glienicke II – RSV 
  Eintracht 1949 U21\nAnstoß: 10:30 Uhr\n\n\n🏟️ Spielort: noch nicht
-  hinterlegt\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eintrac
- ht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011M
- IDHKSO000000VTVG0001VTR8C1K7
+  hinterlegt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.co
+ m/search?q=Wetter+2026-08-16\n\nQuelle: https://www.fussball.de/manns
+ chaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/
+ 2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480004@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260830T120000Z
 DTEND:20260830T140000Z
 SUMMARY:1. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – FV Turbine 
@@ -33,9 +34,12 @@ DESCRIPTION:1. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – FV Turbin
  inrich-Zille-Straße (Die Zille)\, Heinrich-Zille-Straße 32\, 14532 St
  ahnsdorf\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1
  &query=Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Hein
- rich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\nQuelle: https://www.
- fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-bran
- denburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+ rich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\n🌦️ Wetter am Spiel
+ ort öffnen: https://www.google.com/search?q=Wetter+Sportanlage+Heinri
+ ch-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32
+ %2C+14532+Stahnsdorf+2026-08-30\n\nQuelle: https://www.fussball.de/ma
+ nnschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/sais
+ on/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:Sportanlage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zill
  e-Straße 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
@@ -43,39 +47,41 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480013@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260906T130000Z
 DTEND:20260906T150000Z
 SUMMARY:2. Spieltag | Kreisliga | SV 1948 Ferch – RSV Eintracht 1949 U
  21 | Anstoß: 15:00 Uhr
 DESCRIPTION:2. Spieltag\nKreisliga\nSV 1948 Ferch – RSV Eintracht 1949
   U21\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinterlegt\n\
- nQuelle: https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rs
- v-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VT
- VG0001VTR8C1K7
+ n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wet
+ ter+2026-09-06\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eint
+ racht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/0
+ 11MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480019@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260913T130000Z
 DTEND:20260913T150000Z
 SUMMARY:3. Spieltag | Kreisliga | FSV Grün-Weiß Niemegk – RSV Eintrac
  ht 1949 U21 | Anstoß: 15:00 Uhr
 DESCRIPTION:3. Spieltag\nKreisliga\nFSV Grün-Weiß Niemegk – RSV Eintr
  acht 1949 U21\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hint
- erlegt\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eintracht-19
- 49-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKS
- O000000VTVG0001VTR8C1K7
+ erlegt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/sea
+ rch?q=Wetter+2026-09-13\n\nQuelle: https://www.fussball.de/mannschaft
+ /rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/
+ team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480028@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260920T120000Z
 DTEND:20260920T140000Z
 SUMMARY:4. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – Teltower FV
@@ -85,9 +91,12 @@ DESCRIPTION:4. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – Teltower
  ch-Zille-Straße (Die Zille)\, Heinrich-Zille-Straße 32\, 14532 Stahns
  dorf\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1&que
  ry=Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich
- -Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\nQuelle: https://www.fuss
- ball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenb
- urg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+ -Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\n🌦️ Wetter am Spielort 
+ öffnen: https://www.google.com/search?q=Wetter+Sportanlage+Heinrich-Z
+ ille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+
+ 14532+Stahnsdorf+2026-09-20\n\nQuelle: https://www.fussball.de/mannsc
+ haft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2
+ 627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:Sportanlage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zill
  e-Straße 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
@@ -95,23 +104,24 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480033@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20260927T110000Z
 DTEND:20260927T130000Z
 SUMMARY:5. Spieltag | Kreisliga | SG Grün-Weiß Golm II – RSV Eintrach
  t 1949 U21 | Anstoß: 13:00 Uhr
 DESCRIPTION:5. Spieltag\nKreisliga\nSG Grün-Weiß Golm II – RSV Eintra
  cht 1949 U21\nAnstoß: 13:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinte
- rlegt\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eintracht-194
- 9-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO
- 000000VTVG0001VTR8C1K7
+ rlegt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/sear
+ ch?q=Wetter+2026-09-27\n\nQuelle: https://www.fussball.de/mannschaft/
+ rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/t
+ eam-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480044@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20261004T120000Z
 DTEND:20261004T140000Z
 SUMMARY:6. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – SG Bornim I
@@ -121,9 +131,12 @@ DESCRIPTION:6. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – SG Bornim
  e-Straße (Die Zille)\, Heinrich-Zille-Straße 32\, 14532 Stahnsdorf\n
  🗺️ Google Maps: https://www.google.com/maps/search/?api=1&query=Spo
  rtanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille
- -Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\nQuelle: https://www.fussball.d
- e/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/
- saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+ -Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\n🌦️ Wetter am Spielort öffne
+ n: https://www.google.com/search?q=Wetter+Sportanlage+Heinrich-Zille-
+ Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532
+ +Stahnsdorf+2026-10-04\n\nQuelle: https://www.fussball.de/mannschaft/
+ rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/t
+ eam-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:Sportanlage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zill
  e-Straße 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
@@ -131,23 +144,24 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480055@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20261011T133000Z
 DTEND:20261011T153000Z
 SUMMARY:7. Spieltag | Kreisliga | Rot-Weiß Groß Glienicke – RSV Eintr
  acht 1949 U21 | Anstoß: 15:30 Uhr
 DESCRIPTION:7. Spieltag\nKreisliga\nRot-Weiß Groß Glienicke – RSV Ein
  tracht 1949 U21\nAnstoß: 15:30 Uhr\n\n\n🏟️ Spielort: noch nicht hi
- nterlegt\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eintracht-
- 1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDH
- KSO000000VTVG0001VTR8C1K7
+ nterlegt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/s
+ earch?q=Wetter+2026-10-11\n\nQuelle: https://www.fussball.de/mannscha
+ ft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/262
+ 7/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480060@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20261018T120000Z
 DTEND:20261018T140000Z
 SUMMARY:8. Spieltag | Kreisliga | RSV Eintracht 1949 U21 – FSV Brück I
@@ -157,9 +171,12 @@ DESCRIPTION:8. Spieltag\nKreisliga\nRSV Eintracht 1949 U21 – FSV Brück
  -Straße (Die Zille)\, Heinrich-Zille-Straße 32\, 14532 Stahnsdorf\n
  🗺️ Google Maps: https://www.google.com/maps/search/?api=1&query=Spo
  rtanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille
- -Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\nQuelle: https://www.fussball.d
- e/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/
- saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7
+ -Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\n🌦️ Wetter am Spielort öffne
+ n: https://www.google.com/search?q=Wetter+Sportanlage+Heinrich-Zille-
+ Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532
+ +Stahnsdorf+2026-10-18\n\nQuelle: https://www.fussball.de/mannschaft/
+ rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/t
+ eam-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:Sportanlage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zill
  e-Straße 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
@@ -167,16 +184,17 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-610480069@rsv-kalender
-DTSTAMP:20260731T132827Z
+DTSTAMP:20260731T140838Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
 SUMMARY:9. Spieltag | Kreisliga | SG Blau-Weiß Beelitz – RSV Eintracht
   1949 U21 | Anstoß: 14:00 Uhr
 DESCRIPTION:9. Spieltag\nKreisliga\nSG Blau-Weiß Beelitz – RSV Eintrac
  ht 1949 U21\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinter
- legt\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eintracht-1949
- -u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO0
- 00000VTVG0001VTR8C1K7
+ legt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/searc
+ h?q=Wetter+2026-10-25\n\nQuelle: https://www.fussball.de/mannschaft/r
+ sv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/te
+ am-id/011MIDHKSO000000VTVG0001VTR8C1K7
 LOCATION:
 STATUS:CONFIRMED
 TRANSP:OPAQUE

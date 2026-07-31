@@ -107,7 +107,8 @@ def parse_fussball(html, team, source_url):
             else: home,away=other,team
         dt=datetime.strptime(date+' '+time,'%d.%m.%Y %H:%M')
         mid=no.group(1) if no else hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:10]
-        out.append({'id':'u21-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':'','source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
+        prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
+        out.append({'id':prefix+'-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':'','source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
     return dedupe(out)
 
 def dedupe(games):
@@ -194,6 +195,18 @@ def load_clubs():
     path = DATA / 'clubs.json'
     return load_json(path) if path.exists() else {}
 
+def load_club_aliases():
+    path = DATA / 'club-aliases.json'
+    return load_json(path) if path.exists() else {}
+
+def canonical_club_name(team):
+    name=' '.join(str(team or '').replace('\u200b','').split())
+    aliases=load_club_aliases()
+    seen=set()
+    while name in aliases and name not in seen:
+        seen.add(name); name=aliases[name]
+    return name
+
 def maps_url(location):
     return f"https://www.google.com/maps/search/?api=1&query={quote_plus(location)}" if location else ''
 
@@ -278,7 +291,13 @@ def weather_for_game(game, location, venue=None):
         return None
 
 def club_logo_url(team, clubs):
-    info=clubs.get(team) or {}
+    canonical=canonical_club_name(team)
+    info=clubs.get(canonical) or clubs.get(team) or {}
+    if info.get('logo_url'):
+        return str(info.get('logo_url')).strip()
+    # Last-resort parent-club lookup for youth/reserve suffixes.
+    parent=re.sub(r'\s+(?:U19|U21|U23|I|II|III|1)$','',canonical).strip()
+    info=clubs.get(parent) or {}
     return str(info.get('logo_url') or '').strip()
 
 
@@ -331,7 +350,6 @@ def make_ics(meta,games):
         location=venue_for_game(g, venues)
         map_link=maps_url(location)
         weather_link=weather_search_url(location, g['date'])
-        forecast=weather_for_game(g, location, venue_record_for_game(g, venues)) if not g.get('result') else None
         home_logo=club_logo_url(g.get('home',''), clubs)
         away_logo=club_logo_url(g.get('away',''), clubs)
 
@@ -358,15 +376,8 @@ def make_ics(meta,games):
         else:
             desc.extend(['', '🏟️ Spielort: noch nicht hinterlegt'])
 
-        if is_first_team and not g.get('result'):
-            if forecast:
-                temp=f"{forecast['temperature']} °C" if forecast.get('temperature') is not None else 'Temperatur offen'
-                rain=f", Regenrisiko {forecast['rain']} %" if forecast['rain'] is not None else ''
-                wind=f", Wind bis {forecast['wind']} km/h" if forecast['wind'] is not None else ''
-                desc.extend(['', f"🌦️ Wetterprognose: {forecast['summary']}, {temp}{rain}{wind}"])
-            else:
-                desc.extend(['', '🌦️ Wetterprognose: wird automatisch ergänzt, sobald der Termin im Vorhersagezeitraum liegt'])
-            desc.append(f"Wetter öffnen: {weather_link}")
+        if not g.get('result') and weather_link:
+            desc.extend(['', f"🌦️ Wetter am Spielort öffnen: {weather_link}"])
 
         if is_first_team and g.get('result'):
             video=g.get('youtube_url') or youtube_search_url(g)
@@ -418,9 +429,7 @@ def build_site_data(team_configs):
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
                     'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
-                    'result':g.get('result') or '',
-                    'home_logo':club_logo_url(g.get('home',''), clubs),
-                    'away_logo':club_logo_url(g.get('away',''), clubs)
+                    'result':g.get('result') or ''
             })
 
             if g.get('result'):
@@ -432,6 +441,7 @@ def build_site_data(team_configs):
                     'attendance':g.get('attendance'), 'referee':g.get('referee'),
                     'location':location,
                     'maps_url':maps_url(location),
+                    'weather_url':weather_search_url(location, g.get('date','')),
                     'youtube_url':g.get('youtube_url') or (youtube_search_url(g) if key=='regionalliga' else ''),
                     'report_url':g.get('report_url') or '', 'points':g.get('points'),
                     'table_position':g.get('table_position')
@@ -445,13 +455,13 @@ def build_site_data(team_configs):
             if event_date < today:
                 continue
 
-            forecast=weather_for_game(g, location, venue_record_for_game(g, venues))
+            forecast=None  # Version 2.1: Wetter wird nur noch extern verlinkt.
             future.append({
                 'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                 'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
                 'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
                 'location':location, 'maps_url':maps_url(location),
-                'weather':forecast, 'weather_url':weather_search_url(location, g.get('date','')),
+                'weather':None, 'weather_url':weather_search_url(location, g.get('date','')),
                 'is_home':g.get('home') == team_name
             })
 
@@ -485,14 +495,9 @@ def build_site_data(team_configs):
             'rows':[{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs)} for i,t in enumerate(teams,1)]
         }
 
-    aliases = {
-        '1. FC Lokomotive Leipzig': '1. FC Lok Leipzig',
-        'FC Erzgebirge Aue': 'Erzgebirge Aue'
-    }
     for table in payload.get('tables', {}).values():
         for row in table.get('rows', []):
-            team = row.get('team', '')
-            row['logo_url'] = club_logo_url(aliases.get(team, team), clubs)
+            row['logo_url'] = club_logo_url(row.get('team', ''), clubs)
     (DOCS/'site-data.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def process(key,offline=False):
@@ -519,7 +524,7 @@ def process(key,offline=False):
     if remote:
         meta['games']=merged; save_json(path,meta)
     DOCS.mkdir(exist_ok=True)
-    out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics'}
+    out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics'}
     out=DOCS/out_names[key]
     out.write_text(make_ics(meta,merged),encoding='utf-8',newline='')
     print(f'{key}: {len(merged)} Termine erzeugt'+(f' (Online-Update übersprungen: {err})' if err else ''))
@@ -528,7 +533,7 @@ def process(key,offline=False):
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--offline',action='store_true'); args=ap.parse_args()
     ok=True; configs=[]
-    for key in ('regionalliga','u23','u21'):
+    for key in ('regionalliga','u23','u21','u19'):
         try:
             ok=process(key,args.offline) and ok
             meta=load_json(DATA/f'{key}.json')
@@ -537,7 +542,7 @@ def main():
         except Exception as e:
             print(f'{key}: FEHLER: {e}',file=sys.stderr); ok=False
     build_site_data(configs)
-    required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics')
+    required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics')
     if not ok and not all((DOCS/x).exists() for x in required): return 1
     return 0
 if __name__=='__main__': raise SystemExit(main())

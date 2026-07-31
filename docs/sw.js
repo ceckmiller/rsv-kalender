@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rsv-kalender-v8-7';
+const CACHE_NAME = 'rsv-eintracht-v2-1';
 const APP_SHELL = [
   '/',
   '/index.html',
@@ -27,6 +27,6 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.endsWith('.ics') || url.pathname.endsWith('site-data.json')) return;
+  if (url.pathname.endsWith('.ics') || url.pathname.endsWith('site-data.json') || url.pathname.startsWith('/api/') || url.pathname.startsWith('/.netlify/functions/')) return;
   event.respondWith(fetch(event.request).catch(() => caches.match(event.request).then(r => r || caches.match('/index.html'))));
 });

@@ -1,0 +1,9 @@
+{
+  "name": "rsv-eintracht-app",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "dependencies": {
+    "@netlify/blobs": "latest"
+  }
+}

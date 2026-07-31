@@ -1,8 +1,34 @@
 [build]
   publish = "docs"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/site-data"
+  to = "/.netlify/functions/site-data"
+  status = 200
+
+[[redirects]]
+  from = "/rsv-regionalliga.ics"
+  to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
+  status = 200
+
+[[redirects]]
+  from = "/rsv-u23.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u23.ics"
+  status = 200
+
+[[redirects]]
+  from = "/rsv-u21.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u21.ics"
+  status = 200
 
 [[headers]]
   for = "/*.ics"
   [headers.values]
     Content-Type = "text/calendar; charset=utf-8"
     Cache-Control = "public, max-age=300"
+
+[[redirects]]
+  from = "/rsv-u19.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u19.ics"
+  status = 200
