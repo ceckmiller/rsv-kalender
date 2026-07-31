@@ -59,3 +59,12 @@ Die bisherigen öffentlichen ICS-Adressen bleiben bestehen.
 - Beispiele: `1. FC Lokomotive Leipzig` und `1. FC Lok Leipzig` nutzen dasselbe Logo; ebenso `FC Erzgebirge Aue` und `Erzgebirge Aue`.
 - Für alle aktuell im Datenbestand vorkommenden Mannschaften ist eine Logo-Zuordnung vorhanden.
 - Fehlt später ein neuer Verein, bleibt das Initialen-Ersatzlogo als letzte Rückfallebene aktiv.
+
+## Lesbarkeit und Vereinslogos (letztes Update)
+
+- Wichtige Schriftgrößen wurden auf Mobilgeräten und Desktop vergrößert.
+- Mannschaftsnamen in Spielkarten, Terminlisten und Tabellen sind deutlich größer.
+- Tabellen bleiben ohne horizontales Scrollen; Vereinsnamen dürfen innerhalb der Mannschaftsspalte umbrechen.
+- Der Countdown verwendet größere Zahlen und Beschriftungen.
+- Externe Vereinslogos werden über `/api/logo` von einer Netlify Function geladen und zwischengespeichert. Dadurch ist die Darstellung nicht mehr davon abhängig, ob der Browser externe Logo-Hosts direkt blockiert.
+- Wenn eine Logoquelle dennoch nicht erreichbar ist, bleiben Vereinsinitialen als Rückfallebene erhalten.

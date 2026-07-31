@@ -1,6 +1,6 @@
 import { getStore } from '@netlify/blobs';
 
-const files = new Set(['rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics']);
+const files = new Set(['rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics']);
 
 export default async (request) => {
   const url = new URL(request.url);

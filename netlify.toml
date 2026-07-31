@@ -8,6 +8,11 @@
   status = 200
 
 [[redirects]]
+  from = "/api/logo"
+  to = "/.netlify/functions/logo"
+  status = 200
+
+[[redirects]]
   from = "/rsv-regionalliga.ics"
   to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
   status = 200
