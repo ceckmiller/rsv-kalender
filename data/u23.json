@@ -2,7 +2,6 @@
   "calendar_name": "RSV Eintracht – U23",
   "team_name": "RSV Eintracht 1949 U23",
   "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
-  "minimum_games": 30,
   "first_team": false,
   "games": [
     {
@@ -124,5 +123,6 @@
   "source_urls": [
     "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-01/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7"
-  ]
+  ],
+  "expected_league_games": 30
 }

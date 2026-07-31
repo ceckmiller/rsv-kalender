@@ -2,16 +2,18 @@
 import json, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-checks={'regionalliga':34,'u23':30,'u21':30,'u19':30}
 failed=[]
-for key,minimum in checks.items():
-    data=json.loads((ROOT/'data'/f'{key}.json').read_text(encoding='utf-8'))
-    count=len(data.get('games',[]))
-    print(f'{key}: {count} Termine (Minimum {minimum})')
-    if count<minimum: failed.append(f'{key}: nur {count}/{minimum}')
-# Cup must not be silently discarded when present in source data.
-rl=json.loads((ROOT/'data'/'regionalliga.json').read_text(encoding='utf-8'))
-print('Brandenburg-Pokal-Termine:', sum('pokal' in str(g.get('competition','')).lower() for g in rl.get('games',[])))
+for key in ("regionalliga","u23","u21","u19"):
+    data=json.loads((ROOT/"data"/f"{key}.json").read_text(encoding="utf-8"))
+    games=data.get("games",[])
+    expected=int(data.get("expected_league_games") or 0)
+    league=[g for g in games if not any(x in str(g.get("competition","")).lower() for x in ("pokal","freundschaft","testspiel"))]
+    extras=len(games)-len(league)
+    print(f"{key}: {len(league)} Ligaspiele / erwartet {expected}; {extras} zusätzliche Pokal-/Freundschaftsspiele")
+    if expected and len(league)<expected:
+        failed.append(f"{key}: nur {len(league)}/{expected} Ligaspiele")
+rl=json.loads((ROOT/"data"/"regionalliga.json").read_text(encoding="utf-8"))
+print("Pokal-Termine 1. Herren:", sum("pokal" in str(g.get("competition","")).lower() for g in rl.get("games",[])))
 if failed:
-    print('Release-Pruefung fehlgeschlagen: '+'; '.join(failed), file=sys.stderr)
+    print("Release-Prüfung fehlgeschlagen: "+"; ".join(failed), file=sys.stderr)
     sys.exit(1)

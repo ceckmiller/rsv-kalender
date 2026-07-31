@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse, hashlib, json, os, re, sys, warnings
+import argparse, hashlib, json, mimetypes, os, re, sys, warnings
 from urllib.parse import quote_plus, urljoin
 from copy import deepcopy
 from datetime import datetime, timedelta
@@ -218,6 +218,49 @@ def parse_fussball(html, team, source_url):
         mid=no.group(1) if no else hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:10]
         prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
         out.append({'id':prefix+'-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':extract_location_from_text(block),'source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
+    # Fallback for the compact text representation used by FUSSBALL.DE
+    # on team and print pages, e.g.:
+    #   So, 30.08.26 | 14:00 Kreisliga ME | 610088005 Team A : Team B Zum Spiel
+    # The older parser above only recognizes the long date heading and can
+    # therefore see just the initially rendered subset of fixtures.
+    flat=' '.join(soup.get_text(' ',strip=True).split())
+    compact_re=re.compile(
+        r'(?P<day>Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*'
+        r'(?P<date>\d{2}\.\d{2}\.(?:\d{2}|\d{4}))\s*\|\s*'
+        r'(?P<time>\d{2}:\d{2})\s+'
+        r'(?P<competition>.*?)\s+(?P<kind>ME|PO|FS)\s*\|\s*'
+        r'(?P<number>[678]\d{8})\s+'
+        r'(?P<home>.*?)\s*:\s*(?P<away>.*?)'
+        r'(?=\s+Zum Spiel|\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',
+        re.I
+    )
+    known={(g.get('match_number') or '',g['date'],g['home'],g['away']) for g in out}
+    for m in compact_re.finditer(flat):
+        home=' '.join(m.group('home').split()).strip()
+        away=' '.join(m.group('away').split()).strip()
+        # Remove stray UI labels that sometimes precede a team name.
+        home=re.sub(r'^(?:Nächste Spiele|Letzte Spiele|Mannschaftsspielplan|Wichtiger Hinweis zum Spielplan)\s+','',home,flags=re.I)
+        if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
+            continue
+        raw_date=m.group('date')
+        fmt='%d.%m.%Y' if len(raw_date.split('.')[-1])==4 else '%d.%m.%y'
+        dt=datetime.strptime(raw_date+' '+m.group('time'),fmt+' %H:%M')
+        number=m.group('number')
+        identity=(number,dt.strftime('%Y-%m-%d'),home,away)
+        if identity in known:
+            continue
+        prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
+        competition=' '.join(m.group('competition').split()).strip()
+        # Search a small slice after the match for an explicitly labelled venue.
+        tail=flat[m.end():m.end()+500]
+        location=extract_location_from_text(tail)
+        out.append({
+            'id':prefix+'-'+number,'date':dt.strftime('%Y-%m-%d'),'time':m.group('time'),
+            'home':home,'away':away,'competition':competition+' 2026/27','result':None,
+            'location':location,'source_url':source_url,'match_number':number,
+            'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')
+        })
+        known.add(identity)
     return dedupe(out)
 
 def dedupe(games):
@@ -473,6 +516,8 @@ def cache_logo(team, url):
     question mark. Source-provided crests take precedence over favicon URLs.
     """
     if not url:
+        return ''
+    if 'gstatic.com/favicon' in str(url) or 'google.com/s2/favicons' in str(url):
         return ''
     if os.environ.get('RSV_OFFLINE') == '1':
         return str(url) if str(url).startswith('/assets/') else ''
@@ -808,6 +853,54 @@ def build_site_data(team_configs, ticket_events=None):
             row['logo_url'] = club_logo_url(row.get('team', ''), clubs, discovered_logos)
     (DOCS/'site-data.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
+def is_league_game(game):
+    competition = competition_label(game.get('competition', '')).lower()
+    return not any(word in competition for word in ('pokal', 'freundschaft', 'testspiel'))
+
+
+def league_game_count(games):
+    return sum(1 for game in games if is_league_game(game))
+
+
+def validate_schedule_completeness(key, meta, existing, remote, source_errors=None):
+    """Validate the official league schedule, not an arbitrary total count.
+
+    Cup and friendly fixtures are additional and may legitimately make the total
+    larger or smaller at different points in the season. The stable completeness
+    criterion is therefore the number of published league fixtures expected for
+    the specific competition.
+    """
+    if not remote:
+        details = ' | '.join(source_errors or [])
+        raise RuntimeError('keine Spiele erkannt' + (f'; {details}' if details else ''))
+
+    expected = int(meta.get('expected_league_games') or 0)
+    remote_league = league_game_count(remote)
+    existing_league = league_game_count(existing)
+
+    # A known complete local/live baseline must never be replaced by a clearly
+    # truncated page response (for example the first 9 or 10 visible fixtures).
+    reference = max(expected, existing_league)
+    if reference and remote_league < reference:
+        details = ' | '.join(source_errors or [])
+        raise RuntimeError(
+            f'nur {remote_league} Ligaspiele erkannt; erwartet sind {reference}. '
+            'Pokal- und Freundschaftsspiele werden separat und ohne Mindestzahl übernommen.'
+            + (f'; {details}' if details else '')
+        )
+
+
+def validate_merged_schedule(key, meta, merged):
+    expected = int(meta.get('expected_league_games') or 0)
+    actual = league_game_count(merged)
+    if expected and actual < expected:
+        raise RuntimeError(
+            f'{key}: unvollständiger Ligaspielplan ({actual}/{expected} Ligaspiele); '
+            'vorhandene Live-Daten werden nicht überschrieben. '
+            'Pokal- und Freundschaftsspiele zählen zusätzlich, aber nicht zur Liga-Vollständigkeit.'
+        )
+
+
 def process(key,offline=False):
     path=DATA/f'{key}.json'; meta=load_json(path); games=meta['games']; remote=[]; err=None
     if not offline:
@@ -822,8 +915,7 @@ def process(key,offline=False):
                 except Exception as source_exc:
                     source_errors.append(f'{url}: {source_exc}')
             remote=dedupe(parsed)
-            if len(remote)<meta.get('minimum_games',0):
-                raise RuntimeError(f'nur {len(remote)} Spiele erkannt; Mindestwert {meta.get("minimum_games")}; '+ ' | '.join(source_errors))
+            validate_schedule_completeness(key, meta, games, remote, source_errors)
         except Exception as e: err=str(e); remote=[]
     venue_cache=load_venue_cache()
     merged=merge(games,remote)
@@ -831,9 +923,7 @@ def process(key,offline=False):
     merged=apply_venue_cache(merged,venue_cache)
     update_venue_cache(merged,venue_cache)
     save_json(DATA/'venue-cache.json',venue_cache)
-    minimum=meta.get('minimum_games',0)
-    if len(merged) < minimum:
-        raise RuntimeError(f'{key}: unvollstaendiger Spielplan ({len(merged)}/{minimum}); vorhandene Live-Daten werden nicht ueberschrieben')
+    validate_merged_schedule(key, meta, merged)
     # Persist only when remote passed validation; baseline remains source of truth.
     if remote:
         meta['games']=merged; save_json(path,meta)

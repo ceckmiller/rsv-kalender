@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-31T17:56:24.081367+02:00",
+  "updated_at": "2026-07-31T18:05:22.481173+02:00",
   "games": {
     "rl-01": {
       "identity": "2026-07-25|14:00|BFC Preussen 1894|RSV Eintracht 1949",
       "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "updated_at": "2026-07-31T17:56:24.071707+02:00"
+      "updated_at": "2026-07-31T18:05:22.481173+02:00"
     }
   }
 }

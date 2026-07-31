@@ -2,7 +2,6 @@
   "calendar_name": "RSV Eintracht – Regionalliga",
   "team_name": "RSV Eintracht 1949",
   "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-  "minimum_games": 30,
   "games": [
     {
       "id": "rl-01",
@@ -382,5 +381,6 @@
   "first_team": true,
   "source_urls": [
     "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
-  ]
+  ],
+  "expected_league_games": 34
 }

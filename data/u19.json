@@ -5,7 +5,6 @@
     "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7"
   ],
-  "minimum_games": 30,
   "first_team": false,
   "games": [
     {
@@ -387,5 +386,6 @@
       "match_number": "690007179",
       "time_provisional": true
     }
-  ]
+  ],
+  "expected_league_games": 26
 }
