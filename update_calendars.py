@@ -169,99 +169,199 @@ def extract_location_from_text(text):
     m=re.search(r'([^|]{2,80}(?:straße|strasse|weg|allee|damm|ring|platz)\s+\d+[a-zA-Z]?(?:[–-]\d+)?\s*,?\s*\d{5}\s+[^|]{2,60})',compact,re.I)
     return m.group(1).strip(' :-|') if m else ''
 
-def parse_fussball(html, team, source_url):
-    soup=BeautifulSoup(html,'html.parser')
-    text='\n'.join(x.strip() for x in soup.get_text('\n').splitlines() if x.strip())
-    lines=text.splitlines(); out=[]
-    # FUSSBALL.DE often exposes crest URLs next to team links. Preserve them per fixture.
-    logo_map={}
-    for a in soup.find_all('a'):
-        name=' '.join(a.get_text(' ',strip=True).split())
-        if not name: continue
-        container=a.parent
-        img=(container.find('img') if container else None) or a.find('img')
+def _absolute_fussball_url(value):
+    value=(value or '').strip()
+    if not value:
+        return ''
+    if value.startswith('//'):
+        return 'https:'+value
+    if value.startswith('/'):
+        return 'https://www.fussball.de'+value
+    return value
+
+
+def _team_prefix(team):
+    folded=team.casefold()
+    if 'u19' in folded: return 'u19'
+    if 'u23' in folded: return 'u23'
+    return 'u21'
+
+
+def _extract_team_cell(cell):
+    if not cell:
+        return '', ''
+    name_tag=cell.select_one('.club-name')
+    if name_tag:
+        name=' '.join(name_tag.get_text(' ',strip=True).split())
+    else:
+        # Remove image/utility text before taking the cell text.
+        name=' '.join(cell.get_text(' ',strip=True).split())
+    logo=''
+    responsive=cell.select_one('[data-responsive-image]')
+    if responsive:
+        logo=responsive.get('data-responsive-image','')
+    if not logo:
+        img=cell.find('img')
         if img:
-            src=img.get('data-src') or img.get('src') or ''
-            if src.startswith('//'): src='https:'+src
-            if src.startswith('/'): src='https://www.fussball.de'+src
-            if src.startswith('http'): logo_map[name]=src
-    # Find date headers, then inspect the following compact block for match number and teams.
-    for i,line in enumerate(lines):
-        m=re.match(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s*(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}:\d{2})\s*Uhr\s*\|\s*(.+)',line)
-        if not m: continue
-        date,time,comp=m.group(2),m.group(3),m.group(4)
-        next_i=next((j for j in range(i+1,len(lines)) if re.match(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s*\d{2}\.\d{2}\.\d{4}',lines[j])), min(len(lines),i+45))
-        block=' | '.join(lines[i+1:next_i])
-        no=re.search(r'\b([678]\d{8})\b',block)
-        # Team names occur around a colon. Use known team and nearby tokens.
-        pos=block.find(team)
-        if pos<0: continue
-        before=block[:pos]; after=block[pos+len(team):]
-        # Links rendered as plain text; select the nearest plausible names.
-        names=[x.strip() for x in re.split(r'\s*\|\s*',block) if x.strip()]
-        names=[x for x in names if x not in {':','Zum Spiel','ME','PO','FS'} and not re.fullmatch(r'\d{2}\.\d{2}\.\d{2}',x) and not re.fullmatch(r'\d{2}:\d{2}',x) and not re.fullmatch(r'\d{9}',x)]
-        idx=next((j for j,x in enumerate(names) if x==team),None)
-        if idx is None: continue
-        home=names[idx-1] if idx>0 and ':' in names[idx-1] else None
-        # Better: find colon marker in original names list.
-        try:
-            c=names.index(':')
-            home=names[c-1]; away=names[c+1]
-        except Exception:
-            # Derive whether team appears before/after first colon in block.
-            colon=block.find(':', max(0,pos-80))
-            candidates=[x for x in names if len(x)>3 and team!=x and not x.startswith(('So,','Sa,','Fr,','Mi,','Di,','Mo,','Do,'))]
-            other=candidates[-1] if candidates else 'Unbekannter Gegner'
-            if colon>=0 and pos<colon: home,away=team,other
-            else: home,away=other,team
+            logo=img.get('data-src') or img.get('src') or ''
+    return name, _absolute_fussball_url(logo)
+
+
+def _parse_header_info(text):
+    text=' '.join(str(text).replace('\xa0',' ').split())
+    # Long print-page header, for example:
+    # Samstag, 30.08.2026 - 14:00 Uhr | Herren | Kreisoberliga
+    m=re.search(
+        r'(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*'
+        r'(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}:\d{2})\s*Uhr\s*\|\s*(.+)$',
+        text,re.I)
+    if m:
+        parts=[x.strip() for x in m.group(3).split('|') if x.strip()]
+        return m.group(1),m.group(2),parts[-1] if parts else ''
+    # Compact AJAX/print header.
+    m=re.search(
+        r'(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*(\d{2}\.\d{2}\.(?:\d{2}|\d{4}))\s*\|\s*'
+        r'(\d{2}:\d{2})\s+(.+?)(?:\s+(?:ME|PO|FS))?(?:\s*\||$)',text,re.I)
+    if m:
+        raw=m.group(1)
+        fmt='%d.%m.%Y' if len(raw.rsplit('.',1)[-1])==4 else '%d.%m.%y'
+        date=datetime.strptime(raw,fmt).strftime('%d.%m.%Y')
+        return date,m.group(2),m.group(3).strip()
+    return None
+
+
+def _plain_score(score_cell):
+    if not score_cell:
+        return None
+    text=' '.join(score_cell.get_text(' ',strip=True).split())
+    m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)',text)
+    return f'{m.group(1)}:{m.group(2)}' if m else None
+
+
+def _match_number_from_link(url):
+    if not url:
+        return ''
+    patterns=(r'/spiel/([^/?#]+)',r'/game/([^/?#]+)',r'\b([678]\d{8})\b')
+    for pat in patterns:
+        m=re.search(pat,url)
+        if m: return m.group(1)
+    return ''
+
+
+def _explicit_location_from_tag(tag):
+    if not tag:
+        return ''
+    # Prefer an explicit location link or labelled venue element.
+    for selector in ('a.location','.location','[data-location]','.venue','.spielort','.sports-location'):
+        node=tag.select_one(selector)
+        if node:
+            value=node.get('data-location') or node.get_text(' ',strip=True)
+            value=' '.join(str(value).split())
+            if value: return value.replace('Rasenplatz, ','',1)
+    return extract_location_from_text(tag.get_text(' | ',strip=True))
+
+
+def parse_fussball_table(html, team, source_url):
+    """Parse the complete FUSSBALL.DE print/AJAX table structure.
+
+    FUSSBALL.DE renders each fixture as a date header row followed by a row with
+    ``column-club-left``, ``column-score`` and ``column-club-right`` cells.  This
+    is substantially more stable than flattening the page and is also used by
+    the site's own AJAX fragments.  The parser intentionally reads every table
+    row, so it does not stop at the initially visible 6-10 fixtures.
+    """
+    soup=BeautifulSoup(html,'html.parser')
+    rows=soup.find_all('tr')
+    out=[]; current=None; prefix=_team_prefix(team)
+    for idx,row in enumerate(rows):
+        classes=set(row.get('class') or [])
+        row_text=' '.join(row.get_text(' ',strip=True).split())
+        header=_parse_header_info(row_text)
+        if 'visible-small' in classes or (header and not row.select_one('td.column-score')):
+            if header:
+                date,time,competition=header
+                current={'date':date,'time':time,'competition':competition}
+            continue
+        score_cell=row.select_one('td.column-score')
+        if not score_cell or not current:
+            continue
+        home_cell=row.select_one('td.column-club-left')
+        away_cell=row.select_one('td.column-club-right')
+        if not home_cell or not away_cell:
+            cells=row.select('td.column-club')
+            if len(cells)>=2:
+                home_cell,away_cell=cells[0],cells[1]
+        home,home_logo=_extract_team_cell(home_cell)
+        away,away_logo=_extract_team_cell(away_cell)
+        if not home or not away:
+            continue
+        if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
+            continue
+        link=score_cell.find('a',href=True) or row.find('a',href=re.compile(r'/spiel/'))
+        detail_url=_absolute_fussball_url(link.get('href','') if link else '')
+        match_number=_match_number_from_link(detail_url)
+        date=current['date']; time=current['time']
         dt=datetime.strptime(date+' '+time,'%d.%m.%Y %H:%M')
-        mid=no.group(1) if no else hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:10]
-        prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
-        out.append({'id':prefix+'-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':extract_location_from_text(block),'source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
-    # Fallback for the compact text representation used by FUSSBALL.DE
-    # on team and print pages, e.g.:
-    #   So, 30.08.26 | 14:00 Kreisliga ME | 610088005 Team A : Team B Zum Spiel
-    # The older parser above only recognizes the long date heading and can
-    # therefore see just the initially rendered subset of fixtures.
+        if not match_number:
+            match_number=hashlib.sha1(f'{dt.isoformat()}|{home}|{away}'.encode()).hexdigest()[:12]
+        location=_explicit_location_from_tag(row)
+        # Some print layouts place venue information in the immediately following row.
+        if not location and idx+1<len(rows):
+            next_row=rows[idx+1]
+            if not next_row.select_one('td.column-score') and not _parse_header_info(next_row.get_text(' ',strip=True)):
+                location=_explicit_location_from_tag(next_row)
+        competition=current.get('competition','').strip()
+        out.append({
+            'id':prefix+'-'+match_number,
+            'date':dt.strftime('%Y-%m-%d'),'time':time,
+            'home':home,'away':away,
+            'competition':(competition+' 2026/27').strip(),
+            'result':_plain_score(score_cell),'location':location,
+            'source_url':detail_url or source_url,'match_number':match_number,
+            'home_logo':home_logo,'away_logo':away_logo,
+        })
+    return dedupe(out)
+
+
+def parse_fussball_text_fallback(html, team, source_url):
+    """Compatibility fallback for uncommon text-only FUSSBALL.DE responses."""
+    soup=BeautifulSoup(html,'html.parser')
     flat=' '.join(soup.get_text(' ',strip=True).split())
+    out=[]; prefix=_team_prefix(team)
     compact_re=re.compile(
         r'(?P<day>Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*'
         r'(?P<date>\d{2}\.\d{2}\.(?:\d{2}|\d{4}))\s*\|\s*'
         r'(?P<time>\d{2}:\d{2})\s+'
         r'(?P<competition>.*?)\s+(?P<kind>ME|PO|FS)\s*\|\s*'
-        r'(?P<number>[678]\d{8})\s+'
+        r'(?P<number>[A-Za-z0-9_-]{8,})\s+'
         r'(?P<home>.*?)\s*:\s*(?P<away>.*?)'
-        r'(?=\s+Zum Spiel|\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',
-        re.I
-    )
-    known={(g.get('match_number') or '',g['date'],g['home'],g['away']) for g in out}
+        r'(?=\s+Zum Spiel|\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',re.I)
     for m in compact_re.finditer(flat):
         home=' '.join(m.group('home').split()).strip()
         away=' '.join(m.group('away').split()).strip()
-        # Remove stray UI labels that sometimes precede a team name.
-        home=re.sub(r'^(?:Nächste Spiele|Letzte Spiele|Mannschaftsspielplan|Wichtiger Hinweis zum Spielplan)\s+','',home,flags=re.I)
         if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
             continue
-        raw_date=m.group('date')
-        fmt='%d.%m.%Y' if len(raw_date.split('.')[-1])==4 else '%d.%m.%y'
-        dt=datetime.strptime(raw_date+' '+m.group('time'),fmt+' %H:%M')
+        raw=m.group('date'); fmt='%d.%m.%Y' if len(raw.rsplit('.',1)[-1])==4 else '%d.%m.%y'
+        dt=datetime.strptime(raw+' '+m.group('time'),fmt+' %H:%M')
         number=m.group('number')
-        identity=(number,dt.strftime('%Y-%m-%d'),home,away)
-        if identity in known:
-            continue
-        prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
-        competition=' '.join(m.group('competition').split()).strip()
-        # Search a small slice after the match for an explicitly labelled venue.
         tail=flat[m.end():m.end()+500]
-        location=extract_location_from_text(tail)
         out.append({
             'id':prefix+'-'+number,'date':dt.strftime('%Y-%m-%d'),'time':m.group('time'),
-            'home':home,'away':away,'competition':competition+' 2026/27','result':None,
-            'location':location,'source_url':source_url,'match_number':number,
-            'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')
-        })
-        known.add(identity)
+            'home':home,'away':away,'competition':' '.join(m.group('competition').split()).strip()+' 2026/27',
+            'result':None,'location':extract_location_from_text(tail),'source_url':source_url,
+            'match_number':number,'home_logo':'','away_logo':''})
     return dedupe(out)
+
+
+def parse_fussball(html, team, source_url):
+    table_games=parse_fussball_table(html,team,source_url)
+    fallback_games=parse_fussball_text_fallback(html,team,source_url)
+    games=dedupe(table_games+fallback_games)
+    print(
+        f'FUSSBALL.DE Parser {team}: Tabellenstruktur={len(table_games)}, '
+        f'Text-Fallback={len(fallback_games)}, zusammen={len(games)}'
+    )
+    return games
 
 def dedupe(games):
     seen={};
