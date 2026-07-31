@@ -11,7 +11,9 @@ Estimated match end is kickoff + 2 hours. The GitHub cron starts hourly at minut
 a +/- 35 minute window makes the event checks tolerant of GitHub scheduling delays.
 """
 from __future__ import annotations
-import json, os
+import json, os, re
+from urllib.request import Request, urlopen
+from urllib.parse import urljoin
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -43,6 +45,27 @@ def iter_fixtures(payload: dict):
             yield game
 
 
+
+def ticket_shop_has_new_events() -> bool:
+    """Lightweight hourly check that triggers a full update only for new ticket pages."""
+    overview = "https://rsv-eintracht.vereinsticket.de/herren/"
+    try:
+        req = Request(overview, headers={"User-Agent": "Mozilla/5.0 (compatible; RSV-Kalender/1.0)"})
+        with urlopen(req, timeout=15) as response:
+            html = response.read().decode("utf-8", errors="ignore")
+        found = {
+            urljoin(overview, href).split("#", 1)[0]
+            for href in re.findall(r'href=["\']([^"\']+)["\']', html, flags=re.I)
+        }
+        found = {u for u in found if re.fullmatch(r'https://rsv-eintracht\.vereinsticket\.de/herren/[^/?#]+/?', u)}
+        saved_path = ROOT / "data" / "tickets.json"
+        saved = json.loads(saved_path.read_text(encoding="utf-8")) if saved_path.exists() else {}
+        known = {x.get("url", "") for x in saved.get("events", []) if x.get("url")}
+        return bool(found - known)
+    except Exception as exc:
+        print(f"Ticketshop-Schnellprüfung übersprungen: {exc}")
+        return False
+
 def main() -> int:
     now = datetime.now(TZ)
     event_name = os.getenv("GITHUB_EVENT_NAME", "")
@@ -50,6 +73,10 @@ def main() -> int:
 
     if event_name == "workflow_dispatch":
         reasons.append("manueller Start")
+
+    # A new ticket detail page should be linked without waiting for the daily run.
+    if ticket_shop_has_new_events():
+        reasons.append("neuer Tickettermin im RSV-Ticketshop")
 
     # Exactly one of the hourly checks becomes the daily run.
     if now.hour == 5:

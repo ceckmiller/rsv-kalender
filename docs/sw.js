@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rsv-2-1-rc-club-links';
+const CACHE_NAME = 'rsv-2-1-final-v5';
 const APP_SHELL = [
   '/',
   '/index.html',

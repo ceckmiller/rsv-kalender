@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T17:28:04.571623+02:00",
+  "generated_at": "2026-07-31T17:56:24.085655+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -96,7 +96,7 @@
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-08",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
         },
         {
           "id": "rl-05",
@@ -128,7 +128,7 @@
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-26",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
         },
         {
           "id": "rl-07",
@@ -144,7 +144,7 @@
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-30",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
         },
         {
           "id": "rl-08",
@@ -579,6 +579,790 @@
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         }
       ],
+      "round_groups": [
+        {
+          "id": "league:Regionalliga Nordost:1",
+          "kind": "league",
+          "title": "Erster Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "1",
+          "matches": [
+            {
+              "id": "rl-01",
+              "date": "2026-07-25",
+              "time": "14:00",
+              "home": "BFC Preussen 1894",
+              "away": "RSV Eintracht 1949",
+              "result": "1:1",
+              "halftime_result": "1:0",
+              "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
+              "matchday": 1,
+              "home_logo": "https://www.google.com/s2/favicons?domain=bfc-preussen.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-07-25"
+        },
+        {
+          "id": "league:Regionalliga Nordost:2",
+          "kind": "league",
+          "title": "Zweiter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "2",
+          "matches": [
+            {
+              "id": "rl-02",
+              "date": "2026-08-01",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FSV 63 Luckenwalde",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 2,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fsv63-luckenwalde.de&sz=256"
+            }
+          ],
+          "date": "2026-08-01"
+        },
+        {
+          "id": "league:Regionalliga Nordost:3",
+          "kind": "league",
+          "title": "Dritter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "3",
+          "matches": [
+            {
+              "id": "rl-03",
+              "date": "2026-08-04",
+              "time": "19:00",
+              "home": "FC Carl Zeiss Jena",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 3,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fc-carlzeiss-jena.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-04"
+        },
+        {
+          "id": "league:Regionalliga Nordost:4",
+          "kind": "league",
+          "title": "Vierter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "4",
+          "matches": [
+            {
+              "id": "rl-04",
+              "date": "2026-08-08",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BSG Chemie Leipzig",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 4,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=chemie-leipzig.de&sz=256"
+            }
+          ],
+          "date": "2026-08-08"
+        },
+        {
+          "id": "league:Regionalliga Nordost:5",
+          "kind": "league",
+          "title": "Fünfter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "5",
+          "matches": [
+            {
+              "id": "rl-05",
+              "date": "2026-08-16",
+              "time": "14:00",
+              "home": "SV Babelsberg 03",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 5,
+              "home_logo": "https://www.google.com/s2/favicons?domain=babelsberg03.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-16"
+        },
+        {
+          "id": "league:Regionalliga Nordost:6",
+          "kind": "league",
+          "title": "Sechster Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "6",
+          "matches": [
+            {
+              "id": "rl-06",
+              "date": "2026-08-26",
+              "time": "19:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FSV Zwickau",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 6,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256"
+            }
+          ],
+          "date": "2026-08-26"
+        },
+        {
+          "id": "league:Regionalliga Nordost:7",
+          "kind": "league",
+          "title": "Siebter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "7",
+          "matches": [
+            {
+              "id": "rl-07",
+              "date": "2026-08-30",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "1. FC Magdeburg II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fc-magdeburg.de&sz=256"
+            }
+          ],
+          "date": "2026-08-30"
+        },
+        {
+          "id": "league:Regionalliga Nordost:8",
+          "kind": "league",
+          "title": "Achter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "8",
+          "matches": [
+            {
+              "id": "rl-08",
+              "date": "2026-09-13",
+              "time": "14:00",
+              "home": "FC Rot-Weiß Erfurt",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "home_logo": "https://www.google.com/s2/favicons?domain=rot-weiss-erfurt.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-09-13"
+        },
+        {
+          "id": "league:Regionalliga Nordost:9",
+          "kind": "league",
+          "title": "Neunter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "9",
+          "matches": [
+            {
+              "id": "rl-09",
+              "date": "2026-09-16",
+              "time": "19:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Greifswalder FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=greifswalder-fc.de&sz=256"
+            }
+          ],
+          "date": "2026-09-16"
+        },
+        {
+          "id": "league:Regionalliga Nordost:10",
+          "kind": "league",
+          "title": "Zehnter Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "10",
+          "matches": [
+            {
+              "id": "rl-10",
+              "date": "2026-09-20",
+              "time": "14:00",
+              "home": "VSG Altglienicke",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 10,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fussball.vsg-altglienicke.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-09-20"
+        },
+        {
+          "id": "league:Regionalliga Nordost:11",
+          "kind": "league",
+          "title": "11. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "11",
+          "matches": [
+            {
+              "id": "rl-11",
+              "date": "2026-09-27",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Chemnitzer FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 11,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=chemnitzerfc.de&sz=256"
+            }
+          ],
+          "date": "2026-09-27"
+        },
+        {
+          "id": "league:Regionalliga Nordost:12",
+          "kind": "league",
+          "title": "12. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "12",
+          "matches": [
+            {
+              "id": "rl-12",
+              "date": "2026-10-11",
+              "time": "14:00",
+              "home": "Hallescher FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 12,
+              "home_logo": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-10-11"
+        },
+        {
+          "id": "league:Regionalliga Nordost:13",
+          "kind": "league",
+          "title": "13. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "13",
+          "matches": [
+            {
+              "id": "rl-13",
+              "date": "2026-10-18",
+              "time": "14:00",
+              "home": "Hertha BSC II",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "home_logo": "https://www.google.com/s2/favicons?domain=herthabsc.com&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-10-18"
+        },
+        {
+          "id": "league:Regionalliga Nordost:14",
+          "kind": "league",
+          "title": "14. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "14",
+          "matches": [
+            {
+              "id": "rl-14",
+              "date": "2026-10-25",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "SV Tasmania Berlin",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=sv-tasmania-berlin.de&sz=256"
+            }
+          ],
+          "date": "2026-10-25"
+        },
+        {
+          "id": "league:Regionalliga Nordost:15",
+          "kind": "league",
+          "title": "15. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "15",
+          "matches": [
+            {
+              "id": "rl-15",
+              "date": "2026-11-01",
+              "time": "14:00",
+              "home": "BFC Dynamo",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 15,
+              "home_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-11-01"
+        },
+        {
+          "id": "league:Regionalliga Nordost:16",
+          "kind": "league",
+          "title": "16. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "16",
+          "matches": [
+            {
+              "id": "rl-16",
+              "date": "2026-11-08",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Erzgebirge Aue",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fc-erzgebirge.de&sz=256"
+            }
+          ],
+          "date": "2026-11-08"
+        },
+        {
+          "id": "league:Regionalliga Nordost:17",
+          "kind": "league",
+          "title": "17. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "17",
+          "matches": [
+            {
+              "id": "rl-17",
+              "date": "2026-11-22",
+              "time": "14:00",
+              "home": "1. FC Lok Leipzig",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 17,
+              "home_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-11-22"
+        },
+        {
+          "id": "league:Regionalliga Nordost:18",
+          "kind": "league",
+          "title": "18. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "18",
+          "matches": [
+            {
+              "id": "rl-18",
+              "date": "2026-11-29",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 18,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=bfc-preussen.de&sz=256"
+            }
+          ],
+          "date": "2026-11-29"
+        },
+        {
+          "id": "league:Regionalliga Nordost:19",
+          "kind": "league",
+          "title": "19. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "19",
+          "matches": [
+            {
+              "id": "rl-19",
+              "date": "2026-12-06",
+              "time": "14:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 19,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fsv63-luckenwalde.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-12-06"
+        },
+        {
+          "id": "league:Regionalliga Nordost:20",
+          "kind": "league",
+          "title": "20. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "20",
+          "matches": [
+            {
+              "id": "rl-20",
+              "date": "2026-12-13",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Carl Zeiss Jena",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 20,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fc-carlzeiss-jena.de&sz=256"
+            }
+          ],
+          "date": "2026-12-13"
+        },
+        {
+          "id": "league:Regionalliga Nordost:21",
+          "kind": "league",
+          "title": "21. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "21",
+          "matches": [
+            {
+              "id": "rl-21",
+              "date": "2027-02-14",
+              "time": "14:00",
+              "home": "BSG Chemie Leipzig",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 21,
+              "home_logo": "https://www.google.com/s2/favicons?domain=chemie-leipzig.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-02-14"
+        },
+        {
+          "id": "league:Regionalliga Nordost:22",
+          "kind": "league",
+          "title": "22. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "22",
+          "matches": [
+            {
+              "id": "rl-22",
+              "date": "2027-02-21",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "SV Babelsberg 03",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 22,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=babelsberg03.de&sz=256"
+            }
+          ],
+          "date": "2027-02-21"
+        },
+        {
+          "id": "league:Regionalliga Nordost:23",
+          "kind": "league",
+          "title": "23. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "23",
+          "matches": [
+            {
+              "id": "rl-23",
+              "date": "2027-02-28",
+              "time": "14:00",
+              "home": "FSV Zwickau",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 23,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-02-28"
+        },
+        {
+          "id": "league:Regionalliga Nordost:24",
+          "kind": "league",
+          "title": "24. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "24",
+          "matches": [
+            {
+              "id": "rl-24",
+              "date": "2027-03-07",
+              "time": "14:00",
+              "home": "1. FC Magdeburg II",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 24,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fc-magdeburg.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-03-07"
+        },
+        {
+          "id": "league:Regionalliga Nordost:25",
+          "kind": "league",
+          "title": "25. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "25",
+          "matches": [
+            {
+              "id": "rl-25",
+              "date": "2027-03-14",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Rot-Weiß Erfurt",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 25,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=rot-weiss-erfurt.de&sz=256"
+            }
+          ],
+          "date": "2027-03-14"
+        },
+        {
+          "id": "league:Regionalliga Nordost:26",
+          "kind": "league",
+          "title": "26. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "26",
+          "matches": [
+            {
+              "id": "rl-26",
+              "date": "2027-03-21",
+              "time": "14:00",
+              "home": "Greifswalder FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 26,
+              "home_logo": "https://www.google.com/s2/favicons?domain=greifswalder-fc.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-03-21"
+        },
+        {
+          "id": "league:Regionalliga Nordost:27",
+          "kind": "league",
+          "title": "27. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "27",
+          "matches": [
+            {
+              "id": "rl-27",
+              "date": "2027-04-04",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "VSG Altglienicke",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 27,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fussball.vsg-altglienicke.de&sz=256"
+            }
+          ],
+          "date": "2027-04-04"
+        },
+        {
+          "id": "league:Regionalliga Nordost:28",
+          "kind": "league",
+          "title": "28. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "28",
+          "matches": [
+            {
+              "id": "rl-28",
+              "date": "2027-04-07",
+              "time": "19:00",
+              "home": "Chemnitzer FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 28,
+              "home_logo": "https://www.google.com/s2/favicons?domain=chemnitzerfc.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-04-07"
+        },
+        {
+          "id": "league:Regionalliga Nordost:29",
+          "kind": "league",
+          "title": "29. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "29",
+          "matches": [
+            {
+              "id": "rl-29",
+              "date": "2027-04-11",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Hallescher FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 29,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=256"
+            }
+          ],
+          "date": "2027-04-11"
+        },
+        {
+          "id": "league:Regionalliga Nordost:30",
+          "kind": "league",
+          "title": "30. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "30",
+          "matches": [
+            {
+              "id": "rl-30",
+              "date": "2027-04-18",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Hertha BSC II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 30,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=herthabsc.com&sz=256"
+            }
+          ],
+          "date": "2027-04-18"
+        },
+        {
+          "id": "league:Regionalliga Nordost:31",
+          "kind": "league",
+          "title": "31. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "31",
+          "matches": [
+            {
+              "id": "rl-31",
+              "date": "2027-04-25",
+              "time": "14:00",
+              "home": "SV Tasmania Berlin",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 31,
+              "home_logo": "https://www.google.com/s2/favicons?domain=sv-tasmania-berlin.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-04-25"
+        },
+        {
+          "id": "league:Regionalliga Nordost:32",
+          "kind": "league",
+          "title": "32. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "32",
+          "matches": [
+            {
+              "id": "rl-32",
+              "date": "2027-05-09",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BFC Dynamo",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 32,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256"
+            }
+          ],
+          "date": "2027-05-09"
+        },
+        {
+          "id": "league:Regionalliga Nordost:33",
+          "kind": "league",
+          "title": "33. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "33",
+          "matches": [
+            {
+              "id": "rl-33",
+              "date": "2027-05-16",
+              "time": "14:00",
+              "home": "Erzgebirge Aue",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 33,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fc-erzgebirge.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-05-16"
+        },
+        {
+          "id": "league:Regionalliga Nordost:34",
+          "kind": "league",
+          "title": "34. Spieltag Regionalliga Nordost",
+          "competition": "Regionalliga Nordost",
+          "round": "34",
+          "matches": [
+            {
+              "id": "rl-34",
+              "date": "2027-05-23",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "1. FC Lok Leipzig",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 34,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256"
+            }
+          ],
+          "date": "2027-05-23"
+        }
+      ],
       "next_game": {
         "id": "rl-02",
         "matchday": 2,
@@ -615,9 +1399,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=fcbayern.com&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-02",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-08-02",
           "ticket_url": ""
         },
         {
@@ -663,9 +1447,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=eintracht-mahlsdorf.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-12",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-08-12",
           "ticket_url": ""
         },
         {
@@ -695,9 +1479,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-22",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-08-22",
           "ticket_url": ""
         },
         {
@@ -727,9 +1511,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=fc-mecklenburg-schwerin.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-05",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-09-05",
           "ticket_url": ""
         },
         {
@@ -759,9 +1543,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=vfc-plauen.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-19",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-09-19",
           "ticket_url": ""
         },
         {
@@ -775,9 +1559,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=sc-staaken.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-26",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-09-26",
           "ticket_url": ""
         },
         {
@@ -807,9 +1591,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=viktoria.berlin&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-10-17",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-10-17",
           "ticket_url": ""
         },
         {
@@ -823,9 +1607,9 @@
           "home_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": "",
-          "location": "Bruno-Plache-Stadion, Connewitzer Straße 21, 04289 Leipzig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion%2C+Connewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig",
-          "weather_url": "https://www.google.com/search?q=Wetter+Bruno-Plache-Stadion%2C+Connewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig+2026-10-24",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-10-24",
           "ticket_url": ""
         },
         {
@@ -839,9 +1623,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=berlinersc-fussball.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-10-31",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-10-31",
           "ticket_url": ""
         },
         {
@@ -871,9 +1655,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=stern1900.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-21",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2026-11-21",
           "ticket_url": ""
         },
         {
@@ -887,9 +1671,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=scborea.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-02-27",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-02-27",
           "ticket_url": ""
         },
         {
@@ -903,9 +1687,9 @@
           "home_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": "",
-          "location": "Sportforum Hohenschönhausen, Weißenseer Weg 53, 13053 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Hohensch%C3%B6nhausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin",
-          "weather_url": "https://www.google.com/search?q=Wetter+Sportforum+Hohensch%C3%B6nhausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin+2027-03-06",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-03-06",
           "ticket_url": ""
         },
         {
@@ -919,9 +1703,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-03-13",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-03-13",
           "ticket_url": ""
         },
         {
@@ -951,9 +1735,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=h03.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-03",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-04-03",
           "ticket_url": ""
         },
         {
@@ -999,9 +1783,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=1fcfrankfurt.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-24",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-04-24",
           "ticket_url": ""
         },
         {
@@ -1031,9 +1815,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-08",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-05-08",
           "ticket_url": ""
         },
         {
@@ -1063,9 +1847,9 @@
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "https://www.google.com/s2/favicons?domain=tebe.de&sz=256",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-29",
+          "location": "",
+          "maps_url": "",
+          "weather_url": "https://www.google.com/search?q=Wetter+2027-05-29",
           "ticket_url": ""
         },
         {
@@ -1085,6 +1869,695 @@
           "ticket_url": ""
         }
       ],
+      "round_groups": [
+        {
+          "id": "cup:DFB-Pokal:Pokalrunde",
+          "kind": "cup",
+          "title": "Pokalrunde – DFB-Pokal",
+          "competition": "DFB-Pokal",
+          "round": "Pokalrunde",
+          "matches": [
+            {
+              "id": "u19-870019022",
+              "date": "2026-08-02",
+              "time": "11:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FC Bayern München",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fcbayern.com&sz=256"
+            }
+          ],
+          "date": "2026-08-02"
+        },
+        {
+          "id": "game:u19-690002036",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002036",
+              "date": "2026-08-02",
+              "time": "14:00",
+              "home": "SFC Stern",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "home_logo": "https://www.google.com/s2/favicons?domain=sfcstern1900.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-02"
+        },
+        {
+          "id": "game:u19-810001078",
+          "kind": "game",
+          "title": "Landesfreundschaftsspiele",
+          "competition": "Landesfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-810001078",
+              "date": "2026-08-08",
+              "time": "13:00",
+              "home": "FSV Babelsberg 74",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fsv-babelsberg74.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-08"
+        },
+        {
+          "id": "game:u19-810007008",
+          "kind": "game",
+          "title": "Landesfreundschaftsspiele",
+          "competition": "Landesfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-810007008",
+              "date": "2026-08-12",
+              "time": "19:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "BSV Eintracht Mahlsdorf",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=eintracht-mahlsdorf.de&sz=256"
+            }
+          ],
+          "date": "2026-08-12"
+        },
+        {
+          "id": "league:Regionalliga:1",
+          "kind": "league",
+          "title": "Erster Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "1",
+          "matches": [
+            {
+              "id": "u19-690007003",
+              "date": "2026-08-16",
+              "time": "13:30",
+              "home": "SC Borea Dresden",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 1,
+              "home_logo": "https://www.google.com/s2/favicons?domain=scborea.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-16"
+        },
+        {
+          "id": "league:Regionalliga:2",
+          "kind": "league",
+          "title": "Zweiter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "2",
+          "matches": [
+            {
+              "id": "u19-690007011",
+              "date": "2026-08-22",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "BFC Dynamo U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 2,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256"
+            }
+          ],
+          "date": "2026-08-22"
+        },
+        {
+          "id": "league:Regionalliga:3",
+          "kind": "league",
+          "title": "Dritter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "3",
+          "matches": [
+            {
+              "id": "u19-690007021",
+              "date": "2026-08-30",
+              "time": "12:00",
+              "home": "FSV Zwickau",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 3,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-08-30"
+        },
+        {
+          "id": "league:Regionalliga:4",
+          "kind": "league",
+          "title": "Vierter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "4",
+          "matches": [
+            {
+              "id": "u19-690007025",
+              "date": "2026-09-05",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FC Mecklenburg Schwerin U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 4,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fc-mecklenburg-schwerin.de&sz=256"
+            }
+          ],
+          "date": "2026-09-05"
+        },
+        {
+          "id": "league:Regionalliga:5",
+          "kind": "league",
+          "title": "Fünfter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "5",
+          "matches": [
+            {
+              "id": "u19-690007033",
+              "date": "2026-09-12",
+              "time": "13:30",
+              "home": "FC Hertha 03 Zehlendorf",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 5,
+              "home_logo": "https://www.google.com/s2/favicons?domain=h03.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-09-12"
+        },
+        {
+          "id": "league:Regionalliga:6",
+          "kind": "league",
+          "title": "Sechster Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "6",
+          "matches": [
+            {
+              "id": "u19-690007039",
+              "date": "2026-09-19",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "VFC Plauen",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 6,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=vfc-plauen.de&sz=256"
+            }
+          ],
+          "date": "2026-09-19"
+        },
+        {
+          "id": "league:Regionalliga:7",
+          "kind": "league",
+          "title": "Siebter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "7",
+          "matches": [
+            {
+              "id": "u19-690007046",
+              "date": "2026-09-26",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "Sport-Club Staaken 1919 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=sc-staaken.de&sz=256"
+            }
+          ],
+          "date": "2026-09-26"
+        },
+        {
+          "id": "league:Regionalliga:8",
+          "kind": "league",
+          "title": "Achter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "8",
+          "matches": [
+            {
+              "id": "u19-690007051",
+              "date": "2026-10-11",
+              "time": "13:30",
+              "home": "1. FC Frankfurt /O.",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "home_logo": "https://www.google.com/s2/favicons?domain=1fcfrankfurt.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-10-11"
+        },
+        {
+          "id": "league:Regionalliga:9",
+          "kind": "league",
+          "title": "Neunter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "9",
+          "matches": [
+            {
+              "id": "u19-690007060",
+              "date": "2026-10-17",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FC Viktoria 1889 Berlin U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=viktoria.berlin&sz=256"
+            }
+          ],
+          "date": "2026-10-17"
+        },
+        {
+          "id": "league:Regionalliga:10",
+          "kind": "league",
+          "title": "Zehnter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "10",
+          "matches": [
+            {
+              "id": "u19-690007070",
+              "date": "2026-10-24",
+              "time": "13:00",
+              "home": "1. FC Lokomotive Leipzig U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 10,
+              "home_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-10-24"
+        },
+        {
+          "id": "league:Regionalliga:11",
+          "kind": "league",
+          "title": "11. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "11",
+          "matches": [
+            {
+              "id": "u19-690007074",
+              "date": "2026-10-31",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "Berliner SC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 11,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=berlinersc-fussball.de&sz=256"
+            }
+          ],
+          "date": "2026-10-31"
+        },
+        {
+          "id": "league:Regionalliga:12",
+          "kind": "league",
+          "title": "12. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "12",
+          "matches": [
+            {
+              "id": "u19-690007082",
+              "date": "2026-11-08",
+              "time": "12:00",
+              "home": "Tennis Borussia Berlin U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 12,
+              "home_logo": "https://www.google.com/s2/favicons?domain=tebe.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2026-11-08"
+        },
+        {
+          "id": "league:Regionalliga:13",
+          "kind": "league",
+          "title": "13. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "13",
+          "matches": [
+            {
+              "id": "u19-690007088",
+              "date": "2026-11-21",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "Steglitzer FC Stern 1900",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=stern1900.de&sz=256"
+            }
+          ],
+          "date": "2026-11-21"
+        },
+        {
+          "id": "league:Regionalliga:14",
+          "kind": "league",
+          "title": "14. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "14",
+          "matches": [
+            {
+              "id": "u19-690007094",
+              "date": "2027-02-27",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "SC Borea Dresden",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=scborea.de&sz=256"
+            }
+          ],
+          "date": "2027-02-27"
+        },
+        {
+          "id": "league:Regionalliga:15",
+          "kind": "league",
+          "title": "15. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "15",
+          "matches": [
+            {
+              "id": "u19-690007102",
+              "date": "2027-03-06",
+              "time": "12:00",
+              "home": "BFC Dynamo U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 15,
+              "home_logo": "https://www.google.com/s2/favicons?domain=bfc.com&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-03-06"
+        },
+        {
+          "id": "league:Regionalliga:16",
+          "kind": "league",
+          "title": "16. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "16",
+          "matches": [
+            {
+              "id": "u19-690007112",
+              "date": "2027-03-13",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FSV Zwickau",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=fsv-zwickau.de&sz=256"
+            }
+          ],
+          "date": "2027-03-13"
+        },
+        {
+          "id": "league:Regionalliga:17",
+          "kind": "league",
+          "title": "17. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "17",
+          "matches": [
+            {
+              "id": "u19-690007116",
+              "date": "2027-03-20",
+              "time": "12:00",
+              "home": "FC Mecklenburg Schwerin U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 17,
+              "home_logo": "https://www.google.com/s2/favicons?domain=fc-mecklenburg-schwerin.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-03-20"
+        },
+        {
+          "id": "league:Regionalliga:18",
+          "kind": "league",
+          "title": "18. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "18",
+          "matches": [
+            {
+              "id": "u19-690007124",
+              "date": "2027-04-03",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FC Hertha 03 Zehlendorf",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 18,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=h03.de&sz=256"
+            }
+          ],
+          "date": "2027-04-03"
+        },
+        {
+          "id": "league:Regionalliga:19",
+          "kind": "league",
+          "title": "19. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "19",
+          "matches": [
+            {
+              "id": "u19-690007130",
+              "date": "2027-04-10",
+              "time": "12:00",
+              "home": "VFC Plauen",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 19,
+              "home_logo": "https://www.google.com/s2/favicons?domain=vfc-plauen.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-04-10"
+        },
+        {
+          "id": "league:Regionalliga:20",
+          "kind": "league",
+          "title": "20. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "20",
+          "matches": [
+            {
+              "id": "u19-690007137",
+              "date": "2027-04-18",
+              "time": "12:00",
+              "home": "Sport-Club Staaken 1919 U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 20,
+              "home_logo": "https://www.google.com/s2/favicons?domain=sc-staaken.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-04-18"
+        },
+        {
+          "id": "league:Regionalliga:21",
+          "kind": "league",
+          "title": "21. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "21",
+          "matches": [
+            {
+              "id": "u19-690007142",
+              "date": "2027-04-24",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "1. FC Frankfurt /O.",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 21,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=1fcfrankfurt.de&sz=256"
+            }
+          ],
+          "date": "2027-04-24"
+        },
+        {
+          "id": "league:Regionalliga:22",
+          "kind": "league",
+          "title": "22. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "22",
+          "matches": [
+            {
+              "id": "u19-690007151",
+              "date": "2027-05-01",
+              "time": "12:00",
+              "home": "FC Viktoria 1889 Berlin U19",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 22,
+              "home_logo": "https://www.google.com/s2/favicons?domain=viktoria.berlin&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-05-01"
+        },
+        {
+          "id": "league:Regionalliga:23",
+          "kind": "league",
+          "title": "23. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "23",
+          "matches": [
+            {
+              "id": "u19-690007161",
+              "date": "2027-05-08",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "1. FC Lokomotive Leipzig U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 23,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=256"
+            }
+          ],
+          "date": "2027-05-08"
+        },
+        {
+          "id": "league:Regionalliga:24",
+          "kind": "league",
+          "title": "24. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "24",
+          "matches": [
+            {
+              "id": "u19-690007165",
+              "date": "2027-05-22",
+              "time": "12:00",
+              "home": "Berliner SC",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 24,
+              "home_logo": "https://www.google.com/s2/favicons?domain=berlinersc-fussball.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-05-22"
+        },
+        {
+          "id": "league:Regionalliga:25",
+          "kind": "league",
+          "title": "25. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "25",
+          "matches": [
+            {
+              "id": "u19-690007173",
+              "date": "2027-05-29",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "Tennis Borussia Berlin U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 25,
+              "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+              "away_logo": "https://www.google.com/s2/favicons?domain=tebe.de&sz=256"
+            }
+          ],
+          "date": "2027-05-29"
+        },
+        {
+          "id": "league:Regionalliga:26",
+          "kind": "league",
+          "title": "26. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "26",
+          "matches": [
+            {
+              "id": "u19-690007179",
+              "date": "2027-06-06",
+              "time": "12:00",
+              "home": "Steglitzer FC Stern 1900",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 26,
+              "home_logo": "https://www.google.com/s2/favicons?domain=stern1900.de&sz=256",
+              "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+            }
+          ],
+          "date": "2027-06-06"
+        }
+      ],
       "next_game": {
         "id": "u19-870019022",
         "matchday": null,
@@ -1095,10 +2568,10 @@
         "away": "FC Bayern München",
         "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
         "away_logo": "https://www.google.com/s2/favicons?domain=fcbayern.com&sz=256",
-        "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+        "location": "",
+        "maps_url": "",
         "weather": null,
-        "weather_url": "https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-02",
+        "weather_url": "https://www.google.com/search?q=Wetter+2026-08-02",
         "is_home": true,
         "ticket_url": ""
       },

@@ -34,35 +34,56 @@ def load_saved_ticket_events():
     return [{**x,'opponent_key':normalize_match_name(x.get('opponent',''))} for x in events if x.get('url')]
 
 def fetch_ticket_events():
-    """Read and cache event-specific links from the Herren ticket shop."""
+    """Read and cache event-specific links from the Herren ticket shop.
+
+    The overview page is treated as the source of truth. Every newly published
+    event detail link is discovered automatically, parsed, and matched to the
+    corresponding home fixture. Existing saved mappings remain available if
+    the shop is temporarily unreachable.
+    """
     saved=load_saved_ticket_events()
     if os.environ.get('RSV_OFFLINE') == '1':
         return saved
     try:
         html=fetch(TICKET_OVERVIEW_URL)
         soup=BeautifulSoup(html,'html.parser')
-        urls=[]
+        candidates=[]
+        seen=set()
         for a in soup.find_all('a', href=True):
-            href=urljoin(TICKET_OVERVIEW_URL,a.get('href',''))
-            if re.fullmatch(r'https://rsv-eintracht\.vereinsticket\.de/herren/\d+/?',href) and href not in urls:
-                urls.append(href)
+            href=urljoin(TICKET_OVERVIEW_URL,a.get('href','')).split('#',1)[0]
+            # Vereinsticket currently uses numeric event pages, but accepting a
+            # single non-empty path segment also keeps this future-proof if the
+            # provider switches to slugs.
+            if not re.fullmatch(r'https://rsv-eintracht\.vereinsticket\.de/herren/[^/?#]+/?',href):
+                continue
+            if href.rstrip('/') == TICKET_OVERVIEW_URL.rstrip('/') or href in seen:
+                continue
+            seen.add(href)
+            context=a.find_parent(['article','li','section','div']) or a.parent
+            candidates.append((href, ' '.join(context.get_text(' ',strip=True).split()) if context else ''))
+
         events=[]
         months={'januar':1,'februar':2,'märz':3,'april':4,'mai':5,'juni':6,'juli':7,'august':8,'september':9,'oktober':10,'november':11,'dezember':12}
-        for href in urls:
+        for href, overview_text in candidates:
             detail=BeautifulSoup(fetch(href),'html.parser')
-            title_node=next((h for h in detail.find_all(['h1','h2','h3']) if re.search(r'RSV Eintracht\s*[-–]',h.get_text(' ',strip=True),re.I)),None)
-            title=' '.join(title_node.get_text(' ',strip=True).split()) if title_node else ''
-            opponent=re.sub(r'^RSV Eintracht(?: 1949)?\s*[-–]\s*','',title,flags=re.I).strip()
+            headings=[' '.join(h.get_text(' ',strip=True).split()) for h in detail.find_all(['h1','h2','h3'])]
+            title=next((x for x in headings if re.search(r'RSV Eintracht(?: 1949)?\s*[-–:]',x,re.I)), '')
+            if not title:
+                title=next((x for x in headings if 'RSV Eintracht' in x), '')
+            opponent=re.sub(r'^.*?RSV Eintracht(?: 1949)?\s*[-–:]\s*','',title,flags=re.I).strip()
             text=' '.join(detail.get_text(' ',strip=True).split())
             dm=re.search(r'(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',text,re.I)
+            if not dm:
+                dm=re.search(r'(\d{1,2})\.\s*(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)\s+(20\d{2})',overview_text,re.I)
             date=''
             if dm:
                 date=f"{int(dm.group(3)):04d}-{months[dm.group(2).casefold()]:02d}-{int(dm.group(1)):02d}"
             if opponent:
                 events.append({'url':href,'date':date,'opponent':opponent,'opponent_key':normalize_match_name(opponent)})
         if events:
+            events.sort(key=lambda x:(x.get('date',''),x.get('opponent','')))
             save_json(DATA/'tickets.json',{'overview_url':TICKET_OVERVIEW_URL,'updated_at':datetime.now(TZ).isoformat(),'events':[{k:v for k,v in x.items() if k!='opponent_key'} for x in events]})
-            print(f'Ticketshop: {len(events)} Detailseiten erkannt')
+            print(f'Ticketshop: {len(events)} Detailseiten automatisch erkannt')
             return events
         warnings.warn('Ticketshop enthielt keine erkennbaren Detailseiten; gespeicherte Zuordnungen werden verwendet.')
     except Exception as exc:
@@ -128,6 +149,26 @@ def parse_dfb(html, team):
         out.append({'id':'rl-'+key,'date':dt.strftime('%Y-%m-%d'),'time':t,'home':home,'away':away,'competition':'Regionalliga Nordost 2026/27','result':None if '-' in res else re.sub(r'\s','',res),'location':'','source_url':''})
     return dedupe(out)
 
+def extract_location_from_text(text):
+    # Official print pages use varying labels. Keep only explicit venue/address
+    # text from the match block; never infer a venue from the home club here.
+    compact=' | '.join(x.strip() for x in str(text).split('|') if x.strip())
+    patterns=(
+        r'(?:Spielst(?:ä|ae)tte|Spielort|Sportplatz|Austragungsort|Platzanlage)\s*:?\s*([^|]{4,180})',
+        r'(?:Stadion|Sportpark|Sportanlage|Sportplatz|Arena|Kunstrasenplatz|Rasenplatz)\s+([^|]{0,150})',
+    )
+    for pat in patterns:
+        m=re.search(pat,compact,re.I)
+        if m:
+            value=m.group(0 if pat.startswith('(?:Stadion') else 1).strip(' :-|')
+            value=re.split(r'\s+(?:Schiedsrichter|Zuschauer|Zum Spiel|ME|PO|FS)\b',value,1,flags=re.I)[0].strip()
+            if 4 <= len(value) <= 200:
+                return value
+    # Address-only fallback, but only when a street suffix and postal code occur
+    # in the same official match block.
+    m=re.search(r'([^|]{2,80}(?:straße|strasse|weg|allee|damm|ring|platz)\s+\d+[a-zA-Z]?(?:[–-]\d+)?\s*,?\s*\d{5}\s+[^|]{2,60})',compact,re.I)
+    return m.group(1).strip(' :-|') if m else ''
+
 def parse_fussball(html, team, source_url):
     soup=BeautifulSoup(html,'html.parser')
     text='\n'.join(x.strip() for x in soup.get_text('\n').splitlines() if x.strip())
@@ -149,7 +190,8 @@ def parse_fussball(html, team, source_url):
         m=re.match(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s*(\d{2}\.\d{2}\.\d{4})\s*-\s*(\d{2}:\d{2})\s*Uhr\s*\|\s*(.+)',line)
         if not m: continue
         date,time,comp=m.group(2),m.group(3),m.group(4)
-        block=' | '.join(lines[i+1:i+12])
+        next_i=next((j for j in range(i+1,len(lines)) if re.match(r'(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s*\d{2}\.\d{2}\.\d{4}',lines[j])), min(len(lines),i+45))
+        block=' | '.join(lines[i+1:next_i])
         no=re.search(r'\b([678]\d{8})\b',block)
         # Team names occur around a colon. Use known team and nearby tokens.
         pos=block.find(team)
@@ -175,7 +217,7 @@ def parse_fussball(html, team, source_url):
         dt=datetime.strptime(date+' '+time,'%d.%m.%Y %H:%M')
         mid=no.group(1) if no else hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:10]
         prefix='u19' if 'U19' in team else ('u23' if 'U23' in team else 'u21')
-        out.append({'id':prefix+'-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':'','source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
+        out.append({'id':prefix+'-'+mid,'date':dt.strftime('%Y-%m-%d'),'time':time,'home':home,'away':away,'competition':comp+' 2026/27','result':None,'location':extract_location_from_text(block),'source_url':source_url,'match_number':mid,'home_logo':logo_map.get(home,''),'away_logo':logo_map.get(away,'')})
     return dedupe(out)
 
 def dedupe(games):
@@ -238,11 +280,69 @@ def load_venues():
     path = DATA / 'venues.json'
     return load_json(path) if path.exists() else {}
 
-def venue_for_game(game, venues):
+def load_venue_cache():
+    path = DATA / 'venue-cache.json'
+    if not path.exists():
+        return {'games': {}}
+    raw = load_json(path)
+    return raw if isinstance(raw, dict) and isinstance(raw.get('games'), dict) else {'games': {}}
+
+def game_identity(game):
+    return '|'.join((str(game.get('date','')), str(game.get('time','')), canonical_club_name(game.get('home','')), canonical_club_name(game.get('away',''))))
+
+def venue_cache_key(game):
+    return str(game.get('match_number') or game.get('id') or game_identity(game))
+
+def apply_venue_cache(games, cache):
+    records = cache.get('games', {}) if isinstance(cache, dict) else {}
+    by_identity = {str(v.get('identity','')): v for v in records.values() if isinstance(v, dict) and v.get('identity')}
+    out=[]
+    for original in games:
+        g=deepcopy(original)
+        if not str(g.get('location') or '').strip():
+            rec=records.get(venue_cache_key(g)) or by_identity.get(game_identity(g))
+            if isinstance(rec, dict) and rec.get('location'):
+                g['location']=rec['location']
+                g['location_source']=rec.get('source_url','')
+        out.append(g)
+    return out
+
+def update_venue_cache(games, cache):
+    records = cache.setdefault('games', {})
+    changed=0
+    now=datetime.now(TZ).isoformat()
+    for g in games:
+        location=str(g.get('location') or '').strip()
+        if not location:
+            continue
+        key=venue_cache_key(g)
+        record={'identity':game_identity(g),'location':location,'source_url':g.get('source_url',''),'updated_at':now}
+        if records.get(key,{}).get('location') != location:
+            records[key]=record; changed+=1
+        else:
+            records[key].update(record)
+    cache['updated_at']=now
+    return changed
+
+def venue_for_game(game, venues, venue_cache=None):
+    """Return only an explicitly sourced or exact-team venue.
+
+    Youth/reserve aliases must never inherit the first team's ground. This
+    prevents an unverified home venue (for example the Preussenstadion) from
+    being shown for U19/U21/U23 fixtures.
+    """
     explicit = str(game.get('location') or '').strip()
     if explicit:
         return explicit
-    venue = venues.get(canonical_club_name(game.get('home', '')), venues.get(game.get('home', ''), {}))
+    if venue_cache:
+        records=venue_cache.get('games',{})
+        rec=records.get(venue_cache_key(game))
+        if not rec:
+            identity=game_identity(game)
+            rec=next((v for v in records.values() if isinstance(v,dict) and v.get('identity')==identity),None)
+        if isinstance(rec,dict) and rec.get('location'):
+            return str(rec['location']).strip()
+    venue = venues.get(str(game.get('home', '')).strip(), {})
     if isinstance(venue, str):
         return venue
     name = str(venue.get('stadium') or '').strip()
@@ -250,7 +350,7 @@ def venue_for_game(game, venues):
     return ', '.join(x for x in (name, address) if x)
 
 def venue_record_for_game(game, venues):
-    venue=venues.get(canonical_club_name(game.get('home','')), venues.get(game.get('home',''), {}))
+    venue=venues.get(str(game.get('home','')).strip(), {})
     return venue if isinstance(venue, dict) else {}
 
 def parse_score(value):
@@ -357,15 +457,78 @@ def weather_for_game(game, location, venue=None):
         warnings.warn(f'Wetterabfrage fehlgeschlagen fuer {game.get("home")} - {game.get("away")}: {exc}')
         return None
 
-def club_logo_url(team, clubs):
+def _safe_logo_filename(team, url=''):
     canonical=canonical_club_name(team)
+    slug=re.sub(r'[^a-z0-9]+','-',canonical.casefold().replace('ä','ae').replace('ö','oe').replace('ü','ue').replace('ß','ss')).strip('-') or 'verein'
+    ext=Path(url.split('?',1)[0]).suffix.lower()
+    if ext not in ('.png','.jpg','.jpeg','.webp','.gif','.svg'):
+        ext='.png'
+    return slug+ext
+
+
+def cache_logo(team, url):
+    """Download a crest once and return a same-origin URL.
+
+    Failed downloads are harmless: the UI falls back to initials rather than a
+    question mark. Source-provided crests take precedence over favicon URLs.
+    """
+    if not url:
+        return ''
+    if os.environ.get('RSV_OFFLINE') == '1':
+        return str(url) if str(url).startswith('/assets/') else ''
+    if str(url).startswith('/assets/clubs/'):
+        return str(url)
+    folder=DOCS/'assets'/'clubs'
+    folder.mkdir(parents=True,exist_ok=True)
+    filename=_safe_logo_filename(team,str(url))
+    target=folder/filename
+    if target.exists() and target.stat().st_size>200:
+        return '/assets/clubs/'+filename
+    try:
+        r=requests.get(str(url),headers={'User-Agent':UA,'Accept':'image/*'},timeout=20)
+        r.raise_for_status()
+        ctype=(r.headers.get('content-type') or '').lower()
+        if not r.content or len(r.content)<200 or ('image' not in ctype and not str(url).lower().endswith('.svg')):
+            return ''
+        # Correct extension when the server tells us the actual format.
+        ext=mimetypes.guess_extension(ctype.split(';',1)[0].strip()) or target.suffix
+        if ext=='.jpe': ext='.jpg'
+        if ext in ('.png','.jpg','.jpeg','.webp','.gif','.svg') and ext!=target.suffix:
+            target=target.with_suffix(ext); filename=target.name
+        target.write_bytes(r.content)
+        return '/assets/clubs/'+filename
+    except Exception as exc:
+        warnings.warn(f'Logo konnte nicht lokal gespeichert werden ({team}): {exc}')
+        return ''
+
+
+def game_logo_candidates(games):
+    found={}
+    for g in games:
+        for side in ('home','away'):
+            name=str(g.get(side,'')).strip()
+            url=str(g.get(side+'_logo','') or '').strip()
+            if name and url:
+                # Prefer federation/team-page crests to generic Google favicons.
+                current=found.get(canonical_club_name(name),'')
+                if not current or ('google.com/s2/favicons' in current and 'google.com/s2/favicons' not in url):
+                    found[canonical_club_name(name)]=url
+    return found
+
+def club_logo_url(team, clubs, discovered=None):
+    canonical=canonical_club_name(team)
+    discovered=discovered or {}
+    source_logo=str(discovered.get(canonical) or discovered.get(team) or '').strip()
     info=clubs.get(canonical) or clubs.get(team) or {}
-    if info.get('logo_url'):
-        return str(info.get('logo_url')).strip()
+    configured=str(info.get('logo_url') or '').strip()
+    preferred=source_logo or configured
+    if preferred:
+        return cache_logo(canonical, preferred) or preferred
     # Last-resort parent-club lookup for youth/reserve suffixes.
     parent=re.sub(r'\s+(?:U19|U21|U23|I|II|III|1)$','',canonical).strip()
     info=clubs.get(parent) or {}
-    return str(info.get('logo_url') or '').strip()
+    fallback=str(info.get('logo_url') or '').strip()
+    return cache_logo(parent, fallback) or fallback
 
 
 def enrich_team_stats(meta, games):
@@ -400,6 +563,7 @@ def make_ics(meta,games):
     now=datetime.now(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')
     lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'X-PUBLISHED-TTL:PT6H']
     venues = load_venues()
+    venue_cache = load_venue_cache()
     clubs = load_clubs()
     is_first_team = bool(meta.get('first_team')) or 'Regionalliga' in meta.get('calendar_name','')
     games = enrich_team_stats(meta, assign_matchdays(games))
@@ -414,7 +578,7 @@ def make_ics(meta,games):
         status_line=f"Endstand: {g['result']}" if g.get('result') else f"Anstoß: {kickoff} Uhr"
         # Keep SUMMARY on one physical/logical line for maximum Google Calendar compatibility.
         summary=' | '.join(x for x in (first_line, comp, pairing, status_line) if x)
-        location=venue_for_game(g, venues)
+        location=venue_for_game(g, venues, venue_cache)
         map_link=maps_url(location)
         weather_link=weather_search_url(location, g['date'])
         home_logo=club_logo_url(g.get('home',''), clubs)
@@ -473,11 +637,71 @@ def make_ics(meta,games):
     lines.append('END:VCALENDAR')
     return '\r\n'.join(fold(x) for x in lines)+'\r\n'
 
+
+
+def round_kind_and_label(game):
+    comp=competition_label(game.get('competition',''))
+    low=comp.casefold()
+    if 'pokal' in low:
+        raw=str(game.get('round') or game.get('cup_round') or '').strip()
+        if not raw:
+            # Prefer explicit round wording contained in the competition name.
+            m=re.search(r'(\d+\.\s*Runde|Achtelfinale|Viertelfinale|Halbfinale|Finale)', comp, re.I)
+            raw=m.group(1) if m else 'Pokalrunde'
+        return 'cup', raw, f'{raw} – {comp}'
+    md=game.get('matchday')
+    if md:
+        try:
+            n=int(md)
+            ordinals={1:'Erster',2:'Zweiter',3:'Dritter',4:'Vierter',5:'Fünfter',6:'Sechster',7:'Siebter',8:'Achter',9:'Neunter',10:'Zehnter'}
+            lead=ordinals.get(n, f'{n}.')
+            title=f'{lead} Spieltag {comp}' if n<=10 else f'{n}. Spieltag {comp}'
+        except Exception:
+            title=f'{md}. Spieltag {comp}'
+        return 'league', str(md), title
+    return 'other', game.get('id',''), comp or 'Spieltermin'
+
+def load_round_pairings():
+    path=DATA/'rounds.json'
+    return load_json(path) if path.exists() else {}
+
+def build_round_groups(key, games, clubs, discovered_logos):
+    configured=load_round_pairings().get(key, [])
+    groups={}
+    # Official full-round data wins whenever present.
+    for item in configured:
+        gid=str(item.get('id') or '')
+        if not gid: continue
+        groups[gid]={**item, 'matches':list(item.get('matches') or [])}
+    for g in games:
+        kind, token, title=round_kind_and_label(g)
+        if kind=='other':
+            gid='game:'+str(g.get('id'))
+            groups.setdefault(gid,{'id':gid,'kind':'game','title':title,'competition':competition_label(g.get('competition','')),'matches':[]})
+        else:
+            gid=f'{kind}:{competition_label(g.get("competition",""))}:{token}'
+            groups.setdefault(gid,{'id':gid,'kind':kind,'title':title,'competition':competition_label(g.get('competition','')),'round':token,'matches':[]})
+        if not any((x.get('id') and x.get('id')==g.get('id')) or (x.get('date')==g.get('date') and x.get('home')==g.get('home') and x.get('away')==g.get('away')) for x in groups[gid]['matches']):
+            groups[gid]['matches'].append({k:g.get(k) for k in ('id','date','time','home','away','result','halftime_result','location','matchday')})
+    out=[]
+    for grp in groups.values():
+        for m in grp['matches']:
+            m['home_logo']=m.get('home_logo') or club_logo_url(m.get('home',''),clubs,discovered_logos)
+            m['away_logo']=m.get('away_logo') or club_logo_url(m.get('away',''),clubs,discovered_logos)
+        grp['matches'].sort(key=lambda x:(x.get('date') or '',x.get('time') or '00:00',x.get('home') or ''))
+        dates=[m.get('date') for m in grp['matches'] if m.get('date')]
+        grp['date']=min(dates) if dates else ''
+        out.append(grp)
+    return sorted(out,key=lambda x:(x.get('date') or '',x.get('title') or ''))
+
 def build_site_data(team_configs, ticket_events=None):
     """Create the JSON used by the results, upcoming matches and table view."""
     payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}, 'club_aliases': load_club_aliases()}
     venues = load_venues()
+    venue_cache = load_venue_cache()
     clubs = load_clubs()
+    all_games=[g for _key,_meta,gs in team_configs for g in gs]
+    discovered_logos=game_logo_candidates(all_games)
     ticket_events = ticket_events or []
     today = datetime.now(TZ).date()
 
@@ -491,12 +715,12 @@ def build_site_data(team_configs, ticket_events=None):
         for g in enriched:
             comp=competition_label(g.get('competition',''))
             is_non_league=any(x in comp.lower() for x in ('pokal','freundschaft','testspiel'))
-            location=venue_for_game(g, venues)
+            location=venue_for_game(g, venues, venue_cache)
             # Alle Wettbewerbe gehören in die vollständige Terminliste.
             fixtures.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
+                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs, discovered_logos), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs, discovered_logos),
                     'result':g.get('result') or '', 'location':location, 'maps_url':maps_url(location),
                     'weather_url':weather_search_url(location, g.get('date','')),
                     'ticket_url':ticket_url_for_game(g, team_name, ticket_events) if key=='regionalliga' and not g.get('result') and str(g.get('date','')) >= today.isoformat() else ''
@@ -506,7 +730,7 @@ def build_site_data(team_configs, ticket_events=None):
                 completed.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
+                    'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs, discovered_logos), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs, discovered_logos),
                     'result':g.get('result'), 'halftime_result':g.get('halftime_result') or g.get('halftime') or '', 'scorers':g.get('scorers') or [],
                     'attendance':g.get('attendance'), 'referee':g.get('referee'),
                     'location':location,
@@ -529,7 +753,7 @@ def build_site_data(team_configs, ticket_events=None):
             future.append({
                 'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                 'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
-                'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs),
+                'home_logo':g.get('home_logo') or club_logo_url(g.get('home',''), clubs, discovered_logos), 'away_logo':g.get('away_logo') or club_logo_url(g.get('away',''), clubs, discovered_logos),
                 'location':location, 'maps_url':maps_url(location),
                 'weather':None, 'weather_url':weather_search_url(location, g.get('date','')),
                 'is_home':g.get('home') == team_name,
@@ -550,6 +774,7 @@ def build_site_data(team_configs, ticket_events=None):
             'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '',
             'matches':completed,
             'fixtures':fixtures,
+            'round_groups':build_round_groups(key, enriched, clubs, discovered_logos),
             'next_game':next_game,
             'next_home':next_home
         }
@@ -563,12 +788,24 @@ def build_site_data(team_configs, ticket_events=None):
         payload['tables'][key]={
             'competition': competition_label(league_games[0].get('competition','')) if league_games else '',
             'updated_at':'Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt',
-            'rows':[{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs)} for i,t in enumerate(teams,1)]
+            'rows':[{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs, discovered_logos)} for i,t in enumerate(teams,1)]
         }
 
-    for table in payload.get('tables', {}).values():
-        for row in table.get('rows', []):
-            row['logo_url'] = club_logo_url(row.get('team', ''), clubs)
+    # Complete every table with every league participant seen in the full
+    # fixture list. This prevents abbreviated source tables from hiding clubs.
+    for key, meta, games in team_configs:
+        table=payload.setdefault('tables',{}).setdefault(key,{'competition':'','updated_at':'','rows':[]})
+        rows=table.setdefault('rows',[])
+        known={canonical_club_name(str(r.get('team','')).strip()) for r in rows if r.get('team')}
+        league_games=[g for g in games if not any(w in competition_label(g.get('competition','')).lower() for w in ('pokal','freundschaft','testspiel'))]
+        participants=sorted({str(g.get('home','')).strip() for g in league_games}|{str(g.get('away','')).strip() for g in league_games}, key=str.casefold)
+        for team in participants:
+            if team and canonical_club_name(team) not in known:
+                rows.append({'position':len(rows)+1,'team':team,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0})
+                known.add(canonical_club_name(team))
+        for i,row in enumerate(rows,1):
+            if row.get('position') in (None,''): row['position']=i
+            row['logo_url'] = club_logo_url(row.get('team', ''), clubs, discovered_logos)
     (DOCS/'site-data.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
 def process(key,offline=False):
@@ -588,8 +825,12 @@ def process(key,offline=False):
             if len(remote)<meta.get('minimum_games',0):
                 raise RuntimeError(f'nur {len(remote)} Spiele erkannt; Mindestwert {meta.get("minimum_games")}; '+ ' | '.join(source_errors))
         except Exception as e: err=str(e); remote=[]
+    venue_cache=load_venue_cache()
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
+    merged=apply_venue_cache(merged,venue_cache)
+    update_venue_cache(merged,venue_cache)
+    save_json(DATA/'venue-cache.json',venue_cache)
     minimum=meta.get('minimum_games',0)
     if len(merged) < minimum:
         raise RuntimeError(f'{key}: unvollstaendiger Spielplan ({len(merged)}/{minimum}); vorhandene Live-Daten werden nicht ueberschrieben')
@@ -617,6 +858,8 @@ def main():
             print(f'{key}: FEHLER: {e}',file=sys.stderr); ok=False
     build_site_data(configs, ticket_events)
     required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics')
-    if not ok and not all((DOCS/x).exists() for x in required): return 1
+    if not ok:
+        print('Mindestens eine Mannschaft konnte nicht vollständig aktualisiert werden; Veröffentlichung wird abgebrochen.', file=sys.stderr)
+        return 1
     return 0
 if __name__=='__main__': raise SystemExit(main())
