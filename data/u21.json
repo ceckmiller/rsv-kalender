@@ -1,0 +1,128 @@
+{
+  "calendar_name": "RSV Eintracht – U21",
+  "team_name": "RSV Eintracht 1949 U21",
+  "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+  "minimum_games": 8,
+  "games": [
+    {
+      "id": "u21-710089011",
+      "date": "2026-08-16",
+      "time": "10:30",
+      "home": "Rot-Weiß Groß Glienicke II",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreispokal 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "710089011"
+    },
+    {
+      "id": "u21-610480004",
+      "date": "2026-08-30",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U21",
+      "away": "FV Turbine Potsdam 55 I",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480004"
+    },
+    {
+      "id": "u21-610480013",
+      "date": "2026-09-06",
+      "time": "15:00",
+      "home": "SV 1948 Ferch",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480013"
+    },
+    {
+      "id": "u21-610480019",
+      "date": "2026-09-13",
+      "time": "15:00",
+      "home": "FSV Grün-Weiß Niemegk",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480019"
+    },
+    {
+      "id": "u21-610480028",
+      "date": "2026-09-20",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U21",
+      "away": "Teltower FV 1913 II",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480028"
+    },
+    {
+      "id": "u21-610480033",
+      "date": "2026-09-27",
+      "time": "13:00",
+      "home": "SG Grün-Weiß Golm II",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480033"
+    },
+    {
+      "id": "u21-610480044",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U21",
+      "away": "SG Bornim II",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480044"
+    },
+    {
+      "id": "u21-610480055",
+      "date": "2026-10-11",
+      "time": "15:30",
+      "home": "Rot-Weiß Groß Glienicke",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480055"
+    },
+    {
+      "id": "u21-610480060",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U21",
+      "away": "FSV Brück I",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480060"
+    },
+    {
+      "id": "u21-610480069",
+      "date": "2026-10-25",
+      "time": "14:00",
+      "home": "SG Blau-Weiß Beelitz",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+      "match_number": "610480069"
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RSV Eintracht Kalender//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:RSV Eintracht – Regionalliga
+X-WR-TIMEZONE:Europe/Berlin
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:rl-01@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260725T140000
+DTEND;TZID=Europe/Berlin:20260725T160000
+SUMMARY:BFC Preussen 1894 – RSV 1:1
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nErgebnis: 1
+ :1\\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-nor
+ dost/seasons/2026-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-02@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260801T140000
+DTEND;TZID=Europe/Berlin:20260801T160000
+SUMMARY:RSV – FSV 63 Luckenwalde
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-03@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260804T190000
+DTEND;TZID=Europe/Berlin:20260804T210000
+SUMMARY:FC Carl Zeiss Jena – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-04@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260808T140000
+DTEND;TZID=Europe/Berlin:20260808T160000
+SUMMARY:RSV – BSG Chemie Leipzig
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-05@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260816T140000
+DTEND;TZID=Europe/Berlin:20260816T160000
+SUMMARY:SV Babelsberg 03 – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-06@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260826T190000
+DTEND;TZID=Europe/Berlin:20260826T210000
+SUMMARY:RSV – FSV Zwickau
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-07@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260830T140000
+DTEND;TZID=Europe/Berlin:20260830T160000
+SUMMARY:RSV – 1. FC Magdeburg II
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-08@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260913T140000
+DTEND;TZID=Europe/Berlin:20260913T160000
+SUMMARY:FC Rot-Weiß Erfurt – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-09@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260916T190000
+DTEND;TZID=Europe/Berlin:20260916T210000
+SUMMARY:RSV – Greifswalder FC
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-10@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260920T140000
+DTEND;TZID=Europe/Berlin:20260920T160000
+SUMMARY:VSG Altglienicke – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-11@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20260927T140000
+DTEND;TZID=Europe/Berlin:20260927T160000
+SUMMARY:RSV – Chemnitzer FC
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-12@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261011T140000
+DTEND;TZID=Europe/Berlin:20261011T160000
+SUMMARY:Hallescher FC – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-13@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261018T140000
+DTEND;TZID=Europe/Berlin:20261018T160000
+SUMMARY:Hertha BSC II – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-14@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261025T140000
+DTEND;TZID=Europe/Berlin:20261025T160000
+SUMMARY:RSV – SV Tasmania Berlin
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-15@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261101T140000
+DTEND;TZID=Europe/Berlin:20261101T160000
+SUMMARY:BFC Dynamo – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-16@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261108T140000
+DTEND;TZID=Europe/Berlin:20261108T160000
+SUMMARY:RSV – Erzgebirge Aue
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-17@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261122T140000
+DTEND;TZID=Europe/Berlin:20261122T160000
+SUMMARY:1. FC Lok Leipzig – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-18@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261129T140000
+DTEND;TZID=Europe/Berlin:20261129T160000
+SUMMARY:RSV – BFC Preussen 1894
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-19@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261206T140000
+DTEND;TZID=Europe/Berlin:20261206T160000
+SUMMARY:FSV 63 Luckenwalde – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-20@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20261213T140000
+DTEND;TZID=Europe/Berlin:20261213T160000
+SUMMARY:RSV – FC Carl Zeiss Jena
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-21@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270214T140000
+DTEND;TZID=Europe/Berlin:20270214T160000
+SUMMARY:BSG Chemie Leipzig – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-22@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270221T140000
+DTEND;TZID=Europe/Berlin:20270221T160000
+SUMMARY:RSV – SV Babelsberg 03
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-23@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270228T140000
+DTEND;TZID=Europe/Berlin:20270228T160000
+SUMMARY:FSV Zwickau – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-24@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270307T140000
+DTEND;TZID=Europe/Berlin:20270307T160000
+SUMMARY:1. FC Magdeburg II – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-25@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270314T140000
+DTEND;TZID=Europe/Berlin:20270314T160000
+SUMMARY:RSV – FC Rot-Weiß Erfurt
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-26@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270321T140000
+DTEND;TZID=Europe/Berlin:20270321T160000
+SUMMARY:Greifswalder FC – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-27@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270404T140000
+DTEND;TZID=Europe/Berlin:20270404T160000
+SUMMARY:RSV – VSG Altglienicke
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-28@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270407T190000
+DTEND;TZID=Europe/Berlin:20270407T210000
+SUMMARY:Chemnitzer FC – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-29@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270411T140000
+DTEND;TZID=Europe/Berlin:20270411T160000
+SUMMARY:RSV – Hallescher FC
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-30@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270418T140000
+DTEND;TZID=Europe/Berlin:20270418T160000
+SUMMARY:RSV – Hertha BSC II
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-31@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270425T140000
+DTEND;TZID=Europe/Berlin:20270425T160000
+SUMMARY:SV Tasmania Berlin – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-32@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270509T140000
+DTEND;TZID=Europe/Berlin:20270509T160000
+SUMMARY:RSV – BFC Dynamo
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-33@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270516T140000
+DTEND;TZID=Europe/Berlin:20270516T160000
+SUMMARY:Erzgebirge Aue – RSV
+DESCRIPTION:Auswärtsspiel · Regionalliga Nordost 2026/27\\nQuelle: htt
+ ps://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:rl-34@rsv-kalender
+DTSTAMP:20260731T105047Z
+DTSTART;TZID=Europe/Berlin:20270523T140000
+DTEND;TZID=Europe/Berlin:20270523T160000
+SUMMARY:RSV – 1. FC Lok Leipzig
+DESCRIPTION:Heimspiel · Regionalliga Nordost 2026/27\\nQuelle: https:/
+ /datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-20
+ 27/teams/rsv-eintracht-1949
+LOCATION:
+URL:https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
+ ns/2026-2027/teams/rsv-eintracht-1949
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR

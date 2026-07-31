@@ -1,0 +1,8 @@
+[build]
+  publish = "docs"
+
+[[headers]]
+  for = "/*.ics"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=300"
