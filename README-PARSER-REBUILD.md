@@ -14,6 +14,12 @@ folgende Felder aus den Tabellenzellen gelesen:
 - Vereinslogos aus `data-responsive-image`
 - ausdrücklich angegebener Spielort
 
+Die offiziellen Druckseiten verschleiern Datum, Uhrzeit und Ergebnis mit
+Einweg-Webfonts (`data-obfuscation`). Der Parser lädt diese Schriften, mappt die
+Private-Use-Glyphen zurück auf Klartext und liest danach die komplette Tabelle.
+Sobald die Druckseite den erwarteten Ligaspielplan liefert, wird die kürzere
+Mannschaftsseite übersprungen.
+
 Die alte flache Textauswertung bleibt nur als Rückfallebene erhalten.
 
 ## Diagnose im Workflow

@@ -11,11 +11,11 @@
       "id": "u19-870019022",
       "date": "2026-08-02",
       "time": "11:00",
-      "home": "RSV Eintracht 1949 U19",
-      "away": "FC Bayern München",
+      "home": "RSV Eintracht 1949",
+      "away": "FC Bayern München - : - Schiedsrichter: Ahmad Chahrour  Louis Ferdinand Maa  Florian Bayer Spielstätte:Sportplatz Heinrich-Zille-Straße, Platz 1 | Heinrich-Zille-Str. 32 | 14532 Stahnsdorf Sonntag, 02.08.2026 - 14:00 Uhr | A-Junioren | Regionalfreundschaftsspiele 14:00 A-Junioren | Regionalfreundschaftsspiele FS | 690002036 SFC Stern : RSV Eintracht 1949 U19 Absetzung Samstag, 08.08.2026 - 13:00 Uhr | Herren | Landesfreundschaftsspiele",
       "competition": "DFB-Pokal 2026/27",
       "result": null,
-      "location": "",
+      "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz",
       "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "match_number": "870019022"
     },
@@ -27,9 +27,12 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalfreundschaftsspiele 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690002036"
+      "location": "Schildhornstraße KR1",
+      "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-/spiel/031JT3RU70000000VS5489BUVVKNMR0J",
+      "match_number": "690002036",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "location_source": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u23/-/spiel/031JTAI6A0000000VS5489BTVSRD0UH9"
     },
     {
       "id": "u19-810001078",
@@ -39,9 +42,11 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Landesfreundschaftsspiele 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "810001078"
+      "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz",
+      "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-rsv-eintracht-1949-u19/-/spiel/031AIA61VC000000VS5489BUVV628VP4",
+      "match_number": "810001078",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-810007008",
@@ -51,9 +56,11 @@
       "away": "BSV Eintracht Mahlsdorf",
       "competition": "Landesfreundschaftsspiele 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "810007008"
+      "location": "Sportplatz Dreilinden",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bsv-eintracht-mahlsdorf/-/spiel/0315FRKUGG000000VS5489BTVU7GTVLE",
+      "match_number": "810007008",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00009QVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007003",
@@ -63,9 +70,11 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007003"
+      "location": "Sportpark SG Weißig Rasen",
+      "source_url": "https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4",
+      "match_number": "690007003",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00004GVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007011",
@@ -75,9 +84,11 @@
       "away": "BFC Dynamo U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007011"
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bfc-dynamo-u19/-/spiel/031B3S0HMG000000VS5489BUVV628VP4",
+      "match_number": "690007011",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007021",
@@ -87,9 +98,11 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007021"
+      "location": "Hauptplatz Bürgerschacht",
+      "source_url": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949-u19/-/spiel/031B3S0HES000000VS5489BUVV628VP4",
+      "match_number": "690007021",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007025",
@@ -99,9 +112,11 @@
       "away": "FC Mecklenburg Schwerin U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007025"
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-mecklenburg-schwerin-u19/-/spiel/031B3S0GVG000000VS5489BUVV628VP4",
+      "match_number": "690007025",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FQJ30L98000000VV0AG811VVCPSOP1"
     },
     {
       "id": "u19-690007033",
@@ -111,9 +126,11 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007033"
+      "location": "Ernst-Reuter-Sportf. NR1",
+      "source_url": "https://www.fussball.de/spiel/fc-hertha-03-rsv-eintracht-1949-u19/-/spiel/031B3S0GN0000000VS5489BUVV628VP4",
+      "match_number": "690007033",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007039",
@@ -123,9 +140,11 @@
       "away": "VFC Plauen",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007039"
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-vfc-plauen/-/spiel/031B3S0GB0000000VS5489BUVV628VP4",
+      "match_number": "690007039",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBQ000000RVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007046",
@@ -135,22 +154,26 @@
       "away": "Sport-Club Staaken 1919 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
-      "match_number": "690007046"
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-staaken-1919-u19/-/spiel/031B3S0G0S000000VS5489BUVV628VP4",
+      "match_number": "690007046",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000055VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007051",
       "date": "2026-10-11",
-      "time": "13:30",
-      "home": "1. FC Frankfurt /O.",
+      "time": "12:00",
+      "home": "1. FC Frankfurt /​O.",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Stadion der Freundschaft, Hauptplatz",
+      "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-rsv-eintracht-1949-u19/-/spiel/031B3S0FL4000000VS5489BUVV628VP4",
       "match_number": "690007051",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01DGHPNFJS000000VV0AG80NVSS6ISDC",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007060",
@@ -160,23 +183,27 @@
       "away": "FC Viktoria 1889 Berlin U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-viktoria-berlin-u19/-/spiel/031B3S0FEO000000VS5489BUVV628VP4",
       "match_number": "690007060",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003IVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007070",
       "date": "2026-10-24",
-      "time": "13:00",
+      "time": "13:30",
       "home": "1. FC Lokomotive Leipzig U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Br.-Plache-Stadion Großfeld 1 KR",
+      "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0F9S000000VS5489BUVV628VP4",
       "match_number": "690007070",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007074",
@@ -186,23 +213,27 @@
       "away": "Berliner SC",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-berliner-sc/-/spiel/031B3S0ETO000000VS5489BUVV628VP4",
       "match_number": "690007074",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003DVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007082",
       "date": "2026-11-08",
-      "time": "12:00",
+      "time": "13:00",
       "home": "Tennis Borussia Berlin U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "H.-Rosenthal-Sp.anl. NR1",
+      "source_url": "https://www.fussball.de/spiel/tennis-borussia-berlin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0ENC000000VS5489BUVV628VP4",
       "match_number": "690007082",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005AVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007088",
@@ -212,10 +243,12 @@
       "away": "Steglitzer FC Stern 1900",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sfc-stern/-/spiel/031B3S0EFC000000VS5489BUVV628VP4",
       "match_number": "690007088",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007094",
@@ -225,23 +258,27 @@
       "away": "SC Borea Dresden",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-borea-dresden/-/spiel/031B3S0OCG000000VS5489BUVV628VP4",
       "match_number": "690007094",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00004GVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007102",
       "date": "2027-03-06",
-      "time": "12:00",
+      "time": "13:00",
       "home": "BFC Dynamo U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportforum Kunstrasen KR2",
+      "source_url": "https://www.fussball.de/spiel/bfc-dynamo-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0NSO000000VS5489BUVV628VP4",
       "match_number": "690007102",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007112",
@@ -251,10 +288,12 @@
       "away": "FSV Zwickau",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fsv-zwickau/-/spiel/031B3S0NIK000000VS5489BUVV628VP4",
       "match_number": "690007112",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007116",
@@ -264,10 +303,12 @@
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Görries Platz I",
+      "source_url": "https://www.fussball.de/spiel/fc-mecklenburg-schwerin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0MPG000000VS5489BUVV628VP4",
       "match_number": "690007116",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FQJ30L98000000VV0AG811VVCPSOP1",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007124",
@@ -277,62 +318,72 @@
       "away": "FC Hertha 03 Zehlendorf",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-hertha-03/-/spiel/031B3S0MCG000000VS5489BUVV628VP4",
       "match_number": "690007124",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007130",
       "date": "2027-04-10",
-      "time": "12:00",
+      "time": "13:00",
       "home": "VFC Plauen",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Chrieschwitzer Hang",
+      "source_url": "https://www.fussball.de/spiel/vfc-plauen-rsv-eintracht-1949-u19/-/spiel/031B3S0LQK000000VS5489BUVV628VP4",
       "match_number": "690007130",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBQ000000RVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007137",
       "date": "2027-04-18",
-      "time": "12:00",
+      "time": "13:00",
       "home": "Sport-Club Staaken 1919 U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportpark Staaken KR1",
+      "source_url": "https://www.fussball.de/spiel/sc-staaken-1919-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0LC4000000VS5489BUVV628VP4",
       "match_number": "690007137",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000055VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007142",
       "date": "2027-04-24",
       "time": "12:00",
       "home": "RSV Eintracht 1949 U19",
-      "away": "1. FC Frankfurt /O.",
+      "away": "1. FC Frankfurt /​O.",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-frankfurt/-/spiel/031B3S0KMC000000VS5489BUVV628VP4",
       "match_number": "690007142",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01DGHPNFJS000000VV0AG80NVSS6ISDC"
     },
     {
       "id": "u19-690007151",
       "date": "2027-05-01",
-      "time": "12:00",
+      "time": "14:00",
       "home": "FC Viktoria 1889 Berlin U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Stadion Lichterfelde KR2",
+      "source_url": "https://www.fussball.de/spiel/viktoria-berlin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0KBO000000VS5489BUVV628VP4",
       "match_number": "690007151",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003IVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007161",
@@ -342,23 +393,27 @@
       "away": "1. FC Lokomotive Leipzig U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-lokomotive-leipzig-u19/-/spiel/031B3S0K2K000000VS5489BUVV628VP4",
       "match_number": "690007161",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6"
     },
     {
       "id": "u19-690007165",
       "date": "2027-05-22",
-      "time": "12:00",
+      "time": "12:30",
       "home": "Berliner SC",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Hubertussportplatz NR1",
+      "source_url": "https://www.fussball.de/spiel/berliner-sc-rsv-eintracht-1949-u19/-/spiel/031B3S0JE0000000VS5489BUVV628VP4",
       "match_number": "690007165",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003DVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007173",
@@ -368,23 +423,27 @@
       "away": "Tennis Borussia Berlin U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-tennis-borussia-berlin-u19/-/spiel/031B3S0J2C000000VS5489BUVV628VP4",
       "match_number": "690007173",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005AVV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007179",
       "date": "2027-06-06",
-      "time": "12:00",
+      "time": "13:00",
       "home": "Steglitzer FC Stern 1900",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-31/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+      "location": "Schildhornstraße KR1",
+      "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-/spiel/031B3S0IJK000000VS5489BUVV628VP4",
       "match_number": "690007179",
-      "time_provisional": true
+      "time_provisional": true,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     }
   ],
   "expected_league_games": 26

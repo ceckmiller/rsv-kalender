@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 import argparse, hashlib, json, mimetypes, os, re, sys, warnings
+from io import BytesIO
 from urllib.parse import quote_plus, urljoin
 from copy import deepcopy
 from datetime import datetime, timedelta
@@ -9,6 +10,7 @@ from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup
+from fontTools.ttLib import TTFont
 
 ROOT=Path(__file__).resolve().parent
 DATA=ROOT/'data'; DOCS=ROOT/'docs'; STATE=ROOT/'state'
@@ -16,8 +18,19 @@ TZ=ZoneInfo('Europe/Berlin')
 UA='Mozilla/5.0 (compatible; RSV-Kalender/1.0; +https://github.com/)'
 
 DATE_RE=re.compile(r'(\d{2})\.(\d{2})\.(\d{4}).*?(\d{2}):(\d{2})')
+PUA_RE=re.compile(r'[\ue000-\uf8ff]')
 
 TICKET_OVERVIEW_URL='https://rsv-eintracht.vereinsticket.de/herren/'
+FUSSBALL_FONT_URL='https://www.fussball.de/export.fontface/-/format/ttf/id/{font_id}/type/font'
+
+# FUSSBALL.DE encodes dates, times and scores with one-off webfonts. Glyph
+# names in those fonts stay stable (four -> "4", period -> ".", ...).
+_OBFUSCATION_GLYPH_CHARS={
+    'comma':',','period':'.','colon':':','hyphen':'-','minus':'-',
+    'zero':'0','one':'1','two':'2','three':'3','four':'4',
+    'five':'5','six':'6','seven':'7','eight':'8','nine':'9',
+}
+_OBFUSCATION_MAP_CACHE: dict[str, dict[int, str]] = {}
 
 def normalize_match_name(value):
     name=canonical_club_name(value)
@@ -131,6 +144,58 @@ def fetch(url):
     r.raise_for_status()
     if len(r.text)<1000: raise RuntimeError(f'Antwort zu kurz ({len(r.text)} Zeichen)')
     return r.text
+
+
+def fetch_bytes(url):
+    r=requests.get(url,headers={'User-Agent':UA,'Accept-Language':'de-DE,de;q=0.9'},timeout=30)
+    r.raise_for_status()
+    if not r.content:
+        raise RuntimeError(f'Leere Binärantwort für {url}')
+    return r.content
+
+
+def _obfuscation_map(font_id):
+    """Map private-use codepoints of a FUSSBALL.DE obfuscation font to characters."""
+    if font_id in _OBFUSCATION_MAP_CACHE:
+        return _OBFUSCATION_MAP_CACHE[font_id]
+    mapping={}
+    try:
+        font=TTFont(BytesIO(fetch_bytes(FUSSBALL_FONT_URL.format(font_id=font_id))))
+        for table in font['cmap'].tables:
+            for codepoint, glyph_name in table.cmap.items():
+                if glyph_name in _OBFUSCATION_GLYPH_CHARS:
+                    mapping[codepoint]=_OBFUSCATION_GLYPH_CHARS[glyph_name]
+                elif len(glyph_name)==1:
+                    mapping[codepoint]=glyph_name
+    except Exception as exc:
+        warnings.warn(f'FUSSBALL.DE-Schriftart {font_id} konnte nicht geladen werden: {exc}')
+        mapping={}
+    _OBFUSCATION_MAP_CACHE[font_id]=mapping
+    return mapping
+
+
+def deobfuscate_fussball_html(html):
+    """Decode ``data-obfuscation`` spans so dates/times/scores become plain text.
+
+    Without this step the official print pages expose only private-use glyphs,
+    and the table parser cannot read kickoff times or results.
+    """
+    soup=BeautifulSoup(html,'html.parser')
+    spans=soup.select('[data-obfuscation]')
+    if not spans:
+        return html
+    font_ids=sorted({span.get('data-obfuscation') for span in spans if span.get('data-obfuscation')})
+    maps={font_id:_obfuscation_map(font_id) for font_id in font_ids}
+    for span in spans:
+        mapping=maps.get(span.get('data-obfuscation')) or {}
+        if not mapping:
+            continue
+        for node in span.find_all(string=True):
+            decoded=''.join(mapping.get(ord(ch), ch) for ch in str(node))
+            if decoded != str(node):
+                node.replace_with(decoded)
+    return str(soup)
+
 
 def parse_dfb(html, team):
     soup=BeautifulSoup(html,'html.parser')
@@ -261,26 +326,98 @@ def _explicit_location_from_tag(tag):
     return extract_location_from_text(tag.get_text(' | ',strip=True))
 
 
+def _competition_from_cell(text):
+    parts=[p.strip() for p in re.split(r'\s*\|\s*', str(text or '')) if p.strip()]
+    # Print pages use "Herren | Kreisliga"; keep the competition name only.
+    skip={'herren','a-junioren','b-junioren','c-junioren','d-junioren','e-junioren','f-junioren','g-junioren'}
+    for part in reversed(parts):
+        if part.casefold() not in skip:
+            return part
+    return parts[-1] if parts else ''
+
+
+def _match_number_from_info(text):
+    m=re.search(r'\b(?:ME|PO|FS)\s*\|\s*([A-Za-z0-9_-]{6,})\b', str(text or ''), re.I)
+    return m.group(1) if m else ''
+
+
+def _enrich_current_from_competition_row(row, current):
+    """Read competition name + official match id from print ``row-competition``."""
+    if current is None:
+        date_cell=row.select_one('td.column-date')
+        if date_cell:
+            date_text=' '.join(date_cell.get_text(' ',strip=True).split())
+            header=_parse_header_info(date_text if '|' in date_text else date_text+' | x')
+            if not header:
+                # "So, 16.08.26 | 10:30" split across spans becomes one cell.
+                m=re.search(
+                    r'(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*(\d{2}\.\d{2}\.(?:\d{2}|\d{4}))\s*\|\s*(\d{2}:\d{2})',
+                    date_text,re.I)
+                if m:
+                    raw=m.group(1)
+                    fmt='%d.%m.%Y' if len(raw.rsplit('.',1)[-1])==4 else '%d.%m.%y'
+                    date=datetime.strptime(raw,fmt).strftime('%d.%m.%Y')
+                    current={'date':date,'time':m.group(2),'competition':'','match_number':''}
+            else:
+                date,time,competition=header
+                current={'date':date,'time':time,'competition':competition,'match_number':''}
+    if current is None:
+        return None
+    team_cell=row.select_one('td.column-team')
+    if team_cell:
+        competition=_competition_from_cell(team_cell.get_text(' ',strip=True))
+        if competition:
+            current['competition']=competition
+    info_text=' '.join(row.get_text(' ',strip=True).split())
+    match_number=_match_number_from_info(info_text)
+    if match_number:
+        current['match_number']=match_number
+    return current
+
+
+def _prefer_game(existing, candidate):
+    """Prefer the richer of two equivalent fixtures during dedupe."""
+    def score(game):
+        match_number=str(game.get('match_number') or '')
+        return (
+            1 if re.fullmatch(r'\d{6,}', match_number) else 0,
+            1 if game.get('location') else 0,
+            1 if game.get('result') else 0,
+            1 if game.get('home_logo') or game.get('away_logo') else 0,
+            0 if PUA_RE.search(f"{game.get('home','')}{game.get('away','')}") else 1,
+            len(match_number),
+        )
+    return candidate if score(candidate) > score(existing) else existing
+
+
 def parse_fussball_table(html, team, source_url):
     """Parse the complete FUSSBALL.DE print/AJAX table structure.
 
     FUSSBALL.DE renders each fixture as a date header row followed by a row with
-    ``column-club-left``, ``column-score`` and ``column-club-right`` cells.  This
-    is substantially more stable than flattening the page and is also used by
-    the site's own AJAX fragments.  The parser intentionally reads every table
-    row, so it does not stop at the initially visible 6-10 fixtures.
+    club and score cells. Print pages additionally expose a ``row-competition``
+    line with the official match id (``ME|PO|FS | 610480004``). The parser
+    intentionally reads every table row, so it does not stop at the initially
+    visible 6-10 fixtures.
     """
     soup=BeautifulSoup(html,'html.parser')
     rows=soup.find_all('tr')
     out=[]; current=None; prefix=_team_prefix(team)
     for idx,row in enumerate(rows):
         classes=set(row.get('class') or [])
+        if 'row-competition' in classes:
+            current=_enrich_current_from_competition_row(row, current)
+            continue
         row_text=' '.join(row.get_text(' ',strip=True).split())
         header=_parse_header_info(row_text)
         if 'visible-small' in classes or (header and not row.select_one('td.column-score')):
             if header:
                 date,time,competition=header
-                current={'date':date,'time':time,'competition':competition}
+                current={
+                    'date':date,
+                    'time':time,
+                    'competition':_competition_from_cell(competition) or competition,
+                    'match_number':(current or {}).get('match_number',''),
+                }
             continue
         score_cell=row.select_one('td.column-score')
         if not score_cell or not current:
@@ -293,13 +430,15 @@ def parse_fussball_table(html, team, source_url):
                 home_cell,away_cell=cells[0],cells[1]
         home,home_logo=_extract_team_cell(home_cell)
         away,away_logo=_extract_team_cell(away_cell)
+        home=PUA_RE.sub('', home).strip()
+        away=PUA_RE.sub('', away).strip()
         if not home or not away:
             continue
         if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
             continue
         link=score_cell.find('a',href=True) or row.find('a',href=re.compile(r'/spiel/'))
         detail_url=_absolute_fussball_url(link.get('href','') if link else '')
-        match_number=_match_number_from_link(detail_url)
+        match_number=current.get('match_number') or _match_number_from_link(detail_url)
         date=current['date']; time=current['time']
         dt=datetime.strptime(date+' '+time,'%d.%m.%Y %H:%M')
         if not match_number:
@@ -308,7 +447,11 @@ def parse_fussball_table(html, team, source_url):
         # Some print layouts place venue information in the immediately following row.
         if not location and idx+1<len(rows):
             next_row=rows[idx+1]
-            if not next_row.select_one('td.column-score') and not _parse_header_info(next_row.get_text(' ',strip=True)):
+            next_classes=set(next_row.get('class') or [])
+            if 'row-venue' in next_classes or (
+                not next_row.select_one('td.column-score')
+                and not _parse_header_info(next_row.get_text(' ',strip=True))
+            ):
                 location=_explicit_location_from_tag(next_row)
         competition=current.get('competition','').strip()
         out.append({
@@ -320,6 +463,8 @@ def parse_fussball_table(html, team, source_url):
             'source_url':detail_url or source_url,'match_number':match_number,
             'home_logo':home_logo,'away_logo':away_logo,
         })
+        # Match id belongs to a single fixture; avoid leaking it to the next row.
+        current={**current,'match_number':''}
     return dedupe(out)
 
 
@@ -337,23 +482,25 @@ def parse_fussball_text_fallback(html, team, source_url):
         r'(?P<home>.*?)\s*:\s*(?P<away>.*?)'
         r'(?=\s+Zum Spiel|\s+(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?[,]?\s*\d{2}\.\d{2}\.|$)',re.I)
     for m in compact_re.finditer(flat):
-        home=' '.join(m.group('home').split()).strip()
-        away=' '.join(m.group('away').split()).strip()
+        home=PUA_RE.sub('', ' '.join(m.group('home').split())).strip()
+        away=PUA_RE.sub('', ' '.join(m.group('away').split())).strip()
         if team.casefold() not in home.casefold() and team.casefold() not in away.casefold():
             continue
         raw=m.group('date'); fmt='%d.%m.%Y' if len(raw.rsplit('.',1)[-1])==4 else '%d.%m.%y'
         dt=datetime.strptime(raw+' '+m.group('time'),fmt+' %H:%M')
         number=m.group('number')
+        competition=_competition_from_cell(m.group('competition')) or ' '.join(m.group('competition').split()).strip()
         tail=flat[m.end():m.end()+500]
         out.append({
             'id':prefix+'-'+number,'date':dt.strftime('%Y-%m-%d'),'time':m.group('time'),
-            'home':home,'away':away,'competition':' '.join(m.group('competition').split()).strip()+' 2026/27',
+            'home':home,'away':away,'competition':competition+' 2026/27',
             'result':None,'location':extract_location_from_text(tail),'source_url':source_url,
             'match_number':number,'home_logo':'','away_logo':''})
     return dedupe(out)
 
 
 def parse_fussball(html, team, source_url):
+    html=deobfuscate_fussball_html(html)
     table_games=parse_fussball_table(html,team,source_url)
     fallback_games=parse_fussball_text_fallback(html,team,source_url)
     games=dedupe(table_games+fallback_games)
@@ -364,9 +511,20 @@ def parse_fussball(html, team, source_url):
     return games
 
 def dedupe(games):
-    seen={};
-    for g in games: seen[g['id']]=g
-    return sorted(seen.values(),key=lambda x:(x['date'],x.get('time','00:00')))
+    by_id={}
+    for game in games:
+        previous=by_id.get(game['id'])
+        by_id[game['id']]=game if previous is None else _prefer_game(previous, game)
+    by_identity={}
+    for game in by_id.values():
+        identity=(
+            game.get('date',''),
+            normalize_match_name(game.get('home','')),
+            normalize_match_name(game.get('away','')),
+        )
+        previous=by_identity.get(identity)
+        by_identity[identity]=game if previous is None else _prefer_game(previous, game)
+    return sorted(by_identity.values(),key=lambda x:(x['date'],x.get('time','00:00'),x.get('id','')))
 
 def merge(base, remote):
     result={g['id']:deepcopy(g) for g in base}
@@ -1008,10 +1166,18 @@ def process(key,offline=False):
             urls=meta.get('source_urls') or [meta.get('source_url','')]
             parsed=[]
             source_errors=[]
+            expected=int(meta.get('expected_league_games') or 0)
             for url in [u for u in urls if u]:
                 try:
                     html=fetch(url)
                     parsed += parse_dfb(html,meta['team_name']) if 'datencenter.dfb.de' in url else parse_fussball(html,meta['team_name'],url)
+                    # The official print page already contains the full season.
+                    # Skipping the shorter team/AJAX page avoids duplicate junk
+                    # rows that FUSSBALL.DE injects into the public team view.
+                    if expected and (
+                        'vereinsspielplan.druck' in url or 'mode/PRINT' in url.upper()
+                    ) and league_game_count(dedupe(parsed)) >= expected:
+                        break
                 except Exception as source_exc:
                     source_errors.append(f'{url}: {source_exc}')
             remote=dedupe(parsed)
@@ -1030,7 +1196,8 @@ def process(key,offline=False):
     DOCS.mkdir(exist_ok=True)
     out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics'}
     out=DOCS/out_names[key]
-    out.write_text(make_ics(meta,merged),encoding='utf-8',newline='')
+    # newline='' needs Python 3.10+; write bytes for broader compatibility.
+    out.write_bytes(make_ics(meta,merged).encode('utf-8'))
     print(f'{key}: {len(merged)} Termine erzeugt'+(f' (Online-Update übersprungen: {err})' if err else ''))
     return err is None or bool(merged)
 

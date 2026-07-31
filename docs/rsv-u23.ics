@@ -7,191 +7,620 @@ X-WR-CALNAME:RSV Eintracht – U23
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u23-fs-20260802@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260802T120000Z
 DTEND:20260802T140000Z
 SUMMARY:Regionalfreundschaftsspiele | Regionalfreundschaftsspiele | SF
  C Stern – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
 DESCRIPTION:Regionalfreundschaftsspiele\nRegionalfreundschaftsspiele\n
  SFC Stern – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟️ Sp
- ielort: noch nicht hinterlegt\n\n🌦️ Wetter am Spielort öffnen: htt
- ps://www.google.com/search?q=Wetter+2026-08-02\n\nQuelle: https://www
- .rsv-eintracht-fussball.de/mannschaft/20715/u23-herren
-LOCATION:
+ ielort: Schildhornstraße KR1\n🗺️ Google Maps: https://www.google.c
+ om/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1\n\n🌦️ Wetter 
+ am Spielort öffnen: https://www.google.com/search?q=Wetter+Schildhorn
+ stra%C3%9Fe+KR1+2026-08-02\n\nQuelle: https://www.fussball.de/spiel/s
+ fc-stern-rsv-eintracht-1949-u23/-/spiel/031JTAI6A0000000VS5489BTVSRD0UH9
+LOCATION:Schildhornstraße KR1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-fs-20260809@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260809T120000Z
 DTEND:20260809T140000Z
 SUMMARY:Bezirksfreundschaftsspiele | Bezirksfreundschaftsspiele | FC S
  tern Marienfelde II – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
 DESCRIPTION:Bezirksfreundschaftsspiele\nBezirksfreundschaftsspiele\nFC
   Stern Marienfelde II – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n
- \n🏟️ Spielort: noch nicht hinterlegt\n\n🌦️ Wetter am Spielort 
- öffnen: https://www.google.com/search?q=Wetter+2026-08-09\n\nQuelle: 
- https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren
-LOCATION:
+ \n🏟️ Spielort: An der Dorfkirche KR1\n🗺️ Google Maps: https://
+ www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1\n\n🌦️
+  Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+An
+ +der+Dorfkirche+KR1+2026-08-09\n\nQuelle: https://www.fussball.de/spi
+ el/fc-stern-marienfelde-ii-rsv-eintracht-1949-u23/-/spiel/0318D8LSKK0
+ 00000VS5489BTVU7GTVLE
+LOCATION:An der Dorfkirche KR1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-fs-20260815@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260815T120000Z
 DTEND:20260815T140000Z
 SUMMARY:Landesfreundschaftsspiele | Landesfreundschaftsspiele | SV Bab
  elsberg 03 II – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
 DESCRIPTION:Landesfreundschaftsspiele\nLandesfreundschaftsspiele\nSV B
  abelsberg 03 II – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟
- ️ Spielort: Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 144
- 82 Potsdam\n🗺️ Google Maps: https://www.google.com/maps/search/?api
- =1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C
- +14482+Potsdam\n\n🌦️ Wetter am Spielort öffnen: https://www.google
- .com/search?q=Wetter+Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%
- C3%9Fe+90%2C+14482+Potsdam+2026-08-15\n\nQuelle: https://www.rsv-eint
- racht-fussball.de/mannschaft/20715/u23-herren
-LOCATION:Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 14482 P
- otsdam
+ ️ Spielort: Sportplatz Sandscholle\, KR\n🗺️ Google Maps: https://
+ www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR\
+ n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=W
+ etter+Sportplatz+Sandscholle%2C+KR+2026-08-15\n\nQuelle: https://www.
+ fussball.de/spiel/sv-babelsberg-03-ii-rsv-eintracht-1949-u23/-/spiel/
+ 031JRCEBKC000000VS5489BUVVKNMR0J
+LOCATION:Sportplatz Sandscholle\, KR
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-liga-20260830@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260830T130000Z
 DTEND:20260830T150000Z
 SUMMARY:1. Spieltag | Kreisoberliga | SV Ziesar 1 – RSV Eintracht 1949
   U23 | Anstoß: 15:00 Uhr
 DESCRIPTION:1. Spieltag\nKreisoberliga\nSV Ziesar 1 – RSV Eintracht 19
- 49 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinterlegt\
- n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=W
- etter+2026-08-30\n\nQuelle: https://www.rsv-eintracht-fussball.de/man
- nschaft/20715/u23-herren
-LOCATION:
+ 49 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Ziesar\n
+ 🗺️ Google Maps: https://www.google.com/maps/search/?api=1&query=Spo
+ rtplatz+Ziesar\n\n🌦️ Wetter am Spielort öffnen: https://www.google
+ .com/search?q=Wetter+Sportplatz+Ziesar+2026-08-30\n\nQuelle: https://
+ www.fussball.de/spiel/sv-ziesar-1-rsv-eintracht-1949-u23/-/spiel/031D
+ 1IIEGK000000VS5489BTVUS470OH
+LOCATION:Sportplatz Ziesar
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-liga-20260906@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260906T120000Z
 DTEND:20260906T140000Z
 SUMMARY:2. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Falk
  ensee-Finkenkrug II | Anstoß: 14:00 Uhr
 DESCRIPTION:2. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV Fa
- lkensee-Finkenkrug II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preuße
- nstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Goog
- le Maps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fen
- stadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz
- \n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=
- Wetter+Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12
- 249+Berlin-Lankwitz+2026-09-06\n\nQuelle: https://www.rsv-eintracht-f
- ussball.de/mannschaft/20715/u23-herren
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+ lkensee-Finkenkrug II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportpl
+ atz Heinrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.co
+ m/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦
+ ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+S
+ portplatz+Heinrich-Zille-Str.%2C+KR+2026-09-06\n\nQuelle: https://www
+ .fussball.de/spiel/rsv-eintracht-1949-u23-sv-falkensee-finkenkrug-ii/
+ -/spiel/031D1II8UO000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138020@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260913T130000Z
 DTEND:20260913T150000Z
 SUMMARY:3. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Ruhl
  sdorf I | Anstoß: 15:00 Uhr
 DESCRIPTION:3. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV Ru
- hlsdorf I\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\, M
- alteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: htt
- ps://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+M
- alteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ Wet
- ter am Spielort öffnen: https://www.google.com/search?q=Wetter+Preu%C
- 3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-La
- nkwitz+2026-09-13\n\nQuelle: https://www.fussball.de/mannschaft/rsv-e
- intracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-i
- d/011MIBRREG000000VTVG0001VTR8C1K7
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+ hlsdorf I\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinrich
+ -Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/searc
+ h/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter am
+  Spielort öffnen: https://www.google.com/search?q=Wetter+Sportplatz+H
+ einrich-Zille-Str.%2C+KR+2026-09-13\n\nQuelle: https://www.fussball.d
+ e/spiel/rsv-eintracht-1949-u23-sv-ruhlsdorf-i/-/spiel/031D1IIE1800000
+ 0VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138026@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260920T130000Z
 DTEND:20260920T150000Z
 SUMMARY:4. Spieltag | Kreisoberliga | SG Geltow – RSV Eintracht 1949 U
  23 | Anstoß: 15:00 Uhr
 DESCRIPTION:4. Spieltag\nKreisoberliga\nSG Geltow – RSV Eintracht 1949
-  U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinterlegt\n\
- n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wet
- ter+2026-09-20\n\nQuelle: https://www.fussball.de/mannschaft/rsv-eint
- racht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/0
- 11MIBRREG000000VTVG0001VTR8C1K7
-LOCATION:
+  U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Geltow Am Mü
+ hlenberg\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1
+ &query=Sportplatz+Geltow+Am+M%C3%BChlenberg\n\n🌦️ Wetter am Spielor
+ t öffnen: https://www.google.com/search?q=Wetter+Sportplatz+Geltow+Am
+ +M%C3%BChlenberg+2026-09-20\n\nQuelle: https://www.fussball.de/spiel/
+ sg-geltow-rsv-eintracht-1949-u23/-/spiel/031D1IIDF4000000VS5489BTVUS4
+ 70OH
+LOCATION:Sportplatz Geltow Am Mühlenberg
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138036@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20260927T120000Z
 DTEND:20260927T140000Z
 SUMMARY:5. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – Fortuna
   Babelsberg II | Anstoß: 14:00 Uhr
 DESCRIPTION:5. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – Fortu
- na Babelsberg II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstad
- ion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Ma
- ps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadi
- on%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦
- ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+P
- reu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berl
- in-Lankwitz+2026-09-27\n\nQuelle: https://www.fussball.de/mannschaft/
- rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/t
- eam-id/011MIBRREG000000VTVG0001VTR8C1K7
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+ na Babelsberg II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz H
+ einrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/map
+ s/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ We
+ tter am Spielort öffnen: https://www.google.com/search?q=Wetter+Sport
+ platz+Heinrich-Zille-Str.%2C+KR+2026-09-27\n\nQuelle: https://www.fus
+ sball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/0
+ 31D1IID4O000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138047@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20261004T130000Z
 DTEND:20261004T150000Z
 SUMMARY:6. Spieltag | Kreisoberliga | BSG Stahl Brandenburg U23 – RSV 
  Eintracht 1949 U23 | Anstoß: 15:00 Uhr
 DESCRIPTION:6. Spieltag\nKreisoberliga\nBSG Stahl Brandenburg U23 – RS
- V Eintracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nic
- ht hinterlegt\n\n🌦️ Wetter am Spielort öffnen: https://www.google.
- com/search?q=Wetter+2026-10-04\n\nQuelle: https://www.fussball.de/man
- nschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saiso
- n/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7
-LOCATION:
+ V Eintracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Stadion 
+ am Quenz\, Platz 2\n🗺️ Google Maps: https://www.google.com/maps/sea
+ rch/?api=1&query=Stadion+am+Quenz%2C+Platz+2\n\n🌦️ Wetter am Spielo
+ rt öffnen: https://www.google.com/search?q=Wetter+Stadion+am+Quenz%2C
+ +Platz+2+2026-10-04\n\nQuelle: https://www.fussball.de/spiel/bsg-stah
+ l-brandenburg-u23-rsv-eintracht-1949-u23/-/spiel/031D1IICS4000000VS54
+ 89BTVUS470OH
+LOCATION:Stadion am Quenz\, Platz 2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138052@rsv-kalender
-DTSTAMP:20260731T151654Z
+DTSTAMP:20260731T163710Z
 DTSTART:20261011T120000Z
 DTEND:20261011T140000Z
 SUMMARY:7. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Dall
  gow 47 | Anstoß: 14:00 Uhr
 DESCRIPTION:7. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV Da
- llgow 47\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Preußenstadion\, Ma
- lteserstraße 24–36\, 12249 Berlin-Lankwitz\n🗺️ Google Maps: http
- s://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\n🌦️ Wett
- er am Spielort öffnen: https://www.google.com/search?q=Wetter+Preu%C3
- %9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lan
- kwitz+2026-10-11\n\nQuelle: https://www.fussball.de/mannschaft/rsv-ei
- ntracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id
- /011MIBRREG000000VTVG0001VTR8C1K7
-LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwit
- z
+ llgow 47\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinrich-
+ Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/search
+ /?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter am 
+ Spielort öffnen: https://www.google.com/search?q=Wetter+Sportplatz+He
+ inrich-Zille-Str.%2C+KR+2026-10-11\n\nQuelle: https://www.fussball.de
+ /spiel/rsv-eintracht-1949-u23-sv-dallgow-47/-/spiel/031D1IIC8C000000V
+ S5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138061@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261018T130000Z
+DTEND:20261018T150000Z
+SUMMARY:8. Spieltag | Kreisoberliga | SG Eintracht Friesack – RSV Eint
+ racht 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:8. Spieltag\nKreisoberliga\nSG Eintracht Friesack – RSV Ei
+ ntracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Rudolf-Harbi
+ g-Stadion\n🗺️ Google Maps: https://www.google.com/maps/search/?api=
+ 1&query=Rudolf-Harbig-Stadion\n\n🌦️ Wetter am Spielort öffnen: htt
+ ps://www.google.com/search?q=Wetter+Rudolf-Harbig-Stadion+2026-10-18\
+ n\nQuelle: https://www.fussball.de/spiel/sg-eintracht-friesack-rsv-ei
+ ntracht-1949-u23/-/spiel/031D1IIBSS000000VS5489BTVUS470OH
+LOCATION:Rudolf-Harbig-Stadion
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138068@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261025T130000Z
+DTEND:20261025T150000Z
+SUMMARY:9. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – FSV Bab
+ elsberg 74 II | Anstoß: 14:00 Uhr
+DESCRIPTION:9. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – FSV B
+ abelsberg 74 II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz He
+ inrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps
+ /search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wet
+ ter am Spielort öffnen: https://www.google.com/search?q=Wetter+Sportp
+ latz+Heinrich-Zille-Str.%2C+KR+2026-10-25\n\nQuelle: https://www.fuss
+ ball.de/spiel/rsv-eintracht-1949-u23-fsv-babelsberg-74-ii/-/spiel/031
+ D1IIBDK000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138076@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261101T130000Z
+DTEND:20261101T150000Z
+SUMMARY:10. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – UNITED
+  TELTOW FC I | Anstoß: 14:00 Uhr
+DESCRIPTION:10. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – UNIT
+ ED TELTOW FC I\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Hei
+ nrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/
+ search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wett
+ er am Spielort öffnen: https://www.google.com/search?q=Wetter+Sportpl
+ atz+Heinrich-Zille-Str.%2C+KR+2026-11-01\n\nQuelle: https://www.fussb
+ all.de/spiel/rsv-eintracht-1949-u23-united-teltow-fc-i/-/spiel/031D1I
+ IB2K000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138082@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261108T130000Z
+DTEND:20261108T150000Z
+SUMMARY:11. Spieltag | Kreisoberliga | Bredower SV I – RSV Eintracht 1
+ 949 U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:11. Spieltag\nKreisoberliga\nBredower SV I – RSV Eintracht
+  1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Bredow\n
+ 🗺️ Google Maps: https://www.google.com/maps/search/?api=1&query=Spo
+ rtplatz+Bredow\n\n🌦️ Wetter am Spielort öffnen: https://www.google
+ .com/search?q=Wetter+Sportplatz+Bredow+2026-11-08\n\nQuelle: https://
+ www.fussball.de/spiel/bredower-sv-i-rsv-eintracht-1949-u23/-/spiel/03
+ 1D1IIAIO000000VS5489BTVUS470OH
+LOCATION:Sportplatz Bredow
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138092@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261115T130000Z
+DTEND:20261115T150000Z
+SUMMARY:12. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – FSV 95
+  Ketzin/​Falkenrehde | Anstoß: 14:00 Uhr
+DESCRIPTION:12. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – FSV 
+ 95 Ketzin/​Falkenrehde\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Spor
+ tplatz Heinrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google
+ .com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\
+ n🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wet
+ ter+Sportplatz+Heinrich-Zille-Str.%2C+KR+2026-11-15\n\nQuelle: https:
+ //www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-95-ketzin-falkenre
+ hde/-/spiel/031D1IIAAO000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138104@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261122T140000Z
+DTEND:20261122T160000Z
+SUMMARY:13. Spieltag | Kreisoberliga | SG Blau-Weiß Pessin – RSV Eintr
+ acht 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:13. Spieltag\nKreisoberliga\nSG Blau-Weiß Pessin – RSV Ein
+ tracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Pe
+ ssin\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1&que
+ ry=Sportplatz+Pessin\n\n🌦️ Wetter am Spielort öffnen: https://www.
+ google.com/search?q=Wetter+Sportplatz+Pessin+2026-11-22\n\nQuelle: ht
+ tps://www.fussball.de/spiel/sg-blau-weiss-pessin-rsv-eintracht-1949-u
+ 23/-/spiel/031D1IIA2G000000VS5489BTVUS470OH
+LOCATION:Sportplatz Pessin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138108@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261129T130000Z
+DTEND:20261129T150000Z
+SUMMARY:14. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – Brande
+ nburger SC Süd 05 II | Anstoß: 14:00 Uhr
+DESCRIPTION:14. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – Bran
+ denburger SC Süd 05 II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sport
+ platz Heinrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.
+ com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n
+ 🌦️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wett
+ er+Sportplatz+Heinrich-Zille-Str.%2C+KR+2026-11-29\n\nQuelle: https:/
+ /www.fussball.de/spiel/rsv-eintracht-1949-u23-brandenburger-sc-sued-0
+ 5-ii/-/spiel/031D1II9IO000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138118@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20261206T143000Z
+DTEND:20261206T163000Z
+SUMMARY:15. Spieltag | Kreisoberliga | SG Michendorf II – RSV Eintrach
+ t 1949 U23 | Anstoß: 15:30 Uhr
+DESCRIPTION:15. Spieltag\nKreisoberliga\nSG Michendorf II – RSV Eintra
+ cht 1949 U23\nAnstoß: 15:30 Uhr\n\n\n🏟️ Spielort: Sportplatz Helle
+ rfichten\, Hauptplatz KR\n🗺️ Google Maps: https://www.google.com/ma
+ ps/search/?api=1&query=Sportplatz+Hellerfichten%2C+Hauptplatz+KR\n\n🌦
+ ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+S
+ portplatz+Hellerfichten%2C+Hauptplatz+KR+2026-12-06\n\nQuelle: https:
+ //www.fussball.de/spiel/sg-michendorf-ii-rsv-eintracht-1949-u23/-/spi
+ el/031D1II9AG000000VS5489BTVUS470OH
+LOCATION:Sportplatz Hellerfichten\, Hauptplatz KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138124@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270221T130000Z
+DTEND:20270221T150000Z
+SUMMARY:16. Spieltag | Kreisoberliga | FSV 95 Ketzin/​Falkenrehde – R
+ SV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:16. Spieltag\nKreisoberliga\nFSV 95 Ketzin/​Falkenrehde –
+  RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sport
+ platz Ketzin\n🗺️ Google Maps: https://www.google.com/maps/search/?a
+ pi=1&query=Sportplatz+Ketzin\n\n🌦️ Wetter am Spielort öffnen: http
+ s://www.google.com/search?q=Wetter+Sportplatz+Ketzin+2027-02-21\n\nQu
+ elle: https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-rsv-ein
+ tracht-1949-u23/-/spiel/031D1IIHG4000000VS5489BTVUS470OH
+LOCATION:Sportplatz Ketzin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138132@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270228T130000Z
+DTEND:20270228T150000Z
+SUMMARY:17. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Zie
+ sar 1 | Anstoß: 14:00 Uhr
+DESCRIPTION:17. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV Z
+ iesar 1\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinrich-Z
+ ille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/search/
+ ?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter am S
+ pielort öffnen: https://www.google.com/search?q=Wetter+Sportplatz+Hei
+ nrich-Zille-Str.%2C+KR+2027-02-28\n\nQuelle: https://www.fussball.de/
+ spiel/rsv-eintracht-1949-u23-sv-ziesar-1/-/spiel/031D1IINEG000000VS54
+ 89BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138140@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270307T140000Z
+DTEND:20270307T160000Z
+SUMMARY:18. Spieltag | Kreisoberliga | SV Ruhlsdorf I – RSV Eintracht 
+ 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:18. Spieltag\nKreisoberliga\nSV Ruhlsdorf I – RSV Eintrach
+ t 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Dittmar-Hartung-Sp
+ ortplatz\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1
+ &query=Dittmar-Hartung-Sportplatz\n\n🌦️ Wetter am Spielort öffnen:
+  https://www.google.com/search?q=Wetter+Dittmar-Hartung-Sportplatz+20
+ 27-03-07\n\nQuelle: https://www.fussball.de/spiel/sv-ruhlsdorf-i-rsv-
+ eintracht-1949-u23/-/spiel/031D1IIMQ0000000VS5489BTVUS470OH
+LOCATION:Dittmar-Hartung-Sportplatz
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138146@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270314T130000Z
+DTEND:20270314T150000Z
+SUMMARY:19. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SG Gel
+ tow | Anstoß: 14:00 Uhr
+DESCRIPTION:19. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SG G
+ eltow\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinrich-Zil
+ le-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/search/?a
+ pi=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter am Spi
+ elort öffnen: https://www.google.com/search?q=Wetter+Sportplatz+Heinr
+ ich-Zille-Str.%2C+KR+2027-03-14\n\nQuelle: https://www.fussball.de/sp
+ iel/rsv-eintracht-1949-u23-sg-geltow/-/spiel/031D1IIM2C000000VS5489BT
+ VUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138156@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270321T140000Z
+DTEND:20270321T160000Z
+SUMMARY:20. Spieltag | Kreisoberliga | Fortuna Babelsberg II – RSV Ein
+ tracht 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:20. Spieltag\nKreisoberliga\nFortuna Babelsberg II – RSV E
+ intracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sternsportp
+ latz Potsdam\, Hauptplatz\n🗺️ Google Maps: https://www.google.com/m
+ aps/search/?api=1&query=Sternsportplatz+Potsdam%2C+Hauptplatz\n\n🌦️
+  Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+St
+ ernsportplatz+Potsdam%2C+Hauptplatz+2027-03-21\n\nQuelle: https://www
+ .fussball.de/spiel/fortuna-babelsberg-ii-rsv-eintracht-1949-u23/-/spi
+ el/031D1IILJO000000VS5489BTVUS470OH
+LOCATION:Sternsportplatz Potsdam\, Hauptplatz
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138167@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270404T120000Z
+DTEND:20270404T140000Z
+SUMMARY:21. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – BSG St
+ ahl Brandenburg U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:21. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – BSG 
+ Stahl Brandenburg U23\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportpl
+ atz Heinrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.co
+ m/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦
+ ️ Wetter am Spielort öffnen: https://www.google.com/search?q=Wetter+S
+ portplatz+Heinrich-Zille-Str.%2C+KR+2027-04-04\n\nQuelle: https://www
+ .fussball.de/spiel/rsv-eintracht-1949-u23-bsg-stahl-brandenburg-u23/-
+ /spiel/031D1IIL6C000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138172@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270411T123000Z
+DTEND:20270411T143000Z
+SUMMARY:22. Spieltag | Kreisoberliga | SV Dallgow 47 – RSV Eintracht 1
+ 949 U23 | Anstoß: 14:30 Uhr
+DESCRIPTION:22. Spieltag\nKreisoberliga\nSV Dallgow 47 – RSV Eintracht
+  1949 U23\nAnstoß: 14:30 Uhr\n\n\n🏟️ Spielort: Fußballplatz Dallg
+ ow\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1&query
+ =Fu%C3%9Fballplatz+Dallgow\n\n🌦️ Wetter am Spielort öffnen: https:
+ //www.google.com/search?q=Wetter+Fu%C3%9Fballplatz+Dallgow+2027-04-11
+ \n\nQuelle: https://www.fussball.de/spiel/sv-dallgow-47-rsv-eintracht
+ -1949-u23/-/spiel/031D1IIKC0000000VS5489BTVUS470OH
+LOCATION:Fußballplatz Dallgow
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138181@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270418T120000Z
+DTEND:20270418T140000Z
+SUMMARY:23. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SG Ein
+ tracht Friesack | Anstoß: 14:00 Uhr
+DESCRIPTION:23. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SG E
+ intracht Friesack\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz 
+ Heinrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/ma
+ ps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ W
+ etter am Spielort öffnen: https://www.google.com/search?q=Wetter+Spor
+ tplatz+Heinrich-Zille-Str.%2C+KR+2027-04-18\n\nQuelle: https://www.fu
+ ssball.de/spiel/rsv-eintracht-1949-u23-sg-eintracht-friesack/-/spiel/
+ 031D1IIJS0000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138188@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270425T130000Z
+DTEND:20270425T150000Z
+SUMMARY:24. Spieltag | Kreisoberliga | FSV Babelsberg 74 II – RSV Eint
+ racht 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:24. Spieltag\nKreisoberliga\nFSV Babelsberg 74 II – RSV Ei
+ ntracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Sportplatz R
+ udolf-Breitscheid-Straße\, KR-Hauptplatz\n🗺️ Google Maps: https://
+ www.google.com/maps/search/?api=1&query=Sportplatz+Rudolf-Breitscheid
+ -Stra%C3%9Fe%2C+KR-Hauptplatz\n\n🌦️ Wetter am Spielort öffnen: htt
+ ps://www.google.com/search?q=Wetter+Sportplatz+Rudolf-Breitscheid-Str
+ a%C3%9Fe%2C+KR-Hauptplatz+2027-04-25\n\nQuelle: https://www.fussball.
+ de/spiel/fsv-babelsberg-74-ii-rsv-eintracht-1949-u23/-/spiel/031D1IIJ
+ 7C000000VS5489BTVUS470OH
+LOCATION:Sportplatz Rudolf-Breitscheid-Straße\, KR-Hauptplatz
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138196@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270502T090000Z
+DTEND:20270502T110000Z
+SUMMARY:25. Spieltag | Kreisoberliga | UNITED TELTOW FC I – RSV Eintra
+ cht 1949 U23 | Anstoß: 11:00 Uhr
+DESCRIPTION:25. Spieltag\nKreisoberliga\nUNITED TELTOW FC I – RSV Eint
+ racht 1949 U23\nAnstoß: 11:00 Uhr\n\n\n🏟️ Spielort: John-Schehr-Pl
+ atz KR\n🗺️ Google Maps: https://www.google.com/maps/search/?api=1&q
+ uery=John-Schehr-Platz+KR\n\n🌦️ Wetter am Spielort öffnen: https:/
+ /www.google.com/search?q=Wetter+John-Schehr-Platz+KR+2027-05-02\n\nQu
+ elle: https://www.fussball.de/spiel/united-teltow-fc-i-rsv-eintracht-
+ 1949-u23/-/spiel/031D1IIIMS000000VS5489BTVUS470OH
+LOCATION:John-Schehr-Platz KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138202@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270509T120000Z
+DTEND:20270509T140000Z
+SUMMARY:26. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – Bredow
+ er SV I | Anstoß: 14:00 Uhr
+DESCRIPTION:26. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – Bred
+ ower SV I\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinrich
+ -Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/searc
+ h/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter am
+  Spielort öffnen: https://www.google.com/search?q=Wetter+Sportplatz+H
+ einrich-Zille-Str.%2C+KR+2027-05-09\n\nQuelle: https://www.fussball.d
+ e/spiel/rsv-eintracht-1949-u23-bredower-sv-i/-/spiel/031D1IIHT0000000
+ VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138216@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270523T120000Z
+DTEND:20270523T140000Z
+SUMMARY:27. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SG Bla
+ u-Weiß Pessin | Anstoß: 14:00 Uhr
+DESCRIPTION:27. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SG B
+ lau-Weiß Pessin\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz H
+ einrich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/map
+ s/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ We
+ tter am Spielort öffnen: https://www.google.com/search?q=Wetter+Sport
+ platz+Heinrich-Zille-Str.%2C+KR+2027-05-23\n\nQuelle: https://www.fus
+ sball.de/spiel/rsv-eintracht-1949-u23-sg-blau-weiss-pessin/-/spiel/03
+ 1D1IIH5C000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138220@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270530T130000Z
+DTEND:20270530T150000Z
+SUMMARY:28. Spieltag | Kreisoberliga | Brandenburger SC Süd 05 II – RS
+ V Eintracht 1949 U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:28. Spieltag\nKreisoberliga\nBrandenburger SC Süd 05 II – 
+ RSV Eintracht 1949 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: Werner
+ -Seelenbinder-Sportplatz\, Platz 2\n🗺️ Google Maps: https://www.goo
+ gle.com/maps/search/?api=1&query=Werner-Seelenbinder-Sportplatz%2C+Pl
+ atz+2\n\n🌦️ Wetter am Spielort öffnen: https://www.google.com/sear
+ ch?q=Wetter+Werner-Seelenbinder-Sportplatz%2C+Platz+2+2027-05-30\n\nQ
+ uelle: https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-rsv-
+ eintracht-1949-u23/-/spiel/031D1IIGAG000000VS5489BTVUS470OH
+LOCATION:Werner-Seelenbinder-Sportplatz\, Platz 2
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138230@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270606T120000Z
+DTEND:20270606T140000Z
+SUMMARY:29. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SG Mic
+ hendorf II | Anstoß: 14:00 Uhr
+DESCRIPTION:29. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SG M
+ ichendorf II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportplatz Heinr
+ ich-Zille-Str.\, KR\n🗺️ Google Maps: https://www.google.com/maps/se
+ arch/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR\n\n🌦️ Wetter
+  am Spielort öffnen: https://www.google.com/search?q=Wetter+Sportplat
+ z+Heinrich-Zille-Str.%2C+KR+2027-06-06\n\nQuelle: https://www.fussbal
+ l.de/spiel/rsv-eintracht-1949-u23-sg-michendorf-ii/-/spiel/031D1IIFS0
+ 000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Str.\, KR
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138236@rsv-kalender
+DTSTAMP:20260731T163710Z
+DTSTART:20270612T150000Z
+DTEND:20270612T170000Z
+SUMMARY:30. Spieltag | Kreisoberliga | SV Falkensee-Finkenkrug II – RS
+ V Eintracht 1949 U23 | Anstoß: 17:00 Uhr
+DESCRIPTION:30. Spieltag\nKreisoberliga\nSV Falkensee-Finkenkrug II – 
+ RSV Eintracht 1949 U23\nAnstoß: 17:00 Uhr\n\n\n🏟️ Spielort: Sportp
+ ark Rosenstraße\, KR 1\n🗺️ Google Maps: https://www.google.com/map
+ s/search/?api=1&query=Sportpark+Rosenstra%C3%9Fe%2C+KR+1\n\n🌦️ Wett
+ er am Spielort öffnen: https://www.google.com/search?q=Wetter+Sportpa
+ rk+Rosenstra%C3%9Fe%2C+KR+1+2027-06-12\n\nQuelle: https://www.fussbal
+ l.de/spiel/sv-falkensee-finkenkrug-ii-rsv-eintracht-1949-u23/-/spiel/
+ 031D1IIF2C000000VS5489BTVUS470OH
+LOCATION:Sportpark Rosenstraße\, KR 1
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
