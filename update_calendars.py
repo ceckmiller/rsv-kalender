@@ -283,7 +283,8 @@ def make_ics(meta,games):
         matchday=g.get('matchday')
         first_line=f"{matchday}. Spieltag" if matchday else (comp or 'Pflichtspiel')
         status_line=f"Endstand: {g['result']}" if g.get('result') else f"Anstoß: {kickoff} Uhr"
-        summary='\n'.join([first_line, comp, pairing, status_line])
+        # Keep SUMMARY on one physical/logical line for maximum Google Calendar compatibility.
+        summary=' | '.join(x for x in (first_line, comp, pairing, status_line) if x)
         location=venue_for_game(g, venues)
         map_link=maps_url(location)
         weather_link=weather_search_url(location, g['date'])
@@ -329,13 +330,6 @@ def make_ics(meta,games):
             label='OSTSPORT.TV-Beitrag' if g.get('youtube_url') else 'OSTSPORT.TV-Beitrag suchen'
             desc.extend(['', f"▶️ {label}: {video}"])
 
-        if home_logo or away_logo:
-            desc.extend(['', '🛡️ Vereinslogos'])
-            if home_logo:
-                desc.append(f"{g.get('home')}: {home_logo}")
-            if away_logo:
-                desc.append(f"{g.get('away')}: {away_logo}")
-
         if g.get('report_url'):
             desc.extend(['', f"📰 Spielbericht: {g['report_url']}"])
         if g.get('source_url'):
@@ -351,10 +345,8 @@ def make_ics(meta,games):
             f'DESCRIPTION:{esc(chr(10).join(desc))}',
             f'LOCATION:{esc(location)}',
         ]
-        # RFC-compatible image hints. Calendar apps decide whether they display them.
-        for logo in (home_logo, away_logo):
-            if logo:
-                event_lines.append(f'ATTACH;FMTTYPE=image/png:{logo}')
+        # External image attachments are intentionally omitted. Google Calendar
+        # can reject URL subscriptions containing remote ATTACH properties.
         event_lines += ['STATUS:CONFIRMED', 'TRANSP:OPAQUE', 'END:VEVENT']
         lines += event_lines
     lines.append('END:VCALENDAR')
@@ -374,7 +366,7 @@ def build_site_data(team_configs):
             if any(x in comp.lower() for x in ('pokal','freundschaft','testspiel')):
                 continue
             completed.append({
-                'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'),
+                'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                 'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
                 'result':g.get('result'), 'scorers':g.get('scorers') or [],
                 'attendance':g.get('attendance'), 'referee':g.get('referee'),
