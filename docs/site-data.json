@@ -1,0 +1,54 @@
+{
+  "teams": {
+    "regionalliga": {
+      "name": "RSV Eintracht – Regionalliga",
+      "competition": "Regionalliga Nordost",
+      "matches": [
+        {
+          "id": "rl-01",
+          "matchday": 1,
+          "date": "2026-07-25",
+          "competition": "Regionalliga Nordost",
+          "home": "BFC Preussen 1894",
+          "away": "RSV Eintracht 1949",
+          "result": "1:1",
+          "scorers": [],
+          "attendance": null,
+          "referee": null,
+          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
+          "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "",
+          "points": 1,
+          "table_position": null
+        }
+      ]
+    },
+    "u23": {
+      "name": "RSV Eintracht – U23",
+      "competition": "",
+      "matches": []
+    },
+    "u21": {
+      "name": "RSV Eintracht – U21",
+      "competition": "Kreispokal",
+      "matches": []
+    }
+  },
+  "tables": {
+    "regionalliga": {
+      "competition": "Regionalliga Nordost",
+      "updated_at": "",
+      "rows": []
+    },
+    "u23": {
+      "competition": "Kreisoberliga Havelland",
+      "updated_at": "",
+      "rows": []
+    },
+    "u21": {
+      "competition": "Kreisliga",
+      "updated_at": "",
+      "rows": []
+    }
+  }
+}

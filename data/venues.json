@@ -1,0 +1,78 @@
+{
+  "RSV Eintracht 1949": {
+    "stadium": "Preußenstadion",
+    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz"
+  },
+  "RSV Eintracht 1949 U21": {
+    "stadium": "Sportanlage Heinrich-Zille-Straße (Die Zille)",
+    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf"
+  },
+  "BFC Preussen 1894": {
+    "stadium": "Preußenstadion",
+    "address": "Malteserstraße 24–36, 12249 Berlin-Lankwitz"
+  },
+  "FSV 63 Luckenwalde": {
+    "stadium": "Werner-Seelenbinder-Stadion",
+    "address": "Straße des Friedens 42, 14943 Luckenwalde"
+  },
+  "FC Carl Zeiss Jena": {
+    "stadium": "Ernst-Abbe-Sportfeld",
+    "address": "Roland-Ducke-Weg 1, 07745 Jena"
+  },
+  "BSG Chemie Leipzig": {
+    "stadium": "Alfred-Kunze-Sportpark",
+    "address": "Am Sportpark 2, 04179 Leipzig"
+  },
+  "SV Babelsberg 03": {
+    "stadium": "Karl-Liebknecht-Stadion",
+    "address": "Karl-Liebknecht-Straße 90, 14482 Potsdam"
+  },
+  "FSV Zwickau": {
+    "stadium": "GGZ Arena",
+    "address": "Stadionallee 1, 08066 Zwickau"
+  },
+  "1. FC Magdeburg II": {
+    "stadium": "Heinrich-Germer-Stadion",
+    "address": "Salzmannstraße 34, 39112 Magdeburg"
+  },
+  "FC Rot-Weiß Erfurt": {
+    "stadium": "Steigerwaldstadion",
+    "address": "Mozartallee 3, 99096 Erfurt"
+  },
+  "Greifswalder FC": {
+    "stadium": "Volksstadion Greifswald",
+    "address": "Karl-Liebknecht-Ring 2, 17491 Greifswald"
+  },
+  "VSG Altglienicke": {
+    "stadium": "Stadion Lichterfelde",
+    "address": "Ostpreußendamm 3–17, 12207 Berlin"
+  },
+  "1. FC Lok Leipzig": {
+    "stadium": "Bruno-Plache-Stadion",
+    "address": "Connewitzer Straße 21, 04289 Leipzig"
+  },
+  "Hertha BSC II": {
+    "stadium": "Stadion auf dem Wurfplatz/Amateurstadion",
+    "address": "Friedrich-Friesen-Allee, 14053 Berlin"
+  },
+  "Chemnitzer FC": {
+    "stadium": "Stadion an der Gellertstraße",
+    "address": "Gellertstraße 25, 09130 Chemnitz"
+  },
+  "Hallescher FC": {
+    "stadium": "Leuna-Chemie-Stadion",
+    "address": "Kantstraße 2, 06110 Halle (Saale)"
+  },
+  "BFC Dynamo": {
+    "stadium": "Sportforum Hohenschönhausen",
+    "address": "Weißenseer Weg 53, 13053 Berlin"
+  },
+  "SV Tasmania Berlin": {
+    "stadium": "Werner-Seelenbinder-Sportpark",
+    "address": "Oderstraße 182, 12051 Berlin"
+  },
+  "Erzgebirge Aue": {
+    "stadium": "Erzgebirgsstadion",
+    "address": "Lößnitzer Straße 95, 08280 Aue-Bad Schlema"
+  }
+}
