@@ -1,12 +1,7 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-07-31T18:37:06.378459+02:00",
+  "updated_at": "2026-07-31T19:08:14.759053+02:00",
   "events": [
-    {
-      "url": "https://rsv-eintracht.vereinsticket.de/herren/resend/",
-      "date": "",
-      "opponent": "RSV Eintracht 1949 | Online Tickets Fußball | NOFV-Regionalliga Nordost | Saison 2026/2027"
-    },
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5014337/",
       "date": "2026-08-01",
@@ -15,17 +10,17 @@
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/",
       "date": "2026-08-08",
-      "opponent": "FSV 63 Luckenwalde"
+      "opponent": "BSG Chemie Leipzig"
     },
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/",
       "date": "2026-08-25",
-      "opponent": "FSV 63 Luckenwalde"
+      "opponent": "FSV Zwickau"
     },
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/",
       "date": "2026-08-30",
-      "opponent": "FSV 63 Luckenwalde"
+      "opponent": "1. FC Magdeburg II"
     }
   ]
 }

@@ -70,6 +70,17 @@
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
     },
     {
+      "id": "lp-01",
+      "date": "2026-08-22",
+      "time": "15:00",
+      "home": "Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landespokal Brandenburg 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.flb.de/"
+    },
+    {
       "id": "rl-06",
       "date": "2026-08-26",
       "time": "19:00",

@@ -17,8 +17,17 @@
       "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
       "halftime_result": "1:0"
+    },
+    "lp-01": {
+      "round": "1. Runde"
     }
   },
   "u21": {},
-  "u23": {}
+  "u23": {},
+  "u19": {
+    "u19-870019022": {
+      "home": "RSV Eintracht 1949 U19",
+      "away": "FC Bayern München"
+    }
+  }
 }
