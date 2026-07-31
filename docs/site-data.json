@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T19:24:02.351873+02:00",
+  "generated_at": "2026-07-31T21:56:54.596985+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -815,7 +815,7 @@
               "time": "19:00",
               "home": "Chemnitzer FC",
               "away": "BFC Preussen 1894",
-              "result": null,
+              "result": "3:0",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -829,7 +829,7 @@
               "time": "19:00",
               "home": "SV Babelsberg 03",
               "away": "FC Carl Zeiss Jena",
-              "result": null,
+              "result": "0:1",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -843,7 +843,7 @@
               "time": "19:00",
               "home": "SV Tasmania Berlin",
               "away": "Erzgebirge Aue",
-              "result": null,
+              "result": "0:2",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -9603,14 +9603,14 @@
               "time": "19:00",
               "home": "Berliner AK",
               "away": "1. FC Union Berlin",
-              "result": null,
+              "result": "3:2",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "DFB-Pokal 2026/27",
               "home_logo": "/assets/clubs/berliner-ak.png",
               "away_logo": "/assets/clubs/1-fc-union-berlin.png",
-              "source_url": "https://www.fussball.de/spiel/berliner-ak-u19-1-fc-union-berlin-u19/-/spiel/031BSD7IBG000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/berliner-ak-u19-1-fc-union-berlin-u19/-/spiel/031BSD7IBG000000VS5489BTVUS470OH#!/section/course"
             },
             {
               "id": "cup-borussia-dortmund-holstein-kiel-u19",
