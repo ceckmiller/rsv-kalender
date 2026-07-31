@@ -74,5 +74,9 @@
   "Erzgebirge Aue": {
     "stadium": "Erzgebirgsstadion",
     "address": "Lößnitzer Straße 95, 08280 Aue-Bad Schlema"
+  },
+  "RSV Eintracht 1949 U23": {
+    "stadium": "Sportanlage Heinrich-Zille-Straße (Die Zille)",
+    "address": "Heinrich-Zille-Straße 32, 14532 Stahnsdorf"
   }
 }

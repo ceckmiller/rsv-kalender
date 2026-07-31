@@ -30,7 +30,8 @@
     "logo_url": "https://www.google.com/s2/favicons?domain=greifswalder-fc.de&sz=128"
   },
   "VSG Altglienicke": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=vsg-altglienicke.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=www.fussball.vsg-altglienicke.de&sz=256",
+    "website": "https://www.fussball.vsg-altglienicke.de"
   },
   "1. FC Lok Leipzig": {
     "logo_url": "https://www.google.com/s2/favicons?domain=lok-leipzig.com&sz=128"
@@ -42,15 +43,31 @@
     "logo_url": "https://www.google.com/s2/favicons?domain=chemnitzerfc.de&sz=128"
   },
   "Hallescher FC": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=www.hallescherfc.de&sz=256",
+    "website": "https://www.hallescherfc.de"
   },
   "BFC Dynamo": {
     "logo_url": "https://www.google.com/s2/favicons?domain=bfc.com&sz=128"
   },
   "SV Tasmania Berlin": {
-    "logo_url": "https://www.google.com/s2/favicons?domain=tasmania-berlin.de&sz=128"
+    "logo_url": "https://www.google.com/s2/favicons?domain=www.sv-tasmania-berlin.de&sz=256",
+    "website": "https://www.sv-tasmania-berlin.de"
   },
   "Erzgebirge Aue": {
     "logo_url": "https://www.google.com/s2/favicons?domain=fc-erzgebirge.de&sz=128"
+  },
+  "RSV Eintracht 1949 U21": {
+    "website": "https://www.rsv-eintracht-fussball.de",
+    "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+  },
+  "RSV Eintracht 1949 U23": {
+    "website": "https://www.rsv-eintracht-fussball.de",
+    "logo_url": "https://rsv-kalender.netlify.app/assets/rsv-logo.png"
+  },
+  "SV Babelsberg 03 II": {
+    "website": "https://babelsberg03.de"
+  },
+  "SV Falkensee-Finkenkrug II": {
+    "website": "https://www.svff.de"
   }
 }

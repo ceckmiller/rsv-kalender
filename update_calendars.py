@@ -354,7 +354,7 @@ def make_ics(meta,games):
 
 def build_site_data(team_configs):
     """Create the JSON used by the results, upcoming matches and table view."""
-    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}}
+    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}}
     venues = load_venues()
     clubs = load_clubs()
     today = datetime.now(TZ).date()
@@ -370,19 +370,17 @@ def build_site_data(team_configs):
             comp=competition_label(g.get('competition',''))
             is_non_league=any(x in comp.lower() for x in ('pokal','freundschaft','testspiel'))
             location=venue_for_game(g, venues)
-            if not is_non_league:
-                fixtures.append({
+            # Alle Wettbewerbe gehören in die vollständige Terminliste.
+            fixtures.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
                     'home_logo':club_logo_url(g.get('home',''), clubs), 'away_logo':club_logo_url(g.get('away',''), clubs),
                     'result':g.get('result') or '',
                     'home_logo':club_logo_url(g.get('home',''), clubs),
                     'away_logo':club_logo_url(g.get('away',''), clubs)
-                })
+            })
 
             if g.get('result'):
-                if is_non_league:
-                    continue
                 completed.append({
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':g.get('home'), 'away':g.get('away'),
@@ -401,7 +399,7 @@ def build_site_data(team_configs):
                 event_date=datetime.fromisoformat(g.get('date','')).date()
             except Exception:
                 continue
-            if event_date < today or is_non_league:
+            if event_date < today:
                 continue
 
             forecast=weather_for_game(g, location)
@@ -414,8 +412,8 @@ def build_site_data(team_configs):
                 'is_home':g.get('home') == team_name
             })
 
-        completed.sort(key=lambda x: ((x.get('matchday') or 9999), x.get('date') or ''))
-        fixtures.sort(key=lambda x: ((x.get('matchday') or 9999), x.get('date') or '', x.get('time') or '00:00'))
+        completed.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
+        fixtures.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
         future.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
         next_game=future[0] if future else None
         next_home=None

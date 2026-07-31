@@ -5,4 +5,83 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:RSV Eintracht – U23
 X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:u23-fs-20260802@rsv-kalender
+DTSTAMP:20260731T125623Z
+DTSTART:20260802T120000Z
+DTEND:20260802T140000Z
+SUMMARY:Regionalfreundschaftsspiele | Regionalfreundschaftsspiele | SF
+ C Stern – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:Regionalfreundschaftsspiele\nRegionalfreundschaftsspiele\n
+ SFC Stern – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟️ Sp
+ ielort: noch nicht hinterlegt\n\nQuelle: https://www.rsv-eintracht-fu
+ ssball.de/mannschaft/20715/u23-herren
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-fs-20260809@rsv-kalender
+DTSTAMP:20260731T125623Z
+DTSTART:20260809T120000Z
+DTEND:20260809T140000Z
+SUMMARY:Bezirksfreundschaftsspiele | Bezirksfreundschaftsspiele | FC S
+ tern Marienfelde II – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:Bezirksfreundschaftsspiele\nBezirksfreundschaftsspiele\nFC
+  Stern Marienfelde II – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n
+ \n🏟️ Spielort: noch nicht hinterlegt\n\nQuelle: https://www.rsv-ein
+ tracht-fussball.de/mannschaft/20715/u23-herren
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-fs-20260815@rsv-kalender
+DTSTAMP:20260731T125623Z
+DTSTART:20260815T120000Z
+DTEND:20260815T140000Z
+SUMMARY:Landesfreundschaftsspiele | Landesfreundschaftsspiele | SV Bab
+ elsberg 03 II – RSV Eintracht 1949 U23 | Anstoß: 14:00 Uhr
+DESCRIPTION:Landesfreundschaftsspiele\nLandesfreundschaftsspiele\nSV B
+ abelsberg 03 II – RSV Eintracht 1949 U23\nAnstoß: 14:00 Uhr\n\n\n🏟
+ ️ Spielort: noch nicht hinterlegt\n\nQuelle: https://www.rsv-eintrach
+ t-fussball.de/mannschaft/20715/u23-herren
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-liga-20260830@rsv-kalender
+DTSTAMP:20260731T125623Z
+DTSTART:20260830T130000Z
+DTEND:20260830T150000Z
+SUMMARY:1. Spieltag | Kreisoberliga | SV Ziesar 1 – RSV Eintracht 1949
+  U23 | Anstoß: 15:00 Uhr
+DESCRIPTION:1. Spieltag\nKreisoberliga\nSV Ziesar 1 – RSV Eintracht 19
+ 49 U23\nAnstoß: 15:00 Uhr\n\n\n🏟️ Spielort: noch nicht hinterlegt\
+ n\nQuelle: https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23
+ -herren
+LOCATION:
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-liga-20260906@rsv-kalender
+DTSTAMP:20260731T125623Z
+DTSTART:20260906T120000Z
+DTEND:20260906T140000Z
+SUMMARY:2. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Falk
+ ensee-Finkenkrug II | Anstoß: 14:00 Uhr
+DESCRIPTION:2. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV Fa
+ lkensee-Finkenkrug II\nAnstoß: 14:00 Uhr\n\n\n🏟️ Spielort: Sportan
+ lage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zille-Straße 32\, 1
+ 4532 Stahnsdorf\n🗺️ Google Maps: https://www.google.com/maps/search
+ /?api=1&query=Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%
+ 2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf\n\nQuelle: https
+ ://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren
+LOCATION:Sportanlage Heinrich-Zille-Straße (Die Zille)\, Heinrich-Zill
+ e-Straße 32\, 14532 Stahnsdorf
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR

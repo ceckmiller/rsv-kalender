@@ -1,0 +1,13 @@
+{
+  "name": "RSV Eintracht 1949 – Spieltage, Tabellen & Kalender",
+  "short_name": "RSV Kalender",
+  "start_url": "/#matchdays",
+  "display": "standalone",
+  "background_color": "#f5f8fc",
+  "theme_color": "#07529a",
+  "icons": [
+    {"src":"android-chrome-192x192.png","sizes":"192x192","type":"image/png"},
+    {"src":"android-chrome-512x512.png","sizes":"512x512","type":"image/png"},
+    {"src":"android-chrome-maskable-512x512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T14:18:13.676126+02:00",
+  "generated_at": "2026-07-31T14:56:23.436017+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -148,7 +148,7 @@
           "competition": "Regionalliga Nordost",
           "home": "VSG Altglienicke",
           "away": "RSV Eintracht 1949",
-          "home_logo": "https://www.google.com/s2/favicons?domain=vsg-altglienicke.de&sz=128",
+          "home_logo": "https://www.google.com/s2/favicons?domain=www.fussball.vsg-altglienicke.de&sz=256",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
@@ -172,7 +172,7 @@
           "competition": "Regionalliga Nordost",
           "home": "Hallescher FC",
           "away": "RSV Eintracht 1949",
-          "home_logo": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=128",
+          "home_logo": "https://www.google.com/s2/favicons?domain=www.hallescherfc.de&sz=256",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
@@ -197,7 +197,7 @@
           "home": "RSV Eintracht 1949",
           "away": "SV Tasmania Berlin",
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
-          "away_logo": "https://www.google.com/s2/favicons?domain=tasmania-berlin.de&sz=128",
+          "away_logo": "https://www.google.com/s2/favicons?domain=www.sv-tasmania-berlin.de&sz=256",
           "result": ""
         },
         {
@@ -353,7 +353,7 @@
           "home": "RSV Eintracht 1949",
           "away": "VSG Altglienicke",
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
-          "away_logo": "https://www.google.com/s2/favicons?domain=vsg-altglienicke.de&sz=128",
+          "away_logo": "https://www.google.com/s2/favicons?domain=www.fussball.vsg-altglienicke.de&sz=256",
           "result": ""
         },
         {
@@ -377,7 +377,7 @@
           "home": "RSV Eintracht 1949",
           "away": "Hallescher FC",
           "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
-          "away_logo": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=128",
+          "away_logo": "https://www.google.com/s2/favicons?domain=www.hallescherfc.de&sz=256",
           "result": ""
         },
         {
@@ -400,7 +400,7 @@
           "competition": "Regionalliga Nordost",
           "home": "SV Tasmania Berlin",
           "away": "RSV Eintracht 1949",
-          "home_logo": "https://www.google.com/s2/favicons?domain=tasmania-berlin.de&sz=128",
+          "home_logo": "https://www.google.com/s2/favicons?domain=www.sv-tasmania-berlin.de&sz=256",
           "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
@@ -462,11 +462,102 @@
     "u23": {
       "name": "RSV Eintracht – U23",
       "team_name": "RSV Eintracht 1949 U23",
-      "competition": "",
+      "competition": "Regionalfreundschaftsspiele",
       "matches": [],
-      "fixtures": [],
-      "next_game": null,
-      "next_home": null
+      "fixtures": [
+        {
+          "id": "u23-fs-20260802",
+          "matchday": null,
+          "date": "2026-08-02",
+          "time": "14:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "SFC Stern",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-fs-20260809",
+          "matchday": null,
+          "date": "2026-08-09",
+          "time": "14:00",
+          "competition": "Bezirksfreundschaftsspiele",
+          "home": "FC Stern Marienfelde II",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-fs-20260815",
+          "matchday": null,
+          "date": "2026-08-15",
+          "time": "14:00",
+          "competition": "Landesfreundschaftsspiele",
+          "home": "SV Babelsberg 03 II",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-liga-20260830",
+          "matchday": 1,
+          "date": "2026-08-30",
+          "time": "15:00",
+          "competition": "Kreisoberliga",
+          "home": "SV Ziesar 1",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
+          "id": "u23-liga-20260906",
+          "matchday": 2,
+          "date": "2026-09-06",
+          "time": "14:00",
+          "competition": "Kreisoberliga",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "SV Falkensee-Finkenkrug II",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "away_logo": "",
+          "result": ""
+        }
+      ],
+      "next_game": {
+        "id": "u23-fs-20260802",
+        "matchday": null,
+        "date": "2026-08-02",
+        "time": "14:00",
+        "competition": "Regionalfreundschaftsspiele",
+        "home": "SFC Stern",
+        "away": "RSV Eintracht 1949 U23",
+        "home_logo": "",
+        "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+        "location": "",
+        "maps_url": "",
+        "weather": null,
+        "weather_url": "https://www.google.com/search?q=Wetter+2026-08-02",
+        "is_home": false
+      },
+      "next_home": {
+        "id": "u23-liga-20260906",
+        "matchday": 2,
+        "date": "2026-09-06",
+        "time": "14:00",
+        "competition": "Kreisoberliga",
+        "home": "RSV Eintracht 1949 U23",
+        "away": "SV Falkensee-Finkenkrug II",
+        "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+        "away_logo": "",
+        "location": "Sportanlage Heinrich-Zille-Straße (Die Zille), Heinrich-Zille-Straße 32, 14532 Stahnsdorf",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf",
+        "weather": null,
+        "weather_url": "https://www.google.com/search?q=Wetter+Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf+2026-09-06",
+        "is_home": true
+      }
     },
     "u21": {
       "name": "RSV Eintracht – U21",
@@ -475,6 +566,18 @@
       "matches": [],
       "fixtures": [
         {
+          "id": "u21-710089011",
+          "matchday": null,
+          "date": "2026-08-16",
+          "time": "10:30",
+          "competition": "Kreispokal",
+          "home": "Rot-Weiß Groß Glienicke II",
+          "away": "RSV Eintracht 1949 U21",
+          "home_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+          "result": ""
+        },
+        {
           "id": "u21-610480004",
           "matchday": 1,
           "date": "2026-08-30",
@@ -482,7 +585,7 @@
           "competition": "Kreisliga",
           "home": "RSV Eintracht 1949 U21",
           "away": "FV Turbine Potsdam 55 I",
-          "home_logo": "",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "",
           "result": ""
         },
@@ -495,7 +598,7 @@
           "home": "SV 1948 Ferch",
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "",
-          "away_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
         {
@@ -507,7 +610,7 @@
           "home": "FSV Grün-Weiß Niemegk",
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "",
-          "away_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
         {
@@ -518,7 +621,7 @@
           "competition": "Kreisliga",
           "home": "RSV Eintracht 1949 U21",
           "away": "Teltower FV 1913 II",
-          "home_logo": "",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "",
           "result": ""
         },
@@ -531,7 +634,7 @@
           "home": "SG Grün-Weiß Golm II",
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "",
-          "away_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
         {
@@ -542,7 +645,7 @@
           "competition": "Kreisliga",
           "home": "RSV Eintracht 1949 U21",
           "away": "SG Bornim II",
-          "home_logo": "",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "",
           "result": ""
         },
@@ -555,7 +658,7 @@
           "home": "Rot-Weiß Groß Glienicke",
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "",
-          "away_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         },
         {
@@ -566,7 +669,7 @@
           "competition": "Kreisliga",
           "home": "RSV Eintracht 1949 U21",
           "away": "FSV Brück I",
-          "home_logo": "",
+          "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "away_logo": "",
           "result": ""
         },
@@ -579,11 +682,27 @@
           "home": "SG Blau-Weiß Beelitz",
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "",
-          "away_logo": "",
+          "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
           "result": ""
         }
       ],
       "next_game": {
+        "id": "u21-710089011",
+        "matchday": null,
+        "date": "2026-08-16",
+        "time": "10:30",
+        "competition": "Kreispokal",
+        "home": "Rot-Weiß Groß Glienicke II",
+        "away": "RSV Eintracht 1949 U21",
+        "home_logo": "",
+        "away_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
+        "location": "",
+        "maps_url": "",
+        "weather": null,
+        "weather_url": "https://www.google.com/search?q=Wetter+2026-08-16",
+        "is_home": false
+      },
+      "next_home": {
         "id": "u21-610480004",
         "matchday": 1,
         "date": "2026-08-30",
@@ -591,15 +710,14 @@
         "competition": "Kreisliga",
         "home": "RSV Eintracht 1949 U21",
         "away": "FV Turbine Potsdam 55 I",
-        "home_logo": "",
+        "home_logo": "https://rsv-kalender.netlify.app/assets/rsv-logo.png",
         "away_logo": "",
         "location": "Sportanlage Heinrich-Zille-Straße (Die Zille), Heinrich-Zille-Straße 32, 14532 Stahnsdorf",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf",
         "weather": null,
         "weather_url": "https://www.google.com/search?q=Wetter+Sportanlage+Heinrich-Zille-Stra%C3%9Fe+%28Die+Zille%29%2C+Heinrich-Zille-Stra%C3%9Fe+32%2C+14532+Stahnsdorf+2026-08-30",
         "is_home": true
-      },
-      "next_home": null
+      }
     }
   },
   "tables": {
@@ -701,7 +819,7 @@
           "goals": "3:3",
           "diff": "0",
           "points": 1,
-          "logo_url": "https://www.google.com/s2/favicons?domain=vsg-altglienicke.de&sz=128"
+          "logo_url": "https://www.google.com/s2/favicons?domain=www.fussball.vsg-altglienicke.de&sz=256"
         },
         {
           "position": 9,
@@ -725,7 +843,7 @@
           "goals": "2:2",
           "diff": "0",
           "points": 1,
-          "logo_url": "https://www.google.com/s2/favicons?domain=hallescherfc.de&sz=128"
+          "logo_url": "https://www.google.com/s2/favicons?domain=www.hallescherfc.de&sz=256"
         },
         {
           "position": 11,
@@ -809,7 +927,7 @@
           "goals": "1:5",
           "diff": "-4",
           "points": 0,
-          "logo_url": "https://www.google.com/s2/favicons?domain=tasmania-berlin.de&sz=128"
+          "logo_url": "https://www.google.com/s2/favicons?domain=www.sv-tasmania-berlin.de&sz=256"
         },
         {
           "position": 18,
@@ -835,5 +953,14 @@
       "updated_at": "",
       "rows": []
     }
+  },
+  "club_websites": {
+    "VSG Altglienicke": "https://www.fussball.vsg-altglienicke.de",
+    "Hallescher FC": "https://www.hallescherfc.de",
+    "SV Tasmania Berlin": "https://www.sv-tasmania-berlin.de",
+    "RSV Eintracht 1949 U21": "https://www.rsv-eintracht-fussball.de",
+    "RSV Eintracht 1949 U23": "https://www.rsv-eintracht-fussball.de",
+    "SV Babelsberg 03 II": "https://babelsberg03.de",
+    "SV Falkensee-Finkenkrug II": "https://www.svff.de"
   }
 }

@@ -2,7 +2,63 @@
   "calendar_name": "RSV Eintracht – U23",
   "team_name": "RSV Eintracht 1949 U23",
   "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren",
-  "minimum_games": 0,
+  "minimum_games": 5,
   "first_team": false,
-  "games": []
+  "games": [
+    {
+      "id": "u23-fs-20260802",
+      "date": "2026-08-02",
+      "time": "14:00",
+      "home": "SFC Stern",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    },
+    {
+      "id": "u23-fs-20260809",
+      "date": "2026-08-09",
+      "time": "14:00",
+      "home": "FC Stern Marienfelde II",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Bezirksfreundschaftsspiele 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    },
+    {
+      "id": "u23-fs-20260815",
+      "date": "2026-08-15",
+      "time": "14:00",
+      "home": "SV Babelsberg 03 II",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Landesfreundschaftsspiele 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    },
+    {
+      "id": "u23-liga-20260830",
+      "date": "2026-08-30",
+      "time": "15:00",
+      "home": "SV Ziesar 1",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    },
+    {
+      "id": "u23-liga-20260906",
+      "date": "2026-09-06",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "SV Falkensee-Finkenkrug II",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "",
+      "source_url": "https://www.rsv-eintracht-fussball.de/mannschaft/20715/u23-herren"
+    }
+  ]
 }
