@@ -1,6 +1,7 @@
 /*.ics
   Content-Type: text/calendar; charset=utf-8
   Content-Disposition: inline
+  Access-Control-Allow-Origin: *
 
 /site.webmanifest
   Content-Type: application/manifest+json; charset=utf-8
