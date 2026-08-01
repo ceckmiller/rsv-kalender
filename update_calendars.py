@@ -245,6 +245,41 @@ def deobfuscate_fussball_html(html):
 def parse_dfb(html, team):
     soup=BeautifulSoup(html,'html.parser')
     text=soup.get_text(' ',strip=True)
+    # Map finished/open fixtures to official DFB match report URLs.
+    report_urls={}
+    for a in soup.find_all('a', href=True):
+        href=a['href'].strip()
+        if '/datencenter/' not in href or 'spieltag/' not in href:
+            continue
+        label=' '.join(a.get_text(' ',strip=True).split())
+        if not re.fullmatch(r'\d+\s*:\s*\d+|-\s*:\s*-', label):
+            continue
+        dm=None
+        node=a.parent
+        for _ in range(6):
+            if not node:
+                break
+            block=' '.join(node.get_text(' ',strip=True).split())
+            dm=re.search(
+                r'(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*'
+                r'(\d{2}\.\d{2}\.\d{4})\s+(\d{2}:\d{2})\s+Uhr\s+(.+?)\s+(\d+\s*:\s*\d+|-\s*:\s*-)\s+(.+?)(?:Schema|Vergleich|Liveticker|$)',
+                block,re.I
+            )
+            if dm:
+                break
+            node=node.parent
+        if not dm:
+            continue
+        d,t,home,res,away=dm.groups()
+        home=re.sub(r'^(?:Schema|Vergleich|Liveticker)\s+','',home).strip()
+        away=re.split(r'\s+(?:Schema|Vergleich|Liveticker)\b',away)[0].strip()
+        if team not in (home,away):
+            continue
+        try:
+            date=datetime.strptime(d,'%d.%m.%Y').strftime('%Y-%m-%d')
+        except ValueError:
+            continue
+        report_urls[(date,t,home,away)]=href if href.startswith('http') else 'https://datencenter.dfb.de'+href
     # Robust fallback based on repeating date + team/result/team sequence.
     pat=re.compile(r'(\d{2}\.\d{2}\.\d{4})\s+(\d{2}:\d{2})\s+Uhr\s+(.+?)\s+(\d+\s*:\s*\d+|-\s*:\s*-)\s+(.+?)(?=(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),\s+\d{2}\.\d{2}\.\d{4}|$)')
     out=[]
@@ -256,8 +291,170 @@ def parse_dfb(html, team):
         if team not in (home,away): continue
         dt=datetime.strptime(d+' '+t,'%d.%m.%Y %H:%M')
         key=hashlib.sha1(f'{dt.date()}|{home}|{away}'.encode()).hexdigest()[:12]
-        out.append({'id':'rl-'+key,'date':dt.strftime('%Y-%m-%d'),'time':t,'home':home,'away':away,'competition':'Regionalliga Nordost 2026/27','result':None if '-' in res else re.sub(r'\s','',res),'location':'','source_url':''})
+        date=dt.strftime('%Y-%m-%d')
+        out.append({
+            'id':'rl-'+key,'date':date,'time':t,'home':home,'away':away,
+            'competition':'Regionalliga Nordost 2026/27',
+            'result':None if '-' in res else re.sub(r'\s','',res),
+            'location':'','source_url':'',
+            'report_url':report_urls.get((date,t,home,away),''),
+        })
     return dedupe(out)
+
+
+def extract_dfb_match_detail(html):
+    """Read result, halftime, scorers and referee from a DFB match report page."""
+    soup=BeautifulSoup(html,'html.parser')
+    score_tag=soup.select_one('.m-MatchDetails-score')
+    if not score_tag:
+        return {}
+    score_text=' '.join(score_tag.get_text(' ',strip=True).split())
+    final=None
+    halftime=None
+    m=re.search(r'(\d+:\d+)\s*\((\d+:\d+)\)', score_text)
+    if m:
+        final, halftime=m.group(1), m.group(2)
+    else:
+        m=re.search(r'(\d+:\d+)', score_text)
+        if m:
+            final=m.group(1)
+    ht_tag=soup.select_one('.m-MatchDetails-score-halftime')
+    if ht_tag and not halftime:
+        ht_m=re.search(r'(\d+:\d+)', ht_tag.get_text(' ',strip=True))
+        if ht_m:
+            halftime=ht_m.group(1)
+    teams=[x.get_text(' ',strip=True) for x in soup.select('.m-MatchDetails-team') if x.get_text(strip=True)]
+    home=teams[0] if teams else ''
+    away=teams[1] if len(teams) > 1 else ''
+    referee=''
+    ref_tag=soup.select_one('.m-MatchDetails-referees-name')
+    if ref_tag:
+        referee=ref_tag.get_text(' ',strip=True)
+    scorers=[]
+    seen=set()
+    for ev in soup.select('.m-MatchDetails-history-item'):
+        if not ev.select('.m-MatchDetails-icon-goal--goal'):
+            continue
+        minute_tag=ev.select_one('.m-MatchDetails-history-minute')
+        minute=re.sub(r'\D','', minute_tag.get_text(' ',strip=True) if minute_tag else '') or ''
+        parts=[x.get_text(' ',strip=True) for x in ev.select('.m-MatchDetails-history-event-text-item') if x.get_text(strip=True)]
+        if not parts:
+            continue
+        text=' '.join(parts)
+        score_in_event=re.search(r'(\d+:\d+)\s*$', text)
+        running=score_in_event.group(1) if score_in_event else ''
+        name=re.sub(r'\s*\d+:\d+\s*$', '', text).strip()
+        if not name:
+            continue
+        side='home' if ev.select('.m-MatchDetails-history-event--home') else 'away'
+        club=home if side=='home' else away
+        key=(minute,name,running)
+        if key in seen:
+            continue
+        seen.add(key)
+        label=f"{minute}. Minute – {name} ({club})"
+        if running:
+            label+=f" – {running}"
+        scorers.append(label)
+    out={}
+    if final:
+        out['result']=final
+    if halftime:
+        out['halftime_result']=halftime
+    if referee:
+        out['referee']=referee
+    if scorers:
+        out['scorers']=scorers
+    return out
+
+
+def enrich_dfb_match_details(games, offline=False):
+    """Fill Regionalliga results from official DFB match report pages."""
+    if offline:
+        return games
+    out=[]
+    now=datetime.now(TZ)
+    for original in games:
+        g=deepcopy(original)
+        url=str(g.get('report_url') or '').strip()
+        if not url or 'datencenter.dfb.de' not in url:
+            out.append(g)
+            continue
+        kickoff=parse_kickoff_datetime(g)
+        live_window=bool(kickoff and kickoff <= now <= kickoff + timedelta(hours=4))
+        needs_detail=bool(g.get('result') or live_window)
+        if not needs_detail:
+            out.append(g)
+            continue
+        try:
+            detail=extract_dfb_match_detail(fetch(url))
+        except Exception as exc:
+            warnings.warn(f'DFB-Spielbericht fehlgeschlagen ({url}): {exc}')
+            out.append(g)
+            continue
+        for key in ('result','halftime_result','referee','scorers'):
+            if detail.get(key):
+                g[key]=detail[key]
+        out.append(g)
+    return out
+
+
+def extract_fussball_match_score(html):
+    """Best-effort final score from a fussball.de match detail page."""
+    soup=BeautifulSoup(html,'html.parser')
+    for node in soup.select('.score, .result, [class*=score], [class*=result]'):
+        text=' '.join(node.get_text(' ',strip=True).split())
+        m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', text)
+        if m:
+            return f'{m.group(1)}:{m.group(2)}'
+    text=' '.join(soup.get_text(' ',strip=True).split())
+    m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', text)
+    return f'{m.group(1)}:{m.group(2)}' if m else ''
+
+
+def enrich_scores_from_detail_pages(games, offline=False):
+    """Fill missing results from official match detail pages around kickoff."""
+    if offline:
+        return games
+    out=[]
+    now=datetime.now(TZ)
+    for original in games:
+        g=deepcopy(original)
+        if g.get('result'):
+            out.append(g)
+            continue
+        source=str(g.get('source_url') or '').strip()
+        if '/spiel/' not in source:
+            out.append(g)
+            continue
+        kickoff=parse_kickoff_datetime(g)
+        if not kickoff or kickoff > now:
+            out.append(g)
+            continue
+        if now > kickoff + timedelta(hours=4):
+            out.append(g)
+            continue
+        try:
+            score=extract_fussball_match_score(fetch(source))
+        except Exception as exc:
+            warnings.warn(f'FUSSBALL.DE-Spielstand fehlgeschlagen ({source}): {exc}')
+            out.append(g)
+            continue
+        if score:
+            g['result']=score
+        out.append(g)
+    return out
+
+
+def parse_kickoff_datetime(game):
+    date=str(game.get('date') or '').strip()
+    time=str(game.get('time') or '00:00').strip() or '00:00'
+    if not date:
+        return None
+    try:
+        return datetime.fromisoformat(f'{date}T{time}:00').replace(tzinfo=TZ)
+    except ValueError:
+        return None
 
 def _is_address_part(part):
     """True when a fussball.de pipe segment looks like street / PLZ / city."""
@@ -1861,6 +2058,10 @@ def process(key,offline=False):
     venue_cache=load_venue_cache()
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
+    if key=='regionalliga':
+        merged=enrich_dfb_match_details(merged, offline=offline)
+    else:
+        merged=enrich_scores_from_detail_pages(merged, offline=offline)
     merged=apply_venue_cache(merged,venue_cache)
     merged=enrich_locations_from_detail_pages(merged, offline=offline)
     merged=enrich_locations_from_known_venues(merged, venue_cache)

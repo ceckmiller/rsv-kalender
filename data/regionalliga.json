@@ -16,7 +16,7 @@
       "matchday": 1,
       "scorers": [
         "21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0",
-        "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
+        "60. Minute – 1:1 Endi Jupolli (BFC Preussen 1894)"
       ],
       "attendance": 526,
       "referee": "Patrick Kluge",
@@ -32,9 +32,17 @@
       "home": "RSV Eintracht 1949",
       "away": "FSV 63 Luckenwalde",
       "competition": "Regionalliga Nordost 2026/27",
-      "result": null,
+      "result": "3:0",
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
+      "halftime_result": "2:0",
+      "referee": "Benjamin Strebinger",
+      "scorers": [
+        "29. Minute – Tim Göth (RSV Eintracht 1949) – 1:0",
+        "34. Minute – Ernes Matjaz (RSV Eintracht 1949) – 2:0",
+        "72. Minute – Endi Jupolli (RSV Eintracht 1949) – 3:0"
+      ]
     },
     {
       "id": "rl-03",
@@ -45,7 +53,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007"
     },
     {
       "id": "rl-04",
@@ -56,7 +65,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021"
     },
     {
       "id": "rl-05",
@@ -67,7 +77,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/5-spieltag/sv-babelsberg-03-rsv-eintracht-1949-2426025"
     },
     {
       "id": "lp-01",
@@ -90,7 +101,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/6-spieltag/rsv-eintracht-1949-fsv-zwickau-2426036"
     },
     {
       "id": "rl-07",
@@ -101,7 +113,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/7-spieltag/rsv-eintracht-1949-1-fc-magdeburg-ii-2426047"
     },
     {
       "id": "rl-08",
@@ -112,7 +125,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/8-spieltag/fc-rot-weiss-erfurt-rsv-eintracht-1949-2426052"
     },
     {
       "id": "rl-09",
@@ -123,7 +137,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/9-spieltag/rsv-eintracht-1949-greifswalder-fc-2426069"
     },
     {
       "id": "rl-10",
@@ -134,7 +149,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/10-spieltag/vsg-altglienicke-rsv-eintracht-1949-2426075"
     },
     {
       "id": "rl-11",
@@ -145,7 +161,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/11-spieltag/rsv-eintracht-1949-chemnitzer-fc-2426085"
     },
     {
       "id": "rl-12",
@@ -156,7 +173,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/12-spieltag/hallescher-fc-rsv-eintracht-1949-2426092"
     },
     {
       "id": "rl-13",
@@ -167,7 +185,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099"
     },
     {
       "id": "rl-14",
@@ -178,7 +197,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110"
     },
     {
       "id": "rl-15",
@@ -189,7 +209,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119"
     },
     {
       "id": "rl-16",
@@ -200,7 +221,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128"
     },
     {
       "id": "rl-17",
@@ -211,7 +233,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-spieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141"
     },
     {
       "id": "rl-18",
@@ -222,7 +245,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/18-spieltag/rsv-eintracht-1949-bfc-preussen-1894-2426147"
     },
     {
       "id": "rl-19",
@@ -233,7 +257,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/19-spieltag/fsv-63-luckenwalde-rsv-eintracht-1949-2426152"
     },
     {
       "id": "rl-20",
@@ -244,7 +269,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/20-spieltag/rsv-eintracht-1949-fc-carl-zeiss-jena-2426160"
     },
     {
       "id": "rl-21",
@@ -255,7 +281,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/21-spieltag/bsg-chemie-leipzig-rsv-eintracht-1949-2426175"
     },
     {
       "id": "rl-22",
@@ -266,7 +293,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/22-spieltag/rsv-eintracht-1949-sv-babelsberg-03-2426179"
     },
     {
       "id": "rl-23",
@@ -277,7 +305,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/23-spieltag/fsv-zwickau-rsv-eintracht-1949-2426189"
     },
     {
       "id": "rl-24",
@@ -288,7 +317,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/24-spieltag/1-fc-magdeburg-ii-rsv-eintracht-1949-2426199"
     },
     {
       "id": "rl-25",
@@ -299,7 +329,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/25-spieltag/rsv-eintracht-1949-fc-rot-weiss-erfurt-2426210"
     },
     {
       "id": "rl-26",
@@ -310,7 +341,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/26-spieltag/greifswalder-fc-rsv-eintracht-1949-2426216"
     },
     {
       "id": "rl-27",
@@ -321,7 +353,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/27-spieltag/rsv-eintracht-1949-vsg-altglienicke-2426227"
     },
     {
       "id": "rl-28",
@@ -332,7 +365,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/28-spieltag/chemnitzer-fc-rsv-eintracht-1949-2426234"
     },
     {
       "id": "rl-29",
@@ -343,7 +377,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/29-spieltag/rsv-eintracht-1949-hallescher-fc-2426247"
     },
     {
       "id": "rl-30",
@@ -354,7 +389,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/30-spieltag/rsv-eintracht-1949-hertha-bsc-ii-2426252"
     },
     {
       "id": "rl-31",
@@ -365,7 +401,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/31-spieltag/sv-tasmania-berlin-rsv-eintracht-1949-2426264"
     },
     {
       "id": "rl-32",
@@ -376,7 +413,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/32-spieltag/rsv-eintracht-1949-bfc-dynamo-2426271"
     },
     {
       "id": "rl-33",
@@ -387,7 +425,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/33-spieltag/erzgebirge-aue-rsv-eintracht-1949-2426277"
     },
     {
       "id": "rl-34",
@@ -398,7 +437,8 @@
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949"
+      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/34-spieltag/rsv-eintracht-1949-1-fc-lok-leipzig-2426292"
     }
   ],
   "first_team": true,

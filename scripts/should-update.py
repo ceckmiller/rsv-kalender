@@ -94,6 +94,9 @@ def main() -> int:
         if not kickoff:
             continue
         targets = (
+            (kickoff, "Anstoß"),
+            (kickoff + timedelta(hours=1), "1 Stunde nach Anstoß"),
+            (kickoff + timedelta(hours=2), "2 Stunden nach Anstoß"),
             (kickoff - timedelta(hours=6), "6 Stunden vor Anstoß"),
             (kickoff + timedelta(hours=3), "1 Stunde nach erwartetem Spielende"),
             (kickoff + timedelta(hours=4), "2 Stunden nach erwartetem Spielende"),

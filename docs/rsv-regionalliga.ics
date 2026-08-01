@@ -7,7 +7,7 @@ X-WR-CALNAME:RSV Eintracht – Regionalliga
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:rl-01@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260725T120000Z
 DTEND:20260725T140000Z
 SUMMARY:1. Spieltag | Regionalliga Nordost | BFC Preussen 1894 – RSV 
@@ -15,7 +15,7 @@ SUMMARY:1. Spieltag | Regionalliga Nordost | BFC Preussen 1894 – RSV
 DESCRIPTION:1. Spieltag\nRegionalliga Nordost\nBFC Preussen 1894 – RSV 
  Eintracht 1949\nEndstand: 1:1\n\nTabellenplatz: 11.\nPunkte: 1\n\nTore 
  RSV\n21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0\n60. Minute 
- – Endi Jupolli (RSV Eintracht 1949) – 1:1\n\nSchiedsrichter: Patrick 
+ – 1:1 Endi Jupolli (BFC Preussen 1894)\n\nSchiedsrichter: Patrick 
  Kluge\nZuschauer: 526\n\nSpielort: Preussen-Stadion NR1\, Malteserstraße 
  24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
  https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Ma
@@ -33,27 +33,32 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-02@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260801T120000Z
 DTEND:20260801T140000Z
 SUMMARY:2. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FSV 63 
- Luckenwalde | Anstoß: 14:00 Uhr
+ Luckenwalde | Endstand: 3:0
 DESCRIPTION:2. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FSV 
- 63 Luckenwalde\nAnstoß: 14:00 Uhr\n\n\nSpielort: Preußenstadion\, 
- Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
- teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
- Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-01\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ 63 Luckenwalde\nEndstand: 3:0\n\nPunkte: 4\n\nTore RSV\n29. Minute – Tim
+ Göth (RSV Eintracht 1949) – 1:0\n34. Minute – Ernes Matjaz (RSV 
+ Eintracht 1949) – 2:0\n72. Minute – Endi Jupolli (RSV Eintracht 1949) 
+ – 3:0\n\nSchiedsrichter: Benjamin Strebinger\n\nSpielort: 
+ Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz\nGoogle 
+ Maps: https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%
+ 2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nOSTSPORT.
+ TV-Beitrag suchen: https://www.youtube.com/results?search_query=RSV+Eintra
+ cht+1949+FSV+63+Luckenwalde+OSTSPORT.TV\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-sp
+ ieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-03@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260804T170000Z
 DTEND:20260804T190000Z
 SUMMARY:3. Spieltag | Regionalliga Nordost | FC Carl Zeiss Jena – RSV 
@@ -64,7 +69,9 @@ DESCRIPTION:3. Spieltag\nRegionalliga Nordost\nFC Carl Zeiss Jena – RSV
  https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Ro
  land-Ducke-Weg+1%2C+07745+Jena\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Ernst-Abbe-Sportfeld%2C+Roland-Duck
- e-Weg+1%2C+07745+Jena+2026-08-04\n\nQuelle: 
+ e-Weg+1%2C+07745+Jena+2026-08-04\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-sp
+ ieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Ernst-Abbe-Sportfeld\, Roland-Ducke-Weg 1\, 07745 Jena
@@ -73,7 +80,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-04@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260808T120000Z
 DTEND:20260808T140000Z
 SUMMARY:4. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BSG 
@@ -84,16 +91,18 @@ DESCRIPTION:4. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BSG
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-08\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-08\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021\n\nQuelle:
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-05@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260816T120000Z
 DTEND:20260816T140000Z
 SUMMARY:5. Spieltag | Regionalliga Nordost | SV Babelsberg 03 – RSV 
@@ -105,8 +114,10 @@ DESCRIPTION:5. Spieltag\nRegionalliga Nordost\nSV Babelsberg 03 – RSV
  -Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam\n\n
  Wetter am Spielort: https://www.google.com/search?q=Wetter+Karl-Liebknecht
  -Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam+2026-08-16\n\n
- Quelle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seaso
- ns/2026-2027/teams/rsv-eintracht-1949
+ Spielbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/
+ 2026-2027/5-spieltag/sv-babelsberg-03-rsv-eintracht-1949-2426025\n\nQuelle
+ : https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
 LOCATION:Karl-Liebknecht-Stadion\, Karl-Liebknecht-Straße 90\, 14482 
  Potsdam
 STATUS:CONFIRMED
@@ -114,7 +125,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:lp-01@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260822T130000Z
 DTEND:20260822T150000Z
 SUMMARY:Landespokal Brandenburg | Landespokal Brandenburg | Sieger 
@@ -130,7 +141,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-06@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260826T170000Z
 DTEND:20260826T190000Z
 SUMMARY:6. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FSV 
@@ -141,16 +152,18 @@ DESCRIPTION:6. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FSV
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-26\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-26\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/6-spieltag/rsv-eintracht-1949-fsv-zwickau-2426036\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-07@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260830T120000Z
 DTEND:20260830T140000Z
 SUMMARY:7. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. FC 
@@ -161,16 +174,18 @@ DESCRIPTION:7. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1. FC
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-30\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-08-30\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/7-spieltag/rsv-eintracht-1949-1-fc-magdeburg-ii-2426047\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-08@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260913T120000Z
 DTEND:20260913T140000Z
 SUMMARY:8. Spieltag | Regionalliga Nordost | FC Rot-Weiß Erfurt – RSV 
@@ -181,15 +196,18 @@ DESCRIPTION:8. Spieltag\nRegionalliga Nordost\nFC Rot-Weiß Erfurt – RSV
  https://www.google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Moza
  rtallee+3%2C+99096+Erfurt\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Steigerwaldstadion%2C+Mozartallee+3
- %2C+99096+Erfurt+2026-09-13\n\nQuelle: https://datencenter.dfb.de/competit
- ions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
+ %2C+99096+Erfurt+2026-09-13\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/8-sp
+ ieltag/fc-rot-weiss-erfurt-rsv-eintracht-1949-2426052\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Steigerwaldstadion\, Mozartallee 3\, 99096 Erfurt
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-09@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260916T170000Z
 DTEND:20260916T190000Z
 SUMMARY:9. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
@@ -200,16 +218,18 @@ DESCRIPTION:9. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 –
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-16\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-16\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/9-spieltag/rsv-eintracht-1949-greifswalder-fc-2426069\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-10@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260920T120000Z
 DTEND:20260920T140000Z
 SUMMARY:10. Spieltag | Regionalliga Nordost | VSG Altglienicke – RSV 
@@ -220,7 +240,9 @@ DESCRIPTION:10. Spieltag\nRegionalliga Nordost\nVSG Altglienicke – RSV
  https://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde%2C+Os
  tpreu%C3%9Fendamm+3%E2%80%9317%2C+12207+Berlin\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Stadion+Lichterfelde%2C+Ostpreu%C3%
- 9Fendamm+3%E2%80%9317%2C+12207+Berlin+2026-09-20\n\nQuelle: 
+ 9Fendamm+3%E2%80%9317%2C+12207+Berlin+2026-09-20\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/10-s
+ pieltag/vsg-altglienicke-rsv-eintracht-1949-2426075\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Stadion Lichterfelde\, Ostpreußendamm 3–17\, 12207 Berlin
@@ -229,7 +251,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-11@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20260927T120000Z
 DTEND:20260927T140000Z
 SUMMARY:11. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
@@ -240,16 +262,18 @@ DESCRIPTION:11. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 –
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-27\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-09-27\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/11-spieltag/rsv-eintracht-1949-chemnitzer-fc-2426085\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-12@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261011T120000Z
 DTEND:20261011T140000Z
 SUMMARY:12. Spieltag | Regionalliga Nordost | Hallescher FC – RSV 
@@ -260,7 +284,9 @@ DESCRIPTION:12. Spieltag\nRegionalliga Nordost\nHallescher FC – RSV
  https://www.google.com/maps/search/?api=1&query=Leuna-Chemie-Stadion%2C+Ka
  ntstra%C3%9Fe+2%2C+06110+Halle+%28Saale%29\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Leuna-Chemie-Stadion%2C+Kantstra%C3
- %9Fe+2%2C+06110+Halle+%28Saale%29+2026-10-11\n\nQuelle: 
+ %9Fe+2%2C+06110+Halle+%28Saale%29+2026-10-11\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/12-s
+ pieltag/hallescher-fc-rsv-eintracht-1949-2426092\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Leuna-Chemie-Stadion\, Kantstraße 2\, 06110 Halle (Saale)
@@ -269,7 +295,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-13@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261018T120000Z
 DTEND:20261018T140000Z
 SUMMARY:13. Spieltag | Regionalliga Nordost | Hertha BSC II – RSV 
@@ -281,8 +307,10 @@ DESCRIPTION:13. Spieltag\nRegionalliga Nordost\nHertha BSC II – RSV
  platz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14053+Berlin\n\nWette
  r am Spielort: https://www.google.com/search?q=Wetter+Stadion+auf+dem+Wurf
  platz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14053+Berlin+2026-10-
- 18\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-nordost
- /seasons/2026-2027/teams/rsv-eintracht-1949
+ 18\n\nSpielbericht: https://datencenter.dfb.de/datencenter/regionalliga-no
+ rdost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099\n\nQu
+ elle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons
+ /2026-2027/teams/rsv-eintracht-1949
 LOCATION:Stadion auf dem Wurfplatz/Amateurstadion\, 
  Friedrich-Friesen-Allee\, 14053 Berlin
 STATUS:CONFIRMED
@@ -290,7 +318,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-14@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261025T130000Z
 DTEND:20261025T150000Z
 SUMMARY:14. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – SV 
@@ -301,16 +329,18 @@ DESCRIPTION:14. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – SV
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-10-25\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-10-25\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110\n\nQuelle
+ : https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-15@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261101T130000Z
 DTEND:20261101T150000Z
 SUMMARY:15. Spieltag | Regionalliga Nordost | BFC Dynamo – RSV Eintracht 
@@ -321,7 +351,9 @@ DESCRIPTION:15. Spieltag\nRegionalliga Nordost\nBFC Dynamo – RSV
  https://www.google.com/maps/search/?api=1&query=Sportforum+Hohensch%C3%B6n
  hausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Sportforum+Hohensch%C3%B6nhausen%2C
- +Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin+2026-11-01\n\nQuelle: 
+ +Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin+2026-11-01\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-s
+ pieltag/bfc-dynamo-rsv-eintracht-1949-2426119\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Sportforum Hohenschönhausen\, Weißenseer Weg 53\, 13053 Berlin
@@ -330,7 +362,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-16@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261108T130000Z
 DTEND:20261108T150000Z
 SUMMARY:16. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
@@ -341,16 +373,18 @@ DESCRIPTION:16. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 –
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-08\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-08\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-17@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 SUMMARY:17. Spieltag | Regionalliga Nordost | 1. FC Lok Leipzig – RSV 
@@ -361,7 +395,9 @@ DESCRIPTION:17. Spieltag\nRegionalliga Nordost\n1. FC Lok Leipzig – RSV
  https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion%2C+Co
  nnewitzer+Stra%C3%9Fe+21%2C+04289+Leipzig\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Bruno-Plache-Stadion%2C+Connewitzer
- +Stra%C3%9Fe+21%2C+04289+Leipzig+2026-11-22\n\nQuelle: 
+ +Stra%C3%9Fe+21%2C+04289+Leipzig+2026-11-22\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-s
+ pieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Bruno-Plache-Stadion\, Connewitzer Straße 21\, 04289 Leipzig
@@ -370,7 +406,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-18@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261129T130000Z
 DTEND:20261129T150000Z
 SUMMARY:18. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC 
@@ -381,16 +417,18 @@ DESCRIPTION:18. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BFC
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-29\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-11-29\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/18-spieltag/rsv-eintracht-1949-bfc-preussen-1894-2426147\n\nQuelle:
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-19@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261206T130000Z
 DTEND:20261206T150000Z
 SUMMARY:19. Spieltag | Regionalliga Nordost | FSV 63 Luckenwalde – RSV 
@@ -402,8 +440,10 @@ DESCRIPTION:19. Spieltag\nRegionalliga Nordost\nFSV 63 Luckenwalde – RSV
  Werner-Seelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2C+14943+Lucken
  walde\n\nWetter am Spielort: https://www.google.com/search?q=Wetter+Werner
  -Seelenbinder-Stadion%2C+Stra%C3%9Fe+des+Friedens+42%2C+14943+Luckenwalde+
- 2026-12-06\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga
- -nordost/seasons/2026-2027/teams/rsv-eintracht-1949
+ 2026-12-06\n\nSpielbericht: https://datencenter.dfb.de/datencenter/regiona
+ lliga-nordost/2026-2027/19-spieltag/fsv-63-luckenwalde-rsv-eintracht-1949-
+ 2426152\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga-no
+ rdost/seasons/2026-2027/teams/rsv-eintracht-1949
 LOCATION:Werner-Seelenbinder-Stadion\, Straße des Friedens 42\, 14943 
  Luckenwalde
 STATUS:CONFIRMED
@@ -411,7 +451,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-20@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20261213T130000Z
 DTEND:20261213T150000Z
 SUMMARY:20. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FC 
@@ -422,16 +462,18 @@ DESCRIPTION:20. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FC
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-12-13\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2026-12-13\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/20-spieltag/rsv-eintracht-1949-fc-carl-zeiss-jena-2426160\n\nQuelle
+ : https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/202
+ 6-2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-21@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270214T130000Z
 DTEND:20270214T150000Z
 SUMMARY:21. Spieltag | Regionalliga Nordost | BSG Chemie Leipzig – RSV 
@@ -442,7 +484,9 @@ DESCRIPTION:21. Spieltag\nRegionalliga Nordost\nBSG Chemie Leipzig – RSV
  https://www.google.com/maps/search/?api=1&query=Alfred-Kunze-Sportpark%2C+
  Am+Sportpark+2%2C+04179+Leipzig\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Alfred-Kunze-Sportpark%2C+Am+Sportp
- ark+2%2C+04179+Leipzig+2027-02-14\n\nQuelle: 
+ ark+2%2C+04179+Leipzig+2027-02-14\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/21-s
+ pieltag/bsg-chemie-leipzig-rsv-eintracht-1949-2426175\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Alfred-Kunze-Sportpark\, Am Sportpark 2\, 04179 Leipzig
@@ -451,7 +495,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-22@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270221T130000Z
 DTEND:20270221T150000Z
 SUMMARY:22. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – SV 
@@ -462,16 +506,18 @@ DESCRIPTION:22. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – SV
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-02-21\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-02-21\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/22-spieltag/rsv-eintracht-1949-sv-babelsberg-03-2426179\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-23@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270228T130000Z
 DTEND:20270228T150000Z
 SUMMARY:23. Spieltag | Regionalliga Nordost | FSV Zwickau – RSV Eintracht
@@ -481,15 +527,17 @@ DESCRIPTION:23. Spieltag\nRegionalliga Nordost\nFSV Zwickau – RSV
  1\, 08066 Zwickau\nGoogle Maps: https://www.google.com/maps/search/?api=1&
  query=GGZ+Arena%2C+Stadionallee+1%2C+08066+Zwickau\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+GGZ+Arena%2C+Stadionallee+1%2C+0806
- 6+Zwickau+2027-02-28\n\nQuelle: https://datencenter.dfb.de/competitions/re
- gionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949
+ 6+Zwickau+2027-02-28\n\nSpielbericht: https://datencenter.dfb.de/datencent
+ er/regionalliga-nordost/2026-2027/23-spieltag/fsv-zwickau-rsv-eintracht-19
+ 49-2426189\n\nQuelle: https://datencenter.dfb.de/competitions/regionalliga
+ -nordost/seasons/2026-2027/teams/rsv-eintracht-1949
 LOCATION:GGZ Arena\, Stadionallee 1\, 08066 Zwickau
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-24@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270307T130000Z
 DTEND:20270307T150000Z
 SUMMARY:24. Spieltag | Regionalliga Nordost | 1. FC Magdeburg II – RSV 
@@ -500,7 +548,9 @@ DESCRIPTION:24. Spieltag\nRegionalliga Nordost\n1. FC Magdeburg II – RSV
  Maps: https://www.google.com/maps/search/?api=1&query=Heinrich-Germer-Stad
  ion%2C+Salzmannstra%C3%9Fe+34%2C+39112+Magdeburg\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Heinrich-Germer-Stadion%2C+Salzmann
- stra%C3%9Fe+34%2C+39112+Magdeburg+2027-03-07\n\nQuelle: 
+ stra%C3%9Fe+34%2C+39112+Magdeburg+2027-03-07\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/24-s
+ pieltag/1-fc-magdeburg-ii-rsv-eintracht-1949-2426199\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Heinrich-Germer-Stadion\, Salzmannstraße 34\, 39112 Magdeburg
@@ -509,7 +559,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-25@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270314T130000Z
 DTEND:20270314T150000Z
 SUMMARY:25. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – FC 
@@ -520,16 +570,18 @@ DESCRIPTION:25. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – FC
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-03-14\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-03-14\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/25-spieltag/rsv-eintracht-1949-fc-rot-weiss-erfurt-2426210\n\nQuell
+ e: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/20
+ 26-2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-26@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270321T130000Z
 DTEND:20270321T150000Z
 SUMMARY:26. Spieltag | Regionalliga Nordost | Greifswalder FC – RSV 
@@ -540,7 +592,9 @@ DESCRIPTION:26. Spieltag\nRegionalliga Nordost\nGreifswalder FC – RSV
  https://www.google.com/maps/search/?api=1&query=Volksstadion+Greifswald%2C
  +Karl-Liebknecht-Ring+2%2C+17491+Greifswald\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Volksstadion+Greifswald%2C+Karl-Lie
- bknecht-Ring+2%2C+17491+Greifswald+2027-03-21\n\nQuelle: 
+ bknecht-Ring+2%2C+17491+Greifswald+2027-03-21\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/26-s
+ pieltag/greifswalder-fc-rsv-eintracht-1949-2426216\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Volksstadion Greifswald\, Karl-Liebknecht-Ring 2\, 17491 
@@ -550,7 +604,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-27@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270404T120000Z
 DTEND:20270404T140000Z
 SUMMARY:27. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – VSG 
@@ -561,16 +615,18 @@ DESCRIPTION:27. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – VSG
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-04\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-04\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/27-spieltag/rsv-eintracht-1949-vsg-altglienicke-2426227\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-28@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270407T170000Z
 DTEND:20270407T190000Z
 SUMMARY:28. Spieltag | Regionalliga Nordost | Chemnitzer FC – RSV 
@@ -581,7 +637,9 @@ DESCRIPTION:28. Spieltag\nRegionalliga Nordost\nChemnitzer FC – RSV
  https://www.google.com/maps/search/?api=1&query=Stadion+an+der+Gellertstra
  %C3%9Fe%2C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Stadion+an+der+Gellertstra%C3%9Fe%2
- C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz+2027-04-07\n\nQuelle: 
+ C+Gellertstra%C3%9Fe+25%2C+09130+Chemnitz+2027-04-07\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/28-s
+ pieltag/chemnitzer-fc-rsv-eintracht-1949-2426234\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Stadion an der Gellertstraße\, Gellertstraße 25\, 09130 Chemnitz
@@ -590,7 +648,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-29@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270411T120000Z
 DTEND:20270411T140000Z
 SUMMARY:29. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 
@@ -601,16 +659,18 @@ DESCRIPTION:29. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 –
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-11\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-11\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/29-spieltag/rsv-eintracht-1949-hallescher-fc-2426247\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-30@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270418T120000Z
 DTEND:20270418T140000Z
 SUMMARY:30. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – Hertha
@@ -621,16 +681,18 @@ DESCRIPTION:30. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 –
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-18\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-04-18\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/30-spieltag/rsv-eintracht-1949-hertha-bsc-ii-2426252\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-31@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270425T120000Z
 DTEND:20270425T140000Z
 SUMMARY:31. Spieltag | Regionalliga Nordost | SV Tasmania Berlin – RSV 
@@ -641,7 +703,9 @@ DESCRIPTION:31. Spieltag\nRegionalliga Nordost\nSV Tasmania Berlin – RSV
  Maps: https://www.google.com/maps/search/?api=1&query=Werner-Seelenbinder-
  Sportpark%2C+Oderstra%C3%9Fe+182%2C+12051+Berlin\n\nWetter am Spielort: 
  https://www.google.com/search?q=Wetter+Werner-Seelenbinder-Sportpark%2C+Od
- erstra%C3%9Fe+182%2C+12051+Berlin+2027-04-25\n\nQuelle: 
+ erstra%C3%9Fe+182%2C+12051+Berlin+2027-04-25\n\nSpielbericht: 
+ https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/31-s
+ pieltag/sv-tasmania-berlin-rsv-eintracht-1949-2426264\n\nQuelle: 
  https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
  2027/teams/rsv-eintracht-1949
 LOCATION:Werner-Seelenbinder-Sportpark\, Oderstraße 182\, 12051 Berlin
@@ -650,7 +714,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-32@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270509T120000Z
 DTEND:20270509T140000Z
 SUMMARY:32. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – BFC 
@@ -661,16 +725,18 @@ DESCRIPTION:32. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – BFC
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-09\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-09\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/32-spieltag/rsv-eintracht-1949-bfc-dynamo-2426271\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-33@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270516T120000Z
 DTEND:20270516T140000Z
 SUMMARY:33. Spieltag | Regionalliga Nordost | Erzgebirge Aue – RSV 
@@ -681,16 +747,18 @@ DESCRIPTION:33. Spieltag\nRegionalliga Nordost\nErzgebirge Aue – RSV
  https://www.google.com/maps/search/?api=1&query=Erzgebirgsstadion%2C+L%C3%
  B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Erzgebirgsstadion%2C+L%C3
- %B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema+2027-05-16\n\nQuel
- le: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2
- 026-2027/teams/rsv-eintracht-1949
+ %B6%C3%9Fnitzer+Stra%C3%9Fe+95%2C+08280+Aue-Bad+Schlema+2027-05-16\n\nSpie
+ lbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026
+ -2027/33-spieltag/erzgebirge-aue-rsv-eintracht-1949-2426277\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Erzgebirgsstadion\, Lößnitzer Straße 95\, 08280 Aue-Bad Schlema
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:rl-34@rsv-kalender
-DTSTAMP:20260801T135731Z
+DTSTAMP:20260801T175557Z
 DTSTART:20270523T120000Z
 DTEND:20270523T140000Z
 SUMMARY:34. Spieltag | Regionalliga Nordost | RSV Eintracht 1949 – 1. FC 
@@ -701,9 +769,11 @@ DESCRIPTION:34. Spieltag\nRegionalliga Nordost\nRSV Eintracht 1949 – 1.
  https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Mal
  teserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz\n\nWetter am 
  Spielort: https://www.google.com/search?q=Wetter+Preu%C3%9Fenstadion%2C+Ma
- lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-23\n\nQue
- lle: https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/
- 2026-2027/teams/rsv-eintracht-1949
+ lteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz+2027-05-23\n\nSpi
+ elbericht: https://datencenter.dfb.de/datencenter/regionalliga-nordost/202
+ 6-2027/34-spieltag/rsv-eintracht-1949-1-fc-lok-leipzig-2426292\n\nQuelle: 
+ https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-
+ 2027/teams/rsv-eintracht-1949
 LOCATION:Preußenstadion\, Malteserstraße 24–36\, 12249 Berlin-Lankwitz
 STATUS:CONFIRMED
 TRANSP:OPAQUE
