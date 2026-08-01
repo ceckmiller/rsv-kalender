@@ -13,7 +13,15 @@ function contentHash(file, content) {
   return createHash('sha256').update(content).digest('hex');
 }
 
-const store = getStore('rsv-live-data');
+const siteID = process.env.NETLIFY_SITE_ID || process.env.SITE_ID || 'd6f89f9b-e623-4ede-81e7-806e81426603';
+const token = process.env.NETLIFY_AUTH_TOKEN || process.env.NETLIFY_API_TOKEN || '';
+
+if (!token) {
+  console.log('Blob-Sync übersprungen: NETLIFY_AUTH_TOKEN fehlt im Build (optional, GitHub Actions publiziert direkt).');
+  process.exit(0);
+}
+
+const store = getStore('rsv-live-data', { siteID, token });
 let changed = 0;
 
 for (const file of files) {

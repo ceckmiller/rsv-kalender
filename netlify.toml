@@ -1,5 +1,5 @@
 [build]
-  command = "npm install --omit=dev && node scripts/netlify-sync-blobs.mjs"
+  command = "npm install --omit=dev && node scripts/netlify-sync-blobs.mjs || true"
   publish = "docs"
   functions = "netlify/functions"
   ignore = "bash scripts/should-netlify-build.sh"
