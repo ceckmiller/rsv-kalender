@@ -1981,7 +1981,27 @@ def build_site_data(team_configs, ticket_events=None):
         for i,row in enumerate(rows,1):
             if row.get('position') in (None,''): row['position']=i
             row['logo_url'] = club_logo_url(row.get('team', ''), clubs, discovered_logos)
-    (DOCS/'site-data.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    write_site_data(payload)
+
+def site_data_fingerprint(payload):
+    clone=deepcopy(payload)
+    clone.pop('generated_at', None)
+    return json.dumps(clone, ensure_ascii=False, sort_keys=True)
+
+def write_site_data(payload):
+    path=DOCS/'site-data.json'
+    fingerprint=site_data_fingerprint(payload)
+    if path.exists():
+        try:
+            existing=json.loads(path.read_text(encoding='utf-8'))
+            if site_data_fingerprint(existing)==fingerprint:
+                return False
+        except Exception:
+            pass
+    payload=deepcopy(payload)
+    payload['generated_at']=datetime.now(TZ).isoformat()
+    path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    return True
 
 def is_league_game(game):
     competition = competition_label(game.get('competition', '')).lower()

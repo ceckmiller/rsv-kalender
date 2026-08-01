@@ -1,6 +1,7 @@
 [build]
   publish = "docs"
   functions = "netlify/functions"
+  ignore = "bash scripts/should-netlify-build.sh"
 
 [[redirects]]
   from = "/api/site-data"
@@ -12,9 +13,32 @@
   to = "/.netlify/functions/logo"
   status = 200
 
-# Serve static ICS files directly. Apple Calendar / webcal clients are unreliable
-# with redirects into Netlify Functions, and the blob-backed calendar function
-# is not populated by the static publish pipeline.
+# ICS subscriptions are served from Netlify Blobs via the calendar function so
+# calendar data can update without triggering a full site deploy.
+
+[[redirects]]
+  from = "/rsv-regionalliga.ics"
+  to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u23.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u23.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u21.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u21.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u19.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u19.ics"
+  status = 200
+  force = true
 
 [[headers]]
   for = "/*.ics"
