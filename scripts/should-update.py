@@ -66,7 +66,7 @@ def ticket_shop_has_new_events() -> bool:
         print(f"Ticketshop-Schnellprüfung übersprungen: {exc}")
         return False
 
-def main() -> int:
+def evaluate() -> tuple[bool, list[str]]:
     now = datetime.now(TZ)
     event_name = os.getenv("GITHUB_EVENT_NAME", "")
     reasons: list[str] = []
@@ -106,7 +106,14 @@ def main() -> int:
                 fixture = f"{game.get('home', '?')} – {game.get('away', '?')} ({kickoff:%d.%m.%Y %H:%M})"
                 reasons.append(f"{label}: {fixture}")
 
-    should_run = bool(reasons)
+    return bool(reasons), reasons
+
+
+def main() -> int:
+    import sys
+
+    exit_code = "--exit-code" in sys.argv
+    should_run, reasons = evaluate()
     output = os.getenv("GITHUB_OUTPUT")
     if output:
         with open(output, "a", encoding="utf-8") as fh:
@@ -115,6 +122,8 @@ def main() -> int:
 
     print("Aktualisierung wird ausgeführt:" if should_run else "Aktualisierung wird übersprungen:")
     print(" | ".join(reasons) if reasons else "Kein täglicher oder spielbezogener Auslöser fällig.")
+    if exit_code:
+        return 0 if should_run else 2
     return 0
 
 

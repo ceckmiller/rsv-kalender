@@ -2100,10 +2100,49 @@ def process(key,offline=False):
     print(f'{key}: {len(merged)} Termine erzeugt'+(f' (Online-Update übersprungen: {err})' if err else ''))
     return err is None or bool(merged)
 
+def restore_live_state() -> None:
+    if not os.environ.get('NETLIFY_SITE_ID') or not os.environ.get('NETLIFY_AUTH_TOKEN'):
+        return
+    import subprocess
+    subprocess.run(['node', 'scripts/restore-live-state.mjs'], cwd=ROOT, check=False)
+
+
+def ci_should_update() -> bool:
+    if os.environ.get('GITHUB_ACTIONS') != 'true':
+        return True
+    if os.environ.get('RSV_FORCE_UPDATE') == '1':
+        return True
+    import subprocess
+    result = subprocess.run(
+        [sys.executable, str(ROOT / 'scripts' / 'should-update.py'), '--exit-code'],
+        cwd=ROOT,
+    )
+    return result.returncode == 0
+
+
+def publish_live_data() -> None:
+    site_id = os.environ.get('NETLIFY_SITE_ID')
+    token = os.environ.get('NETLIFY_AUTH_TOKEN')
+    if not site_id or not token:
+        print('Netlify Blobs: Keine Credentials gesetzt – Live-Daten kommen beim nächsten Deploy in Blobs.')
+        return
+    import subprocess
+    subprocess.run(['npm', 'install', '--silent'], cwd=ROOT, check=False)
+    result = subprocess.run(['node', 'scripts/publish-live-data.mjs'], cwd=ROOT, env=os.environ)
+    if result.returncode:
+        print('Netlify Blobs: Veröffentlichung fehlgeschlagen', file=sys.stderr)
+        raise SystemExit(result.returncode)
+    print('Netlify Blobs: Live-Daten veröffentlicht.')
+
+
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--offline',action='store_true'); args=ap.parse_args()
     if args.offline:
         os.environ['RSV_OFFLINE']='1'
+    if not ci_should_update():
+        print('Aktualisierung übersprungen (kein fälliger Auslöser).')
+        return 0
+    restore_live_state()
     ok=True; configs=[]
     ticket_events=fetch_ticket_events()
     for key in ('regionalliga','u23','u21','u19'):
@@ -2129,5 +2168,6 @@ def main():
     if not ok:
         print('Mindestens eine Mannschaft konnte nicht vollständig aktualisiert werden; Veröffentlichung wird abgebrochen.', file=sys.stderr)
         return 1
+    publish_live_data()
     return 0
 if __name__=='__main__': raise SystemExit(main())
