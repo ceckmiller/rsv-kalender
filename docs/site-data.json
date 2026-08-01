@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T10:37:07.437902+02:00",
+  "generated_at": "2026-08-01T16:00:50.296681+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -9618,7 +9618,7 @@
               "time": "11:00",
               "home": "Borussia Dortmund",
               "away": "Holstein Kiel",
-              "result": null,
+              "result": "3:4",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9633,7 +9633,7 @@
               "time": "11:00",
               "home": "SC Fortuna Köln",
               "away": "SC Freiburg",
-              "result": null,
+              "result": "0:4",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9648,7 +9648,7 @@
               "time": "11:00",
               "home": "SV Babelsberg 03",
               "away": "FC Viktoria Köln",
-              "result": null,
+              "result": "5:3",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9663,7 +9663,7 @@
               "time": "11:30",
               "home": "JFV Bremen",
               "away": "1. FC Heidenheim 1846",
-              "result": null,
+              "result": "0:1",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9678,7 +9678,7 @@
               "time": "12:00",
               "home": "JFV Lübeck",
               "away": "TSG 1899 Hoffenheim",
-              "result": null,
+              "result": "2:6",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9693,7 +9693,7 @@
               "time": "12:00",
               "home": "SG Unterrath",
               "away": "Hertha BSC",
-              "result": null,
+              "result": "0:2",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9708,14 +9708,14 @@
               "time": "13:00",
               "home": "SGV Freiberg Fußball",
               "away": "VfL Wolfsburg",
-              "result": null,
+              "result": "0:6",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "DFB-Pokal 2026/27",
               "home_logo": "/assets/clubs/sgv-freiberg-fussball.png",
               "away_logo": "/assets/clubs/vfl-wolfsburg.png",
-              "source_url": "https://www.fussball.de/spiel/sgv-freiberg-fussball-vfl-wolfsburg-u19/-/spiel/031BSD7HMO000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/sgv-freiberg-fussball-vfl-wolfsburg-u19/-/spiel/031BSD7HMO000000VS5489BTVUS470OH#!/section/course"
             },
             {
               "id": "cup-tsv-havelse-u19-fc-energie-cottbus-u19",
@@ -9723,7 +9723,7 @@
               "time": "13:00",
               "home": "TSV Havelse",
               "away": "FC Energie Cottbus",
-              "result": null,
+              "result": "0:2",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -9738,14 +9738,14 @@
               "time": "13:00",
               "home": "ZFC Meuselwitz",
               "away": "Chemnitzer FC",
-              "result": null,
+              "result": "0:8",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "DFB-Pokal 2026/27",
               "home_logo": "/assets/clubs/zfc-meuselwitz.png",
               "away_logo": "/assets/clubs/chemnitzer-fc.png",
-              "source_url": "https://www.fussball.de/spiel/zfc-meuselwitz-chemnitzer-fc/-/spiel/031BSD7IFO000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/zfc-meuselwitz-chemnitzer-fc/-/spiel/031BSD7IFO000000VS5489BTVUS470OH#!/section/course"
             },
             {
               "id": "cup-sv-wehen-wiesbaden-u19-sv-sandhausen",
@@ -9775,7 +9775,7 @@
               "competition": "DFB-Pokal 2026/27",
               "home_logo": "/assets/clubs/rasenballsport-leipzig.png",
               "away_logo": "/assets/clubs/1-fc-kaiserslautern.png",
-              "source_url": "https://www.fussball.de/spiel/rasenballsport-leipzig-u19-1-fc-kaiserslautern-u19/-/spiel/031BSD7IUS000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/rasenballsport-leipzig-u19-1-fc-kaiserslautern-u19/-/spiel/031BSD7IUS000000VS5489BTVUS470OH#!/section/course"
             },
             {
               "id": "cup-sv-vikt-herxheim-fc-ingolstadt-04",
@@ -9790,7 +9790,7 @@
               "competition": "DFB-Pokal 2026/27",
               "home_logo": "/assets/clubs/sv-vikt-herxheim.png",
               "away_logo": "/assets/clubs/fc-ingolstadt-04.png",
-              "source_url": "https://www.fussball.de/spiel/sv-vikt-herxheim-fc-ingolstadt-04/-/spiel/031BSD7HS0000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/sv-vikt-herxheim-fc-ingolstadt-04/-/spiel/031BSD7HS0000000VS5489BTVUS470OH#!/section/course"
             },
             {
               "id": "cup-karlsruher-sc-u19-ssv-ulm-1846-fussball",
