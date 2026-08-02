@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T16:00:50.353470+02:00",
+  "generated_at": "2026-08-02T21:38:41.922087+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -29,7 +29,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 3
+          "table_position": 5
         },
         {
           "id": "rl-02",
@@ -55,7 +55,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 3
+          "table_position": 5
         }
       ],
       "fixtures": [
@@ -903,7 +903,7 @@
               "time": "14:00",
               "home": "1. FC Lok Leipzig",
               "away": "1. FC Magdeburg II",
-              "result": null,
+              "result": "3:3",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -917,7 +917,7 @@
               "time": "14:00",
               "home": "Hallescher FC",
               "away": "FC Rot-Weiß Erfurt",
-              "result": null,
+              "result": "1:1",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -5760,7 +5760,7 @@
           "away": "RSV Eintracht 1949 U23",
           "home_logo": "/assets/clubs/sfc-stern.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "14:00",
+          "result": "4:4",
           "halftime_result": "",
           "scorers": [],
           "attendance": null,
@@ -5784,7 +5784,7 @@
           "away": "RSV Eintracht 1949 U23",
           "home_logo": "/assets/clubs/sfc-stern.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "14:00",
+          "result": "4:4",
           "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
           "is_home": false,
@@ -6349,7 +6349,7 @@
               "time": "14:00",
               "home": "SFC Stern",
               "away": "RSV Eintracht 1949 U23",
-              "result": "14:00",
+              "result": "4:4",
               "halftime_result": null,
               "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
               "matchday": null,
@@ -9022,28 +9022,6 @@
           "report_url": "",
           "points": null,
           "table_position": null
-        },
-        {
-          "id": "u19-690002036",
-          "matchday": null,
-          "date": "2026-08-02",
-          "time": "14:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "SFC Stern",
-          "away": "RSV Eintracht 1949 U19",
-          "home_logo": "/assets/clubs/sfc-stern.png",
-          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "09:15",
-          "halftime_result": "",
-          "scorers": [],
-          "attendance": null,
-          "referee": null,
-          "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
-          "youtube_url": "",
-          "report_url": "",
-          "points": null,
-          "table_position": null
         }
       ],
       "fixtures": [
@@ -9074,7 +9052,7 @@
           "away": "RSV Eintracht 1949 U19",
           "home_logo": "/assets/clubs/sfc-stern.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "09:15",
+          "result": "",
           "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
           "is_home": false,
@@ -10050,7 +10028,7 @@
               "time": "14:00",
               "home": "SV Arminia Magdeburg",
               "away": "FC Carl Zeiss Jena",
-              "result": null,
+              "result": "0:10",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -10074,7 +10052,7 @@
               "time": "14:00",
               "home": "SFC Stern",
               "away": "RSV Eintracht 1949 U19",
-              "result": "09:15",
+              "result": null,
               "halftime_result": null,
               "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
               "matchday": null,
@@ -10728,17 +10706,17 @@
         }
       ],
       "next_game": {
-        "id": "u19-810001078",
+        "id": "u19-690002036",
         "matchday": null,
-        "date": "2026-08-08",
-        "time": "13:00",
-        "competition": "Landesfreundschaftsspiele",
-        "home": "FSV Babelsberg 74",
+        "date": "2026-08-02",
+        "time": "14:00",
+        "competition": "Regionalfreundschaftsspiele",
+        "home": "SFC Stern",
         "away": "RSV Eintracht 1949 U19",
-        "home_logo": "/assets/clubs/fsv-babelsberg-74.png",
+        "home_logo": "/assets/clubs/sfc-stern.png",
         "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Rudolf-Breitscheid-Stra%C3%9Fe%2C+KR-Hauptplatz%2C+Rudolf-Breitscheid-Str.+173%2C+14482+Potsdam",
+        "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
         "is_home": false,
         "round": "",
         "ticket_url": ""
@@ -10779,6 +10757,30 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
+          "team": "1. FC Magdeburg II",
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals": "8:4",
+          "diff": "+4",
+          "points": 4,
+          "position": 2,
+          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
+        },
+        {
+          "team": "FC Rot-Weiß Erfurt",
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals": "5:2",
+          "diff": "+3",
+          "points": 4,
+          "position": 3,
+          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
+        },
+        {
           "team": "Greifswalder FC",
           "played": 2,
           "wins": 1,
@@ -10787,7 +10789,7 @@
           "goals": "5:2",
           "diff": "+3",
           "points": 4,
-          "position": 2,
+          "position": 4,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
@@ -10799,8 +10801,20 @@
           "goals": "4:1",
           "diff": "+3",
           "points": 4,
-          "position": 3,
+          "position": 5,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+        },
+        {
+          "team": "1. FC Lok Leipzig",
+          "played": 2,
+          "wins": 1,
+          "draws": 1,
+          "losses": 0,
+          "goals": "6:4",
+          "diff": "+2",
+          "points": 4,
+          "position": 6,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "Erzgebirge Aue",
@@ -10811,44 +10825,8 @@
           "goals": "5:3",
           "diff": "+2",
           "points": 4,
-          "position": 4,
-          "logo_url": "/assets/clubs/erzgebirge-aue.png"
-        },
-        {
-          "team": "1. FC Magdeburg II",
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goals": "5:1",
-          "diff": "+4",
-          "points": 3,
-          "position": 5,
-          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
-          "team": "FC Rot-Weiß Erfurt",
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goals": "4:1",
-          "diff": "+3",
-          "points": 3,
-          "position": 6,
-          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
-        },
-        {
-          "team": "1. FC Lok Leipzig",
-          "played": 1,
-          "wins": 1,
-          "draws": 0,
-          "losses": 0,
-          "goals": "3:1",
-          "diff": "+2",
-          "points": 3,
           "position": 7,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+          "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
           "team": "SV Babelsberg 03",
@@ -10899,6 +10877,18 @@
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
+          "team": "Hallescher FC",
+          "played": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals": "3:3",
+          "diff": "0",
+          "points": 2,
+          "position": 12,
+          "logo_url": "/assets/clubs/hallescher-fc.png"
+        },
+        {
           "team": "VSG Altglienicke",
           "played": 1,
           "wins": 0,
@@ -10907,20 +10897,8 @@
           "goals": "3:3",
           "diff": "0",
           "points": 1,
-          "position": 12,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
-        },
-        {
-          "team": "Hallescher FC",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goals": "2:2",
-          "diff": "0",
-          "points": 1,
           "position": 13,
-          "logo_url": "/assets/clubs/hallescher-fc.png"
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
           "team": "BFC Preussen 1894",
