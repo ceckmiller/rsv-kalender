@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T05:59:20.258895+02:00",
+  "generated_at": "2026-08-03T12:09:59.456624+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -800,6 +800,20 @@
           "round": "2",
           "matches": [
             {
+              "id": "rl-md2-5086a6b2f2a9",
+              "date": "",
+              "time": "",
+              "home": "VSG Altglienicke",
+              "away": "Hertha BSC II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 2,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
+            },
+            {
               "id": "rl-md2-a82c227fa254",
               "date": "2026-07-31",
               "time": "19:00",
@@ -868,20 +882,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
-            },
-            {
-              "id": "rl-md2-db410ff41551",
-              "date": "2026-08-01",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "Hertha BSC II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 2,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
               "id": "rl-md2-1ff7f14339ae",
