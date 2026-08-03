@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T21:38:41.922087+02:00",
+  "generated_at": "2026-08-03T05:59:20.258895+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -10706,17 +10706,17 @@
         }
       ],
       "next_game": {
-        "id": "u19-690002036",
+        "id": "u19-810001078",
         "matchday": null,
-        "date": "2026-08-02",
-        "time": "14:00",
-        "competition": "Regionalfreundschaftsspiele",
-        "home": "SFC Stern",
+        "date": "2026-08-08",
+        "time": "13:00",
+        "competition": "Landesfreundschaftsspiele",
+        "home": "FSV Babelsberg 74",
         "away": "RSV Eintracht 1949 U19",
-        "home_logo": "/assets/clubs/sfc-stern.png",
+        "home_logo": "/assets/clubs/fsv-babelsberg-74.png",
         "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
+        "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Rudolf-Breitscheid-Stra%C3%9Fe%2C+KR-Hauptplatz%2C+Rudolf-Breitscheid-Str.+173%2C+14482+Potsdam",
         "is_home": false,
         "round": "",
         "ticket_url": ""
