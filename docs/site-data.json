@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T16:44:16.992168+02:00",
+  "generated_at": "2026-08-04T21:58:54.584414+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -29,7 +29,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 5
+          "table_position": 9
         },
         {
           "id": "rl-02",
@@ -55,7 +55,34 @@
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 5
+          "table_position": 9
+        },
+        {
+          "id": "rl-03",
+          "matchday": 3,
+          "date": "2026-08-04",
+          "time": "19:00",
+          "competition": "Regionalliga Nordost",
+          "home": "FC Carl Zeiss Jena",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "4:0",
+          "halftime_result": "2:0",
+          "scorers": [
+            "10. Minute – Emilio Munser (FC Carl Zeiss Jena) – 1:0",
+            "30. Minute – Emilio Munser (FC Carl Zeiss Jena) – 2:0",
+            "47. Minute – Kevin Lankford (FC Carl Zeiss Jena) – 3:0",
+            "68. Minute – Jannes Werner (FC Carl Zeiss Jena) – 4:0"
+          ],
+          "attendance": null,
+          "referee": "Luis Riedel",
+          "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
+          "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
+          "points": 4,
+          "table_position": 9
         }
       ],
       "fixtures": [
@@ -103,7 +130,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "4:0",
           "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
           "is_home": false,
@@ -941,7 +968,7 @@
               "time": "19:00",
               "home": "1. FC Magdeburg II",
               "away": "FSV 63 Luckenwalde",
-              "result": null,
+              "result": "0:1",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -955,7 +982,7 @@
               "time": "19:00",
               "home": "Chemnitzer FC",
               "away": "FSV Zwickau",
-              "result": null,
+              "result": "3:1",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -969,7 +996,7 @@
               "time": "19:00",
               "home": "FC Carl Zeiss Jena",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "4:0",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -983,7 +1010,7 @@
               "time": "19:00",
               "home": "Hertha BSC II",
               "away": "Greifswalder FC",
-              "result": null,
+              "result": "1:4",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -997,7 +1024,7 @@
               "time": "19:00",
               "home": "SV Babelsberg 03",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "2:2",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -5713,22 +5740,6 @@
         }
       ],
       "next_game": {
-        "id": "rl-03",
-        "matchday": 3,
-        "date": "2026-08-04",
-        "time": "19:00",
-        "competition": "Regionalliga Nordost",
-        "home": "FC Carl Zeiss Jena",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "rl-04",
         "matchday": 4,
         "date": "2026-08-08",
@@ -5743,7 +5754,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
-      }
+      },
+      "next_home": null
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -10781,30 +10793,54 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 2. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 3. Spieltag)",
       "rows": [
         {
           "team": "Chemnitzer FC",
-          "played": 2,
-          "wins": 2,
+          "played": 3,
+          "wins": 3,
           "draws": 0,
           "losses": 0,
-          "goals": "7:0",
-          "diff": "+7",
-          "points": 6,
+          "goals": "10:1",
+          "diff": "+9",
+          "points": 9,
           "position": 1,
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
-          "team": "1. FC Magdeburg II",
-          "played": 2,
-          "wins": 1,
+          "team": "Greifswalder FC",
+          "played": 3,
+          "wins": 2,
           "draws": 1,
           "losses": 0,
-          "goals": "8:4",
-          "diff": "+4",
-          "points": 4,
+          "goals": "9:3",
+          "diff": "+6",
+          "points": 7,
           "position": 2,
+          "logo_url": "/assets/clubs/greifswalder-fc.png"
+        },
+        {
+          "team": "FC Carl Zeiss Jena",
+          "played": 3,
+          "wins": 2,
+          "draws": 0,
+          "losses": 1,
+          "goals": "6:2",
+          "diff": "+4",
+          "points": 6,
+          "position": 3,
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+        },
+        {
+          "team": "1. FC Magdeburg II",
+          "played": 3,
+          "wins": 1,
+          "draws": 1,
+          "losses": 1,
+          "goals": "8:5",
+          "diff": "+3",
+          "points": 4,
+          "position": 4,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
@@ -10816,32 +10852,8 @@
           "goals": "5:2",
           "diff": "+3",
           "points": 4,
-          "position": 3,
-          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
-        },
-        {
-          "team": "Greifswalder FC",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goals": "5:2",
-          "diff": "+3",
-          "points": 4,
-          "position": 4,
-          "logo_url": "/assets/clubs/greifswalder-fc.png"
-        },
-        {
-          "team": "RSV Eintracht 1949",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goals": "4:1",
-          "diff": "+3",
-          "points": 4,
           "position": 5,
-          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -10869,27 +10881,27 @@
         },
         {
           "team": "SV Babelsberg 03",
-          "played": 2,
+          "played": 3,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "goals": "2:1",
+          "goals": "4:3",
           "diff": "+1",
-          "points": 3,
+          "points": 4,
           "position": 8,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
-          "team": "FC Carl Zeiss Jena",
-          "played": 2,
+          "team": "RSV Eintracht 1949",
+          "played": 3,
           "wins": 1,
-          "draws": 0,
+          "draws": 1,
           "losses": 1,
-          "goals": "2:2",
-          "diff": "0",
-          "points": 3,
+          "goals": "4:5",
+          "diff": "-1",
+          "points": 4,
           "position": 9,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
           "team": "BFC Dynamo",
@@ -10905,15 +10917,39 @@
         },
         {
           "team": "FSV Zwickau",
-          "played": 2,
+          "played": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goals": "2:4",
-          "diff": "-2",
+          "losses": 2,
+          "goals": "3:7",
+          "diff": "-4",
           "points": 3,
           "position": 11,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
+        },
+        {
+          "team": "FSV 63 Luckenwalde",
+          "played": 3,
+          "wins": 1,
+          "draws": 0,
+          "losses": 2,
+          "goals": "2:6",
+          "diff": "-4",
+          "points": 3,
+          "position": 12,
+          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
+        },
+        {
+          "team": "VSG Altglienicke",
+          "played": 2,
+          "wins": 0,
+          "draws": 2,
+          "losses": 0,
+          "goals": "5:5",
+          "diff": "0",
+          "points": 2,
+          "position": 13,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
           "team": "Hallescher FC",
@@ -10924,20 +10960,8 @@
           "goals": "3:3",
           "diff": "0",
           "points": 2,
-          "position": 12,
+          "position": 14,
           "logo_url": "/assets/clubs/hallescher-fc.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 1,
-          "wins": 0,
-          "draws": 1,
-          "losses": 0,
-          "goals": "3:3",
-          "diff": "0",
-          "points": 1,
-          "position": 13,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
           "team": "BFC Preussen 1894",
@@ -10948,7 +10972,7 @@
           "goals": "1:4",
           "diff": "-3",
           "points": 1,
-          "position": 14,
+          "position": 15,
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
         },
         {
@@ -10960,32 +10984,8 @@
           "goals": "0:4",
           "diff": "-4",
           "points": 0,
-          "position": 15,
-          "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
-        },
-        {
-          "team": "Hertha BSC II",
-          "played": 1,
-          "wins": 0,
-          "draws": 0,
-          "losses": 1,
-          "goals": "0:4",
-          "diff": "-4",
-          "points": 0,
           "position": 16,
-          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
-        },
-        {
-          "team": "FSV 63 Luckenwalde",
-          "played": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "goals": "1:6",
-          "diff": "-5",
-          "points": 0,
-          "position": 17,
-          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
+          "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
         },
         {
           "team": "SV Tasmania Berlin",
@@ -10996,8 +10996,20 @@
           "goals": "1:7",
           "diff": "-6",
           "points": 0,
-          "position": 18,
+          "position": 17,
           "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
+        },
+        {
+          "team": "Hertha BSC II",
+          "played": 2,
+          "wins": 0,
+          "draws": 0,
+          "losses": 2,
+          "goals": "1:8",
+          "diff": "-7",
+          "points": 0,
+          "position": 18,
+          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
         }
       ]
     },
