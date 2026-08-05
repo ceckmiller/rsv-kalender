@@ -1,4 +1,4 @@
-const CACHE_NAME = 'rsv-2-1-final-v27';
+const CACHE_NAME = 'rsv-2-1-final-v28';
 const APP_SHELL = [
   '/',
   '/index.html',
