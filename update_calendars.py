@@ -1394,31 +1394,9 @@ def ics_uid(game):
     return f'{gid}-{date}T{time}@rsv-kalender'
 
 
-def load_cancelled_events():
-    path = DATA / 'cancelled-events.json'
-    return load_json(path) if path.exists() else {}
-
-
-def cancelled_event_lines(entry, now):
-    kickoff = entry.get('time') or '14:00'
-    start = datetime.fromisoformat(f"{entry['date']}T{kickoff}").replace(tzinfo=TZ)
-    end = start + timedelta(hours=2)
-    return [
-        'BEGIN:VEVENT',
-        f"UID:{entry['uid']}",
-        f'DTSTAMP:{now}',
-        f"DTSTART:{start.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
-        f"DTEND:{end.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
-        'SEQUENCE:9',
-        'STATUS:CANCELLED',
-        f"SUMMARY:{esc(ics_plain(entry.get('summary', '')))}",
-        'END:VEVENT',
-    ]
-
-
 def make_ics(meta, games, calendar_key=''):
     now=datetime.now(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')
-    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'REFRESH-INTERVAL;VALUE=DURATION:PT6H','X-PUBLISHED-TTL:PT6H']
+    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'X-PUBLISHED-TTL:PT6H']
     venues = load_venues()
     venue_cache = load_venue_cache()
     clubs = load_clubs()
@@ -1490,8 +1468,6 @@ def make_ics(meta, games, calendar_key=''):
         # can reject URL subscriptions containing remote ATTACH properties.
         event_lines += ['STATUS:CONFIRMED', 'TRANSP:OPAQUE', 'END:VEVENT']
         lines += event_lines
-    for entry in load_cancelled_events().get(calendar_key, []):
-        lines += cancelled_event_lines(entry, now)
     lines.append('END:VCALENDAR')
     return '\r\n'.join(fold(x) for x in lines)+'\r\n'
 

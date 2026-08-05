@@ -188,8 +188,8 @@ function calendarUrls(f){
   let local=new URL(file,location.href).href;
   let url=/^https?:$/i.test(location.protocol)&&!/localhost|127\.0\.0\.1/i.test(location.hostname)?local:prod;
   let webcal=url.replace(/^https:/i,'webcal:').replace(/^http:/i,'webcal:');
-  // Google „Per URL“ expects the https feed URL in cid= (not webcal://).
-  return{url,webcal,google:'https://calendar.google.com/calendar/render?cid='+encodeURIComponent(url)}
+  // Google lehnt cid=https://… oft ab; webcal:// im cid-Parameter funktioniert zuverlässiger.
+  return{url,webcal,google:'https://calendar.google.com/calendar/render?cid='+encodeURIComponent(webcal)}
 }
 function calendarCard(n,f,prefix){let u=calendarUrls(f),club=prefix||'RSV Eintracht',label=club==='RSV Eintracht'?`${club} – ${n}`:club,outlook='https://outlook.live.com/calendar/0/addfromweb?url='+encodeURIComponent(u.url)+'&name='+encodeURIComponent(label);return`<article class="card cal"><h2>${e(n)}</h2><p>Einmal abonnieren – spätere Spielverlegungen, neue Termine und Ergebnisse werden automatisch übernommen.</p><a class="btn primary" href="${u.google}" target="_blank" rel="noopener">Google Kalender</a><a class="btn" data-apple-cal href="${u.webcal}">Apple / iPhone / Mac</a><a class="btn" href="${outlook}" target="_blank" rel="noopener">Outlook abonnieren</a><a class="btn" href="${u.url}" download="${e(f)}">ICS-Datei laden</a><button class="btn" data-copy="${e(u.url)}" type="button">Kalender-URL kopieren</button><code class="cal-url">${e(u.url)}</code></article>`}
 function calendarScheduleHtml(){let ct=S.data?.calendar_teams?.['hertha-bsc'];if(!ct?.fixtures?.length)return'';return`<h2 class="section-title" style="grid-column:1/-1">${e(ct.name||'Hertha BSC')}</h2><div style="grid-column:1/-1">${fixturesHtml(ct.fixtures)}</div>`}
