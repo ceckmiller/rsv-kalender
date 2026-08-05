@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:10:29.360919+02:00",
+  "generated_at": "2026-08-05T17:06:01.004826+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -152,7 +152,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-05",
@@ -203,7 +203,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-07",
@@ -220,7 +220,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-08",
@@ -691,6 +691,21 @@
           "round": "1",
           "matches": [
             {
+              "id": "rl-md1-b53845d8cc34",
+              "date": "2026-07-25",
+              "time": "14:00",
+              "home": "BFC Preussen 1894",
+              "away": "RSV Eintracht 1949",
+              "result": "1:1",
+              "halftime_result": "1:0",
+              "location": "",
+              "matchday": 1,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-01",
+              "home_logo": "/assets/clubs/bfc-preussen-1894.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
+            {
               "id": "rl-md1-a625be01d653",
               "date": "2026-07-24",
               "time": "19:00",
@@ -731,20 +746,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/1-fc-magdeburg-ii.png",
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
-            },
-            {
-              "id": "rl-md1-b53845d8cc34",
-              "date": "2026-07-25",
-              "time": "14:00",
-              "home": "BFC Preussen 1894",
-              "away": "RSV Eintracht 1949",
-              "result": "1:1",
-              "halftime_result": null,
-              "location": "",
-              "matchday": 1,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/bfc-preussen-1894.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md1-7acf5b3a2f52",
@@ -817,7 +818,8 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             }
           ],
-          "date": "2026-07-24"
+          "date": "2026-07-24",
+          "date_end": "2026-07-26"
         },
         {
           "id": "league:Regionalliga Nordost:2",
@@ -826,6 +828,21 @@
           "competition": "Regionalliga Nordost",
           "round": "2",
           "matches": [
+            {
+              "id": "rl-md2-78084d2f750b",
+              "date": "2026-08-01",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FSV 63 Luckenwalde",
+              "result": "3:0",
+              "halftime_result": "2:0",
+              "location": "",
+              "matchday": 2,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-02",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
+            },
             {
               "id": "rl-md2-5086a6b2f2a9",
               "date": "",
@@ -897,20 +914,6 @@
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
             {
-              "id": "rl-md2-78084d2f750b",
-              "date": "2026-08-01",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FSV 63 Luckenwalde",
-              "result": "3:0",
-              "halftime_result": null,
-              "location": "",
-              "matchday": 2,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
-            },
-            {
               "id": "rl-md2-1ff7f14339ae",
               "date": "2026-08-01",
               "time": "16:00",
@@ -953,7 +956,8 @@
               "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
             }
           ],
-          "date": "2026-07-31"
+          "date": "2026-07-31",
+          "date_end": "2026-08-02"
         },
         {
           "id": "league:Regionalliga Nordost:3",
@@ -962,6 +966,21 @@
           "competition": "Regionalliga Nordost",
           "round": "3",
           "matches": [
+            {
+              "id": "rl-md3-2502d52cf4bb",
+              "date": "2026-08-04",
+              "time": "19:00",
+              "home": "FC Carl Zeiss Jena",
+              "away": "RSV Eintracht 1949",
+              "result": "4:0",
+              "halftime_result": "2:0",
+              "location": "",
+              "matchday": 3,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-03",
+              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md3-56def6d63268",
               "date": "2026-08-04",
@@ -989,20 +1008,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/chemnitzer-fc.png",
               "away_logo": "/assets/clubs/fsv-zwickau.png"
-            },
-            {
-              "id": "rl-md3-2502d52cf4bb",
-              "date": "2026-08-04",
-              "time": "19:00",
-              "home": "FC Carl Zeiss Jena",
-              "away": "RSV Eintracht 1949",
-              "result": "4:0",
-              "halftime_result": null,
-              "location": "",
-              "matchday": 3,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md3-fc42187bb13f",
@@ -1089,7 +1094,8 @@
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             }
           ],
-          "date": "2026-08-04"
+          "date": "2026-08-04",
+          "date_end": "2026-08-06"
         },
         {
           "id": "league:Regionalliga Nordost:4",
@@ -1098,6 +1104,21 @@
           "competition": "Regionalliga Nordost",
           "round": "4",
           "matches": [
+            {
+              "id": "rl-md4-41ff95bcd198",
+              "date": "2026-08-08",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BSG Chemie Leipzig",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 4,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-04",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
+            },
             {
               "id": "rl-md4-9df2bc6d18a9",
               "date": "2026-08-07",
@@ -1125,20 +1146,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
-            },
-            {
-              "id": "rl-md4-41ff95bcd198",
-              "date": "2026-08-08",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "BSG Chemie Leipzig",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 4,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             },
             {
               "id": "rl-md4-33097bf5b24e",
@@ -1225,7 +1232,8 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2026-08-07"
+          "date": "2026-08-07",
+          "date_end": "2026-08-11"
         },
         {
           "id": "league:Regionalliga Nordost:5",
@@ -1245,6 +1253,7 @@
               "location": "",
               "matchday": 5,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-05",
               "home_logo": "/assets/clubs/sv-babelsberg-03.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
@@ -1361,7 +1370,8 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             }
           ],
-          "date": "2026-08-14"
+          "date": "2026-08-14",
+          "date_end": "2026-08-16"
         },
         {
           "id": "cup:Landespokal Brandenburg:1. Runde",
@@ -1371,6 +1381,21 @@
           "round": "1. Runde",
           "source_url": "https://www.niederlausitz-aktuell.de/niederlausitz-aktuell/orte/spree-neisse/316985/landespokal-brandenburg-mit-vielen-lausitzer-duellen-ausgelost.html",
           "matches": [
+            {
+              "id": "lp-01",
+              "date": "2026-08-22",
+              "time": "15:00",
+              "home": "Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "team_fixture_id": "lp-01",
+              "home_logo": "",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "lp-r1-377e40bbfa",
               "date": "2026-08-22",
@@ -1776,23 +1801,10 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "",
               "away_logo": ""
-            },
-            {
-              "id": "lp-01",
-              "date": "2026-08-22",
-              "time": "15:00",
-              "home": "Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-22"
+          "date": "2026-08-22",
+          "date_end": "2026-08-22"
         },
         {
           "id": "league:Regionalliga Nordost:6",
@@ -1812,6 +1824,7 @@
               "location": "",
               "matchday": 6,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-06",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             },
@@ -1928,7 +1941,8 @@
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             }
           ],
-          "date": "2026-08-26"
+          "date": "2026-08-26",
+          "date_end": "2026-08-26"
         },
         {
           "id": "league:Regionalliga Nordost:7",
@@ -1937,6 +1951,21 @@
           "competition": "Regionalliga Nordost",
           "round": "7",
           "matches": [
+            {
+              "id": "rl-md7-6da724982b26",
+              "date": "2026-08-30",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "1. FC Magdeburg II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-07",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
+            },
             {
               "id": "rl-md7-33a9d75c083b",
               "date": "2026-08-30",
@@ -2022,20 +2051,6 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             },
             {
-              "id": "rl-md7-6da724982b26",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "1. FC Magdeburg II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
-            },
-            {
               "id": "rl-md7-5e143b65ef2d",
               "date": "2026-08-30",
               "time": "14:00",
@@ -2064,7 +2079,8 @@
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             }
           ],
-          "date": "2026-08-30"
+          "date": "2026-08-30",
+          "date_end": "2026-08-30"
         },
         {
           "id": "league:Regionalliga Nordost:8",
@@ -2084,6 +2100,7 @@
               "location": "",
               "matchday": 8,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-08",
               "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
@@ -2200,7 +2217,8 @@
               "away_logo": "/assets/clubs/chemnitzer-fc.png"
             }
           ],
-          "date": "2026-09-11"
+          "date": "2026-09-11",
+          "date_end": "2026-09-13"
         },
         {
           "id": "league:Regionalliga Nordost:9",
@@ -2220,6 +2238,7 @@
               "location": "",
               "matchday": 9,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-09",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
@@ -2336,7 +2355,8 @@
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             }
           ],
-          "date": "2026-09-16"
+          "date": "2026-09-16",
+          "date_end": "2026-09-16"
         },
         {
           "id": "league:Regionalliga Nordost:10",
@@ -2345,6 +2365,21 @@
           "competition": "Regionalliga Nordost",
           "round": "10",
           "matches": [
+            {
+              "id": "rl-md10-3146a7d9a105",
+              "date": "2026-09-20",
+              "time": "14:00",
+              "home": "VSG Altglienicke",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 10,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-10",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md10-e82779fb73f4",
               "date": "2026-09-20",
@@ -2456,23 +2491,10 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/sv-babelsberg-03.png",
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
-            },
-            {
-              "id": "rl-md10-3146a7d9a105",
-              "date": "2026-09-20",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 10,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-20"
+          "date": "2026-09-20",
+          "date_end": "2026-09-20"
         },
         {
           "id": "league:Regionalliga Nordost:11",
@@ -2481,6 +2503,21 @@
           "competition": "Regionalliga Nordost",
           "round": "11",
           "matches": [
+            {
+              "id": "rl-md11-efe61088dcfa",
+              "date": "2026-09-27",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Chemnitzer FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 11,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-11",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/chemnitzer-fc.png"
+            },
             {
               "id": "rl-md11-7227334ec0c2",
               "date": "2026-09-27",
@@ -2580,20 +2617,6 @@
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             },
             {
-              "id": "rl-md11-efe61088dcfa",
-              "date": "2026-09-27",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "Chemnitzer FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 11,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/chemnitzer-fc.png"
-            },
-            {
               "id": "rl-md11-77c6012de1d7",
               "date": "2026-09-27",
               "time": "14:00",
@@ -2608,7 +2631,8 @@
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             }
           ],
-          "date": "2026-09-27"
+          "date": "2026-09-27",
+          "date_end": "2026-09-27"
         },
         {
           "id": "league:Regionalliga Nordost:12",
@@ -2617,6 +2641,21 @@
           "competition": "Regionalliga Nordost",
           "round": "12",
           "matches": [
+            {
+              "id": "rl-md12-ba3cec4c4d04",
+              "date": "2026-10-11",
+              "time": "14:00",
+              "home": "Hallescher FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 12,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-12",
+              "home_logo": "/assets/clubs/hallescher-fc.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md12-543d3acba213",
               "date": "2026-10-11",
@@ -2702,20 +2741,6 @@
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
             },
             {
-              "id": "rl-md12-ba3cec4c4d04",
-              "date": "2026-10-11",
-              "time": "14:00",
-              "home": "Hallescher FC",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 12,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/hallescher-fc.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md12-cc4126cdfdc3",
               "date": "2026-10-11",
               "time": "14:00",
@@ -2744,7 +2769,8 @@
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             }
           ],
-          "date": "2026-10-11"
+          "date": "2026-10-11",
+          "date_end": "2026-10-11"
         },
         {
           "id": "league:Regionalliga Nordost:13",
@@ -2753,6 +2779,21 @@
           "competition": "Regionalliga Nordost",
           "round": "13",
           "matches": [
+            {
+              "id": "rl-md13-d9860758edc3",
+              "date": "2026-10-18",
+              "time": "14:00",
+              "home": "Hertha BSC II",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-13",
+              "home_logo": "/assets/clubs/hertha-bsc-ii.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md13-c7a4434df41b",
               "date": "2026-10-18",
@@ -2852,20 +2893,6 @@
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             },
             {
-              "id": "rl-md13-d9860758edc3",
-              "date": "2026-10-18",
-              "time": "14:00",
-              "home": "Hertha BSC II",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 13,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/hertha-bsc-ii.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md13-06df4e98531b",
               "date": "2026-10-18",
               "time": "14:00",
@@ -2880,7 +2907,8 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "date_end": "2026-10-18"
         },
         {
           "id": "league:Regionalliga Nordost:14",
@@ -2889,6 +2917,21 @@
           "competition": "Regionalliga Nordost",
           "round": "14",
           "matches": [
+            {
+              "id": "rl-md14-ab5b4478b4f2",
+              "date": "2026-10-25",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "SV Tasmania Berlin",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-14",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
+            },
             {
               "id": "rl-md14-a68fefa3c1b2",
               "date": "2026-10-25",
@@ -2974,20 +3017,6 @@
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
             },
             {
-              "id": "rl-md14-ab5b4478b4f2",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "SV Tasmania Berlin",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
-            },
-            {
               "id": "rl-md14-78492bb5fc15",
               "date": "2026-10-25",
               "time": "14:00",
@@ -3016,7 +3045,8 @@
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             }
           ],
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "date_end": "2026-10-25"
         },
         {
           "id": "league:Regionalliga Nordost:15",
@@ -3025,6 +3055,21 @@
           "competition": "Regionalliga Nordost",
           "round": "15",
           "matches": [
+            {
+              "id": "rl-md15-92b2df84ed03",
+              "date": "2026-11-01",
+              "time": "14:00",
+              "home": "BFC Dynamo",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 15,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-15",
+              "home_logo": "/assets/clubs/bfc-dynamo.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md15-b54e667b6b08",
               "date": "2026-11-01",
@@ -3052,20 +3097,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/1-fc-magdeburg-ii.png",
               "away_logo": "/assets/clubs/hallescher-fc.png"
-            },
-            {
-              "id": "rl-md15-92b2df84ed03",
-              "date": "2026-11-01",
-              "time": "14:00",
-              "home": "BFC Dynamo",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 15,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/bfc-dynamo.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md15-cf0602651d50",
@@ -3152,7 +3183,8 @@
               "away_logo": "/assets/clubs/chemnitzer-fc.png"
             }
           ],
-          "date": "2026-11-01"
+          "date": "2026-11-01",
+          "date_end": "2026-11-01"
         },
         {
           "id": "league:Regionalliga Nordost:16",
@@ -3161,6 +3193,21 @@
           "competition": "Regionalliga Nordost",
           "round": "16",
           "matches": [
+            {
+              "id": "rl-md16-0b0957c7b9fa",
+              "date": "2026-11-08",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Erzgebirge Aue",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-16",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/erzgebirge-aue.png"
+            },
             {
               "id": "rl-md16-613bdbc54981",
               "date": "2026-11-08",
@@ -3246,20 +3293,6 @@
               "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
             },
             {
-              "id": "rl-md16-0b0957c7b9fa",
-              "date": "2026-11-08",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "Erzgebirge Aue",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 16,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            },
-            {
               "id": "rl-md16-0cb1ec866de9",
               "date": "2026-11-08",
               "time": "14:00",
@@ -3288,7 +3321,8 @@
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             }
           ],
-          "date": "2026-11-08"
+          "date": "2026-11-08",
+          "date_end": "2026-11-08"
         },
         {
           "id": "league:Regionalliga Nordost:17",
@@ -3308,6 +3342,7 @@
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-17",
               "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
@@ -3424,7 +3459,8 @@
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             }
           ],
-          "date": "2026-11-22"
+          "date": "2026-11-22",
+          "date_end": "2026-11-22"
         },
         {
           "id": "league:Regionalliga Nordost:18",
@@ -3433,6 +3469,21 @@
           "competition": "Regionalliga Nordost",
           "round": "18",
           "matches": [
+            {
+              "id": "rl-md18-6e75a5a6e88c",
+              "date": "2026-11-29",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 18,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-18",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+            },
             {
               "id": "rl-md18-b0ea43071c49",
               "date": "2026-11-29",
@@ -3504,20 +3555,6 @@
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
             {
-              "id": "rl-md18-6e75a5a6e88c",
-              "date": "2026-11-29",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "BFC Preussen 1894",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 18,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
-            },
-            {
               "id": "rl-md18-532e01c22678",
               "date": "2026-11-29",
               "time": "14:00",
@@ -3560,7 +3597,8 @@
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
             }
           ],
-          "date": "2026-11-29"
+          "date": "2026-11-29",
+          "date_end": "2026-11-29"
         },
         {
           "id": "league:Regionalliga Nordost:19",
@@ -3569,6 +3607,21 @@
           "competition": "Regionalliga Nordost",
           "round": "19",
           "matches": [
+            {
+              "id": "rl-md19-cd2f753b2fcd",
+              "date": "2026-12-06",
+              "time": "14:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 19,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-19",
+              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md19-4570bb303e2c",
               "date": "2026-12-06",
@@ -3654,20 +3707,6 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             },
             {
-              "id": "rl-md19-cd2f753b2fcd",
-              "date": "2026-12-06",
-              "time": "14:00",
-              "home": "FSV 63 Luckenwalde",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 19,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md19-f86d2856751b",
               "date": "2026-12-06",
               "time": "14:00",
@@ -3696,7 +3735,8 @@
               "away_logo": "/assets/clubs/vsg-altglienicke.png"
             }
           ],
-          "date": "2026-12-06"
+          "date": "2026-12-06",
+          "date_end": "2026-12-06"
         },
         {
           "id": "league:Regionalliga Nordost:20",
@@ -3705,6 +3745,21 @@
           "competition": "Regionalliga Nordost",
           "round": "20",
           "matches": [
+            {
+              "id": "rl-md20-b3ab966130d5",
+              "date": "2026-12-13",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Carl Zeiss Jena",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 20,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-20",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
+            },
             {
               "id": "rl-md20-0f69d5b3a66a",
               "date": "2026-12-13",
@@ -3790,20 +3845,6 @@
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             },
             {
-              "id": "rl-md20-b3ab966130d5",
-              "date": "2026-12-13",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FC Carl Zeiss Jena",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 20,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
-            },
-            {
               "id": "rl-md20-6f596f1199a2",
               "date": "2026-12-13",
               "time": "14:00",
@@ -3832,7 +3873,8 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2026-12-13"
+          "date": "2026-12-13",
+          "date_end": "2026-12-13"
         },
         {
           "id": "league:Regionalliga Nordost:21",
@@ -3841,6 +3883,21 @@
           "competition": "Regionalliga Nordost",
           "round": "21",
           "matches": [
+            {
+              "id": "rl-md21-56eb8690db3a",
+              "date": "2027-02-14",
+              "time": "14:00",
+              "home": "BSG Chemie Leipzig",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 21,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-21",
+              "home_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md21-1e156ea7cd4f",
               "date": "2027-02-14",
@@ -3854,20 +3911,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/bfc-preussen-1894.png",
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            },
-            {
-              "id": "rl-md21-56eb8690db3a",
-              "date": "2027-02-14",
-              "time": "14:00",
-              "home": "BSG Chemie Leipzig",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 21,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md21-c04a1e51e08e",
@@ -3968,7 +4011,8 @@
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             }
           ],
-          "date": "2027-02-14"
+          "date": "2027-02-14",
+          "date_end": "2027-02-14"
         },
         {
           "id": "league:Regionalliga Nordost:22",
@@ -3977,6 +4021,21 @@
           "competition": "Regionalliga Nordost",
           "round": "22",
           "matches": [
+            {
+              "id": "rl-md22-24af0bc868bc",
+              "date": "2027-02-21",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "SV Babelsberg 03",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 22,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-22",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
+            },
             {
               "id": "rl-md22-41e98903bf84",
               "date": "2027-02-21",
@@ -4088,23 +4147,10 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hallescher-fc.png",
               "away_logo": "/assets/clubs/vsg-altglienicke.png"
-            },
-            {
-              "id": "rl-md22-24af0bc868bc",
-              "date": "2027-02-21",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "SV Babelsberg 03",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 22,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2027-02-21"
+          "date": "2027-02-21",
+          "date_end": "2027-02-21"
         },
         {
           "id": "league:Regionalliga Nordost:23",
@@ -4113,6 +4159,21 @@
           "competition": "Regionalliga Nordost",
           "round": "23",
           "matches": [
+            {
+              "id": "rl-md23-d0bf3192bd0f",
+              "date": "2027-02-28",
+              "time": "14:00",
+              "home": "FSV Zwickau",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 23,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-23",
+              "home_logo": "/assets/clubs/fsv-zwickau.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md23-2a3d6b74af96",
               "date": "2027-02-28",
@@ -4168,20 +4229,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
-            },
-            {
-              "id": "rl-md23-d0bf3192bd0f",
-              "date": "2027-02-28",
-              "time": "14:00",
-              "home": "FSV Zwickau",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 23,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-zwickau.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md23-82c49b939698",
@@ -4240,7 +4287,8 @@
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             }
           ],
-          "date": "2027-02-28"
+          "date": "2027-02-28",
+          "date_end": "2027-02-28"
         },
         {
           "id": "league:Regionalliga Nordost:24",
@@ -4260,6 +4308,7 @@
               "location": "",
               "matchday": 24,
               "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-24",
               "home_logo": "/assets/clubs/1-fc-magdeburg-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
@@ -4376,7 +4425,8 @@
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             }
           ],
-          "date": "2027-03-07"
+          "date": "2027-03-07",
+          "date_end": "2027-03-07"
         },
         {
           "id": "league:Regionalliga Nordost:25",
@@ -4385,6 +4435,21 @@
           "competition": "Regionalliga Nordost",
           "round": "25",
           "matches": [
+            {
+              "id": "rl-md25-16b76a5dcd83",
+              "date": "2027-03-14",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Rot-Weiß Erfurt",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 25,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-25",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
+            },
             {
               "id": "rl-md25-24780b6a8ced",
               "date": "2027-03-14",
@@ -4484,20 +4549,6 @@
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             },
             {
-              "id": "rl-md25-16b76a5dcd83",
-              "date": "2027-03-14",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FC Rot-Weiß Erfurt",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 25,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
-            },
-            {
               "id": "rl-md25-e2057dd44347",
               "date": "2027-03-14",
               "time": "14:00",
@@ -4512,7 +4563,8 @@
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             }
           ],
-          "date": "2027-03-14"
+          "date": "2027-03-14",
+          "date_end": "2027-03-14"
         },
         {
           "id": "league:Regionalliga Nordost:26",
@@ -4521,6 +4573,21 @@
           "competition": "Regionalliga Nordost",
           "round": "26",
           "matches": [
+            {
+              "id": "rl-md26-61d949ba47ea",
+              "date": "2027-03-21",
+              "time": "14:00",
+              "home": "Greifswalder FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 26,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-26",
+              "home_logo": "/assets/clubs/greifswalder-fc.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md26-5968b2cf11cc",
               "date": "2027-03-21",
@@ -4606,20 +4673,6 @@
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
-              "id": "rl-md26-61d949ba47ea",
-              "date": "2027-03-21",
-              "time": "14:00",
-              "home": "Greifswalder FC",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 26,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/greifswalder-fc.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md26-e84a54aaf6ba",
               "date": "2027-03-21",
               "time": "14:00",
@@ -4648,7 +4701,8 @@
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             }
           ],
-          "date": "2027-03-21"
+          "date": "2027-03-21",
+          "date_end": "2027-03-21"
         },
         {
           "id": "league:Regionalliga Nordost:27",
@@ -4657,6 +4711,21 @@
           "competition": "Regionalliga Nordost",
           "round": "27",
           "matches": [
+            {
+              "id": "rl-md27-642d30e2b4db",
+              "date": "2027-04-04",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "VSG Altglienicke",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 27,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-27",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/vsg-altglienicke.png"
+            },
             {
               "id": "rl-md27-0d88aa78079f",
               "date": "2027-04-04",
@@ -4756,20 +4825,6 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             },
             {
-              "id": "rl-md27-642d30e2b4db",
-              "date": "2027-04-04",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "VSG Altglienicke",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 27,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/vsg-altglienicke.png"
-            },
-            {
               "id": "rl-md27-62226414592e",
               "date": "2027-04-04",
               "time": "14:00",
@@ -4784,7 +4839,8 @@
               "away_logo": "/assets/clubs/bfc-preussen-1894.png"
             }
           ],
-          "date": "2027-04-04"
+          "date": "2027-04-04",
+          "date_end": "2027-04-04"
         },
         {
           "id": "league:Regionalliga Nordost:28",
@@ -4793,6 +4849,21 @@
           "competition": "Regionalliga Nordost",
           "round": "28",
           "matches": [
+            {
+              "id": "rl-md28-61d4332cb311",
+              "date": "2027-04-07",
+              "time": "19:00",
+              "home": "Chemnitzer FC",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 28,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-28",
+              "home_logo": "/assets/clubs/chemnitzer-fc.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md28-86dee3859c19",
               "date": "2027-04-07",
@@ -4820,20 +4891,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            },
-            {
-              "id": "rl-md28-61d4332cb311",
-              "date": "2027-04-07",
-              "time": "19:00",
-              "home": "Chemnitzer FC",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 28,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/chemnitzer-fc.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md28-619b7b4dfc99",
@@ -4920,7 +4977,8 @@
               "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
             }
           ],
-          "date": "2027-04-07"
+          "date": "2027-04-07",
+          "date_end": "2027-04-07"
         },
         {
           "id": "league:Regionalliga Nordost:29",
@@ -4929,6 +4987,21 @@
           "competition": "Regionalliga Nordost",
           "round": "29",
           "matches": [
+            {
+              "id": "rl-md29-43ce3f647722",
+              "date": "2027-04-11",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Hallescher FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 29,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-29",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/hallescher-fc.png"
+            },
             {
               "id": "rl-md29-7a1bfcc7e4f9",
               "date": "2027-04-11",
@@ -5028,20 +5101,6 @@
               "away_logo": "/assets/clubs/bfc-preussen-1894.png"
             },
             {
-              "id": "rl-md29-43ce3f647722",
-              "date": "2027-04-11",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "Hallescher FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 29,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/hallescher-fc.png"
-            },
-            {
               "id": "rl-md29-fb3fe26d0a72",
               "date": "2027-04-11",
               "time": "14:00",
@@ -5056,7 +5115,8 @@
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             }
           ],
-          "date": "2027-04-11"
+          "date": "2027-04-11",
+          "date_end": "2027-04-11"
         },
         {
           "id": "league:Regionalliga Nordost:30",
@@ -5065,6 +5125,21 @@
           "competition": "Regionalliga Nordost",
           "round": "30",
           "matches": [
+            {
+              "id": "rl-md30-1d6704abe937",
+              "date": "2027-04-18",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Hertha BSC II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 30,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-30",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
+            },
             {
               "id": "rl-md30-bba2e5a0c4f6",
               "date": "2027-04-18",
@@ -5150,20 +5225,6 @@
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
             },
             {
-              "id": "rl-md30-1d6704abe937",
-              "date": "2027-04-18",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "Hertha BSC II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 30,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
-            },
-            {
               "id": "rl-md30-8a9ed900df08",
               "date": "2027-04-18",
               "time": "14:00",
@@ -5192,7 +5253,8 @@
               "away_logo": "/assets/clubs/bfc-preussen-1894.png"
             }
           ],
-          "date": "2027-04-18"
+          "date": "2027-04-18",
+          "date_end": "2027-04-18"
         },
         {
           "id": "league:Regionalliga Nordost:31",
@@ -5201,6 +5263,21 @@
           "competition": "Regionalliga Nordost",
           "round": "31",
           "matches": [
+            {
+              "id": "rl-md31-9f5382b27936",
+              "date": "2027-04-25",
+              "time": "14:00",
+              "home": "SV Tasmania Berlin",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 31,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-31",
+              "home_logo": "/assets/clubs/sv-tasmania-berlin.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md31-b0f1c1e9d931",
               "date": "2027-04-25",
@@ -5312,23 +5389,10 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hertha-bsc-ii.png",
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
-            },
-            {
-              "id": "rl-md31-9f5382b27936",
-              "date": "2027-04-25",
-              "time": "14:00",
-              "home": "SV Tasmania Berlin",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 31,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-tasmania-berlin.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-25"
+          "date": "2027-04-25",
+          "date_end": "2027-04-25"
         },
         {
           "id": "league:Regionalliga Nordost:32",
@@ -5337,6 +5401,21 @@
           "competition": "Regionalliga Nordost",
           "round": "32",
           "matches": [
+            {
+              "id": "rl-md32-5904abda168d",
+              "date": "2027-05-09",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "BFC Dynamo",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 32,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-32",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/bfc-dynamo.png"
+            },
             {
               "id": "rl-md32-e26cff15a327",
               "date": "2027-05-09",
@@ -5422,20 +5501,6 @@
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             },
             {
-              "id": "rl-md32-5904abda168d",
-              "date": "2027-05-09",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "BFC Dynamo",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 32,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/bfc-dynamo.png"
-            },
-            {
               "id": "rl-md32-2d956a773ea5",
               "date": "2027-05-09",
               "time": "14:00",
@@ -5464,7 +5529,8 @@
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
             }
           ],
-          "date": "2027-05-09"
+          "date": "2027-05-09",
+          "date_end": "2027-05-09"
         },
         {
           "id": "league:Regionalliga Nordost:33",
@@ -5473,6 +5539,21 @@
           "competition": "Regionalliga Nordost",
           "round": "33",
           "matches": [
+            {
+              "id": "rl-md33-0e7f2b7e9767",
+              "date": "2027-05-16",
+              "time": "14:00",
+              "home": "Erzgebirge Aue",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 33,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-33",
+              "home_logo": "/assets/clubs/erzgebirge-aue.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
             {
               "id": "rl-md33-ba53c5978ac3",
               "date": "2027-05-16",
@@ -5528,20 +5609,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/bfc-preussen-1894.png",
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
-            },
-            {
-              "id": "rl-md33-0e7f2b7e9767",
-              "date": "2027-05-16",
-              "time": "14:00",
-              "home": "Erzgebirge Aue",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 33,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/erzgebirge-aue.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
               "id": "rl-md33-407ea3ca3dfc",
@@ -5600,7 +5667,8 @@
               "away_logo": "/assets/clubs/vsg-altglienicke.png"
             }
           ],
-          "date": "2027-05-16"
+          "date": "2027-05-16",
+          "date_end": "2027-05-16"
         },
         {
           "id": "league:Regionalliga Nordost:34",
@@ -5609,6 +5677,21 @@
           "competition": "Regionalliga Nordost",
           "round": "34",
           "matches": [
+            {
+              "id": "rl-md34-bd73b4cd22cc",
+              "date": "2027-05-23",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "1. FC Lok Leipzig",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 34,
+              "competition": "Regionalliga Nordost 2026/27",
+              "team_fixture_id": "rl-34",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
+            },
             {
               "id": "rl-md34-5f3282443e1f",
               "date": "2027-05-23",
@@ -5694,20 +5777,6 @@
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             },
             {
-              "id": "rl-md34-bd73b4cd22cc",
-              "date": "2027-05-23",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "1. FC Lok Leipzig",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 34,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
-            },
-            {
               "id": "rl-md34-d914e1902479",
               "date": "2027-05-23",
               "time": "14:00",
@@ -5736,7 +5805,8 @@
               "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
             }
           ],
-          "date": "2027-05-23"
+          "date": "2027-05-23",
+          "date_end": "2027-05-23"
         }
       ],
       "next_game": {
@@ -5753,7 +5823,7 @@
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
       },
       "next_home": null
     },
@@ -6386,7 +6456,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-02"
+          "date": "2026-08-02",
+          "date_end": "2026-08-02"
         },
         {
           "id": "game:u23-fs-20260809",
@@ -6408,7 +6479,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-09"
+          "date": "2026-08-09",
+          "date_end": "2026-08-09"
         },
         {
           "id": "game:u23-fs-20260815",
@@ -6430,7 +6502,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-15"
+          "date": "2026-08-15",
+          "date_end": "2026-08-15"
         },
         {
           "id": "league:Kreisoberliga:1",
@@ -6449,11 +6522,13 @@
               "halftime_result": null,
               "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
               "matchday": 1,
+              "team_fixture_id": "u23-liga-20260830",
               "home_logo": "/assets/clubs/sv-ziesar-1.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-30"
+          "date": "2026-08-30",
+          "date_end": "2026-08-30"
         },
         {
           "id": "league:Kreisoberliga:2",
@@ -6472,11 +6547,13 @@
               "halftime_result": null,
               "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
               "matchday": 2,
+              "team_fixture_id": "u23-610138004",
               "home_logo": "/assets/clubs/sv-ziesar-31.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-30"
+          "date": "2026-08-30",
+          "date_end": "2026-08-30"
         },
         {
           "id": "league:Kreisoberliga:3",
@@ -6495,11 +6572,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 3,
+              "team_fixture_id": "u23-liga-20260906",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
             }
           ],
-          "date": "2026-09-06"
+          "date": "2026-09-06",
+          "date_end": "2026-09-06"
         },
         {
           "id": "league:Kreisoberliga:4",
@@ -6518,11 +6597,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 4,
+              "team_fixture_id": "u23-610138020",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-ruhlsdorf.png"
             }
           ],
-          "date": "2026-09-13"
+          "date": "2026-09-13",
+          "date_end": "2026-09-13"
         },
         {
           "id": "league:Kreisoberliga:5",
@@ -6541,11 +6622,13 @@
               "halftime_result": null,
               "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
               "matchday": 5,
+              "team_fixture_id": "u23-610138026",
               "home_logo": "/assets/clubs/sg-geltow.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-20"
+          "date": "2026-09-20",
+          "date_end": "2026-09-20"
         },
         {
           "id": "league:Kreisoberliga:6",
@@ -6564,11 +6647,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 6,
+              "team_fixture_id": "u23-610138036",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png"
             }
           ],
-          "date": "2026-09-27"
+          "date": "2026-09-27",
+          "date_end": "2026-09-27"
         },
         {
           "id": "league:Kreisoberliga:7",
@@ -6587,11 +6672,13 @@
               "halftime_result": null,
               "location": "Stadion am Quenz, Platz 2, Thüringer Str. 251, 14770 Brandenburg an der Havel",
               "matchday": 7,
+              "team_fixture_id": "u23-610138047",
               "home_logo": "/assets/clubs/bsg-stahl-brandenburg-u23.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-04"
+          "date": "2026-10-04",
+          "date_end": "2026-10-04"
         },
         {
           "id": "league:Kreisoberliga:8",
@@ -6610,11 +6697,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 8,
+              "team_fixture_id": "u23-610138052",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-dallgow-47.png"
             }
           ],
-          "date": "2026-10-11"
+          "date": "2026-10-11",
+          "date_end": "2026-10-11"
         },
         {
           "id": "league:Kreisoberliga:9",
@@ -6633,11 +6722,13 @@
               "halftime_result": null,
               "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
               "matchday": 9,
+              "team_fixture_id": "u23-610138061",
               "home_logo": "/assets/clubs/sg-eintracht-friesack.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "date_end": "2026-10-18"
         },
         {
           "id": "league:Kreisoberliga:10",
@@ -6656,11 +6747,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 10,
+              "team_fixture_id": "u23-610138068",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-babelsberg-74-ii.png"
             }
           ],
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "date_end": "2026-10-25"
         },
         {
           "id": "league:Kreisoberliga:11",
@@ -6679,11 +6772,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 11,
+              "team_fixture_id": "u23-610138076",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/united-teltow-fc.png"
             }
           ],
-          "date": "2026-11-01"
+          "date": "2026-11-01",
+          "date_end": "2026-11-01"
         },
         {
           "id": "league:Kreisoberliga:12",
@@ -6702,11 +6797,13 @@
               "halftime_result": null,
               "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
               "matchday": 12,
+              "team_fixture_id": "u23-610138082",
               "home_logo": "/assets/clubs/bredower-sv.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-08"
+          "date": "2026-11-08",
+          "date_end": "2026-11-08"
         },
         {
           "id": "league:Kreisoberliga:13",
@@ -6725,11 +6822,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 13,
+              "team_fixture_id": "u23-610138092",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
             }
           ],
-          "date": "2026-11-15"
+          "date": "2026-11-15",
+          "date_end": "2026-11-15"
         },
         {
           "id": "league:Kreisoberliga:14",
@@ -6748,11 +6847,13 @@
               "halftime_result": null,
               "location": "Sportplatz Pessin, Straße der Jugend 26, 14641 Pessin",
               "matchday": 14,
+              "team_fixture_id": "u23-610138104",
               "home_logo": "/assets/clubs/sg-blau-weiss-pessin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-22"
+          "date": "2026-11-22",
+          "date_end": "2026-11-22"
         },
         {
           "id": "league:Kreisoberliga:15",
@@ -6771,11 +6872,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 15,
+              "team_fixture_id": "u23-610138108",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png"
             }
           ],
-          "date": "2026-11-29"
+          "date": "2026-11-29",
+          "date_end": "2026-11-29"
         },
         {
           "id": "league:Kreisoberliga:16",
@@ -6794,11 +6897,13 @@
               "halftime_result": null,
               "location": "Sportplatz Hellerfichten, Hauptplatz KR, Teltower Str., 14552 Michendorf",
               "matchday": 16,
+              "team_fixture_id": "u23-610138118",
               "home_logo": "/assets/clubs/sg-michendorf-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-12-06"
+          "date": "2026-12-06",
+          "date_end": "2026-12-06"
         },
         {
           "id": "league:Kreisoberliga:17",
@@ -6817,11 +6922,13 @@
               "halftime_result": null,
               "location": "Sportplatz Ketzin, Friedrich-Ludwig-Jahn-Weg 32, 14669 Ketzin/Havel",
               "matchday": 17,
+              "team_fixture_id": "u23-610138124",
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-02-21"
+          "date": "2027-02-21",
+          "date_end": "2027-02-21"
         },
         {
           "id": "league:Kreisoberliga:18",
@@ -6840,11 +6947,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 18,
+              "team_fixture_id": "u23-610138132",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-ziesar-31.png"
             }
           ],
-          "date": "2027-02-28"
+          "date": "2027-02-28",
+          "date_end": "2027-02-28"
         },
         {
           "id": "league:Kreisoberliga:19",
@@ -6863,11 +6972,13 @@
               "halftime_result": null,
               "location": "Dittmar-Hartung-Sportplatz, Sputendorfer Str. 56, 14513 Teltow",
               "matchday": 19,
+              "team_fixture_id": "u23-610138140",
               "home_logo": "/assets/clubs/sv-ruhlsdorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-03-07"
+          "date": "2027-03-07",
+          "date_end": "2027-03-07"
         },
         {
           "id": "league:Kreisoberliga:20",
@@ -6886,11 +6997,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 20,
+              "team_fixture_id": "u23-610138146",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-geltow.png"
             }
           ],
-          "date": "2027-03-14"
+          "date": "2027-03-14",
+          "date_end": "2027-03-14"
         },
         {
           "id": "league:Kreisoberliga:21",
@@ -6909,11 +7022,13 @@
               "halftime_result": null,
               "location": "Sternsportplatz Potsdam, Hauptplatz, Ziolkowskistr. 3, 14480 Potsdam",
               "matchday": 21,
+              "team_fixture_id": "u23-610138156",
               "home_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-03-21"
+          "date": "2027-03-21",
+          "date_end": "2027-03-21"
         },
         {
           "id": "league:Kreisoberliga:22",
@@ -6932,11 +7047,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 22,
+              "team_fixture_id": "u23-610138167",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
             }
           ],
-          "date": "2027-04-04"
+          "date": "2027-04-04",
+          "date_end": "2027-04-04"
         },
         {
           "id": "league:Kreisoberliga:23",
@@ -6955,11 +7072,13 @@
               "halftime_result": null,
               "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
               "matchday": 23,
+              "team_fixture_id": "u23-610138172",
               "home_logo": "/assets/clubs/sv-dallgow-47.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-11"
+          "date": "2027-04-11",
+          "date_end": "2027-04-11"
         },
         {
           "id": "league:Kreisoberliga:24",
@@ -6978,11 +7097,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 24,
+              "team_fixture_id": "u23-610138181",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-eintracht-friesack.png"
             }
           ],
-          "date": "2027-04-18"
+          "date": "2027-04-18",
+          "date_end": "2027-04-18"
         },
         {
           "id": "league:Kreisoberliga:25",
@@ -7001,11 +7122,13 @@
               "halftime_result": null,
               "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
               "matchday": 25,
+              "team_fixture_id": "u23-610138188",
               "home_logo": "/assets/clubs/fsv-babelsberg-74-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-25"
+          "date": "2027-04-25",
+          "date_end": "2027-04-25"
         },
         {
           "id": "league:Kreisoberliga:26",
@@ -7024,11 +7147,13 @@
               "halftime_result": null,
               "location": "John-Schehr-Platz KR, John-Schehr-Str. 18, 14513 Teltow",
               "matchday": 26,
+              "team_fixture_id": "u23-610138196",
               "home_logo": "/assets/clubs/united-teltow-fc.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-02"
+          "date": "2027-05-02",
+          "date_end": "2027-05-02"
         },
         {
           "id": "league:Kreisoberliga:27",
@@ -7047,11 +7172,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 27,
+              "team_fixture_id": "u23-610138202",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bredower-sv.png"
             }
           ],
-          "date": "2027-05-09"
+          "date": "2027-05-09",
+          "date_end": "2027-05-09"
         },
         {
           "id": "league:Kreisoberliga:28",
@@ -7070,11 +7197,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 28,
+              "team_fixture_id": "u23-610138216",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-blau-weiss-pessin.png"
             }
           ],
-          "date": "2027-05-23"
+          "date": "2027-05-23",
+          "date_end": "2027-05-23"
         },
         {
           "id": "league:Kreisoberliga:29",
@@ -7093,11 +7222,13 @@
               "halftime_result": null,
               "location": "Werner-Seelenbinder-Sportplatz, Platz 2, Brielower Str. 7, 14770 Brandenburg an der Havel",
               "matchday": 29,
+              "team_fixture_id": "u23-610138220",
               "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-30"
+          "date": "2027-05-30",
+          "date_end": "2027-05-30"
         },
         {
           "id": "league:Kreisoberliga:30",
@@ -7116,11 +7247,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 30,
+              "team_fixture_id": "u23-610138230",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-michendorf-ii.png"
             }
           ],
-          "date": "2027-06-06"
+          "date": "2027-06-06",
+          "date_end": "2027-06-06"
         },
         {
           "id": "league:Kreisoberliga:31",
@@ -7139,11 +7272,13 @@
               "halftime_result": null,
               "location": "Sportpark Rosenstraße, KR 1, Rosenstr., 14612 Falkensee",
               "matchday": 31,
+              "team_fixture_id": "u23-610138236",
               "home_logo": "/assets/clubs/sv-falkensee-finkenkrug-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-06-12"
+          "date": "2027-06-12",
+          "date_end": "2027-06-12"
         }
       ],
       "next_game": {
@@ -7734,7 +7869,8 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "source_url": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH",
+              "team_fixture_id": "u21-710089011"
             },
             {
               "id": "cup-sv-05-rehbruecke-2-sv-dallgow-47-ii",
@@ -8322,7 +8458,8 @@
               "source_url": "https://www.fussball.de/spiel/black-bears-sg-bornim-ii/-/spiel/031F066OQO000000VS5489BTVUS470OH"
             }
           ],
-          "date": "2026-08-16"
+          "date": "2026-08-16",
+          "date_end": "2026-08-16"
         },
         {
           "id": "league:Kreisliga:1",
@@ -8341,11 +8478,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 1,
+              "team_fixture_id": "u21-610480004",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fv-turbine-potsdam-55.png"
             }
           ],
-          "date": "2026-08-30"
+          "date": "2026-08-30",
+          "date_end": "2026-08-30"
         },
         {
           "id": "league:Kreisliga:2",
@@ -8364,11 +8503,13 @@
               "halftime_result": null,
               "location": "Sportplatz Schwielowsee, Glindower Weg 31, 14548 Schwielowsee",
               "matchday": 2,
+              "team_fixture_id": "u21-610480013",
               "home_logo": "/assets/clubs/sv-1948-ferch.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-06"
+          "date": "2026-09-06",
+          "date_end": "2026-09-06"
         },
         {
           "id": "league:Kreisliga:3",
@@ -8387,11 +8528,13 @@
               "halftime_result": null,
               "location": "Waldstadion Niemegk, Waldstr., 14823 Niemegk",
               "matchday": 3,
+              "team_fixture_id": "u21-610480019",
               "home_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-13"
+          "date": "2026-09-13",
+          "date_end": "2026-09-13"
         },
         {
           "id": "league:Kreisliga:4",
@@ -8410,11 +8553,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 4,
+              "team_fixture_id": "u21-610480028",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/teltower-fv-1913-ii.png"
             }
           ],
-          "date": "2026-09-20"
+          "date": "2026-09-20",
+          "date_end": "2026-09-20"
         },
         {
           "id": "league:Kreisliga:5",
@@ -8433,11 +8578,13 @@
               "halftime_result": null,
               "location": "Sportplatz Golm, Kuhfortdamm 7, 14476 Golm",
               "matchday": 5,
+              "team_fixture_id": "u21-610480033",
               "home_logo": "/assets/clubs/sg-gruen-weiss-golm-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-27"
+          "date": "2026-09-27",
+          "date_end": "2026-09-27"
         },
         {
           "id": "league:Kreisliga:6",
@@ -8456,11 +8603,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 6,
+              "team_fixture_id": "u21-610480044",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-bornim-ii.png"
             }
           ],
-          "date": "2026-10-04"
+          "date": "2026-10-04",
+          "date_end": "2026-10-04"
         },
         {
           "id": "league:Kreisliga:7",
@@ -8479,11 +8628,13 @@
               "halftime_result": null,
               "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
               "matchday": 7,
+              "team_fixture_id": "u21-610480055",
               "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-11"
+          "date": "2026-10-11",
+          "date_end": "2026-10-11"
         },
         {
           "id": "league:Kreisliga:8",
@@ -8502,11 +8653,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 8,
+              "team_fixture_id": "u21-610480060",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-brueck.png"
             }
           ],
-          "date": "2026-10-18"
+          "date": "2026-10-18",
+          "date_end": "2026-10-18"
         },
         {
           "id": "league:Kreisliga:9",
@@ -8525,11 +8678,13 @@
               "halftime_result": null,
               "location": "Stadion des Friedens, Bergstr. 1, 14547 Beelitz",
               "matchday": 9,
+              "team_fixture_id": "u21-610480069",
               "home_logo": "/assets/clubs/sg-blau-weiss-beelitz.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-25"
+          "date": "2026-10-25",
+          "date_end": "2026-10-25"
         },
         {
           "id": "league:Kreisliga:10",
@@ -8548,11 +8703,13 @@
               "halftime_result": null,
               "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
               "matchday": 10,
+              "team_fixture_id": "u21-610480073",
               "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-01"
+          "date": "2026-11-01",
+          "date_end": "2026-11-01"
         },
         {
           "id": "league:Kreisliga:11",
@@ -8571,11 +8728,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 11,
+              "team_fixture_id": "u21-610480084",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/caputher-sv.png"
             }
           ],
-          "date": "2026-11-08"
+          "date": "2026-11-08",
+          "date_end": "2026-11-08"
         },
         {
           "id": "league:Kreisliga:12",
@@ -8594,11 +8753,13 @@
               "halftime_result": null,
               "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
               "matchday": 12,
+              "team_fixture_id": "u21-610480090",
               "home_logo": "/assets/clubs/sv-71-busendorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-15"
+          "date": "2026-11-15",
+          "date_end": "2026-11-15"
         },
         {
           "id": "league:Kreisliga:13",
@@ -8617,11 +8778,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 13,
+              "team_fixture_id": "u21-610480100",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/esv-lok-seddin.png"
             }
           ],
-          "date": "2026-11-22"
+          "date": "2026-11-22",
+          "date_end": "2026-11-22"
         },
         {
           "id": "league:Kreisliga:14",
@@ -8640,11 +8803,13 @@
               "halftime_result": null,
               "location": "Sportplatz Rehbrücke, Kunstrasenplatz, Andersenweg, 14558 Nuthetal",
               "matchday": 14,
+              "team_fixture_id": "u21-610480111",
               "home_logo": "/assets/clubs/sv-05-rehbruecke.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-29"
+          "date": "2026-11-29",
+          "date_end": "2026-11-29"
         },
         {
           "id": "league:Kreisliga:15",
@@ -8663,11 +8828,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 15,
+              "team_fixture_id": "u21-610480116",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/potsdamer-kickers-94.png"
             }
           ],
-          "date": "2026-12-06"
+          "date": "2026-12-06",
+          "date_end": "2026-12-06"
         },
         {
           "id": "league:Kreisliga:16",
@@ -8686,11 +8853,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 16,
+              "team_fixture_id": "u21-610480122",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-71-busendorf.png"
             }
           ],
-          "date": "2027-02-21"
+          "date": "2027-02-21",
+          "date_end": "2027-02-21"
         },
         {
           "id": "league:Kreisliga:17",
@@ -8709,11 +8878,13 @@
               "halftime_result": null,
               "location": "Sportforum Potsdam Waldstadt/Schlaatz, Kunstrasen, Drewitzer Str. 40, 14478 Potsdam",
               "matchday": 17,
+              "team_fixture_id": "u21-610480132",
               "home_logo": "/assets/clubs/fv-turbine-potsdam-55.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-02-27"
+          "date": "2027-02-27",
+          "date_end": "2027-02-27"
         },
         {
           "id": "league:Kreisliga:18",
@@ -8732,11 +8903,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 18,
+              "team_fixture_id": "u21-610480139",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
             }
           ],
-          "date": "2027-03-07"
+          "date": "2027-03-07",
+          "date_end": "2027-03-07"
         },
         {
           "id": "league:Kreisliga:19",
@@ -8755,11 +8928,13 @@
               "halftime_result": null,
               "location": "Jahnsportplatz Teltow, Kunstrasen, Jahnstr. 4, 14513 Teltow",
               "matchday": 19,
+              "team_fixture_id": "u21-610480148",
               "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-03-14"
+          "date": "2027-03-14",
+          "date_end": "2027-03-14"
         },
         {
           "id": "league:Kreisliga:20",
@@ -8778,11 +8953,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 20,
+              "team_fixture_id": "u21-610480153",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-gruen-weiss-golm-ii.png"
             }
           ],
-          "date": "2027-03-21"
+          "date": "2027-03-21",
+          "date_end": "2027-03-21"
         },
         {
           "id": "league:Kreisliga:21",
@@ -8801,11 +8978,13 @@
               "halftime_result": null,
               "location": "Stephan-Albrecht-Platz, Golmer Chaussee 12, 14469 Potsdam",
               "matchday": 21,
+              "team_fixture_id": "u21-610480164",
               "home_logo": "/assets/clubs/sg-bornim-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-04"
+          "date": "2027-04-04",
+          "date_end": "2027-04-04"
         },
         {
           "id": "league:Kreisliga:22",
@@ -8824,11 +9003,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 22,
+              "team_fixture_id": "u21-610480175",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png"
             }
           ],
-          "date": "2027-04-11"
+          "date": "2027-04-11",
+          "date_end": "2027-04-11"
         },
         {
           "id": "league:Kreisliga:23",
@@ -8847,11 +9028,13 @@
               "halftime_result": null,
               "location": "Jahn-Sportplatz Brück, Friedrich-Ludwig-Jahn-Str. 3, 14822 Brück",
               "matchday": 23,
+              "team_fixture_id": "u21-610480180",
               "home_logo": "/assets/clubs/fsv-brueck.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-18"
+          "date": "2027-04-18",
+          "date_end": "2027-04-18"
         },
         {
           "id": "league:Kreisliga:24",
@@ -8870,11 +9053,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 24,
+              "team_fixture_id": "u21-610480189",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-blau-weiss-beelitz.png"
             }
           ],
-          "date": "2027-04-25"
+          "date": "2027-04-25",
+          "date_end": "2027-04-25"
         },
         {
           "id": "league:Kreisliga:25",
@@ -8893,11 +9078,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 25,
+              "team_fixture_id": "u21-610480193",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png"
             }
           ],
-          "date": "2027-05-02"
+          "date": "2027-05-02",
+          "date_end": "2027-05-02"
         },
         {
           "id": "league:Kreisliga:26",
@@ -8916,11 +9103,13 @@
               "halftime_result": null,
               "location": "Sportplatz Michendorfer Chaussee, Platz 1, Michendorfer Chaussee 34, 14548 Schwielowsee",
               "matchday": 26,
+              "team_fixture_id": "u21-610480204",
               "home_logo": "/assets/clubs/caputher-sv.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-09"
+          "date": "2027-05-09",
+          "date_end": "2027-05-09"
         },
         {
           "id": "league:Kreisliga:27",
@@ -8939,11 +9128,13 @@
               "halftime_result": null,
               "location": "Sportplatz Neuseddin, Zum Sportplatz, 14554 Seddiner See",
               "matchday": 27,
+              "team_fixture_id": "u21-610480212",
               "home_logo": "/assets/clubs/esv-lok-seddin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-23"
+          "date": "2027-05-23",
+          "date_end": "2027-05-23"
         },
         {
           "id": "league:Kreisliga:28",
@@ -8962,11 +9153,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 28,
+              "team_fixture_id": "u21-610480223",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-05-rehbruecke.png"
             }
           ],
-          "date": "2027-05-30"
+          "date": "2027-05-30",
+          "date_end": "2027-05-30"
         },
         {
           "id": "league:Kreisliga:29",
@@ -8985,11 +9178,13 @@
               "halftime_result": null,
               "location": "Sportplatz Potsdamer Kickers, Kirschallee, KR, Alexander-Klein-Str., 14469 Potsdam",
               "matchday": 29,
+              "team_fixture_id": "u21-610480228",
               "home_logo": "/assets/clubs/potsdamer-kickers-94.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-06-06"
+          "date": "2027-06-06",
+          "date_end": "2027-06-06"
         },
         {
           "id": "league:Kreisliga:30",
@@ -9008,11 +9203,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 30,
+              "team_fixture_id": "u21-610480237",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-1948-ferch.png"
             }
           ],
-          "date": "2027-06-12"
+          "date": "2027-06-12",
+          "date_end": "2027-06-12"
         }
       ],
       "next_game": {
@@ -9614,6 +9811,22 @@
           "round": "1. Runde",
           "matches": [
             {
+              "id": "cup-rsv-eintracht-1949-u19-fc-bayern-muenchen",
+              "date": "2026-08-02",
+              "time": "11:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Bayern München",
+              "result": "1:3",
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "DFB-Pokal 2026/27",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fc-bayern-muenchen.png",
+              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-bayern-muenchen/-/spiel/031BSD7IIK000000VS5489BTVUS470OH",
+              "team_fixture_id": "u19-870019022"
+            },
+            {
               "id": "cup-berliner-ak-u19-1-fc-union-berlin-u19",
               "date": "2026-07-31",
               "time": "19:00",
@@ -9899,34 +10112,6 @@
               "source_url": "https://www.fussball.de/spiel/jfg-schaumberg-prims-vfb-stuttgart/-/spiel/031BSD7I6O000000VS5489BTVUS470OH"
             },
             {
-              "id": "cup-rsv-eintracht-1949-u19-fc-bayern-muenchen",
-              "date": "2026-08-02",
-              "time": "11:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FC Bayern München",
-              "result": "1:3",
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "DFB-Pokal 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fc-bayern-muenchen.png",
-              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-bayern-muenchen/-/spiel/031BSD7IIK000000VS5489BTVUS470OH"
-            },
-            {
-              "id": "u19-870019022",
-              "date": "2026-08-02",
-              "time": "11:00",
-              "home": "RSV Eintracht 1949 U19",
-              "away": "FC Bayern München",
-              "result": "1:3",
-              "halftime_result": null,
-              "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": null,
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fc-bayern-muenchen.png"
-            },
-            {
               "id": "cup-sc-preussen-muenster-1-fc-magdeburg-u19",
               "date": "2026-08-02",
               "time": "11:00",
@@ -10107,7 +10292,8 @@
               "source_url": "https://www.fussball.de/spiel/sv-arminia-magdeburg-fc-carl-zeiss-jena-u19/-/spiel/031BSD7IE8000000VS5489BTVUS470OH"
             }
           ],
-          "date": "2026-07-31"
+          "date": "2026-07-31",
+          "date_end": "2026-08-02"
         },
         {
           "id": "game:u19-690002036",
@@ -10129,7 +10315,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-02"
+          "date": "2026-08-02",
+          "date_end": "2026-08-02"
         },
         {
           "id": "game:u19-810001078",
@@ -10151,7 +10338,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-08"
+          "date": "2026-08-08",
+          "date_end": "2026-08-08"
         },
         {
           "id": "game:u19-810001097",
@@ -10173,7 +10361,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-09"
+          "date": "2026-08-09",
+          "date_end": "2026-08-09"
         },
         {
           "id": "game:u19-810007008",
@@ -10195,7 +10384,8 @@
               "away_logo": "/assets/clubs/bsv-eintracht-mahlsdorf.png"
             }
           ],
-          "date": "2026-08-12"
+          "date": "2026-08-12",
+          "date_end": "2026-08-12"
         },
         {
           "id": "league:Regionalliga:1",
@@ -10214,11 +10404,13 @@
               "halftime_result": null,
               "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
               "matchday": 1,
+              "team_fixture_id": "u19-690007003",
               "home_logo": "/assets/clubs/sc-borea-dresden.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-16"
+          "date": "2026-08-16",
+          "date_end": "2026-08-16"
         },
         {
           "id": "league:Regionalliga:2",
@@ -10237,11 +10429,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 2,
+              "team_fixture_id": "u19-690007011",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             }
           ],
-          "date": "2026-08-22"
+          "date": "2026-08-22",
+          "date_end": "2026-08-22"
         },
         {
           "id": "league:Regionalliga:3",
@@ -10260,11 +10454,13 @@
               "halftime_result": null,
               "location": "Hauptplatz Bürgerschacht, Saarstr. 50, 08056 Zwickau",
               "matchday": 3,
+              "team_fixture_id": "u19-690007021",
               "home_logo": "/assets/clubs/fsv-zwickau.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-30"
+          "date": "2026-08-30",
+          "date_end": "2026-08-30"
         },
         {
           "id": "league:Regionalliga:4",
@@ -10283,11 +10479,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 4,
+              "team_fixture_id": "u19-690007025",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fc-mecklenburg-schwerin.png"
             }
           ],
-          "date": "2026-09-05"
+          "date": "2026-09-05",
+          "date_end": "2026-09-05"
         },
         {
           "id": "league:Regionalliga:5",
@@ -10306,11 +10504,13 @@
               "halftime_result": null,
               "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
               "matchday": 5,
+              "team_fixture_id": "u19-690007033",
               "home_logo": "/assets/clubs/fc-hertha-03-zehlendorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-09-12"
+          "date": "2026-09-12",
+          "date_end": "2026-09-12"
         },
         {
           "id": "league:Regionalliga:6",
@@ -10329,11 +10529,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 6,
+              "team_fixture_id": "u19-690007039",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/vfc-plauen.png"
             }
           ],
-          "date": "2026-09-19"
+          "date": "2026-09-19",
+          "date_end": "2026-09-19"
         },
         {
           "id": "league:Regionalliga:7",
@@ -10352,11 +10554,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 7,
+              "team_fixture_id": "u19-690007046",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sport-club-staaken-1919.png"
             }
           ],
-          "date": "2026-09-26"
+          "date": "2026-09-26",
+          "date_end": "2026-09-26"
         },
         {
           "id": "league:Regionalliga:8",
@@ -10375,11 +10579,13 @@
               "halftime_result": null,
               "location": "Stadion der Freundschaft, Hauptplatz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
               "matchday": 8,
+              "team_fixture_id": "u19-690007051",
               "home_logo": "/assets/clubs/1-fc-frankfurt-oder.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-11"
+          "date": "2026-10-11",
+          "date_end": "2026-10-11"
         },
         {
           "id": "league:Regionalliga:9",
@@ -10398,11 +10604,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 9,
+              "team_fixture_id": "u19-690007060",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fc-viktoria-1889-berlin.png"
             }
           ],
-          "date": "2026-10-17"
+          "date": "2026-10-17",
+          "date_end": "2026-10-17"
         },
         {
           "id": "league:Regionalliga:10",
@@ -10421,11 +10629,13 @@
               "halftime_result": null,
               "location": "Br.-Plache-Stadion Großfeld 1 KR, Connewitzer Str. 21, 04289 Leipzig",
               "matchday": 10,
+              "team_fixture_id": "u19-690007070",
               "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-24"
+          "date": "2026-10-24",
+          "date_end": "2026-10-24"
         },
         {
           "id": "league:Regionalliga:11",
@@ -10444,11 +10654,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 11,
+              "team_fixture_id": "u19-690007074",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/berliner-sc.png"
             }
           ],
-          "date": "2026-10-31"
+          "date": "2026-10-31",
+          "date_end": "2026-10-31"
         },
         {
           "id": "league:Regionalliga:12",
@@ -10467,11 +10679,13 @@
               "halftime_result": null,
               "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
               "matchday": 12,
+              "team_fixture_id": "u19-690007082",
               "home_logo": "/assets/clubs/tennis-borussia-berlin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-08"
+          "date": "2026-11-08",
+          "date_end": "2026-11-08"
         },
         {
           "id": "league:Regionalliga:13",
@@ -10490,11 +10704,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 13,
+              "team_fixture_id": "u19-690007088",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/steglitzer-fc-stern-1900.png"
             }
           ],
-          "date": "2026-11-21"
+          "date": "2026-11-21",
+          "date_end": "2026-11-21"
         },
         {
           "id": "league:Regionalliga:14",
@@ -10513,11 +10729,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 14,
+              "team_fixture_id": "u19-690007094",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sc-borea-dresden.png"
             }
           ],
-          "date": "2027-02-27"
+          "date": "2027-02-27",
+          "date_end": "2027-02-27"
         },
         {
           "id": "league:Regionalliga:15",
@@ -10536,11 +10754,13 @@
               "halftime_result": null,
               "location": "Sportforum Kunstrasen KR2, Weißenseer Weg 51-55, 13053 Berlin",
               "matchday": 15,
+              "team_fixture_id": "u19-690007102",
               "home_logo": "/assets/clubs/bfc-dynamo.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-03-06"
+          "date": "2027-03-06",
+          "date_end": "2027-03-06"
         },
         {
           "id": "league:Regionalliga:16",
@@ -10559,11 +10779,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 16,
+              "team_fixture_id": "u19-690007112",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             }
           ],
-          "date": "2027-03-13"
+          "date": "2027-03-13",
+          "date_end": "2027-03-13"
         },
         {
           "id": "league:Regionalliga:17",
@@ -10582,11 +10804,13 @@
               "halftime_result": null,
               "location": "Görries Platz I, Mittelstelle 11, 19061 Schwerin",
               "matchday": 17,
+              "team_fixture_id": "u19-690007116",
               "home_logo": "/assets/clubs/fc-mecklenburg-schwerin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-03-20"
+          "date": "2027-03-20",
+          "date_end": "2027-03-20"
         },
         {
           "id": "league:Regionalliga:18",
@@ -10605,11 +10829,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 18,
+              "team_fixture_id": "u19-690007124",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fc-hertha-03-zehlendorf.png"
             }
           ],
-          "date": "2027-04-03"
+          "date": "2027-04-03",
+          "date_end": "2027-04-03"
         },
         {
           "id": "league:Regionalliga:19",
@@ -10628,11 +10854,13 @@
               "halftime_result": null,
               "location": "Sportplatz Chrieschwitzer Hang, Dr.-Theodor-Brugsch-Straße 33, 08529 Plauen",
               "matchday": 19,
+              "team_fixture_id": "u19-690007130",
               "home_logo": "/assets/clubs/vfc-plauen.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-10"
+          "date": "2027-04-10",
+          "date_end": "2027-04-10"
         },
         {
           "id": "league:Regionalliga:20",
@@ -10651,11 +10879,13 @@
               "halftime_result": null,
               "location": "Sportpark Staaken KR1, Eichholzbahn 116, 13591 Berlin",
               "matchday": 20,
+              "team_fixture_id": "u19-690007137",
               "home_logo": "/assets/clubs/sport-club-staaken-1919.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-18"
+          "date": "2027-04-18",
+          "date_end": "2027-04-18"
         },
         {
           "id": "league:Regionalliga:21",
@@ -10674,11 +10904,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 21,
+              "team_fixture_id": "u19-690007142",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/1-fc-frankfurt-oder.png"
             }
           ],
-          "date": "2027-04-24"
+          "date": "2027-04-24",
+          "date_end": "2027-04-24"
         },
         {
           "id": "league:Regionalliga:22",
@@ -10697,11 +10929,13 @@
               "halftime_result": null,
               "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
               "matchday": 22,
+              "team_fixture_id": "u19-690007151",
               "home_logo": "/assets/clubs/fc-viktoria-1889-berlin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-01"
+          "date": "2027-05-01",
+          "date_end": "2027-05-01"
         },
         {
           "id": "league:Regionalliga:23",
@@ -10720,11 +10954,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 23,
+              "team_fixture_id": "u19-690007161",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
             }
           ],
-          "date": "2027-05-08"
+          "date": "2027-05-08",
+          "date_end": "2027-05-08"
         },
         {
           "id": "league:Regionalliga:24",
@@ -10743,11 +10979,13 @@
               "halftime_result": null,
               "location": "Hubertussportplatz NR1, Hubertusallee 50, 14193 Berlin",
               "matchday": 24,
+              "team_fixture_id": "u19-690007165",
               "home_logo": "/assets/clubs/berliner-sc.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-05-22"
+          "date": "2027-05-22",
+          "date_end": "2027-05-22"
         },
         {
           "id": "league:Regionalliga:25",
@@ -10766,11 +11004,13 @@
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 25,
+              "team_fixture_id": "u19-690007173",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/tennis-borussia-berlin.png"
             }
           ],
-          "date": "2027-05-29"
+          "date": "2027-05-29",
+          "date_end": "2027-05-29"
         },
         {
           "id": "league:Regionalliga:26",
@@ -10789,11 +11029,13 @@
               "halftime_result": null,
               "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
               "matchday": 26,
+              "team_fixture_id": "u19-690007179",
               "home_logo": "/assets/clubs/steglitzer-fc-stern-1900.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-06-06"
+          "date": "2027-06-06",
+          "date_end": "2027-06-06"
         }
       ],
       "next_game": {
@@ -10889,8 +11131,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001031",
+          "id": "u21-890001026",
           "matchday": 3,
+          "date": "2026-08-28",
+          "time": "18:30",
+          "competition": "2.Bundesliga",
+          "home": "Eintracht Braunschweig",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001031",
+          "matchday": 4,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10907,7 +11166,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 5,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10924,7 +11183,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 6,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -10941,7 +11200,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 7,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10958,7 +11217,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 8,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10975,7 +11234,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 9,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",

@@ -1599,6 +1599,12 @@ def fetch_regionalliga_rounds(expected_matchdays=34):
             payload=overlay_fussball_round_pairings(payload, fussball_games)
         except Exception as exc:
             warnings.warn(f'FUSSBALL.DE Spieltags-Termine konnten nicht übernommen werden: {exc}')
+    # Team schedule wins over stale DFB matchday kickoffs for RSV fixtures.
+    try:
+        team_games=load_json(DATA/'regionalliga.json').get('games') or []
+        payload['regionalliga']=sync_round_matches_with_team_schedule(payload.get('regionalliga') or [], team_games)
+    except Exception as exc:
+        warnings.warn(f'Team-Termine konnten nicht in Spieltage übernommen werden: {exc}')
     save_json(DATA/'rounds.json', payload)
     print(f'Regionalliga: {len(groups)} Spieltage mit Gesamtpaarungen übernommen')
     return payload
@@ -1847,7 +1853,36 @@ def _apply_cup_labels_from_payload(team_key, games, payload):
     return changed
 
 
-def build_round_groups(key, games, clubs, discovered_logos):
+def sync_round_matches_with_team_schedule(groups, games):
+    """Team schedule is source of truth for kickoff dates (DFB matchday pages lag)."""
+    by_pair={}
+    for g in games:
+        if not is_league_game(g):
+            continue
+        by_pair[(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')))]=g
+    if not by_pair:
+        return groups
+    for grp in groups:
+        if grp.get('kind') != 'league':
+            continue
+        for match in grp.get('matches') or []:
+            team_game=by_pair.get((normalize_match_name(match.get('home','')), normalize_match_name(match.get('away',''))))
+            if not team_game:
+                continue
+            if team_game.get('date'):
+                match['date']=team_game['date']
+            if team_game.get('time'):
+                match['time']=team_game['time']
+            if team_game.get('result') not in (None, ''):
+                match['result']=team_game['result']
+            if team_game.get('halftime_result') not in (None, ''):
+                match['halftime_result']=team_game['halftime_result']
+            if team_game.get('id'):
+                match['team_fixture_id']=team_game['id']
+    return groups
+
+
+def build_round_groups(key, games, clubs, discovered_logos, team_name=''):
     configured=load_round_pairings().get(key, [])
     groups={}
     # Official full-round data wins whenever present.
@@ -1863,16 +1898,41 @@ def build_round_groups(key, games, clubs, discovered_logos):
         else:
             gid=f'{kind}:{competition_label(g.get("competition",""))}:{token}'
             groups.setdefault(gid,{'id':gid,'kind':kind,'title':title,'competition':competition_label(g.get('competition','')),'round':token,'matches':[]})
-        if not any((x.get('id') and x.get('id')==g.get('id')) or (x.get('date')==g.get('date') and x.get('home')==g.get('home') and x.get('away')==g.get('away')) for x in groups[gid]['matches']):
+        pair=(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')))
+        existing=next((x for x in groups[gid]['matches'] if (normalize_match_name(x.get('home','')), normalize_match_name(x.get('away','')))==pair), None)
+        if existing:
+            # Prefer the team schedule kickoff over a stale DFB matchday row.
+            if g.get('date'):
+                existing['date']=g['date']
+            if g.get('time'):
+                existing['time']=g['time']
+            if g.get('result') not in (None, ''):
+                existing['result']=g['result']
+            if g.get('halftime_result') not in (None, ''):
+                existing['halftime_result']=g['halftime_result']
+            existing['team_fixture_id']=g.get('id')
+        else:
             groups[gid]['matches'].append({k:g.get(k) for k in ('id','date','time','home','away','result','halftime_result','location','matchday')})
+    groups=sync_round_matches_with_team_schedule(list(groups.values()), games)
+    team_norm=normalize_match_name(team_name)
     out=[]
-    for grp in groups.values():
+    for grp in groups:
         for m in grp['matches']:
             m['home_logo']=resolve_logo(m.get('home',''), m.get('home_logo',''), clubs, discovered_logos)
             m['away_logo']=resolve_logo(m.get('away',''), m.get('away_logo',''), clubs, discovered_logos)
-        grp['matches'].sort(key=lambda x:(x.get('date') or '',x.get('time') or '00:00',x.get('home') or ''))
+        # Own team fixtures first, then by kickoff – so a Friday move is not buried under Sunday games.
+        def match_sort_key(x, _team_norm=team_norm):
+            own = bool(x.get('team_fixture_id')) or (
+                _team_norm and _team_norm in (
+                    normalize_match_name(x.get('home','')),
+                    normalize_match_name(x.get('away','')),
+                )
+            )
+            return (0 if own else 1, x.get('date') or '', x.get('time') or '00:00', x.get('home') or '')
+        grp['matches'].sort(key=match_sort_key)
         dates=[m.get('date') for m in grp['matches'] if m.get('date')]
         grp['date']=min(dates) if dates else ''
+        grp['date_end']=max(dates) if dates else ''
         out.append(grp)
     return sorted(out,key=lambda x:(x.get('date') or '',x.get('title') or ''))
 
@@ -2059,7 +2119,7 @@ def build_site_data(team_configs, ticket_events=None):
             'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '',
             'matches':completed,
             'fixtures':fixtures,
-            'round_groups':build_round_groups(key, enriched, clubs, discovered_logos),
+            'round_groups':build_round_groups(key, enriched, clubs, discovered_logos, team_name=team_name),
             'next_game':next_game,
             'next_home':next_home
         }
