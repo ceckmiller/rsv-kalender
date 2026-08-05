@@ -17,38 +17,12 @@
   to = "/.netlify/functions/logo"
   status = 200
 
-# ICS subscriptions are served from Netlify Blobs via the calendar function so
-# calendar data can update without triggering a full site deploy.
-
-[[redirects]]
-  from = "/rsv-regionalliga.ics"
-  to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
-  status = 200
-
-[[redirects]]
-  from = "/rsv-u23.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u23.ics"
-  status = 200
-
-[[redirects]]
-  from = "/rsv-u21.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u21.ics"
-  status = 200
-
-[[redirects]]
-  from = "/rsv-u19.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u19.ics"
-  status = 200
-
-[[redirects]]
-  from = "/hertha-bsc.ics"
-  to = "/.netlify/functions/calendar?file=hertha-bsc.ics"
-  status = 200
+# ICS files are published as static assets from docs/ (always in sync with deploy).
 
 [[headers]]
   for = "/*.ics"
   [headers.values]
     Content-Type = "text/calendar; charset=utf-8"
     Content-Disposition = "inline"
-    Cache-Control = "public, max-age=300"
+    Cache-Control = "no-cache, must-revalidate"
     Access-Control-Allow-Origin = "*"

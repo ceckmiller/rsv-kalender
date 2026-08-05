@@ -80,6 +80,7 @@
     },
     {
       "id": "rl-05",
+      "matchday": 5,
       "date": "2026-08-14",
       "time": "19:00",
       "home": "SV Babelsberg 03",

@@ -1394,7 +1394,29 @@ def ics_uid(game):
     return f'{gid}-{date}T{time}@rsv-kalender'
 
 
-def make_ics(meta,games):
+def load_cancelled_events():
+    path = DATA / 'cancelled-events.json'
+    return load_json(path) if path.exists() else {}
+
+
+def cancelled_event_lines(entry, now):
+    kickoff = entry.get('time') or '14:00'
+    start = datetime.fromisoformat(f"{entry['date']}T{kickoff}").replace(tzinfo=TZ)
+    end = start + timedelta(hours=2)
+    return [
+        'BEGIN:VEVENT',
+        f"UID:{entry['uid']}",
+        f'DTSTAMP:{now}',
+        f"DTSTART:{start.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
+        f"DTEND:{end.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
+        'SEQUENCE:9',
+        'STATUS:CANCELLED',
+        f"SUMMARY:{esc(ics_plain(entry.get('summary', '')))}",
+        'END:VEVENT',
+    ]
+
+
+def make_ics(meta, games, calendar_key=''):
     now=datetime.now(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')
     lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'REFRESH-INTERVAL;VALUE=DURATION:PT6H','X-PUBLISHED-TTL:PT6H']
     venues = load_venues()
@@ -1468,6 +1490,8 @@ def make_ics(meta,games):
         # can reject URL subscriptions containing remote ATTACH properties.
         event_lines += ['STATUS:CONFIRMED', 'TRANSP:OPAQUE', 'END:VEVENT']
         lines += event_lines
+    for entry in load_cancelled_events().get(calendar_key, []):
+        lines += cancelled_event_lines(entry, now)
     lines.append('END:VCALENDAR')
     return '\r\n'.join(fold(x) for x in lines)+'\r\n'
 
@@ -2227,7 +2251,7 @@ def process(key,offline=False):
     out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics','hertha-bsc':'hertha-bsc.ics'}
     out=DOCS/out_names[key]
     # newline='' needs Python 3.10+; write bytes for broader compatibility.
-    out.write_bytes(make_ics(meta,merged).encode('utf-8'))
+    out.write_bytes(make_ics(meta,merged,key).encode('utf-8'))
     print(f'{key}: {len(merged)} Termine erzeugt'+(f' (Online-Update übersprungen: {err})' if err else ''))
     return err is None or bool(merged)
 
