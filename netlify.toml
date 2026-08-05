@@ -24,31 +24,26 @@
   from = "/rsv-regionalliga.ics"
   to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/rsv-u23.ics"
   to = "/.netlify/functions/calendar?file=rsv-u23.ics"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/rsv-u21.ics"
   to = "/.netlify/functions/calendar?file=rsv-u21.ics"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/rsv-u19.ics"
   to = "/.netlify/functions/calendar?file=rsv-u19.ics"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/hertha-bsc.ics"
   to = "/.netlify/functions/calendar?file=hertha-bsc.ics"
   status = 200
-  force = true
 
 [[headers]]
   for = "/*.ics"
