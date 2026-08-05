@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { getStore } from '@netlify/blobs';
 
 const files = new Set([
+  'rsv-herren.ics',
   'rsv-regionalliga.ics',
   'rsv-u23.ics',
   'rsv-u21.ics',

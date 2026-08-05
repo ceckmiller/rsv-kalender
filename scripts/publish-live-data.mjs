@@ -8,7 +8,7 @@ const token = process.env.NETLIFY_AUTH_TOKEN;
 if (!siteID || !token) throw new Error('NETLIFY_SITE_ID und NETLIFY_AUTH_TOKEN müssen gesetzt sein.');
 
 const store = getStore('rsv-live-data', { siteID, token });
-const files = ['site-data.json', 'rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics', 'hertha-bsc.ics', 'venue-cache.json'];
+const files = ['site-data.json', 'rsv-herren.ics', 'rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics', 'hertha-bsc.ics', 'venue-cache.json'];
 let changed = 0;
 
 function contentHash(file, content) {

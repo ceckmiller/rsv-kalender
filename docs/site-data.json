@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-05T10:43:03.995057+02:00",
+  "generated_at": "2026-08-05T10:55:21.677505+02:00",
   "teams": {
     "regionalliga": {
-      "name": "RSV Eintracht – Regionalliga",
+      "name": "RSV Eintracht Herren",
       "team_name": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost",
       "matches": [
@@ -152,7 +152,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-05",
@@ -203,7 +203,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-07",
@@ -220,7 +220,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-08",
@@ -5753,7 +5753,7 @@
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
       },
       "next_home": null
     },

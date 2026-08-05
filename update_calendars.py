@@ -1391,7 +1391,8 @@ def ics_uid(game):
     gid=str(game.get('id') or 'game')
     date=str(game.get('date') or '').replace('-', '')
     time=str(game.get('time') or '14:00').replace(':', '')
-    return f'{gid}-{date}T{time}@rsv-kalender'
+    # Fresh UID host so calendar apps treat rescheduled fixtures as new events.
+    return f'{gid}-{date}T{time}@rsv-eintracht.de'
 
 
 def make_ics(meta, games, calendar_key=''):
@@ -2224,10 +2225,14 @@ def process(key,offline=False):
     if remote or meta.get('calendar_only'):
         meta['games']=merged; save_json(path,meta)
     DOCS.mkdir(exist_ok=True)
-    out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics','hertha-bsc':'hertha-bsc.ics'}
+    out_names={'regionalliga':'rsv-herren.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics','hertha-bsc':'hertha-bsc.ics'}
     out=DOCS/out_names[key]
     # newline='' needs Python 3.10+; write bytes for broader compatibility.
-    out.write_bytes(make_ics(meta,merged,key).encode('utf-8'))
+    ics_bytes=make_ics(meta,merged,key).encode('utf-8')
+    out.write_bytes(ics_bytes)
+    # Keep legacy filename in sync so old bookmarks still get current fixtures.
+    if key=='regionalliga':
+        (DOCS/'rsv-regionalliga.ics').write_bytes(ics_bytes)
     print(f'{key}: {len(merged)} Termine erzeugt'+(f' (Online-Update übersprungen: {err})' if err else ''))
     return err is None or bool(merged)
 
@@ -2304,7 +2309,7 @@ def main():
         warnings.warn(f'Regionalliga-Spieltage konnten nicht aktualisiert werden: {exc}')
     refresh_tables_from_rounds()
     build_site_data(configs, ticket_events)
-    required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics','hertha-bsc.ics')
+    required=('rsv-herren.ics','rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics','hertha-bsc.ics')
     if not ok:
         print('Mindestens eine Mannschaft konnte nicht vollständig aktualisiert werden; Veröffentlichung wird abgebrochen.', file=sys.stderr)
         return 1
