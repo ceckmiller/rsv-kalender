@@ -48,20 +48,6 @@
       "location_source": "https://www.fussball.de/spiel/1-fc-saarbruecken-hertha-bsc/-/spiel/0318UPIFJC000000VS5489BTVSK8S3O6"
     },
     {
-      "id": "u21-890001026",
-      "date": "2026-08-28",
-      "time": "18:30",
-      "home": "Eintracht Braunschweig",
-      "away": "Hertha BSC",
-      "competition": "2.Bundesliga 2026/27",
-      "source_url": "https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bsc/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A",
-      "match_number": "890001026",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN6TK000009VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
-      "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-      "location_source": "https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bsc/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A"
-    },
-    {
       "id": "u21-890001031",
       "date": "2026-09-06",
       "time": "13:30",

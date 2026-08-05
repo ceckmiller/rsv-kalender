@@ -1386,9 +1386,17 @@ def enrich_team_stats(meta, games, standings=None):
     return enriched
 
 
+def ics_uid(game):
+    """UID changes when kickoff moves so Google/Apple pick up reschedules reliably."""
+    gid=str(game.get('id') or 'game')
+    date=str(game.get('date') or '').replace('-', '')
+    time=str(game.get('time') or '14:00').replace(':', '')
+    return f'{gid}-{date}T{time}@rsv-kalender'
+
+
 def make_ics(meta,games):
     now=datetime.now(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')
-    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'X-PUBLISHED-TTL:PT6H']
+    lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//RSV Eintracht Kalender//DE','CALSCALE:GREGORIAN','METHOD:PUBLISH',f"X-WR-CALNAME:{esc(meta['calendar_name'])}",'REFRESH-INTERVAL;VALUE=DURATION:PT6H','X-PUBLISHED-TTL:PT6H']
     venues = load_venues()
     venue_cache = load_venue_cache()
     clubs = load_clubs()
@@ -1446,10 +1454,11 @@ def make_ics(meta,games):
 
         event_lines = [
             'BEGIN:VEVENT',
-            f"UID:{g['id']}@rsv-kalender",
+            f"UID:{ics_uid(g)}",
             f'DTSTAMP:{now}',
             f"DTSTART:{start.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.astimezone(ZoneInfo('UTC')).strftime('%Y%m%dT%H%M%SZ')}",
+            'SEQUENCE:1',
             f'SUMMARY:{esc(ics_plain(summary))}',
             f'DESCRIPTION:{esc(ics_plain(chr(10).join(desc)))}',
         ]
