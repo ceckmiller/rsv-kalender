@@ -51,10 +51,18 @@
       "home": "FC Carl Zeiss Jena",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost 2026/27",
-      "result": null,
+      "result": "4:0",
       "location": "",
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007"
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
+      "halftime_result": "2:0",
+      "referee": "Luis Riedel",
+      "scorers": [
+        "10. Minute – Emilio Munser (FC Carl Zeiss Jena) – 1:0",
+        "30. Minute – Emilio Munser (FC Carl Zeiss Jena) – 2:0",
+        "47. Minute – Kevin Lankford (FC Carl Zeiss Jena) – 3:0",
+        "68. Minute – Jannes Werner (FC Carl Zeiss Jena) – 4:0"
+      ]
     },
     {
       "id": "rl-04",

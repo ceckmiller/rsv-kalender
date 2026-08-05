@@ -1,21 +1,54 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 2. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 3. Spieltag)",
     "rows": [
       {
         "team": "Chemnitzer FC",
-        "played": 2,
-        "wins": 2,
+        "played": 3,
+        "wins": 3,
         "draws": 0,
         "losses": 0,
-        "goals": "7:0",
-        "diff": "+7",
-        "points": 6,
+        "goals": "10:1",
+        "diff": "+9",
+        "points": 9,
         "position": 1
       },
       {
         "team": "Greifswalder FC",
+        "played": 3,
+        "wins": 2,
+        "draws": 1,
+        "losses": 0,
+        "goals": "9:3",
+        "diff": "+6",
+        "points": 7,
+        "position": 2
+      },
+      {
+        "team": "FC Carl Zeiss Jena",
+        "played": 3,
+        "wins": 2,
+        "draws": 0,
+        "losses": 1,
+        "goals": "6:2",
+        "diff": "+4",
+        "points": 6,
+        "position": 3
+      },
+      {
+        "team": "1. FC Magdeburg II",
+        "played": 3,
+        "wins": 1,
+        "draws": 1,
+        "losses": 1,
+        "goals": "8:5",
+        "diff": "+3",
+        "points": 4,
+        "position": 4
+      },
+      {
+        "team": "FC Rot-Weiß Erfurt",
         "played": 2,
         "wins": 1,
         "draws": 1,
@@ -23,18 +56,18 @@
         "goals": "5:2",
         "diff": "+3",
         "points": 4,
-        "position": 2
+        "position": 5
       },
       {
-        "team": "RSV Eintracht 1949",
+        "team": "1. FC Lok Leipzig",
         "played": 2,
         "wins": 1,
         "draws": 1,
         "losses": 0,
-        "goals": "4:1",
-        "diff": "+3",
+        "goals": "6:4",
+        "diff": "+2",
         "points": 4,
-        "position": 3
+        "position": 6
       },
       {
         "team": "Erzgebirge Aue",
@@ -45,61 +78,28 @@
         "goals": "5:3",
         "diff": "+2",
         "points": 4,
-        "position": 4
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals": "5:1",
-        "diff": "+4",
-        "points": 3,
-        "position": 5
-      },
-      {
-        "team": "FC Rot-Weiß Erfurt",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals": "4:1",
-        "diff": "+3",
-        "points": 3,
-        "position": 6
-      },
-      {
-        "team": "1. FC Lok Leipzig",
-        "played": 1,
-        "wins": 1,
-        "draws": 0,
-        "losses": 0,
-        "goals": "3:1",
-        "diff": "+2",
-        "points": 3,
         "position": 7
       },
       {
         "team": "SV Babelsberg 03",
-        "played": 2,
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "goals": "2:1",
+        "goals": "4:3",
         "diff": "+1",
-        "points": 3,
+        "points": 4,
         "position": 8
       },
       {
-        "team": "FC Carl Zeiss Jena",
-        "played": 2,
+        "team": "RSV Eintracht 1949",
+        "played": 3,
         "wins": 1,
-        "draws": 0,
+        "draws": 1,
         "losses": 1,
-        "goals": "2:2",
-        "diff": "0",
-        "points": 3,
+        "goals": "4:5",
+        "diff": "-1",
+        "points": 4,
         "position": 9
       },
       {
@@ -115,36 +115,47 @@
       },
       {
         "team": "FSV Zwickau",
-        "played": 2,
+        "played": 3,
         "wins": 1,
         "draws": 0,
-        "losses": 1,
-        "goals": "2:4",
-        "diff": "-2",
+        "losses": 2,
+        "goals": "3:7",
+        "diff": "-4",
         "points": 3,
         "position": 11
       },
       {
-        "team": "VSG Altglienicke",
-        "played": 1,
-        "wins": 0,
-        "draws": 1,
-        "losses": 0,
-        "goals": "3:3",
-        "diff": "0",
-        "points": 1,
+        "team": "FSV 63 Luckenwalde",
+        "played": 3,
+        "wins": 1,
+        "draws": 0,
+        "losses": 2,
+        "goals": "2:6",
+        "diff": "-4",
+        "points": 3,
         "position": 12
       },
       {
-        "team": "Hallescher FC",
-        "played": 1,
+        "team": "VSG Altglienicke",
+        "played": 2,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "goals": "2:2",
+        "goals": "5:5",
         "diff": "0",
-        "points": 1,
+        "points": 2,
         "position": 13
+      },
+      {
+        "team": "Hallescher FC",
+        "played": 2,
+        "wins": 0,
+        "draws": 2,
+        "losses": 0,
+        "goals": "3:3",
+        "diff": "0",
+        "points": 2,
+        "position": 14
       },
       {
         "team": "BFC Preussen 1894",
@@ -155,7 +166,7 @@
         "goals": "1:4",
         "diff": "-3",
         "points": 1,
-        "position": 14
+        "position": 15
       },
       {
         "team": "BSG Chemie Leipzig",
@@ -166,29 +177,7 @@
         "goals": "0:4",
         "diff": "-4",
         "points": 0,
-        "position": 15
-      },
-      {
-        "team": "Hertha BSC II",
-        "played": 1,
-        "wins": 0,
-        "draws": 0,
-        "losses": 1,
-        "goals": "0:4",
-        "diff": "-4",
-        "points": 0,
         "position": 16
-      },
-      {
-        "team": "FSV 63 Luckenwalde",
-        "played": 2,
-        "wins": 0,
-        "draws": 0,
-        "losses": 2,
-        "goals": "1:6",
-        "diff": "-5",
-        "points": 0,
-        "position": 17
       },
       {
         "team": "SV Tasmania Berlin",
@@ -198,6 +187,17 @@
         "losses": 2,
         "goals": "1:7",
         "diff": "-6",
+        "points": 0,
+        "position": 17
+      },
+      {
+        "team": "Hertha BSC II",
+        "played": 2,
+        "wins": 0,
+        "draws": 0,
+        "losses": 2,
+        "goals": "1:8",
+        "diff": "-7",
         "points": 0,
         "position": 18
       }

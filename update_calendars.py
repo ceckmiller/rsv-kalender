@@ -1853,9 +1853,21 @@ def build_round_groups(key, games, clubs, discovered_logos):
         out.append(grp)
     return sorted(out,key=lambda x:(x.get('date') or '',x.get('title') or ''))
 
+def filter_official_fussball_fixtures(games, meta=None):
+    """Drop historical/noise rows from FUSSBALL.DE team pages (text fallback junk)."""
+    meta=meta or {}
+    if not meta.get('require_numeric_match_number'):
+        return games
+    kept=[g for g in games if re.fullmatch(r'\d{6,}', str(g.get('match_number') or ''))]
+    dropped=len(games)-len(kept)
+    if dropped:
+        print(f"{meta.get('team_name','Team')}: {dropped} veraltete/ungültige Termine aus FUSSBALL.DE ausgefiltert")
+    return kept
+
+
 def build_site_data(team_configs, ticket_events=None):
     """Create the JSON used by the results, upcoming matches and table view."""
-    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}, 'club_aliases': load_club_aliases()}
+    payload={'generated_at': datetime.now(TZ).isoformat(), 'teams':{}, 'calendar_teams':{}, 'tables': load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}, 'club_websites': {name: info.get('website','') for name, info in load_clubs().items() if isinstance(info, dict) and info.get('website')}, 'club_aliases': load_club_aliases()}
     venues = load_venues()
     venue_cache = load_venue_cache()
     clubs = load_clubs()
@@ -1865,6 +1877,7 @@ def build_site_data(team_configs, ticket_events=None):
     today = datetime.now(TZ).date()
 
     for key, meta, games in team_configs:
+        calendar_only=bool(meta.get('calendar_only'))
         standings=payload.get('tables', {}).get(key) or {}
         enriched=enrich_team_stats(meta, assign_matchdays(games), standings)
         completed=[]
@@ -1887,8 +1900,11 @@ def build_site_data(team_configs, ticket_events=None):
                     'result':g.get('result') or '', 'location':location, 'maps_url':maps_url(location),
                     'is_home':home == team_name,
                     'round':g.get('round') or g.get('cup_round') or '',
-                    'ticket_url':ticket_url_for_game(g, team_name, ticket_events) if key=='regionalliga' and not g.get('result') and str(g.get('date','')) >= today.isoformat() else ''
+                    'ticket_url':ticket_url_for_game(g, team_name, ticket_events) if key=='regionalliga' and not calendar_only and not g.get('result') and str(g.get('date','')) >= today.isoformat() else ''
             })
+
+            if calendar_only:
+                continue
 
             if g.get('result'):
                 completed.append({
@@ -1926,6 +1942,17 @@ def build_site_data(team_configs, ticket_events=None):
         fixtures.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
         future.sort(key=lambda x: (x.get('date') or '', x.get('time') or '00:00'))
         next_game=future[0] if future else None
+        if calendar_only:
+            upcoming=[f for f in fixtures if not f.get('result') and str(f.get('date') or '') >= today.isoformat()]
+            payload['calendar_teams'][key]={
+                'name':meta.get('calendar_name',''),
+                'team_name':team_name,
+                'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '',
+                'ics_file':'hertha-bsc.ics',
+                'fixtures':fixtures,
+                'next_game':upcoming[0] if upcoming else None,
+            }
+            continue
         next_home=None
         if next_game and not next_game.get('is_home'):
             next_home=next((g for g in future[1:] if g.get('is_home')), None)
@@ -1942,6 +1969,8 @@ def build_site_data(team_configs, ticket_events=None):
         }
     # U21/U23: show a useful zero table before the association publishes standings.
     for key, meta, games in team_configs:
+        if meta.get('calendar_only'):
+            continue
         if key in payload['tables'] and payload['tables'][key].get('rows'):
             continue
         league_games=[g for g in games if not any(w in competition_label(g.get('competition','')).lower() for w in ('pokal','freundschaft','testspiel'))]
@@ -1956,6 +1985,8 @@ def build_site_data(team_configs, ticket_events=None):
     # Complete every table with every league participant seen in the full
     # fixture list. This prevents abbreviated source tables from hiding clubs.
     for key, meta, games in team_configs:
+        if meta.get('calendar_only'):
+            continue
         table=payload.setdefault('tables',{}).setdefault(key,{'competition':'','updated_at':'','rows':[]})
         rows=table.setdefault('rows',[])
         known={canonical_club_name(str(r.get('team','')).strip()) for r in rows if r.get('team')}
@@ -2065,6 +2096,7 @@ def process(key,offline=False):
     venue_cache=load_venue_cache()
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
+    merged=filter_official_fussball_fixtures(merged, meta)
     if key=='regionalliga':
         merged=enrich_dfb_match_details(merged, offline=offline)
     else:
@@ -2077,10 +2109,10 @@ def process(key,offline=False):
     save_json(DATA/'venue-cache.json',venue_cache)
     validate_merged_schedule(key, meta, merged)
     # Persist only when remote passed validation; baseline remains source of truth.
-    if remote:
+    if remote or meta.get('calendar_only'):
         meta['games']=merged; save_json(path,meta)
     DOCS.mkdir(exist_ok=True)
-    out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics'}
+    out_names={'regionalliga':'rsv-regionalliga.ics','u23':'rsv-u23.ics','u21':'rsv-u21.ics','u19':'rsv-u19.ics','hertha-bsc':'hertha-bsc.ics'}
     out=DOCS/out_names[key]
     # newline='' needs Python 3.10+; write bytes for broader compatibility.
     out.write_bytes(make_ics(meta,merged).encode('utf-8'))
@@ -2145,6 +2177,14 @@ def main():
             configs.append((key,meta,games))
         except Exception as e:
             print(f'{key}: FEHLER: {e}',file=sys.stderr); ok=False
+    for key in ('hertha-bsc',):
+        try:
+            ok=process(key,args.offline) and ok
+            meta=load_json(DATA/f'{key}.json')
+            games=apply_overrides(key,meta.get('games',[]),load_json(DATA/'overrides.json'))
+            configs.append((key,meta,games))
+        except Exception as e:
+            print(f'{key}: FEHLER: {e}',file=sys.stderr); ok=False
     try:
         meta=load_json(DATA/'regionalliga.json')
         fetch_regionalliga_rounds(int(meta.get('expected_league_games') or 34))
@@ -2152,7 +2192,7 @@ def main():
         warnings.warn(f'Regionalliga-Spieltage konnten nicht aktualisiert werden: {exc}')
     refresh_tables_from_rounds()
     build_site_data(configs, ticket_events)
-    required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics')
+    required=('rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics','hertha-bsc.ics')
     if not ok:
         print('Mindestens eine Mannschaft konnte nicht vollständig aktualisiert werden; Veröffentlichung wird abgebrochen.', file=sys.stderr)
         return 1

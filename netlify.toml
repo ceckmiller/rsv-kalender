@@ -41,6 +41,12 @@
   status = 200
   force = true
 
+[[redirects]]
+  from = "/hertha-bsc.ics"
+  to = "/.netlify/functions/calendar?file=hertha-bsc.ics"
+  status = 200
+  force = true
+
 [[headers]]
   for = "/*.ics"
   [headers.values]

@@ -1,0 +1,182 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//RSV Eintracht Kalender//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hertha BSC
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:u21-890001001@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260807T183000Z
+DTEND:20260807T203000Z
+SUMMARY:1. Spieltag | 2.Bundesliga | VfL Bochum 1848 – Hertha BSC | 
+ Anstoß: 20:30 Uhr
+DESCRIPTION:1. Spieltag\n2.Bundesliga\nVfL Bochum 1848 – Hertha 
+ BSC\nAnstoß: 20:30 Uhr\n\n\nSpielort: Ruhrstadion\, Castroper Straße 
+ 145\, 44791 Bochum\nGoogle Maps: https://www.google.com/maps/search/?api=1
+ &query=Ruhrstadion%2C+Castroper+Stra%C3%9Fe+145%2C+44791+Bochum\n\nQuelle:
+ https://www.fussball.de/spiel/vfl-bochum-1848-hertha-bsc/-/spiel/031BG6B78
+ O000000VS5489BUVUR5FS5A
+LOCATION:Ruhrstadion\, Castroper Straße 145\, 44791 Bochum
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001012@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260815T110000Z
+DTEND:20260815T130000Z
+SUMMARY:2. Spieltag | 2.Bundesliga | Hertha BSC – 1. FC Heidenheim 1846 |
+ Anstoß: 13:00 Uhr
+DESCRIPTION:2. Spieltag\n2.Bundesliga\nHertha BSC – 1. FC Heidenheim 
+ 1846\nAnstoß: 13:00 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer Platz
+ 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?api=1&q
+ uery=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle: 
+ https://www.fussball.de/spiel/hertha-bsc-1-fc-heidenheim-1846-e-v/-/spiel/
+ 031BG6B7VO000000VS5489BUVUR5FS5A
+LOCATION:Olympiastadion\, Olympischer Platz 3\, 14053 Berlin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-870049018@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260822T133000Z
+DTEND:20260822T153000Z
+SUMMARY:DFB-Pokal | DFB-Pokal | 1. FC Saarbrücken – Hertha BSC | 
+ Anstoß: 15:30 Uhr
+DESCRIPTION:DFB-Pokal\nDFB-Pokal\n1. FC Saarbrücken – Hertha 
+ BSC\nAnstoß: 15:30 Uhr\n\n\nSpielort: Saarbrücken\, Ludwigsparkstadion\,
+ Camphauser Str.\, 66113 Saarbrücken\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Saarbr%C3%BCcken%2C+Ludwig
+ sparkstadion%2C+Camphauser+Str.%2C+66113+Saarbr%C3%BCcken\n\nQuelle: 
+ https://www.fussball.de/spiel/1-fc-saarbruecken-hertha-bsc/-/spiel/0318UPI
+ FJC000000VS5489BTVSK8S3O6
+LOCATION:Saarbrücken\, Ludwigsparkstadion\, Camphauser Str.\, 66113 
+ Saarbrücken
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001026@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260828T163000Z
+DTEND:20260828T183000Z
+SUMMARY:3. Spieltag | 2.Bundesliga | Eintracht Braunschweig – Hertha BSC 
+ | Anstoß: 18:30 Uhr
+DESCRIPTION:3. Spieltag\n2.Bundesliga\nEintracht Braunschweig – Hertha 
+ BSC\nAnstoß: 18:30 Uhr\n\n\nSpielort: Eintracht Stadion\, Hamburger Str. 
+ 210\, 38112 Braunschweig\nGoogle Maps: https://www.google.com/maps/search/
+ ?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig
+ \n\nQuelle: https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bs
+ c/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A
+LOCATION:Eintracht Stadion\, Hamburger Str. 210\, 38112 Braunschweig
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001031@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260906T113000Z
+DTEND:20260906T133000Z
+SUMMARY:4. Spieltag | 2.Bundesliga | Hertha BSC – 1. FC Magdeburg | 
+ Anstoß: 13:30 Uhr
+DESCRIPTION:4. Spieltag\n2.Bundesliga\nHertha BSC – 1. FC 
+ Magdeburg\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
+ Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
+ pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
+ : https://www.fussball.de/spiel/hertha-bsc-1-fc-magdeburg/-/spiel/031BG6B9
+ 6O000000VS5489BUVUR5FS5A
+LOCATION:Olympiastadion\, Olympischer Platz 3\, 14053 Berlin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001045@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260913T113000Z
+DTEND:20260913T133000Z
+SUMMARY:5. Spieltag | 2.Bundesliga | VfL Osnabrück – Hertha BSC | 
+ Anstoß: 13:30 Uhr
+DESCRIPTION:5. Spieltag\n2.Bundesliga\nVfL Osnabrück – Hertha 
+ BSC\nAnstoß: 13:30 Uhr\n\n\nSpielort: Bremer Brücke\, 
+ Hannes-Haferkamp-Platz 1\, 49084 Osnabrück\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Bremer+Br%C3%BCcke%2C+Hann
+ es-Haferkamp-Platz+1%2C+49084+Osnabr%C3%BCck\n\nQuelle: 
+ https://www.fussball.de/spiel/vfl-osnabrueck-hertha-bsc/-/spiel/031BG6BA74
+ 000000VS5489BUVUR5FS5A
+LOCATION:Bremer Brücke\, Hannes-Haferkamp-Platz 1\, 49084 Osnabrück
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001050@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20260919T183000Z
+DTEND:20260919T203000Z
+SUMMARY:6. Spieltag | 2.Bundesliga | SG Dynamo Dresden – Hertha BSC | 
+ Anstoß: 20:30 Uhr
+DESCRIPTION:6. Spieltag\n2.Bundesliga\nSG Dynamo Dresden – Hertha 
+ BSC\nAnstoß: 20:30 Uhr\n\n\nSpielort: Rudolf-Harbig-Stadion Dresden\, 
+ Lennestr. 12\, 01069 Dresden\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion+Dres
+ den%2C+Lennestr.+12%2C+01069+Dresden\n\nQuelle: 
+ https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6B
+ AN4000000VS5489BUVUR5FS5A
+LOCATION:Rudolf-Harbig-Stadion Dresden\, Lennestr. 12\, 01069 Dresden
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001058@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20261011T113000Z
+DTEND:20261011T133000Z
+SUMMARY:7. Spieltag | 2.Bundesliga | Hertha BSC – SpVgg Greuther Fürth |
+ Anstoß: 13:30 Uhr
+DESCRIPTION:7. Spieltag\n2.Bundesliga\nHertha BSC – SpVgg Greuther 
+ Fürth\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
+ Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
+ pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
+ : https://www.fussball.de/spiel/hertha-bsc-spvgg-greuther-fuerth/-/spiel/0
+ 31BG6BB9O000000VS5489BUVUR5FS5A
+LOCATION:Olympiastadion\, Olympischer Platz 3\, 14053 Berlin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001069@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20261018T113000Z
+DTEND:20261018T133000Z
+SUMMARY:8. Spieltag | 2.Bundesliga | Holstein Kiel – Hertha BSC | 
+ Anstoß: 13:30 Uhr
+DESCRIPTION:8. Spieltag\n2.Bundesliga\nHolstein Kiel – Hertha 
+ BSC\nAnstoß: 13:30 Uhr\n\n\nSpielort: Kieler-Holstein-Stadion\, Westring 
+ 501\, 24106 Kiel\nGoogle Maps: https://www.google.com/maps/search/?api=1&q
+ uery=Kieler-Holstein-Stadion%2C+Westring+501%2C+24106+Kiel\n\nQuelle: 
+ https://www.fussball.de/spiel/holstein-kiel-hertha-bsc/-/spiel/031BG6BC340
+ 00000VS5489BUVUR5FS5A
+LOCATION:Kieler-Holstein-Stadion\, Westring 501\, 24106 Kiel
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u21-890001075@rsv-kalender
+DTSTAMP:20260805T075646Z
+DTSTART:20261025T123000Z
+DTEND:20261025T143000Z
+SUMMARY:9. Spieltag | 2.Bundesliga | Hertha BSC – DSC Arminia Bielefeld |
+ Anstoß: 13:30 Uhr
+DESCRIPTION:9. Spieltag\n2.Bundesliga\nHertha BSC – DSC Arminia 
+ Bielefeld\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
+ Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
+ pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
+ : https://www.fussball.de/spiel/hertha-bsc-dsc-arminia-bielefeld/-/spiel/0
+ 31BG6BCH8000000VS5489BUVUR5FS5A
+LOCATION:Olympiastadion\, Olympischer Platz 3\, 14053 Berlin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

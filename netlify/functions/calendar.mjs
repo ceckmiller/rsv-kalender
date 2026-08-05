@@ -1,6 +1,6 @@
 import { getStore } from '@netlify/blobs';
 
-const files = new Set(['rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics']);
+const files = new Set(['rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics', 'hertha-bsc.ics']);
 
 async function readStatic(file) {
   const base = process.env.URL || 'https://rsv-kalender.netlify.app';

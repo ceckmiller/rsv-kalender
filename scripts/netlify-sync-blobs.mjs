@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
 import { getStore } from '@netlify/blobs';
 
-const files = ['site-data.json', 'rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics', 'venue-cache.json'];
+const files = ['site-data.json', 'rsv-regionalliga.ics', 'rsv-u23.ics', 'rsv-u21.ics', 'rsv-u19.ics', 'hertha-bsc.ics', 'venue-cache.json'];
 
 function contentHash(file, content) {
   if (file === 'site-data.json') {
