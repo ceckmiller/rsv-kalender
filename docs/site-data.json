@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:55:21.677505+02:00",
+  "generated_at": "2026-08-05T11:10:29.360919+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -152,7 +152,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
         },
         {
           "id": "rl-05",
@@ -203,7 +203,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
         },
         {
           "id": "rl-07",
@@ -220,7 +220,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
         },
         {
           "id": "rl-08",
@@ -5753,7 +5753,7 @@
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
       },
       "next_home": null
     },
@@ -10889,25 +10889,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 3,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10924,7 +10907,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10941,7 +10924,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -10958,7 +10941,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10975,7 +10958,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -10992,7 +10975,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
