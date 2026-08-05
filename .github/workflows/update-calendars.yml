@@ -29,6 +29,18 @@ jobs:
         run: |
           python update_calendars.py
 
+      - name: Live-Daten in Netlify Blobs veröffentlichen
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: |
+          if [ -n "$NETLIFY_SITE_ID" ] && [ -n "$NETLIFY_AUTH_TOKEN" ]; then
+            npm install --omit=dev
+            node scripts/publish-live-data.mjs
+          else
+            echo "Netlify-Secrets fehlen – Blobs-Update übersprungen."
+          fi
+
       - name: Änderungen committen
         run: |
           git config user.name "github-actions[bot]"

@@ -4,6 +4,9 @@
   functions = "netlify/functions"
   ignore = "bash scripts/should-netlify-build.sh"
 
+[functions.calendar]
+  included_files = ["docs/*.ics"]
+
 [[redirects]]
   from = "/api/site-data"
   to = "/.netlify/functions/site-data"

@@ -19,7 +19,7 @@ fi
 
 for file in "${changed[@]}"; do
   case "$file" in
-    docs/site-data.json|docs/rsv-*.ics|data/*.json) ;;
+    docs/site-data.json|docs/*.ics|data/*.json) ;;
     *) echo "Build nötig: $file geändert."; exit 1 ;;
   esac
 done
