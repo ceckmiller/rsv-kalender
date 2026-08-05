@@ -921,9 +921,15 @@ def merge(base, remote):
         game['away']=_clean_team_name(game.get('away',''))
     # Secondary identity lets remote IDs change without duplicating games.
     by_identity={(g['date'],g['home'],g['away']):g['id'] for g in result.values()}
+    by_pair={(normalize_match_name(g['home']), normalize_match_name(g['away'])):g['id'] for g in result.values()}
     for g in remote:
         g={**g,'home':_clean_team_name(g.get('home','')),'away':_clean_team_name(g.get('away',''))}
-        target=g['id'] if g['id'] in result else by_identity.get((g['date'],g['home'],g['away']),g['id'])
+        pair=(normalize_match_name(g['home']), normalize_match_name(g['away']))
+        target=(
+            g['id'] if g['id'] in result
+            else by_identity.get((g['date'],g['home'],g['away']))
+            or by_pair.get(pair, g['id'])
+        )
         old=result.get(target,{})
         merged={**old,**{k:v for k,v in g.items() if v not in ('',None)},'id':target}
         merged['location']=prefer_location(old.get('location'), g.get('location'))
@@ -1576,6 +1582,13 @@ def fetch_regionalliga_rounds(expected_matchdays=34):
     # Keep previously fetched Landespokal/cup pairings for the same team key.
     cups=[x for x in payload.get('regionalliga', []) if x.get('kind') == 'cup']
     payload['regionalliga']=groups+cups
+    fussball_url=regionalliga_fussball_url()
+    if fussball_url:
+        try:
+            fussball_games=dedupe(parse_fussball(fetch(fussball_url), 'RSV Eintracht 1949', fussball_url))
+            payload=overlay_fussball_round_pairings(payload, fussball_games)
+        except Exception as exc:
+            warnings.warn(f'FUSSBALL.DE Spieltags-Termine konnten nicht übernommen werden: {exc}')
     save_json(DATA/'rounds.json', payload)
     print(f'Regionalliga: {len(groups)} Spieltage mit Gesamtpaarungen übernommen')
     return payload
@@ -1853,6 +1866,79 @@ def build_round_groups(key, games, clubs, discovered_logos):
         out.append(grp)
     return sorted(out,key=lambda x:(x.get('date') or '',x.get('title') or ''))
 
+def overlay_fussball_schedule(dfb_games, fussball_games):
+    """Apply FUSSBALL.DE kickoff dates onto DFB fixtures matched by home/away."""
+    fb_by_pair=_fussball_schedule_index(fussball_games)
+    out=[]
+    updated=0
+    for original in dfb_games:
+        g=deepcopy(original)
+        if not is_league_game(g):
+            out.append(g)
+            continue
+        fb=fb_by_pair.get((normalize_match_name(g['home']), normalize_match_name(g['away'])))
+        if not fb:
+            out.append(g)
+            continue
+        if fb.get('date') and fb.get('date') != g.get('date'):
+            g['date']=fb['date']
+            updated += 1
+        if fb.get('time'):
+            g['time']=fb['time']
+        if fb.get('match_number'):
+            g['match_number']=fb['match_number']
+        fb_url=str(fb.get('source_url') or '')
+        if fb_url and '/spiel/' in fb_url:
+            g['source_url']=fb_url
+        out.append(g)
+    if updated:
+        print(f'FUSSBALL.DE: {updated} Regionalliga-Termin(e) auf aktuelle Anstoßzeit gelegt')
+    return sorted(out, key=lambda x:(x['date'], x.get('time','00:00')))
+
+
+def _fussball_schedule_index(fussball_games):
+    fb_by_pair={}
+    for g in fussball_games:
+        if not is_league_game(g):
+            continue
+        comp=competition_label(g.get('competition','')).casefold()
+        if 'regionalliga' not in comp:
+            continue
+        fb_by_pair[(normalize_match_name(g['home']), normalize_match_name(g['away']))]=g
+    return fb_by_pair
+
+
+def overlay_fussball_round_pairings(payload, fussball_games):
+    """Sync Spieltags-Paarungen in rounds.json with FUSSBALL.DE kickoff times."""
+    fb_by_pair=_fussball_schedule_index(fussball_games)
+    if not fb_by_pair:
+        return payload
+    updated=0
+    for group in payload.get('regionalliga', []):
+        if group.get('kind') != 'league':
+            continue
+        for match in group.get('matches', []):
+            fb=fb_by_pair.get((normalize_match_name(match.get('home','')), normalize_match_name(match.get('away',''))))
+            if not fb:
+                continue
+            if fb.get('date') and fb.get('date') != match.get('date'):
+                match['date']=fb['date']
+                updated += 1
+            if fb.get('time'):
+                match['time']=fb['time']
+    if updated:
+        print(f'FUSSBALL.DE: {updated} Spieltags-Termin(e) in rounds.json aktualisiert')
+    return payload
+
+
+def regionalliga_fussball_url():
+    meta=load_json(DATA/'regionalliga.json')
+    for url in meta.get('source_urls') or []:
+        if 'fussball.de' in url:
+            return url
+    return ''
+
+
 def filter_official_fussball_fixtures(games, meta=None):
     """Drop historical/noise rows from FUSSBALL.DE team pages (text fallback junk)."""
     meta=meta or {}
@@ -2048,7 +2134,8 @@ def validate_schedule_completeness(key, meta, existing, remote, source_errors=No
 
     # A known complete local/live baseline must never be replaced by a clearly
     # truncated page response (for example the first 9 or 10 visible fixtures).
-    reference = max(expected, existing_league)
+    # Ignore inflated local counts from stale duplicate rows above the season size.
+    reference = max(expected, existing_league if not expected or existing_league <= expected else expected)
     if reference and remote_league < reference:
         details = ' | '.join(source_errors or [])
         raise RuntimeError(
@@ -2074,24 +2161,40 @@ def process(key,offline=False):
     if not offline:
         try:
             urls=meta.get('source_urls') or [meta.get('source_url','')]
+            dfb_urls=[u for u in urls if 'datencenter.dfb.de' in u]
+            fussball_urls=[u for u in urls if 'fussball.de' in u]
+            other_urls=[u for u in urls if u not in dfb_urls and u not in fussball_urls]
             parsed=[]
+            dfb_parsed=[]
+            fussball_parsed=[]
             source_errors=[]
             expected=int(meta.get('expected_league_games') or 0)
-            for url in [u for u in urls if u]:
+            for url in dfb_urls + other_urls:
                 try:
                     html=fetch(url)
-                    parsed += parse_dfb(html,meta['team_name']) if 'datencenter.dfb.de' in url else parse_fussball(html,meta['team_name'],url)
-                    # The official print page already contains the full season.
-                    # Skipping the shorter team/AJAX page avoids duplicate junk
-                    # rows that FUSSBALL.DE injects into the public team view.
+                    batch=parse_dfb(html,meta['team_name']) if 'datencenter.dfb.de' in url else parse_fussball(html,meta['team_name'],url)
+                    parsed += batch
+                    if 'datencenter.dfb.de' in url:
+                        dfb_parsed += batch
+                except Exception as source_exc:
+                    source_errors.append(f'{url}: {source_exc}')
+            for url in fussball_urls:
+                try:
+                    html=fetch(url)
+                    batch=parse_fussball(html,meta['team_name'],url)
+                    parsed += batch
+                    fussball_parsed += batch
                     if expected and (
                         'vereinsspielplan.druck' in url or 'mode/PRINT' in url.upper()
                     ) and league_game_count(dedupe(parsed)) >= expected:
                         break
                 except Exception as source_exc:
                     source_errors.append(f'{url}: {source_exc}')
-            remote=dedupe(parsed)
-            validate_schedule_completeness(key, meta, games, remote, source_errors)
+            schedule_source=dedupe(dfb_parsed) if dfb_parsed else dedupe(parsed)
+            if dfb_parsed and fussball_parsed:
+                schedule_source=overlay_fussball_schedule(schedule_source, dedupe(fussball_parsed))
+            remote=schedule_source if dfb_parsed else dedupe(parsed)
+            validate_schedule_completeness(key, meta, games, schedule_source if dfb_parsed else remote, source_errors)
         except Exception as e: err=str(e); remote=[]
     venue_cache=load_venue_cache()
     merged=merge(games,remote)

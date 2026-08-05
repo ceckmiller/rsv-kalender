@@ -477,8 +477,8 @@
       "matches": [
         {
           "id": "rl-md5-433db02a84aa",
-          "date": "2026-08-16",
-          "time": "14:00",
+          "date": "2026-08-14",
+          "time": "19:00",
           "home": "SV Babelsberg 03",
           "away": "RSV Eintracht 1949",
           "result": null,
@@ -619,7 +619,7 @@
         {
           "id": "rl-md6-d0a786940a1b",
           "date": "2026-08-26",
-          "time": "19:00",
+          "time": "18:00",
           "home": "RSV Eintracht 1949",
           "away": "FSV Zwickau",
           "result": null,
@@ -828,8 +828,8 @@
       "matches": [
         {
           "id": "rl-md8-f2c743d80021",
-          "date": "2026-09-13",
-          "time": "14:00",
+          "date": "2026-09-11",
+          "time": "19:00",
           "home": "FC Rot-Weiß Erfurt",
           "away": "RSV Eintracht 1949",
           "result": null,
@@ -1042,7 +1042,7 @@
         {
           "id": "rl-md9-33c52662b489",
           "date": "2026-09-16",
-          "time": "19:00",
+          "time": "17:00",
           "home": "RSV Eintracht 1949",
           "away": "Greifswalder FC",
           "result": null,

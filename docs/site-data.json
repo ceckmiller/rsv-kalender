@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:00:33.140930+02:00",
+  "generated_at": "2026-08-05T10:28:27.344020+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht – Regionalliga",
@@ -148,8 +148,8 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
@@ -157,16 +157,16 @@
         {
           "id": "rl-05",
           "matchday": 5,
-          "date": "2026-08-16",
-          "time": "14:00",
+          "date": "2026-08-14",
+          "time": "19:00",
           "competition": "Regionalliga Nordost",
           "home": "SV Babelsberg 03",
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/sv-babelsberg-03.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
-          "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Straße 90, 14482 Potsdam",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Stra%C3%9Fe+90%2C+14482+Potsdam",
+          "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Str.+90%2C+14482+Potsdam",
           "is_home": false,
           "round": "",
           "ticket_url": ""
@@ -192,15 +192,15 @@
           "id": "rl-06",
           "matchday": 6,
           "date": "2026-08-26",
-          "time": "19:00",
+          "time": "18:00",
           "competition": "Regionalliga Nordost",
           "home": "RSV Eintracht 1949",
           "away": "FSV Zwickau",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/fsv-zwickau.png",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
@@ -216,8 +216,8 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
@@ -225,16 +225,16 @@
         {
           "id": "rl-08",
           "matchday": 8,
-          "date": "2026-09-13",
-          "time": "14:00",
+          "date": "2026-09-11",
+          "time": "19:00",
           "competition": "Regionalliga Nordost",
           "home": "FC Rot-Weiß Erfurt",
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
-          "location": "Steigerwaldstadion, Mozartallee 3, 99096 Erfurt",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Mozartallee+3%2C+99096+Erfurt",
+          "location": "Steigerwaldstadion, Arnstädter Str. 55, 99096 Erfurt",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Arnst%C3%A4dter+Str.+55%2C+99096+Erfurt",
           "is_home": false,
           "round": "",
           "ticket_url": ""
@@ -243,15 +243,15 @@
           "id": "rl-09",
           "matchday": 9,
           "date": "2026-09-16",
-          "time": "19:00",
+          "time": "17:00",
           "competition": "Regionalliga Nordost",
           "home": "RSV Eintracht 1949",
           "away": "Greifswalder FC",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/greifswalder-fc.png",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
@@ -284,8 +284,8 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/chemnitzer-fc.png",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
@@ -301,8 +301,8 @@
           "home_logo": "/assets/clubs/hallescher-fc.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
-          "location": "Leuna-Chemie-Stadion, Kantstraße 2, 06110 Halle (Saale)",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Leuna-Chemie-Stadion%2C+Kantstra%C3%9Fe+2%2C+06110+Halle+%28Saale%29",
+          "location": "LEUNA-CHEMIE-STADION, Kantstr. 2, 06110 Halle (Saale)",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=LEUNA-CHEMIE-STADION%2C+Kantstr.+2%2C+06110+Halle+%28Saale%29",
           "is_home": false,
           "round": "",
           "ticket_url": ""
@@ -1235,6 +1235,20 @@
           "round": "5",
           "matches": [
             {
+              "id": "rl-md5-433db02a84aa",
+              "date": "2026-08-14",
+              "time": "19:00",
+              "home": "SV Babelsberg 03",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 5,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
+            {
               "id": "rl-md5-ab363b250988",
               "date": "2026-08-16",
               "time": "14:00",
@@ -1319,20 +1333,6 @@
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             },
             {
-              "id": "rl-md5-433db02a84aa",
-              "date": "2026-08-16",
-              "time": "14:00",
-              "home": "SV Babelsberg 03",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 5,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md5-e00f9ee7a971",
               "date": "2026-08-16",
               "time": "14:00",
@@ -1361,7 +1361,7 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             }
           ],
-          "date": "2026-08-16"
+          "date": "2026-08-14"
         },
         {
           "id": "cup:Landespokal Brandenburg:1. Runde",
@@ -1802,6 +1802,20 @@
           "round": "6",
           "matches": [
             {
+              "id": "rl-md6-d0a786940a1b",
+              "date": "2026-08-26",
+              "time": "18:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FSV Zwickau",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 6,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fsv-zwickau.png"
+            },
+            {
               "id": "rl-md6-b5db1f6462c4",
               "date": "2026-08-26",
               "time": "19:00",
@@ -1912,20 +1926,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hallescher-fc.png",
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
-            },
-            {
-              "id": "rl-md6-d0a786940a1b",
-              "date": "2026-08-26",
-              "time": "19:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FSV Zwickau",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 6,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fsv-zwickau.png"
             }
           ],
           "date": "2026-08-26"
@@ -2074,6 +2074,20 @@
           "round": "8",
           "matches": [
             {
+              "id": "rl-md8-f2c743d80021",
+              "date": "2026-09-11",
+              "time": "19:00",
+              "home": "FC Rot-Weiß Erfurt",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            },
+            {
               "id": "rl-md8-a314e4634be5",
               "date": "2026-09-13",
               "time": "14:00",
@@ -2144,20 +2158,6 @@
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
-              "id": "rl-md8-f2c743d80021",
-              "date": "2026-09-13",
-              "time": "14:00",
-              "home": "FC Rot-Weiß Erfurt",
-              "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 8,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "rl-md8-364e578a6b75",
               "date": "2026-09-13",
               "time": "14:00",
@@ -2200,7 +2200,7 @@
               "away_logo": "/assets/clubs/chemnitzer-fc.png"
             }
           ],
-          "date": "2026-09-13"
+          "date": "2026-09-11"
         },
         {
           "id": "league:Regionalliga Nordost:9",
@@ -2209,6 +2209,20 @@
           "competition": "Regionalliga Nordost",
           "round": "9",
           "matches": [
+            {
+              "id": "rl-md9-33c52662b489",
+              "date": "2026-09-16",
+              "time": "17:00",
+              "home": "RSV Eintracht 1949",
+              "away": "Greifswalder FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/greifswalder-fc.png"
+            },
             {
               "id": "rl-md9-6a4d7c3ea878",
               "date": "2026-09-16",
@@ -2306,20 +2320,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hertha-bsc-ii.png",
               "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
-            },
-            {
-              "id": "rl-md9-33c52662b489",
-              "date": "2026-09-16",
-              "time": "19:00",
-              "home": "RSV Eintracht 1949",
-              "away": "Greifswalder FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 9,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
             {
               "id": "rl-md9-5623f11df87f",
@@ -5749,8 +5749,8 @@
         "away": "BSG Chemie Leipzig",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
         "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
-        "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+        "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
         "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
