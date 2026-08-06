@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T21:59:39.805331+02:00",
+  "generated_at": "2026-08-06T05:44:55.019219+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -29,7 +29,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "rl-02",
@@ -55,7 +55,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "rl-03",
@@ -82,7 +82,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
           "points": 4,
-          "table_position": 9
+          "table_position": 10
         }
       ],
       "fixtures": [
@@ -1043,7 +1043,7 @@
               "time": "19:00",
               "home": "BFC Preussen 1894",
               "away": "1. FC Lok Leipzig",
-              "result": null,
+              "result": "1:2",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -1057,7 +1057,7 @@
               "time": "19:00",
               "home": "BSG Chemie Leipzig",
               "away": "Hallescher FC",
-              "result": null,
+              "result": "0:1",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -1071,7 +1071,7 @@
               "time": "19:00",
               "home": "FC Rot-Weiß Erfurt",
               "away": "SV Tasmania Berlin",
-              "result": null,
+              "result": "6:0",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -11270,6 +11270,18 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
+          "team": "FC Rot-Weiß Erfurt",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals": "11:2",
+          "diff": "+9",
+          "points": 7,
+          "position": 2,
+          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
+        },
+        {
           "team": "Greifswalder FC",
           "played": 3,
           "wins": 2,
@@ -11278,8 +11290,20 @@
           "goals": "9:3",
           "diff": "+6",
           "points": 7,
-          "position": 2,
+          "position": 3,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
+        },
+        {
+          "team": "1. FC Lok Leipzig",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals": "8:5",
+          "diff": "+3",
+          "points": 7,
+          "position": 4,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "FC Carl Zeiss Jena",
@@ -11290,8 +11314,20 @@
           "goals": "6:2",
           "diff": "+4",
           "points": 6,
-          "position": 3,
+          "position": 5,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+        },
+        {
+          "team": "Hallescher FC",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals": "4:3",
+          "diff": "+1",
+          "points": 5,
+          "position": 6,
+          "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
           "team": "1. FC Magdeburg II",
@@ -11302,32 +11338,8 @@
           "goals": "8:5",
           "diff": "+3",
           "points": 4,
-          "position": 4,
+          "position": 7,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
-          "team": "FC Rot-Weiß Erfurt",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goals": "5:2",
-          "diff": "+3",
-          "points": 4,
-          "position": 5,
-          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
-        },
-        {
-          "team": "1. FC Lok Leipzig",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goals": "6:4",
-          "diff": "+2",
-          "points": 4,
-          "position": 6,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "Erzgebirge Aue",
@@ -11338,7 +11350,7 @@
           "goals": "5:3",
           "diff": "+2",
           "points": 4,
-          "position": 7,
+          "position": 8,
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
@@ -11350,7 +11362,7 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 4,
-          "position": 8,
+          "position": 9,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
@@ -11362,7 +11374,7 @@
           "goals": "4:5",
           "diff": "-1",
           "points": 4,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
@@ -11374,7 +11386,7 @@
           "goals": "3:4",
           "diff": "-1",
           "points": 3,
-          "position": 10,
+          "position": 11,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
@@ -11386,7 +11398,7 @@
           "goals": "3:7",
           "diff": "-4",
           "points": 3,
-          "position": 11,
+          "position": 12,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
@@ -11398,7 +11410,7 @@
           "goals": "2:6",
           "diff": "-4",
           "points": 3,
-          "position": 12,
+          "position": 13,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },
         {
@@ -11410,56 +11422,32 @@
           "goals": "5:5",
           "diff": "0",
           "points": 2,
-          "position": 13,
+          "position": 14,
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
-          "team": "Hallescher FC",
-          "played": 2,
-          "wins": 0,
-          "draws": 2,
-          "losses": 0,
-          "goals": "3:3",
-          "diff": "0",
-          "points": 2,
-          "position": 14,
-          "logo_url": "/assets/clubs/hallescher-fc.png"
-        },
-        {
           "team": "BFC Preussen 1894",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 1,
-          "losses": 1,
-          "goals": "1:4",
-          "diff": "-3",
+          "losses": 2,
+          "goals": "2:6",
+          "diff": "-4",
           "points": 1,
           "position": 15,
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
         },
         {
           "team": "BSG Chemie Leipzig",
-          "played": 2,
+          "played": 3,
           "wins": 0,
           "draws": 0,
-          "losses": 2,
-          "goals": "0:4",
-          "diff": "-4",
+          "losses": 3,
+          "goals": "0:5",
+          "diff": "-5",
           "points": 0,
           "position": 16,
           "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
-        },
-        {
-          "team": "SV Tasmania Berlin",
-          "played": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "goals": "1:7",
-          "diff": "-6",
-          "points": 0,
-          "position": 17,
-          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         },
         {
           "team": "Hertha BSC II",
@@ -11470,8 +11458,20 @@
           "goals": "1:8",
           "diff": "-7",
           "points": 0,
-          "position": 18,
+          "position": 17,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
+        },
+        {
+          "team": "SV Tasmania Berlin",
+          "played": 3,
+          "wins": 0,
+          "draws": 0,
+          "losses": 3,
+          "goals": "1:13",
+          "diff": "-12",
+          "points": 0,
+          "position": 18,
+          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         }
       ]
     },
