@@ -7,7 +7,7 @@ X-WR-CALNAME:Hertha BSC
 X-PUBLISHED-TTL:PT6H
 BEGIN:VEVENT
 UID:u21-890001001-20260807T2030@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260807T183000Z
 DTEND:20260807T203000Z
 SEQUENCE:1
@@ -25,7 +25,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001012-20260815T1300@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260815T110000Z
 DTEND:20260815T130000Z
 SEQUENCE:1
@@ -43,7 +43,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-870049018-20260822T1530@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260822T133000Z
 DTEND:20260822T153000Z
 SEQUENCE:1
@@ -62,32 +62,14 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:u21-890001026-20260828T1830@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
-DTSTART:20260828T163000Z
-DTEND:20260828T183000Z
-SEQUENCE:1
-SUMMARY:3. Spieltag | 2.Bundesliga | Eintracht Braunschweig – Hertha BSC 
- | Anstoß: 18:30 Uhr
-DESCRIPTION:3. Spieltag\n2.Bundesliga\nEintracht Braunschweig – Hertha 
- BSC\nAnstoß: 18:30 Uhr\n\n\nSpielort: Eintracht Stadion\, Hamburger Str. 
- 210\, 38112 Braunschweig\nGoogle Maps: https://www.google.com/maps/search/
- ?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig
- \n\nQuelle: https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bs
- c/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A
-LOCATION:Eintracht Stadion\, Hamburger Str. 210\, 38112 Braunschweig
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:u21-890001031-20260906T1330@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260906T113000Z
 DTEND:20260906T133000Z
 SEQUENCE:1
-SUMMARY:4. Spieltag | 2.Bundesliga | Hertha BSC – 1. FC Magdeburg | 
+SUMMARY:3. Spieltag | 2.Bundesliga | Hertha BSC – 1. FC Magdeburg | 
  Anstoß: 13:30 Uhr
-DESCRIPTION:4. Spieltag\n2.Bundesliga\nHertha BSC – 1. FC 
+DESCRIPTION:3. Spieltag\n2.Bundesliga\nHertha BSC – 1. FC 
  Magdeburg\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
  Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
  pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
@@ -99,13 +81,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001045-20260913T1330@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260913T113000Z
 DTEND:20260913T133000Z
 SEQUENCE:1
-SUMMARY:5. Spieltag | 2.Bundesliga | VfL Osnabrück – Hertha BSC | 
+SUMMARY:4. Spieltag | 2.Bundesliga | VfL Osnabrück – Hertha BSC | 
  Anstoß: 13:30 Uhr
-DESCRIPTION:5. Spieltag\n2.Bundesliga\nVfL Osnabrück – Hertha 
+DESCRIPTION:4. Spieltag\n2.Bundesliga\nVfL Osnabrück – Hertha 
  BSC\nAnstoß: 13:30 Uhr\n\n\nSpielort: Bremer Brücke\, 
  Hannes-Haferkamp-Platz 1\, 49084 Osnabrück\nGoogle Maps: 
  https://www.google.com/maps/search/?api=1&query=Bremer+Br%C3%BCcke%2C+Hann
@@ -118,13 +100,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001050-20260919T2030@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20260919T183000Z
 DTEND:20260919T203000Z
 SEQUENCE:1
-SUMMARY:6. Spieltag | 2.Bundesliga | SG Dynamo Dresden – Hertha BSC | 
+SUMMARY:5. Spieltag | 2.Bundesliga | SG Dynamo Dresden – Hertha BSC | 
  Anstoß: 20:30 Uhr
-DESCRIPTION:6. Spieltag\n2.Bundesliga\nSG Dynamo Dresden – Hertha 
+DESCRIPTION:5. Spieltag\n2.Bundesliga\nSG Dynamo Dresden – Hertha 
  BSC\nAnstoß: 20:30 Uhr\n\n\nSpielort: Rudolf-Harbig-Stadion Dresden\, 
  Lennestr. 12\, 01069 Dresden\nGoogle Maps: 
  https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion+Dres
@@ -137,13 +119,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001058-20261011T1330@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20261011T113000Z
 DTEND:20261011T133000Z
 SEQUENCE:1
-SUMMARY:7. Spieltag | 2.Bundesliga | Hertha BSC – SpVgg Greuther Fürth |
+SUMMARY:6. Spieltag | 2.Bundesliga | Hertha BSC – SpVgg Greuther Fürth |
  Anstoß: 13:30 Uhr
-DESCRIPTION:7. Spieltag\n2.Bundesliga\nHertha BSC – SpVgg Greuther 
+DESCRIPTION:6. Spieltag\n2.Bundesliga\nHertha BSC – SpVgg Greuther 
  Fürth\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
  Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
  pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
@@ -155,13 +137,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001069-20261018T1330@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20261018T113000Z
 DTEND:20261018T133000Z
 SEQUENCE:1
-SUMMARY:8. Spieltag | 2.Bundesliga | Holstein Kiel – Hertha BSC | 
+SUMMARY:7. Spieltag | 2.Bundesliga | Holstein Kiel – Hertha BSC | 
  Anstoß: 13:30 Uhr
-DESCRIPTION:8. Spieltag\n2.Bundesliga\nHolstein Kiel – Hertha 
+DESCRIPTION:7. Spieltag\n2.Bundesliga\nHolstein Kiel – Hertha 
  BSC\nAnstoß: 13:30 Uhr\n\n\nSpielort: Kieler-Holstein-Stadion\, Westring 
  501\, 24106 Kiel\nGoogle Maps: https://www.google.com/maps/search/?api=1&q
  uery=Kieler-Holstein-Stadion%2C+Westring+501%2C+24106+Kiel\n\nQuelle: 
@@ -173,13 +155,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u21-890001075-20261025T1330@rsv-eintracht.de
-DTSTAMP:20260806T091010Z
+DTSTAMP:20260806T143715Z
 DTSTART:20261025T123000Z
 DTEND:20261025T143000Z
 SEQUENCE:1
-SUMMARY:9. Spieltag | 2.Bundesliga | Hertha BSC – DSC Arminia Bielefeld |
+SUMMARY:8. Spieltag | 2.Bundesliga | Hertha BSC – DSC Arminia Bielefeld |
  Anstoß: 13:30 Uhr
-DESCRIPTION:9. Spieltag\n2.Bundesliga\nHertha BSC – DSC Arminia 
+DESCRIPTION:8. Spieltag\n2.Bundesliga\nHertha BSC – DSC Arminia 
  Bielefeld\nAnstoß: 13:30 Uhr\n\n\nSpielort: Olympiastadion\, Olympischer 
  Platz 3\, 14053 Berlin\nGoogle Maps: https://www.google.com/maps/search/?a
  pi=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin\n\nQuelle
