@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T16:39:50.295414+02:00",
+  "generated_at": "2026-08-07T02:19:07.697805+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1085,7 +1085,7 @@
               "time": "19:00",
               "home": "Erzgebirge Aue",
               "away": "BFC Dynamo",
-              "result": null,
+              "result": "3:2",
               "halftime_result": null,
               "location": "",
               "matchday": 3,
@@ -5925,14 +5925,14 @@
           "ticket_url": ""
         },
         {
-          "id": "u23-liga-20260830",
+          "id": "u23-610138004",
           "matchday": 1,
-          "date": "2026-08-30",
+          "date": "2026-08-29",
           "time": "15:00",
           "competition": "Kreisoberliga",
-          "home": "SV Ziesar 1",
+          "home": "SV Ziesar 31",
           "away": "RSV Eintracht 1949 U23",
-          "home_logo": "/assets/clubs/sv-ziesar-1.png",
+          "home_logo": "/assets/clubs/sv-ziesar-31.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
@@ -5942,14 +5942,14 @@
           "ticket_url": ""
         },
         {
-          "id": "u23-610138004",
+          "id": "u23-liga-20260830",
           "matchday": 2,
           "date": "2026-08-30",
           "time": "15:00",
           "competition": "Kreisoberliga",
-          "home": "SV Ziesar 31",
+          "home": "SV Ziesar 1",
           "away": "RSV Eintracht 1949 U23",
-          "home_logo": "/assets/clubs/sv-ziesar-31.png",
+          "home_logo": "/assets/clubs/sv-ziesar-1.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
@@ -6553,22 +6553,22 @@
           "round": "1",
           "matches": [
             {
-              "id": "u23-liga-20260830",
-              "date": "2026-08-30",
+              "id": "u23-610138004",
+              "date": "2026-08-29",
               "time": "15:00",
-              "home": "SV Ziesar 1",
+              "home": "SV Ziesar 31",
               "away": "RSV Eintracht 1949 U23",
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
               "matchday": 1,
-              "team_fixture_id": "u23-liga-20260830",
-              "home_logo": "/assets/clubs/sv-ziesar-1.png",
+              "team_fixture_id": "u23-610138004",
+              "home_logo": "/assets/clubs/sv-ziesar-31.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-30",
-          "date_end": "2026-08-30"
+          "date": "2026-08-29",
+          "date_end": "2026-08-29"
         },
         {
           "id": "league:Kreisoberliga:2",
@@ -6578,17 +6578,17 @@
           "round": "2",
           "matches": [
             {
-              "id": "u23-610138004",
+              "id": "u23-liga-20260830",
               "date": "2026-08-30",
               "time": "15:00",
-              "home": "SV Ziesar 31",
+              "home": "SV Ziesar 1",
               "away": "RSV Eintracht 1949 U23",
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
               "matchday": 2,
-              "team_fixture_id": "u23-610138004",
-              "home_logo": "/assets/clubs/sv-ziesar-31.png",
+              "team_fixture_id": "u23-liga-20260830",
+              "home_logo": "/assets/clubs/sv-ziesar-1.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
@@ -11346,6 +11346,18 @@
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
+          "team": "Erzgebirge Aue",
+          "played": 3,
+          "wins": 2,
+          "draws": 1,
+          "losses": 0,
+          "goals": "8:5",
+          "diff": "+3",
+          "points": 7,
+          "position": 5,
+          "logo_url": "/assets/clubs/erzgebirge-aue.png"
+        },
+        {
           "team": "FC Carl Zeiss Jena",
           "played": 3,
           "wins": 2,
@@ -11354,7 +11366,7 @@
           "goals": "6:2",
           "diff": "+4",
           "points": 6,
-          "position": 5,
+          "position": 6,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
@@ -11366,7 +11378,7 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 5,
-          "position": 6,
+          "position": 7,
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
@@ -11378,20 +11390,8 @@
           "goals": "8:5",
           "diff": "+3",
           "points": 4,
-          "position": 7,
-          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
-          "team": "Erzgebirge Aue",
-          "played": 2,
-          "wins": 1,
-          "draws": 1,
-          "losses": 0,
-          "goals": "5:3",
-          "diff": "+2",
-          "points": 4,
           "position": 8,
-          "logo_url": "/assets/clubs/erzgebirge-aue.png"
+          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
           "team": "SV Babelsberg 03",
@@ -11419,12 +11419,12 @@
         },
         {
           "team": "BFC Dynamo",
-          "played": 2,
+          "played": 3,
           "wins": 1,
           "draws": 0,
-          "losses": 1,
-          "goals": "3:4",
-          "diff": "-1",
+          "losses": 2,
+          "goals": "5:7",
+          "diff": "-2",
           "points": 3,
           "position": 11,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
