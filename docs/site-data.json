@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T02:19:07.697805+02:00",
+  "generated_at": "2026-08-07T21:18:04.969719+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -29,7 +29,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 10
+          "table_position": 11
         },
         {
           "id": "rl-02",
@@ -55,7 +55,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 10
+          "table_position": 11
         },
         {
           "id": "rl-03",
@@ -82,7 +82,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
           "points": 4,
-          "table_position": 10
+          "table_position": 11
         }
       ],
       "fixtures": [
@@ -1125,7 +1125,7 @@
               "time": "19:00",
               "home": "Greifswalder FC",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "1:3",
               "halftime_result": null,
               "location": "",
               "matchday": 4,
@@ -7364,16 +7364,16 @@
           "id": "u21-710089011",
           "matchday": null,
           "date": "2026-08-16",
-          "time": "10:30",
+          "time": "13:00",
           "competition": "Kreispokal",
-          "home": "Rot-Weiß Groß Glienicke II",
-          "away": "RSV Eintracht 1949 U21",
-          "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "home": "RSV Eintracht 1949 U21",
+          "away": "Rot-Weiß Groß Glienicke II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
           "result": "",
-          "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glienicke%2C+An+der+Sporthalle%2C+14476+Potsdam",
-          "is_home": false,
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
           "round": "1. Runde",
           "ticket_url": ""
         },
@@ -7897,19 +7897,19 @@
           "round": "1. Runde",
           "matches": [
             {
-              "id": "cup-rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21",
+              "id": "cup-rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii",
               "date": "2026-08-16",
-              "time": "10:30",
-              "home": "Rot-Weiß Groß Glienicke II",
-              "away": "RSV Eintracht 1949 U21",
+              "time": "13:00",
+              "home": "RSV Eintracht 1949 U21",
+              "away": "Rot-Weiß Groß Glienicke II",
               "result": null,
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "source_url": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
+              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii/-/spiel/031F066OOS000000VS5489BTVUS470OH",
               "team_fixture_id": "u21-710089011"
             },
             {
@@ -9256,34 +9256,19 @@
         "id": "u21-710089011",
         "matchday": null,
         "date": "2026-08-16",
-        "time": "10:30",
+        "time": "13:00",
         "competition": "Kreispokal",
-        "home": "Rot-Weiß Groß Glienicke II",
-        "away": "RSV Eintracht 1949 U21",
-        "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glienicke%2C+An+der+Sporthalle%2C+14476+Potsdam",
-        "is_home": false,
-        "round": "1. Runde",
-        "ticket_url": ""
-      },
-      "next_home": {
-        "id": "u21-610480004",
-        "matchday": 1,
-        "date": "2026-08-30",
-        "time": "14:00",
-        "competition": "Kreisliga",
         "home": "RSV Eintracht 1949 U21",
-        "away": "FV Turbine Potsdam 55",
+        "away": "Rot-Weiß Groß Glienicke II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fv-turbine-potsdam-55.png",
+        "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
         "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
-        "round": "",
+        "round": "1. Runde",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u19": {
       "name": "RSV Eintracht – U19",
@@ -11129,7 +11114,7 @@
           "away": "Hertha BSC",
           "home_logo": "/assets/clubs/vfl-bochum-1848.png",
           "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
+          "result": "20:30",
           "location": "Ruhrstadion, Castroper Straße 145, 44791 Bochum",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruhrstadion%2C+Castroper+Stra%C3%9Fe+145%2C+44791+Bochum",
           "is_home": false,
@@ -11274,19 +11259,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001001",
-        "matchday": 1,
-        "date": "2026-08-07",
-        "time": "20:30",
+        "id": "u21-890001012",
+        "matchday": 2,
+        "date": "2026-08-15",
+        "time": "13:00",
         "competition": "2.Bundesliga",
-        "home": "VfL Bochum 1848",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/vfl-bochum-1848.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "home": "Hertha BSC",
+        "away": "1. FC Heidenheim 1846",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/1-fc-heidenheim-1846.png",
         "result": "",
-        "location": "Ruhrstadion, Castroper Straße 145, 44791 Bochum",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ruhrstadion%2C+Castroper+Stra%C3%9Fe+145%2C+44791+Bochum",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }
@@ -11295,7 +11280,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 3. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 4. Spieltag)",
       "rows": [
         {
           "team": "Chemnitzer FC",
@@ -11323,12 +11308,12 @@
         },
         {
           "team": "Greifswalder FC",
-          "played": 3,
+          "played": 4,
           "wins": 2,
           "draws": 1,
-          "losses": 0,
-          "goals": "9:3",
-          "diff": "+6",
+          "losses": 1,
+          "goals": "10:6",
+          "diff": "+4",
           "points": 7,
           "position": 3,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
@@ -11370,6 +11355,18 @@
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
+          "team": "VSG Altglienicke",
+          "played": 3,
+          "wins": 1,
+          "draws": 2,
+          "losses": 0,
+          "goals": "8:6",
+          "diff": "+2",
+          "points": 5,
+          "position": 7,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
           "team": "Hallescher FC",
           "played": 3,
           "wins": 1,
@@ -11378,7 +11375,7 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 5,
-          "position": 7,
+          "position": 8,
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
@@ -11390,7 +11387,7 @@
           "goals": "8:5",
           "diff": "+3",
           "points": 4,
-          "position": 8,
+          "position": 9,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
@@ -11402,7 +11399,7 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 4,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
@@ -11414,7 +11411,7 @@
           "goals": "4:5",
           "diff": "-1",
           "points": 4,
-          "position": 10,
+          "position": 11,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
@@ -11426,7 +11423,7 @@
           "goals": "5:7",
           "diff": "-2",
           "points": 3,
-          "position": 11,
+          "position": 12,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
@@ -11438,7 +11435,7 @@
           "goals": "3:7",
           "diff": "-4",
           "points": 3,
-          "position": 12,
+          "position": 13,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
@@ -11450,20 +11447,8 @@
           "goals": "2:6",
           "diff": "-4",
           "points": 3,
-          "position": 13,
-          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 2,
-          "wins": 0,
-          "draws": 2,
-          "losses": 0,
-          "goals": "5:5",
-          "diff": "0",
-          "points": 2,
           "position": 14,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },
         {
           "team": "BFC Preussen 1894",
