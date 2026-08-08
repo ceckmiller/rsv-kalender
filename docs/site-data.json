@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:25:38.816828+02:00",
+  "generated_at": "2026-08-08T15:16:20.610893+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -9385,25 +9385,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u19-690007003",
-          "matchday": 1,
-          "date": "2026-08-16",
-          "time": "13:30",
-          "competition": "Regionalliga",
-          "home": "SC Borea Dresden",
-          "away": "RSV Eintracht 1949 U19",
-          "home_logo": "/assets/clubs/sc-borea-dresden.png",
-          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
-          "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+SG+Wei%C3%9Fig+Rasen%2C+Heinrich-Lange-Str.+37%2C+01328+Dresden",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u19-690007011",
-          "matchday": 2,
+          "matchday": 1,
           "date": "2026-08-22",
           "time": "12:00",
           "competition": "Regionalliga",
@@ -9420,7 +9403,7 @@
         },
         {
           "id": "u19-690007021",
-          "matchday": 3,
+          "matchday": 2,
           "date": "2026-08-30",
           "time": "12:00",
           "competition": "Regionalliga",
@@ -9437,7 +9420,7 @@
         },
         {
           "id": "u19-690007025",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-05",
           "time": "12:00",
           "competition": "Regionalliga",
@@ -9454,7 +9437,7 @@
         },
         {
           "id": "u19-690007033",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-12",
           "time": "13:30",
           "competition": "Regionalliga",
@@ -9471,7 +9454,7 @@
         },
         {
           "id": "u19-690007039",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-09-19",
           "time": "12:00",
           "competition": "Regionalliga",
@@ -9488,7 +9471,7 @@
         },
         {
           "id": "u19-690007046",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-09-26",
           "time": "12:00",
           "competition": "Regionalliga",
@@ -9500,6 +9483,23 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u19-690007003",
+          "matchday": 7,
+          "date": "2026-10-03",
+          "time": "13:30",
+          "competition": "Regionalliga",
+          "home": "SC Borea Dresden",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/sc-borea-dresden.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+SG+Wei%C3%9Fig+Rasen%2C+Heinrich-Lange-Str.+37%2C+01328+Dresden",
+          "is_home": false,
           "round": "",
           "ticket_url": ""
         },
@@ -10420,31 +10420,6 @@
           "round": "1",
           "matches": [
             {
-              "id": "u19-690007003",
-              "date": "2026-08-16",
-              "time": "13:30",
-              "home": "SC Borea Dresden",
-              "away": "RSV Eintracht 1949 U19",
-              "result": null,
-              "halftime_result": null,
-              "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
-              "matchday": 1,
-              "team_fixture_id": "u19-690007003",
-              "home_logo": "/assets/clubs/sc-borea-dresden.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            }
-          ],
-          "date": "2026-08-16",
-          "date_end": "2026-08-16"
-        },
-        {
-          "id": "league:Regionalliga:2",
-          "kind": "league",
-          "title": "Zweiter Spieltag Regionalliga",
-          "competition": "Regionalliga",
-          "round": "2",
-          "matches": [
-            {
               "id": "u19-690007011",
               "date": "2026-08-22",
               "time": "12:00",
@@ -10453,7 +10428,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 2,
+              "matchday": 1,
               "team_fixture_id": "u19-690007011",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bfc-dynamo.png"
@@ -10463,11 +10438,11 @@
           "date_end": "2026-08-22"
         },
         {
-          "id": "league:Regionalliga:3",
+          "id": "league:Regionalliga:2",
           "kind": "league",
-          "title": "Dritter Spieltag Regionalliga",
+          "title": "Zweiter Spieltag Regionalliga",
           "competition": "Regionalliga",
-          "round": "3",
+          "round": "2",
           "matches": [
             {
               "id": "u19-690007021",
@@ -10478,7 +10453,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Hauptplatz Bürgerschacht, Saarstr. 50, 08056 Zwickau",
-              "matchday": 3,
+              "matchday": 2,
               "team_fixture_id": "u19-690007021",
               "home_logo": "/assets/clubs/fsv-zwickau.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10488,11 +10463,11 @@
           "date_end": "2026-08-30"
         },
         {
-          "id": "league:Regionalliga:4",
+          "id": "league:Regionalliga:3",
           "kind": "league",
-          "title": "Vierter Spieltag Regionalliga",
+          "title": "Dritter Spieltag Regionalliga",
           "competition": "Regionalliga",
-          "round": "4",
+          "round": "3",
           "matches": [
             {
               "id": "u19-690007025",
@@ -10503,7 +10478,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 4,
+              "matchday": 3,
               "team_fixture_id": "u19-690007025",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fc-mecklenburg-schwerin.png"
@@ -10513,11 +10488,11 @@
           "date_end": "2026-09-05"
         },
         {
-          "id": "league:Regionalliga:5",
+          "id": "league:Regionalliga:4",
           "kind": "league",
-          "title": "Fünfter Spieltag Regionalliga",
+          "title": "Vierter Spieltag Regionalliga",
           "competition": "Regionalliga",
-          "round": "5",
+          "round": "4",
           "matches": [
             {
               "id": "u19-690007033",
@@ -10528,7 +10503,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-              "matchday": 5,
+              "matchday": 4,
               "team_fixture_id": "u19-690007033",
               "home_logo": "/assets/clubs/fc-hertha-03-zehlendorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10538,11 +10513,11 @@
           "date_end": "2026-09-12"
         },
         {
-          "id": "league:Regionalliga:6",
+          "id": "league:Regionalliga:5",
           "kind": "league",
-          "title": "Sechster Spieltag Regionalliga",
+          "title": "Fünfter Spieltag Regionalliga",
           "competition": "Regionalliga",
-          "round": "6",
+          "round": "5",
           "matches": [
             {
               "id": "u19-690007039",
@@ -10553,7 +10528,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 6,
+              "matchday": 5,
               "team_fixture_id": "u19-690007039",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/vfc-plauen.png"
@@ -10563,11 +10538,11 @@
           "date_end": "2026-09-19"
         },
         {
-          "id": "league:Regionalliga:7",
+          "id": "league:Regionalliga:6",
           "kind": "league",
-          "title": "Siebter Spieltag Regionalliga",
+          "title": "Sechster Spieltag Regionalliga",
           "competition": "Regionalliga",
-          "round": "7",
+          "round": "6",
           "matches": [
             {
               "id": "u19-690007046",
@@ -10578,7 +10553,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 7,
+              "matchday": 6,
               "team_fixture_id": "u19-690007046",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sport-club-staaken-1919.png"
@@ -10586,6 +10561,31 @@
           ],
           "date": "2026-09-26",
           "date_end": "2026-09-26"
+        },
+        {
+          "id": "league:Regionalliga:7",
+          "kind": "league",
+          "title": "Siebter Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "7",
+          "matches": [
+            {
+              "id": "u19-690007003",
+              "date": "2026-10-03",
+              "time": "13:30",
+              "home": "SC Borea Dresden",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "halftime_result": null,
+              "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
+              "matchday": 7,
+              "team_fixture_id": "u19-690007003",
+              "home_logo": "/assets/clubs/sc-borea-dresden.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            }
+          ],
+          "date": "2026-10-03",
+          "date_end": "2026-10-03"
         },
         {
           "id": "league:Regionalliga:8",
