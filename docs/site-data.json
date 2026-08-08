@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:16:20.610893+02:00",
+  "generated_at": "2026-08-08T21:02:40.674587+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -29,7 +29,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 11
+          "table_position": 9
         },
         {
           "id": "rl-02",
@@ -55,7 +55,7 @@
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 11
+          "table_position": 9
         },
         {
           "id": "rl-03",
@@ -82,7 +82,32 @@
           "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
           "points": 4,
-          "table_position": 11
+          "table_position": 9
+        },
+        {
+          "id": "rl-04",
+          "matchday": 4,
+          "date": "2026-08-08",
+          "time": "14:00",
+          "competition": "Regionalliga Nordost",
+          "home": "RSV Eintracht 1949",
+          "away": "BSG Chemie Leipzig",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
+          "result": "1:1",
+          "halftime_result": "0:1",
+          "scorers": [
+            "453. Minute – 0:1 Phillipp Wendt (RSV Eintracht 1949)",
+            "52. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1"
+          ],
+          "attendance": null,
+          "referee": "Julius Hanft",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+BSG+Chemie+Leipzig+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021",
+          "points": 5,
+          "table_position": 9
         }
       ],
       "fixtures": [
@@ -147,12 +172,12 @@
           "away": "BSG Chemie Leipzig",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
-          "result": "",
+          "result": "1:1",
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
+          "ticket_url": ""
         },
         {
           "id": "rl-05",
@@ -318,8 +343,8 @@
           "home_logo": "/assets/clubs/hertha-bsc-ii.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
-          "location": "Stadion auf dem Wurfplatz/Amateurstadion, Friedrich-Friesen-Allee, 14053 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2FAmateurstadion%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
+          "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
           "is_home": false,
           "round": "",
           "ticket_url": ""
@@ -1110,8 +1135,8 @@
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "BSG Chemie Leipzig",
-              "result": null,
-              "halftime_result": null,
+              "result": "1:1",
+              "halftime_result": "0:1",
               "location": "",
               "matchday": 4,
               "competition": "Regionalliga Nordost 2026/27",
@@ -1139,7 +1164,7 @@
               "time": "14:00",
               "home": "FSV 63 Luckenwalde",
               "away": "SV Tasmania Berlin",
-              "result": null,
+              "result": "1:2",
               "halftime_result": null,
               "location": "",
               "matchday": 4,
@@ -1153,7 +1178,7 @@
               "time": "14:30",
               "home": "1. FC Lok Leipzig",
               "away": "Hertha BSC II",
-              "result": null,
+              "result": "1:2",
               "halftime_result": null,
               "location": "",
               "matchday": 4,
@@ -5810,22 +5835,37 @@
         }
       ],
       "next_game": {
-        "id": "rl-04",
-        "matchday": 4,
-        "date": "2026-08-08",
-        "time": "14:00",
+        "id": "rl-05",
+        "matchday": 5,
+        "date": "2026-08-14",
+        "time": "19:00",
+        "competition": "Regionalliga Nordost",
+        "home": "SV Babelsberg 03",
+        "away": "RSV Eintracht 1949",
+        "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Str.+90%2C+14482+Potsdam",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "rl-06",
+        "matchday": 6,
+        "date": "2026-08-26",
+        "time": "18:00",
         "competition": "Regionalliga Nordost",
         "home": "RSV Eintracht 1949",
-        "away": "BSG Chemie Leipzig",
+        "away": "FSV Zwickau",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
+        "away_logo": "/assets/clubs/fsv-zwickau.png",
         "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015306/"
-      },
-      "next_home": null
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
+      }
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -9506,7 +9546,7 @@
         {
           "id": "u19-690007051",
           "matchday": 8,
-          "date": "2026-10-11",
+          "date": "2026-10-10",
           "time": "12:00",
           "competition": "Regionalliga",
           "home": "1. FC Frankfurt /​O.",
@@ -10596,7 +10636,7 @@
           "matches": [
             {
               "id": "u19-690007051",
-              "date": "2026-10-11",
+              "date": "2026-10-10",
               "time": "12:00",
               "home": "1. FC Frankfurt /​O.",
               "away": "RSV Eintracht 1949 U19",
@@ -10609,8 +10649,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-11",
-          "date_end": "2026-10-11"
+          "date": "2026-10-10",
+          "date_end": "2026-10-10"
         },
         {
           "id": "league:Regionalliga:9",
@@ -11336,18 +11376,6 @@
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
-          "team": "1. FC Lok Leipzig",
-          "played": 3,
-          "wins": 2,
-          "draws": 1,
-          "losses": 0,
-          "goals": "8:5",
-          "diff": "+3",
-          "points": 7,
-          "position": 4,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
-        },
-        {
           "team": "Erzgebirge Aue",
           "played": 3,
           "wins": 2,
@@ -11356,8 +11384,20 @@
           "goals": "8:5",
           "diff": "+3",
           "points": 7,
-          "position": 5,
+          "position": 4,
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
+        },
+        {
+          "team": "1. FC Lok Leipzig",
+          "played": 4,
+          "wins": 2,
+          "draws": 1,
+          "losses": 1,
+          "goals": "9:7",
+          "diff": "+2",
+          "points": 7,
+          "position": 5,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "FC Carl Zeiss Jena",
@@ -11396,6 +11436,18 @@
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
+          "team": "RSV Eintracht 1949",
+          "played": 4,
+          "wins": 1,
+          "draws": 2,
+          "losses": 1,
+          "goals": "5:6",
+          "diff": "-1",
+          "points": 5,
+          "position": 9,
+          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+        },
+        {
           "team": "1. FC Magdeburg II",
           "played": 3,
           "wins": 1,
@@ -11404,7 +11456,7 @@
           "goals": "8:5",
           "diff": "+3",
           "points": 4,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
@@ -11416,20 +11468,8 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 4,
-          "position": 10,
-          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
-        },
-        {
-          "team": "RSV Eintracht 1949",
-          "played": 3,
-          "wins": 1,
-          "draws": 1,
-          "losses": 1,
-          "goals": "4:5",
-          "diff": "-1",
-          "points": 4,
           "position": 11,
-          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "BFC Dynamo",
@@ -11457,15 +11497,39 @@
         },
         {
           "team": "FSV 63 Luckenwalde",
+          "played": 4,
+          "wins": 1,
+          "draws": 0,
+          "losses": 3,
+          "goals": "3:8",
+          "diff": "-5",
+          "points": 3,
+          "position": 14,
+          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
+        },
+        {
+          "team": "Hertha BSC II",
           "played": 3,
           "wins": 1,
           "draws": 0,
           "losses": 2,
-          "goals": "2:6",
-          "diff": "-4",
+          "goals": "3:9",
+          "diff": "-6",
           "points": 3,
-          "position": 14,
-          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
+          "position": 15,
+          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
+        },
+        {
+          "team": "SV Tasmania Berlin",
+          "played": 4,
+          "wins": 1,
+          "draws": 0,
+          "losses": 3,
+          "goals": "3:14",
+          "diff": "-11",
+          "points": 3,
+          "position": 16,
+          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         },
         {
           "team": "BFC Preussen 1894",
@@ -11476,44 +11540,20 @@
           "goals": "2:6",
           "diff": "-4",
           "points": 1,
-          "position": 15,
+          "position": 17,
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
         },
         {
           "team": "BSG Chemie Leipzig",
-          "played": 3,
+          "played": 4,
           "wins": 0,
-          "draws": 0,
+          "draws": 1,
           "losses": 3,
-          "goals": "0:5",
+          "goals": "1:6",
           "diff": "-5",
-          "points": 0,
-          "position": 16,
-          "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
-        },
-        {
-          "team": "Hertha BSC II",
-          "played": 2,
-          "wins": 0,
-          "draws": 0,
-          "losses": 2,
-          "goals": "1:8",
-          "diff": "-7",
-          "points": 0,
-          "position": 17,
-          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
-        },
-        {
-          "team": "SV Tasmania Berlin",
-          "played": 3,
-          "wins": 0,
-          "draws": 0,
-          "losses": 3,
-          "goals": "1:13",
-          "diff": "-12",
-          "points": 0,
+          "points": 1,
           "position": 18,
-          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
+          "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
         }
       ]
     },
