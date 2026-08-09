@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T04:33:29.134459+02:00",
+  "generated_at": "2026-08-09T15:17:45.839335+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5893,6 +5893,28 @@
           "report_url": "",
           "points": null,
           "table_position": null
+        },
+        {
+          "id": "u23-fs-20260809",
+          "matchday": null,
+          "date": "2026-08-09",
+          "time": "14:00",
+          "competition": "Bezirksfreundschaftsspiele",
+          "home": "FC Stern Marienfelde II",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "/assets/clubs/fc-stern-marienfelde-ii.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "14:00",
+          "halftime_result": "",
+          "scorers": [],
+          "attendance": null,
+          "referee": null,
+          "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1%2C+An+der+Dorfkirche+9%2C+12277+Berlin",
+          "youtube_url": "",
+          "report_url": "",
+          "points": null,
+          "table_position": null
         }
       ],
       "fixtures": [
@@ -5923,7 +5945,7 @@
           "away": "RSV Eintracht 1949 U23",
           "home_logo": "/assets/clubs/fc-stern-marienfelde-ii.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "14:00",
           "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1%2C+An+der+Dorfkirche+9%2C+12277+Berlin",
           "is_home": false,
@@ -6528,7 +6550,7 @@
               "time": "14:00",
               "home": "FC Stern Marienfelde II",
               "away": "RSV Eintracht 1949 U23",
-              "result": null,
+              "result": "14:00",
               "halftime_result": null,
               "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
               "matchday": null,
@@ -7362,17 +7384,17 @@
         }
       ],
       "next_game": {
-        "id": "u23-fs-20260809",
+        "id": "u23-fs-20260815",
         "matchday": null,
-        "date": "2026-08-09",
+        "date": "2026-08-15",
         "time": "14:00",
-        "competition": "Bezirksfreundschaftsspiele",
-        "home": "FC Stern Marienfelde II",
+        "competition": "Landesfreundschaftsspiele",
+        "home": "SV Babelsberg 03 II",
         "away": "RSV Eintracht 1949 U23",
-        "home_logo": "/assets/clubs/fc-stern-marienfelde-ii.png",
+        "home_logo": "/assets/clubs/sv-babelsberg-03.png",
         "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1%2C+An+der+Dorfkirche+9%2C+12277+Berlin",
+        "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR%2C+Franz-Mehring-Str.+54%2C+14482+Potsdam",
         "is_home": false,
         "round": "",
         "ticket_url": ""
@@ -9336,6 +9358,28 @@
           "report_url": "",
           "points": null,
           "table_position": null
+        },
+        {
+          "id": "u19-810001097",
+          "matchday": null,
+          "date": "2026-08-09",
+          "time": "14:00",
+          "competition": "Landesfreundschaftsspiele",
+          "home": "SV Frankonia Wernsdorf",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/sv-frankonia-wernsdorf.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "14:00",
+          "halftime_result": "",
+          "scorers": [],
+          "attendance": null,
+          "referee": null,
+          "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+Frankonia%2C+Niederlehmer+Chaussee+2c%2C+15713+K%C3%B6nigs+Wusterhausen",
+          "youtube_url": "",
+          "report_url": "",
+          "points": null,
+          "table_position": null
         }
       ],
       "fixtures": [
@@ -9400,7 +9444,7 @@
           "away": "RSV Eintracht 1949 U19",
           "home_logo": "/assets/clubs/sv-frankonia-wernsdorf.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "14:00",
           "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+Frankonia%2C+Niederlehmer+Chaussee+2c%2C+15713+K%C3%B6nigs+Wusterhausen",
           "is_home": false,
@@ -10418,7 +10462,7 @@
               "time": "14:00",
               "home": "SV Frankonia Wernsdorf",
               "away": "RSV Eintracht 1949 U19",
-              "result": null,
+              "result": "14:00",
               "halftime_result": null,
               "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
               "matchday": null,
@@ -11104,22 +11148,6 @@
         }
       ],
       "next_game": {
-        "id": "u19-810001097",
-        "matchday": null,
-        "date": "2026-08-09",
-        "time": "14:00",
-        "competition": "Landesfreundschaftsspiele",
-        "home": "SV Frankonia Wernsdorf",
-        "away": "RSV Eintracht 1949 U19",
-        "home_logo": "/assets/clubs/sv-frankonia-wernsdorf.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+Frankonia%2C+Niederlehmer+Chaussee+2c%2C+15713+K%C3%B6nigs+Wusterhausen",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u19-810007008",
         "matchday": null,
         "date": "2026-08-12",
@@ -11134,7 +11162,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     }
   },
   "calendar_teams": {
