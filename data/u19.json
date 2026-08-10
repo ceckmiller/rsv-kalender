@@ -30,7 +30,7 @@
       "home": "SFC Stern",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalfreundschaftsspiele 2026/27",
-      "result": null,
+      "result": "09:15",
       "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
       "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-/spiel/031JT3RU70000000VS5489BUVVKNMR0J",
       "match_number": "690002036",
@@ -63,7 +63,8 @@
       "source_url": "https://www.fussball.de/spiel/sv-frankonia-wernsdorf-rsv-eintracht-1949-u19/-/spiel/031M2TUSC8000000VS5489BTVSRD0UH9",
       "match_number": "810001097",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00J8QPO58O000000VTVG0001VV4HQU6E",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "1:2"
     },
     {
       "id": "u19-810007008",
@@ -78,20 +79,6 @@
       "match_number": "810007008",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00009QVV0AG08LVUPGND5I"
-    },
-    {
-      "id": "u19-690007003",
-      "date": "2026-08-16",
-      "time": "13:30",
-      "home": "SC Borea Dresden",
-      "away": "RSV Eintracht 1949 U19",
-      "competition": "Regionalliga 2026/27",
-      "result": null,
-      "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
-      "source_url": "https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4",
-      "match_number": "690007003",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00004GVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007011",
@@ -178,8 +165,22 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000055VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-690007003",
+      "date": "2026-10-03",
+      "time": "13:30",
+      "home": "SC Borea Dresden",
+      "away": "RSV Eintracht 1949 U19",
+      "competition": "Regionalliga 2026/27",
+      "result": null,
+      "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
+      "source_url": "https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4",
+      "match_number": "690007003",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00004GVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+    },
+    {
       "id": "u19-690007051",
-      "date": "2026-10-11",
+      "date": "2026-10-10",
       "time": "12:00",
       "home": "1. FC Frankfurt /​O.",
       "away": "RSV Eintracht 1949 U19",

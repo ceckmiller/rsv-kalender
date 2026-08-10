@@ -17,7 +17,8 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8N400001IVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Ruhrstadion, Castroper Straße 145, 44791 Bochum",
-      "location_source": "https://www.fussball.de/spiel/vfl-bochum-1848-hertha-bsc/-/spiel/031BG6B78O000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/vfl-bochum-1848-hertha-bsc/-/spiel/031BG6B78O000000VS5489BUVUR5FS5A",
+      "result": "0:1"
     },
     {
       "id": "u21-890001012",
@@ -46,20 +47,6 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Saarbrücken, Ludwigsparkstadion, Camphauser Str., 66113 Saarbrücken",
       "location_source": "https://www.fussball.de/spiel/1-fc-saarbruecken-hertha-bsc/-/spiel/0318UPIFJC000000VS5489BTVSK8S3O6"
-    },
-    {
-      "id": "u21-890001026",
-      "date": "2026-08-28",
-      "time": "18:30",
-      "home": "Eintracht Braunschweig",
-      "away": "Hertha BSC",
-      "competition": "2.Bundesliga 2026/27",
-      "source_url": "https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bsc/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A",
-      "match_number": "890001026",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN6TK000009VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
-      "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-      "location_source": "https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bsc/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A"
     },
     {
       "id": "u21-890001031",
@@ -144,6 +131,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8LS00009PVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-dsc-arminia-bielefeld/-/spiel/031BG6BCH8000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001086",
+      "date": "2026-11-01",
+      "time": "13:30",
+      "home": "1. FC Kaiserslautern",
+      "away": "Hertha BSC",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/1-fc-kaiserslautern-hertha-bsc/-/spiel/031BG6BDB4000000VS5489BUVUR5FS5A",
+      "match_number": "890001086",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBC800003DVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "location": "Fritz-Walter-Stadion, Fritz-Walter-Str. 1, 67663 Kaiserslautern",
+      "location_source": "https://www.fussball.de/spiel/1-fc-kaiserslautern-hertha-bsc/-/spiel/031BG6BDB4000000VS5489BUVUR5FS5A"
     }
   ]
 }

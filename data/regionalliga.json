@@ -16,7 +16,7 @@
       "matchday": 1,
       "scorers": [
         "21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0",
-        "60. Minute – 1:1 Endi Jupolli (BFC Preussen 1894)"
+        "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
       ],
       "attendance": 526,
       "referee": "Patrick Kluge",
@@ -71,12 +71,18 @@
       "home": "RSV Eintracht 1949",
       "away": "BSG Chemie Leipzig",
       "competition": "Regionalliga Nordost 2026/27",
-      "result": null,
+      "result": "1:1",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bsg-chemie-leipzig/-/spiel/031DEIBUL4000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021",
       "match_number": "690047033",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-bsg-chemie-leipzig/-/spiel/031DEIBUL4000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-bsg-chemie-leipzig/-/spiel/031DEIBUL4000000VS5489BUVUR5FS5A",
+      "halftime_result": "0:1",
+      "referee": "Julius Hanft",
+      "scorers": [
+        "45+3. Minute – 0:1 Phillipp Wendt (RSV Eintracht 1949)",
+        "52. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1"
+      ]
     },
     {
       "id": "rl-05",
@@ -209,9 +215,11 @@
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099"
+      "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
+      "source_url": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099",
+      "match_number": "690047115",
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A"
     },
     {
       "id": "rl-14",

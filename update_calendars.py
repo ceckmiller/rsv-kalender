@@ -324,7 +324,13 @@ def extract_dfb_match_detail(html):
         if not ev.select('.m-MatchDetails-icon-goal--goal'):
             continue
         minute_tag=ev.select_one('.m-MatchDetails-history-minute')
-        minute=re.sub(r'\D','', minute_tag.get_text(' ',strip=True) if minute_tag else '') or ''
+        minute_raw=' '.join((minute_tag.get_text(' ',strip=True) if minute_tag else '').split())
+        # DFB uses "45 3'" or "45+3" for stoppage time – never collapse to "453".
+        minute_m=re.search(r"(\d+)\s*[+\s]\s*(\d+)\s*'?", minute_raw)
+        if minute_m:
+            minute=f'{minute_m.group(1)}+{minute_m.group(2)}'
+        else:
+            minute=re.sub(r'\D','', minute_raw) or ''
         parts=[x.get_text(' ',strip=True) for x in ev.select('.m-MatchDetails-history-event-text-item') if x.get_text(strip=True)]
         if not parts:
             continue
@@ -369,8 +375,14 @@ def enrich_dfb_match_details(games, offline=False):
             out.append(g)
             continue
         kickoff=parse_kickoff_datetime(g)
-        live_window=bool(kickoff and kickoff <= now <= kickoff + timedelta(hours=4))
-        needs_detail=bool(g.get('result') or live_window)
+        started=bool(kickoff and kickoff <= now)
+        missing_result=not g.get('result')
+        scorers=g.get('scorers') or []
+        missing_scorers=bool(g.get('result')) and not scorers
+        bad_scorer_minute=any(re.search(r'\b\d{3,}\.\s*Minute', str(s)) for s in scorers)
+        live_window=bool(kickoff and kickoff <= now <= kickoff + timedelta(hours=5))
+        # Always reload finished games without a result – not only in a 4h window.
+        needs_detail=started and (missing_result or missing_scorers or bad_scorer_minute or live_window)
         if not needs_detail:
             out.append(g)
             continue
@@ -389,9 +401,12 @@ def enrich_dfb_match_details(games, offline=False):
 
 def extract_fussball_match_score(html):
     """Best-effort final score from a fussball.de match detail page."""
+    html=deobfuscate_fussball_html(html)
     soup=BeautifulSoup(html,'html.parser')
-    for node in soup.select('.score, .result, [class*=score], [class*=result]'):
+    for node in soup.select('.end-result, .result .end-result, .result'):
         text=' '.join(node.get_text(' ',strip=True).split())
+        # Prefer the full-time score; ignore a trailing half-time marker like "[0 : 1]".
+        text=re.sub(r'\[.*?\]','',text)
         m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', text)
         if m:
             return f'{m.group(1)}:{m.group(2)}'
@@ -401,7 +416,7 @@ def extract_fussball_match_score(html):
 
 
 def enrich_scores_from_detail_pages(games, offline=False):
-    """Fill missing results from official match detail pages around kickoff."""
+    """Fill missing results from official FUSSBALL.DE match detail pages."""
     if offline:
         return games
     out=[]
@@ -417,9 +432,6 @@ def enrich_scores_from_detail_pages(games, offline=False):
             continue
         kickoff=parse_kickoff_datetime(g)
         if not kickoff or kickoff > now:
-            out.append(g)
-            continue
-        if now > kickoff + timedelta(hours=4):
             out.append(g)
             continue
         try:
@@ -2272,6 +2284,8 @@ def process(key,offline=False):
     merged=filter_official_fussball_fixtures(merged, meta)
     if key=='regionalliga':
         merged=enrich_dfb_match_details(merged, offline=offline)
+        # FUSSBALL.DE often has the score before scorers appear on the DFB page.
+        merged=enrich_scores_from_detail_pages(merged, offline=offline)
     else:
         merged=enrich_scores_from_detail_pages(merged, offline=offline)
     merged=apply_venue_cache(merged,venue_cache)

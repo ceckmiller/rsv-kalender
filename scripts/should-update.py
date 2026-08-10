@@ -93,6 +93,11 @@ def evaluate() -> tuple[bool, list[str]]:
         kickoff = parse_kickoff(game)
         if not kickoff:
             continue
+        fixture = f"{game.get('home', '?')} – {game.get('away', '?')} ({kickoff:%d.%m.%Y %H:%M})"
+        # Keep retrying finished fixtures until a result is stored.
+        if kickoff <= now and not str(game.get("result") or "").strip():
+            if now - kickoff <= timedelta(days=3):
+                reasons.append(f"fehlendes Ergebnis: {fixture}")
         targets = (
             (kickoff, "Anstoß"),
             (kickoff + timedelta(hours=1), "1 Stunde nach Anstoß"),
@@ -103,7 +108,6 @@ def evaluate() -> tuple[bool, list[str]]:
         )
         for target, label in targets:
             if abs(now - target) <= WINDOW:
-                fixture = f"{game.get('home', '?')} – {game.get('away', '?')} ({kickoff:%d.%m.%Y %H:%M})"
                 reasons.append(f"{label}: {fixture}")
 
     return bool(reasons), reasons

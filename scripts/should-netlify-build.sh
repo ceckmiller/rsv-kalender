@@ -8,21 +8,8 @@ if [[ "$msg" == *"[skip netlify]"* ]] || [[ "$msg" == *"[skip ci]"* ]]; then
   exit 0
 fi
 
-if [[ -z "${CACHED_COMMIT_REF:-}" || -z "${COMMIT_REF:-}" ]]; then
-  exit 1
-fi
-
-mapfile -t changed < <(git diff --name-only "$CACHED_COMMIT_REF" "$COMMIT_REF")
-if ((${#changed[@]} == 0)); then
-  exit 1
-fi
-
-for file in "${changed[@]}"; do
-  case "$file" in
-    docs/site-data.json|docs/*.ics|data/*.json) ;;
-    *) echo "Build nötig: $file geändert."; exit 1 ;;
-  esac
-done
-
-echo "Build übersprungen: nur Livedaten geändert (werden über Netlify Blobs ausgeliefert)."
-exit 0
+# Always build: calendar results live in docs/*.json and docs/*.ics.
+# Skipping those files left the site stuck whenever Netlify Blobs secrets
+# were missing from GitHub Actions.
+echo "Build nötig: Deploy liefert aktuelle Spieldaten und ICS-Dateien."
+exit 1
