@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-10T22:52:54.311189+02:00",
+  "generated_at": "2026-08-10T23:02:30.578751+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
       "team_name": "RSV Eintracht 1949",
+      "first_team": true,
       "competition": "Regionalliga Nordost",
       "matches": [
         {
@@ -22,14 +23,14 @@
             "21. Minute – Nikolas Frank (BFC Preussen 1894) – 1:0",
             "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
           ],
-          "attendance": 526,
-          "referee": "Patrick Kluge",
           "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
-          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995",
           "points": 1,
-          "table_position": 9
+          "table_position": 9,
+          "attendance": 526,
+          "referee": "Patrick Kluge",
+          "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/1/bfc-preussen-1894-rsv-eintracht-1949-2425995"
         },
         {
           "id": "rl-02",
@@ -48,14 +49,14 @@
             "34. Minute – Ernes Matjaz (RSV Eintracht 1949) – 2:0",
             "72. Minute – Endi Jupolli (RSV Eintracht 1949) – 3:0"
           ],
-          "attendance": null,
-          "referee": "Benjamin Strebinger",
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
-          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
           "points": 4,
-          "table_position": 9
+          "table_position": 9,
+          "attendance": null,
+          "referee": "Benjamin Strebinger",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001"
         },
         {
           "id": "rl-03",
@@ -75,14 +76,14 @@
             "47. Minute – Kevin Lankford (FC Carl Zeiss Jena) – 3:0",
             "68. Minute – Jannes Werner (FC Carl Zeiss Jena) – 4:0"
           ],
-          "attendance": null,
-          "referee": "Luis Riedel",
           "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
-          "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
-          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
           "points": 4,
-          "table_position": 9
+          "table_position": 9,
+          "attendance": 5514,
+          "referee": "Luis Riedel",
+          "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007"
         },
         {
           "id": "rl-04",
@@ -100,14 +101,14 @@
             "45+3. Minute – Phillipp Wendt (BSG Chemie Leipzig) – 0:1",
             "52. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1"
           ],
-          "attendance": null,
-          "referee": "Julius Hanft",
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
-          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+BSG+Chemie+Leipzig+OSTSPORT.TV",
-          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021",
           "points": 5,
-          "table_position": 9
+          "table_position": 9,
+          "attendance": 963,
+          "referee": "Julius Hanft",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+BSG+Chemie+Leipzig+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/4-spieltag/rsv-eintracht-1949-bsg-chemie-leipzig-2426021"
         }
       ],
       "fixtures": [
@@ -228,7 +229,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
         },
         {
           "id": "rl-07",
@@ -245,7 +246,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
         },
         {
           "id": "rl-08",
@@ -5864,12 +5865,13 @@
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
       }
     },
     "u23": {
       "name": "RSV Eintracht – U23",
       "team_name": "RSV Eintracht 1949 U23",
+      "first_team": false,
       "competition": "Regionalfreundschaftsspiele",
       "matches": [
         {
@@ -5883,14 +5885,16 @@
           "home_logo": "/assets/clubs/sfc-stern.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "4:4",
-          "halftime_result": "",
-          "scorers": [],
-          "attendance": null,
-          "referee": null,
+          "halftime_result": "1:1",
+          "scorers": [
+            "53. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 0:1",
+            "58. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 0:2",
+            "75. Minute – Corvin Michalak (RSV Eintracht 1949 U23) – 0:3",
+            "78. Minute – k.A. (SFC Stern) – 1:3",
+            "78. Minute – k.A. (SFC Stern) – 2:3"
+          ],
           "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
-          "youtube_url": "",
-          "report_url": "",
           "points": null,
           "table_position": null
         },
@@ -5905,14 +5909,18 @@
           "home_logo": "/assets/clubs/fc-stern-marienfelde-ii.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "3:4",
-          "halftime_result": "",
-          "scorers": [],
-          "attendance": null,
-          "referee": null,
+          "halftime_result": "3:1",
+          "scorers": [
+            "32. Minute – Marc-Jrome Schmidt (FC Stern Marienfelde II) – 1:0",
+            "40. Minute – Leon Schurig (FC Stern Marienfelde II) – 2:0",
+            "42. Minute – Jakob Krieg (RSV Eintracht 1949 U23) – 2:1",
+            "44. Minute – Marc-Jrome Schmidt (FC Stern Marienfelde II) – 3:1",
+            "51. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 3:2",
+            "75. Minute – Corvin Michalak (RSV Eintracht 1949 U23) – 3:3",
+            "84. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 3:4"
+          ],
           "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1%2C+An+der+Dorfkirche+9%2C+12277+Berlin",
-          "youtube_url": "",
-          "report_url": "",
           "points": null,
           "table_position": null
         }
@@ -6528,7 +6536,7 @@
               "home": "SFC Stern",
               "away": "RSV Eintracht 1949 U23",
               "result": "4:4",
-              "halftime_result": null,
+              "halftime_result": "1:1",
               "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
               "matchday": null,
               "home_logo": "/assets/clubs/sfc-stern.png",
@@ -6551,7 +6559,7 @@
               "home": "FC Stern Marienfelde II",
               "away": "RSV Eintracht 1949 U23",
               "result": "3:4",
-              "halftime_result": null,
+              "halftime_result": "3:1",
               "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
               "matchday": null,
               "home_logo": "/assets/clubs/fc-stern-marienfelde-ii.png",
@@ -7419,6 +7427,7 @@
     "u21": {
       "name": "RSV Eintracht – U21",
       "team_name": "RSV Eintracht 1949 U21",
+      "first_team": false,
       "competition": "Kreispokal",
       "matches": [],
       "fixtures": [
@@ -9335,6 +9344,7 @@
     "u19": {
       "name": "RSV Eintracht – U19",
       "team_name": "RSV Eintracht 1949 U19",
+      "first_team": false,
       "competition": "DFB-Pokal",
       "matches": [
         {
@@ -9348,14 +9358,15 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/fc-bayern-muenchen.png",
           "result": "1:3",
-          "halftime_result": "",
-          "scorers": [],
-          "attendance": null,
-          "referee": null,
+          "halftime_result": "0:0",
+          "scorers": [
+            "47. Minute – Florian Hamzi (RSV Eintracht 1949 U19) – 1:0",
+            "89. Minute – Timm Mller (FC Bayern München) – 1:1",
+            "90. Minute – Aristide Hentcho Nseke (FC Bayern München) – 1:2",
+            "90. Minute – Philipp von Taube (FC Bayern München) – 1:3"
+          ],
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-          "youtube_url": "",
-          "report_url": "",
           "points": null,
           "table_position": null
         },
@@ -9372,12 +9383,8 @@
           "result": "09:15",
           "halftime_result": "",
           "scorers": [],
-          "attendance": null,
-          "referee": null,
           "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Schildhornstra%C3%9Fe+KR1%2C+Paulsenstr.+%2F+Eing.+Kreuznacher+Str.+29%2C+12163+Berlin",
-          "youtube_url": "",
-          "report_url": "",
           "points": null,
           "table_position": null
         },
@@ -9392,14 +9399,14 @@
           "home_logo": "/assets/clubs/sv-frankonia-wernsdorf.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "1:2",
-          "halftime_result": "",
-          "scorers": [],
-          "attendance": null,
-          "referee": null,
+          "halftime_result": "1:1",
+          "scorers": [
+            "7. Minute – Gordan Griebsch (SV Frankonia Wernsdorf) – 1:0",
+            "41. Minute – Yassin Boulehris (RSV Eintracht 1949 U19) – 1:1",
+            "76. Minute – Amin El-Haj (RSV Eintracht 1949 U19) – 1:2"
+          ],
           "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+Frankonia%2C+Niederlehmer+Chaussee+2c%2C+15713+K%C3%B6nigs+Wusterhausen",
-          "youtube_url": "",
-          "report_url": "",
           "points": null,
           "table_position": null
         }
@@ -9948,7 +9955,7 @@
               "home": "RSV Eintracht 1949",
               "away": "FC Bayern München",
               "result": "1:3",
-              "halftime_result": null,
+              "halftime_result": "0:0",
               "location": "",
               "matchday": null,
               "competition": "DFB-Pokal 2026/27",
@@ -10485,7 +10492,7 @@
               "home": "SV Frankonia Wernsdorf",
               "away": "RSV Eintracht 1949 U19",
               "result": "1:2",
-              "halftime_result": null,
+              "halftime_result": "1:1",
               "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
               "matchday": null,
               "home_logo": "/assets/clubs/sv-frankonia-wernsdorf.png",
@@ -11247,25 +11254,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 3,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11282,7 +11272,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11299,7 +11289,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -11316,7 +11306,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11333,7 +11323,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11350,7 +11340,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11367,7 +11357,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",

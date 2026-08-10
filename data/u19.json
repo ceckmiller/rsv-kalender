@@ -21,7 +21,14 @@
       "round": "1. Runde",
       "round_url": "https://www.fussball.de/spieltag/1-runde-deutschland-a-junioren-dfb-vereinspokal-a-junioren-saison2627-deutschland/-/spieldatum/2026-08-02/staffel/0315V8Q6S4000000VS5489BTVU7GTVLE-R",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNHAK00001AVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNHAK00001AVV0AG08LVUPGND5I",
+      "halftime_result": "0:0",
+      "scorers": [
+        "47. Minute – Florian Hamzi (RSV Eintracht 1949 U19) – 1:0",
+        "89. Minute – Timm Mller (FC Bayern München) – 1:1",
+        "90. Minute – Aristide Hentcho Nseke (FC Bayern München) – 1:2",
+        "90. Minute – Philipp von Taube (FC Bayern München) – 1:3"
+      ]
     },
     {
       "id": "u19-690002036",
@@ -64,7 +71,13 @@
       "match_number": "810001097",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00J8QPO58O000000VTVG0001VV4HQU6E",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "result": "1:2"
+      "result": "1:2",
+      "halftime_result": "1:1",
+      "scorers": [
+        "7. Minute – Gordan Griebsch (SV Frankonia Wernsdorf) – 1:0",
+        "41. Minute – Yassin Boulehris (RSV Eintracht 1949 U19) – 1:1",
+        "76. Minute – Amin El-Haj (RSV Eintracht 1949 U19) – 1:2"
+      ]
     },
     {
       "id": "u19-810007008",

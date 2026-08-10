@@ -16,7 +16,15 @@
       "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u23/-/spiel/031JTAI6A0000000VS5489BTVSRD0UH9",
       "match_number": "690002037",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:1",
+      "scorers": [
+        "53. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 0:1",
+        "58. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 0:2",
+        "75. Minute – Corvin Michalak (RSV Eintracht 1949 U23) – 0:3",
+        "78. Minute – k.A. (SFC Stern) – 1:3",
+        "78. Minute – k.A. (SFC Stern) – 2:3"
+      ]
     },
     {
       "id": "u23-fs-20260809",
@@ -30,7 +38,17 @@
       "source_url": "https://www.fussball.de/spiel/fc-stern-marienfelde-ii-rsv-eintracht-1949-u23/-/spiel/0318D8LSKK000000VS5489BTVU7GTVLE",
       "match_number": "860001017",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00004HVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "3:1",
+      "scorers": [
+        "32. Minute – Marc-Jrome Schmidt (FC Stern Marienfelde II) – 1:0",
+        "40. Minute – Leon Schurig (FC Stern Marienfelde II) – 2:0",
+        "42. Minute – Jakob Krieg (RSV Eintracht 1949 U23) – 2:1",
+        "44. Minute – Marc-Jrome Schmidt (FC Stern Marienfelde II) – 3:1",
+        "51. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 3:2",
+        "75. Minute – Corvin Michalak (RSV Eintracht 1949 U23) – 3:3",
+        "84. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 3:4"
+      ]
     },
     {
       "id": "u23-fs-20260815",

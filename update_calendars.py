@@ -371,10 +371,25 @@ def extract_dfb_match_detail(html):
         out['result']=final
     if halftime:
         out['halftime_result']=halftime
+    info_node=soup.select_one('.m-MatchDetails-info')
+    if info_node:
+        info_text=' '.join(info_node.get_text(' ',strip=True).split())
+        att=re.search(r'(?:Besucher|Zuschauer)\s*:\s*([\d.]+)', info_text, re.I)
+        if att:
+            try:
+                out_attendance=int(att.group(1).replace('.', ''))
+            except ValueError:
+                out_attendance=None
+        else:
+            out_attendance=None
+    else:
+        out_attendance=None
     if referee:
         out['referee']=referee
     if scorers:
         out['scorers']=scorers
+    if out_attendance is not None:
+        out['attendance']=out_attendance
     return out
 
 
@@ -395,10 +410,13 @@ def enrich_dfb_match_details(games, offline=False):
         missing_result=not g.get('result')
         scorers=g.get('scorers') or []
         missing_scorers=bool(g.get('result')) and not scorers
+        missing_attendance=bool(g.get('result')) and g.get('attendance') in (None, '')
         bad_scorer_minute=any(re.search(r'\b\d{3,}\.\s*Minute', str(s)) for s in scorers)
         live_window=bool(kickoff and kickoff <= now <= kickoff + timedelta(hours=5))
         # Always reload finished games without a result – not only in a 4h window.
-        needs_detail=started and (missing_result or missing_scorers or bad_scorer_minute or live_window)
+        needs_detail=started and (
+            missing_result or missing_scorers or missing_attendance or bad_scorer_minute or live_window
+        )
         if not needs_detail:
             out.append(g)
             continue
@@ -408,40 +426,111 @@ def enrich_dfb_match_details(games, offline=False):
             warnings.warn(f'DFB-Spielbericht fehlgeschlagen ({url}): {exc}')
             out.append(g)
             continue
-        for key in ('result','halftime_result','referee','scorers'):
-            if detail.get(key):
+        for key in ('result','halftime_result','referee','scorers','attendance'):
+            if detail.get(key) not in (None, '', []):
                 g[key]=detail[key]
         out.append(g)
     return out
 
 
-def extract_fussball_match_score(html):
-    """Best-effort final score from a fussball.de match detail page."""
+def _clean_fussball_player_name(value):
+    name=' '.join(str(value or '').split())
+    name=re.sub(r'[\ue000-\uf8ff]', '', name)
+    return re.sub(r'\s{2,}', ' ', name).strip(' |,;')
+
+
+def _parse_fussball_goals_block(node, club):
+    """Parse FUSSBALL.DE quick-view goal lists like ``(32', 44') Name | (40') Name``."""
+    if not node:
+        return []
+    clone=BeautifulSoup(str(node), 'html.parser')
+    root=clone.select_one('.goals') or clone
+    for club_node in root.select('.club-name'):
+        club_node.decompose()
+    text=' '.join(root.get_text(' ', strip=True).split())
+    if not text:
+        return []
+    out=[]
+    for chunk in re.split(r'\s*\|\s*', text):
+        chunk=chunk.strip()
+        if not chunk:
+            continue
+        minutes=re.findall(r"(\d+)(?:\s*\+\s*(\d+))?\s*'", chunk)
+        name=_clean_fussball_player_name(re.sub(r"\([^)]*\)", '', chunk))
+        if not name or not minutes:
+            continue
+        for m1, m2 in minutes:
+            minute=f'{m1}+{m2}' if m2 else m1
+            out.append({'minute': minute, 'name': name, 'club': club})
+    return out
+
+
+def extract_fussball_match_detail(html, home='', away=''):
+    """Read result, half-time score and scorers from a fussball.de match page."""
     html=deobfuscate_fussball_html(html)
     soup=BeautifulSoup(html,'html.parser')
+    out={}
     for node in soup.select('.end-result, .result .end-result, .result'):
         text=' '.join(node.get_text(' ',strip=True).split())
-        # Prefer the full-time score; ignore a trailing half-time marker like "[0 : 1]".
         text=re.sub(r'\[.*?\]','',text)
         m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', text)
         if m:
-            return f'{m.group(1)}:{m.group(2)}'
-    text=' '.join(soup.get_text(' ',strip=True).split())
-    m=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', text)
-    return f'{m.group(1)}:{m.group(2)}' if m else ''
+            out['result']=f'{m.group(1)}:{m.group(2)}'
+            break
+    half=soup.select_one('.half-result')
+    if half:
+        hm=re.search(r'(?<!\d)(\d{1,2})\s*:\s*(\d{1,2})(?!\d)', half.get_text(' ', strip=True))
+        if hm:
+            out['halftime_result']=f'{hm.group(1)}:{hm.group(2)}'
+    home_name=home or ' '.join((soup.select_one('.info-home .club-name') or soup.new_tag('x')).get_text(' ', strip=True).split())
+    away_name=away or ' '.join((soup.select_one('.info-away .club-name') or soup.new_tag('x')).get_text(' ', strip=True).split())
+    events=[]
+    for goal in _parse_fussball_goals_block(soup.select_one('.info-home .goals'), home_name):
+        events.append({**goal, 'side': 'home'})
+    for goal in _parse_fussball_goals_block(soup.select_one('.info-away .goals'), away_name):
+        events.append({**goal, 'side': 'away'})
+    def minute_key(item):
+        raw=str(item.get('minute') or '0')
+        if '+' in raw:
+            a,b=raw.split('+',1)
+            try:
+                return (int(a), int(b))
+            except ValueError:
+                return (0, 0)
+        try:
+            return (int(raw), 0)
+        except ValueError:
+            return (0, 0)
+    events.sort(key=minute_key)
+    home_goals=away_goals=0
+    scorers=[]
+    for item in events:
+        if item['side']=='home':
+            home_goals += 1
+        else:
+            away_goals += 1
+        running=f'{home_goals}:{away_goals}'
+        scorers.append(
+            f"{item['minute']}. Minute – {item['name']} ({item['club']}) – {running}"
+        )
+    if scorers:
+        out['scorers']=scorers
+    return out
+
+
+def extract_fussball_match_score(html):
+    """Best-effort final score from a fussball.de match detail page."""
+    return extract_fussball_match_detail(html).get('result') or ''
 
 
 def enrich_scores_from_detail_pages(games, offline=False):
-    """Fill missing results from official FUSSBALL.DE match detail pages."""
+    """Fill missing results/half-time/scorers from FUSSBALL.DE match pages."""
     if offline:
         return games
     out=[]
     now=datetime.now(TZ)
     for original in games:
         g=deepcopy(original)
-        if g.get('result'):
-            out.append(g)
-            continue
         source=str(g.get('source_url') or '').strip()
         if '/spiel/' not in source:
             out.append(g)
@@ -450,14 +539,21 @@ def enrich_scores_from_detail_pages(games, offline=False):
         if not kickoff or kickoff > now:
             out.append(g)
             continue
+        missing_result=not g.get('result')
+        missing_half=bool(g.get('result')) and not g.get('halftime_result')
+        missing_scorers=bool(g.get('result')) and not (g.get('scorers') or [])
+        if not (missing_result or missing_half or missing_scorers):
+            out.append(g)
+            continue
         try:
-            score=extract_fussball_match_score(fetch(source))
+            detail=extract_fussball_match_detail(fetch(source), g.get('home',''), g.get('away',''))
         except Exception as exc:
             warnings.warn(f'FUSSBALL.DE-Spielstand fehlgeschlagen ({source}): {exc}')
             out.append(g)
             continue
-        if score:
-            g['result']=score
+        for key in ('result','halftime_result','scorers'):
+            if detail.get(key) not in (None, '', []):
+                g[key]=detail[key]
         out.append(g)
     return out
 
@@ -2091,18 +2187,24 @@ def build_site_data(team_configs, ticket_events=None):
                 continue
 
             if g.get('result'):
-                completed.append({
+                row={
                     'id':g.get('id'), 'matchday':g.get('matchday'), 'date':g.get('date'), 'time':g.get('time'),
                     'competition':comp, 'home':home, 'away':away,
                     'home_logo':home_logo, 'away_logo':away_logo,
                     'result':g.get('result'), 'halftime_result':g.get('halftime_result') or g.get('halftime') or '', 'scorers':g.get('scorers') or [],
-                    'attendance':g.get('attendance'), 'referee':g.get('referee'),
                     'location':location,
                     'maps_url':maps_url(location),
-                    'youtube_url':g.get('youtube_url') or (youtube_search_url(g) if key=='regionalliga' else ''),
-                    'report_url':g.get('report_url') or '', 'points':g.get('points'),
+                    'points':g.get('points'),
                     'table_position':g.get('table_position')
-                })
+                }
+                if key=='regionalliga' or meta.get('first_team'):
+                    row.update({
+                        'attendance':g.get('attendance'),
+                        'referee':g.get('referee'),
+                        'youtube_url':g.get('youtube_url') or youtube_search_url(g),
+                        'report_url':g.get('report_url') or '',
+                    })
+                completed.append(row)
                 continue
 
             try:
@@ -2144,6 +2246,7 @@ def build_site_data(team_configs, ticket_events=None):
         payload['teams'][key]={
             'name':meta.get('calendar_name',''),
             'team_name':team_name,
+            'first_team':bool(meta.get('first_team')),
             'competition':competition_label(meta.get('games',[{}])[0].get('competition','')) if meta.get('games') else '',
             'matches':completed,
             'fixtures':fixtures,
