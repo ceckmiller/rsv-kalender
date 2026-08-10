@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T21:05:54.276744+02:00",
+  "generated_at": "2026-08-10T04:38:23.350545+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -7426,16 +7426,16 @@
           "id": "u21-710089011",
           "matchday": null,
           "date": "2026-08-16",
-          "time": "10:30",
+          "time": "13:00",
           "competition": "Kreispokal",
-          "home": "Rot-Weiß Groß Glienicke II",
-          "away": "RSV Eintracht 1949 U21",
-          "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "home": "RSV Eintracht 1949 U21",
+          "away": "Rot-Weiß Groß Glienicke II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
           "result": "",
-          "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glienicke%2C+An+der+Sporthalle%2C+14476+Potsdam",
-          "is_home": false,
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
           "round": "1. Runde",
           "ticket_url": ""
         },
@@ -7959,19 +7959,6 @@
           "round": "1. Runde",
           "matches": [
             {
-              "id": "u21-710089011",
-              "date": "2026-08-16",
-              "time": "10:30",
-              "home": "Rot-Weiß Groß Glienicke II",
-              "away": "RSV Eintracht 1949 U21",
-              "result": null,
-              "halftime_result": null,
-              "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
-              "matchday": null,
-              "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            },
-            {
               "id": "cup-rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii",
               "date": "2026-08-16",
               "time": "13:00",
@@ -7984,7 +7971,8 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii/-/spiel/031F066OOS000000VS5489BTVUS470OH"
+              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii/-/spiel/031F066OOS000000VS5489BTVUS470OH",
+              "team_fixture_id": "u21-710089011"
             },
             {
               "id": "cup-sv-05-rehbruecke-2-sv-dallgow-47-ii",
@@ -9330,34 +9318,19 @@
         "id": "u21-710089011",
         "matchday": null,
         "date": "2026-08-16",
-        "time": "10:30",
+        "time": "13:00",
         "competition": "Kreispokal",
-        "home": "Rot-Weiß Groß Glienicke II",
-        "away": "RSV Eintracht 1949 U21",
-        "home_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glienicke%2C+An+der+Sporthalle%2C+14476+Potsdam",
-        "is_home": false,
-        "round": "1. Runde",
-        "ticket_url": ""
-      },
-      "next_home": {
-        "id": "u21-610480004",
-        "matchday": 1,
-        "date": "2026-08-30",
-        "time": "14:00",
-        "competition": "Kreisliga",
         "home": "RSV Eintracht 1949 U21",
-        "away": "FV Turbine Potsdam 55",
+        "away": "Rot-Weiß Groß Glienicke II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fv-turbine-potsdam-55.png",
+        "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
         "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
-        "round": "",
+        "round": "1. Runde",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u19": {
       "name": "RSV Eintracht – U19",
