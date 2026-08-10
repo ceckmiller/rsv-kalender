@@ -331,18 +331,34 @@ def extract_dfb_match_detail(html):
             minute=f'{minute_m.group(1)}+{minute_m.group(2)}'
         else:
             minute=re.sub(r'\D','', minute_raw) or ''
-        parts=[x.get_text(' ',strip=True) for x in ev.select('.m-MatchDetails-history-event-text-item') if x.get_text(strip=True)]
-        if not parts:
+        # Each history row always contains home + away slots; only one is filled.
+        home_slot=ev.select_one('.m-MatchDetails-history-event--home:not(.is-empty)')
+        away_slot=ev.select_one('.m-MatchDetails-history-event--away:not(.is-empty)')
+        if home_slot and not away_slot:
+            side, slot='home', home_slot
+        elif away_slot and not home_slot:
+            side, slot='away', away_slot
+        elif home_slot or away_slot:
+            # Fallback if both look non-empty: prefer the slot that carries the goal text.
+            side, slot=('home', home_slot) if home_slot and home_slot.get_text(strip=True) else ('away', away_slot)
+        else:
             continue
-        text=' '.join(parts)
-        score_in_event=re.search(r'(\d+:\d+)\s*$', text)
+        parts=[x.get_text(' ',strip=True) for x in slot.select('.m-MatchDetails-history-event-text-item') if x.get_text(strip=True)]
+        if not parts:
+            text=' '.join(slot.get_text(' ',strip=True).split())
+        else:
+            text=' '.join(parts)
+        if not text:
+            continue
+        # Away events often look like "0:1 Phillipp Wendt", home like "Nathanael Kukanda 1:1".
+        score_in_event=re.search(r'(\d+:\d+)', text)
         running=score_in_event.group(1) if score_in_event else ''
-        name=re.sub(r'\s*\d+:\d+\s*$', '', text).strip()
+        name=re.sub(r'\d+\s*:\s*\d+', '', text).strip(' –-')
+        name=re.sub(r'\s{2,}',' ',name).strip()
         if not name:
             continue
-        side='home' if ev.select('.m-MatchDetails-history-event--home') else 'away'
         club=home if side=='home' else away
-        key=(minute,name,running)
+        key=(minute,name,running,side)
         if key in seen:
             continue
         seen.add(key)
