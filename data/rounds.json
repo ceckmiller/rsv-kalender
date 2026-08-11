@@ -392,7 +392,7 @@
           "time": "14:00",
           "home": "FSV 63 Luckenwalde",
           "away": "SV Tasmania Berlin",
-          "result": "1:2",
+          "result": "2:3",
           "halftime_result": null,
           "location": "",
           "matchday": 4,
@@ -480,7 +480,7 @@
       "round": "5",
       "matches": [
         {
-          "id": "rl-md5-433db02a84aa",
+          "id": "rl-md5-161b2383ef9f",
           "date": "2026-08-14",
           "time": "19:00",
           "home": "SV Babelsberg 03",
@@ -491,6 +491,78 @@
           "matchday": 5,
           "competition": "Regionalliga Nordost 2026/27",
           "team_fixture_id": "rl-05"
+        },
+        {
+          "id": "rl-md5-5aeb5e2e363b",
+          "date": "2026-08-14",
+          "time": "19:00",
+          "home": "BSG Chemie Leipzig",
+          "away": "FC Carl Zeiss Jena",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md5-40b7f17436e1",
+          "date": "2026-08-14",
+          "time": "19:00",
+          "home": "FSV Zwickau",
+          "away": "FSV 63 Luckenwalde",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md5-4610c022e7c7",
+          "date": "2026-08-14",
+          "time": "19:00",
+          "home": "Hertha BSC II",
+          "away": "BFC Dynamo",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md5-7f3852a81ba0",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "home": "BFC Preussen 1894",
+          "away": "Greifswalder FC",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md5-aa3bad8424e1",
+          "date": "2026-08-15",
+          "time": "14:00",
+          "home": "FC Rot-Weiß Erfurt",
+          "away": "1. FC Magdeburg II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md5-3c1e068d6362",
+          "date": "2026-08-15",
+          "time": "16:00",
+          "home": "Chemnitzer FC",
+          "away": "Erzgebirge Aue",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 5,
+          "competition": "Regionalliga Nordost 2026/27"
         },
         {
           "id": "rl-md5-e00f9ee7a971",
@@ -505,83 +577,11 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md5-8665e38625cc",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "BSG Chemie Leipzig",
-          "away": "FC Carl Zeiss Jena",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md5-ab363b250988",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "BFC Preussen 1894",
-          "away": "Greifswalder FC",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md5-825a7120b74f",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "FSV Zwickau",
-          "away": "FSV 63 Luckenwalde",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
           "id": "rl-md5-7ceedbc85b2e",
           "date": "2026-08-16",
           "time": "14:00",
           "home": "VSG Altglienicke",
           "away": "Hallescher FC",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md5-d9e800b914cd",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "Chemnitzer FC",
-          "away": "Erzgebirge Aue",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md5-886c023ddd8e",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "Hertha BSC II",
-          "away": "BFC Dynamo",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 5,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md5-86a12bc743fb",
-          "date": "2026-08-16",
-          "time": "14:00",
-          "home": "FC Rot-Weiß Erfurt",
-          "away": "1. FC Magdeburg II",
           "result": null,
           "halftime_result": null,
           "location": "",
@@ -5109,10 +5109,10 @@
           "source_url": "https://www.fussball.de/spiel/sg-unterrath-u19-hertha-bsc-u19/-/spiel/031BSD7I5C000000VS5489BTVUS470OH"
         },
         {
-          "id": "cup-sgv-freiberg-fussball-vfl-wolfsburg-u19",
+          "id": "cup-sgv-heilbronn-freiberg-fussball-vfl-wolfsburg-u19",
           "date": "2026-08-01",
           "time": "13:00",
-          "home": "SGV Freiberg Fußball",
+          "home": "SGV Heilbronn-Freiberg Fußball",
           "away": "VfL Wolfsburg",
           "result": "0:6",
           "halftime_result": null,
@@ -5121,7 +5121,7 @@
           "competition": "DFB-Pokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/018IJKARO4000000VV0AG80NVV4NF455/verband/0123456789ABCDEF0123456700004010",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN77K00000JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004010",
-          "source_url": "https://www.fussball.de/spiel/sgv-freiberg-fussball-vfl-wolfsburg-u19/-/spiel/031BSD7HMO000000VS5489BTVUS470OH#!/section/course"
+          "source_url": "https://www.fussball.de/spiel/sgv-heilbronn-freiberg-fussball-vfl-wolfsburg-u19/-/spiel/031BSD7HMO000000VS5489BTVUS470OH#!/section/course"
         },
         {
           "id": "cup-tsv-havelse-u19-fc-energie-cottbus-u19",
