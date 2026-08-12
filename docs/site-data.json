@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T21:29:35.893950+02:00",
+  "generated_at": "2026-08-12T04:49:04.364529+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -26,7 +26,7 @@
           "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "points": 1,
-          "table_position": 9,
+          "table_position": 10,
           "attendance": 526,
           "referee": "Patrick Kluge",
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -52,7 +52,7 @@
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "points": 4,
-          "table_position": 9,
+          "table_position": 10,
           "attendance": null,
           "referee": "Benjamin Strebinger",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
@@ -79,7 +79,7 @@
           "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
           "points": 4,
-          "table_position": 9,
+          "table_position": 10,
           "attendance": 5514,
           "referee": "Luis Riedel",
           "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -104,7 +104,7 @@
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "points": 5,
-          "table_position": 9,
+          "table_position": 10,
           "attendance": 963,
           "referee": "Julius Hanft",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+BSG+Chemie+Leipzig+OSTSPORT.TV",
@@ -973,7 +973,7 @@
               "time": "19:00",
               "home": "VSG Altglienicke",
               "away": "Hertha BSC II",
-              "result": null,
+              "result": "3:1",
               "halftime_result": null,
               "location": "",
               "matchday": 2,
@@ -1249,7 +1249,7 @@
               "time": "19:00",
               "home": "1. FC Magdeburg II",
               "away": "SV Babelsberg 03",
-              "result": null,
+              "result": "3:1",
               "halftime_result": null,
               "location": "",
               "matchday": 4,
@@ -11254,8 +11254,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001031",
+          "id": "u21-890001026",
           "matchday": 3,
+          "date": "2026-08-28",
+          "time": "18:30",
+          "competition": "2.Bundesliga",
+          "home": "Eintracht Braunschweig",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001031",
+          "matchday": 4,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11272,7 +11289,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 5,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11289,7 +11306,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 6,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -11306,7 +11323,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 7,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11323,7 +11340,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 8,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11340,7 +11357,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 9,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11357,7 +11374,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 10,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11434,6 +11451,30 @@
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
+          "team": "VSG Altglienicke",
+          "played": 4,
+          "wins": 2,
+          "draws": 2,
+          "losses": 0,
+          "goals": "11:7",
+          "diff": "+4",
+          "points": 8,
+          "position": 4,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
+          "team": "1. FC Magdeburg II",
+          "played": 4,
+          "wins": 2,
+          "draws": 1,
+          "losses": 1,
+          "goals": "11:6",
+          "diff": "+5",
+          "points": 7,
+          "position": 5,
+          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
+        },
+        {
           "team": "Greifswalder FC",
           "played": 4,
           "wins": 2,
@@ -11442,7 +11483,7 @@
           "goals": "10:6",
           "diff": "+4",
           "points": 7,
-          "position": 4,
+          "position": 6,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
@@ -11454,7 +11495,7 @@
           "goals": "9:7",
           "diff": "+2",
           "points": 7,
-          "position": 5,
+          "position": 7,
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
@@ -11466,7 +11507,7 @@
           "goals": "7:4",
           "diff": "+3",
           "points": 6,
-          "position": 6,
+          "position": 8,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
@@ -11478,20 +11519,8 @@
           "goals": "4:3",
           "diff": "+1",
           "points": 6,
-          "position": 7,
+          "position": 9,
           "logo_url": "/assets/clubs/hallescher-fc.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 3,
-          "wins": 1,
-          "draws": 2,
-          "losses": 0,
-          "goals": "8:6",
-          "diff": "+2",
-          "points": 5,
-          "position": 8,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
           "team": "RSV Eintracht 1949",
@@ -11502,29 +11531,17 @@
           "goals": "5:6",
           "diff": "-1",
           "points": 5,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
-          "team": "1. FC Magdeburg II",
-          "played": 3,
-          "wins": 1,
-          "draws": 1,
-          "losses": 1,
-          "goals": "8:5",
-          "diff": "+3",
-          "points": 4,
-          "position": 10,
-          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
           "team": "SV Babelsberg 03",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 1,
-          "losses": 1,
-          "goals": "4:3",
-          "diff": "+1",
+          "losses": 2,
+          "goals": "5:6",
+          "diff": "-1",
           "points": 4,
           "position": 11,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
@@ -11567,12 +11584,12 @@
         },
         {
           "team": "Hertha BSC II",
-          "played": 3,
+          "played": 4,
           "wins": 1,
           "draws": 0,
-          "losses": 2,
-          "goals": "3:9",
-          "diff": "-6",
+          "losses": 3,
+          "goals": "4:12",
+          "diff": "-8",
           "points": 3,
           "position": 15,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
