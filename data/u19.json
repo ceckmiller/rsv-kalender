@@ -86,12 +86,21 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "BSV Eintracht Mahlsdorf",
       "competition": "Landesfreundschaftsspiele 2026/27",
-      "result": null,
+      "result": "3:3",
       "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bsv-eintracht-mahlsdorf/-/spiel/0315FRKUGG000000VS5489BTVU7GTVLE",
       "match_number": "810007008",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00009QVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00009QVV0AG08LVUPGND5I",
+      "halftime_result": "0:2",
+      "scorers": [
+        "32. Minute – k.A. (BSV Eintracht Mahlsdorf) – 0:1",
+        "43. Minute – k.A. (BSV Eintracht Mahlsdorf) – 0:2",
+        "48. Minute – Markus Gaevert (RSV Eintracht 1949 U19) – 1:2",
+        "50. Minute – Johannes Fuhrmann (BSV Eintracht Mahlsdorf) – 1:3",
+        "84. Minute – Amin El-Haj (RSV Eintracht 1949 U19) – 2:3",
+        "90. Minute – Markus Gaevert (RSV Eintracht 1949 U19) – 3:3"
+      ]
     },
     {
       "id": "u19-690007011",
