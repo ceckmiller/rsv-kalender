@@ -94,12 +94,14 @@
       "home": "SV Babelsberg 03",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost 2026/27",
-      "result": null,
+      "result": "3:3",
       "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/5-spieltag/sv-babelsberg-03-rsv-eintracht-1949-2426025",
       "match_number": "690047042",
-      "location_source": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A",
+      "halftime_result": "1:1",
+      "referee": "Jens Klemm"
     },
     {
       "id": "lp-01",
