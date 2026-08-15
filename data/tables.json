@@ -5,34 +5,34 @@
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "losses": 0,
-        "goals": "13:3",
-        "diff": "+10",
-        "points": 10,
+        "goals": "17:4",
+        "diff": "+13",
+        "points": 13,
         "position": 1
       },
       {
         "team": "Chemnitzer FC",
-        "played": 4,
-        "wins": 3,
+        "played": 5,
+        "wins": 4,
         "draws": 1,
         "losses": 0,
-        "goals": "10:1",
-        "diff": "+9",
-        "points": 10,
+        "goals": "13:2",
+        "diff": "+11",
+        "points": 13,
         "position": 2
       },
       {
         "team": "Erzgebirge Aue",
-        "played": 4,
+        "played": 5,
         "wins": 3,
         "draws": 1,
-        "losses": 0,
-        "goals": "10:6",
-        "diff": "+4",
+        "losses": 1,
+        "goals": "11:9",
+        "diff": "+2",
         "points": 10,
         "position": 3
       },
@@ -48,6 +48,17 @@
         "position": 4
       },
       {
+        "team": "Greifswalder FC",
+        "played": 5,
+        "wins": 2,
+        "draws": 2,
+        "losses": 1,
+        "goals": "11:7",
+        "diff": "+4",
+        "points": 8,
+        "position": 5
+      },
+      {
         "team": "VSG Altglienicke",
         "played": 4,
         "wins": 2,
@@ -56,27 +67,16 @@
         "goals": "11:7",
         "diff": "+4",
         "points": 8,
-        "position": 5
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 4,
-        "wins": 2,
-        "draws": 1,
-        "losses": 1,
-        "goals": "11:6",
-        "diff": "+5",
-        "points": 7,
         "position": 6
       },
       {
-        "team": "Greifswalder FC",
-        "played": 4,
+        "team": "1. FC Magdeburg II",
+        "played": 5,
         "wins": 2,
         "draws": 1,
-        "losses": 1,
-        "goals": "10:6",
-        "diff": "+4",
+        "losses": 2,
+        "goals": "12:10",
+        "diff": "+2",
         "points": 7,
         "position": 7
       },
@@ -181,13 +181,13 @@
       },
       {
         "team": "BFC Preussen 1894",
-        "played": 4,
+        "played": 5,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 3,
-        "goals": "3:8",
+        "goals": "4:9",
         "diff": "-5",
-        "points": 1,
+        "points": 2,
         "position": 17
       },
       {
