@@ -101,7 +101,16 @@
       "match_number": "690047042",
       "location_source": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A",
       "halftime_result": "1:1",
-      "referee": "Jens Klemm"
+      "referee": "Jens Klemm",
+      "scorers": [
+        "9. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 0:1",
+        "36. Minute – Lukas Lämmel (SV Babelsberg 03) – 1:1",
+        "47. Minute – Theo Ogbidi (SV Babelsberg 03) – 2:1",
+        "60. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 2:2",
+        "79. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 2:3",
+        "90+12. Minute – Joshua Okpalaike (SV Babelsberg 03) – 3:3"
+      ],
+      "attendance": 3120
     },
     {
       "id": "lp-01",
@@ -233,9 +242,11 @@
       "away": "SV Tasmania Berlin",
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110",
+      "match_number": "690047122",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A"
     },
     {
       "id": "rl-15",

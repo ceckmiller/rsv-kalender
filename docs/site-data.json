@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T21:17:48.339529+02:00",
+  "generated_at": "2026-08-15T03:53:31.360835+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -122,12 +122,19 @@
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "3:3",
           "halftime_result": "1:1",
-          "scorers": [],
+          "scorers": [
+            "9. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 0:1",
+            "36. Minute – Lukas Lämmel (SV Babelsberg 03) – 1:1",
+            "47. Minute – Theo Ogbidi (SV Babelsberg 03) – 2:1",
+            "60. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 2:2",
+            "79. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 2:3",
+            "90+12. Minute – Joshua Okpalaike (SV Babelsberg 03) – 3:3"
+          ],
           "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Str.+90%2C+14482+Potsdam",
           "points": 6,
           "table_position": 11,
-          "attendance": null,
+          "attendance": 3120,
           "referee": "Jens Klemm",
           "youtube_url": "https://www.youtube.com/results?search_query=SV+Babelsberg+03+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/5-spieltag/sv-babelsberg-03-rsv-eintracht-1949-2426025"
@@ -383,8 +390,8 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/sv-tasmania-berlin.png",
           "result": "",
-          "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
@@ -11301,8 +11308,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001031",
+          "id": "u21-890001026",
           "matchday": 3,
+          "date": "2026-08-28",
+          "time": "18:30",
+          "competition": "2.Bundesliga",
+          "home": "Eintracht Braunschweig",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001031",
+          "matchday": 4,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11319,7 +11343,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 5,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11336,7 +11360,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 6,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -11353,7 +11377,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 7,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11370,7 +11394,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 8,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11387,7 +11411,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 9,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -11404,7 +11428,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 10,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
