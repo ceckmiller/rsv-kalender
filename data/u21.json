@@ -10,7 +10,7 @@
       "home": "RSV Eintracht 1949 U21",
       "away": "Rot-Weiß Groß Glienicke II",
       "competition": "Kreispokal 2026/27",
-      "result": null,
+      "result": "6:1",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii/-/spiel/031F066OOS000000VS5489BTVUS470OH",
       "match_number": "710089011",
@@ -18,7 +18,17 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008GVV0AG08LVUPGND5I",
       "round": "1. Runde",
       "round_url": "https://www.fussball.de/spieltag/1-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-08-16/staffel/031EVTJQM8000001VS5489BTVUS470OH-R",
-      "location_source": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH"
+      "location_source": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-ii-rsv-eintracht-1949-u21/-/spiel/031F066OOS000000VS5489BTVUS470OH",
+      "halftime_result": "1:0",
+      "scorers": [
+        "40. Minute – Simon Paul Herbst (RSV Eintracht 1949 U21) – 1:0",
+        "55. Minute – Carl Bischoff (RSV Eintracht 1949 U21) – 2:0",
+        "61. Minute – Leonard Felix Eckmiller (RSV Eintracht 1949 U21) – 3:0",
+        "67. Minute – Leonard Felix Eckmiller (RSV Eintracht 1949 U21) – 4:0",
+        "75. Minute – Maximilian Krger (Rot-Weiß Groß Glienicke II) – 4:1",
+        "83. Minute – Jonathan David Patt (RSV Eintracht 1949 U21) – 5:1",
+        "90. Minute – Eric Beuermann (RSV Eintracht 1949 U21) – 6:1"
+      ]
     },
     {
       "id": "u21-610480004",
