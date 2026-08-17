@@ -1,6 +1,6 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-08-17T15:07:53.327516+02:00",
+  "updated_at": "2026-08-17T20:59:15.432688+02:00",
   "events": [
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/",
@@ -11,6 +11,11 @@
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/",
       "date": "2026-08-30",
       "opponent": "1. FC Magdeburg II"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5041213/",
+      "date": "2026-09-16",
+      "opponent": "Greifswalder FC"
     }
   ]
 }

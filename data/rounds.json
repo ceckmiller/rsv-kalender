@@ -716,11 +716,59 @@
       "round": "7",
       "matches": [
         {
-          "id": "rl-md7-1084ec9937a0",
-          "date": "2026-08-30",
+          "id": "rl-md7-50947dcf6aef",
+          "date": "2026-08-28",
+          "time": "19:00",
+          "home": "VSG Altglienicke",
+          "away": "BSG Chemie Leipzig",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 7,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md7-6253c9fc2a84",
+          "date": "2026-08-28",
+          "time": "19:00",
+          "home": "Chemnitzer FC",
+          "away": "FC Carl Zeiss Jena",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 7,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md7-9c0282490796",
+          "date": "2026-08-29",
           "time": "14:00",
           "home": "FC Rot-Weiß Erfurt",
           "away": "BFC Preussen 1894",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 7,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md7-dfb7887b7179",
+          "date": "2026-08-29",
+          "time": "14:00",
+          "home": "Hertha BSC II",
+          "away": "Hallescher FC",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 7,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md7-8b8c92c36ab3",
+          "date": "2026-08-29",
+          "time": "16:00",
+          "home": "FSV Zwickau",
+          "away": "SV Babelsberg 03",
           "result": null,
           "halftime_result": null,
           "location": "",
@@ -775,54 +823,6 @@
           "matchday": 7,
           "competition": "Regionalliga Nordost 2026/27",
           "team_fixture_id": "rl-07"
-        },
-        {
-          "id": "rl-md7-3995411e696d",
-          "date": "2026-08-30",
-          "time": "14:00",
-          "home": "VSG Altglienicke",
-          "away": "BSG Chemie Leipzig",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 7,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md7-3fbea0ab99be",
-          "date": "2026-08-30",
-          "time": "14:00",
-          "home": "Chemnitzer FC",
-          "away": "FC Carl Zeiss Jena",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 7,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md7-6c5f92b54447",
-          "date": "2026-08-30",
-          "time": "14:00",
-          "home": "Hertha BSC II",
-          "away": "Hallescher FC",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 7,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md7-87d2c84f2504",
-          "date": "2026-08-30",
-          "time": "14:00",
-          "home": "FSV Zwickau",
-          "away": "SV Babelsberg 03",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 7,
-          "competition": "Regionalliga Nordost 2026/27"
         }
       ]
     },

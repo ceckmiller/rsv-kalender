@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:09:49.406030+02:00",
+  "generated_at": "2026-08-17T21:01:17.538435+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -309,7 +309,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041213/"
         },
         {
           "id": "rl-10",
@@ -2022,6 +2022,76 @@
               "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
             },
             {
+              "id": "rl-md7-6253c9fc2a84",
+              "date": "2026-08-28",
+              "time": "19:00",
+              "home": "Chemnitzer FC",
+              "away": "FC Carl Zeiss Jena",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/chemnitzer-fc.png",
+              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
+            },
+            {
+              "id": "rl-md7-50947dcf6aef",
+              "date": "2026-08-28",
+              "time": "19:00",
+              "home": "VSG Altglienicke",
+              "away": "BSG Chemie Leipzig",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
+            },
+            {
+              "id": "rl-md7-9c0282490796",
+              "date": "2026-08-29",
+              "time": "14:00",
+              "home": "FC Rot-Weiß Erfurt",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
+              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+            },
+            {
+              "id": "rl-md7-dfb7887b7179",
+              "date": "2026-08-29",
+              "time": "14:00",
+              "home": "Hertha BSC II",
+              "away": "Hallescher FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/hertha-bsc-ii.png",
+              "away_logo": "/assets/clubs/hallescher-fc.png"
+            },
+            {
+              "id": "rl-md7-8b8c92c36ab3",
+              "date": "2026-08-29",
+              "time": "16:00",
+              "home": "FSV Zwickau",
+              "away": "SV Babelsberg 03",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 7,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-zwickau.png",
+              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
+            },
+            {
               "id": "rl-md7-33a9d75c083b",
               "date": "2026-08-30",
               "time": "14:00",
@@ -2034,34 +2104,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            },
-            {
-              "id": "rl-md7-3fbea0ab99be",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "Chemnitzer FC",
-              "away": "FC Carl Zeiss Jena",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/chemnitzer-fc.png",
-              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
-            },
-            {
-              "id": "rl-md7-1084ec9937a0",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "FC Rot-Weiß Erfurt",
-              "away": "BFC Preussen 1894",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
-              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
             },
             {
               "id": "rl-md7-2622cfd18172",
@@ -2078,34 +2120,6 @@
               "away_logo": "/assets/clubs/bfc-dynamo.png"
             },
             {
-              "id": "rl-md7-87d2c84f2504",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "FSV Zwickau",
-              "away": "SV Babelsberg 03",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-zwickau.png",
-              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
-            },
-            {
-              "id": "rl-md7-6c5f92b54447",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "Hertha BSC II",
-              "away": "Hallescher FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/hertha-bsc-ii.png",
-              "away_logo": "/assets/clubs/hallescher-fc.png"
-            },
-            {
               "id": "rl-md7-5e143b65ef2d",
               "date": "2026-08-30",
               "time": "14:00",
@@ -2118,23 +2132,9 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/sv-tasmania-berlin.png",
               "away_logo": "/assets/clubs/greifswalder-fc.png"
-            },
-            {
-              "id": "rl-md7-3995411e696d",
-              "date": "2026-08-30",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "BSG Chemie Leipzig",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 7,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             }
           ],
-          "date": "2026-08-30",
+          "date": "2026-08-28",
           "date_end": "2026-08-30"
         },
         {
@@ -5992,8 +5992,8 @@
         {
           "id": "u23-fs-20260815",
           "matchday": null,
-          "date": "2026-08-15",
-          "time": "14:00",
+          "date": "2026-08-18",
+          "time": "20:00",
           "competition": "Landesfreundschaftsspiele",
           "home": "SV Babelsberg 03 II",
           "away": "RSV Eintracht 1949 U23",
@@ -6623,8 +6623,8 @@
           "matches": [
             {
               "id": "u23-fs-20260815",
-              "date": "2026-08-15",
-              "time": "14:00",
+              "date": "2026-08-18",
+              "time": "20:00",
               "home": "SV Babelsberg 03 II",
               "away": "RSV Eintracht 1949 U23",
               "result": null,
@@ -6635,8 +6635,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-08-15",
-          "date_end": "2026-08-15"
+          "date": "2026-08-18",
+          "date_end": "2026-08-18"
         },
         {
           "id": "game:u23-810005173",
@@ -7900,6 +7900,22 @@
         }
       ],
       "next_game": {
+        "id": "u23-fs-20260815",
+        "matchday": null,
+        "date": "2026-08-18",
+        "time": "20:00",
+        "competition": "Landesfreundschaftsspiele",
+        "home": "SV Babelsberg 03 II",
+        "away": "RSV Eintracht 1949 U23",
+        "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR%2C+Franz-Mehring-Str.+54%2C+14482+Potsdam",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
         "id": "u23-810005173",
         "matchday": null,
         "date": "2026-08-20",
@@ -7914,8 +7930,7 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      },
-      "next_home": null
+      }
     },
     "u21": {
       "name": "RSV Eintracht – U21",
@@ -12261,25 +12276,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 2,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 3,
+          "matchday": 2,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12296,7 +12294,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12313,7 +12311,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -12330,7 +12328,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12347,7 +12345,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12364,7 +12362,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12381,7 +12379,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12398,7 +12396,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",
