@@ -4422,6 +4422,36 @@
           "source_url": "https://www.fussball.de/spiel/esv-lok-potsdam-sv-falkensee-finkenkrug-ii/-/spiel/031Q3AJER8000000VS5489BTVT8K11BC"
         },
         {
+          "id": "cup-eintracht-falkensee-i-rsv-eintracht-1949-u23",
+          "date": "2026-08-23",
+          "time": "13:00",
+          "home": "Eintracht Falkensee I",
+          "away": "RSV Eintracht 1949 U23",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
+        },
+        {
+          "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
+          "date": "2026-08-23",
+          "time": "13:15",
+          "home": "Fortuna Babelsberg III",
+          "away": "SG Grün-Weiß Golm II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+        },
+        {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
           "date": "2026-08-23",
           "time": "14:00",
@@ -4617,21 +4647,6 @@
           "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC"
         },
         {
-          "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "Fortuna Babelsberg III",
-          "away": "SG Grün-Weiß Golm II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
-        },
-        {
           "id": "cup-sv-blau-weiss-damsdorf-caputher-sv-1",
           "date": "2026-08-23",
           "time": "15:00",
@@ -4735,21 +4750,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-1950-wachow-tremmen-sg-geltow/-/spiel/031Q3AJFP8000000VS5489BTVT8K11BC"
-        },
-        {
-          "id": "cup-eintracht-falkensee-i-rsv-eintracht-1949-u23",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "Eintracht Falkensee I",
-          "away": "RSV Eintracht 1949 U23",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-fc-borussia-brandenburg-ii-sv-roskow",
@@ -5492,6 +5492,36 @@
           "source_url": "https://www.fussball.de/spiel/esv-lok-potsdam-sv-falkensee-finkenkrug-ii/-/spiel/031Q3AJER8000000VS5489BTVT8K11BC"
         },
         {
+          "id": "cup-eintracht-falkensee-i-rsv-eintracht-1949-u23",
+          "date": "2026-08-23",
+          "time": "13:00",
+          "home": "Eintracht Falkensee I",
+          "away": "RSV Eintracht 1949 U23",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
+        },
+        {
+          "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
+          "date": "2026-08-23",
+          "time": "13:15",
+          "home": "Fortuna Babelsberg III",
+          "away": "SG Grün-Weiß Golm II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+        },
+        {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
           "date": "2026-08-23",
           "time": "14:00",
@@ -5687,21 +5717,6 @@
           "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC"
         },
         {
-          "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "Fortuna Babelsberg III",
-          "away": "SG Grün-Weiß Golm II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
-        },
-        {
           "id": "cup-sv-blau-weiss-damsdorf-caputher-sv-1",
           "date": "2026-08-23",
           "time": "15:00",
@@ -5805,21 +5820,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-1950-wachow-tremmen-sg-geltow/-/spiel/031Q3AJFP8000000VS5489BTVT8K11BC"
-        },
-        {
-          "id": "cup-eintracht-falkensee-i-rsv-eintracht-1949-u23",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "Eintracht Falkensee I",
-          "away": "RSV Eintracht 1949 U23",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-fc-borussia-brandenburg-ii-sv-roskow",
