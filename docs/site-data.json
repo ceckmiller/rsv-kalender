@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T21:00:35.368085+02:00",
+  "generated_at": "2026-08-19T03:57:01.340014+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5952,6 +5952,31 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=An+der+Dorfkirche+KR1%2C+An+der+Dorfkirche+9%2C+12277+Berlin",
           "points": null,
           "table_position": null
+        },
+        {
+          "id": "u23-fs-20260815",
+          "matchday": null,
+          "date": "2026-08-18",
+          "time": "20:00",
+          "competition": "Landesfreundschaftsspiele",
+          "home": "SV Babelsberg 03 II",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "1:5",
+          "halftime_result": "1:3",
+          "scorers": [
+            "7. Minute – Jakob Krieg (RSV Eintracht 1949 U23) – 0:1",
+            "26. Minute – k.A. (RSV Eintracht 1949 U23) – 0:2",
+            "35. Minute – Marvin Stahlberg (RSV Eintracht 1949 U23) – 0:3",
+            "42. Minute – k.A. (SV Babelsberg 03 II) – 1:3",
+            "46. Minute – Jamil Berjawi (RSV Eintracht 1949 U23) – 1:4",
+            "80. Minute – Jannis Oberbarnscheidt (RSV Eintracht 1949 U23) – 1:5"
+          ],
+          "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR%2C+Franz-Mehring-Str.+54%2C+14482+Potsdam",
+          "points": null,
+          "table_position": null
         }
       ],
       "fixtures": [
@@ -5999,7 +6024,7 @@
           "away": "RSV Eintracht 1949 U23",
           "home_logo": "/assets/clubs/sv-babelsberg-03.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "1:5",
           "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR%2C+Franz-Mehring-Str.+54%2C+14482+Potsdam",
           "is_home": false,
@@ -6627,8 +6652,8 @@
               "time": "20:00",
               "home": "SV Babelsberg 03 II",
               "away": "RSV Eintracht 1949 U23",
-              "result": null,
-              "halftime_result": null,
+              "result": "1:5",
+              "halftime_result": "1:3",
               "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
               "matchday": null,
               "home_logo": "/assets/clubs/sv-babelsberg-03.png",
@@ -6730,6 +6755,21 @@
               "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-iii-juventas-crew-alpha/-/spiel/031Q3AJEPG000000VS5489BTVT8K11BC"
             },
             {
+              "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
+              "date": "2026-08-23",
+              "time": "11:00",
+              "home": "USV Potsdam",
+              "away": "SV Ruhlsdorf I",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/usv-potsdam.png",
+              "away_logo": "/assets/clubs/sv-ruhlsdorf-i.png",
+              "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
+            },
+            {
               "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
               "date": "2026-08-23",
               "time": "13:15",
@@ -6758,6 +6798,21 @@
               "home_logo": "/assets/clubs/fsv-eintracht-glindow.png",
               "away_logo": "/assets/clubs/spielgemeinschaft-schoenwalde-perwenitz-paaren.png",
               "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC"
+            },
+            {
+              "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
+              "date": "2026-08-23",
+              "time": "14:00",
+              "home": "FSV Grün-Weiß Niemegk",
+              "away": "Fortuna Babelsberg II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png",
+              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-sv-dallgow-47-ii-sv-kloster-lehnin",
@@ -6893,21 +6948,6 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-rot-weiss-gross-glienicke/-/spiel/031Q3AJFL0000000VS5489BTVT8K11BC"
-            },
-            {
-              "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
-              "date": "2026-08-23",
-              "time": "15:00",
-              "home": "FSV Grün-Weiß Niemegk",
-              "away": "Fortuna Babelsberg II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png",
-              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-kfv-wittbrietzen-bredower-sv-i",
@@ -7088,21 +7128,6 @@
               "home_logo": "/assets/clubs/sv-ziesar-1931-ii.png",
               "away_logo": "/assets/clubs/vfl-nauen-ii.png",
               "source_url": "https://www.fussball.de/spiel/sv-ziesar-1931-ii-vfl-nauen-ii/-/spiel/031Q3AJFA8000000VS5489BTVT8K11BC"
-            },
-            {
-              "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
-              "date": "2026-08-23",
-              "time": "15:00",
-              "home": "USV Potsdam",
-              "away": "SV Ruhlsdorf I",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/usv-potsdam.png",
-              "away_logo": "/assets/clubs/sv-ruhlsdorf-i.png",
-              "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-sv-05-rehbruecke-sg-michendorf-ii",
@@ -7900,22 +7925,6 @@
         }
       ],
       "next_game": {
-        "id": "u23-fs-20260815",
-        "matchday": null,
-        "date": "2026-08-18",
-        "time": "20:00",
-        "competition": "Landesfreundschaftsspiele",
-        "home": "SV Babelsberg 03 II",
-        "away": "RSV Eintracht 1949 U23",
-        "home_logo": "/assets/clubs/sv-babelsberg-03.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Sandscholle%2C+KR%2C+Franz-Mehring-Str.+54%2C+14482+Potsdam",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u23-810005173",
         "matchday": null,
         "date": "2026-08-20",
@@ -7930,7 +7939,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u21": {
       "name": "RSV Eintracht – U21",
@@ -9193,6 +9203,21 @@
               "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-iii-juventas-crew-alpha/-/spiel/031Q3AJEPG000000VS5489BTVT8K11BC"
             },
             {
+              "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
+              "date": "2026-08-23",
+              "time": "11:00",
+              "home": "USV Potsdam",
+              "away": "SV Ruhlsdorf I",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/usv-potsdam.png",
+              "away_logo": "/assets/clubs/sv-ruhlsdorf-i.png",
+              "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
+            },
+            {
               "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
               "date": "2026-08-23",
               "time": "13:15",
@@ -9221,6 +9246,21 @@
               "home_logo": "/assets/clubs/fsv-eintracht-glindow.png",
               "away_logo": "/assets/clubs/spielgemeinschaft-schoenwalde-perwenitz-paaren.png",
               "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC"
+            },
+            {
+              "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
+              "date": "2026-08-23",
+              "time": "14:00",
+              "home": "FSV Grün-Weiß Niemegk",
+              "away": "Fortuna Babelsberg II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png",
+              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-sv-dallgow-47-ii-sv-kloster-lehnin",
@@ -9356,21 +9396,6 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/rot-weiss-gross-glienicke.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-rot-weiss-gross-glienicke/-/spiel/031Q3AJFL0000000VS5489BTVT8K11BC"
-            },
-            {
-              "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
-              "date": "2026-08-23",
-              "time": "15:00",
-              "home": "FSV Grün-Weiß Niemegk",
-              "away": "Fortuna Babelsberg II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png",
-              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-kfv-wittbrietzen-bredower-sv-i",
@@ -9551,21 +9576,6 @@
               "home_logo": "/assets/clubs/sv-ziesar-1931-ii.png",
               "away_logo": "/assets/clubs/vfl-nauen-ii.png",
               "source_url": "https://www.fussball.de/spiel/sv-ziesar-1931-ii-vfl-nauen-ii/-/spiel/031Q3AJFA8000000VS5489BTVT8K11BC"
-            },
-            {
-              "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
-              "date": "2026-08-23",
-              "time": "15:00",
-              "home": "USV Potsdam",
-              "away": "SV Ruhlsdorf I",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/usv-potsdam.png",
-              "away_logo": "/assets/clubs/sv-ruhlsdorf-i.png",
-              "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
             },
             {
               "id": "cup-sv-05-rehbruecke-sg-michendorf-ii",
@@ -12276,8 +12286,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001031",
+          "id": "u21-890001026",
           "matchday": 2,
+          "date": "2026-08-28",
+          "time": "18:30",
+          "competition": "2.Bundesliga",
+          "home": "Eintracht Braunschweig",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001031",
+          "matchday": 3,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12294,7 +12321,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 3,
+          "matchday": 4,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12311,7 +12338,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 4,
+          "matchday": 5,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -12328,7 +12355,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 5,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12345,7 +12372,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 6,
+          "matchday": 7,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12362,7 +12389,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 7,
+          "matchday": 8,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12379,7 +12406,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 8,
+          "matchday": 9,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12396,7 +12423,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 9,
+          "matchday": 10,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",

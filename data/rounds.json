@@ -4392,6 +4392,21 @@
       "round": "2. Runde",
       "matches": [
         {
+          "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
+          "date": "2026-08-23",
+          "time": "11:00",
+          "home": "USV Potsdam",
+          "away": "SV Ruhlsdorf I",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
+        },
+        {
           "id": "cup-sv-dallgow-47-iii-juventas-crew-alpha",
           "date": "2026-08-23",
           "time": "11:00",
@@ -4450,6 +4465,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+        },
+        {
+          "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
+          "date": "2026-08-23",
+          "time": "14:00",
+          "home": "FSV Grün-Weiß Niemegk",
+          "away": "Fortuna Babelsberg II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
@@ -4542,21 +4572,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-deetz-i-brandenburger-srk/-/spiel/031Q3AJEG8000000VS5489BTVT8K11BC"
         },
         {
-          "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "FSV Grün-Weiß Niemegk",
-          "away": "Fortuna Babelsberg II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
-        },
-        {
           "id": "cup-sv-empor-schenkenberg-ii-fsv-babelsberg-74-iii",
           "date": "2026-08-23",
           "time": "15:00",
@@ -4570,21 +4585,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00003DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-empor-schenkenberg-ii-fsv-babelsberg-74-iii/-/spiel/031Q3AJELO000000VS5489BTVT8K11BC"
-        },
-        {
-          "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "USV Potsdam",
-          "away": "SV Ruhlsdorf I",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-sg-saarmund-ii-fsv-brueck-i",
@@ -5462,6 +5462,21 @@
       "round": "2. Runde",
       "matches": [
         {
+          "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
+          "date": "2026-08-23",
+          "time": "11:00",
+          "home": "USV Potsdam",
+          "away": "SV Ruhlsdorf I",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
+        },
+        {
           "id": "cup-sv-dallgow-47-iii-juventas-crew-alpha",
           "date": "2026-08-23",
           "time": "11:00",
@@ -5520,6 +5535,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+        },
+        {
+          "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
+          "date": "2026-08-23",
+          "time": "14:00",
+          "home": "FSV Grün-Weiß Niemegk",
+          "away": "Fortuna Babelsberg II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
@@ -5612,21 +5642,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-deetz-i-brandenburger-srk/-/spiel/031Q3AJEG8000000VS5489BTVT8K11BC"
         },
         {
-          "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "FSV Grün-Weiß Niemegk",
-          "away": "Fortuna Babelsberg II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
-        },
-        {
           "id": "cup-sv-empor-schenkenberg-ii-fsv-babelsberg-74-iii",
           "date": "2026-08-23",
           "time": "15:00",
@@ -5640,21 +5655,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00003DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-empor-schenkenberg-ii-fsv-babelsberg-74-iii/-/spiel/031Q3AJELO000000VS5489BTVT8K11BC"
-        },
-        {
-          "id": "cup-usv-potsdam-sv-ruhlsdorf-i",
-          "date": "2026-08-23",
-          "time": "15:00",
-          "home": "USV Potsdam",
-          "away": "SV Ruhlsdorf I",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/usv-potsdam-sv-ruhlsdorf-i/-/spiel/031Q3AJENK000000VS5489BTVT8K11BC"
         },
         {
           "id": "cup-sg-saarmund-ii-fsv-brueck-i",
