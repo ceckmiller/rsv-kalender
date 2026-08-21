@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T09:11:25.130845+02:00",
+  "generated_at": "2026-08-21T15:14:39.454577+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -8019,8 +8019,8 @@
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/sg-eintracht-friesack.png",
           "result": "",
-          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
           "round": "2. Runde",
           "ticket_url": ""
@@ -9083,7 +9083,7 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/vfl-nauen-iii.png",
               "away_logo": "/assets/clubs/moegeliner-sc-1913.png",
-              "source_url": "https://www.fussball.de/spiel/vfl-nauen-iii-moegeliner-sc-1913/-/spiel/031F066PNK000000VS5489BTVUS470OH#!/section/course"
+              "source_url": "https://www.fussball.de/spiel/vfl-nauen-iii-moegeliner-sc-1913/-/spiel/031F066PNK000000VS5489BTVUS470OH"
             },
             {
               "id": "cup-fv-turbine-potsdam-55-ii-esv-lok-potsdam",
@@ -10372,8 +10372,8 @@
         "away": "SG Eintracht Friesack",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
         "away_logo": "/assets/clubs/sg-eintracht-friesack.png",
-        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+        "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
         "round": "2. Runde",
         "ticket_url": ""
@@ -12301,8 +12301,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001031",
+          "id": "u21-890001026",
           "matchday": 2,
+          "date": "2026-08-28",
+          "time": "18:30",
+          "competition": "2.Bundesliga",
+          "home": "Eintracht Braunschweig",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001031",
+          "matchday": 3,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12319,7 +12336,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 3,
+          "matchday": 4,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12336,7 +12353,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 4,
+          "matchday": 5,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -12353,7 +12370,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 5,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12370,7 +12387,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 6,
+          "matchday": 7,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12387,7 +12404,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 7,
+          "matchday": 8,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12404,7 +12421,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 8,
+          "matchday": 9,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12421,7 +12438,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 9,
+          "matchday": 10,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",
