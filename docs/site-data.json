@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T15:04:55.444620+02:00",
+  "generated_at": "2026-08-22T20:51:37.921528+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -407,8 +407,8 @@
           "home_logo": "/assets/clubs/bfc-dynamo.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "result": "",
-          "location": "Sportforum Hohenschönhausen, Weißenseer Weg 53, 13053 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Hohensch%C3%B6nhausen%2C+Wei%C3%9Fenseer+Weg+53%2C+13053+Berlin",
+          "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Stadion%2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin",
           "is_home": false,
           "round": "",
           "ticket_url": ""
@@ -12326,7 +12326,7 @@
           "away": "Hertha BSC",
           "home_logo": "/assets/clubs/1-fc-saarbruecken.png",
           "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
+          "result": "3:5",
           "location": "Saarbrücken, Ludwigsparkstadion, Camphauser Str., 66113 Saarbrücken",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Saarbr%C3%BCcken%2C+Ludwigsparkstadion%2C+Camphauser+Str.%2C+66113+Saarbr%C3%BCcken",
           "is_home": false,
@@ -12334,25 +12334,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 2,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 3,
+          "matchday": 2,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12369,7 +12352,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12386,7 +12369,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -12403,7 +12386,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12420,7 +12403,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12437,7 +12420,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12454,7 +12437,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12471,7 +12454,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -12485,22 +12468,39 @@
           "is_home": true,
           "round": "",
           "ticket_url": ""
+        },
+        {
+          "id": "u21-890001108",
+          "matchday": 10,
+          "date": "2026-11-22",
+          "time": "13:30",
+          "competition": "2.Bundesliga",
+          "home": "FC Energie Cottbus",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/fc-energie-cottbus.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "LEAG Energie Stadion, Am Eliaspark 1, 03042 Cottbus",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=LEAG+Energie+Stadion%2C+Am+Eliaspark+1%2C+03042+Cottbus",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
         }
       ],
       "next_game": {
-        "id": "u21-870049018",
-        "matchday": null,
-        "date": "2026-08-22",
-        "time": "15:30",
-        "competition": "DFB-Pokal",
-        "home": "1. FC Saarbrücken",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/1-fc-saarbruecken.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "id": "u21-890001031",
+        "matchday": 2,
+        "date": "2026-09-06",
+        "time": "13:30",
+        "competition": "2.Bundesliga",
+        "home": "Hertha BSC",
+        "away": "1. FC Magdeburg",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/1-fc-magdeburg.png",
         "result": "",
-        "location": "Saarbrücken, Ludwigsparkstadion, Camphauser Str., 66113 Saarbrücken",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Saarbr%C3%BCcken%2C+Ludwigsparkstadion%2C+Camphauser+Str.%2C+66113+Saarbr%C3%BCcken",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }

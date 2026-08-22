@@ -256,9 +256,11 @@
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119"
+      "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
+      "source_url": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119",
+      "match_number": "690047129",
+      "location_source": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A"
     },
     {
       "id": "rl-16",
