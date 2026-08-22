@@ -109,12 +109,13 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "BFC Dynamo U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "0:0",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bfc-dynamo-u19/-/spiel/031B3S0HMG000000VS5489BUVV628VP4",
       "match_number": "690007011",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I",
+      "halftime_result": "0:0"
     },
     {
       "id": "u19-690007021",
