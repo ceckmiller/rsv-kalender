@@ -4487,7 +4487,7 @@
           "time": "11:00",
           "home": "USV Potsdam",
           "away": "SV Ruhlsdorf I",
-          "result": null,
+          "result": "0:4",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -4502,7 +4502,7 @@
           "time": "11:00",
           "home": "SV Dallgow 47 III",
           "away": "Juventas Crew Alpha",
-          "result": null,
+          "result": "3:9",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -4517,7 +4517,7 @@
           "time": "11:00",
           "home": "ESV Lok Potsdam",
           "away": "SV Falkensee-Finkenkrug II",
-          "result": null,
+          "result": "2:1",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -4539,7 +4539,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
@@ -4554,7 +4554,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
@@ -4569,7 +4569,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
@@ -4599,7 +4599,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00003EVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-ii-sv-kloster-lehnin/-/spiel/031Q3AJFEC000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-ii-sv-kloster-lehnin/-/spiel/031Q3AJFEC000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren",
@@ -4614,7 +4614,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000088VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000049VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-rsv-eintracht-1949-u21-sg-eintracht-friesack",
@@ -4734,7 +4734,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000046VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000030VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-blau-weiss-damsdorf-caputher-sv-1",
@@ -4899,7 +4899,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008HVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000042VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/kfv-wittbrietzen-bredower-sv-i/-/spiel/031Q3AJG5C000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/kfv-wittbrietzen-bredower-sv-i/-/spiel/031Q3AJG5C000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-1948-ferch-sv-hohennauen",
@@ -4914,7 +4914,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000081VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000AHVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sv-hohennauen/-/spiel/031Q3AJG9G000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sv-hohennauen/-/spiel/031Q3AJG9G000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-05-rehbruecke-sg-michendorf-ii",
@@ -5557,7 +5557,7 @@
           "time": "11:00",
           "home": "USV Potsdam",
           "away": "SV Ruhlsdorf I",
-          "result": null,
+          "result": "0:4",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -5572,7 +5572,7 @@
           "time": "11:00",
           "home": "SV Dallgow 47 III",
           "away": "Juventas Crew Alpha",
-          "result": null,
+          "result": "3:9",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -5587,7 +5587,7 @@
           "time": "11:00",
           "home": "ESV Lok Potsdam",
           "away": "SV Falkensee-Finkenkrug II",
-          "result": null,
+          "result": "2:1",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -5609,7 +5609,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii",
@@ -5624,7 +5624,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-iii-sg-gruen-weiss-golm-ii/-/spiel/031Q3AJF4K000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii",
@@ -5639,7 +5639,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-fortuna-babelsberg-ii/-/spiel/031Q3AJEI8000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-teltower-fv-1913-ii-esv-lok-seddin",
@@ -5669,7 +5669,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00003EVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-ii-sv-kloster-lehnin/-/spiel/031Q3AJFEC000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-ii-sv-kloster-lehnin/-/spiel/031Q3AJFEC000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren",
@@ -5684,7 +5684,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000088VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000049VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/fsv-eintracht-glindow-spielgemeinschaft-schoenwalde-perwenitz-paaren/-/spiel/031Q3AJFGG000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-rsv-eintracht-1949-u21-sg-eintracht-friesack",
@@ -5804,7 +5804,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000046VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000030VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/esv-lok-elstal-sv-ziesar-1/-/spiel/031Q3AJF2O000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-blau-weiss-damsdorf-caputher-sv-1",
@@ -5969,7 +5969,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008HVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000042VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/kfv-wittbrietzen-bredower-sv-i/-/spiel/031Q3AJG5C000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/kfv-wittbrietzen-bredower-sv-i/-/spiel/031Q3AJG5C000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-1948-ferch-sv-hohennauen",
@@ -5984,7 +5984,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000081VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000AHVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sv-hohennauen/-/spiel/031Q3AJG9G000000VS5489BTVT8K11BC"
+          "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sv-hohennauen/-/spiel/031Q3AJG9G000000VS5489BTVT8K11BC#!/section/course"
         },
         {
           "id": "cup-sv-05-rehbruecke-sg-michendorf-ii",
