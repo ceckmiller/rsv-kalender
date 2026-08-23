@@ -38,6 +38,46 @@ def normalize_match_name(value):
     name=re.sub(r'\s+',' ',name).strip().casefold()
     return name
 
+def is_placeholder_team(name):
+    """True for unresolved cup opponents such as 'Sieger aus einem Spiel'."""
+    return bool(re.match(r'(?i)^\s*sieger\b', str(name or '').strip()))
+
+def normalize_competition(value):
+    text=str(value or '')
+    if re.search(r'brandenburg[\s-]*pokal|landespokal\s+brandenburg', text, re.I):
+        year=re.search(r'20\d{2}/\d{2}', text)
+        return f'Landespokal Brandenburg {year.group(0)}' if year else 'Landespokal Brandenburg'
+    return text
+
+def _rsv_side(home, away):
+    home_rsv='eintracht' in normalize_match_name(home)
+    away_rsv='eintracht' in normalize_match_name(away)
+    if home_rsv and not away_rsv:
+        return 'home'
+    if away_rsv and not home_rsv:
+        return 'away'
+    return ''
+
+def fixtures_are_same_slot(left, right):
+    """Match the same fixture even when a cup placeholder later becomes a club name."""
+    if not left or not right:
+        return False
+    if left.get('id') and left.get('id') == right.get('id'):
+        return True
+    if left.get('date') and left.get('date') != right.get('date'):
+        return False
+    if (
+        normalize_match_name(left.get('home','')) == normalize_match_name(right.get('home',''))
+        and normalize_match_name(left.get('away','')) == normalize_match_name(right.get('away',''))
+    ):
+        return True
+    left_ph=is_placeholder_team(left.get('home','')) or is_placeholder_team(left.get('away',''))
+    right_ph=is_placeholder_team(right.get('home','')) or is_placeholder_team(right.get('away',''))
+    if not (left_ph or right_ph):
+        return False
+    left_side=_rsv_side(left.get('home',''), left.get('away',''))
+    return bool(left_side) and left_side == _rsv_side(right.get('home',''), right.get('away',''))
+
 def load_saved_ticket_events():
     path=DATA/'tickets.json'
     if not path.exists():
@@ -426,9 +466,14 @@ def enrich_dfb_match_details(games, offline=False):
             warnings.warn(f'DFB-Spielbericht fehlgeschlagen ({url}): {exc}')
             out.append(g)
             continue
-        for key in ('result','halftime_result','referee','scorers','attendance'):
+        for key in ('referee','attendance'):
             if detail.get(key) not in (None, '', []):
                 g[key]=detail[key]
+        # Results and scorers come from FUSSBALL.DE; DFB only fills gaps.
+        for key in ('result','halftime_result','scorers'):
+            if g.get(key) not in (None, '', []) or detail.get(key) in (None, '', []):
+                continue
+            g[key]=detail[key]
         out.append(g)
     return out
 
@@ -853,9 +898,11 @@ def _prefer_game(existing, candidate):
         glued=bool(re.search(r'Schiedsrichter:|Spielstätte:', f"{game.get('home','')} {game.get('away','')}", re.I))
         detail=1 if '/spiel/' in str(game.get('source_url') or '') else 0
         full_address=1 if re.search(r'\b\d{5}\b', location) else 0
+        placeholder=1 if is_placeholder_team(game.get('home','')) or is_placeholder_team(game.get('away','')) else 0
         return (
             1 if re.fullmatch(r'\d{6,}', match_number) else 0,
             0 if glued else 1,
+            0 if placeholder else 1,
             detail,
             full_address,
             1 if location else 0,
@@ -1038,6 +1085,19 @@ def _venue_name_key(location):
     return name if len(name) >= 4 else ''
 
 
+def _placeholder_target_id(existing, game):
+    for item in existing.values():
+        if fixtures_are_same_slot(item, game):
+            return item['id']
+    return None
+
+def _prefer_resolved_name(old_name, new_name):
+    old_name=_clean_team_name(old_name)
+    new_name=_clean_team_name(new_name)
+    if is_placeholder_team(new_name) and old_name and not is_placeholder_team(old_name):
+        return old_name
+    return new_name or old_name
+
 def merge(base, remote):
     result={g['id']:deepcopy(g) for g in base}
     for game in result.values():
@@ -1048,14 +1108,22 @@ def merge(base, remote):
     by_pair={(normalize_match_name(g['home']), normalize_match_name(g['away'])):g['id'] for g in result.values()}
     for g in remote:
         g={**g,'home':_clean_team_name(g.get('home','')),'away':_clean_team_name(g.get('away',''))}
+        if g.get('competition'):
+            g['competition']=normalize_competition(g.get('competition',''))
         pair=(normalize_match_name(g['home']), normalize_match_name(g['away']))
         target=(
             g['id'] if g['id'] in result
             else by_identity.get((g['date'],g['home'],g['away']))
-            or by_pair.get(pair, g['id'])
+            or by_pair.get(pair)
+            or _placeholder_target_id(result, g)
+            or g['id']
         )
         old=result.get(target,{})
         merged={**old,**{k:v for k,v in g.items() if v not in ('',None)},'id':target}
+        merged['home']=_prefer_resolved_name(old.get('home'), g.get('home'))
+        merged['away']=_prefer_resolved_name(old.get('away'), g.get('away'))
+        if merged.get('competition'):
+            merged['competition']=normalize_competition(merged['competition'])
         merged['location']=prefer_location(old.get('location'), g.get('location'))
         result[target]=merged
     return sorted(result.values(),key=lambda x:(x['date'],x.get('time','00:00')))
@@ -1644,13 +1712,24 @@ def load_round_pairings():
             if not gid:
                 continue
             current=by_id.get(gid)
-            if current and len(current.get('matches') or []) >= len(group.get('matches') or []):
+            if current and _cup_group_quality(current) >= _cup_group_quality(group):
                 continue
             by_id[gid]=group
         # Keep non-id items, then merged by id.
         rest=[x for x in existing if not x.get('id')]
         payload[key]=rest+list(by_id.values())
     return payload
+
+
+def _cup_group_quality(group):
+    """Prefer resolved club names and results over curated 'Sieger …' placeholders."""
+    matches=group.get('matches') or []
+    resolved=sum(
+        1 for m in matches
+        if not is_placeholder_team(m.get('home','')) and not is_placeholder_team(m.get('away',''))
+    )
+    scored=sum(1 for m in matches if str(m.get('result') or '').strip())
+    return (resolved, scored, len(matches))
 
 
 def parse_dfb_matchday(html, matchday, competition='Regionalliga Nordost'):
@@ -1741,7 +1820,9 @@ def round_label_from_spieltag_url(url):
         return ''
     patterns=(
         (r'(\d+)-runde', lambda m: f'{int(m.group(1))}. Runde'),
+        (r'runde-(\d+)', lambda m: f'{int(m.group(1))}. Runde'),
         (r'(\d+)-hauptrunde', lambda m: f'{int(m.group(1))}. Hauptrunde'),
+        (r'hauptrunde-(\d+)', lambda m: f'{int(m.group(1))}. Hauptrunde'),
         (r'achtelfinale', lambda _m: 'Achtelfinale'),
         (r'viertelfinale', lambda _m: 'Viertelfinale'),
         (r'halbfinale', lambda _m: 'Halbfinale'),
@@ -1760,7 +1841,7 @@ def extract_cup_meta_from_match_html(html):
     soup=BeautifulSoup(html,'html.parser')
     for a in soup.find_all('a', href=True):
         href=_absolute_fussball_url(a.get('href',''))
-        if '/spieltag/' not in href:
+        if '/spieltag/' not in href or '/spieltagsuebersicht/' in href:
             continue
         label=round_label_from_spieltag_url(href)
         if label:
@@ -1845,9 +1926,13 @@ def _cup_detail_url(game, team_page_urls=None):
                 continue
             ctx=' '.join((a.find_parent(['tr','li','div','article']) or a).get_text(' ',strip=True).split())
             ctx_key=normalize_match_name(ctx)
-            if home and home not in ctx_key:
+            home_placeholder=is_placeholder_team(game.get('home',''))
+            away_placeholder=is_placeholder_team(game.get('away',''))
+            if home and home not in ctx_key and not home_placeholder:
                 continue
-            if away and away not in ctx_key:
+            if away and away not in ctx_key and not away_placeholder:
+                continue
+            if (home_placeholder or away_placeholder) and 'eintracht' not in ctx_key:
                 continue
             if date:
                 # Accept either ISO or German date fragments near the fixture.
@@ -1979,18 +2064,17 @@ def _apply_cup_labels_from_payload(team_key, games, payload):
 
 def sync_round_matches_with_team_schedule(groups, games):
     """Team schedule is source of truth for kickoff dates (DFB matchday pages lag)."""
+    team_games=list(games or [])
     by_pair={}
-    for g in games:
+    for g in team_games:
         if not is_league_game(g):
             continue
         by_pair[(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')))]=g
-    if not by_pair:
-        return groups
     for grp in groups:
-        if grp.get('kind') != 'league':
-            continue
         for match in grp.get('matches') or []:
             team_game=by_pair.get((normalize_match_name(match.get('home','')), normalize_match_name(match.get('away',''))))
+            if not team_game:
+                team_game=next((g for g in team_games if fixtures_are_same_slot(match, g)), None)
             if not team_game:
                 continue
             if team_game.get('date'):
@@ -2001,6 +2085,10 @@ def sync_round_matches_with_team_schedule(groups, games):
                 match['result']=team_game['result']
             if team_game.get('halftime_result') not in (None, ''):
                 match['halftime_result']=team_game['halftime_result']
+            if team_game.get('home') and not is_placeholder_team(team_game.get('home','')):
+                match['home']=team_game['home']
+            if team_game.get('away') and not is_placeholder_team(team_game.get('away','')):
+                match['away']=team_game['away']
             if team_game.get('id'):
                 match['team_fixture_id']=team_game['id']
     return groups
@@ -2023,7 +2111,11 @@ def build_round_groups(key, games, clubs, discovered_logos, team_name=''):
             gid=f'{kind}:{competition_label(g.get("competition",""))}:{token}'
             groups.setdefault(gid,{'id':gid,'kind':kind,'title':title,'competition':competition_label(g.get('competition','')),'round':token,'matches':[]})
         pair=(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')))
-        existing=next((x for x in groups[gid]['matches'] if (normalize_match_name(x.get('home','')), normalize_match_name(x.get('away','')))==pair), None)
+        existing=next((
+            x for x in groups[gid]['matches']
+            if (normalize_match_name(x.get('home','')), normalize_match_name(x.get('away','')))==pair
+            or fixtures_are_same_slot(x, g)
+        ), None)
         if existing:
             # Prefer the team schedule kickoff over a stale DFB matchday row.
             if g.get('date'):
@@ -2034,6 +2126,10 @@ def build_round_groups(key, games, clubs, discovered_logos, team_name=''):
                 existing['result']=g['result']
             if g.get('halftime_result') not in (None, ''):
                 existing['halftime_result']=g['halftime_result']
+            if g.get('home') and not is_placeholder_team(g.get('home','')):
+                existing['home']=g['home']
+            if g.get('away') and not is_placeholder_team(g.get('away','')):
+                existing['away']=g['away']
             existing['team_fixture_id']=g.get('id')
         else:
             groups[gid]['matches'].append({k:g.get(k) for k in ('id','date','time','home','away','result','halftime_result','location','matchday')})
@@ -2090,6 +2186,22 @@ def overlay_fussball_schedule(dfb_games, fussball_games):
     return sorted(out, key=lambda x:(x['date'], x.get('time','00:00')))
 
 
+def append_non_league_fussball_games(base_games, fussball_games):
+    """DFB team pages omit cup/friendly fixtures; keep those from FUSSBALL.DE."""
+    extras=[]
+    for g in fussball_games:
+        if is_league_game(g):
+            continue
+        extra=deepcopy(g)
+        if extra.get('competition'):
+            extra['competition']=normalize_competition(extra['competition'])
+        extras.append(extra)
+    if not extras:
+        return base_games
+    print(f'FUSSBALL.DE: {len(extras)} Pokal-/Freundschaftsspiel(e) zusätzlich übernommen')
+    return sorted(list(base_games)+extras, key=lambda x:(x['date'], x.get('time','00:00'), x.get('id','')))
+
+
 def _fussball_schedule_index(fussball_games):
     fb_by_pair={}
     for g in fussball_games:
@@ -2125,12 +2237,32 @@ def overlay_fussball_round_pairings(payload, fussball_games):
     return payload
 
 
+def fussball_source_urls(meta):
+    """Return FUSSBALL.DE schedule URLs only; print pages first (all competitions)."""
+    urls=list(meta.get('source_urls') or [])
+    if meta.get('source_url'):
+        urls.append(meta['source_url'])
+    seen=set()
+    fussball=[]
+    for url in urls:
+        if 'fussball.de' not in url or url in seen:
+            continue
+        seen.add(url)
+        fussball.append(url)
+    print_urls=[u for u in fussball if _is_fussball_print_url(u)]
+    other=[u for u in fussball if u not in print_urls]
+    return print_urls+other
+
+
+def _is_fussball_print_url(url):
+    value=str(url or '')
+    return 'vereinsspielplan.druck' in value or 'mode/PRINT' in value.upper()
+
+
 def regionalliga_fussball_url():
     meta=load_json(DATA/'regionalliga.json')
-    for url in meta.get('source_urls') or []:
-        if 'fussball.de' in url:
-            return url
-    return ''
+    urls=fussball_source_urls(meta)
+    return urls[0] if urls else ''
 
 
 def filter_official_fussball_fixtures(games, meta=None):
@@ -2361,52 +2493,34 @@ def process(key,offline=False):
     path=DATA/f'{key}.json'; meta=load_json(path); games=meta['games']; remote=[]; err=None
     if not offline:
         try:
-            urls=meta.get('source_urls') or [meta.get('source_url','')]
-            dfb_urls=[u for u in urls if 'datencenter.dfb.de' in u]
-            fussball_urls=[u for u in urls if 'fussball.de' in u]
-            other_urls=[u for u in urls if u not in dfb_urls and u not in fussball_urls]
+            urls=fussball_source_urls(meta)
             parsed=[]
-            dfb_parsed=[]
-            fussball_parsed=[]
             source_errors=[]
             expected=int(meta.get('expected_league_games') or 0)
-            for url in dfb_urls + other_urls:
-                try:
-                    html=fetch(url)
-                    batch=parse_dfb(html,meta['team_name']) if 'datencenter.dfb.de' in url else parse_fussball(html,meta['team_name'],url)
-                    parsed += batch
-                    if 'datencenter.dfb.de' in url:
-                        dfb_parsed += batch
-                except Exception as source_exc:
-                    source_errors.append(f'{url}: {source_exc}')
-            for url in fussball_urls:
+            if not urls:
+                raise RuntimeError('keine FUSSBALL.DE-Quelle hinterlegt')
+            for url in urls:
                 try:
                     html=fetch(url)
                     batch=parse_fussball(html,meta['team_name'],url)
                     parsed += batch
-                    fussball_parsed += batch
-                    if expected and (
-                        'vereinsspielplan.druck' in url or 'mode/PRINT' in url.upper()
-                    ) and league_game_count(dedupe(parsed)) >= expected:
+                    if expected and _is_fussball_print_url(url) and league_game_count(dedupe(parsed)) >= expected:
                         break
                 except Exception as source_exc:
                     source_errors.append(f'{url}: {source_exc}')
-            schedule_source=dedupe(dfb_parsed) if dfb_parsed else dedupe(parsed)
-            if dfb_parsed and fussball_parsed:
-                schedule_source=overlay_fussball_schedule(schedule_source, dedupe(fussball_parsed))
-            remote=schedule_source if dfb_parsed else dedupe(parsed)
-            validate_schedule_completeness(key, meta, games, schedule_source if dfb_parsed else remote, source_errors)
+            remote=dedupe(parsed)
+            for game in remote:
+                if game.get('competition'):
+                    game['competition']=normalize_competition(game['competition'])
+            validate_schedule_completeness(key, meta, games, remote, source_errors)
         except Exception as e: err=str(e); remote=[]
     venue_cache=load_venue_cache()
     merged=merge(games,remote)
     merged=apply_overrides(key,merged,load_json(DATA/'overrides.json'))
     merged=filter_official_fussball_fixtures(merged, meta)
+    merged=enrich_scores_from_detail_pages(merged, offline=offline)
     if key=='regionalliga':
         merged=enrich_dfb_match_details(merged, offline=offline)
-        # FUSSBALL.DE often has the score before scorers appear on the DFB page.
-        merged=enrich_scores_from_detail_pages(merged, offline=offline)
-    else:
-        merged=enrich_scores_from_detail_pages(merged, offline=offline)
     merged=apply_venue_cache(merged,venue_cache)
     merged=enrich_locations_from_detail_pages(merged, offline=offline)
     merged=enrich_locations_from_known_venues(merged, venue_cache)
@@ -2479,7 +2593,7 @@ def main():
             ok=process(key,args.offline) and ok
             meta=load_json(DATA/f'{key}.json')
             games=apply_overrides(key,meta.get('games',[]),load_json(DATA/'overrides.json'))
-            team_pages=meta.get('source_urls') or ([meta.get('source_url','')] if meta.get('source_url') else [])
+            team_pages=fussball_source_urls(meta)
             games,_,cup_changed=fetch_cup_rounds(key, games, team_pages)
             if cup_changed:
                 meta['games']=games

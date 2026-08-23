@@ -1,587 +1,587 @@
 {
-  "updated_at": "2026-08-23T09:03:25.682170+02:00",
+  "updated_at": "2026-08-23T11:29:16.229614+02:00",
   "games": {
     "rl-01": {
       "identity": "2026-07-25|14:00|BFC Preussen 1894|RSV Eintracht 1949",
       "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690002037": {
       "identity": "2026-08-02|14:00|SFC Stern|RSV Eintracht 1949",
       "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
       "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u23/-/spiel/031JTAI6A0000000VS5489BTVSRD0UH9",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "860001017": {
       "identity": "2026-08-09|14:00|FC Stern Marienfelde II|RSV Eintracht 1949",
       "location": "An der Dorfkirche KR1, An der Dorfkirche 9, 12277 Berlin",
       "source_url": "https://www.fussball.de/spiel/fc-stern-marienfelde-ii-rsv-eintracht-1949-u23/-/spiel/0318D8LSKK000000VS5489BTVU7GTVLE",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "810001252": {
       "identity": "2026-08-18|20:00|SV Babelsberg 03|RSV Eintracht 1949",
       "location": "Sportplatz Sandscholle, KR, Franz-Mehring-Str. 54, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sv-babelsberg-03-ii-rsv-eintracht-1949-u23/-/spiel/031QCIAV28000000VS5489BUVSV0FPBG",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138004": {
       "identity": "2026-08-30|15:00|SV Ziesar 1|RSV Eintracht 1949",
       "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
       "source_url": "https://www.fussball.de/spiel/sv-ziesar-1-rsv-eintracht-1949-u23/-/spiel/031D1IIEGK000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138012": {
       "identity": "2026-09-06|14:00|RSV Eintracht 1949|SV Falkensee-Finkenkrug II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-falkensee-finkenkrug-ii/-/spiel/031D1II8UO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138020": {
       "identity": "2026-09-13|15:00|RSV Eintracht 1949|SV Ruhlsdorf",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-ruhlsdorf-i/-/spiel/031D1IIE18000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138026": {
       "identity": "2026-09-20|15:00|SG Geltow|RSV Eintracht 1949",
       "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
       "source_url": "https://www.fussball.de/spiel/sg-geltow-rsv-eintracht-1949-u23/-/spiel/031D1IIDF4000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138036": {
       "identity": "2026-09-27|14:00|RSV Eintracht 1949|Fortuna Babelsberg II",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/031D1IID4O000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138047": {
       "identity": "2026-10-04|15:00|BSG Stahl Brandenburg U23|RSV Eintracht 1949",
       "location": "Stadion am Quenz, Platz 2, Thüringer Str. 251, 14770 Brandenburg an der Havel",
       "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u23-rsv-eintracht-1949-u23/-/spiel/031D1IICS4000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138052": {
       "identity": "2026-10-11|14:00|RSV Eintracht 1949|SV Dallgow 47",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-dallgow-47/-/spiel/031D1IIC8C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138061": {
       "identity": "2026-10-18|15:00|SG Eintracht Friesack|RSV Eintracht 1949",
       "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
       "source_url": "https://www.fussball.de/spiel/sg-eintracht-friesack-rsv-eintracht-1949-u23/-/spiel/031D1IIBSS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138068": {
       "identity": "2026-10-25|14:00|RSV Eintracht 1949|FSV Babelsberg 74 II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-babelsberg-74-ii/-/spiel/031D1IIBDK000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138076": {
       "identity": "2026-11-01|14:00|RSV Eintracht 1949|UNITED TELTOW FC",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-united-teltow-fc-i/-/spiel/031D1IIB2K000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138082": {
       "identity": "2026-11-08|14:00|Bredower SV|RSV Eintracht 1949",
       "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
       "source_url": "https://www.fussball.de/spiel/bredower-sv-i-rsv-eintracht-1949-u23/-/spiel/031D1IIAIO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138092": {
       "identity": "2026-11-15|14:00|RSV Eintracht 1949|FSV 95 Ketzin/Falkenrehde",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-95-ketzin-falkenrehde/-/spiel/031D1IIAAO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138104": {
       "identity": "2026-11-22|15:00|SG Blau-Weiß Pessin|RSV Eintracht 1949",
       "location": "Sportplatz Pessin, Straße der Jugend 26, 14641 Pessin",
       "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-pessin-rsv-eintracht-1949-u23/-/spiel/031D1IIA2G000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138108": {
       "identity": "2026-11-29|14:00|RSV Eintracht 1949|Brandenburger SC Süd 05 II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-brandenburger-sc-sued-05-ii/-/spiel/031D1II9IO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138118": {
       "identity": "2026-12-06|15:30|SG Michendorf II|RSV Eintracht 1949",
       "location": "Sportplatz Hellerfichten, Hauptplatz KR, Teltower Str., 14552 Michendorf",
       "source_url": "https://www.fussball.de/spiel/sg-michendorf-ii-rsv-eintracht-1949-u23/-/spiel/031D1II9AG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138124": {
       "identity": "2027-02-21|14:00|FSV 95 Ketzin/Falkenrehde|RSV Eintracht 1949",
       "location": "Sportplatz Ketzin, Friedrich-Ludwig-Jahn-Weg 32, 14669 Ketzin/Havel",
       "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-rsv-eintracht-1949-u23/-/spiel/031D1IIHG4000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138132": {
       "identity": "2027-02-28|14:00|RSV Eintracht 1949|SV Ziesar 31",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-ziesar-1/-/spiel/031D1IINEG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138140": {
       "identity": "2027-03-07|15:00|SV Ruhlsdorf|RSV Eintracht 1949",
       "location": "Dittmar-Hartung-Sportplatz, Sputendorfer Str. 56, 14513 Teltow",
       "source_url": "https://www.fussball.de/spiel/sv-ruhlsdorf-i-rsv-eintracht-1949-u23/-/spiel/031D1IIMQ0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138146": {
       "identity": "2027-03-14|14:00|RSV Eintracht 1949|SG Geltow",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sg-geltow/-/spiel/031D1IIM2C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138156": {
       "identity": "2027-03-21|15:00|Fortuna Babelsberg II|RSV Eintracht 1949",
       "location": "Sternsportplatz Potsdam, Hauptplatz, Ziolkowskistr. 3, 14480 Potsdam",
       "source_url": "https://www.fussball.de/spiel/fortuna-babelsberg-ii-rsv-eintracht-1949-u23/-/spiel/031D1IILJO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138167": {
       "identity": "2027-04-04|14:00|RSV Eintracht 1949|BSG Stahl Brandenburg U23",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-bsg-stahl-brandenburg-u23/-/spiel/031D1IIL6C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138172": {
       "identity": "2027-04-11|14:30|SV Dallgow 47|RSV Eintracht 1949",
       "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
       "source_url": "https://www.fussball.de/spiel/sv-dallgow-47-rsv-eintracht-1949-u23/-/spiel/031D1IIKC0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138181": {
       "identity": "2027-04-18|14:00|RSV Eintracht 1949|SG Eintracht Friesack",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sg-eintracht-friesack/-/spiel/031D1IIJS0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138188": {
       "identity": "2027-04-25|15:00|FSV Babelsberg 74 II|RSV Eintracht 1949",
       "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-ii-rsv-eintracht-1949-u23/-/spiel/031D1IIJ7C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138196": {
       "identity": "2027-05-02|11:00|UNITED TELTOW FC|RSV Eintracht 1949",
       "location": "John-Schehr-Platz KR, John-Schehr-Str. 18, 14513 Teltow",
       "source_url": "https://www.fussball.de/spiel/united-teltow-fc-i-rsv-eintracht-1949-u23/-/spiel/031D1IIIMS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138202": {
       "identity": "2027-05-09|14:00|RSV Eintracht 1949|Bredower SV",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-bredower-sv-i/-/spiel/031D1IIHT0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138216": {
       "identity": "2027-05-23|14:00|RSV Eintracht 1949|SG Blau-Weiß Pessin",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sg-blau-weiss-pessin/-/spiel/031D1IIH5C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138220": {
       "identity": "2027-05-30|15:00|Brandenburger SC Süd 05 II|RSV Eintracht 1949",
       "location": "Werner-Seelenbinder-Sportplatz, Platz 2, Brielower Str. 7, 14770 Brandenburg an der Havel",
       "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-rsv-eintracht-1949-u23/-/spiel/031D1IIGAG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138230": {
       "identity": "2027-06-06|14:00|RSV Eintracht 1949|SG Michendorf II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sg-michendorf-ii/-/spiel/031D1IIFS0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "610138236": {
       "identity": "2027-06-12|17:00|SV Falkensee-Finkenkrug II|RSV Eintracht 1949",
       "location": "Sportpark Rosenstraße, KR 1, Rosenstr., 14612 Falkensee",
       "source_url": "https://www.fussball.de/spiel/sv-falkensee-finkenkrug-ii-rsv-eintracht-1949-u23/-/spiel/031D1IIF2C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "710089011": {
       "identity": "2026-08-16|13:00|RSV Eintracht 1949|Rot-Weiß Groß Glienicke",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke-ii/-/spiel/031F066OOS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480004": {
       "identity": "2026-08-30|14:00|RSV Eintracht 1949|FV Turbine Potsdam 55",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-fv-turbine-potsdam-55-i/-/spiel/031D5U7IOO000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480013": {
       "identity": "2026-09-06|15:00|SV 1948 Ferch|RSV Eintracht 1949",
       "location": "Sportplatz Schwielowsee, Glindower Weg 31, 14548 Schwielowsee",
       "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-rsv-eintracht-1949-u21/-/spiel/031D5U7DVS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480019": {
       "identity": "2026-09-13|14:00|FSV Grün-Weiß Niemegk|RSV Eintracht 1949",
       "location": "Waldstadion Niemegk, Waldstr., 14823 Niemegk",
       "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-rsv-eintracht-1949-u21/-/spiel/031D5U7I9C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480028": {
       "identity": "2026-09-20|14:00|RSV Eintracht 1949|Teltower FV 1913 II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-teltower-fv-1913-ii/-/spiel/031D5U7HTK000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480033": {
       "identity": "2026-09-27|13:00|SG Grün-Weiß Golm II|RSV Eintracht 1949",
       "location": "Sportplatz Golm, Kuhfortdamm 7, 14476 Golm",
       "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7HB8000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480044": {
       "identity": "2026-10-04|14:00|RSV Eintracht 1949|SG Bornim II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sg-bornim-ii/-/spiel/031D5U7H30000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480055": {
       "identity": "2026-10-11|15:30|Rot-Weiß Groß Glienicke|RSV Eintracht 1949",
       "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
       "source_url": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-rsv-eintracht-1949-u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480060": {
       "identity": "2026-10-18|14:00|RSV Eintracht 1949|FSV Brück",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-fsv-brueck-i/-/spiel/031D5U7GBS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480069": {
       "identity": "2026-10-25|14:00|SG Blau-Weiß Beelitz|RSV Eintracht 1949",
       "location": "Stadion des Friedens, Bergstr. 1, 14547 Beelitz",
       "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-beelitz-rsv-eintracht-1949-u21/-/spiel/031D5U7G1C000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480073": {
       "identity": "2026-11-01|14:00|SV Viktoria Potsdam II|RSV Eintracht 1949",
       "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7FH0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480084": {
       "identity": "2026-11-08|14:00|RSV Eintracht 1949|Caputher SV",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-caputher-sv-1/-/spiel/031D5U7FA0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480090": {
       "identity": "2026-11-15|14:00|SV 71 Busendorf|RSV Eintracht 1949",
       "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
       "source_url": "https://www.fussball.de/spiel/sv-71-busendorf-rsv-eintracht-1949-u21/-/spiel/031D5U7EUG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480100": {
       "identity": "2026-11-22|14:00|RSV Eintracht 1949|ESV Lok Seddin",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-esv-lok-seddin/-/spiel/031D5U7ENG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480111": {
       "identity": "2026-11-29|15:30|SV 05 Rehbrücke|RSV Eintracht 1949",
       "location": "Sportplatz Rehbrücke, Kunstrasenplatz, Andersenweg, 14558 Nuthetal",
       "source_url": "https://www.fussball.de/spiel/sv-05-rehbruecke-rsv-eintracht-1949-u21/-/spiel/031D5U7EHS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480116": {
       "identity": "2026-12-06|14:00|RSV Eintracht 1949|Potsdamer Kickers 94",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-potsdamer-kickers-94/-/spiel/031D5U7E6S000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480122": {
       "identity": "2027-02-21|14:00|RSV Eintracht 1949|SV 71 Busendorf",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sv-71-busendorf/-/spiel/031D5U7L7G000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480132": {
       "identity": "2027-02-27|15:30|FV Turbine Potsdam 55|RSV Eintracht 1949",
       "location": "Sportforum Potsdam Waldstadt/Schlaatz, Kunstrasen, Drewitzer Str. 40, 14478 Potsdam",
       "source_url": "https://www.fussball.de/spiel/fv-turbine-potsdam-55-i-rsv-eintracht-1949-u21/-/spiel/031D5U7RGG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480139": {
       "identity": "2027-03-07|14:00|RSV Eintracht 1949|FSV Grün-Weiß Niemegk",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-fsv-gruen-weiss-niemegk/-/spiel/031D5U7QOS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480148": {
       "identity": "2027-03-14|14:00|Teltower FV 1913 II|RSV Eintracht 1949",
       "location": "Jahnsportplatz Teltow, Kunstrasen, Jahnstr. 4, 14513 Teltow",
       "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7Q6G000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480153": {
       "identity": "2027-03-21|14:00|RSV Eintracht 1949|SG Grün-Weiß Golm II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sg-gruen-weiss-golm-ii/-/spiel/031D5U7P90000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480164": {
       "identity": "2027-04-04|15:00|SG Bornim II|RSV Eintracht 1949",
       "location": "Stephan-Albrecht-Platz, Golmer Chaussee 12, 14469 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sg-bornim-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7OS8000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480175": {
       "identity": "2027-04-11|14:00|RSV Eintracht 1949|Rot-Weiß Groß Glienicke",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-rot-weiss-gross-glienicke/-/spiel/031D5U7OES000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480180": {
       "identity": "2027-04-18|15:00|FSV Brück|RSV Eintracht 1949",
       "location": "Jahn-Sportplatz Brück, Friedrich-Ludwig-Jahn-Str. 3, 14822 Brück",
       "source_url": "https://www.fussball.de/spiel/fsv-brueck-i-rsv-eintracht-1949-u21/-/spiel/031D5U7NL4000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480189": {
       "identity": "2027-04-25|14:00|RSV Eintracht 1949|SG Blau-Weiß Beelitz",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sg-blau-weiss-beelitz/-/spiel/031D5U7N38000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480193": {
       "identity": "2027-05-02|14:00|RSV Eintracht 1949|SV Viktoria Potsdam II",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sv-viktoria-potsdam-ii/-/spiel/031D5U7M68000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480204": {
       "identity": "2027-05-09|15:00|Caputher SV|RSV Eintracht 1949",
       "location": "Sportplatz Michendorfer Chaussee, Platz 1, Michendorfer Chaussee 34, 14548 Schwielowsee",
       "source_url": "https://www.fussball.de/spiel/caputher-sv-1-rsv-eintracht-1949-u21/-/spiel/031D5U7LRS000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480212": {
       "identity": "2027-05-23|15:00|ESV Lok Seddin|RSV Eintracht 1949",
       "location": "Sportplatz Neuseddin, Zum Sportplatz, 14554 Seddiner See",
       "source_url": "https://www.fussball.de/spiel/esv-lok-seddin-rsv-eintracht-1949-u21/-/spiel/031D5U7KR8000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480223": {
       "identity": "2027-05-30|14:00|RSV Eintracht 1949|SV 05 Rehbrücke",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sv-05-rehbruecke/-/spiel/031D5U7KH0000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480228": {
       "identity": "2027-06-06|15:30|Potsdamer Kickers 94|RSV Eintracht 1949",
       "location": "Sportplatz Potsdamer Kickers, Kirschallee, KR, Alexander-Klein-Str., 14469 Potsdam",
       "source_url": "https://www.fussball.de/spiel/potsdamer-kickers-94-rsv-eintracht-1949-u21/-/spiel/031D5U7JQC000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "610480237": {
       "identity": "2027-06-12|17:00|RSV Eintracht 1949|SV 1948 Ferch",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sv-1948-ferch/-/spiel/031D5U7JAG000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "870019022": {
       "identity": "2026-08-02|11:00|RSV Eintracht 1949|FC Bayern München",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-bayern-muenchen/-/spiel/031BSD7IIK000000VS5489BTVUS470OH",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690002036": {
       "identity": "2026-08-02|14:00|SFC Stern|RSV Eintracht 1949",
       "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
       "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-/spiel/031JT3RU70000000VS5489BUVVKNMR0J",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "810001078": {
       "identity": "2026-08-08|13:00|FSV Babelsberg 74|RSV Eintracht 1949",
       "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-rsv-eintracht-1949-u19/-/spiel/031AIA61VC000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "810007008": {
       "identity": "2026-08-12|19:00|RSV Eintracht 1949|BSV Eintracht Mahlsdorf",
       "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bsv-eintracht-mahlsdorf/-/spiel/0315FRKUGG000000VS5489BTVU7GTVLE",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007003": {
       "identity": "2026-10-03|13:30|SC Borea Dresden|RSV Eintracht 1949",
       "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
       "source_url": "https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007011": {
       "identity": "2026-08-22|12:00|RSV Eintracht 1949|BFC Dynamo",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-bfc-dynamo-u19/-/spiel/031B3S0HMG000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007021": {
       "identity": "2026-08-30|12:00|FSV Zwickau|RSV Eintracht 1949",
       "location": "Hauptplatz Bürgerschacht, Saarstr. 50, 08056 Zwickau",
       "source_url": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949-u19/-/spiel/031B3S0HES000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007025": {
       "identity": "2026-09-06|12:00|RSV Eintracht 1949|FC Mecklenburg Schwerin",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-mecklenburg-schwerin-u19/-/spiel/031B3S0GVG000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007033": {
       "identity": "2026-09-12|13:30|FC Hertha 03 Zehlendorf|RSV Eintracht 1949",
       "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
       "source_url": "https://www.fussball.de/spiel/fc-hertha-03-rsv-eintracht-1949-u19/-/spiel/031B3S0GN0000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007039": {
       "identity": "2026-09-19|12:00|RSV Eintracht 1949|VFC Plauen",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-vfc-plauen/-/spiel/031B3S0GB0000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007046": {
       "identity": "2026-09-26|12:00|RSV Eintracht 1949|Sport-Club Staaken 1919",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-staaken-1919-u19/-/spiel/031B3S0G0S000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007051": {
       "identity": "2026-10-10|12:00|1. FC Frankfurt (Oder)|RSV Eintracht 1949",
       "location": "Stadion der Freundschaft, Hauptplatz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
       "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-rsv-eintracht-1949-u19/-/spiel/031B3S0FL4000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007060": {
       "identity": "2026-10-17|12:00|RSV Eintracht 1949|FC Viktoria 1889 Berlin",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-viktoria-berlin-u19/-/spiel/031B3S0FEO000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007070": {
       "identity": "2026-10-24|13:30|1. FC Lok Leipzig|RSV Eintracht 1949",
       "location": "Br.-Plache-Stadion Großfeld 1 KR, Connewitzer Str. 21, 04289 Leipzig",
       "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0F9S000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007074": {
       "identity": "2026-10-31|12:00|RSV Eintracht 1949|Berliner SC",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-berliner-sc/-/spiel/031B3S0ETO000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007082": {
       "identity": "2026-11-08|13:00|Tennis Borussia Berlin|RSV Eintracht 1949",
       "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
       "source_url": "https://www.fussball.de/spiel/tennis-borussia-berlin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0ENC000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007088": {
       "identity": "2026-11-21|12:00|RSV Eintracht 1949|Steglitzer FC Stern 1900",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sfc-stern/-/spiel/031B3S0EFC000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007094": {
       "identity": "2027-02-27|12:00|RSV Eintracht 1949|SC Borea Dresden",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sc-borea-dresden/-/spiel/031B3S0OCG000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007102": {
       "identity": "2027-03-06|13:00|BFC Dynamo|RSV Eintracht 1949",
       "location": "Sportforum Kunstrasen KR2, Weißenseer Weg 51-55, 13053 Berlin",
       "source_url": "https://www.fussball.de/spiel/bfc-dynamo-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0NSO000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007112": {
       "identity": "2027-03-13|12:00|RSV Eintracht 1949|FSV Zwickau",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fsv-zwickau/-/spiel/031B3S0NIK000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007116": {
       "identity": "2027-03-20|12:00|FC Mecklenburg Schwerin|RSV Eintracht 1949",
       "location": "Görries Platz I, Mittelstelle 11, 19061 Schwerin",
       "source_url": "https://www.fussball.de/spiel/fc-mecklenburg-schwerin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0MPG000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007124": {
       "identity": "2027-04-03|12:00|RSV Eintracht 1949|FC Hertha 03 Zehlendorf",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-fc-hertha-03/-/spiel/031B3S0MCG000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007130": {
       "identity": "2027-04-10|13:00|VFC Plauen|RSV Eintracht 1949",
       "location": "Sportplatz Chrieschwitzer Hang, Dr.-Theodor-Brugsch-Straße 33, 08529 Plauen",
       "source_url": "https://www.fussball.de/spiel/vfc-plauen-rsv-eintracht-1949-u19/-/spiel/031B3S0LQK000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007137": {
       "identity": "2027-04-18|13:00|Sport-Club Staaken 1919|RSV Eintracht 1949",
       "location": "Sportpark Staaken KR1, Eichholzbahn 116, 13591 Berlin",
       "source_url": "https://www.fussball.de/spiel/sc-staaken-1919-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0LC4000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007142": {
       "identity": "2027-04-24|12:00|RSV Eintracht 1949|1. FC Frankfurt (Oder)",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-frankfurt/-/spiel/031B3S0KMC000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007151": {
       "identity": "2027-05-01|14:00|FC Viktoria 1889 Berlin|RSV Eintracht 1949",
       "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
       "source_url": "https://www.fussball.de/spiel/viktoria-berlin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0KBO000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007161": {
       "identity": "2027-05-08|12:00|RSV Eintracht 1949|1. FC Lok Leipzig",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-1-fc-lokomotive-leipzig-u19/-/spiel/031B3S0K2K000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007165": {
       "identity": "2027-05-22|12:30|Berliner SC|RSV Eintracht 1949",
       "location": "Hubertussportplatz NR1, Hubertusallee 50, 14193 Berlin",
       "source_url": "https://www.fussball.de/spiel/berliner-sc-rsv-eintracht-1949-u19/-/spiel/031B3S0JE0000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007173": {
       "identity": "2027-05-29|12:00|RSV Eintracht 1949|Tennis Borussia Berlin",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-tennis-borussia-berlin-u19/-/spiel/031B3S0J2C000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "690007179": {
       "identity": "2027-06-06|13:00|Steglitzer FC Stern 1900|RSV Eintracht 1949",
       "location": "Schildhornstraße KR1, Paulsenstr. / Eing. Kreuznacher Str. 29, 12163 Berlin",
       "source_url": "https://www.fussball.de/spiel/sfc-stern-rsv-eintracht-1949-u19/-/spiel/031B3S0IJK000000VS5489BUVV628VP4",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "810001097": {
       "identity": "2026-08-09|14:00|SV Frankonia Wernsdorf|RSV Eintracht 1949",
       "location": "Sportpark Frankonia, Niederlehmer Chaussee 2c, 15713 Königs Wusterhausen",
       "source_url": "https://www.fussball.de/spiel/sv-frankonia-wernsdorf-rsv-eintracht-1949-u19/-/spiel/031M2TUSC8000000VS5489BTVSRD0UH9",
-      "updated_at": "2026-08-23T09:03:19.769191+02:00"
+      "updated_at": "2026-08-23T11:22:17.041398+02:00"
     },
     "890001001": {
       "identity": "2026-08-07|20:30|VfL Bochum 1848|Hertha BSC",
       "location": "Ruhrstadion, Castroper Straße 145, 44791 Bochum",
       "source_url": "https://www.fussball.de/spiel/vfl-bochum-1848-hertha-bsc/-/spiel/031BG6B78O000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001012": {
       "identity": "2026-08-15|13:00|Hertha BSC|1. FC Heidenheim 1846",
@@ -593,151 +593,307 @@
       "identity": "2026-08-22|15:30|1. FC Saarbrücken|Hertha BSC",
       "location": "Saarbrücken, Ludwigsparkstadion, Camphauser Str., 66113 Saarbrücken",
       "source_url": "https://www.fussball.de/spiel/1-fc-saarbruecken-hertha-bsc/-/spiel/0318UPIFJC000000VS5489BTVSK8S3O6",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001026": {
       "identity": "2026-08-28|18:30|Eintracht Braunschweig|Hertha BSC",
       "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
       "source_url": "https://www.fussball.de/spiel/eintracht-braunschweig-hertha-bsc/-/spiel/031BG6B8RS000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T04:01:39.989222+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001031": {
       "identity": "2026-09-06|13:30|Hertha BSC|1. FC Magdeburg",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-1-fc-magdeburg/-/spiel/031BG6B96O000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001045": {
       "identity": "2026-09-13|13:30|VfL Osnabrück|Hertha BSC",
       "location": "Bremer Brücke, Hannes-Haferkamp-Platz 1, 49084 Osnabrück",
       "source_url": "https://www.fussball.de/spiel/vfl-osnabrueck-hertha-bsc/-/spiel/031BG6BA74000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001050": {
       "identity": "2026-09-19|20:30|SG Dynamo Dresden|Hertha BSC",
       "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
       "source_url": "https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6BAN4000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001058": {
       "identity": "2026-10-11|13:30|Hertha BSC|SpVgg Greuther Fürth",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-spvgg-greuther-fuerth/-/spiel/031BG6BB9O000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001069": {
       "identity": "2026-10-18|13:30|Holstein Kiel|Hertha BSC",
       "location": "Kieler-Holstein-Stadion, Westring 501, 24106 Kiel",
       "source_url": "https://www.fussball.de/spiel/holstein-kiel-hertha-bsc/-/spiel/031BG6BC34000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "890001075": {
       "identity": "2026-10-25|13:30|Hertha BSC|DSC Arminia Bielefeld",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-dsc-arminia-bielefeld/-/spiel/031BG6BCH8000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "690047033": {
       "identity": "2026-08-08|14:00|RSV Eintracht 1949|BSG Chemie Leipzig",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bsg-chemie-leipzig/-/spiel/031DEIBUL4000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047042": {
       "identity": "2026-08-14|19:00|SV Babelsberg 03|RSV Eintracht 1949",
       "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047052": {
       "identity": "2026-08-26|18:00|RSV Eintracht 1949|FSV Zwickau",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047059": {
       "identity": "2026-08-30|14:00|RSV Eintracht 1949|1. FC Magdeburg II",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047064": {
       "identity": "2026-09-11|19:00|FC Rot-Weiß Erfurt|RSV Eintracht 1949",
       "location": "Steigerwaldstadion, Arnstädter Str. 55, 99096 Erfurt",
       "source_url": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047076": {
       "identity": "2026-09-16|17:00|RSV Eintracht 1949|Greifswalder FC",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047093": {
       "identity": "2026-09-27|14:00|RSV Eintracht 1949|Chemnitzer FC",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047104": {
       "identity": "2026-10-11|14:00|Hallescher FC|RSV Eintracht 1949",
       "location": "LEUNA-CHEMIE-STADION, Kantstr. 2, 06110 Halle (Saale)",
       "source_url": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "690047115": {
       "identity": "2026-10-18|14:00|Hertha BSC II|RSV Eintracht 1949",
       "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "810005173": {
       "identity": "2026-08-20|20:10|RSV Eintracht 1949|BFC Preussen",
       "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-bfc-preussen/-/spiel/031MOJLV44000000VS5489BTVV1LNS7C",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "890001086": {
       "identity": "2026-11-01|13:30|1. FC Kaiserslautern|Hertha BSC",
       "location": "Fritz-Walter-Stadion, Fritz-Walter-Str. 1, 67663 Kaiserslautern",
       "source_url": "https://www.fussball.de/spiel/1-fc-kaiserslautern-hertha-bsc/-/spiel/031BG6BDB4000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "690047122": {
       "identity": "2026-10-25|14:00|RSV Eintracht 1949|SV Tasmania Berlin",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "890001092": {
       "identity": "2026-11-08|13:30|Hertha BSC|VfL Wolfsburg",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-vfl-wolfsburg/-/spiel/031BG6BDP4000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
     },
     "710089064": {
       "identity": "2026-08-23|13:00|Eintracht Falkensee I|RSV Eintracht 1949",
       "location": "Sportpark Rosenstraße, KR 2, Rosenstr., 14612 Falkensee",
       "source_url": "https://www.fussball.de/spiel/eintracht-falkensee-i-rsv-eintracht-1949-u23/-/spiel/031Q3AJFRG000000VS5489BTVT8K11BC",
-      "updated_at": "2026-08-23T09:03:01.422459+02:00"
+      "updated_at": "2026-08-23T11:21:55.140917+02:00"
     },
     "710089066": {
       "identity": "2026-08-23|14:00|RSV Eintracht 1949|SG Eintracht Friesack",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-sg-eintracht-friesack/-/spiel/031Q3AJFVC000000VS5489BTVT8K11BC",
-      "updated_at": "2026-08-23T09:03:06.536487+02:00"
+      "updated_at": "2026-08-23T11:22:01.552941+02:00"
     },
     "690047129": {
       "identity": "2026-11-01|14:00|BFC Dynamo|RSV Eintracht 1949",
       "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
       "source_url": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:02:54.735243+02:00"
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     },
     "890001108": {
       "identity": "2026-11-22|13:30|FC Energie Cottbus|Hertha BSC",
       "location": "LEAG Energie Stadion, Am Eliaspark 1, 03042 Cottbus",
       "source_url": "https://www.fussball.de/spiel/fc-energie-cottbus-hertha-bsc/-/spiel/031BG6BF2C000000VS5489BUVUR5FS5A",
-      "updated_at": "2026-08-23T09:03:25.682170+02:00"
+      "updated_at": "2026-08-23T11:22:23.704271+02:00"
+    },
+    "690001051": {
+      "identity": "2026-07-01|18:00|TSG Neustrelitz|RSV Eintracht 1949",
+      "location": "Parkstadion, Pappelallee 17, 17235 Neustrelitz",
+      "source_url": "https://www.fussball.de/spiel/tsg-neustrelitz-rsv-eintracht-1949/-/spiel/0318H95N2G000000VS5489BUVV628VP4",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690001097": {
+      "identity": "2026-07-11|13:00|RSV Eintracht 1949|Tennis Borussia Berlin",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-tennis-borussia-berlin/-/spiel/031AS29AS0000000VS5489BUVV628VP4",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690001098": {
+      "identity": "2026-07-12|13:00|RSV Eintracht 1949|Lichtenberg 47",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-lichtenberg-47/-/spiel/031AS2LDTS000000VS5489BUVV628VP4",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047017": {
+      "identity": "2026-08-01|14:00|RSV Eintracht 1949|FSV 63 Luckenwalde",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-63-luckenwalde/-/spiel/031DEIBTOS000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047024": {
+      "identity": "2026-08-04|19:00|FC Carl Zeiss Jena|RSV Eintracht 1949",
+      "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
+      "source_url": "https://www.fussball.de/spiel/fc-carl-zeiss-jena-rsv-eintracht-1949/-/spiel/031DEIBU58000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "710006071": {
+      "identity": "2026-08-22|15:00|BSC Preußen 07|RSV Eintracht 1949",
+      "location": "Sportplatz Blankenfelde, Triftstr. 13-15, 15827 Blankenfelde-Mahlow",
+      "source_url": "https://www.fussball.de/spiel/bsc-preussen-07-rsv-eintracht-1949/-/spiel/031DOF9STC000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047140": {
+      "identity": "2026-11-08|14:00|RSV Eintracht 1949|Erzgebirge Aue",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-erzgebirge-aue/-/spiel/031DEIC6GK000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047145": {
+      "identity": "2026-11-22|14:00|1. FC Lok Leipzig|RSV Eintracht 1949",
+      "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
+      "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-rsv-eintracht-1949/-/spiel/031DEIC6UG000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047171": {
+      "identity": "2026-12-06|14:00|FSV 63 Luckenwalde|RSV Eintracht 1949",
+      "location": "Werner-Seelenbinder-Stadion, Straße des Friedens 42, 14943 Luckenwalde",
+      "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949/-/spiel/031DEIC9BC000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047177": {
+      "identity": "2026-12-13|14:00|RSV Eintracht 1949|FC Carl Zeiss Jena",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-carl-zeiss-jena/-/spiel/031DEIC9RO000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047187": {
+      "identity": "2027-02-14|14:00|BSG Chemie Leipzig|RSV Eintracht 1949",
+      "location": "Alfred-Kunze-Sportpark Hauptfeld, Am Sportpark 2, 04179 Leipzig",
+      "source_url": "https://www.fussball.de/spiel/bsg-chemie-leipzig-rsv-eintracht-1949/-/spiel/031DEICAQG000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047195": {
+      "identity": "2027-02-21|14:00|RSV Eintracht 1949|SV Babelsberg 03",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-babelsberg-03/-/spiel/031DEICBLK000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047200": {
+      "identity": "2027-02-28|14:00|FSV Zwickau|RSV Eintracht 1949",
+      "location": "GGZ-Arena, Stadionallee 1, 08066 Zwickau",
+      "source_url": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949/-/spiel/031DEICC8G000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047222": {
+      "identity": "2027-03-14|14:00|RSV Eintracht 1949|FC Rot-Weiß Erfurt",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-rot-weiss-erfurt/-/spiel/031DEICEQO000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047232": {
+      "identity": "2027-03-21|14:00|Greifswalder FC|RSV Eintracht 1949",
+      "location": "Stadion, Karl-Liebknecht-Ring 2, 17491 Greifswald, Hansestadt",
+      "source_url": "https://www.fussball.de/spiel/greifswalder-fc-rsv-eintracht-1949/-/spiel/031DEICG0G000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047250": {
+      "identity": "2027-04-07|19:00|Chemnitzer FC|RSV Eintracht 1949",
+      "location": "eins-Stadion – An der Gellertstraße, Gellertstr. 25, 09130 Chemnitz",
+      "source_url": "https://www.fussball.de/spiel/chemnitzer-fc-rsv-eintracht-1949/-/spiel/031DEICI50000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047260": {
+      "identity": "2027-04-11|14:00|RSV Eintracht 1949|Hallescher FC",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hallescher-fc/-/spiel/031DEICJ7C000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047269": {
+      "identity": "2027-04-18|14:00|RSV Eintracht 1949|Hertha BSC II",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hertha-bsc-u23/-/spiel/031DEICK5K000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047277": {
+      "identity": "2027-04-25|14:00|SV Tasmania Berlin|RSV Eintracht 1949",
+      "location": "W.-Seelenb.-Sportpark NR1, Oderstr. 182, 12051 Berlin",
+      "source_url": "https://www.fussball.de/spiel/sv-tasmania-berlin-rsv-eintracht-1949/-/spiel/031DEICL2C000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047286": {
+      "identity": "2027-05-09|14:00|RSV Eintracht 1949|BFC Dynamo",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-dynamo/-/spiel/031DEICM5O000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047294": {
+      "identity": "2027-05-16|14:00|Erzgebirge Aue|RSV Eintracht 1949",
+      "location": "Eins Erzgebirgsstadion, Gerd-Schädlich-Platz 1, 08280 Aue",
+      "source_url": "https://www.fussball.de/spiel/fc-erzgebirge-aue-rsv-eintracht-1949/-/spiel/031DEICN3O000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047304": {
+      "identity": "2027-05-23|14:00|RSV Eintracht 1949|1. FC Lok Leipzig",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-lokomotive-leipzig/-/spiel/031DEICOA4000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047004": {
+      "identity": "2026-07-25|14:00|BFC Preussen|RSV Eintracht 1949",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/bfc-preussen-rsv-eintracht-1949/-/spiel/031DEIBT34000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047085": {
+      "identity": "2026-09-19|14:00|VSG Altglienicke Berlin|RSV Eintracht 1949",
+      "location": "Spree-Arena, Hangelsberger Chaussee 1, 15517 Fürstenwalde/Spree",
+      "source_url": "https://www.fussball.de/spiel/vsg-altglienicke-berlin-rsv-eintracht-1949/-/spiel/031DEIC26S000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047158": {
+      "identity": "2026-11-29|14:00|RSV Eintracht 1949|BFC Preussen",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
+    },
+    "690047239": {
+      "identity": "2027-04-04|14:00|RSV Eintracht 1949|VSG Altglienicke Berlin",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-vsg-altglienicke-berlin/-/spiel/031DEICGRC000000VS5489BUVUR5FS5A",
+      "updated_at": "2026-08-23T11:29:16.229614+02:00"
     }
   }
 }

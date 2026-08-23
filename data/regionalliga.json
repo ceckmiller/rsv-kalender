@@ -1,8 +1,65 @@
 {
   "calendar_name": "RSV Eintracht Herren",
   "team_name": "RSV Eintracht 1949",
-  "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+  "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBAK8C000000VTVG0001VTR8C1K7",
   "games": [
+    {
+      "id": "u21-690001051",
+      "date": "2026-07-01",
+      "time": "18:00",
+      "home": "TSG Neustrelitz",
+      "away": "RSV Eintracht 1949",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Parkstadion, Pappelallee 17, 17235 Neustrelitz",
+      "source_url": "https://www.fussball.de/spiel/tsg-neustrelitz-rsv-eintracht-1949/-/spiel/0318H95N2G000000VS5489BUVV628VP4",
+      "match_number": "690001051",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM8000043VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u21-690001097",
+      "date": "2026-07-11",
+      "time": "13:00",
+      "home": "RSV Eintracht 1949",
+      "away": "Tennis Borussia Berlin",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-tennis-borussia-berlin/-/spiel/031AS29AS0000000VS5489BUVV628VP4",
+      "match_number": "690001097",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005AVV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u21-690001098",
+      "date": "2026-07-12",
+      "time": "13:00",
+      "home": "RSV Eintracht 1949",
+      "away": "Lichtenberg 47",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "result": "3:1",
+      "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-lichtenberg-47/-/spiel/031AS2LDTS000000VS5489BUVV628VP4",
+      "match_number": "690001098",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00009LVV0AG08LVUPGND5I",
+      "halftime_result": "2:0",
+      "scorers": [
+        "79. Minute – Kemal Gnay (Lichtenberg 47) – 0:1"
+      ]
+    },
+    {
+      "id": "u21-880004081",
+      "date": "2026-07-19",
+      "time": "12:00",
+      "home": "Berliner AK U19",
+      "away": "RSV Eintracht 1949",
+      "competition": "Freundschaftsspiele 2026/27",
+      "source_url": "https://www.fussball.de/spiel/berliner-ak-u19-rsv-eintracht-1949/-/spiel/031ARF52D4000000VS5489BTVSK8S3O6",
+      "match_number": "880004081",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005NVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "location": ""
+    },
     {
       "id": "rl-01",
       "date": "2026-07-25",
@@ -26,15 +83,34 @@
       "halftime_result": "1:0"
     },
     {
+      "id": "u21-690047004",
+      "date": "2026-07-25",
+      "time": "14:00",
+      "home": "BFC Preussen",
+      "away": "RSV Eintracht 1949",
+      "competition": "Regionalliga 2026/27",
+      "result": "1:1",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/bfc-preussen-rsv-eintracht-1949/-/spiel/031DEIBT34000000VS5489BUVUR5FS5A",
+      "match_number": "690047004",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00004RVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:0",
+      "scorers": [
+        "21. Minute – Nikolas Frank (BFC Preussen) – 1:0",
+        "60. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:1"
+      ]
+    },
+    {
       "id": "rl-02",
       "date": "2026-08-01",
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "FSV 63 Luckenwalde",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": "3:0",
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-63-luckenwalde/-/spiel/031DEIBTOS000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/2-spieltag/rsv-eintracht-1949-fsv-63-luckenwalde-2426001",
       "halftime_result": "2:0",
       "referee": "Benjamin Strebinger",
@@ -42,7 +118,11 @@
         "29. Minute – Tim Göth (RSV Eintracht 1949) – 1:0",
         "34. Minute – Ernes Matjaz (RSV Eintracht 1949) – 2:0",
         "72. Minute – Endi Jupolli (RSV Eintracht 1949) – 3:0"
-      ]
+      ],
+      "match_number": "690047017",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-63-luckenwalde/-/spiel/031DEIBTOS000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-03",
@@ -50,10 +130,10 @@
       "time": "19:00",
       "home": "FC Carl Zeiss Jena",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": "4:0",
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+      "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
+      "source_url": "https://www.fussball.de/spiel/fc-carl-zeiss-jena-rsv-eintracht-1949/-/spiel/031DEIBU58000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/3-spieltag/fc-carl-zeiss-jena-rsv-eintracht-1949-2426007",
       "halftime_result": "2:0",
       "referee": "Luis Riedel",
@@ -63,7 +143,11 @@
         "47. Minute – Kevin Lankford (FC Carl Zeiss Jena) – 3:0",
         "68. Minute – Jannes Werner (FC Carl Zeiss Jena) – 4:0"
       ],
-      "attendance": 5514
+      "attendance": 5514,
+      "match_number": "690047024",
+      "location_source": "https://www.fussball.de/spiel/fc-carl-zeiss-jena-rsv-eintracht-1949/-/spiel/031DEIBU58000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K0000AUVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-04",
@@ -71,7 +155,7 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "BSG Chemie Leipzig",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": "1:1",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bsg-chemie-leipzig/-/spiel/031DEIBUL4000000VS5489BUVUR5FS5A",
@@ -84,7 +168,9 @@
         "45+3. Minute – Phillipp Wendt (BSG Chemie Leipzig) – 0:1",
         "52. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1"
       ],
-      "attendance": 963
+      "attendance": 963,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00V5AAJ3CK000000VV0AG811VUO83U9F"
     },
     {
       "id": "rl-05",
@@ -93,7 +179,7 @@
       "time": "19:00",
       "home": "SV Babelsberg 03",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": "3:3",
       "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
       "source_url": "https://www.fussball.de/spiel/sv-babelsberg-03-rsv-eintracht-1949/-/spiel/031DEIBV6C000000VS5489BUVUR5FS5A",
@@ -110,19 +196,30 @@
         "79. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 2:3",
         "90+12. Minute – Joshua Okpalaike (SV Babelsberg 03) – 3:3"
       ],
-      "attendance": 3120
+      "attendance": 3120,
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "lp-01",
       "date": "2026-08-22",
       "time": "15:00",
-      "home": "Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow",
+      "home": "BSC Preußen 07",
       "away": "RSV Eintracht 1949",
       "competition": "Landespokal Brandenburg 2026/27",
-      "result": null,
-      "location": "",
-      "source_url": "https://www.flb.de/",
-      "round": "1. Runde"
+      "result": "0:2",
+      "location": "Sportplatz Blankenfelde, Triftstr. 13-15, 15827 Blankenfelde-Mahlow",
+      "source_url": "https://www.fussball.de/spiel/bsc-preussen-07-rsv-eintracht-1949/-/spiel/031DOF9STC000000VS5489BUVUR5FS5A",
+      "round": "1. Runde",
+      "match_number": "710006071",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002KVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:1",
+      "scorers": [
+        "22. Minute – Eliakim-Mbila Kukanda (RSV Eintracht 1949) – 0:1",
+        "90. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 0:2"
+      ],
+      "round_url": "https://www.fussball.de/spieltag/runde-1-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-08-22/staffel/031B3AU3PG000007VS5489BUVV628VP4-R"
     },
     {
       "id": "rl-06",
@@ -130,13 +227,15 @@
       "time": "18:00",
       "home": "RSV Eintracht 1949",
       "away": "FSV Zwickau",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/6-spieltag/rsv-eintracht-1949-fsv-zwickau-2426036",
       "match_number": "690047052",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-07",
@@ -144,13 +243,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "1. FC Magdeburg II",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/7-spieltag/rsv-eintracht-1949-1-fc-magdeburg-ii-2426047",
       "match_number": "690047059",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-08",
@@ -158,13 +259,15 @@
       "time": "19:00",
       "home": "FC Rot-Weiß Erfurt",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Steigerwaldstadion, Arnstädter Str. 55, 99096 Erfurt",
       "source_url": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/8-spieltag/fc-rot-weiss-erfurt-rsv-eintracht-1949-2426052",
       "match_number": "690047064",
-      "location_source": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K00003QVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-09",
@@ -172,13 +275,28 @@
       "time": "17:00",
       "home": "RSV Eintracht 1949",
       "away": "Greifswalder FC",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/9-spieltag/rsv-eintracht-1949-greifswalder-fc-2426069",
       "match_number": "690047076",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM8000032VV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u21-690047085",
+      "date": "2026-09-19",
+      "time": "14:00",
+      "home": "VSG Altglienicke Berlin",
+      "away": "RSV Eintracht 1949",
+      "competition": "Regionalliga 2026/27",
+      "location": "Spree-Arena, Hangelsberger Chaussee 1, 15517 Fürstenwalde/Spree",
+      "source_url": "https://www.fussball.de/spiel/vsg-altglienicke-berlin-rsv-eintracht-1949/-/spiel/031DEIC26S000000VS5489BUVUR5FS5A",
+      "match_number": "690047085",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008GVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-10",
@@ -198,13 +316,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "Chemnitzer FC",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/11-spieltag/rsv-eintracht-1949-chemnitzer-fc-2426085",
       "match_number": "690047093",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO000020VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-12",
@@ -212,13 +332,15 @@
       "time": "14:00",
       "home": "Hallescher FC",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "LEUNA-CHEMIE-STADION, Kantstr. 2, 06110 Halle (Saale)",
       "source_url": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/12-spieltag/hallescher-fc-rsv-eintracht-1949-2426092",
       "match_number": "690047104",
-      "location_source": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC4400006GVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-13",
@@ -226,13 +348,15 @@
       "time": "14:00",
       "home": "Hertha BSC II",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099",
       "match_number": "690047115",
-      "location_source": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-14",
@@ -240,13 +364,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "SV Tasmania Berlin",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110",
       "match_number": "690047122",
-      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006DVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-15",
@@ -254,37 +380,47 @@
       "time": "14:00",
       "home": "BFC Dynamo",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
       "source_url": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119",
       "match_number": "690047129",
-      "location_source": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-16",
       "date": "2026-11-08",
       "time": "14:00",
       "home": "RSV Eintracht 1949",
-      "away": "Erzgebirge Aue",
-      "competition": "Regionalliga Nordost 2026/27",
+      "away": "FC Erzgebirge Aue",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-erzgebirge-aue/-/spiel/031DEIC6GK000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128",
+      "match_number": "690047140",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-erzgebirge-aue/-/spiel/031DEIC6GK000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO00000KVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-17",
       "date": "2026-11-22",
       "time": "14:00",
-      "home": "1. FC Lok Leipzig",
+      "home": "1. FC Lokomotive Leipzig",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-spieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141"
+      "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
+      "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-rsv-eintracht-1949/-/spiel/031DEIC6UG000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-spieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141",
+      "match_number": "690047145",
+      "location_source": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-rsv-eintracht-1949/-/spiel/031DEIC6UG000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-18",
@@ -299,16 +435,33 @@
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/18-spieltag/rsv-eintracht-1949-bfc-preussen-1894-2426147"
     },
     {
+      "id": "u21-690047158",
+      "date": "2026-11-29",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949",
+      "away": "BFC Preussen",
+      "competition": "Regionalliga 2026/27",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A",
+      "match_number": "690047158",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00004RVV0AG08LVUPGND5I"
+    },
+    {
       "id": "rl-19",
       "date": "2026-12-06",
       "time": "14:00",
       "home": "FSV 63 Luckenwalde",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/19-spieltag/fsv-63-luckenwalde-rsv-eintracht-1949-2426152"
+      "location": "Werner-Seelenbinder-Stadion, Straße des Friedens 42, 14943 Luckenwalde",
+      "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949/-/spiel/031DEIC9BC000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/19-spieltag/fsv-63-luckenwalde-rsv-eintracht-1949-2426152",
+      "match_number": "690047171",
+      "location_source": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949/-/spiel/031DEIC9BC000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-20",
@@ -316,11 +469,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "FC Carl Zeiss Jena",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/20-spieltag/rsv-eintracht-1949-fc-carl-zeiss-jena-2426160"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-carl-zeiss-jena/-/spiel/031DEIC9RO000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/20-spieltag/rsv-eintracht-1949-fc-carl-zeiss-jena-2426160",
+      "match_number": "690047177",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-carl-zeiss-jena/-/spiel/031DEIC9RO000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K0000AUVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-21",
@@ -328,11 +485,15 @@
       "time": "14:00",
       "home": "BSG Chemie Leipzig",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/21-spieltag/bsg-chemie-leipzig-rsv-eintracht-1949-2426175"
+      "location": "Alfred-Kunze-Sportpark Hauptfeld, Am Sportpark 2, 04179 Leipzig",
+      "source_url": "https://www.fussball.de/spiel/bsg-chemie-leipzig-rsv-eintracht-1949/-/spiel/031DEICAQG000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/21-spieltag/bsg-chemie-leipzig-rsv-eintracht-1949-2426175",
+      "match_number": "690047187",
+      "location_source": "https://www.fussball.de/spiel/bsg-chemie-leipzig-rsv-eintracht-1949/-/spiel/031DEICAQG000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00V5AAJ3CK000000VV0AG811VUO83U9F",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-22",
@@ -340,11 +501,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "SV Babelsberg 03",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/22-spieltag/rsv-eintracht-1949-sv-babelsberg-03-2426179"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-babelsberg-03/-/spiel/031DEICBLK000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/22-spieltag/rsv-eintracht-1949-sv-babelsberg-03-2426179",
+      "match_number": "690047195",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-babelsberg-03/-/spiel/031DEICBLK000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-23",
@@ -352,11 +517,15 @@
       "time": "14:00",
       "home": "FSV Zwickau",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/23-spieltag/fsv-zwickau-rsv-eintracht-1949-2426189"
+      "location": "GGZ-Arena, Stadionallee 1, 08066 Zwickau",
+      "source_url": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949/-/spiel/031DEICC8G000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/23-spieltag/fsv-zwickau-rsv-eintracht-1949-2426189",
+      "match_number": "690047200",
+      "location_source": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949/-/spiel/031DEICC8G000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-24",
@@ -364,11 +533,14 @@
       "time": "14:00",
       "home": "1. FC Magdeburg II",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
       "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/24-spieltag/1-fc-magdeburg-ii-rsv-eintracht-1949-2426199"
+      "source_url": "https://www.fussball.de/spiel/1-fc-magdeburg-ii-rsv-eintracht-1949/-/spiel/031DEICDTO000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/24-spieltag/1-fc-magdeburg-ii-rsv-eintracht-1949-2426199",
+      "match_number": "690047214",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-25",
@@ -376,11 +548,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "FC Rot-Weiß Erfurt",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/25-spieltag/rsv-eintracht-1949-fc-rot-weiss-erfurt-2426210"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-rot-weiss-erfurt/-/spiel/031DEICEQO000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/25-spieltag/rsv-eintracht-1949-fc-rot-weiss-erfurt-2426210",
+      "match_number": "690047222",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-rot-weiss-erfurt/-/spiel/031DEICEQO000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K00003QVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-26",
@@ -388,11 +564,15 @@
       "time": "14:00",
       "home": "Greifswalder FC",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/26-spieltag/greifswalder-fc-rsv-eintracht-1949-2426216"
+      "location": "Stadion, Karl-Liebknecht-Ring 2, 17491 Greifswald, Hansestadt",
+      "source_url": "https://www.fussball.de/spiel/greifswalder-fc-rsv-eintracht-1949/-/spiel/031DEICG0G000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/26-spieltag/greifswalder-fc-rsv-eintracht-1949-2426216",
+      "match_number": "690047232",
+      "location_source": "https://www.fussball.de/spiel/greifswalder-fc-rsv-eintracht-1949/-/spiel/031DEICG0G000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM8000032VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-27",
@@ -407,16 +587,33 @@
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/27-spieltag/rsv-eintracht-1949-vsg-altglienicke-2426227"
     },
     {
+      "id": "u21-690047239",
+      "date": "2027-04-04",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949",
+      "away": "VSG Altglienicke Berlin",
+      "competition": "Regionalliga 2026/27",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-vsg-altglienicke-berlin/-/spiel/031DEICGRC000000VS5489BUVUR5FS5A",
+      "match_number": "690047239",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008GVV0AG08LVUPGND5I"
+    },
+    {
       "id": "rl-28",
       "date": "2027-04-07",
       "time": "19:00",
       "home": "Chemnitzer FC",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/28-spieltag/chemnitzer-fc-rsv-eintracht-1949-2426234"
+      "location": "eins-Stadion – An der Gellertstraße, Gellertstr. 25, 09130 Chemnitz",
+      "source_url": "https://www.fussball.de/spiel/chemnitzer-fc-rsv-eintracht-1949/-/spiel/031DEICI50000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/28-spieltag/chemnitzer-fc-rsv-eintracht-1949-2426234",
+      "match_number": "690047250",
+      "location_source": "https://www.fussball.de/spiel/chemnitzer-fc-rsv-eintracht-1949/-/spiel/031DEICI50000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO000020VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-29",
@@ -424,11 +621,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "Hallescher FC",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/29-spieltag/rsv-eintracht-1949-hallescher-fc-2426247"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hallescher-fc/-/spiel/031DEICJ7C000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/29-spieltag/rsv-eintracht-1949-hallescher-fc-2426247",
+      "match_number": "690047260",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-hallescher-fc/-/spiel/031DEICJ7C000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC4400006GVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-30",
@@ -436,11 +637,15 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "Hertha BSC II",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/30-spieltag/rsv-eintracht-1949-hertha-bsc-ii-2426252"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hertha-bsc-u23/-/spiel/031DEICK5K000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/30-spieltag/rsv-eintracht-1949-hertha-bsc-ii-2426252",
+      "match_number": "690047269",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-hertha-bsc-u23/-/spiel/031DEICK5K000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-31",
@@ -448,11 +653,15 @@
       "time": "14:00",
       "home": "SV Tasmania Berlin",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/31-spieltag/sv-tasmania-berlin-rsv-eintracht-1949-2426264"
+      "location": "W.-Seelenb.-Sportpark NR1, Oderstr. 182, 12051 Berlin",
+      "source_url": "https://www.fussball.de/spiel/sv-tasmania-berlin-rsv-eintracht-1949/-/spiel/031DEICL2C000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/31-spieltag/sv-tasmania-berlin-rsv-eintracht-1949-2426264",
+      "match_number": "690047277",
+      "location_source": "https://www.fussball.de/spiel/sv-tasmania-berlin-rsv-eintracht-1949/-/spiel/031DEICL2C000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006DVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-32",
@@ -460,40 +669,52 @@
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "BFC Dynamo",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/32-spieltag/rsv-eintracht-1949-bfc-dynamo-2426271"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-dynamo/-/spiel/031DEICM5O000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/32-spieltag/rsv-eintracht-1949-bfc-dynamo-2426271",
+      "match_number": "690047286",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-dynamo/-/spiel/031DEICM5O000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-33",
       "date": "2027-05-16",
       "time": "14:00",
-      "home": "Erzgebirge Aue",
+      "home": "FC Erzgebirge Aue",
       "away": "RSV Eintracht 1949",
-      "competition": "Regionalliga Nordost 2026/27",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/33-spieltag/erzgebirge-aue-rsv-eintracht-1949-2426277"
+      "location": "Eins Erzgebirgsstadion, Gerd-Schädlich-Platz 1, 08280 Aue",
+      "source_url": "https://www.fussball.de/spiel/fc-erzgebirge-aue-rsv-eintracht-1949/-/spiel/031DEICN3O000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/33-spieltag/erzgebirge-aue-rsv-eintracht-1949-2426277",
+      "match_number": "690047294",
+      "location_source": "https://www.fussball.de/spiel/fc-erzgebirge-aue-rsv-eintracht-1949/-/spiel/031DEICN3O000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO00000KVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "rl-34",
       "date": "2027-05-23",
       "time": "14:00",
       "home": "RSV Eintracht 1949",
-      "away": "1. FC Lok Leipzig",
-      "competition": "Regionalliga Nordost 2026/27",
+      "away": "1. FC Lokomotive Leipzig",
+      "competition": "Regionalliga 2026/27",
       "result": null,
-      "location": "",
-      "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/34-spieltag/rsv-eintracht-1949-1-fc-lok-leipzig-2426292"
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-lokomotive-leipzig/-/spiel/031DEICOA4000000VS5489BUVUR5FS5A",
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/34-spieltag/rsv-eintracht-1949-1-fc-lok-leipzig-2426292",
+      "match_number": "690047304",
+      "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-lokomotive-leipzig/-/spiel/031DEICOA4000000VS5489BUVUR5FS5A",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6"
     }
   ],
   "first_team": true,
   "source_urls": [
-    "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
+    "https://www.fussball.de/vereinsspielplan.druck/-/datum-bis/2027-06-30/datum-von/2026-07-01/id/00ES8GNBL0000087VV0AG08LVUPGND5I/match-type/-1/max/999/mode/PRINT/show-venues/true/team-id/011MIBAK8C000000VTVG0001VTR8C1K7",
     "https://www.fussball.de/mannschaft/rsv-eintracht-1949-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBAK8C000000VTVG0001VTR8C1K7"
   ],
   "expected_league_games": 34

@@ -83,6 +83,100 @@ def test_print_layout_match_ids_and_competitions():
     assert mod.league_game_count(games)==1
 
 
+def test_round_label_from_spieltag_url():
+    assert mod.round_label_from_spieltag_url(
+        'https://www.fussball.de/spieltag/runde-1-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-08-22/staffel/031B3AU'
+    ) == '1. Runde'
+    assert mod.round_label_from_spieltag_url(
+        'https://www.fussball.de/spieltag/1-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/staffel/x'
+    ) == '1. Runde'
+
+
+def test_fussball_source_urls_ignore_dfb_and_prefer_print():
+    urls=mod.fussball_source_urls({
+        'source_url':'https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949',
+        'source_urls':[
+            'https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949',
+            'https://www.fussball.de/mannschaft/rsv-eintracht-1949/-/team-id/1',
+            'https://www.fussball.de/vereinsspielplan.druck/-/mode/PRINT/team-id/1',
+        ],
+    })
+    assert urls[0].endswith('mode/PRINT/team-id/1')
+    assert all('fussball.de' in u for u in urls)
+    assert all('datencenter.dfb.de' not in u for u in urls)
+    assert len(urls)==2
+
+
+def test_placeholder_team_detection():
+    assert mod.is_placeholder_team('Sieger aus einem Spiel')
+    assert mod.is_placeholder_team('Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow')
+    assert mod.is_placeholder_team('Sieger aus Spiel 710006071')
+    assert not mod.is_placeholder_team('BSC Preußen 07')
+    assert not mod.is_placeholder_team('RSV Eintracht 1949')
+
+
+def test_merge_resolves_cup_placeholder():
+    base=[{
+        'id':'lp-01','date':'2026-08-22','time':'15:00',
+        'home':'Sieger Spremberger SV / BSC Preußen 07 Blankenfelde-Mahlow',
+        'away':'RSV Eintracht 1949','competition':'Landespokal Brandenburg 2026/27',
+        'result':None,'location':'','source_url':'https://www.flb.de/',
+    }]
+    remote=[{
+        'id':'u21-710006071','date':'2026-08-22','time':'15:00',
+        'home':'BSC Preußen 07','away':'RSV Eintracht 1949',
+        'competition':'Brandenburg-Pokal 2026/27','result':'0:2',
+        'location':'Sportplatz Blankenfelde, Triftstr. 13-15, 15827 Blankenfelde-Mahlow',
+        'source_url':'https://www.fussball.de/spiel/bsc-preussen-07-rsv-eintracht-1949/-/spiel/031DOF9STC000000VS5489BUVUR5FS5A',
+        'match_number':'710006071',
+    }]
+    merged=mod.merge(base, remote)
+    assert len(merged)==1
+    game=merged[0]
+    assert game['id']=='lp-01'
+    assert game['home']=='BSC Preußen 07'
+    assert game['away']=='RSV Eintracht 1949'
+    assert game['result']=='0:2'
+    assert game['competition']=='Landespokal Brandenburg 2026/27'
+    assert '/spiel/' in game['source_url']
+    assert 'Blankenfelde' in game['location']
+
+
+def test_merge_keeps_resolved_name_over_placeholder():
+    base=[{
+        'id':'lp-01','date':'2026-08-22','time':'15:00',
+        'home':'BSC Preußen 07','away':'RSV Eintracht 1949',
+        'competition':'Landespokal Brandenburg 2026/27','result':'0:2','location':'',
+        'source_url':'https://www.fussball.de/spiel/x',
+    }]
+    remote=[{
+        'id':'u21-1','date':'2026-08-22','time':'15:00',
+        'home':'Sieger aus einem Spiel','away':'RSV Eintracht 1949',
+        'competition':'Landespokal Brandenburg 2026/27','result':None,'location':'','source_url':'',
+    }]
+    game=mod.merge(base, remote)[0]
+    assert game['home']=='BSC Preußen 07'
+    assert game['result']=='0:2'
+
+
+def test_append_non_league_fussball_games():
+    dfb=[{
+        'id':'rl-05','date':'2026-08-14','time':'19:00',
+        'home':'SV Babelsberg 03','away':'RSV Eintracht 1949',
+        'competition':'Regionalliga Nordost 2026/27','result':'3:3',
+    }]
+    fussball=dfb+[{
+        'id':'u21-710006071','date':'2026-08-22','time':'15:00',
+        'home':'BSC Preußen 07','away':'RSV Eintracht 1949',
+        'competition':'Brandenburg-Pokal 2026/27','result':'0:2',
+    }]
+    out=mod.append_non_league_fussball_games(dfb, fussball)
+    assert len(out)==2
+    cup=[g for g in out if g['date']=='2026-08-22'][0]
+    assert cup['competition']=='Landespokal Brandenburg 2026/27'
+    assert cup['result']=='0:2'
+
+
 def test_dedupe_prefers_numeric_match_id():
     games=mod.dedupe([
         {
@@ -107,5 +201,11 @@ if __name__=='__main__':
     test_full_table()
     test_result_and_short_date()
     test_print_layout_match_ids_and_competitions()
+    test_round_label_from_spieltag_url()
+    test_fussball_source_urls_ignore_dfb_and_prefer_print()
+    test_placeholder_team_detection()
+    test_merge_resolves_cup_placeholder()
+    test_merge_keeps_resolved_name_over_placeholder()
+    test_append_non_league_fussball_games()
     test_dedupe_prefers_numeric_match_id()
     print('OK')
