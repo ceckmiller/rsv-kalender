@@ -99,7 +99,14 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01FD4U0U4O000000VV0AG811VSN9B03H",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "round": "2. Runde",
-      "round_url": "https://www.fussball.de/spieltag/2-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-08-23/staffel/031EVUOEVS000006VS5489BTVUS470OH-R"
+      "round_url": "https://www.fussball.de/spieltag/2-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-08-23/staffel/031EVUOEVS000006VS5489BTVUS470OH-R",
+      "result": "1:2",
+      "halftime_result": "1:2",
+      "scorers": [
+        "1. Minute – Leonard Friedrich (Eintracht Falkensee I) – 1:0",
+        "37. Minute – Adrian Meiner (RSV Eintracht 1949 U23) – 1:1",
+        "42. Minute – Jamil Berjawi (RSV Eintracht 1949 U23) – 1:2"
+      ]
     },
     {
       "id": "u23-610138004",
