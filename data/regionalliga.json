@@ -254,6 +254,21 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I"
     },
     {
+      "id": "u21-710006095",
+      "date": "2026-09-05",
+      "time": "15:00",
+      "home": "Ludwigsfelder FC",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landespokal Brandenburg 2026/27",
+      "location": "Waldstadion Ludwigsfelde, Stadion, Straße der Jugend, 14974 Ludwigsfelde",
+      "source_url": "https://www.fussball.de/spiel/ludwigsfelder-fc-rsv-eintracht-1949/-/spiel/031SIBIEHO000000VS5489BTVTPHHFPR",
+      "match_number": "710006095",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002OVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "2. Runde",
+      "round_url": "https://www.fussball.de/spieltag/runde-2-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-09-05/staffel/031B3AU474000002VS5489BUVV628VP4-R"
+    },
+    {
       "id": "rl-08",
       "date": "2026-09-11",
       "time": "19:00",
