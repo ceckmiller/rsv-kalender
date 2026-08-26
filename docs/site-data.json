@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T04:02:43.903954+02:00",
+  "generated_at": "2026-08-26T09:13:13.437381+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -50,7 +50,7 @@
           "location": "Preussen-Stadion NR1, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
           "points": 1,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": 526,
           "referee": "Patrick Kluge",
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+1894+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -75,7 +75,7 @@
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "points": 1,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": null,
           "referee": null,
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Preussen+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -101,7 +101,7 @@
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "points": 4,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": null,
           "referee": "Benjamin Strebinger",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+63+Luckenwalde+OSTSPORT.TV",
@@ -128,7 +128,7 @@
           "location": "Ernst-Abbe-Sportfeld, Roland-Ducke-Weg 1, 07745 Jena",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Abbe-Sportfeld%2C+Roland-Ducke-Weg+1%2C+07745+Jena",
           "points": 4,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": 5514,
           "referee": "Luis Riedel",
           "youtube_url": "https://www.youtube.com/results?search_query=FC+Carl+Zeiss+Jena+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -153,7 +153,7 @@
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "points": 5,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": 963,
           "referee": "Julius Hanft",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+BSG+Chemie+Leipzig+OSTSPORT.TV",
@@ -182,7 +182,7 @@
           "location": "Karl-Liebknecht-Stadion, Karl-Liebknecht-Str. 90, 14482 Potsdam",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Karl-Liebknecht-Stadion%2C+Karl-Liebknecht-Str.+90%2C+14482+Potsdam",
           "points": 6,
-          "table_position": 11,
+          "table_position": 12,
           "attendance": 3120,
           "referee": "Jens Klemm",
           "youtube_url": "https://www.youtube.com/results?search_query=SV+Babelsberg+03+RSV+Eintracht+1949+OSTSPORT.TV",
@@ -2408,7 +2408,7 @@
               "time": "19:00",
               "home": "1. FC Lok Leipzig",
               "away": "Chemnitzer FC",
-              "result": null,
+              "result": "0:2",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2422,7 +2422,7 @@
               "time": "19:00",
               "home": "1. FC Magdeburg II",
               "away": "BSG Chemie Leipzig",
-              "result": null,
+              "result": "1:0",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2436,7 +2436,7 @@
               "time": "19:00",
               "home": "BFC Dynamo",
               "away": "BFC Preussen 1894",
-              "result": null,
+              "result": "2:0",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2450,7 +2450,7 @@
               "time": "19:00",
               "home": "FSV 63 Luckenwalde",
               "away": "FC Rot-Weiß Erfurt",
-              "result": null,
+              "result": "0:5",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -13869,25 +13869,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 2,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 3,
+          "matchday": 2,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13904,7 +13887,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13921,7 +13904,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -13938,7 +13921,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13955,7 +13938,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13972,7 +13955,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13989,7 +13972,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14006,7 +13989,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14023,7 +14006,7 @@
         },
         {
           "id": "u21-890001108",
-          "matchday": 11,
+          "matchday": 10,
           "date": "2026-11-22",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14040,19 +14023,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001026",
+        "id": "u21-890001031",
         "matchday": 2,
-        "date": "2026-08-28",
-        "time": "18:30",
+        "date": "2026-09-06",
+        "time": "13:30",
         "competition": "2.Bundesliga",
-        "home": "Eintracht Braunschweig",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "home": "Hertha BSC",
+        "away": "1. FC Magdeburg",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/1-fc-magdeburg.png",
         "result": "",
-        "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }
@@ -14061,29 +14044,29 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 5. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 6. Spieltag)",
       "rows": [
         {
           "team": "FC Rot-Weiß Erfurt",
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "draws": 1,
           "losses": 0,
-          "goals": "17:4",
-          "diff": "+13",
-          "points": 13,
+          "goals": "22:4",
+          "diff": "+18",
+          "points": 16,
           "position": 1,
           "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
         },
         {
           "team": "Chemnitzer FC",
-          "played": 5,
-          "wins": 4,
+          "played": 6,
+          "wins": 5,
           "draws": 1,
           "losses": 0,
-          "goals": "13:2",
-          "diff": "+11",
-          "points": 13,
+          "goals": "15:2",
+          "diff": "+13",
+          "points": 16,
           "position": 2,
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
@@ -14100,16 +14083,16 @@
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
-          "team": "1. FC Lok Leipzig",
-          "played": 5,
+          "team": "1. FC Magdeburg II",
+          "played": 6,
           "wins": 3,
           "draws": 1,
-          "losses": 1,
-          "goals": "12:9",
+          "losses": 2,
+          "goals": "13:10",
           "diff": "+3",
           "points": 10,
           "position": 4,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
           "team": "Erzgebirge Aue",
@@ -14124,6 +14107,18 @@
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
+          "team": "1. FC Lok Leipzig",
+          "played": 6,
+          "wins": 3,
+          "draws": 1,
+          "losses": 2,
+          "goals": "12:11",
+          "diff": "+1",
+          "points": 10,
+          "position": 6,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+        },
+        {
           "team": "FC Carl Zeiss Jena",
           "played": 5,
           "wins": 3,
@@ -14132,7 +14127,7 @@
           "goals": "8:4",
           "diff": "+4",
           "points": 9,
-          "position": 6,
+          "position": 7,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
@@ -14144,20 +14139,20 @@
           "goals": "11:7",
           "diff": "+4",
           "points": 8,
-          "position": 7,
+          "position": 8,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
-          "team": "1. FC Magdeburg II",
-          "played": 5,
+          "team": "BFC Dynamo",
+          "played": 6,
           "wins": 2,
-          "draws": 1,
+          "draws": 2,
           "losses": 2,
-          "goals": "12:10",
-          "diff": "+2",
-          "points": 7,
-          "position": 8,
-          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
+          "goals": "8:8",
+          "diff": "0",
+          "points": 8,
+          "position": 9,
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "team": "FSV Zwickau",
@@ -14168,7 +14163,7 @@
           "goals": "5:8",
           "diff": "-3",
           "points": 7,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
@@ -14180,7 +14175,7 @@
           "goals": "5:5",
           "diff": "0",
           "points": 6,
-          "position": 10,
+          "position": 11,
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
@@ -14192,7 +14187,7 @@
           "goals": "8:9",
           "diff": "-1",
           "points": 6,
-          "position": 11,
+          "position": 12,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
@@ -14204,20 +14199,8 @@
           "goals": "8:9",
           "diff": "-1",
           "points": 5,
-          "position": 12,
-          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
-        },
-        {
-          "team": "BFC Dynamo",
-          "played": 5,
-          "wins": 1,
-          "draws": 2,
-          "losses": 2,
-          "goals": "6:8",
-          "diff": "-2",
-          "points": 5,
           "position": 13,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
+          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "Hertha BSC II",
@@ -14233,12 +14216,12 @@
         },
         {
           "team": "FSV 63 Luckenwalde",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 0,
-          "losses": 4,
-          "goals": "5:11",
-          "diff": "-6",
+          "losses": 5,
+          "goals": "5:16",
+          "diff": "-11",
           "points": 3,
           "position": 15,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
@@ -14257,24 +14240,24 @@
         },
         {
           "team": "BFC Preussen 1894",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 2,
-          "losses": 3,
-          "goals": "4:9",
-          "diff": "-5",
+          "losses": 4,
+          "goals": "4:11",
+          "diff": "-7",
           "points": 2,
           "position": 17,
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
         },
         {
           "team": "BSG Chemie Leipzig",
-          "played": 5,
+          "played": 6,
           "wins": 0,
           "draws": 1,
-          "losses": 4,
-          "goals": "1:7",
-          "diff": "-6",
+          "losses": 5,
+          "goals": "1:8",
+          "diff": "-7",
           "points": 1,
           "position": 18,
           "logo_url": "/assets/clubs/bsg-chemie-leipzig.jpg"
