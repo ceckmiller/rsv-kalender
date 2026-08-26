@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T15:20:57.358061+02:00",
+  "generated_at": "2026-08-26T22:08:34.902240+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -212,6 +212,32 @@
           "referee": null,
           "youtube_url": "https://www.youtube.com/results?search_query=BSC+Preu%C3%9Fen+07+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": ""
+        },
+        {
+          "id": "rl-06",
+          "matchday": 6,
+          "date": "2026-08-26",
+          "time": "18:00",
+          "competition": "Regionalliga",
+          "home": "RSV Eintracht 1949",
+          "away": "FSV Zwickau",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/fsv-zwickau.png",
+          "result": "1:2",
+          "halftime_result": "0:0",
+          "scorers": [
+            "76. Minute – Theo Gunnar Martens (FSV Zwickau) – 0:1",
+            "82. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1",
+            "86. Minute – Fynn Seidel (FSV Zwickau) – 1:2"
+          ],
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+          "points": 6,
+          "table_position": 12,
+          "attendance": 631,
+          "referee": "Christoph Dallmann",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FSV+Zwickau+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/6-spieltag/rsv-eintracht-1949-fsv-zwickau-2426036"
         }
       ],
       "fixtures": [
@@ -412,12 +438,12 @@
           "away": "FSV Zwickau",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/fsv-zwickau.png",
-          "result": "",
+          "result": "1:2",
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
+          "ticket_url": ""
         },
         {
           "id": "rl-07",
@@ -2393,8 +2419,8 @@
               "time": "18:00",
               "home": "RSV Eintracht 1949",
               "away": "FSV Zwickau",
-              "result": null,
-              "halftime_result": null,
+              "result": "1:2",
+              "halftime_result": "0:0",
               "location": "",
               "matchday": 6,
               "competition": "Regionalliga Nordost 2026/27",
@@ -2464,7 +2490,7 @@
               "time": "19:00",
               "home": "Erzgebirge Aue",
               "away": "Hertha BSC II",
-              "result": null,
+              "result": "0:0",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2478,7 +2504,7 @@
               "time": "19:00",
               "home": "Greifswalder FC",
               "away": "SV Babelsberg 03",
-              "result": null,
+              "result": "2:1",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2531,8 +2557,8 @@
               "time": "18:00",
               "home": "RSV Eintracht 1949",
               "away": "FSV Zwickau",
-              "result": null,
-              "halftime_result": null,
+              "result": "1:2",
+              "halftime_result": "0:0",
               "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
               "matchday": 6,
               "team_fixture_id": "rl-06",
@@ -7361,20 +7387,20 @@
         }
       ],
       "next_game": {
-        "id": "rl-06",
-        "matchday": 6,
-        "date": "2026-08-26",
-        "time": "18:00",
+        "id": "rl-07",
+        "matchday": 7,
+        "date": "2026-08-30",
+        "time": "14:00",
         "competition": "Regionalliga",
         "home": "RSV Eintracht 1949",
-        "away": "FSV Zwickau",
+        "away": "1. FC Magdeburg II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fsv-zwickau.png",
+        "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png",
         "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015310/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5015312/"
       },
       "next_home": null
     },
@@ -13869,25 +13895,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001026",
-          "matchday": 2,
-          "date": "2026-08-28",
-          "time": "18:30",
-          "competition": "2.Bundesliga",
-          "home": "Eintracht Braunschweig",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001031",
-          "matchday": 3,
+          "matchday": 2,
           "date": "2026-09-06",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13904,7 +13913,7 @@
         },
         {
           "id": "u21-890001045",
-          "matchday": 4,
+          "matchday": 3,
           "date": "2026-09-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13921,7 +13930,7 @@
         },
         {
           "id": "u21-890001050",
-          "matchday": 5,
+          "matchday": 4,
           "date": "2026-09-19",
           "time": "20:30",
           "competition": "2.Bundesliga",
@@ -13938,7 +13947,7 @@
         },
         {
           "id": "u21-890001058",
-          "matchday": 6,
+          "matchday": 5,
           "date": "2026-10-11",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13955,7 +13964,7 @@
         },
         {
           "id": "u21-890001069",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-18",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13972,7 +13981,7 @@
         },
         {
           "id": "u21-890001075",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-25",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -13989,7 +13998,7 @@
         },
         {
           "id": "u21-890001086",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-11-01",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14006,7 +14015,7 @@
         },
         {
           "id": "u21-890001092",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-08",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14023,7 +14032,7 @@
         },
         {
           "id": "u21-890001108",
-          "matchday": 11,
+          "matchday": 10,
           "date": "2026-11-22",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -14040,19 +14049,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001026",
+        "id": "u21-890001031",
         "matchday": 2,
-        "date": "2026-08-28",
-        "time": "18:30",
+        "date": "2026-09-06",
+        "time": "13:30",
         "competition": "2.Bundesliga",
-        "home": "Eintracht Braunschweig",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/eintracht-braunschweig.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "home": "Hertha BSC",
+        "away": "1. FC Magdeburg",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/1-fc-magdeburg.png",
         "result": "",
-        "location": "Eintracht Stadion, Hamburger Str. 210, 38112 Braunschweig",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eintracht+Stadion%2C+Hamburger+Str.+210%2C+38112+Braunschweig",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }
@@ -14088,6 +14097,18 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
+          "team": "Greifswalder FC",
+          "played": 6,
+          "wins": 3,
+          "draws": 2,
+          "losses": 1,
+          "goals": "13:8",
+          "diff": "+5",
+          "points": 11,
+          "position": 3,
+          "logo_url": "/assets/clubs/greifswalder-fc.png"
+        },
+        {
           "team": "VSG Altglienicke",
           "played": 5,
           "wins": 3,
@@ -14096,8 +14117,20 @@
           "goals": "13:8",
           "diff": "+5",
           "points": 11,
-          "position": 3,
+          "position": 4,
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
+          "team": "Erzgebirge Aue",
+          "played": 6,
+          "wins": 3,
+          "draws": 2,
+          "losses": 1,
+          "goals": "11:9",
+          "diff": "+2",
+          "points": 11,
+          "position": 5,
+          "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
           "team": "1. FC Magdeburg II",
@@ -14108,20 +14141,8 @@
           "goals": "13:10",
           "diff": "+3",
           "points": 10,
-          "position": 4,
+          "position": 6,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
-          "team": "Erzgebirge Aue",
-          "played": 5,
-          "wins": 3,
-          "draws": 1,
-          "losses": 1,
-          "goals": "11:9",
-          "diff": "+2",
-          "points": 10,
-          "position": 5,
-          "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -14132,8 +14153,20 @@
           "goals": "12:11",
           "diff": "+1",
           "points": 10,
-          "position": 6,
+          "position": 7,
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+        },
+        {
+          "team": "FSV Zwickau",
+          "played": 6,
+          "wins": 3,
+          "draws": 1,
+          "losses": 2,
+          "goals": "7:9",
+          "diff": "-2",
+          "points": 10,
+          "position": 8,
+          "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
           "team": "FC Carl Zeiss Jena",
@@ -14144,20 +14177,8 @@
           "goals": "8:4",
           "diff": "+4",
           "points": 9,
-          "position": 7,
+          "position": 9,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
-        },
-        {
-          "team": "Greifswalder FC",
-          "played": 5,
-          "wins": 2,
-          "draws": 2,
-          "losses": 1,
-          "goals": "11:7",
-          "diff": "+4",
-          "points": 8,
-          "position": 8,
-          "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
           "team": "BFC Dynamo",
@@ -14168,20 +14189,8 @@
           "goals": "8:8",
           "diff": "0",
           "points": 8,
-          "position": 9,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
-          "team": "FSV Zwickau",
-          "played": 5,
-          "wins": 2,
-          "draws": 1,
-          "losses": 2,
-          "goals": "5:8",
-          "diff": "-3",
-          "points": 7,
           "position": 10,
-          "logo_url": "/assets/clubs/fsv-zwickau.png"
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "team": "Hallescher FC",
@@ -14197,37 +14206,37 @@
         },
         {
           "team": "RSV Eintracht 1949",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 3,
-          "losses": 1,
-          "goals": "8:9",
-          "diff": "-1",
+          "losses": 2,
+          "goals": "9:11",
+          "diff": "-2",
           "points": 6,
           "position": 12,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
           "team": "SV Babelsberg 03",
-          "played": 5,
+          "played": 6,
           "wins": 1,
           "draws": 2,
-          "losses": 2,
-          "goals": "8:9",
-          "diff": "-1",
+          "losses": 3,
+          "goals": "9:11",
+          "diff": "-2",
           "points": 5,
           "position": 13,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "Hertha BSC II",
-          "played": 5,
+          "played": 6,
           "wins": 1,
-          "draws": 1,
+          "draws": 2,
           "losses": 3,
           "goals": "5:13",
           "diff": "-8",
-          "points": 4,
+          "points": 5,
           "position": 14,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
         },

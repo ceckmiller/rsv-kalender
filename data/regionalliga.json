@@ -228,14 +228,22 @@
       "home": "RSV Eintracht 1949",
       "away": "FSV Zwickau",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:2",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/6-spieltag/rsv-eintracht-1949-fsv-zwickau-2426036",
       "match_number": "690047052",
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fsv-zwickau/-/spiel/031DEIBVQO000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I",
+      "halftime_result": "0:0",
+      "scorers": [
+        "76. Minute – Theo Gunnar Martens (FSV Zwickau) – 0:1",
+        "82. Minute – Nathanael Kukanda (RSV Eintracht 1949) – 1:1",
+        "86. Minute – Fynn Seidel (FSV Zwickau) – 1:2"
+      ],
+      "referee": "Christoph Dallmann",
+      "attendance": 631
     },
     {
       "id": "rl-07",
