@@ -58,7 +58,8 @@
       "match_number": "880004081",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005NVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "location": ""
+      "location": "",
+      "location_source": "https://www.fussball.de/spiel/berliner-ak-u19-rsv-eintracht-1949/-/spiel/031ARF52D4000000VS5489BTVSK8S3O6"
     },
     {
       "id": "rl-01",
@@ -563,7 +564,8 @@
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/24-spieltag/1-fc-magdeburg-ii-rsv-eintracht-1949-2426199",
       "match_number": "690047214",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "location_source": "https://www.fussball.de/spiel/1-fc-magdeburg-ii-rsv-eintracht-1949/-/spiel/031DEICDTO000000VS5489BUVUR5FS5A"
     },
     {
       "id": "rl-25",
