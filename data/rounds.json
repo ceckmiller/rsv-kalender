@@ -721,7 +721,7 @@
           "time": "19:00",
           "home": "VSG Altglienicke",
           "away": "BSG Chemie Leipzig",
-          "result": null,
+          "result": "1:1",
           "halftime_result": null,
           "location": "",
           "matchday": 7,
@@ -733,7 +733,7 @@
           "time": "19:00",
           "home": "Chemnitzer FC",
           "away": "FC Carl Zeiss Jena",
-          "result": null,
+          "result": "1:1",
           "halftime_result": null,
           "location": "",
           "matchday": 7,
@@ -4480,6 +4480,37 @@
       "round": "2. Runde",
       "matches": [
         {
+          "id": "cup-ludwigsfelder-fc-rsv-eintracht-1949",
+          "date": "2026-09-05",
+          "time": "13:00",
+          "home": "Ludwigsfelder FC",
+          "away": "RSV Eintracht 1949",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002OVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/ludwigsfelder-fc-rsv-eintracht-1949/-/spiel/031SIBIEHO000000VS5489BTVTPHHFPR",
+          "team_fixture_id": "u21-710006095"
+        },
+        {
+          "id": "cup-sg-schulzendorf-fsv-optik-rathenow",
+          "date": "2026-09-05",
+          "time": "14:00",
+          "home": "SG Schulzendorf",
+          "away": "FSV Optik Rathenow",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000001JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000ACVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sg-schulzendorf-fsv-optik-rathenow/-/spiel/031SIBIE7G000000VS5489BTVTPHHFPR"
+        },
+        {
           "id": "cup-fc-kremmen-1920-vfb-hohenleipisch-1912",
           "date": "2026-09-05",
           "time": "15:00",
@@ -4525,21 +4556,6 @@
           "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR"
         },
         {
-          "id": "cup-sg-schulzendorf-fsv-optik-rathenow",
-          "date": "2026-09-05",
-          "time": "15:00",
-          "home": "SG Schulzendorf",
-          "away": "FSV Optik Rathenow",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000001JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000ACVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sg-schulzendorf-fsv-optik-rathenow/-/spiel/031SIBIE7G000000VS5489BTVTPHHFPR"
-        },
-        {
           "id": "cup-sv-victoria-seelow-fortuna-babelsberg",
           "date": "2026-09-05",
           "time": "15:00",
@@ -4583,22 +4599,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-gruen-weiss-brieselang-sv-viktoria-potsdam/-/spiel/031SIBIEF4000000VS5489BTVTPHHFPR"
-        },
-        {
-          "id": "cup-ludwigsfelder-fc-rsv-eintracht-1949",
-          "date": "2026-09-05",
-          "time": "15:00",
-          "home": "Ludwigsfelder FC",
-          "away": "RSV Eintracht 1949",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002OVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/ludwigsfelder-fc-rsv-eintracht-1949/-/spiel/031SIBIEHO000000VS5489BTVTPHHFPR",
-          "team_fixture_id": "u21-710006095"
         },
         {
           "id": "cup-sg-sielow-msv-1919-neuruppin",
@@ -4661,21 +4661,6 @@
           "source_url": "https://www.fussball.de/spiel/fv-preussen-eberswalde-werderaner-fc-viktoria-1920/-/spiel/031SIBIESC000000VS5489BTVTPHHFPR"
         },
         {
-          "id": "cup-angermuender-fc-sv-babelsberg-03",
-          "date": "2026-09-05",
-          "time": "15:00",
-          "home": "Angermünder FC",
-          "away": "SV Babelsberg 03",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBG0000017VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR"
-        },
-        {
           "id": "cup-sv-falkensee-finkenkrug",
           "date": "2026-09-05",
           "time": "15:00",
@@ -4719,6 +4704,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00005OVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sg-eintracht-peitz-sv-germania-90-schoeneiche/-/spiel/031SIBIF84000000VS5489BTVTPHHFPR"
+        },
+        {
+          "id": "cup-angermuender-fc-sv-babelsberg-03",
+          "date": "2026-09-05",
+          "time": "16:00",
+          "home": "Angermünder FC",
+          "away": "SV Babelsberg 03",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBG0000017VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR"
         }
       ]
     }

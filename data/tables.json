@@ -1,8 +1,19 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 6. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 7. Spieltag)",
     "rows": [
+      {
+        "team": "Chemnitzer FC",
+        "played": 7,
+        "wins": 5,
+        "draws": 2,
+        "losses": 0,
+        "goals": "16:3",
+        "diff": "+13",
+        "points": 17,
+        "position": 1
+      },
       {
         "team": "FC Rot-Weiß Erfurt",
         "played": 6,
@@ -12,18 +23,18 @@
         "goals": "22:4",
         "diff": "+18",
         "points": 16,
-        "position": 1
+        "position": 2
       },
       {
-        "team": "Chemnitzer FC",
+        "team": "VSG Altglienicke",
         "played": 6,
-        "wins": 5,
-        "draws": 1,
+        "wins": 3,
+        "draws": 3,
         "losses": 0,
-        "goals": "15:2",
-        "diff": "+13",
-        "points": 16,
-        "position": 2
+        "goals": "14:9",
+        "diff": "+5",
+        "points": 12,
+        "position": 3
       },
       {
         "team": "Greifswalder FC",
@@ -31,17 +42,6 @@
         "wins": 3,
         "draws": 2,
         "losses": 1,
-        "goals": "13:8",
-        "diff": "+5",
-        "points": 11,
-        "position": 3
-      },
-      {
-        "team": "VSG Altglienicke",
-        "played": 5,
-        "wins": 3,
-        "draws": 2,
-        "losses": 0,
         "goals": "13:8",
         "diff": "+5",
         "points": 11,
@@ -59,6 +59,17 @@
         "position": 5
       },
       {
+        "team": "FC Carl Zeiss Jena",
+        "played": 6,
+        "wins": 3,
+        "draws": 1,
+        "losses": 2,
+        "goals": "9:5",
+        "diff": "+4",
+        "points": 10,
+        "position": 6
+      },
+      {
         "team": "1. FC Magdeburg II",
         "played": 6,
         "wins": 3,
@@ -67,7 +78,7 @@
         "goals": "13:10",
         "diff": "+3",
         "points": 10,
-        "position": 6
+        "position": 7
       },
       {
         "team": "1. FC Lok Leipzig",
@@ -78,7 +89,7 @@
         "goals": "12:11",
         "diff": "+1",
         "points": 10,
-        "position": 7
+        "position": 8
       },
       {
         "team": "FSV Zwickau",
@@ -89,17 +100,6 @@
         "goals": "7:9",
         "diff": "-2",
         "points": 10,
-        "position": 8
-      },
-      {
-        "team": "FC Carl Zeiss Jena",
-        "played": 5,
-        "wins": 3,
-        "draws": 0,
-        "losses": 2,
-        "goals": "8:4",
-        "diff": "+4",
-        "points": 9,
         "position": 9
       },
       {
@@ -192,13 +192,13 @@
       },
       {
         "team": "BSG Chemie Leipzig",
-        "played": 6,
+        "played": 7,
         "wins": 0,
-        "draws": 1,
+        "draws": 2,
         "losses": 5,
-        "goals": "1:8",
+        "goals": "2:9",
         "diff": "-7",
-        "points": 1,
+        "points": 2,
         "position": 18
       }
     ]
