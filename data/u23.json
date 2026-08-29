@@ -119,7 +119,19 @@
       "source_url": "https://www.fussball.de/spiel/sv-ziesar-1-rsv-eintracht-1949-u23/-/spiel/031D1IIEGK000000VS5489BTVUS470OH",
       "match_number": "610138004",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000030VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "6:2",
+      "halftime_result": "1:1",
+      "scorers": [
+        "34. Minute – Florian Janka (SV Ziesar 31) – 1:0",
+        "38. Minute – Ben Enderlein (RSV Eintracht 1949 U23) – 1:1",
+        "60. Minute – Florian Janka (SV Ziesar 31) – 2:1",
+        "63. Minute – Florian Janka (SV Ziesar 31) – 3:1",
+        "72. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 3:2",
+        "77. Minute – Felix Herbinger (SV Ziesar 31) – 4:2",
+        "86. Minute – Felix Herbinger (SV Ziesar 31) – 5:2",
+        "89. Minute – Florian Janka (SV Ziesar 31) – 6:2"
+      ]
     },
     {
       "id": "u23-liga-20260830",
