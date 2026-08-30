@@ -124,12 +124,19 @@
       "home": "FSV Zwickau",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "2:2",
       "location": "Hauptplatz Bürgerschacht, Saarstr. 50, 08056 Zwickau",
       "source_url": "https://www.fussball.de/spiel/fsv-zwickau-rsv-eintracht-1949-u19/-/spiel/031B3S0HES000000VS5489BUVV628VP4",
       "match_number": "690007021",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:1",
+      "scorers": [
+        "42. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 0:1",
+        "64. Minute – k.A. (FSV Zwickau) – 1:1",
+        "85. Minute – k.A. (FSV Zwickau) – 2:1",
+        "88. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 2:2"
+      ]
     },
     {
       "id": "u19-690007025",

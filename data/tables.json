@@ -26,6 +26,28 @@
         "position": 2
       },
       {
+        "team": "Erzgebirge Aue",
+        "played": 7,
+        "wins": 4,
+        "draws": 2,
+        "losses": 1,
+        "goals": "13:10",
+        "diff": "+3",
+        "points": 14,
+        "position": 3
+      },
+      {
+        "team": "1. FC Magdeburg II",
+        "played": 7,
+        "wins": 4,
+        "draws": 1,
+        "losses": 2,
+        "goals": "17:12",
+        "diff": "+5",
+        "points": 13,
+        "position": 4
+      },
+      {
         "team": "FSV Zwickau",
         "played": 7,
         "wins": 4,
@@ -34,7 +56,18 @@
         "goals": "8:9",
         "diff": "-1",
         "points": 13,
-        "position": 3
+        "position": 5
+      },
+      {
+        "team": "Greifswalder FC",
+        "played": 7,
+        "wins": 3,
+        "draws": 3,
+        "losses": 1,
+        "goals": "15:10",
+        "diff": "+5",
+        "points": 12,
+        "position": 6
       },
       {
         "team": "VSG Altglienicke",
@@ -45,29 +78,18 @@
         "goals": "14:9",
         "diff": "+5",
         "points": 12,
-        "position": 4
+        "position": 7
       },
       {
-        "team": "Greifswalder FC",
-        "played": 6,
+        "team": "BFC Dynamo",
+        "played": 7,
         "wins": 3,
         "draws": 2,
-        "losses": 1,
-        "goals": "13:8",
-        "diff": "+5",
-        "points": 11,
-        "position": 5
-      },
-      {
-        "team": "Erzgebirge Aue",
-        "played": 6,
-        "wins": 3,
-        "draws": 2,
-        "losses": 1,
-        "goals": "11:9",
+        "losses": 2,
+        "goals": "10:8",
         "diff": "+2",
         "points": 11,
-        "position": 6
+        "position": 8
       },
       {
         "team": "FC Carl Zeiss Jena",
@@ -78,29 +100,18 @@
         "goals": "9:5",
         "diff": "+4",
         "points": 10,
-        "position": 7
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 6,
-        "wins": 3,
-        "draws": 1,
-        "losses": 2,
-        "goals": "13:10",
-        "diff": "+3",
-        "points": 10,
-        "position": 8
+        "position": 9
       },
       {
         "team": "1. FC Lok Leipzig",
-        "played": 6,
+        "played": 7,
         "wins": 3,
         "draws": 1,
-        "losses": 2,
-        "goals": "12:11",
-        "diff": "+1",
+        "losses": 3,
+        "goals": "13:13",
+        "diff": "0",
         "points": 10,
-        "position": 9
+        "position": 10
       },
       {
         "team": "Hallescher FC",
@@ -111,27 +122,16 @@
         "goals": "7:5",
         "diff": "+2",
         "points": 9,
-        "position": 10
-      },
-      {
-        "team": "BFC Dynamo",
-        "played": 6,
-        "wins": 2,
-        "draws": 2,
-        "losses": 2,
-        "goals": "8:8",
-        "diff": "0",
-        "points": 8,
         "position": 11
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 6,
+        "played": 7,
         "wins": 1,
         "draws": 3,
-        "losses": 2,
-        "goals": "9:11",
-        "diff": "-2",
+        "losses": 3,
+        "goals": "11:15",
+        "diff": "-4",
         "points": 6,
         "position": 12
       },
@@ -158,6 +158,17 @@
         "position": 14
       },
       {
+        "team": "SV Tasmania Berlin",
+        "played": 6,
+        "wins": 1,
+        "draws": 1,
+        "losses": 4,
+        "goals": "8:20",
+        "diff": "-12",
+        "points": 4,
+        "position": 15
+      },
+      {
         "team": "BFC Preussen 1894",
         "played": 7,
         "wins": 0,
@@ -166,27 +177,16 @@
         "goals": "5:12",
         "diff": "-7",
         "points": 3,
-        "position": 15
-      },
-      {
-        "team": "FSV 63 Luckenwalde",
-        "played": 6,
-        "wins": 1,
-        "draws": 0,
-        "losses": 5,
-        "goals": "5:16",
-        "diff": "-11",
-        "points": 3,
         "position": 16
       },
       {
-        "team": "SV Tasmania Berlin",
-        "played": 5,
+        "team": "FSV 63 Luckenwalde",
+        "played": 7,
         "wins": 1,
         "draws": 0,
-        "losses": 4,
-        "goals": "6:18",
-        "diff": "-12",
+        "losses": 6,
+        "goals": "5:18",
+        "diff": "-13",
         "points": 3,
         "position": 17
       },

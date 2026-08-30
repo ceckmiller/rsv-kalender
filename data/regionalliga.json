@@ -253,14 +253,25 @@
       "home": "RSV Eintracht 1949",
       "away": "1. FC Magdeburg II",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "2:4",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/7-spieltag/rsv-eintracht-1949-1-fc-magdeburg-ii-2426047",
       "match_number": "690047059",
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-1-fc-magdeburg-ii/-/spiel/031DEIC09K000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I",
+      "halftime_result": "2:1",
+      "scorers": [
+        "13. Minute – Isma Baraze Adam (RSV Eintracht 1949) – 1:0",
+        "28. Minute – Doyoung Yoon (1. FC Magdeburg II) – 1:1",
+        "31. Minute – Ernes Smailovic (RSV Eintracht 1949) – 2:1",
+        "65. Minute – Kajetan Herrmann (1. FC Magdeburg II) – 2:2",
+        "67. Minute – Armin Sivic (1. FC Magdeburg II) – 2:3",
+        "90. Minute – Elisio Widmann (1. FC Magdeburg II) – 2:4"
+      ],
+      "referee": "Christoph Beblik",
+      "attendance": 250
     },
     {
       "id": "u21-710006095",
