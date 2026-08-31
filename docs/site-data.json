@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T18:46:24.342429+02:00",
+  "generated_at": "2026-08-31T15:59:42.764518+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -2785,6 +2785,21 @@
               "team_fixture_id": "u21-710006095"
             },
             {
+              "id": "cup-fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05",
+              "date": "2026-09-05",
+              "time": "14:00",
+              "home": "FV Blau-Weiß 90 Briesen/​Mark",
+              "away": "Brandenburger SC Süd 05",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/fv-blau-weiss-90-briesen-mark.png",
+              "away_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
+              "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR"
+            },
+            {
               "id": "cup-sg-schulzendorf-fsv-optik-rathenow",
               "date": "2026-09-05",
               "time": "14:00",
@@ -2798,6 +2813,21 @@
               "home_logo": "/assets/clubs/sg-schulzendorf.png",
               "away_logo": "/assets/clubs/fsv-optik-rathenow.png",
               "source_url": "https://www.fussball.de/spiel/sg-schulzendorf-fsv-optik-rathenow/-/spiel/031SIBIE7G000000VS5489BTVTPHHFPR"
+            },
+            {
+              "id": "cup-sg-sielow-msv-1919-neuruppin",
+              "date": "2026-09-05",
+              "time": "14:00",
+              "home": "SG Sielow",
+              "away": "MSV 1919 Neuruppin",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/sg-sielow.png",
+              "away_logo": "/assets/clubs/msv-1919-neuruppin.png",
+              "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR"
             },
             {
               "id": "cup-bsg-stahl-brandenburg-fsv-63-luckenwalde",
@@ -2828,21 +2858,6 @@
               "home_logo": "/assets/clubs/fc-kremmen-1920.png",
               "away_logo": "/assets/clubs/vfb-hohenleipisch-1912.png",
               "source_url": "https://www.fussball.de/spiel/fc-kremmen-1920-vfb-hohenleipisch-1912/-/spiel/031SIBIDUG000000VS5489BTVTPHHFPR"
-            },
-            {
-              "id": "cup-fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05",
-              "date": "2026-09-05",
-              "time": "15:00",
-              "home": "FV Blau-Weiß 90 Briesen/​Mark",
-              "away": "Brandenburger SC Süd 05",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/fv-blau-weiss-90-briesen-mark.png",
-              "away_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
-              "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR"
             },
             {
               "id": "cup-fv-preussen-eberswalde-werderaner-fc-viktoria-1920",
@@ -2918,21 +2933,6 @@
               "home_logo": "/assets/clubs/sg-eintracht-peitz.png",
               "away_logo": "/assets/clubs/sv-germania-90-schoeneiche.png",
               "source_url": "https://www.fussball.de/spiel/sg-eintracht-peitz-sv-germania-90-schoeneiche/-/spiel/031SIBIF84000000VS5489BTVTPHHFPR"
-            },
-            {
-              "id": "cup-sg-sielow-msv-1919-neuruppin",
-              "date": "2026-09-05",
-              "time": "15:00",
-              "home": "SG Sielow",
-              "away": "MSV 1919 Neuruppin",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/sg-sielow.png",
-              "away_logo": "/assets/clubs/msv-1919-neuruppin.png",
-              "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR"
             },
             {
               "id": "cup-sv-gruen-weiss-brieselang-sv-viktoria-potsdam",
@@ -3021,7 +3021,7 @@
           "round": "8",
           "matches": [
             {
-              "id": "rl-md8-f2c743d80021",
+              "id": "rl-md8-c02452c40459",
               "date": "2026-09-11",
               "time": "19:00",
               "home": "FC Rot-Weiß Erfurt",
@@ -3036,9 +3036,9 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
-              "id": "rl-md8-a314e4634be5",
-              "date": "2026-09-13",
-              "time": "14:00",
+              "id": "rl-md8-dcfbd26140d1",
+              "date": "2026-09-10",
+              "time": "19:00",
               "home": "BFC Dynamo",
               "away": "SV Tasmania Berlin",
               "result": null,
@@ -3050,8 +3050,22 @@
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             },
             {
-              "id": "rl-md8-7aee33bea5ea",
-              "date": "2026-09-13",
+              "id": "rl-md8-9bec8cea5741",
+              "date": "2026-09-11",
+              "time": "19:00",
+              "home": "VSG Altglienicke",
+              "away": "Chemnitzer FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/chemnitzer-fc.png"
+            },
+            {
+              "id": "rl-md8-b6b9e925b519",
+              "date": "2026-09-12",
               "time": "14:00",
               "home": "BFC Preussen 1894",
               "away": "1. FC Magdeburg II",
@@ -3064,22 +3078,8 @@
               "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
             },
             {
-              "id": "rl-md8-fb0e1b351535",
-              "date": "2026-09-13",
-              "time": "14:00",
-              "home": "BSG Chemie Leipzig",
-              "away": "FSV Zwickau",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 8,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
-              "away_logo": "/assets/clubs/fsv-zwickau.png"
-            },
-            {
-              "id": "rl-md8-09a85e8cb079",
-              "date": "2026-09-13",
+              "id": "rl-md8-121c41e65a90",
+              "date": "2026-09-12",
               "time": "14:00",
               "home": "Erzgebirge Aue",
               "away": "FSV 63 Luckenwalde",
@@ -3092,8 +3092,8 @@
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             },
             {
-              "id": "rl-md8-caa5dd22e64d",
-              "date": "2026-09-13",
+              "id": "rl-md8-9a8e3aeda7a3",
+              "date": "2026-09-12",
               "time": "14:00",
               "home": "FC Carl Zeiss Jena",
               "away": "Hertha BSC II",
@@ -3104,6 +3104,34 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
+            },
+            {
+              "id": "rl-md8-5047b009d94a",
+              "date": "2026-09-12",
+              "time": "14:00",
+              "home": "SV Babelsberg 03",
+              "away": "Hallescher FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+              "away_logo": "/assets/clubs/hallescher-fc.png"
+            },
+            {
+              "id": "rl-md8-281f5b9e3520",
+              "date": "2026-09-12",
+              "time": "14:30",
+              "home": "BSG Chemie Leipzig",
+              "away": "FSV Zwickau",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 8,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/bsg-chemie-leipzig.jpg",
+              "away_logo": "/assets/clubs/fsv-zwickau.png"
             },
             {
               "id": "rl-md8-364e578a6b75",
@@ -3118,37 +3146,9 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/greifswalder-fc.png",
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
-            },
-            {
-              "id": "rl-md8-892d1d1280eb",
-              "date": "2026-09-13",
-              "time": "14:00",
-              "home": "SV Babelsberg 03",
-              "away": "Hallescher FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 8,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
-              "away_logo": "/assets/clubs/hallescher-fc.png"
-            },
-            {
-              "id": "rl-md8-b6585a458732",
-              "date": "2026-09-13",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "Chemnitzer FC",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 8,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/chemnitzer-fc.png"
             }
           ],
-          "date": "2026-09-11",
+          "date": "2026-09-10",
           "date_end": "2026-09-13"
         },
         {
