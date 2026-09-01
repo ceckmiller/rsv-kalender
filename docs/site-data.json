@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T15:59:42.764518+02:00",
+  "generated_at": "2026-09-01T13:44:54.531489+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -7730,7 +7730,7 @@
           "id": "u23-liga-20260906",
           "matchday": 3,
           "date": "2026-09-06",
-          "time": "14:00",
+          "time": "15:00",
           "competition": "Kreisoberliga",
           "home": "RSV Eintracht 1949 U23",
           "away": "SV Falkensee-Finkenkrug II",
@@ -8840,7 +8840,7 @@
             {
               "id": "u23-liga-20260906",
               "date": "2026-09-06",
-              "time": "14:00",
+              "time": "15:00",
               "home": "RSV Eintracht 1949 U23",
               "away": "SV Falkensee-Finkenkrug II",
               "result": null,
@@ -9560,7 +9560,7 @@
         "id": "u23-liga-20260906",
         "matchday": 3,
         "date": "2026-09-06",
-        "time": "14:00",
+        "time": "15:00",
         "competition": "Kreisoberliga",
         "home": "RSV Eintracht 1949 U23",
         "away": "SV Falkensee-Finkenkrug II",
