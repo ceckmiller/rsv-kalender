@@ -1,11 +1,16 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-09-01T18:42:01.314473+02:00",
+  "updated_at": "2026-09-01T23:04:04.294877+02:00",
   "events": [
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5041213/",
       "date": "2026-09-16",
       "opponent": "Greifswalder FC"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5041214/",
+      "date": "2026-09-26",
+      "opponent": "Chemnitzer FC"
     }
   ]
 }
