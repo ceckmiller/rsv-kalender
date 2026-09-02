@@ -952,6 +952,55 @@
       "round": "9",
       "matches": [
         {
+          "id": "rl-md9-3fd710189c27",
+          "date": "2026-09-15",
+          "time": "19:00",
+          "home": "FSV 63 Luckenwalde",
+          "away": "BFC Preussen 1894",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 9,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md9-b993faa1e74a",
+          "date": "2026-09-15",
+          "time": "19:00",
+          "home": "Hallescher FC",
+          "away": "FC Carl Zeiss Jena",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 9,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md9-c377745861c8",
+          "date": "2026-09-15",
+          "time": "19:00",
+          "home": "FSV Zwickau",
+          "away": "VSG Altglienicke",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 9,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md9-33c52662b489",
+          "date": "2026-09-16",
+          "time": "17:00",
+          "home": "RSV Eintracht 1949",
+          "away": "Greifswalder FC",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 9,
+          "competition": "Regionalliga Nordost 2026/27",
+          "team_fixture_id": "rl-09"
+        },
+        {
           "id": "rl-md9-9972814fff2d",
           "date": "2026-09-16",
           "time": "19:00",
@@ -988,35 +1037,11 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md9-f24750bb21be",
-          "date": "2026-09-16",
-          "time": "19:00",
-          "home": "FSV 63 Luckenwalde",
-          "away": "BFC Preussen 1894",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 9,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
           "id": "rl-md9-5623f11df87f",
           "date": "2026-09-16",
           "time": "19:00",
           "home": "SV Tasmania Berlin",
           "away": "BSG Chemie Leipzig",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 9,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md9-8cf769af2c28",
-          "date": "2026-09-16",
-          "time": "19:00",
-          "home": "Hallescher FC",
-          "away": "FC Carl Zeiss Jena",
           "result": null,
           "halftime_result": null,
           "location": "",
@@ -1034,31 +1059,6 @@
           "location": "",
           "matchday": 9,
           "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md9-0ff098da427a",
-          "date": "2026-09-16",
-          "time": "19:00",
-          "home": "FSV Zwickau",
-          "away": "VSG Altglienicke",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 9,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md9-33c52662b489",
-          "date": "2026-09-16",
-          "time": "17:00",
-          "home": "RSV Eintracht 1949",
-          "away": "Greifswalder FC",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 9,
-          "competition": "Regionalliga Nordost 2026/27",
-          "team_fixture_id": "rl-09"
         }
       ]
     },

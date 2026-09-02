@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:25:19.900291+02:00",
+  "generated_at": "2026-09-02T18:39:49.156788+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -3199,6 +3199,48 @@
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
             {
+              "id": "rl-md9-3fd710189c27",
+              "date": "2026-09-15",
+              "time": "19:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+            },
+            {
+              "id": "rl-md9-c377745861c8",
+              "date": "2026-09-15",
+              "time": "19:00",
+              "home": "FSV Zwickau",
+              "away": "VSG Altglienicke",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-zwickau.png",
+              "away_logo": "/assets/clubs/vsg-altglienicke.png"
+            },
+            {
+              "id": "rl-md9-b993faa1e74a",
+              "date": "2026-09-15",
+              "time": "19:00",
+              "home": "Hallescher FC",
+              "away": "FC Carl Zeiss Jena",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 9,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/hallescher-fc.png",
+              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
+            },
+            {
               "id": "rl-md9-6a4d7c3ea878",
               "date": "2026-09-16",
               "time": "19:00",
@@ -3241,48 +3283,6 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             },
             {
-              "id": "rl-md9-f24750bb21be",
-              "date": "2026-09-16",
-              "time": "19:00",
-              "home": "FSV 63 Luckenwalde",
-              "away": "BFC Preussen 1894",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 9,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
-              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
-            },
-            {
-              "id": "rl-md9-0ff098da427a",
-              "date": "2026-09-16",
-              "time": "19:00",
-              "home": "FSV Zwickau",
-              "away": "VSG Altglienicke",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 9,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-zwickau.png",
-              "away_logo": "/assets/clubs/vsg-altglienicke.png"
-            },
-            {
-              "id": "rl-md9-8cf769af2c28",
-              "date": "2026-09-16",
-              "time": "19:00",
-              "home": "Hallescher FC",
-              "away": "FC Carl Zeiss Jena",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 9,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/hallescher-fc.png",
-              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
-            },
-            {
               "id": "rl-md9-4e44baebe567",
               "date": "2026-09-16",
               "time": "19:00",
@@ -3311,7 +3311,7 @@
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
             }
           ],
-          "date": "2026-09-16",
+          "date": "2026-09-15",
           "date_end": "2026-09-16"
         },
         {
