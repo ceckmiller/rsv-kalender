@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:39:49.156788+02:00",
+  "generated_at": "2026-09-02T23:08:25.524879+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -2422,7 +2422,7 @@
               "time": "15:00",
               "home": "VfB Trebbin",
               "away": "1. FC Frankfurt/​O.",
-              "result": "7:8",
+              "result": "2:0",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -2547,7 +2547,7 @@
               "time": "19:00",
               "home": "FC Carl Zeiss Jena",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "1:0",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2561,7 +2561,7 @@
               "time": "19:00",
               "home": "Hallescher FC",
               "away": "SV Tasmania Berlin",
-              "result": null,
+              "result": "2:0",
               "halftime_result": null,
               "location": "",
               "matchday": 6,
@@ -2980,19 +2980,19 @@
               "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR"
             },
             {
-              "id": "cup-sv-falkensee-finkenkrug",
+              "id": "cup-vfb-trebbin-sv-falkensee-finkenkrug",
               "date": "2026-09-05",
               "time": "15:00",
-              "home": "Sieger VfB Trebbin vs. 1. FC Frankfurt/​O. (PH)",
+              "home": "VfB Trebbin",
               "away": "SV Falkensee-Finkenkrug",
               "result": null,
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/sieger-vfb-trebbin-vs-1-fc-frankfurt-o-ph.png",
+              "home_logo": "/assets/clubs/vfb-trebbin.png",
               "away_logo": "/assets/clubs/sv-falkensee-finkenkrug.png",
-              "source_url": "https://www.fussball.de/spiel/sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/vfb-trebbin-sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR"
             },
             {
               "id": "cup-angermuender-fc-sv-babelsberg-03",
@@ -14268,6 +14268,18 @@
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
+          "team": "FC Carl Zeiss Jena",
+          "played": 7,
+          "wins": 4,
+          "draws": 1,
+          "losses": 2,
+          "goals": "10:5",
+          "diff": "+5",
+          "points": 13,
+          "position": 5,
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+        },
+        {
           "team": "FSV Zwickau",
           "played": 7,
           "wins": 4,
@@ -14276,7 +14288,7 @@
           "goals": "8:9",
           "diff": "-1",
           "points": 13,
-          "position": 5,
+          "position": 6,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
@@ -14288,20 +14300,32 @@
           "goals": "15:10",
           "diff": "+5",
           "points": 12,
-          "position": 6,
+          "position": 7,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
           "team": "VSG Altglienicke",
-          "played": 6,
+          "played": 7,
           "wins": 3,
           "draws": 3,
-          "losses": 0,
-          "goals": "14:9",
-          "diff": "+5",
+          "losses": 1,
+          "goals": "14:10",
+          "diff": "+4",
           "points": 12,
-          "position": 7,
+          "position": 8,
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
+          "team": "Hallescher FC",
+          "played": 7,
+          "wins": 3,
+          "draws": 3,
+          "losses": 1,
+          "goals": "9:5",
+          "diff": "+4",
+          "points": 12,
+          "position": 9,
+          "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
           "team": "BFC Dynamo",
@@ -14312,20 +14336,8 @@
           "goals": "10:8",
           "diff": "+2",
           "points": 11,
-          "position": 8,
+          "position": 10,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
-          "team": "FC Carl Zeiss Jena",
-          "played": 6,
-          "wins": 3,
-          "draws": 1,
-          "losses": 2,
-          "goals": "9:5",
-          "diff": "+4",
-          "points": 10,
-          "position": 9,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -14336,20 +14348,8 @@
           "goals": "13:13",
           "diff": "0",
           "points": 10,
-          "position": 10,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
-        },
-        {
-          "team": "Hallescher FC",
-          "played": 6,
-          "wins": 2,
-          "draws": 3,
-          "losses": 1,
-          "goals": "7:5",
-          "diff": "+2",
-          "points": 9,
           "position": 11,
-          "logo_url": "/assets/clubs/hallescher-fc.png"
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "RSV Eintracht 1949",
@@ -14389,12 +14389,12 @@
         },
         {
           "team": "SV Tasmania Berlin",
-          "played": 6,
+          "played": 7,
           "wins": 1,
           "draws": 1,
-          "losses": 4,
-          "goals": "8:20",
-          "diff": "-12",
+          "losses": 5,
+          "goals": "8:22",
+          "diff": "-14",
           "points": 4,
           "position": 15,
           "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
