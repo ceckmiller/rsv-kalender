@@ -4480,6 +4480,21 @@
       "round": "2. Runde",
       "matches": [
         {
+          "id": "cup-sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde",
+          "date": "2026-09-05",
+          "time": "13:00",
+          "home": "SV Wacker 09 Cottbus-Ströbitz",
+          "away": "FSV Union Fürstenwalde",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
+        },
+        {
           "id": "cup-ludwigsfelder-fc-rsv-eintracht-1949",
           "date": "2026-09-05",
           "time": "13:00",
@@ -4584,21 +4599,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR"
-        },
-        {
-          "id": "cup-sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde",
-          "date": "2026-09-05",
-          "time": "15:00",
-          "home": "SV Wacker 09 Cottbus-Ströbitz",
-          "away": "FSV Union Fürstenwalde",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
         },
         {
           "id": "cup-sv-gruen-weiss-brieselang-sv-viktoria-potsdam",

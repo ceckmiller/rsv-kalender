@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T23:07:40.077719+02:00",
+  "generated_at": "2026-09-02T13:25:19.900291+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -2785,6 +2785,21 @@
               "team_fixture_id": "u21-710006095"
             },
             {
+              "id": "cup-sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde",
+              "date": "2026-09-05",
+              "time": "13:00",
+              "home": "SV Wacker 09 Cottbus-Ströbitz",
+              "away": "FSV Union Fürstenwalde",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/sv-wacker-09-cottbus-stroebitz.png",
+              "away_logo": "/assets/clubs/fsv-union-fuerstenwalde.png",
+              "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
+            },
+            {
               "id": "cup-fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05",
               "date": "2026-09-05",
               "time": "14:00",
@@ -2963,21 +2978,6 @@
               "home_logo": "/assets/clubs/sv-victoria-seelow.png",
               "away_logo": "/assets/clubs/fortuna-babelsberg.png",
               "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR"
-            },
-            {
-              "id": "cup-sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde",
-              "date": "2026-09-05",
-              "time": "15:00",
-              "home": "SV Wacker 09 Cottbus-Ströbitz",
-              "away": "FSV Union Fürstenwalde",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/sv-wacker-09-cottbus-stroebitz.png",
-              "away_logo": "/assets/clubs/fsv-union-fuerstenwalde.png",
-              "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
             },
             {
               "id": "cup-sv-falkensee-finkenkrug",
