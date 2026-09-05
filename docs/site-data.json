@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T23:08:25.524879+02:00",
+  "generated_at": "2026-09-05T17:20:28.379546+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -267,6 +267,32 @@
           "referee": "Christoph Beblik",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+1.+FC+Magdeburg+II+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/7-spieltag/rsv-eintracht-1949-1-fc-magdeburg-ii-2426047"
+        },
+        {
+          "id": "u21-710006095",
+          "matchday": null,
+          "date": "2026-09-05",
+          "time": "13:00",
+          "competition": "Landespokal Brandenburg",
+          "home": "Ludwigsfelder FC",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/ludwigsfelder-fc.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "0:3",
+          "halftime_result": "0:3",
+          "scorers": [
+            "31. Minute – Dmytro Chornenkyi (RSV Eintracht 1949) – 0:1",
+            "43. Minute – Dmytro Chornenkyi (RSV Eintracht 1949) – 0:2",
+            "45. Minute – Ernes Smailovic (RSV Eintracht 1949) – 0:3"
+          ],
+          "location": "Waldstadion Ludwigsfelde, Stadion, Straße der Jugend, 14974 Ludwigsfelde",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Waldstadion+Ludwigsfelde%2C+Stadion%2C+Stra%C3%9Fe+der+Jugend%2C+14974+Ludwigsfelde",
+          "points": null,
+          "table_position": null,
+          "attendance": null,
+          "referee": null,
+          "youtube_url": "https://www.youtube.com/results?search_query=Ludwigsfelder+FC+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": ""
         }
       ],
       "fixtures": [
@@ -501,7 +527,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/ludwigsfelder-fc.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "0:3",
           "location": "Waldstadion Ludwigsfelde, Stadion, Straße der Jugend, 14974 Ludwigsfelde",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Waldstadion+Ludwigsfelde%2C+Stadion%2C+Stra%C3%9Fe+der+Jugend%2C+14974+Ludwigsfelde",
           "is_home": false,
@@ -2774,8 +2800,8 @@
               "time": "13:00",
               "home": "Ludwigsfelder FC",
               "away": "RSV Eintracht 1949",
-              "result": null,
-              "halftime_result": null,
+              "result": "0:3",
+              "halftime_result": "0:3",
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -2790,14 +2816,14 @@
               "time": "13:00",
               "home": "SV Wacker 09 Cottbus-Ströbitz",
               "away": "FSV Union Fürstenwalde",
-              "result": null,
+              "result": "2:4",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sv-wacker-09-cottbus-stroebitz.png",
               "away_logo": "/assets/clubs/fsv-union-fuerstenwalde.png",
-              "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05",
@@ -2805,14 +2831,14 @@
               "time": "14:00",
               "home": "FV Blau-Weiß 90 Briesen/​Mark",
               "away": "Brandenburger SC Süd 05",
-              "result": null,
+              "result": "1:4",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/fv-blau-weiss-90-briesen-mark.png",
               "away_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
-              "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-sg-schulzendorf-fsv-optik-rathenow",
@@ -2820,7 +2846,7 @@
               "time": "14:00",
               "home": "SG Schulzendorf",
               "away": "FSV Optik Rathenow",
-              "result": null,
+              "result": "0:8",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -2835,14 +2861,14 @@
               "time": "14:00",
               "home": "SG Sielow",
               "away": "MSV 1919 Neuruppin",
-              "result": null,
+              "result": "1:5",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sg-sielow.png",
               "away_logo": "/assets/clubs/msv-1919-neuruppin.png",
-              "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-bsg-stahl-brandenburg-fsv-63-luckenwalde",
@@ -2850,14 +2876,14 @@
               "time": "15:00",
               "home": "BSG Stahl Brandenburg",
               "away": "FSV 63 Luckenwalde",
-              "result": null,
+              "result": "1:0",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/bsg-stahl-brandenburg.png",
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png",
-              "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-fsv-63-luckenwalde/-/spiel/031SIBIEPK000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-fsv-63-luckenwalde/-/spiel/031SIBIEPK000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-fc-kremmen-1920-vfb-hohenleipisch-1912",
@@ -2872,7 +2898,7 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/fc-kremmen-1920.png",
               "away_logo": "/assets/clubs/vfb-hohenleipisch-1912.png",
-              "source_url": "https://www.fussball.de/spiel/fc-kremmen-1920-vfb-hohenleipisch-1912/-/spiel/031SIBIDUG000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/fc-kremmen-1920-vfb-hohenleipisch-1912/-/spiel/031SIBIDUG000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-fv-preussen-eberswalde-werderaner-fc-viktoria-1920",
@@ -2887,7 +2913,7 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/fv-preussen-eberswalde.png",
               "away_logo": "/assets/clubs/werderaner-fc-viktoria-1920.png",
-              "source_url": "https://www.fussball.de/spiel/fv-preussen-eberswalde-werderaner-fc-viktoria-1920/-/spiel/031SIBIESC000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/fv-preussen-eberswalde-werderaner-fc-viktoria-1920/-/spiel/031SIBIESC000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-pankower-sv-rot-weiss-21-tus-1896-sachsenhausen",
@@ -2910,14 +2936,14 @@
               "time": "15:00",
               "home": "SC Spremberg 1896",
               "away": "SG Union Klosterfelde",
-              "result": null,
+              "result": "0:9",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sc-spremberg-1896.png",
               "away_logo": "/assets/clubs/sg-union-klosterfelde.png",
-              "source_url": "https://www.fussball.de/spiel/sc-spremberg-1896-sg-union-klosterfelde/-/spiel/031SIBIEN4000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/sc-spremberg-1896-sg-union-klosterfelde/-/spiel/031SIBIEN4000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-sg-einheit-zepernick-vfb-1921-krieschow",
@@ -2932,7 +2958,7 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sg-einheit-zepernick.png",
               "away_logo": "/assets/clubs/vfb-1921-krieschow.png",
-              "source_url": "https://www.fussball.de/spiel/sg-einheit-zepernick-vfb-1921-krieschow/-/spiel/031SIBIF58000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/sg-einheit-zepernick-vfb-1921-krieschow/-/spiel/031SIBIF58000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-sg-eintracht-peitz-sv-germania-90-schoeneiche",
@@ -2940,7 +2966,7 @@
               "time": "15:00",
               "home": "SG Eintracht Peitz",
               "away": "SV Germania 90 Schöneiche",
-              "result": null,
+              "result": "1:7",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -2970,14 +2996,14 @@
               "time": "15:00",
               "home": "SV Victoria Seelow",
               "away": "Fortuna Babelsberg",
-              "result": null,
+              "result": "4:0",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sv-victoria-seelow.png",
               "away_logo": "/assets/clubs/fortuna-babelsberg.png",
-              "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-vfb-trebbin-sv-falkensee-finkenkrug",
@@ -2985,14 +3011,14 @@
               "time": "15:00",
               "home": "VfB Trebbin",
               "away": "SV Falkensee-Finkenkrug",
-              "result": null,
+              "result": "1:5",
               "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/vfb-trebbin.png",
               "away_logo": "/assets/clubs/sv-falkensee-finkenkrug.png",
-              "source_url": "https://www.fussball.de/spiel/vfb-trebbin-sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/vfb-trebbin-sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR#!/section/course"
             },
             {
               "id": "cup-angermuender-fc-sv-babelsberg-03",
@@ -3007,7 +3033,7 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/angermuender-fc.png",
               "away_logo": "/assets/clubs/sv-babelsberg-03.png",
-              "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR"
+              "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR#!/section/course"
             }
           ],
           "date": "2026-09-05",
@@ -7416,19 +7442,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-710006095",
-        "matchday": null,
-        "date": "2026-09-05",
-        "time": "13:00",
-        "competition": "Landespokal Brandenburg",
-        "home": "Ludwigsfelder FC",
+        "id": "rl-08",
+        "matchday": 8,
+        "date": "2026-09-11",
+        "time": "19:00",
+        "competition": "Regionalliga",
+        "home": "FC Rot-Weiß Erfurt",
         "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/ludwigsfelder-fc.png",
+        "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
         "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Waldstadion Ludwigsfelde, Stadion, Straße der Jugend, 14974 Ludwigsfelde",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Waldstadion+Ludwigsfelde%2C+Stadion%2C+Stra%C3%9Fe+der+Jugend%2C+14974+Ludwigsfelde",
+        "location": "Steigerwaldstadion, Arnstädter Str. 55, 99096 Erfurt",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Steigerwaldstadion%2C+Arnst%C3%A4dter+Str.+55%2C+99096+Erfurt",
         "is_home": false,
-        "round": "2. Runde",
+        "round": "",
         "ticket_url": ""
       },
       "next_home": {

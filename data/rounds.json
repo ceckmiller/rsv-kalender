@@ -4485,14 +4485,14 @@
           "time": "13:00",
           "home": "SV Wacker 09 Cottbus-Ströbitz",
           "away": "FSV Union Fürstenwalde",
-          "result": null,
+          "result": "2:4",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00009UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/sv-wacker-09-cottbus-stroebitz-fsv-union-fuerstenwalde/-/spiel/031SIBIECK000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-ludwigsfelder-fc-rsv-eintracht-1949",
@@ -4500,8 +4500,8 @@
           "time": "13:00",
           "home": "Ludwigsfelder FC",
           "away": "RSV Eintracht 1949",
-          "result": null,
-          "halftime_result": null,
+          "result": "0:3",
+          "halftime_result": "0:3",
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
@@ -4516,14 +4516,14 @@
           "time": "14:00",
           "home": "FV Blau-Weiß 90 Briesen/​Mark",
           "away": "Brandenburger SC Süd 05",
-          "result": null,
+          "result": "1:4",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A1VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/fv-blau-weiss-90-briesen-mark-brandenburger-sc-sued-05/-/spiel/031SIBIE4S000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-sg-schulzendorf-fsv-optik-rathenow",
@@ -4531,7 +4531,7 @@
           "time": "14:00",
           "home": "SG Schulzendorf",
           "away": "FSV Optik Rathenow",
-          "result": null,
+          "result": "0:8",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -4546,14 +4546,14 @@
           "time": "14:00",
           "home": "SG Sielow",
           "away": "MSV 1919 Neuruppin",
-          "result": null,
+          "result": "1:5",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000061VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004MVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/sg-sielow-msv-1919-neuruppin/-/spiel/031SIBIEKG000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-fc-kremmen-1920-vfb-hohenleipisch-1912",
@@ -4568,7 +4568,7 @@
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000005BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00000FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fc-kremmen-1920-vfb-hohenleipisch-1912/-/spiel/031SIBIDUG000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/fc-kremmen-1920-vfb-hohenleipisch-1912/-/spiel/031SIBIDUG000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-pankower-sv-rot-weiss-21-tus-1896-sachsenhausen",
@@ -4591,14 +4591,14 @@
           "time": "15:00",
           "home": "SV Victoria Seelow",
           "away": "Fortuna Babelsberg",
-          "result": null,
+          "result": "4:0",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL00000BDVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fortuna-babelsberg/-/spiel/031SIBIEA4000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-sv-gruen-weiss-brieselang-sv-viktoria-potsdam",
@@ -4621,14 +4621,14 @@
           "time": "15:00",
           "home": "SC Spremberg 1896",
           "away": "SG Union Klosterfelde",
-          "result": null,
+          "result": "0:9",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800000EVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sc-spremberg-1896-sg-union-klosterfelde/-/spiel/031SIBIEN4000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/sc-spremberg-1896-sg-union-klosterfelde/-/spiel/031SIBIEN4000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-bsg-stahl-brandenburg-fsv-63-luckenwalde",
@@ -4636,14 +4636,14 @@
           "time": "15:00",
           "home": "BSG Stahl Brandenburg",
           "away": "FSV 63 Luckenwalde",
-          "result": null,
+          "result": "1:0",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-fsv-63-luckenwalde/-/spiel/031SIBIEPK000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-fsv-63-luckenwalde/-/spiel/031SIBIEPK000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-fv-preussen-eberswalde-werderaner-fc-viktoria-1920",
@@ -4658,7 +4658,7 @@
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/018UO65EUO000000VV0AG80NVU058VDB/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fv-preussen-eberswalde-werderaner-fc-viktoria-1920/-/spiel/031SIBIESC000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/fv-preussen-eberswalde-werderaner-fc-viktoria-1920/-/spiel/031SIBIESC000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-vfb-trebbin-sv-falkensee-finkenkrug",
@@ -4666,14 +4666,14 @@
           "time": "15:00",
           "home": "VfB Trebbin",
           "away": "SV Falkensee-Finkenkrug",
-          "result": null,
+          "result": "1:5",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000030VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/vfb-trebbin-sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/vfb-trebbin-sv-falkensee-finkenkrug/-/spiel/031SIBIF1S000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-sg-einheit-zepernick-vfb-1921-krieschow",
@@ -4688,7 +4688,7 @@
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002HVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000065VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sg-einheit-zepernick-vfb-1921-krieschow/-/spiel/031SIBIF58000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/sg-einheit-zepernick-vfb-1921-krieschow/-/spiel/031SIBIF58000000VS5489BTVTPHHFPR#!/section/course"
         },
         {
           "id": "cup-sg-eintracht-peitz-sv-germania-90-schoeneiche",
@@ -4696,7 +4696,7 @@
           "time": "15:00",
           "home": "SG Eintracht Peitz",
           "away": "SV Germania 90 Schöneiche",
-          "result": null,
+          "result": "1:7",
           "halftime_result": null,
           "location": "",
           "matchday": null,
@@ -4718,7 +4718,7 @@
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBG0000017VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR"
+          "source_url": "https://www.fussball.de/spiel/angermuender-fc-sv-babelsberg-03/-/spiel/031SIBIEV0000000VS5489BTVTPHHFPR#!/section/course"
         }
       ]
     }
