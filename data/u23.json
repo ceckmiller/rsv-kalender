@@ -165,12 +165,19 @@
       "home": "RSV Eintracht 1949 U23",
       "away": "SV Falkensee-Finkenkrug II",
       "competition": "Kreisoberliga 2026/27",
-      "result": null,
+      "result": "1:3",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-falkensee-finkenkrug-ii/-/spiel/031D1II8UO000000VS5489BTVUS470OH",
       "match_number": "610138012",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004AVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004AVV0AG08LVUPGND5I",
+      "halftime_result": "1:1",
+      "scorers": [
+        "5. Minute – Christopher Hannemann (SV Falkensee-Finkenkrug II) – 0:1",
+        "36. Minute – Oliver Schmidhauser (RSV Eintracht 1949 U23) – 1:1",
+        "49. Minute – Henri Fenniger (SV Falkensee-Finkenkrug II) – 1:2",
+        "90. Minute – Domenic Valentin Walla (SV Falkensee-Finkenkrug II) – 1:3"
+      ]
     },
     {
       "id": "u23-610138020",

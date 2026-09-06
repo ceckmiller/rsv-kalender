@@ -56,7 +56,14 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005MVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
-      "location_source": "https://www.fussball.de/spiel/hertha-bsc-1-fc-magdeburg/-/spiel/031BG6B96O000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-1-fc-magdeburg/-/spiel/031BG6B96O000000VS5489BUVUR5FS5A",
+      "result": "2:1",
+      "halftime_result": "1:1",
+      "scorers": [
+        "10. Minute – Josip Brekalo (Hertha BSC) – 1:0",
+        "31. Minute – Falko Michel (1. FC Magdeburg) – 1:1",
+        "47. Minute – Oluwaseun Adewumi (Hertha BSC) – 2:1"
+      ]
     },
     {
       "id": "u21-890001045",
@@ -183,6 +190,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9CG00001IVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-karlsruher-sc/-/spiel/031BG6BF80000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001120",
+      "date": "2026-12-06",
+      "time": "13:30",
+      "home": "Hannover 96",
+      "away": "Hertha BSC",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/hannover-96-hertha-bsc/-/spiel/031BG6BG4C000000VS5489BUVUR5FS5A",
+      "match_number": "890001120",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN7A4000015VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
+      "location_source": "https://www.fussball.de/spiel/hannover-96-hertha-bsc/-/spiel/031BG6BG4C000000VS5489BUVUR5FS5A"
     }
   ]
 }

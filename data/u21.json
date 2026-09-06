@@ -82,12 +82,21 @@
       "home": "SV 1948 Ferch",
       "away": "RSV Eintracht 1949 U21",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "3:3",
       "location": "Sportplatz Schwielowsee, Glindower Weg 31, 14548 Schwielowsee",
       "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-rsv-eintracht-1949-u21/-/spiel/031D5U7DVS000000VS5489BTVUS470OH",
       "match_number": "610480013",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000081VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:1",
+      "scorers": [
+        "15. Minute – Anakin Sean Reichl (SV 1948 Ferch) – 1:0",
+        "19. Minute – Charly Schleicher (RSV Eintracht 1949 U21) – 1:1",
+        "59. Minute – Felix Arthur Marquardt (SV 1948 Ferch) – 2:1",
+        "83. Minute – Felix Arthur Marquardt (SV 1948 Ferch) – 3:1",
+        "85. Minute – Noah von Oy (RSV Eintracht 1949 U21) – 3:2",
+        "90. Minute – Hamid Hamdi (RSV Eintracht 1949 U21) – 3:3"
+      ]
     },
     {
       "id": "u21-610480019",
