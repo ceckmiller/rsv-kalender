@@ -369,6 +369,21 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO000020VV0AG08LVUPGND5I"
     },
     {
+      "id": "u21-710006110",
+      "date": "2026-10-03",
+      "time": "15:00",
+      "home": "SG Union Klosterfelde",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landespokal Brandenburg 2026/27",
+      "location": "Sportplatz an der Mühlenstraße, Mühlenstr., 16348 Wandlitz",
+      "source_url": "https://www.fussball.de/spiel/sg-union-klosterfelde-rsv-eintracht-1949/-/spiel/03212OSPMO000000VS5489BUVSORQI22",
+      "match_number": "710006110",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002JVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "Achtelfinale",
+      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-10-03/staffel/031B3AU4FS000002VS5489BUVV628VP4-R"
+    },
+    {
       "id": "rl-12",
       "date": "2026-10-11",
       "time": "14:00",
