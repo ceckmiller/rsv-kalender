@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T23:35:34.567196+02:00",
+  "generated_at": "2026-09-08T18:43:53.634221+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -12650,7 +12650,7 @@
           "id": "u19-690007051",
           "matchday": 8,
           "date": "2026-10-10",
-          "time": "12:00",
+          "time": "11:00",
           "competition": "Regionalliga",
           "home": "1. FC Frankfurt /​O.",
           "away": "RSV Eintracht 1949 U19",
@@ -13744,7 +13744,7 @@
             {
               "id": "u19-690007051",
               "date": "2026-10-10",
-              "time": "12:00",
+              "time": "11:00",
               "home": "1. FC Frankfurt /​O.",
               "away": "RSV Eintracht 1949 U19",
               "result": null,
