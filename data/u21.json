@@ -141,6 +141,21 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
+      "id": "u21-710089084",
+      "date": "2026-10-04",
+      "time": "14:00",
+      "home": "FSV Babelsberg 74 III",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreispokal 2026/27",
+      "location": "Sportplatz R.-Breitscheid-Str., KR, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
+      "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-rsv-eintracht-1949-u21/-/spiel/0320RDKU04000000VS5489BTVT7QHFUC",
+      "match_number": "710089084",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "3. Runde",
+      "round_url": "https://www.fussball.de/spieltag/3-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-10-04/staffel/031Q3241JG000005VS5489BTVT8K11BC-R"
+    },
+    {
       "id": "u21-610480055",
       "date": "2026-10-11",
       "time": "15:30",

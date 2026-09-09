@@ -222,18 +222,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I"
     },
     {
-      "id": "u23-610138047",
+      "id": "u23-710089074",
       "date": "2026-10-04",
-      "time": "15:00",
-      "home": "BSG Stahl Brandenburg U23",
+      "time": "14:00",
+      "home": "Spielgemeinschaft Schönwalde-Perwenitz-Paaren",
       "away": "RSV Eintracht 1949 U23",
-      "competition": "Kreisoberliga 2026/27",
-      "result": null,
-      "location": "Stadion am Quenz, Platz 2, Thüringer Str. 251, 14770 Brandenburg an der Havel",
-      "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u23-rsv-eintracht-1949-u23/-/spiel/031D1IICS4000000VS5489BTVUS470OH",
-      "match_number": "610138047",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "competition": "Kreispokal 2026/27",
+      "location": "Sportplatz Schönwalde Strandbad, Platz 1, Kurmärkische Str. 2, 14621 Schönwalde-Glien",
+      "source_url": "https://www.fussball.de/spiel/spielgemeinschaft-schoenwalde-perwenitz-paaren-rsv-eintracht-1949-u23/-/spiel/0320RDKT9S000000VS5489BTVT7QHFUC",
+      "match_number": "710089074",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000049VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "3. Runde",
+      "round_url": "https://www.fussball.de/spieltag/3-runde-kreispokal-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-10-04/staffel/031Q3241JG000005VS5489BTVT8K11BC-R"
     },
     {
       "id": "u23-610138052",
@@ -351,6 +352,20 @@
       "source_url": "https://www.fussball.de/spiel/sg-michendorf-ii-rsv-eintracht-1949-u23/-/spiel/031D1II9AG000000VS5489BTVUS470OH",
       "match_number": "610138118",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u23-610138047",
+      "date": "2026-12-13",
+      "time": "13:00",
+      "home": "BSG Stahl Brandenburg U23",
+      "away": "RSV Eintracht 1949 U23",
+      "competition": "Kreisoberliga 2026/27",
+      "result": null,
+      "location": "Stadion am Quenz, Platz 2, Thüringer Str. 251, 14770 Brandenburg an der Havel",
+      "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u23-rsv-eintracht-1949-u23/-/spiel/031D1IICS4000000VS5489BTVUS470OH",
+      "match_number": "610138047",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
