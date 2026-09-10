@@ -94,20 +94,6 @@
       "location_source": "https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6BAN4000000VS5489BUVUR5FS5A"
     },
     {
-      "id": "u21-690001152",
-      "date": "2026-09-29",
-      "time": "18:00",
-      "home": "FC Hertha 03",
-      "away": "Hertha BSC",
-      "competition": "Regionalfreundschaftsspiele 2026/27",
-      "source_url": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22",
-      "match_number": "690001152",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
-      "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-      "location_source": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22"
-    },
-    {
       "id": "u21-890001058",
       "date": "2026-10-11",
       "time": "13:30",
@@ -123,8 +109,8 @@
     },
     {
       "id": "u21-890001069",
-      "date": "2026-10-18",
-      "time": "13:30",
+      "date": "2026-10-16",
+      "time": "18:30",
       "home": "Holstein Kiel",
       "away": "Hertha BSC",
       "competition": "2.Bundesliga 2026/27",
@@ -137,8 +123,8 @@
     },
     {
       "id": "u21-890001075",
-      "date": "2026-10-25",
-      "time": "13:30",
+      "date": "2026-10-24",
+      "time": "13:00",
       "home": "Hertha BSC",
       "away": "DSC Arminia Bielefeld",
       "competition": "2.Bundesliga 2026/27",
@@ -165,8 +151,8 @@
     },
     {
       "id": "u21-890001086",
-      "date": "2026-11-01",
-      "time": "13:30",
+      "date": "2026-10-31",
+      "time": "13:00",
       "home": "1. FC Kaiserslautern",
       "away": "Hertha BSC",
       "competition": "2.Bundesliga 2026/27",
@@ -179,8 +165,8 @@
     },
     {
       "id": "u21-890001092",
-      "date": "2026-11-08",
-      "time": "13:30",
+      "date": "2026-11-07",
+      "time": "20:30",
       "home": "Hertha BSC",
       "away": "VfL Wolfsburg",
       "competition": "2.Bundesliga 2026/27",
