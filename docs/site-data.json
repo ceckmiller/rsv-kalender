@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T13:28:35.518884+02:00",
+  "generated_at": "2026-09-11T18:34:12.341518+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -3823,8 +3823,8 @@
             },
             {
               "id": "cup-vfb-hohenleipisch-1912-sv-babelsberg-03",
-              "date": "2026-10-03",
-              "time": "15:00",
+              "date": "2026-10-04",
+              "time": "14:00",
               "home": "VfB Hohenleipisch 1912",
               "away": "SV Babelsberg 03",
               "result": null,
@@ -3838,7 +3838,7 @@
             }
           ],
           "date": "2026-10-03",
-          "date_end": "2026-10-03"
+          "date_end": "2026-10-04"
         },
         {
           "id": "league:Regionalliga:12",
@@ -9259,21 +9259,6 @@
               "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "FSV 95 Ketzin/​Falkenrehde",
-              "away": "SG Geltow",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
-              "away_logo": "/assets/clubs/sg-geltow.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-sg-blau-weiss-beelitz-potsdamer-kickers-94",
               "date": "2026-10-04",
               "time": "14:00",
@@ -9377,6 +9362,21 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/sv-1948-ferch.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "FSV 95 Ketzin/​Falkenrehde",
+              "away": "SG Geltow",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
+              "away_logo": "/assets/clubs/sg-geltow.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
@@ -12023,21 +12023,6 @@
               "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "FSV 95 Ketzin/​Falkenrehde",
-              "away": "SG Geltow",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
-              "away_logo": "/assets/clubs/sg-geltow.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-sg-blau-weiss-beelitz-potsdamer-kickers-94",
               "date": "2026-10-04",
               "time": "14:00",
@@ -12141,6 +12126,21 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/sv-1948-ferch.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "FSV 95 Ketzin/​Falkenrehde",
+              "away": "SG Geltow",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
+              "away_logo": "/assets/clubs/sg-geltow.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
@@ -14870,23 +14870,6 @@
           "result": "",
           "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion+Dresden%2C+Lennestr.+12%2C+01069+Dresden",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
-          "id": "u21-690001152",
-          "matchday": null,
-          "date": "2026-09-29",
-          "time": "18:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "FC Hertha 03",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/fc-hertha-03.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
           "is_home": false,
           "round": "",
           "ticket_url": ""

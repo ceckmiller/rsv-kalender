@@ -4790,21 +4790,6 @@
           "source_url": "https://www.fussball.de/spiel/sv-victoria-seelow-fsv-optik-rathenow/-/spiel/03212OSP8S000000VS5489BUVSORQI22"
         },
         {
-          "id": "cup-vfb-hohenleipisch-1912-sv-babelsberg-03",
-          "date": "2026-10-03",
-          "time": "15:00",
-          "home": "VfB Hohenleipisch 1912",
-          "away": "SV Babelsberg 03",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00000FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/vfb-hohenleipisch-1912-sv-babelsberg-03/-/spiel/03212OSPE4000000VS5489BUVSORQI22"
-        },
-        {
           "id": "cup-sv-falkensee-finkenkrug-fsv-union-fuerstenwalde",
           "date": "2026-10-03",
           "time": "15:00",
@@ -4849,6 +4834,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000065VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-vfb-1921-krieschow/-/spiel/03212OSPRG000000VS5489BUVSORQI22"
+        },
+        {
+          "id": "cup-vfb-hohenleipisch-1912-sv-babelsberg-03",
+          "date": "2026-10-04",
+          "time": "14:00",
+          "home": "VfB Hohenleipisch 1912",
+          "away": "SV Babelsberg 03",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00000FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/vfb-hohenleipisch-1912-sv-babelsberg-03/-/spiel/03212OSPE4000000VS5489BUVSORQI22"
         }
       ]
     }
@@ -5426,21 +5426,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "FSV 95 Ketzin/​Falkenrehde",
-          "away": "SG Geltow",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
           "date": "2026-10-04",
           "time": "14:00",
@@ -5544,6 +5529,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000081VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "FSV 95 Ketzin/​Falkenrehde",
+          "away": "SG Geltow",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
         },
         {
           "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
@@ -6745,21 +6745,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "FSV 95 Ketzin/​Falkenrehde",
-          "away": "SG Geltow",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
           "date": "2026-10-04",
           "time": "14:00",
@@ -6863,6 +6848,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008BVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000081VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "FSV 95 Ketzin/​Falkenrehde",
+          "away": "SG Geltow",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
         },
         {
           "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
