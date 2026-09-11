@@ -302,14 +302,24 @@
       "home": "FC Rot-Weiß Erfurt",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "5:0",
       "location": "Steigerwaldstadion, Arnstädter Str. 55, 99096 Erfurt",
       "source_url": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/8-spieltag/fc-rot-weiss-erfurt-rsv-eintracht-1949-2426052",
       "match_number": "690047064",
       "location_source": "https://www.fussball.de/spiel/fc-rot-weiss-erfurt-rsv-eintracht-1949/-/spiel/031DEIC0LC000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K00003QVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:0",
+      "scorers": [
+        "13. Minute – Dustin Forkel (FC Rot-Weiß Erfurt) – 1:0",
+        "66. Minute – Raphael Assibey-Mensah (FC Rot-Weiß Erfurt) – 2:0",
+        "75. Minute – Dustin Forkel (FC Rot-Weiß Erfurt) – 3:0",
+        "82. Minute – Mechak Quiala Tito (FC Rot-Weiß Erfurt) – 4:0",
+        "84. Minute – Benjika Caciel (FC Rot-Weiß Erfurt) – 5:0"
+      ],
+      "referee": "Christopher Gaunitz",
+      "attendance": 6248
     },
     {
       "id": "rl-09",
