@@ -166,12 +166,18 @@
       "home": "FC Hertha 03 Zehlendorf",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "3:0",
       "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
       "source_url": "https://www.fussball.de/spiel/fc-hertha-03-rsv-eintracht-1949-u19/-/spiel/031B3S0GN0000000VS5489BUVV628VP4",
       "match_number": "690007033",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:0",
+      "scorers": [
+        "55. Minute – Rafael Lubert (FC Hertha 03 Zehlendorf) – 1:0",
+        "57. Minute – Ali Burak Badem (FC Hertha 03 Zehlendorf) – 2:0",
+        "66. Minute – Ali Burak Badem (FC Hertha 03 Zehlendorf) – 3:0"
+      ]
     },
     {
       "id": "u19-690007039",

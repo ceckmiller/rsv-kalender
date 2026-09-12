@@ -26,6 +26,28 @@
         "position": 2
       },
       {
+        "team": "Erzgebirge Aue",
+        "played": 8,
+        "wins": 5,
+        "draws": 2,
+        "losses": 1,
+        "goals": "15:11",
+        "diff": "+4",
+        "points": 17,
+        "position": 3
+      },
+      {
+        "team": "FC Carl Zeiss Jena",
+        "played": 8,
+        "wins": 5,
+        "draws": 1,
+        "losses": 2,
+        "goals": "13:5",
+        "diff": "+8",
+        "points": 16,
+        "position": 4
+      },
+      {
         "team": "BFC Dynamo",
         "played": 8,
         "wins": 4,
@@ -34,51 +56,40 @@
         "goals": "13:9",
         "diff": "+4",
         "points": 14,
-        "position": 3
-      },
-      {
-        "team": "Erzgebirge Aue",
-        "played": 7,
-        "wins": 4,
-        "draws": 2,
-        "losses": 1,
-        "goals": "13:10",
-        "diff": "+3",
-        "points": 14,
-        "position": 4
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 7,
-        "wins": 4,
-        "draws": 1,
-        "losses": 2,
-        "goals": "17:12",
-        "diff": "+5",
-        "points": 13,
         "position": 5
       },
       {
-        "team": "FC Carl Zeiss Jena",
-        "played": 7,
+        "team": "FSV Zwickau",
+        "played": 8,
         "wins": 4,
-        "draws": 1,
+        "draws": 2,
         "losses": 2,
-        "goals": "10:5",
-        "diff": "+5",
-        "points": 13,
+        "goals": "10:11",
+        "diff": "-1",
+        "points": 14,
         "position": 6
       },
       {
-        "team": "FSV Zwickau",
-        "played": 7,
-        "wins": 4,
-        "draws": 1,
-        "losses": 2,
-        "goals": "8:9",
-        "diff": "-1",
+        "team": "Hallescher FC",
+        "played": 8,
+        "wins": 3,
+        "draws": 4,
+        "losses": 1,
+        "goals": "10:6",
+        "diff": "+4",
         "points": 13,
         "position": 7
+      },
+      {
+        "team": "1. FC Magdeburg II",
+        "played": 8,
+        "wins": 4,
+        "draws": 1,
+        "losses": 3,
+        "goals": "18:16",
+        "diff": "+2",
+        "points": 13,
+        "position": 8
       },
       {
         "team": "Greifswalder FC",
@@ -88,17 +99,6 @@
         "losses": 1,
         "goals": "15:10",
         "diff": "+5",
-        "points": 12,
-        "position": 8
-      },
-      {
-        "team": "Hallescher FC",
-        "played": 7,
-        "wins": 3,
-        "draws": 3,
-        "losses": 1,
-        "goals": "9:5",
-        "diff": "+4",
         "points": 12,
         "position": 9
       },
@@ -125,6 +125,28 @@
         "position": 11
       },
       {
+        "team": "SV Babelsberg 03",
+        "played": 8,
+        "wins": 1,
+        "draws": 3,
+        "losses": 4,
+        "goals": "10:13",
+        "diff": "-3",
+        "points": 6,
+        "position": 12
+      },
+      {
+        "team": "BFC Preussen 1894",
+        "played": 8,
+        "wins": 1,
+        "draws": 3,
+        "losses": 4,
+        "goals": "9:13",
+        "diff": "-4",
+        "points": 6,
+        "position": 13
+      },
+      {
         "team": "RSV Eintracht 1949",
         "played": 8,
         "wins": 1,
@@ -133,29 +155,18 @@
         "goals": "11:20",
         "diff": "-9",
         "points": 6,
-        "position": 12
-      },
-      {
-        "team": "SV Babelsberg 03",
-        "played": 7,
-        "wins": 1,
-        "draws": 2,
-        "losses": 4,
-        "goals": "9:12",
-        "diff": "-3",
-        "points": 5,
-        "position": 13
+        "position": 14
       },
       {
         "team": "Hertha BSC II",
-        "played": 7,
+        "played": 8,
         "wins": 1,
         "draws": 2,
-        "losses": 4,
-        "goals": "5:15",
-        "diff": "-10",
+        "losses": 5,
+        "goals": "5:18",
+        "diff": "-13",
         "points": 5,
-        "position": 14
+        "position": 15
       },
       {
         "team": "SV Tasmania Berlin",
@@ -166,39 +177,28 @@
         "goals": "9:25",
         "diff": "-16",
         "points": 4,
-        "position": 15
-      },
-      {
-        "team": "BFC Preussen 1894",
-        "played": 7,
-        "wins": 0,
-        "draws": 3,
-        "losses": 4,
-        "goals": "5:12",
-        "diff": "-7",
-        "points": 3,
         "position": 16
       },
       {
-        "team": "FSV 63 Luckenwalde",
-        "played": 7,
-        "wins": 1,
-        "draws": 0,
-        "losses": 6,
-        "goals": "5:18",
-        "diff": "-13",
+        "team": "BSG Chemie Leipzig",
+        "played": 8,
+        "wins": 0,
+        "draws": 3,
+        "losses": 5,
+        "goals": "4:11",
+        "diff": "-7",
         "points": 3,
         "position": 17
       },
       {
-        "team": "BSG Chemie Leipzig",
-        "played": 7,
-        "wins": 0,
-        "draws": 2,
-        "losses": 5,
-        "goals": "2:9",
-        "diff": "-7",
-        "points": 2,
+        "team": "FSV 63 Luckenwalde",
+        "played": 8,
+        "wins": 1,
+        "draws": 0,
+        "losses": 7,
+        "goals": "6:20",
+        "diff": "-14",
+        "points": 3,
         "position": 18
       }
     ]
