@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T18:23:55.145742+02:00",
+  "generated_at": "2026-09-13T22:55:46.245034+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -14940,6 +14940,23 @@
           "result": "",
           "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion+Dresden%2C+Lennestr.+12%2C+01069+Dresden",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-690001152",
+          "matchday": null,
+          "date": "2026-09-29",
+          "time": "18:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "FC Hertha 03",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/fc-hertha-03.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
           "is_home": false,
           "round": "",
           "ticket_url": ""
