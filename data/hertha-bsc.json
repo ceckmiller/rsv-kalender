@@ -77,7 +77,15 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN81S00001EVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Bremer Brücke, Hannes-Haferkamp-Platz 1, 49084 Osnabrück",
-      "location_source": "https://www.fussball.de/spiel/vfl-osnabrueck-hertha-bsc/-/spiel/031BG6BA74000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/vfl-osnabrueck-hertha-bsc/-/spiel/031BG6BA74000000VS5489BUVUR5FS5A",
+      "result": "1:3",
+      "halftime_result": "0:0",
+      "scorers": [
+        "50. Minute – Josip Brekalo (Hertha BSC) – 0:1",
+        "70. Minute – Kevin Simone Sessa (Hertha BSC) – 0:2",
+        "82. Minute – Jonathan German Gomez (VfL Osnabrück) – 1:2",
+        "90. Minute – Farid Alfa-Ruprecht (Hertha BSC) – 1:3"
+      ]
     },
     {
       "id": "u21-890001050",
@@ -92,20 +100,6 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
       "location_source": "https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6BAN4000000VS5489BUVUR5FS5A"
-    },
-    {
-      "id": "u21-690001152",
-      "date": "2026-09-29",
-      "time": "18:00",
-      "home": "FC Hertha 03",
-      "away": "Hertha BSC",
-      "competition": "Regionalfreundschaftsspiele 2026/27",
-      "source_url": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22",
-      "match_number": "690001152",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
-      "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-      "location_source": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22"
     },
     {
       "id": "u21-890001058",
@@ -207,8 +201,8 @@
     },
     {
       "id": "u21-890001110",
-      "date": "2026-11-29",
-      "time": "13:30",
+      "date": "2026-11-28",
+      "time": "13:00",
       "home": "Hertha BSC",
       "away": "Karlsruher SC",
       "competition": "2.Bundesliga 2026/27",

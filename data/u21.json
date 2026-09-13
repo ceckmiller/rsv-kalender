@@ -105,12 +105,24 @@
       "home": "FSV Grün-Weiß Niemegk",
       "away": "RSV Eintracht 1949 U21",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "5:4",
       "location": "Waldstadion Niemegk, Waldstr., 14823 Niemegk",
       "source_url": "https://www.fussball.de/spiel/fsv-gruen-weiss-niemegk-rsv-eintracht-1949-u21/-/spiel/031D5U7I9C000000VS5489BTVUS470OH",
       "match_number": "610480019",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000022VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "3:3",
+      "scorers": [
+        "2. Minute – Jan Mller (FSV Grün-Weiß Niemegk) – 1:0",
+        "18. Minute – Jonah Paul Wolf (RSV Eintracht 1949 U21) – 1:1",
+        "20. Minute – Tonio Schttler (RSV Eintracht 1949 U21) – 1:2",
+        "25. Minute – Jan Mller (FSV Grün-Weiß Niemegk) – 2:2",
+        "43. Minute – Moritz Hoffmann (FSV Grün-Weiß Niemegk) – 3:2",
+        "45. Minute – Noah von Oy (RSV Eintracht 1949 U21) – 3:3",
+        "68. Minute – Carl Bischoff (RSV Eintracht 1949 U21) – 3:4",
+        "75. Minute – Jan Mller (FSV Grün-Weiß Niemegk) – 4:4",
+        "90. Minute – Florian Emmert (FSV Grün-Weiß Niemegk) – 5:4"
+      ]
     },
     {
       "id": "u21-610480028",

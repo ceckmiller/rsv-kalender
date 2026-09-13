@@ -70,6 +70,17 @@
         "position": 6
       },
       {
+        "team": "Greifswalder FC",
+        "played": 8,
+        "wins": 3,
+        "draws": 4,
+        "losses": 1,
+        "goals": "18:13",
+        "diff": "+5",
+        "points": 13,
+        "position": 7
+      },
+      {
         "team": "Hallescher FC",
         "played": 8,
         "wins": 3,
@@ -78,7 +89,7 @@
         "goals": "10:6",
         "diff": "+4",
         "points": 13,
-        "position": 7
+        "position": 8
       },
       {
         "team": "1. FC Magdeburg II",
@@ -89,17 +100,6 @@
         "goals": "18:16",
         "diff": "+2",
         "points": 13,
-        "position": 8
-      },
-      {
-        "team": "Greifswalder FC",
-        "played": 7,
-        "wins": 3,
-        "draws": 3,
-        "losses": 1,
-        "goals": "15:10",
-        "diff": "+5",
-        "points": 12,
         "position": 9
       },
       {
@@ -115,13 +115,13 @@
       },
       {
         "team": "1. FC Lok Leipzig",
-        "played": 7,
+        "played": 8,
         "wins": 3,
-        "draws": 1,
+        "draws": 2,
         "losses": 3,
-        "goals": "13:13",
+        "goals": "16:16",
         "diff": "0",
-        "points": 10,
+        "points": 11,
         "position": 11
       },
       {

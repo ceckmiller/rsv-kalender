@@ -186,12 +186,18 @@
       "home": "RSV Eintracht 1949 U23",
       "away": "SV Ruhlsdorf",
       "competition": "Kreisoberliga 2026/27",
-      "result": null,
+      "result": "3:0",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-ruhlsdorf-i/-/spiel/031D1IIE18000000VS5489BTVUS470OH",
       "match_number": "610138020",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7",
+      "halftime_result": "2:0",
+      "scorers": [
+        "7. Minute – Ardit Fazli (RSV Eintracht 1949 U23) – 1:0",
+        "36. Minute – Ardit Fazli (RSV Eintracht 1949 U23) – 2:0",
+        "87. Minute – Noam Goldenblatt (RSV Eintracht 1949 U23) – 3:0"
+      ]
     },
     {
       "id": "u23-610138026",
