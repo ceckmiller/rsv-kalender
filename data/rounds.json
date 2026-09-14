@@ -4805,22 +4805,6 @@
           "source_url": "https://www.fussball.de/spiel/sv-falkensee-finkenkrug-fsv-union-fuerstenwalde/-/spiel/03212OSPIC000000VS5489BUVSORQI22"
         },
         {
-          "id": "cup-sg-union-klosterfelde-rsv-eintracht-1949",
-          "date": "2026-10-03",
-          "time": "15:00",
-          "home": "SG Union Klosterfelde",
-          "away": "RSV Eintracht 1949",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sg-union-klosterfelde-rsv-eintracht-1949/-/spiel/03212OSPMO000000VS5489BUVSORQI22",
-          "team_fixture_id": "u21-710006110"
-        },
-        {
           "id": "cup-sv-viktoria-potsdam-vfb-1921-krieschow",
           "date": "2026-10-03",
           "time": "15:00",
@@ -4849,6 +4833,22 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00000FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/vfb-hohenleipisch-1912-sv-babelsberg-03/-/spiel/03212OSPE4000000VS5489BUVSORQI22"
+        },
+        {
+          "id": "cup-sg-union-klosterfelde-rsv-eintracht-1949",
+          "date": "2026-10-04",
+          "time": "14:00",
+          "home": "SG Union Klosterfelde",
+          "away": "RSV Eintracht 1949",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002JVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sg-union-klosterfelde-rsv-eintracht-1949/-/spiel/03212OSPMO000000VS5489BUVSORQI22",
+          "team_fixture_id": "u21-710006110"
         }
       ]
     }
