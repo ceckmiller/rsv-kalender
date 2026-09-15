@@ -1,17 +1,17 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 8. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 9. Spieltag)",
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 8,
-        "wins": 6,
+        "played": 9,
+        "wins": 7,
         "draws": 2,
         "losses": 0,
-        "goals": "28:5",
-        "diff": "+23",
-        "points": 20,
+        "goals": "30:6",
+        "diff": "+24",
+        "points": 23,
         "position": 1
       },
       {
@@ -38,14 +38,36 @@
       },
       {
         "team": "FC Carl Zeiss Jena",
-        "played": 8,
+        "played": 9,
         "wins": 5,
         "draws": 1,
-        "losses": 2,
-        "goals": "13:5",
-        "diff": "+8",
+        "losses": 3,
+        "goals": "13:7",
+        "diff": "+6",
         "points": 16,
         "position": 4
+      },
+      {
+        "team": "Hallescher FC",
+        "played": 9,
+        "wins": 4,
+        "draws": 4,
+        "losses": 1,
+        "goals": "12:6",
+        "diff": "+6",
+        "points": 16,
+        "position": 5
+      },
+      {
+        "team": "VSG Altglienicke",
+        "played": 9,
+        "wins": 4,
+        "draws": 3,
+        "losses": 2,
+        "goals": "16:13",
+        "diff": "+3",
+        "points": 15,
+        "position": 6
       },
       {
         "team": "BFC Dynamo",
@@ -56,18 +78,18 @@
         "goals": "13:9",
         "diff": "+4",
         "points": 14,
-        "position": 5
+        "position": 7
       },
       {
         "team": "FSV Zwickau",
-        "played": 8,
+        "played": 9,
         "wins": 4,
         "draws": 2,
-        "losses": 2,
-        "goals": "10:11",
-        "diff": "-1",
+        "losses": 3,
+        "goals": "11:13",
+        "diff": "-2",
         "points": 14,
-        "position": 6
+        "position": 8
       },
       {
         "team": "Greifswalder FC",
@@ -78,18 +100,7 @@
         "goals": "18:13",
         "diff": "+5",
         "points": 13,
-        "position": 7
-      },
-      {
-        "team": "Hallescher FC",
-        "played": 8,
-        "wins": 3,
-        "draws": 4,
-        "losses": 1,
-        "goals": "10:6",
-        "diff": "+4",
-        "points": 13,
-        "position": 8
+        "position": 9
       },
       {
         "team": "1. FC Magdeburg II",
@@ -100,17 +111,6 @@
         "goals": "18:16",
         "diff": "+2",
         "points": 13,
-        "position": 9
-      },
-      {
-        "team": "VSG Altglienicke",
-        "played": 8,
-        "wins": 3,
-        "draws": 3,
-        "losses": 2,
-        "goals": "14:12",
-        "diff": "+2",
-        "points": 12,
         "position": 10
       },
       {
@@ -125,6 +125,17 @@
         "position": 11
       },
       {
+        "team": "BFC Preussen 1894",
+        "played": 9,
+        "wins": 2,
+        "draws": 3,
+        "losses": 4,
+        "goals": "11:13",
+        "diff": "-2",
+        "points": 9,
+        "position": 12
+      },
+      {
         "team": "SV Babelsberg 03",
         "played": 8,
         "wins": 1,
@@ -132,17 +143,6 @@
         "losses": 4,
         "goals": "10:13",
         "diff": "-3",
-        "points": 6,
-        "position": 12
-      },
-      {
-        "team": "BFC Preussen 1894",
-        "played": 8,
-        "wins": 1,
-        "draws": 3,
-        "losses": 4,
-        "goals": "9:13",
-        "diff": "-4",
         "points": 6,
         "position": 13
       },
@@ -159,12 +159,12 @@
       },
       {
         "team": "Hertha BSC II",
-        "played": 8,
+        "played": 9,
         "wins": 1,
         "draws": 2,
-        "losses": 5,
-        "goals": "5:18",
-        "diff": "-13",
+        "losses": 6,
+        "goals": "6:20",
+        "diff": "-14",
         "points": 5,
         "position": 15
       },
@@ -192,12 +192,12 @@
       },
       {
         "team": "FSV 63 Luckenwalde",
-        "played": 8,
+        "played": 9,
         "wins": 1,
         "draws": 0,
-        "losses": 7,
-        "goals": "6:20",
-        "diff": "-14",
+        "losses": 8,
+        "goals": "6:22",
+        "diff": "-16",
         "points": 3,
         "position": 18
       }

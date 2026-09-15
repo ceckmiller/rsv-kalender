@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:05:52.457284+02:00",
+  "generated_at": "2026-09-15T23:26:52.339954+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -3275,7 +3275,7 @@
               "time": "19:00",
               "home": "FSV 63 Luckenwalde",
               "away": "BFC Preussen 1894",
-              "result": null,
+              "result": "0:2",
               "halftime_result": null,
               "location": "",
               "matchday": 9,
@@ -3289,7 +3289,7 @@
               "time": "19:00",
               "home": "FSV Zwickau",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "1:2",
               "halftime_result": null,
               "location": "",
               "matchday": 9,
@@ -3303,7 +3303,7 @@
               "time": "19:00",
               "home": "Hallescher FC",
               "away": "FC Carl Zeiss Jena",
-              "result": null,
+              "result": "2:0",
               "halftime_result": null,
               "location": "",
               "matchday": 9,
@@ -3317,7 +3317,7 @@
               "time": "19:00",
               "home": "Hertha BSC II",
               "away": "FC Rot-Weiß Erfurt",
-              "result": null,
+              "result": "1:2",
               "halftime_result": null,
               "location": "",
               "matchday": 9,
@@ -14945,23 +14945,6 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-690001152",
-          "matchday": null,
-          "date": "2026-09-29",
-          "time": "18:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "FC Hertha 03",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/fc-hertha-03.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001058",
           "matchday": 5,
           "date": "2026-10-11",
@@ -15137,17 +15120,17 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 8. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 9. Spieltag)",
       "rows": [
         {
           "team": "FC Rot-Weiß Erfurt",
-          "played": 8,
-          "wins": 6,
+          "played": 9,
+          "wins": 7,
           "draws": 2,
           "losses": 0,
-          "goals": "28:5",
-          "diff": "+23",
-          "points": 20,
+          "goals": "30:6",
+          "diff": "+24",
+          "points": 23,
           "position": 1,
           "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
         },
@@ -15177,15 +15160,39 @@
         },
         {
           "team": "FC Carl Zeiss Jena",
-          "played": 8,
+          "played": 9,
           "wins": 5,
           "draws": 1,
-          "losses": 2,
-          "goals": "13:5",
-          "diff": "+8",
+          "losses": 3,
+          "goals": "13:7",
+          "diff": "+6",
           "points": 16,
           "position": 4,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+        },
+        {
+          "team": "Hallescher FC",
+          "played": 9,
+          "wins": 4,
+          "draws": 4,
+          "losses": 1,
+          "goals": "12:6",
+          "diff": "+6",
+          "points": 16,
+          "position": 5,
+          "logo_url": "/assets/clubs/hallescher-fc.png"
+        },
+        {
+          "team": "VSG Altglienicke",
+          "played": 9,
+          "wins": 4,
+          "draws": 3,
+          "losses": 2,
+          "goals": "16:13",
+          "diff": "+3",
+          "points": 15,
+          "position": 6,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
           "team": "BFC Dynamo",
@@ -15196,19 +15203,19 @@
           "goals": "13:9",
           "diff": "+4",
           "points": 14,
-          "position": 5,
+          "position": 7,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "team": "FSV Zwickau",
-          "played": 8,
+          "played": 9,
           "wins": 4,
           "draws": 2,
-          "losses": 2,
-          "goals": "10:11",
-          "diff": "-1",
+          "losses": 3,
+          "goals": "11:13",
+          "diff": "-2",
           "points": 14,
-          "position": 6,
+          "position": 8,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
@@ -15220,20 +15227,8 @@
           "goals": "18:13",
           "diff": "+5",
           "points": 13,
-          "position": 7,
+          "position": 9,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
-        },
-        {
-          "team": "Hallescher FC",
-          "played": 8,
-          "wins": 3,
-          "draws": 4,
-          "losses": 1,
-          "goals": "10:6",
-          "diff": "+4",
-          "points": 13,
-          "position": 8,
-          "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
           "team": "1. FC Magdeburg II",
@@ -15244,20 +15239,8 @@
           "goals": "18:16",
           "diff": "+2",
           "points": 13,
-          "position": 9,
-          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 8,
-          "wins": 3,
-          "draws": 3,
-          "losses": 2,
-          "goals": "14:12",
-          "diff": "+2",
-          "points": 12,
           "position": 10,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+          "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -15272,6 +15255,18 @@
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
+          "team": "BFC Preussen 1894",
+          "played": 9,
+          "wins": 2,
+          "draws": 3,
+          "losses": 4,
+          "goals": "11:13",
+          "diff": "-2",
+          "points": 9,
+          "position": 12,
+          "logo_url": "/assets/clubs/bfc-preussen-1894.png"
+        },
+        {
           "team": "SV Babelsberg 03",
           "played": 8,
           "wins": 1,
@@ -15280,20 +15275,8 @@
           "goals": "10:13",
           "diff": "-3",
           "points": 6,
-          "position": 12,
-          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
-        },
-        {
-          "team": "BFC Preussen 1894",
-          "played": 8,
-          "wins": 1,
-          "draws": 3,
-          "losses": 4,
-          "goals": "9:13",
-          "diff": "-4",
-          "points": 6,
           "position": 13,
-          "logo_url": "/assets/clubs/bfc-preussen-1894.png"
+          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "RSV Eintracht 1949",
@@ -15309,12 +15292,12 @@
         },
         {
           "team": "Hertha BSC II",
-          "played": 8,
+          "played": 9,
           "wins": 1,
           "draws": 2,
-          "losses": 5,
-          "goals": "5:18",
-          "diff": "-13",
+          "losses": 6,
+          "goals": "6:20",
+          "diff": "-14",
           "points": 5,
           "position": 15,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
@@ -15345,12 +15328,12 @@
         },
         {
           "team": "FSV 63 Luckenwalde",
-          "played": 8,
+          "played": 9,
           "wins": 1,
           "draws": 0,
-          "losses": 7,
-          "goals": "6:20",
-          "diff": "-14",
+          "losses": 8,
+          "goals": "6:22",
+          "diff": "-16",
           "points": 3,
           "position": 18,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
