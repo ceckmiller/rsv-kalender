@@ -411,8 +411,8 @@
     },
     {
       "id": "rl-13",
-      "date": "2026-10-18",
-      "time": "14:00",
+      "date": "2026-10-16",
+      "time": "19:00",
       "home": "Hertha BSC II",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
@@ -427,7 +427,7 @@
     },
     {
       "id": "rl-14",
-      "date": "2026-10-25",
+      "date": "2026-10-24",
       "time": "14:00",
       "home": "RSV Eintracht 1949",
       "away": "SV Tasmania Berlin",
@@ -443,8 +443,8 @@
     },
     {
       "id": "rl-15",
-      "date": "2026-11-01",
-      "time": "14:00",
+      "date": "2026-10-30",
+      "time": "19:00",
       "home": "BFC Dynamo",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
@@ -475,8 +475,8 @@
     },
     {
       "id": "rl-17",
-      "date": "2026-11-22",
-      "time": "14:00",
+      "date": "2026-11-20",
+      "time": "19:00",
       "home": "1. FC Lokomotive Leipzig",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
@@ -490,6 +490,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
+      "id": "u21-690047158",
+      "date": "2026-11-28",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949",
+      "away": "BFC Preussen",
+      "competition": "Regionalliga 2026/27",
+      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A",
+      "match_number": "690047158",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00004RVV0AG08LVUPGND5I"
+    },
+    {
       "id": "rl-18",
       "date": "2026-11-29",
       "time": "14:00",
@@ -500,19 +513,6 @@
       "location": "",
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/18-spieltag/rsv-eintracht-1949-bfc-preussen-1894-2426147"
-    },
-    {
-      "id": "u21-690047158",
-      "date": "2026-11-29",
-      "time": "14:00",
-      "home": "RSV Eintracht 1949",
-      "away": "BFC Preussen",
-      "competition": "Regionalliga 2026/27",
-      "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
-      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-bfc-preussen/-/spiel/031DEIC870000000VS5489BUVUR5FS5A",
-      "match_number": "690047158",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00004RVV0AG08LVUPGND5I"
     },
     {
       "id": "rl-19",

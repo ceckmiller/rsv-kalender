@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T07:01:53.660761+02:00",
+  "generated_at": "2026-09-15T13:51:54.451304+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -684,8 +684,8 @@
         {
           "id": "rl-13",
           "matchday": 13,
-          "date": "2026-10-18",
-          "time": "14:00",
+          "date": "2026-10-16",
+          "time": "19:00",
           "competition": "Regionalliga",
           "home": "Hertha BSC II",
           "away": "RSV Eintracht 1949",
@@ -701,7 +701,7 @@
         {
           "id": "rl-14",
           "matchday": 14,
-          "date": "2026-10-25",
+          "date": "2026-10-24",
           "time": "14:00",
           "competition": "Regionalliga",
           "home": "RSV Eintracht 1949",
@@ -718,8 +718,8 @@
         {
           "id": "rl-15",
           "matchday": 15,
-          "date": "2026-11-01",
-          "time": "14:00",
+          "date": "2026-10-30",
+          "time": "19:00",
           "competition": "Regionalliga",
           "home": "BFC Dynamo",
           "away": "RSV Eintracht 1949",
@@ -752,8 +752,8 @@
         {
           "id": "rl-17",
           "matchday": 17,
-          "date": "2026-11-22",
-          "time": "14:00",
+          "date": "2026-11-20",
+          "time": "19:00",
           "competition": "Regionalliga",
           "home": "1. FC Lokomotive Leipzig",
           "away": "RSV Eintracht 1949",
@@ -765,6 +765,23 @@
           "is_home": false,
           "round": "",
           "ticket_url": ""
+        },
+        {
+          "id": "u21-690047158",
+          "matchday": 18,
+          "date": "2026-11-28",
+          "time": "14:00",
+          "competition": "Regionalliga",
+          "home": "RSV Eintracht 1949",
+          "away": "BFC Preussen",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/bfc-preussen.png",
+          "result": "",
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+          "is_home": true,
+          "round": "",
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-18",
@@ -779,23 +796,6 @@
           "result": "",
           "location": "Preußenstadion, Malteserstraße 24–36, 12249 Berlin-Lankwitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preu%C3%9Fenstadion%2C+Malteserstra%C3%9Fe+24%E2%80%9336%2C+12249+Berlin-Lankwitz",
-          "is_home": true,
-          "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
-        },
-        {
-          "id": "u21-690047158",
-          "matchday": 18,
-          "date": "2026-11-29",
-          "time": "14:00",
-          "competition": "Regionalliga",
-          "home": "RSV Eintracht 1949",
-          "away": "BFC Preussen",
-          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "away_logo": "/assets/clubs/bfc-preussen.png",
-          "result": "",
-          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
@@ -4040,8 +4040,8 @@
           "matches": [
             {
               "id": "rl-13",
-              "date": "2026-10-18",
-              "time": "14:00",
+              "date": "2026-10-16",
+              "time": "19:00",
               "home": "Hertha BSC II",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4053,8 +4053,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-10-18",
-          "date_end": "2026-10-18"
+          "date": "2026-10-16",
+          "date_end": "2026-10-16"
         },
         {
           "id": "league:Regionalliga Nordost:13",
@@ -4065,8 +4065,8 @@
           "matches": [
             {
               "id": "rl-md13-d9860758edc3",
-              "date": "2026-10-18",
-              "time": "14:00",
+              "date": "2026-10-16",
+              "time": "19:00",
               "home": "Hertha BSC II",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4191,7 +4191,7 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2026-10-18",
+          "date": "2026-10-16",
           "date_end": "2026-10-18"
         },
         {
@@ -4203,7 +4203,7 @@
           "matches": [
             {
               "id": "rl-14",
-              "date": "2026-10-25",
+              "date": "2026-10-24",
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "SV Tasmania Berlin",
@@ -4216,8 +4216,8 @@
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             }
           ],
-          "date": "2026-10-25",
-          "date_end": "2026-10-25"
+          "date": "2026-10-24",
+          "date_end": "2026-10-24"
         },
         {
           "id": "league:Regionalliga Nordost:14",
@@ -4228,7 +4228,7 @@
           "matches": [
             {
               "id": "rl-md14-ab5b4478b4f2",
-              "date": "2026-10-25",
+              "date": "2026-10-24",
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "SV Tasmania Berlin",
@@ -4354,7 +4354,7 @@
               "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             }
           ],
-          "date": "2026-10-25",
+          "date": "2026-10-24",
           "date_end": "2026-10-25"
         },
         {
@@ -4366,8 +4366,8 @@
           "matches": [
             {
               "id": "rl-15",
-              "date": "2026-11-01",
-              "time": "14:00",
+              "date": "2026-10-30",
+              "time": "19:00",
               "home": "BFC Dynamo",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4379,8 +4379,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-01",
-          "date_end": "2026-11-01"
+          "date": "2026-10-30",
+          "date_end": "2026-10-30"
         },
         {
           "id": "league:Regionalliga Nordost:15",
@@ -4391,8 +4391,8 @@
           "matches": [
             {
               "id": "rl-md15-92b2df84ed03",
-              "date": "2026-11-01",
-              "time": "14:00",
+              "date": "2026-10-30",
+              "time": "19:00",
               "home": "BFC Dynamo",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4517,7 +4517,7 @@
               "away_logo": "/assets/clubs/chemnitzer-fc.png"
             }
           ],
-          "date": "2026-11-01",
+          "date": "2026-10-30",
           "date_end": "2026-11-01"
         },
         {
@@ -4692,8 +4692,8 @@
           "matches": [
             {
               "id": "rl-17",
-              "date": "2026-11-22",
-              "time": "14:00",
+              "date": "2026-11-20",
+              "time": "19:00",
               "home": "1. FC Lokomotive Leipzig",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4705,8 +4705,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-22",
-          "date_end": "2026-11-22"
+          "date": "2026-11-20",
+          "date_end": "2026-11-20"
         },
         {
           "id": "league:Regionalliga Nordost:17",
@@ -4717,8 +4717,8 @@
           "matches": [
             {
               "id": "rl-md17-64b541fbd86e",
-              "date": "2026-11-22",
-              "time": "14:00",
+              "date": "2026-11-20",
+              "time": "19:00",
               "home": "1. FC Lokomotive Leipzig",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -4843,7 +4843,7 @@
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             }
           ],
-          "date": "2026-11-22",
+          "date": "2026-11-20",
           "date_end": "2026-11-22"
         },
         {
@@ -4855,7 +4855,7 @@
           "matches": [
             {
               "id": "u21-690047158",
-              "date": "2026-11-29",
+              "date": "2026-11-28",
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "BFC Preussen",
@@ -4868,8 +4868,8 @@
               "away_logo": "/assets/clubs/bfc-preussen.png"
             }
           ],
-          "date": "2026-11-29",
-          "date_end": "2026-11-29"
+          "date": "2026-11-28",
+          "date_end": "2026-11-28"
         },
         {
           "id": "league:Regionalliga Nordost:18",
@@ -14940,23 +14940,6 @@
           "result": "",
           "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion+Dresden%2C+Lennestr.+12%2C+01069+Dresden",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
-          "id": "u21-690001152",
-          "matchday": null,
-          "date": "2026-09-29",
-          "time": "18:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "FC Hertha 03",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/fc-hertha-03.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
           "is_home": false,
           "round": "",
           "ticket_url": ""
