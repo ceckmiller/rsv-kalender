@@ -328,7 +328,7 @@
       "home": "RSV Eintracht 1949",
       "away": "Greifswalder FC",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:2",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/9-spieltag/rsv-eintracht-1949-greifswalder-fc-2426069",
@@ -336,7 +336,14 @@
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-greifswalder-fc/-/spiel/031DEIC1GC000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM8000032VV0AG08LVUPGND5I",
-      "referee": "Johannes Drößler"
+      "referee": "Johannes Drößler",
+      "halftime_result": "1:1",
+      "scorers": [
+        "13. Minute – Luis Pohlenz (RSV Eintracht 1949) – 1:0",
+        "15. Minute – Janis Juckel (Greifswalder FC) – 1:1",
+        "74. Minute – Felix Heim (Greifswalder FC) – 1:2"
+      ],
+      "attendance": 211
     },
     {
       "id": "u21-690047085",
