@@ -5321,6 +5321,21 @@
       "round": "3. Runde",
       "matches": [
         {
+          "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
+          "date": "2026-10-03",
+          "time": "15:30",
+          "home": "SV Viktoria Potsdam II",
+          "away": "FSV Babelsberg 74 II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
+        },
+        {
           "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
           "date": "2026-10-04",
           "time": "12:30",
@@ -5544,21 +5559,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-        },
-        {
-          "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
-          "date": "2026-10-04",
-          "time": "15:00",
-          "home": "SV Viktoria Potsdam II",
-          "away": "FSV Babelsberg 74 II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
         }
       ]
     }
@@ -6640,6 +6640,21 @@
       "round": "3. Runde",
       "matches": [
         {
+          "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
+          "date": "2026-10-03",
+          "time": "15:30",
+          "home": "SV Viktoria Potsdam II",
+          "away": "FSV Babelsberg 74 II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
+        },
+        {
           "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
           "date": "2026-10-04",
           "time": "12:30",
@@ -6863,21 +6878,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
-        },
-        {
-          "id": "cup-sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii",
-          "date": "2026-10-04",
-          "time": "15:00",
-          "home": "SV Viktoria Potsdam II",
-          "away": "FSV Babelsberg 74 II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
         }
       ]
     }
