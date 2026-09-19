@@ -5,14 +5,25 @@
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 9,
+        "played": 10,
         "wins": 7,
-        "draws": 2,
+        "draws": 3,
         "losses": 0,
-        "goals": "30:6",
+        "goals": "32:8",
         "diff": "+24",
-        "points": 23,
+        "points": 24,
         "position": 1
+      },
+      {
+        "team": "Erzgebirge Aue",
+        "played": 10,
+        "wins": 6,
+        "draws": 3,
+        "losses": 1,
+        "goals": "19:14",
+        "diff": "+5",
+        "points": 21,
+        "position": 2
       },
       {
         "team": "Chemnitzer FC",
@@ -22,17 +33,6 @@
         "losses": 1,
         "goals": "18:4",
         "diff": "+14",
-        "points": 20,
-        "position": 2
-      },
-      {
-        "team": "Erzgebirge Aue",
-        "played": 9,
-        "wins": 6,
-        "draws": 2,
-        "losses": 1,
-        "goals": "17:12",
-        "diff": "+5",
         "points": 20,
         "position": 3
       },
@@ -48,6 +48,17 @@
         "position": 4
       },
       {
+        "team": "VSG Altglienicke",
+        "played": 10,
+        "wins": 5,
+        "draws": 3,
+        "losses": 2,
+        "goals": "19:14",
+        "diff": "+5",
+        "points": 18,
+        "position": 5
+      },
+      {
         "team": "Greifswalder FC",
         "played": 9,
         "wins": 4,
@@ -56,7 +67,7 @@
         "goals": "20:14",
         "diff": "+6",
         "points": 16,
-        "position": 5
+        "position": 6
       },
       {
         "team": "FC Carl Zeiss Jena",
@@ -67,7 +78,7 @@
         "goals": "13:7",
         "diff": "+6",
         "points": 16,
-        "position": 6
+        "position": 7
       },
       {
         "team": "BFC Dynamo",
@@ -77,17 +88,6 @@
         "losses": 2,
         "goals": "15:11",
         "diff": "+4",
-        "points": 15,
-        "position": 7
-      },
-      {
-        "team": "VSG Altglienicke",
-        "played": 9,
-        "wins": 4,
-        "draws": 3,
-        "losses": 2,
-        "goals": "16:13",
-        "diff": "+3",
         "points": 15,
         "position": 8
       },
@@ -126,25 +126,36 @@
       },
       {
         "team": "BFC Preussen 1894",
-        "played": 9,
+        "played": 10,
         "wins": 2,
-        "draws": 3,
+        "draws": 4,
         "losses": 4,
-        "goals": "11:13",
+        "goals": "12:14",
         "diff": "-2",
-        "points": 9,
+        "points": 10,
         "position": 12
       },
       {
         "team": "SV Babelsberg 03",
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 3,
-        "losses": 4,
-        "goals": "11:13",
-        "diff": "-2",
+        "losses": 5,
+        "goals": "11:15",
+        "diff": "-4",
         "points": 9,
         "position": 13
+      },
+      {
+        "team": "Hertha BSC II",
+        "played": 10,
+        "wins": 2,
+        "draws": 2,
+        "losses": 6,
+        "goals": "8:20",
+        "diff": "-12",
+        "points": 8,
+        "position": 14
       },
       {
         "team": "BSG Chemie Leipzig",
@@ -155,39 +166,28 @@
         "goals": "9:13",
         "diff": "-4",
         "points": 6,
-        "position": 14
-      },
-      {
-        "team": "RSV Eintracht 1949",
-        "played": 9,
-        "wins": 1,
-        "draws": 3,
-        "losses": 5,
-        "goals": "12:22",
-        "diff": "-10",
-        "points": 6,
         "position": 15
       },
       {
-        "team": "Hertha BSC II",
-        "played": 9,
+        "team": "RSV Eintracht 1949",
+        "played": 10,
         "wins": 1,
-        "draws": 2,
+        "draws": 3,
         "losses": 6,
-        "goals": "6:20",
-        "diff": "-14",
-        "points": 5,
+        "goals": "13:25",
+        "diff": "-12",
+        "points": 6,
         "position": 16
       },
       {
         "team": "SV Tasmania Berlin",
-        "played": 9,
+        "played": 10,
         "wins": 1,
-        "draws": 1,
+        "draws": 2,
         "losses": 7,
-        "goals": "11:30",
+        "goals": "12:31",
         "diff": "-19",
-        "points": 4,
+        "points": 5,
         "position": 17
       },
       {

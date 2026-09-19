@@ -186,12 +186,23 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "VFC Plauen",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "6:2",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-vfc-plauen/-/spiel/031B3S0GB0000000VS5489BUVV628VP4",
       "match_number": "690007039",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBQ000000RVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBQ000000RVV0AG08LVUPGND5I",
+      "halftime_result": "4:2",
+      "scorers": [
+        "13. Minute – Adrian Stojanovic (RSV Eintracht 1949 U19) – 1:0",
+        "21. Minute – k.A. (VFC Plauen) – 1:1",
+        "30. Minute – Amin El-Haj (RSV Eintracht 1949 U19) – 2:1",
+        "32. Minute – Markus Gaevert (RSV Eintracht 1949 U19) – 3:1",
+        "34. Minute – Adrian Stojanovic (VFC Plauen) – 3:2",
+        "44. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 4:2",
+        "49. Minute – Jan Erik Hakelberg (RSV Eintracht 1949 U19) – 5:2",
+        "77. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 6:2"
+      ]
     },
     {
       "id": "u19-690007046",

@@ -356,7 +356,15 @@
       "source_url": "https://www.fussball.de/spiel/vsg-altglienicke-berlin-rsv-eintracht-1949/-/spiel/031DEIC26S000000VS5489BUVUR5FS5A",
       "match_number": "690047085",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008GVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "3:1",
+      "halftime_result": "2:1",
+      "scorers": [
+        "13. Minute – John Anthony Brooks (VSG Altglienicke Berlin) – 1:0",
+        "15. Minute – Luis Pohlenz (RSV Eintracht 1949) – 1:1",
+        "31. Minute – Ali Eren Ersungur (VSG Altglienicke Berlin) – 2:1",
+        "58. Minute – John Anthony Brooks (VSG Altglienicke Berlin) – 3:1"
+      ]
     },
     {
       "id": "rl-10",
