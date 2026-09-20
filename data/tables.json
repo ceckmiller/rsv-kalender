@@ -15,6 +15,17 @@
         "position": 1
       },
       {
+        "team": "Chemnitzer FC",
+        "played": 10,
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goals": "21:5",
+        "diff": "+16",
+        "points": 23,
+        "position": 2
+      },
+      {
         "team": "Erzgebirge Aue",
         "played": 10,
         "wins": 6,
@@ -23,17 +34,6 @@
         "goals": "19:14",
         "diff": "+5",
         "points": 21,
-        "position": 2
-      },
-      {
-        "team": "Chemnitzer FC",
-        "played": 9,
-        "wins": 6,
-        "draws": 2,
-        "losses": 1,
-        "goals": "18:4",
-        "diff": "+14",
-        "points": 20,
         "position": 3
       },
       {
@@ -159,12 +159,12 @@
       },
       {
         "team": "BSG Chemie Leipzig",
-        "played": 9,
+        "played": 10,
         "wins": 1,
         "draws": 3,
-        "losses": 5,
-        "goals": "9:13",
-        "diff": "-4",
+        "losses": 6,
+        "goals": "10:16",
+        "diff": "-6",
         "points": 6,
         "position": 15
       },
