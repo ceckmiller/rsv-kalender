@@ -99,7 +99,28 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00003JVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Rudolf-Harbig-Stadion Dresden, Lennestr. 12, 01069 Dresden",
-      "location_source": "https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6BAN4000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/sg-dynamo-dresden-hertha-bsc/-/spiel/031BG6BAN4000000VS5489BUVUR5FS5A",
+      "result": "1:2",
+      "halftime_result": "1:1",
+      "scorers": [
+        "16. Minute – Patrice ovi (SG Dynamo Dresden) – 1:0",
+        "29. Minute – Jn Dagur Thorsteinsson (Hertha BSC) – 1:1",
+        "80. Minute – Jn Dagur Thorsteinsson (Hertha BSC) – 1:2"
+      ]
+    },
+    {
+      "id": "u21-690001152",
+      "date": "2026-09-29",
+      "time": "18:00",
+      "home": "FC Hertha 03",
+      "away": "Hertha BSC",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "source_url": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22",
+      "match_number": "690001152",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000046VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+      "location_source": "https://www.fussball.de/spiel/fc-hertha-03-hertha-bsc/-/spiel/0321VBIK4G000000VS5489BUVSORQI22"
     },
     {
       "id": "u21-890001058",
