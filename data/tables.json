@@ -37,6 +37,17 @@
         "position": 3
       },
       {
+        "team": "Greifswalder FC",
+        "played": 10,
+        "wins": 5,
+        "draws": 4,
+        "losses": 1,
+        "goals": "23:15",
+        "diff": "+8",
+        "points": 19,
+        "position": 4
+      },
+      {
         "team": "Hallescher FC",
         "played": 10,
         "wins": 5,
@@ -45,7 +56,18 @@
         "goals": "15:7",
         "diff": "+8",
         "points": 19,
-        "position": 4
+        "position": 5
+      },
+      {
+        "team": "BFC Dynamo",
+        "played": 10,
+        "wins": 5,
+        "draws": 3,
+        "losses": 2,
+        "goals": "19:12",
+        "diff": "+7",
+        "points": 18,
+        "position": 6
       },
       {
         "team": "VSG Altglienicke",
@@ -56,40 +78,29 @@
         "goals": "19:14",
         "diff": "+5",
         "points": 18,
-        "position": 5
-      },
-      {
-        "team": "Greifswalder FC",
-        "played": 9,
-        "wins": 4,
-        "draws": 4,
-        "losses": 1,
-        "goals": "20:14",
-        "diff": "+6",
-        "points": 16,
-        "position": 6
-      },
-      {
-        "team": "FC Carl Zeiss Jena",
-        "played": 9,
-        "wins": 5,
-        "draws": 1,
-        "losses": 3,
-        "goals": "13:7",
-        "diff": "+6",
-        "points": 16,
         "position": 7
       },
       {
-        "team": "BFC Dynamo",
-        "played": 9,
+        "team": "FC Carl Zeiss Jena",
+        "played": 10,
+        "wins": 5,
+        "draws": 1,
+        "losses": 4,
+        "goals": "14:9",
+        "diff": "+5",
+        "points": 16,
+        "position": 8
+      },
+      {
+        "team": "1. FC Lok Leipzig",
+        "played": 10,
         "wins": 4,
         "draws": 3,
-        "losses": 2,
-        "goals": "15:11",
-        "diff": "+4",
+        "losses": 3,
+        "goals": "20:19",
+        "diff": "+1",
         "points": 15,
-        "position": 8
+        "position": 9
       },
       {
         "team": "FSV Zwickau",
@@ -100,28 +111,17 @@
         "goals": "12:16",
         "diff": "-4",
         "points": 14,
-        "position": 9
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 9,
-        "wins": 4,
-        "draws": 1,
-        "losses": 4,
-        "goals": "19:18",
-        "diff": "+1",
-        "points": 13,
         "position": 10
       },
       {
-        "team": "1. FC Lok Leipzig",
-        "played": 9,
-        "wins": 3,
-        "draws": 3,
-        "losses": 3,
-        "goals": "18:18",
-        "diff": "0",
-        "points": 12,
+        "team": "1. FC Magdeburg II",
+        "played": 10,
+        "wins": 4,
+        "draws": 1,
+        "losses": 5,
+        "goals": "20:22",
+        "diff": "-2",
+        "points": 13,
         "position": 11
       },
       {
@@ -192,12 +192,12 @@
       },
       {
         "team": "FSV 63 Luckenwalde",
-        "played": 9,
+        "played": 10,
         "wins": 1,
         "draws": 0,
-        "losses": 8,
-        "goals": "6:22",
-        "diff": "-16",
+        "losses": 9,
+        "goals": "7:25",
+        "diff": "-18",
         "points": 3,
         "position": 18
       }

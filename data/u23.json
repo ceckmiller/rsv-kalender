@@ -206,12 +206,17 @@
       "home": "SG Geltow",
       "away": "RSV Eintracht 1949 U23",
       "competition": "Kreisoberliga 2026/27",
-      "result": null,
+      "result": "1:1",
       "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
       "source_url": "https://www.fussball.de/spiel/sg-geltow-rsv-eintracht-1949-u23/-/spiel/031D1IIDF4000000VS5489BTVUS470OH",
       "match_number": "610138026",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:1",
+      "scorers": [
+        "29. Minute – Charly Schleicher (RSV Eintracht 1949 U23) – 0:1",
+        "47. Minute – Julian Bocian (SG Geltow) – 1:1"
+      ]
     },
     {
       "id": "u23-610138036",

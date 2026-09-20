@@ -373,10 +373,19 @@
       "home": "VSG Altglienicke",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga Nordost 2026/27",
-      "result": null,
+      "result": "3:1",
       "location": "",
       "source_url": "https://datencenter.dfb.de/competitions/regionalliga-nordost/seasons/2026-2027/teams/rsv-eintracht-1949",
-      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/10-spieltag/vsg-altglienicke-rsv-eintracht-1949-2426075"
+      "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/10-spieltag/vsg-altglienicke-rsv-eintracht-1949-2426075",
+      "referee": "Florian Strübing",
+      "attendance": 309,
+      "halftime_result": "2:1",
+      "scorers": [
+        "13. Minute – John Anthony Brooks (VSG Altglienicke) – 1:0",
+        "15. Minute – Luis Pohlenz (RSV Eintracht 1949) – 1:1",
+        "31. Minute – Ali-Eren Ersungur (VSG Altglienicke) – 2:1",
+        "58. Minute – John Anthony Brooks (VSG Altglienicke) – 3:1"
+      ]
     },
     {
       "id": "rl-11",
