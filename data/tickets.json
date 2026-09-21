@@ -1,11 +1,26 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-09-21T14:53:07.783306+02:00",
+  "updated_at": "2026-09-22T00:00:04.776955+02:00",
   "events": [
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5041214/",
       "date": "2026-09-26",
       "opponent": "Chemnitzer FC"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5041216/",
+      "date": "2026-10-24",
+      "opponent": "SV Tasmania Berlin"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/",
+      "date": "2026-11-08",
+      "opponent": "FC Erzgebirge Aue"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/",
+      "date": "2026-11-28",
+      "opponent": "BFC Preussen"
     }
   ]
 }
