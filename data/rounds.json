@@ -1224,6 +1224,18 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
+          "id": "rl-md11-c7eae0bd6ff2",
+          "date": "2026-09-26",
+          "time": "14:00",
+          "home": "1. FC Lok Leipzig",
+          "away": "FC Rot-Weiß Erfurt",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 11,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
           "id": "rl-md11-86818b6a3169",
           "date": "2026-09-26",
           "time": "14:00",
@@ -1247,18 +1259,6 @@
           "matchday": 11,
           "competition": "Regionalliga Nordost 2026/27",
           "team_fixture_id": "rl-11"
-        },
-        {
-          "id": "rl-md11-c7eae0bd6ff2",
-          "date": "2026-09-26",
-          "time": "16:00",
-          "home": "1. FC Lok Leipzig",
-          "away": "FC Rot-Weiß Erfurt",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 11,
-          "competition": "Regionalliga Nordost 2026/27"
         },
         {
           "id": "rl-md11-f8e7b002f068",
@@ -1306,11 +1306,59 @@
       "round": "12",
       "matches": [
         {
-          "id": "rl-md12-0e8d503b437b",
-          "date": "2026-10-11",
+          "id": "rl-md12-066dd8fb2c3b",
+          "date": "2026-10-09",
+          "time": "19:00",
+          "home": "VSG Altglienicke",
+          "away": "BFC Dynamo",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 12,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md12-76dc9371af55",
+          "date": "2026-10-09",
+          "time": "19:00",
+          "home": "FSV Zwickau",
+          "away": "SV Tasmania Berlin",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 12,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md12-643a6d9ab6dc",
+          "date": "2026-10-09",
+          "time": "19:00",
+          "home": "BSG Chemie Leipzig",
+          "away": "FSV 63 Luckenwalde",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 12,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md12-4ddefdb7b328",
+          "date": "2026-10-10",
           "time": "14:00",
           "home": "FC Carl Zeiss Jena",
           "away": "1. FC Magdeburg II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": 12,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md12-9a8a881f55f3",
+          "date": "2026-10-10",
+          "time": "14:00",
+          "home": "BFC Preussen 1894",
+          "away": "Hertha BSC II",
           "result": null,
           "halftime_result": null,
           "location": "",
@@ -1323,30 +1371,6 @@
           "time": "14:00",
           "home": "Greifswalder FC",
           "away": "Erzgebirge Aue",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 12,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md12-b50b48ed1252",
-          "date": "2026-10-11",
-          "time": "14:00",
-          "home": "VSG Altglienicke",
-          "away": "BFC Dynamo",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 12,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md12-543d3acba213",
-          "date": "2026-10-11",
-          "time": "14:00",
-          "home": "BFC Preussen 1894",
-          "away": "Hertha BSC II",
           "result": null,
           "halftime_result": null,
           "location": "",
@@ -1369,7 +1393,7 @@
         {
           "id": "rl-md12-cc4126cdfdc3",
           "date": "2026-10-11",
-          "time": "14:00",
+          "time": "16:00",
           "home": "SV Babelsberg 03",
           "away": "1. FC Lok Leipzig",
           "result": null,
@@ -1379,35 +1403,11 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md12-dffb3959a9b8",
-          "date": "2026-10-11",
-          "time": "14:00",
-          "home": "FSV Zwickau",
-          "away": "SV Tasmania Berlin",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 12,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
           "id": "rl-md12-b5e9c0e92b52",
           "date": "2026-10-11",
-          "time": "14:00",
+          "time": "16:00",
           "home": "Chemnitzer FC",
           "away": "FC Rot-Weiß Erfurt",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": 12,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md12-e6afe9e07353",
-          "date": "2026-10-11",
-          "time": "14:00",
-          "home": "BSG Chemie Leipzig",
-          "away": "FSV 63 Luckenwalde",
           "result": null,
           "halftime_result": null,
           "location": "",
