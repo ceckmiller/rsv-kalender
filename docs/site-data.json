@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T07:04:07.179240+02:00",
+  "generated_at": "2026-09-22T13:45:42.281341+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15096,6 +15096,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u21-690001152",
+          "matchday": null,
+          "date": "2026-09-29",
+          "time": "18:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "FC Hertha 03",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/fc-hertha-03.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u21-890001058",
           "matchday": 5,
           "date": "2026-10-11",
@@ -15250,19 +15267,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001058",
-        "matchday": 5,
-        "date": "2026-10-11",
-        "time": "13:30",
-        "competition": "2.Bundesliga",
-        "home": "Hertha BSC",
-        "away": "SpVgg Greuther Fürth",
-        "home_logo": "/assets/clubs/hertha-bsc.png",
-        "away_logo": "/assets/clubs/spvgg-greuther-fuerth.png",
+        "id": "u21-690001152",
+        "matchday": null,
+        "date": "2026-09-29",
+        "time": "18:00",
+        "competition": "Regionalfreundschaftsspiele",
+        "home": "FC Hertha 03",
+        "away": "Hertha BSC",
+        "home_logo": "/assets/clubs/fc-hertha-03.png",
+        "away_logo": "/assets/clubs/hertha-bsc.png",
         "result": "",
-        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
-        "is_home": true,
+        "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
+        "is_home": false,
         "round": "",
         "ticket_url": ""
       }
