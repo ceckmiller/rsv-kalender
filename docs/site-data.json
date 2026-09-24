@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:53:04.153171+02:00",
+  "generated_at": "2026-09-24T19:17:04.603921+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4144,7 +4144,7 @@
           "round": "13",
           "matches": [
             {
-              "id": "rl-md13-d9860758edc3",
+              "id": "rl-md13-ec86cf5627de",
               "date": "2026-10-16",
               "time": "19:00",
               "home": "Hertha BSC II",
@@ -4159,8 +4159,36 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
-              "id": "rl-md13-c7a4434df41b",
-              "date": "2026-10-18",
+              "id": "rl-md13-d0832382bd05",
+              "date": "2026-10-16",
+              "time": "19:00",
+              "home": "FC Rot-Weiß Erfurt",
+              "away": "FSV Zwickau",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
+              "away_logo": "/assets/clubs/fsv-zwickau.png"
+            },
+            {
+              "id": "rl-md13-2626531a3ae7",
+              "date": "2026-10-16",
+              "time": "19:00",
+              "home": "SV Tasmania Berlin",
+              "away": "SV Babelsberg 03",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/sv-tasmania-berlin.png",
+              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
+            },
+            {
+              "id": "rl-md13-7d6b41ceb0dc",
+              "date": "2026-10-17",
               "time": "14:00",
               "home": "1. FC Lok Leipzig",
               "away": "BSG Chemie Leipzig",
@@ -4171,6 +4199,34 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
               "away_logo": "/assets/clubs/bsg-chemie-leipzig.jpg"
+            },
+            {
+              "id": "rl-md13-f0cf66701e2f",
+              "date": "2026-10-17",
+              "time": "14:00",
+              "home": "BFC Preussen 1894",
+              "away": "VSG Altglienicke",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/bfc-preussen-1894.png",
+              "away_logo": "/assets/clubs/vsg-altglienicke.png"
+            },
+            {
+              "id": "rl-md13-2c33066eddaf",
+              "date": "2026-10-17",
+              "time": "14:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "FC Carl Zeiss Jena",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 13,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             },
             {
               "id": "rl-md13-92ce76711a3d",
@@ -4201,20 +4257,6 @@
               "away_logo": "/assets/clubs/chemnitzer-fc.png"
             },
             {
-              "id": "rl-md13-78676c1fb779",
-              "date": "2026-10-18",
-              "time": "14:00",
-              "home": "BFC Preussen 1894",
-              "away": "VSG Altglienicke",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 13,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/bfc-preussen-1894.png",
-              "away_logo": "/assets/clubs/vsg-altglienicke.png"
-            },
-            {
               "id": "rl-md13-c1b22d2acbf9",
               "date": "2026-10-18",
               "time": "14:00",
@@ -4227,48 +4269,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/erzgebirge-aue.png",
               "away_logo": "/assets/clubs/hallescher-fc.png"
-            },
-            {
-              "id": "rl-md13-9a131bae9077",
-              "date": "2026-10-18",
-              "time": "14:00",
-              "home": "FC Rot-Weiß Erfurt",
-              "away": "FSV Zwickau",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 13,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
-              "away_logo": "/assets/clubs/fsv-zwickau.png"
-            },
-            {
-              "id": "rl-md13-9d9857be862b",
-              "date": "2026-10-18",
-              "time": "14:00",
-              "home": "FSV 63 Luckenwalde",
-              "away": "FC Carl Zeiss Jena",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 13,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
-              "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
-            },
-            {
-              "id": "rl-md13-06df4e98531b",
-              "date": "2026-10-18",
-              "time": "14:00",
-              "home": "SV Tasmania Berlin",
-              "away": "SV Babelsberg 03",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 13,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-tasmania-berlin.png",
-              "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
           "date": "2026-10-16",
@@ -15096,23 +15096,6 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-690001152",
-          "matchday": null,
-          "date": "2026-09-29",
-          "time": "18:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "FC Hertha 03",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/fc-hertha-03.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001058",
           "matchday": 5,
           "date": "2026-10-11",
@@ -15267,19 +15250,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-690001152",
-        "matchday": null,
-        "date": "2026-09-29",
-        "time": "18:00",
-        "competition": "Regionalfreundschaftsspiele",
-        "home": "FC Hertha 03",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/fc-hertha-03.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "id": "u21-890001058",
+        "matchday": 5,
+        "date": "2026-10-11",
+        "time": "13:30",
+        "competition": "2.Bundesliga",
+        "home": "Hertha BSC",
+        "away": "SpVgg Greuther Fürth",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/spvgg-greuther-fuerth.png",
         "result": "",
-        "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }
