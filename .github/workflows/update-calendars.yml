@@ -30,6 +30,7 @@ jobs:
           python update_calendars.py
 
       - name: Live-Daten in Netlify Blobs veröffentlichen
+        id: publish
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
@@ -37,11 +38,15 @@ jobs:
           if [ -n "$NETLIFY_SITE_ID" ] && [ -n "$NETLIFY_AUTH_TOKEN" ]; then
             npm install --omit=dev
             node scripts/publish-live-data.mjs
+            echo "published=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Netlify-Secrets fehlen – Blobs-Update übersprungen."
+            echo "published=false" >> "$GITHUB_OUTPUT"
+            echo "Netlify-Secrets fehlen – Änderungen werden per Deploy veröffentlicht."
           fi
 
       - name: Änderungen committen
+        env:
+          PUBLISHED: ${{ steps.publish.outputs.published }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -51,6 +56,10 @@ jobs:
           if git diff --cached --quiet; then
             echo "Keine Änderungen"
           else
-            git commit -m "Kalender automatisch aktualisiert"
+            if [ "$PUBLISHED" = "true" ]; then
+              git commit -m "Kalender automatisch aktualisiert [skip netlify]"
+            else
+              git commit -m "Kalender automatisch aktualisiert"
+            fi
             git push
           fi

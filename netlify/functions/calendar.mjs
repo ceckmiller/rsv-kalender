@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { getStore } from '@netlify/blobs';
 
@@ -23,7 +23,9 @@ async function readBundled(file) {
   ];
   for (const path of paths) {
     try {
-      return await readFile(path, 'utf8');
+      const text = await readFile(path, 'utf8');
+      const info = await stat(path);
+      return { text, mtimeMs: info.mtimeMs };
     } catch {
       // try next candidate
     }
@@ -31,25 +33,33 @@ async function readBundled(file) {
   return null;
 }
 
+async function readBlob(store, file) {
+  try {
+    const result = await store.getWithMetadata(file, { type: 'text' });
+    if (!result?.data) return null;
+    const updatedAt = Date.parse(result.metadata?.updatedAt || '');
+    return { text: result.data, updatedAt: Number.isFinite(updatedAt) ? updatedAt : 0 };
+  } catch {
+    try {
+      const text = await store.get(file, { type: 'text' });
+      return text ? { text, updatedAt: 0 } : null;
+    } catch {
+      return null;
+    }
+  }
+}
+
 async function pickCalendarText(store, file) {
   const bundled = await readBundled(file);
-  let blob = null;
-  let blobHash = null;
-  try {
-    blob = await store.get(file, { type: 'text' });
-    blobHash = await store.get(`${file}.sha256`, { type: 'text' });
-  } catch {
-    // blob store unavailable
-  }
+  const blob = await readBlob(store, file);
   if (bundled && blob) {
-    const bundledHash = sha256(bundled);
-    if (blobHash && bundledHash === blobHash) {
-      return bundled;
-    }
-    // After a deploy the bundled file is newer; stale blobs must not win.
-    return bundled;
+    if (sha256(bundled.text) === sha256(blob.text)) return blob.text;
+    // Blobs are written by the calendar workflow without a deploy.
+    // A newer bundled file (fresh deploy whose blob sync failed) still wins.
+    if (blob.updatedAt > bundled.mtimeMs) return blob.text;
+    return bundled.text;
   }
-  return bundled || blob;
+  return blob?.text || bundled?.text || null;
 }
 
 export default async (request) => {

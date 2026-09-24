@@ -7,17 +7,62 @@
 [functions.calendar]
   included_files = ["docs/*.ics"]
 
+[functions.site-data]
+  included_files = ["docs/site-data.json"]
+
 [[redirects]]
   from = "/api/site-data"
   to = "/.netlify/functions/site-data"
   status = 200
 
 [[redirects]]
+  from = "/site-data.json"
+  to = "/.netlify/functions/site-data"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/api/logo"
   to = "/.netlify/functions/logo"
   status = 200
 
-# ICS files are published as static assets from docs/ (always in sync with deploy).
+# ICS subscriptions stay on the same URLs, but the response comes from Blobs
+# so a calendar refresh does not need a deploy.
+[[redirects]]
+  from = "/rsv-herren.ics"
+  to = "/.netlify/functions/calendar?file=rsv-herren.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-regionalliga.ics"
+  to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u23.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u23.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u21.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u21.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/rsv-u19.ics"
+  to = "/.netlify/functions/calendar?file=rsv-u19.ics"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/hertha-bsc.ics"
+  to = "/.netlify/functions/calendar?file=hertha-bsc.ics"
+  status = 200
+  force = true
 
 [[headers]]
   for = "/*.ics"

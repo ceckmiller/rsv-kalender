@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
 import { join } from 'node:path';
 import { getStore } from '@netlify/blobs';
 
@@ -16,7 +16,9 @@ async function readBundled() {
   ];
   for (const path of paths) {
     try {
-      return await readFile(path, 'utf8');
+      const text = await readFile(path, 'utf8');
+      const info = await stat(path);
+      return { text, mtimeMs: info.mtimeMs };
     } catch {
       // try next candidate
     }
@@ -24,24 +26,31 @@ async function readBundled() {
   return null;
 }
 
+async function readBlob(store) {
+  try {
+    const result = await store.getWithMetadata('site-data.json', { type: 'text' });
+    if (!result?.data) return null;
+    const updatedAt = Date.parse(result.metadata?.updatedAt || '');
+    return { text: result.data, updatedAt: Number.isFinite(updatedAt) ? updatedAt : 0 };
+  } catch {
+    try {
+      const text = await store.get('site-data.json', { type: 'text' });
+      return text ? { text, updatedAt: 0 } : null;
+    } catch {
+      return null;
+    }
+  }
+}
+
 async function pickSiteDataText(store) {
   const bundled = await readBundled();
-  let blob = null;
-  let blobHash = null;
-  try {
-    blob = await store.get('site-data.json', { type: 'text' });
-    blobHash = await store.get('site-data.json.sha256', { type: 'text' });
-  } catch {
-    // blob store unavailable
-  }
+  const blob = await readBlob(store);
   if (bundled && blob) {
-    const bundledHash = siteDataHash(bundled);
-    if (blobHash && bundledHash === blobHash) {
-      return bundled;
-    }
-    return bundled;
+    if (siteDataHash(bundled.text) === siteDataHash(blob.text)) return blob.text;
+    if (blob.updatedAt > bundled.mtimeMs) return blob.text;
+    return bundled.text;
   }
-  return bundled || blob;
+  return blob?.text || bundled?.text || null;
 }
 
 export default async () => {
