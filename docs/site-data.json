@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:58:01.751612+02:00",
+  "generated_at": "2026-09-25T19:17:39.437150+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -9365,21 +9365,6 @@
               "source_url": "https://www.fussball.de/spiel/sg-toeplitz-1922-bredower-sv-i/-/spiel/0320RDKTE4000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "Brandenburger SC Süd 05 II",
-              "away": "SG Michendorf II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
-              "away_logo": "/assets/clubs/sg-michendorf-ii.png",
-              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-esv-lok-potsdam-bsc-rathenow",
               "date": "2026-10-04",
               "time": "14:00",
@@ -9513,6 +9498,21 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/sv-1948-ferch.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "Brandenburger SC Süd 05 II",
+              "away": "SG Michendorf II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
+              "away_logo": "/assets/clubs/sg-michendorf-ii.png",
+              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
@@ -12180,21 +12180,6 @@
               "source_url": "https://www.fussball.de/spiel/sg-toeplitz-1922-bredower-sv-i/-/spiel/0320RDKTE4000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "Brandenburger SC Süd 05 II",
-              "away": "SG Michendorf II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
-              "away_logo": "/assets/clubs/sg-michendorf-ii.png",
-              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-esv-lok-potsdam-bsc-rathenow",
               "date": "2026-10-04",
               "time": "14:00",
@@ -12328,6 +12313,21 @@
               "home_logo": "/assets/clubs/fsv-gross-kreutz-i.png",
               "away_logo": "/assets/clubs/sv-1948-ferch.png",
               "source_url": "https://www.fussball.de/spiel/fsv-gross-kreutz-i-sv-1948-ferch/-/spiel/0320RDKU6S000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "Brandenburger SC Süd 05 II",
+              "away": "SG Michendorf II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
+              "away_logo": "/assets/clubs/sg-michendorf-ii.png",
+              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-fsv-95-ketzin-falkenrehde-sg-geltow",
@@ -15096,23 +15096,6 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-690001152",
-          "matchday": null,
-          "date": "2026-09-29",
-          "time": "18:00",
-          "competition": "Regionalfreundschaftsspiele",
-          "home": "FC Hertha 03",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/fc-hertha-03.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001058",
           "matchday": 5,
           "date": "2026-10-11",
@@ -15267,19 +15250,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-690001152",
-        "matchday": null,
-        "date": "2026-09-29",
-        "time": "18:00",
-        "competition": "Regionalfreundschaftsspiele",
-        "home": "FC Hertha 03",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/fc-hertha-03.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "id": "u21-890001058",
+        "matchday": 5,
+        "date": "2026-10-11",
+        "time": "13:30",
+        "competition": "2.Bundesliga",
+        "home": "Hertha BSC",
+        "away": "SpVgg Greuther Fürth",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/spvgg-greuther-fuerth.png",
         "result": "",
-        "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }

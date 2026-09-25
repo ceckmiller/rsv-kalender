@@ -5441,21 +5441,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "Brandenburger SC Süd 05 II",
-          "away": "SG Michendorf II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sv-ziesar-1931-ii-caputher-sv-1",
           "date": "2026-10-04",
           "time": "14:00",
@@ -5559,6 +5544,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "Brandenburger SC Süd 05 II",
+          "away": "SG Michendorf II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
         }
       ]
     }
@@ -6760,21 +6760,6 @@
           "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sv-ziesar-1/-/spiel/0320RDKTJ0000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "Brandenburger SC Süd 05 II",
-          "away": "SG Michendorf II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sv-ziesar-1931-ii-caputher-sv-1",
           "date": "2026-10-04",
           "time": "14:00",
@@ -6878,6 +6863,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000082VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-brandenburger-sc-sued-05-ii-sg-michendorf-ii",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "Brandenburger SC Süd 05 II",
+          "away": "SG Michendorf II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
         }
       ]
     }
