@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:17:39.437150+02:00",
+  "generated_at": "2026-09-25T23:40:05.983096+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -3681,7 +3681,7 @@
               "time": "19:00",
               "home": "1. FC Magdeburg II",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "0:1",
               "halftime_result": null,
               "location": "",
               "matchday": 11,
@@ -3695,7 +3695,7 @@
               "time": "19:00",
               "home": "BFC Dynamo",
               "away": "Greifswalder FC",
-              "result": null,
+              "result": "1:0",
               "halftime_result": null,
               "location": "",
               "matchday": 11,
@@ -3709,7 +3709,7 @@
               "time": "19:00",
               "home": "SV Tasmania Berlin",
               "away": "FC Carl Zeiss Jena",
-              "result": null,
+              "result": "1:5",
               "halftime_result": null,
               "location": "",
               "matchday": 11,
@@ -15096,6 +15096,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u21-690001152",
+          "matchday": null,
+          "date": "2026-09-29",
+          "time": "18:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "FC Hertha 03",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/fc-hertha-03.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u21-890001058",
           "matchday": 5,
           "date": "2026-10-11",
@@ -15250,19 +15267,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001058",
-        "matchday": 5,
-        "date": "2026-10-11",
-        "time": "13:30",
-        "competition": "2.Bundesliga",
-        "home": "Hertha BSC",
-        "away": "SpVgg Greuther Fürth",
-        "home_logo": "/assets/clubs/hertha-bsc.png",
-        "away_logo": "/assets/clubs/spvgg-greuther-fuerth.png",
+        "id": "u21-690001152",
+        "matchday": null,
+        "date": "2026-09-29",
+        "time": "18:00",
+        "competition": "Regionalfreundschaftsspiele",
+        "home": "FC Hertha 03",
+        "away": "Hertha BSC",
+        "home_logo": "/assets/clubs/fc-hertha-03.png",
+        "away_logo": "/assets/clubs/hertha-bsc.png",
         "result": "",
-        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
-        "is_home": true,
+        "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
+        "is_home": false,
         "round": "",
         "ticket_url": ""
       }
@@ -15271,7 +15288,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 10. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 11. Spieltag)",
       "rows": [
         {
           "team": "FC Rot-Weiß Erfurt",
@@ -15298,6 +15315,30 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
+          "team": "BFC Dynamo",
+          "played": 11,
+          "wins": 6,
+          "draws": 3,
+          "losses": 2,
+          "goals": "20:12",
+          "diff": "+8",
+          "points": 21,
+          "position": 3,
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
+        },
+        {
+          "team": "VSG Altglienicke",
+          "played": 11,
+          "wins": 6,
+          "draws": 3,
+          "losses": 2,
+          "goals": "20:14",
+          "diff": "+6",
+          "points": 21,
+          "position": 4,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
           "team": "Erzgebirge Aue",
           "played": 10,
           "wins": 6,
@@ -15306,20 +15347,20 @@
           "goals": "19:14",
           "diff": "+5",
           "points": 21,
-          "position": 3,
+          "position": 5,
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
-          "team": "Greifswalder FC",
-          "played": 10,
-          "wins": 5,
-          "draws": 4,
-          "losses": 1,
-          "goals": "23:15",
-          "diff": "+8",
+          "team": "FC Carl Zeiss Jena",
+          "played": 11,
+          "wins": 6,
+          "draws": 1,
+          "losses": 4,
+          "goals": "19:10",
+          "diff": "+9",
           "points": 19,
-          "position": 4,
-          "logo_url": "/assets/clubs/greifswalder-fc.png"
+          "position": 6,
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "Hallescher FC",
@@ -15330,44 +15371,20 @@
           "goals": "15:7",
           "diff": "+8",
           "points": 19,
-          "position": 5,
+          "position": 7,
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
-          "team": "BFC Dynamo",
-          "played": 10,
+          "team": "Greifswalder FC",
+          "played": 11,
           "wins": 5,
-          "draws": 3,
+          "draws": 4,
           "losses": 2,
-          "goals": "19:12",
+          "goals": "23:16",
           "diff": "+7",
-          "points": 18,
-          "position": 6,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 10,
-          "wins": 5,
-          "draws": 3,
-          "losses": 2,
-          "goals": "19:14",
-          "diff": "+5",
-          "points": 18,
-          "position": 7,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
-        },
-        {
-          "team": "FC Carl Zeiss Jena",
-          "played": 10,
-          "wins": 5,
-          "draws": 1,
-          "losses": 4,
-          "goals": "14:9",
-          "diff": "+5",
-          "points": 16,
+          "points": 19,
           "position": 8,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
+          "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -15395,12 +15412,12 @@
         },
         {
           "team": "1. FC Magdeburg II",
-          "played": 10,
+          "played": 11,
           "wins": 4,
           "draws": 1,
-          "losses": 5,
-          "goals": "20:22",
-          "diff": "-2",
+          "losses": 6,
+          "goals": "20:23",
+          "diff": "-3",
           "points": 13,
           "position": 11,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
@@ -15467,12 +15484,12 @@
         },
         {
           "team": "SV Tasmania Berlin",
-          "played": 10,
+          "played": 11,
           "wins": 1,
           "draws": 2,
-          "losses": 7,
-          "goals": "12:31",
-          "diff": "-19",
+          "losses": 8,
+          "goals": "13:36",
+          "diff": "-23",
           "points": 5,
           "position": 17,
           "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
