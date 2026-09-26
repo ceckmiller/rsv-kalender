@@ -5,25 +5,36 @@
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 10,
-        "wins": 7,
+        "played": 11,
+        "wins": 8,
         "draws": 3,
         "losses": 0,
-        "goals": "32:8",
-        "diff": "+24",
-        "points": 24,
+        "goals": "36:11",
+        "diff": "+25",
+        "points": 27,
         "position": 1
       },
       {
         "team": "Chemnitzer FC",
-        "played": 10,
-        "wins": 7,
+        "played": 11,
+        "wins": 8,
         "draws": 2,
         "losses": 1,
-        "goals": "21:5",
-        "diff": "+16",
-        "points": 23,
+        "goals": "25:5",
+        "diff": "+20",
+        "points": 26,
         "position": 2
+      },
+      {
+        "team": "Hallescher FC",
+        "played": 11,
+        "wins": 6,
+        "draws": 4,
+        "losses": 1,
+        "goals": "18:9",
+        "diff": "+9",
+        "points": 22,
+        "position": 3
       },
       {
         "team": "BFC Dynamo",
@@ -34,7 +45,7 @@
         "goals": "20:12",
         "diff": "+8",
         "points": 21,
-        "position": 3
+        "position": 4
       },
       {
         "team": "VSG Altglienicke",
@@ -45,7 +56,7 @@
         "goals": "20:14",
         "diff": "+6",
         "points": 21,
-        "position": 4
+        "position": 5
       },
       {
         "team": "Erzgebirge Aue",
@@ -56,7 +67,7 @@
         "goals": "19:14",
         "diff": "+5",
         "points": 21,
-        "position": 5
+        "position": 6
       },
       {
         "team": "FC Carl Zeiss Jena",
@@ -66,17 +77,6 @@
         "losses": 4,
         "goals": "19:10",
         "diff": "+9",
-        "points": 19,
-        "position": 6
-      },
-      {
-        "team": "Hallescher FC",
-        "played": 10,
-        "wins": 5,
-        "draws": 4,
-        "losses": 1,
-        "goals": "15:7",
-        "diff": "+8",
         "points": 19,
         "position": 7
       },
@@ -93,12 +93,12 @@
       },
       {
         "team": "1. FC Lok Leipzig",
-        "played": 10,
+        "played": 11,
         "wins": 4,
         "draws": 3,
-        "losses": 3,
-        "goals": "20:19",
-        "diff": "+1",
+        "losses": 4,
+        "goals": "23:23",
+        "diff": "0",
         "points": 15,
         "position": 9
       },
@@ -126,12 +126,12 @@
       },
       {
         "team": "BFC Preussen 1894",
-        "played": 10,
+        "played": 11,
         "wins": 2,
         "draws": 4,
-        "losses": 4,
-        "goals": "12:14",
-        "diff": "-2",
+        "losses": 5,
+        "goals": "14:17",
+        "diff": "-3",
         "points": 10,
         "position": 12
       },
@@ -170,12 +170,12 @@
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 10,
+        "played": 11,
         "wins": 1,
         "draws": 3,
-        "losses": 6,
-        "goals": "13:25",
-        "diff": "-12",
+        "losses": 7,
+        "goals": "13:29",
+        "diff": "-16",
         "points": 6,
         "position": 16
       },

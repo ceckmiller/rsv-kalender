@@ -394,14 +394,22 @@
       "home": "RSV Eintracht 1949",
       "away": "Chemnitzer FC",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "0:4",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/11-spieltag/rsv-eintracht-1949-chemnitzer-fc-2426085",
       "match_number": "690047093",
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-chemnitzer-fc/-/spiel/031DEIC2QC000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO000020VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO000020VV0AG08LVUPGND5I",
+      "halftime_result": "0:3",
+      "scorers": [
+        "13. Minute – Dennis Slamar (Chemnitzer FC) – 0:1",
+        "20. Minute – Tom Baumgart (Chemnitzer FC) – 0:2",
+        "22. Minute – Jonas Marx (Chemnitzer FC) – 0:3",
+        "82. Minute – Maximilian Dieter Fesser (Chemnitzer FC) – 0:4"
+      ],
+      "referee": "Johannes Schipke"
     },
     {
       "id": "u21-710006110",
