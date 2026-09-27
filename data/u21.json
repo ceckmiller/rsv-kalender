@@ -152,12 +152,20 @@
       "home": "SG Grün-Weiß Golm II",
       "away": "RSV Eintracht 1949 U21",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "1:4",
       "location": "Sportplatz Golm, Kuhfortdamm 7, 14476 Golm",
       "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7HB8000000VS5489BTVUS470OH",
       "match_number": "610480033",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:2",
+      "scorers": [
+        "12. Minute – Jannik Sommer (RSV Eintracht 1949 U21) – 0:1",
+        "27. Minute – Tonio Schttler (RSV Eintracht 1949 U21) – 0:2",
+        "58. Minute – Tonio Schttler (RSV Eintracht 1949 U21) – 0:3",
+        "65. Minute – Benjamin Kausch (SG Grün-Weiß Golm II) – 1:3",
+        "78. Minute – Christopher Stieger (RSV Eintracht 1949 U21) – 1:4"
+      ]
     },
     {
       "id": "u21-710089084",
