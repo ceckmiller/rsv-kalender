@@ -16,6 +16,17 @@ function sha256(text) {
   return createHash('sha256').update(text).digest('hex');
 }
 
+function calendarFile(request) {
+  const url = new URL(request.url);
+  const queryFile = url.searchParams.get('file') || '';
+  if (files.has(queryFile)) return queryFile;
+  // A status-200 rewrite does not forward a query string that exists only on
+  // the redirect target. Subscribers call /rsv-herren.ics, so the name comes
+  // from the path (original URL or /calendar/<file> rewrite).
+  const name = decodeURIComponent(url.pathname.split('/').filter(Boolean).pop() || '');
+  return files.has(name) ? name : '';
+}
+
 async function readBundled(file) {
   const paths = [
     join(process.cwd(), 'docs', file),
@@ -63,9 +74,8 @@ async function pickCalendarText(store, file) {
 }
 
 export default async (request) => {
-  const url = new URL(request.url);
-  const file = url.searchParams.get('file') || '';
-  if (!files.has(file)) return new Response('Unbekannter Kalender', { status: 404 });
+  const file = calendarFile(request);
+  if (!file) return new Response('Unbekannter Kalender', { status: 404 });
   try {
     const store = getStore('rsv-live-data');
     const value = await pickCalendarText(store, file);

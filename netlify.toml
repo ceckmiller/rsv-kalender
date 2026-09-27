@@ -28,39 +28,41 @@
 
 # ICS subscriptions stay on the same URLs, but the response comes from Blobs
 # so a calendar refresh does not need a deploy.
+# The filename is part of the path: a 200-rewrite does not forward a query
+# string that exists only on the redirect target.
 [[redirects]]
   from = "/rsv-herren.ics"
-  to = "/.netlify/functions/calendar?file=rsv-herren.ics"
+  to = "/.netlify/functions/calendar/rsv-herren.ics"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rsv-regionalliga.ics"
-  to = "/.netlify/functions/calendar?file=rsv-regionalliga.ics"
+  to = "/.netlify/functions/calendar/rsv-regionalliga.ics"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rsv-u23.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u23.ics"
+  to = "/.netlify/functions/calendar/rsv-u23.ics"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rsv-u21.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u21.ics"
+  to = "/.netlify/functions/calendar/rsv-u21.ics"
   status = 200
   force = true
 
 [[redirects]]
   from = "/rsv-u19.ics"
-  to = "/.netlify/functions/calendar?file=rsv-u19.ics"
+  to = "/.netlify/functions/calendar/rsv-u19.ics"
   status = 200
   force = true
 
 [[redirects]]
   from = "/hertha-bsc.ics"
-  to = "/.netlify/functions/calendar?file=hertha-bsc.ics"
+  to = "/.netlify/functions/calendar/hertha-bsc.ics"
   status = 200
   force = true
 
