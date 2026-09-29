@@ -233,6 +233,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
       "location_source": "https://www.fussball.de/spiel/hannover-96-hertha-bsc/-/spiel/031BG6BG4C000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001127",
+      "date": "2026-12-13",
+      "time": "13:30",
+      "home": "Hertha BSC",
+      "away": "SV Darmstadt 98",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/hertha-bsc-sv-darmstadt-98/-/spiel/031BG6BGN4000000VS5489BUVUR5FS5A",
+      "match_number": "890001127",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN9V800001JVV0AG08LVUPGND5I",
+      "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-sv-darmstadt-98/-/spiel/031BG6BGN4000000VS5489BUVUR5FS5A"
     }
   ]
 }

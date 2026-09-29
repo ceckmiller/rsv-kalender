@@ -5336,21 +5336,6 @@
           "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
-          "date": "2026-10-04",
-          "time": "12:30",
-          "home": "Juventas Crew Alpha",
-          "away": "SV Ruhlsdorf I",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/016QIUUPQC000000VV0AG811VSFK1A39/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/juventas-crew-alpha-sv-ruhlsdorf-i/-/spiel/0320RDKT2O000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sg-toeplitz-1922-bredower-sv-i",
           "date": "2026-10-04",
           "time": "13:00",
@@ -5559,6 +5544,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
+          "date": "2026-10-04",
+          "time": "15:30",
+          "home": "Juventas Crew Alpha",
+          "away": "SV Ruhlsdorf I",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/016QIUUPQC000000VV0AG811VSFK1A39/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/juventas-crew-alpha-sv-ruhlsdorf-i/-/spiel/0320RDKT2O000000VS5489BTVT7QHFUC"
         }
       ]
     }
@@ -6655,21 +6655,6 @@
           "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-fsv-babelsberg-74-ii/-/spiel/0320RDKTRO000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
-          "date": "2026-10-04",
-          "time": "12:30",
-          "home": "Juventas Crew Alpha",
-          "away": "SV Ruhlsdorf I",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/016QIUUPQC000000VV0AG811VSFK1A39/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/juventas-crew-alpha-sv-ruhlsdorf-i/-/spiel/0320RDKT2O000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sg-toeplitz-1922-bredower-sv-i",
           "date": "2026-10-04",
           "time": "13:00",
@@ -6878,6 +6863,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
+          "date": "2026-10-04",
+          "time": "15:30",
+          "home": "Juventas Crew Alpha",
+          "away": "SV Ruhlsdorf I",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/016QIUUPQC000000VV0AG811VSFK1A39/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00R54QQ810000000VV0AG83KVSIC4IC7/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/juventas-crew-alpha-sv-ruhlsdorf-i/-/spiel/0320RDKT2O000000VS5489BTVT7QHFUC"
         }
       ]
     }
