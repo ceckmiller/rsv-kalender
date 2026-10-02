@@ -5471,21 +5471,6 @@
           "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-rsv-eintracht-1949-u21/-/spiel/0320RDKU04000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "Teltower FV 1913 II",
-          "away": "SV Dallgow 47",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000086VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sg-gruen-weiss-golm-ii-fc-deetz-i",
           "date": "2026-10-04",
           "time": "14:00",
@@ -5544,6 +5529,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "Teltower FV 1913 II",
+          "away": "SV Dallgow 47",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000086VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
         },
         {
           "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
@@ -6790,21 +6790,6 @@
           "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-rsv-eintracht-1949-u21/-/spiel/0320RDKU04000000VS5489BTVT7QHFUC"
         },
         {
-          "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
-          "date": "2026-10-04",
-          "time": "14:00",
-          "home": "Teltower FV 1913 II",
-          "away": "SV Dallgow 47",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000086VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
-        },
-        {
           "id": "cup-sg-gruen-weiss-golm-ii-fc-deetz-i",
           "date": "2026-10-04",
           "time": "14:00",
@@ -6863,6 +6848,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000089VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-05-ii-sg-michendorf-ii/-/spiel/0320RDKTN4000000VS5489BTVT7QHFUC"
+        },
+        {
+          "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
+          "date": "2026-10-04",
+          "time": "15:00",
+          "home": "Teltower FV 1913 II",
+          "away": "SV Dallgow 47",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000086VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
         },
         {
           "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:22:53.446165+02:00",
+  "generated_at": "2026-10-03T00:21:28.763029+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -9522,21 +9522,6 @@
               "source_url": "https://www.fussball.de/spiel/sv-ziesar-1931-ii-caputher-sv-1/-/spiel/0320RDKTPC000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "Teltower FV 1913 II",
-              "away": "SV Dallgow 47",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
-              "away_logo": "/assets/clubs/sv-dallgow-47.png",
-              "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-fsv-gross-kreutz-i-sv-1948-ferch",
               "date": "2026-10-04",
               "time": "14:30",
@@ -9580,6 +9565,21 @@
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/sg-geltow.png",
               "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "Teltower FV 1913 II",
+              "away": "SV Dallgow 47",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
+              "away_logo": "/assets/clubs/sv-dallgow-47.png",
+              "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
@@ -12376,21 +12376,6 @@
               "source_url": "https://www.fussball.de/spiel/sv-ziesar-1931-ii-caputher-sv-1/-/spiel/0320RDKTPC000000VS5489BTVT7QHFUC"
             },
             {
-              "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
-              "date": "2026-10-04",
-              "time": "14:00",
-              "home": "Teltower FV 1913 II",
-              "away": "SV Dallgow 47",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Kreispokal 2026/27",
-              "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
-              "away_logo": "/assets/clubs/sv-dallgow-47.png",
-              "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
-            },
-            {
               "id": "cup-fsv-gross-kreutz-i-sv-1948-ferch",
               "date": "2026-10-04",
               "time": "14:30",
@@ -12434,6 +12419,21 @@
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/sg-geltow.png",
               "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
+            },
+            {
+              "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
+              "date": "2026-10-04",
+              "time": "15:00",
+              "home": "Teltower FV 1913 II",
+              "away": "SV Dallgow 47",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
+              "away_logo": "/assets/clubs/sv-dallgow-47.png",
+              "source_url": "https://www.fussball.de/spiel/teltower-fv-1913-ii-sv-dallgow-47/-/spiel/0320RDKU2C000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-juventas-crew-alpha-sv-ruhlsdorf-i",
