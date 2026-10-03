@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T18:23:57.320597+02:00",
+  "generated_at": "2026-10-03T23:21:29.156895+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -9392,7 +9392,7 @@
               "time": "15:30",
               "home": "SV Viktoria Potsdam II",
               "away": "FSV Babelsberg 74 II",
-              "result": null,
+              "result": "2:8",
               "halftime_result": null,
               "location": "",
               "matchday": null,
@@ -12246,7 +12246,7 @@
               "time": "15:30",
               "home": "SV Viktoria Potsdam II",
               "away": "FSV Babelsberg 74 II",
-              "result": null,
+              "result": "2:8",
               "halftime_result": null,
               "location": "",
               "matchday": null,
