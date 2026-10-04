@@ -232,12 +232,18 @@
       "home": "SC Borea Dresden",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "2:1",
       "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
       "source_url": "https://www.fussball.de/spiel/sc-borea-dresden-rsv-eintracht-1949-u19/-/spiel/031B3S0I0G000000VS5489BUVV628VP4",
       "match_number": "690007003",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC00004GVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:1",
+      "scorers": [
+        "15. Minute – Luca Weisheit (SC Borea Dresden) – 1:0",
+        "29. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 1:1",
+        "85. Minute – Kilian Hoffmann (SC Borea Dresden) – 2:1"
+      ]
     },
     {
       "id": "u19-690007051",

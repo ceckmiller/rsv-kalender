@@ -425,7 +425,16 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002JVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "round": "Achtelfinale",
-      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-10-04/staffel/031B3AU4FS000002VS5489BUVV628VP4-R"
+      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-brandenburg-pokal-herren-saison2627-brandenburg/-/spieldatum/2026-10-04/staffel/031B3AU4FS000002VS5489BUVV628VP4-R",
+      "result": "3:2",
+      "halftime_result": "2:1",
+      "scorers": [
+        "13. Minute – Irfan Brando (SG Union Klosterfelde) – 1:0",
+        "26. Minute – Gentuar Durmishi (SG Union Klosterfelde) – 2:0",
+        "31. Minute – Eliakim-Mbila Kukanda (RSV Eintracht 1949) – 2:1",
+        "61. Minute – Ali Mohammed Kasola (RSV Eintracht 1949) – 2:2",
+        "88. Minute – Luca-Rene Heinrich (SG Union Klosterfelde) – 3:2"
+      ]
     },
     {
       "id": "rl-12",
