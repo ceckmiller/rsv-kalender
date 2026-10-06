@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T23:33:52.397352+02:00",
+  "generated_at": "2026-10-06T20:28:13.004673+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4362,7 +4362,7 @@
           "round": "14",
           "matches": [
             {
-              "id": "rl-md14-ab5b4478b4f2",
+              "id": "rl-md14-ce08ed61e2fb",
               "date": "2026-10-24",
               "time": "14:00",
               "home": "RSV Eintracht 1949",
@@ -4375,6 +4375,90 @@
               "team_fixture_id": "rl-14",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
+            },
+            {
+              "id": "rl-md14-be05052f76d7",
+              "date": "2026-10-24",
+              "time": "14:00",
+              "home": "Chemnitzer FC",
+              "away": "1. FC Magdeburg II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/chemnitzer-fc.png",
+              "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
+            },
+            {
+              "id": "rl-md14-15cdf6ce5c41",
+              "date": "2026-10-24",
+              "time": "14:00",
+              "home": "FSV Zwickau",
+              "away": "Erzgebirge Aue",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-zwickau.png",
+              "away_logo": "/assets/clubs/erzgebirge-aue.png"
+            },
+            {
+              "id": "rl-md14-0910ee930970",
+              "date": "2026-10-24",
+              "time": "16:00",
+              "home": "Greifswalder FC",
+              "away": "FC Rot-Weiß Erfurt",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/greifswalder-fc.png",
+              "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
+            },
+            {
+              "id": "rl-md14-dd943bcbde19",
+              "date": "2026-10-24",
+              "time": "19:00",
+              "home": "FC Carl Zeiss Jena",
+              "away": "BFC Dynamo",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
+              "away_logo": "/assets/clubs/bfc-dynamo.png"
+            },
+            {
+              "id": "rl-md14-3b3db6fc2fc9",
+              "date": "2026-10-24",
+              "time": "19:00",
+              "home": "SV Babelsberg 03",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+            },
+            {
+              "id": "rl-md14-b16282485b0c",
+              "date": "2026-10-24",
+              "time": "19:00",
+              "home": "VSG Altglienicke",
+              "away": "FSV 63 Luckenwalde",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 14,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             },
             {
               "id": "rl-md14-a68fefa3c1b2",
@@ -4391,62 +4475,6 @@
               "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
-              "id": "rl-md14-d3a03941a63c",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "Chemnitzer FC",
-              "away": "1. FC Magdeburg II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/chemnitzer-fc.png",
-              "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
-            },
-            {
-              "id": "rl-md14-cb917ff506a9",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "FC Carl Zeiss Jena",
-              "away": "BFC Dynamo",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
-              "away_logo": "/assets/clubs/bfc-dynamo.png"
-            },
-            {
-              "id": "rl-md14-2ee4f0e38fc3",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "FSV Zwickau",
-              "away": "Erzgebirge Aue",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-zwickau.png",
-              "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            },
-            {
-              "id": "rl-md14-2c68d824a0f8",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "Greifswalder FC",
-              "away": "FC Rot-Weiß Erfurt",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/greifswalder-fc.png",
-              "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
-            },
-            {
               "id": "rl-md14-9f2efa6775ff",
               "date": "2026-10-25",
               "time": "14:00",
@@ -4459,34 +4487,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hallescher-fc.png",
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
-            },
-            {
-              "id": "rl-md14-78492bb5fc15",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "SV Babelsberg 03",
-              "away": "BFC Preussen 1894",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
-              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
-            },
-            {
-              "id": "rl-md14-a3de616dc1c0",
-              "date": "2026-10-25",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "FSV 63 Luckenwalde",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 14,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
             }
           ],
           "date": "2026-10-24",
@@ -4525,7 +4525,7 @@
           "round": "15",
           "matches": [
             {
-              "id": "rl-md15-92b2df84ed03",
+              "id": "rl-md15-8b9431c4619a",
               "date": "2026-10-30",
               "time": "19:00",
               "home": "BFC Dynamo",
@@ -4540,9 +4540,9 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             },
             {
-              "id": "rl-md15-b54e667b6b08",
-              "date": "2026-11-01",
-              "time": "14:00",
+              "id": "rl-md15-518bf0b253aa",
+              "date": "2026-10-30",
+              "time": "19:00",
               "home": "1. FC Lok Leipzig",
               "away": "VSG Altglienicke",
               "result": null,
@@ -4554,9 +4554,23 @@
               "away_logo": "/assets/clubs/vsg-altglienicke.png"
             },
             {
-              "id": "rl-md15-ed2f130be939",
-              "date": "2026-11-01",
-              "time": "14:00",
+              "id": "rl-md15-6da18135d666",
+              "date": "2026-10-30",
+              "time": "19:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "Hertha BSC II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 15,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
+            },
+            {
+              "id": "rl-md15-f2553bf68970",
+              "date": "2026-10-31",
+              "time": "13:00",
               "home": "1. FC Magdeburg II",
               "away": "Hallescher FC",
               "result": null,
@@ -4568,8 +4582,8 @@
               "away_logo": "/assets/clubs/hallescher-fc.png"
             },
             {
-              "id": "rl-md15-cf0602651d50",
-              "date": "2026-11-01",
+              "id": "rl-md15-9cdf1f8594e9",
+              "date": "2026-10-31",
               "time": "14:00",
               "home": "BFC Preussen 1894",
               "away": "FSV Zwickau",
@@ -4582,9 +4596,9 @@
               "away_logo": "/assets/clubs/fsv-zwickau.png"
             },
             {
-              "id": "rl-md15-9c0825e7e42a",
-              "date": "2026-11-01",
-              "time": "14:00",
+              "id": "rl-md15-8496f156b53f",
+              "date": "2026-10-31",
+              "time": "14:30",
               "home": "Erzgebirge Aue",
               "away": "FC Carl Zeiss Jena",
               "result": null,
@@ -4608,20 +4622,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/fc-rot-weiss-erfurt.png",
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
-            },
-            {
-              "id": "rl-md15-3a18ef4060c6",
-              "date": "2026-11-01",
-              "time": "14:00",
-              "home": "FSV 63 Luckenwalde",
-              "away": "Hertha BSC II",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 15,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
-              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
               "id": "rl-md15-d7d17080524e",
@@ -9618,7 +9618,7 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/sg-geltow.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC#!/section/course"
+              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
@@ -12478,7 +12478,7 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/sg-geltow.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC#!/section/course"
+              "source_url": "https://www.fussball.de/spiel/fsv-95-ketzin-falkenrehde-sg-geltow/-/spiel/0320RDKTL0000000VS5489BTVT7QHFUC"
             },
             {
               "id": "cup-teltower-fv-1913-ii-sv-dallgow-47",
