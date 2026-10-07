@@ -306,6 +306,21 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003DVV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-710069003",
+      "date": "2026-11-04",
+      "time": "18:00",
+      "home": "SV Dallgow 47",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landespokal Brandenburg 2026/27",
+      "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
+      "source_url": "https://www.fussball.de/spiel/sv-dallgow-1-rsv-eintracht-1949-u19/-/spiel/032AQB5GT4000000VS5489BTVU989P58",
+      "match_number": "710069003",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "Achtelfinale",
+      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-a-junioren-flb-pokal-a-junioren-saison2627-brandenburg/-/spieldatum/2026-11-04/staffel/031EMJDIUK000000VS5489BTVUS470OH-R"
+    },
+    {
       "id": "u19-690007082",
       "date": "2026-11-08",
       "time": "13:00",
@@ -347,6 +362,19 @@
       "match_number": "690002048",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005RVV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u19-690002049",
+      "date": "2027-02-13",
+      "time": "12:00",
+      "home": "RSV Eintracht 1949 U19",
+      "away": "SV Empor Berlin U19",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sv-empor-berlin-u19/-/spiel/032AO3N1S8000000VS5489BUVV5V31CI",
+      "match_number": "690002049",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000098VV0AG08LVUPGND5I"
     },
     {
       "id": "u19-690007094",

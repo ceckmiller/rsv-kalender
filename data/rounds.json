@@ -7371,6 +7371,135 @@
           "source_url": "https://www.fussball.de/spiel/sv-arminia-magdeburg-fc-carl-zeiss-jena-u19/-/spiel/031BSD7IE8000000VS5489BTVUS470OH"
         }
       ]
+    },
+    {
+      "id": "cup:Landespokal Brandenburg:Achtelfinale",
+      "kind": "cup",
+      "title": "Achtelfinale – Landespokal Brandenburg",
+      "competition": "Landespokal Brandenburg",
+      "round": "Achtelfinale",
+      "matches": [
+        {
+          "id": "cup-fsv-63-luckenwalde-sv-falkensee-finkenkrug-i",
+          "date": "2026-11-01",
+          "time": "10:30",
+          "home": "FSV 63 Luckenwalde",
+          "away": "SV Falkensee-Finkenkrug",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-sv-falkensee-finkenkrug-i/-/spiel/032AQB5H18000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
+          "date": "2026-11-01",
+          "time": "10:30",
+          "home": "BSG Stahl Brandenburg",
+          "away": "BSC Preußen 07 Blankenfelde-Mahlow",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u19-bsc-preussen-1/-/spiel/032AQB5H3C000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-brandenburger-sc-sued-fsv-bernau-u19",
+          "date": "2026-11-01",
+          "time": "11:00",
+          "home": "Brandenburger SC Süd 05",
+          "away": "FSV Bernau",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002MVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-fsv-bernau-u19/-/spiel/032AQB5H08000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren",
+          "date": "2026-11-01",
+          "time": "11:00",
+          "home": "Werderaner FC Viktoria 1920",
+          "away": "SV Wacker 09 Cottbus-Ströbitz",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-sv-dallgow-1-rsv-eintracht-1949-u19",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "home": "SV Dallgow 47",
+          "away": "RSV Eintracht 1949",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-dallgow-1-rsv-eintracht-1949-u19/-/spiel/032AQB5GT4000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "home": "SV Germania 90 Schöneiche",
+          "away": "SV Babelsberg 03",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19/-/spiel/032AQB5GV8000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-spg-hansa-wittstock-meyenburger-sv-1-fc-frankfurt",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "home": "FK Hansa Wittstock 1919",
+          "away": "1. FC Frankfurt/​O.",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM8000028VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01DGHPNFJS000000VV0AG80NVSS6ISDC/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/spg-hansa-wittstock-meyenburger-sv-1-fc-frankfurt/-/spiel/032AQB5H2C000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19",
+          "date": "2026-11-04",
+          "time": "18:00",
+          "home": "SV 1908 Grün-Weiss Ahrensfelde",
+          "away": "FC Energie Cottbus",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00004NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
+        }
+      ]
     }
   ]
 }
