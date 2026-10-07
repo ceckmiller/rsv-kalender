@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:28:13.004673+02:00",
+  "generated_at": "2026-10-07T15:33:22.936595+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4656,31 +4656,6 @@
           "date_end": "2026-11-01"
         },
         {
-          "id": "league:Regionalliga:16",
-          "kind": "league",
-          "title": "16. Spieltag Regionalliga",
-          "competition": "Regionalliga",
-          "round": "16",
-          "matches": [
-            {
-              "id": "rl-16",
-              "date": "2026-11-08",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949",
-              "away": "FC Erzgebirge Aue",
-              "result": null,
-              "halftime_result": null,
-              "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
-              "matchday": 16,
-              "team_fixture_id": "rl-16",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/erzgebirge-aue.png"
-            }
-          ],
-          "date": "2026-11-08",
-          "date_end": "2026-11-08"
-        },
-        {
           "id": "league:Regionalliga Nordost:16",
           "kind": "league",
           "title": "16. Spieltag Regionalliga Nordost",
@@ -4703,9 +4678,9 @@
               "away_logo": "/assets/clubs/erzgebirge-aue.png"
             },
             {
-              "id": "rl-md16-613bdbc54981",
-              "date": "2026-11-08",
-              "time": "14:00",
+              "id": "rl-md16-c1dab77a017b",
+              "date": "2026-11-06",
+              "time": "19:00",
               "home": "BSG Chemie Leipzig",
               "away": "FC Rot-Weiß Erfurt",
               "result": null,
@@ -4813,6 +4788,31 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/vsg-altglienicke.png",
               "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
+            }
+          ],
+          "date": "2026-11-06",
+          "date_end": "2026-11-08"
+        },
+        {
+          "id": "league:Regionalliga:16",
+          "kind": "league",
+          "title": "16. Spieltag Regionalliga",
+          "competition": "Regionalliga",
+          "round": "16",
+          "matches": [
+            {
+              "id": "rl-16",
+              "date": "2026-11-08",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949",
+              "away": "FC Erzgebirge Aue",
+              "result": null,
+              "halftime_result": null,
+              "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+              "matchday": 16,
+              "team_fixture_id": "rl-16",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/erzgebirge-aue.png"
             }
           ],
           "date": "2026-11-08",
@@ -13734,6 +13734,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-690002048",
+          "matchday": null,
+          "date": "2027-02-07",
+          "time": "12:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949 U19",
+          "away": "SV Fortuna Magdeburg e.V.",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/sv-fortuna-magdeburg-e-v.png",
+          "result": "",
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690007094",
           "matchday": 14,
           "date": "2027-02-27",
@@ -14868,6 +14885,30 @@
           ],
           "date": "2026-11-21",
           "date_end": "2026-11-21"
+        },
+        {
+          "id": "game:u19-690002048",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002048",
+              "date": "2027-02-07",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "SV Fortuna Magdeburg e.V.",
+              "result": null,
+              "halftime_result": null,
+              "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+              "matchday": null,
+              "team_fixture_id": "u19-690002048",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/sv-fortuna-magdeburg-e-v.png"
+            }
+          ],
+          "date": "2027-02-07",
+          "date_end": "2027-02-07"
         },
         {
           "id": "league:Regionalliga:14",

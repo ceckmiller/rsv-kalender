@@ -336,6 +336,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-690002048",
+      "date": "2027-02-07",
+      "time": "12:00",
+      "home": "RSV Eintracht 1949 U19",
+      "away": "SV Fortuna Magdeburg e.V.",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sv-fortuna-magdeburg-ev/-/spiel/032AMHB9T8000000VS5489BTVU989P58",
+      "match_number": "690002048",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC2S00005RVV0AG08LVUPGND5I"
+    },
+    {
       "id": "u19-690007094",
       "date": "2027-02-27",
       "time": "12:00",
