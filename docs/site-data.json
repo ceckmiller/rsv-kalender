@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T01:10:52.830582+02:00",
+  "generated_at": "2026-10-09T15:27:06.600678+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -13751,6 +13751,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-690002051",
+          "matchday": null,
+          "date": "2027-01-30",
+          "time": "12:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949 U19",
+          "away": "Ludwigsfelder FC",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/ludwigsfelder-fc.png",
+          "result": "",
+          "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow",
+          "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690002048",
           "matchday": null,
           "date": "2027-02-07",
@@ -15051,6 +15068,30 @@
           ],
           "date": "2026-11-21",
           "date_end": "2026-11-21"
+        },
+        {
+          "id": "game:u19-690002051",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002051",
+              "date": "2027-01-30",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "Ludwigsfelder FC",
+              "result": null,
+              "halftime_result": null,
+              "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+              "matchday": null,
+              "team_fixture_id": "u19-690002051",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/ludwigsfelder-fc.png"
+            }
+          ],
+          "date": "2027-01-30",
+          "date_end": "2027-01-30"
         },
         {
           "id": "game:u19-690002048",

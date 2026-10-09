@@ -351,6 +351,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-690002051",
+      "date": "2027-01-30",
+      "time": "12:00",
+      "home": "RSV Eintracht 1949 U19",
+      "away": "Ludwigsfelder FC",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-ludwigsfelder-fc/-/spiel/032BAM3Q34000000VS5489BUVV5V31CI",
+      "match_number": "690002051",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002OVV0AG08LVUPGND5I"
+    },
+    {
       "id": "u19-690002048",
       "date": "2027-02-07",
       "time": "12:00",
