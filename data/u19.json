@@ -395,6 +395,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000098VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-690002052",
+      "date": "2027-02-20",
+      "time": "12:00",
+      "home": "RSV Eintracht 1949 U19",
+      "away": "SG Schulzendorf",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sg-schulzendorf/-/spiel/032BOD91A8000000VS5489BUVV5V31CI",
+      "match_number": "690002052",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000001JVV0AG08LVUPGND5I"
+    },
+    {
       "id": "u19-690007094",
       "date": "2027-02-27",
       "time": "12:00",

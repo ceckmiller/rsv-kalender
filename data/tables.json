@@ -37,6 +37,17 @@
         "position": 3
       },
       {
+        "team": "FC Carl Zeiss Jena",
+        "played": 12,
+        "wins": 7,
+        "draws": 1,
+        "losses": 4,
+        "goals": "21:11",
+        "diff": "+10",
+        "points": 22,
+        "position": 4
+      },
+      {
         "team": "Hallescher FC",
         "played": 11,
         "wins": 6,
@@ -45,7 +56,7 @@
         "goals": "18:9",
         "diff": "+9",
         "points": 22,
-        "position": 4
+        "position": 5
       },
       {
         "team": "VSG Altglienicke",
@@ -56,7 +67,7 @@
         "goals": "20:15",
         "diff": "+5",
         "points": 21,
-        "position": 5
+        "position": 6
       },
       {
         "team": "Erzgebirge Aue",
@@ -67,17 +78,6 @@
         "goals": "20:16",
         "diff": "+4",
         "points": 21,
-        "position": 6
-      },
-      {
-        "team": "FC Carl Zeiss Jena",
-        "played": 11,
-        "wins": 6,
-        "draws": 1,
-        "losses": 4,
-        "goals": "19:10",
-        "diff": "+9",
-        "points": 19,
         "position": 7
       },
       {
@@ -115,12 +115,12 @@
       },
       {
         "team": "1. FC Magdeburg II",
-        "played": 11,
+        "played": 12,
         "wins": 4,
         "draws": 1,
-        "losses": 6,
-        "goals": "20:23",
-        "diff": "-3",
+        "losses": 7,
+        "goals": "21:25",
+        "diff": "-4",
         "points": 13,
         "position": 11
       },
@@ -137,14 +137,25 @@
       },
       {
         "team": "BFC Preussen 1894",
-        "played": 11,
+        "played": 12,
+        "wins": 2,
+        "draws": 5,
+        "losses": 5,
+        "goals": "15:18",
+        "diff": "-3",
+        "points": 11,
+        "position": 13
+      },
+      {
+        "team": "Hertha BSC II",
+        "played": 12,
         "wins": 2,
         "draws": 4,
-        "losses": 5,
-        "goals": "14:17",
-        "diff": "-3",
+        "losses": 6,
+        "goals": "10:22",
+        "diff": "-12",
         "points": 10,
-        "position": 13
+        "position": 14
       },
       {
         "team": "BSG Chemie Leipzig",
@@ -154,17 +165,6 @@
         "losses": 7,
         "goals": "13:20",
         "diff": "-7",
-        "points": 9,
-        "position": 14
-      },
-      {
-        "team": "Hertha BSC II",
-        "played": 11,
-        "wins": 2,
-        "draws": 3,
-        "losses": 6,
-        "goals": "9:21",
-        "diff": "-12",
         "points": 9,
         "position": 15
       },
