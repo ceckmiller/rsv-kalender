@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T00:45:10.087295+02:00",
+  "generated_at": "2026-10-10T07:59:39.879035+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15730,8 +15730,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001127",
+          "id": "u21-890001120",
           "matchday": 12,
+          "date": "2026-12-06",
+          "time": "13:30",
+          "competition": "2.Bundesliga",
+          "home": "Hannover 96",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/hannover-96.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Heinz+von+Heiden+Arena%2C+Robert-Enke-Str.+3%2C+30169+Hannover",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001127",
+          "matchday": 13,
           "date": "2026-12-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
