@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T07:59:39.879035+02:00",
+  "generated_at": "2026-10-10T14:39:49.303747+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -13424,6 +13424,27 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+SG+Wei%C3%9Fig+Rasen%2C+Heinrich-Lange-Str.+37%2C+01328+Dresden",
           "points": 6,
           "table_position": null
+        },
+        {
+          "id": "u19-690007051",
+          "matchday": 8,
+          "date": "2026-10-10",
+          "time": "11:00",
+          "competition": "Regionalliga",
+          "home": "1. FC Frankfurt /​O.",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/1-fc-frankfurt-oder.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "2:0",
+          "halftime_result": "0:0",
+          "scorers": [
+            "75. Minute – Leonard Scheunemann (1. FC Frankfurt /​O.) – 1:0",
+            "84. Minute – Egon Lock (1. FC Frankfurt /​O.) – 2:0"
+          ],
+          "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+der+Freundschaft%2C+Dieter-Schulz-Platz%2C+Buschm%C3%BChlenweg+172%2C+15230+Frankfurt+%28Oder%29",
+          "points": 6,
+          "table_position": null
         }
       ],
       "fixtures": [
@@ -13641,7 +13662,7 @@
           "away": "RSV Eintracht 1949 U19",
           "home_logo": "/assets/clubs/1-fc-frankfurt-oder.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "2:0",
           "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+der+Freundschaft%2C+Dieter-Schulz-Platz%2C+Buschm%C3%BChlenweg+172%2C+15230+Frankfurt+%28Oder%29",
           "is_home": false,
@@ -14800,8 +14821,8 @@
               "time": "11:00",
               "home": "1. FC Frankfurt /​O.",
               "away": "RSV Eintracht 1949 U19",
-              "result": null,
-              "halftime_result": null,
+              "result": "2:0",
+              "halftime_result": "0:0",
               "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
               "matchday": 8,
               "team_fixture_id": "u19-690007051",
@@ -15468,22 +15489,6 @@
         }
       ],
       "next_game": {
-        "id": "u19-690007051",
-        "matchday": 8,
-        "date": "2026-10-10",
-        "time": "11:00",
-        "competition": "Regionalliga",
-        "home": "1. FC Frankfurt /​O.",
-        "away": "RSV Eintracht 1949 U19",
-        "home_logo": "/assets/clubs/1-fc-frankfurt-oder.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+der+Freundschaft%2C+Dieter-Schulz-Platz%2C+Buschm%C3%BChlenweg+172%2C+15230+Frankfurt+%28Oder%29",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u19-690007060",
         "matchday": 9,
         "date": "2026-10-17",
@@ -15498,7 +15503,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     }
   },
   "calendar_teams": {
@@ -15730,25 +15736,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001120",
-          "matchday": 12,
-          "date": "2026-12-06",
-          "time": "13:30",
-          "competition": "2.Bundesliga",
-          "home": "Hannover 96",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/hannover-96.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Heinz+von+Heiden+Arena%2C+Robert-Enke-Str.+3%2C+30169+Hannover",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001127",
-          "matchday": 13,
+          "matchday": 12,
           "date": "2026-12-13",
           "time": "13:30",
           "competition": "2.Bundesliga",

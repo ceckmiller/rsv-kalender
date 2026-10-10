@@ -252,13 +252,18 @@
       "home": "1. FC Frankfurt /​O.",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "2:0",
       "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
       "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-rsv-eintracht-1949-u19/-/spiel/031B3S0FL4000000VS5489BUVV628VP4",
       "match_number": "690007051",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01DGHPNFJS000000VV0AG80NVSS6ISDC",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:0",
+      "scorers": [
+        "75. Minute – Leonard Scheunemann (1. FC Frankfurt /​O.) – 1:0",
+        "84. Minute – Egon Lock (1. FC Frankfurt /​O.) – 2:0"
+      ]
     },
     {
       "id": "u19-690007060",
