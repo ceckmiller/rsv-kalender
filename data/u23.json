@@ -274,12 +274,17 @@
       "home": "RSV Eintracht 1949 U23",
       "away": "SV Dallgow 47",
       "competition": "Kreisoberliga 2026/27",
-      "result": null,
+      "result": "1:1",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-sv-dallgow-47/-/spiel/031D1IIC8C000000VS5489BTVUS470OH",
       "match_number": "610138052",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I",
+      "halftime_result": "1:0",
+      "scorers": [
+        "28. Minute – Ardit Fazli (RSV Eintracht 1949 U23) – 1:0",
+        "70. Minute – Elias Kuhnert (SV Dallgow 47) – 1:1"
+      ]
     },
     {
       "id": "u23-610138061",

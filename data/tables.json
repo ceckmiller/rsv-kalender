@@ -4,26 +4,37 @@
     "updated_at": "Aktueller Stand (bis 12. Spieltag)",
     "rows": [
       {
-        "team": "FC Rot-Weiß Erfurt",
-        "played": 11,
-        "wins": 8,
-        "draws": 3,
-        "losses": 0,
-        "goals": "36:11",
-        "diff": "+25",
-        "points": 27,
+        "team": "Chemnitzer FC",
+        "played": 12,
+        "wins": 9,
+        "draws": 2,
+        "losses": 1,
+        "goals": "28:6",
+        "diff": "+22",
+        "points": 29,
         "position": 1
       },
       {
-        "team": "Chemnitzer FC",
-        "played": 11,
+        "team": "FC Rot-Weiß Erfurt",
+        "played": 12,
         "wins": 8,
-        "draws": 2,
+        "draws": 3,
         "losses": 1,
-        "goals": "25:5",
-        "diff": "+20",
-        "points": 26,
+        "goals": "37:14",
+        "diff": "+23",
+        "points": 27,
         "position": 2
+      },
+      {
+        "team": "Hallescher FC",
+        "played": 12,
+        "wins": 7,
+        "draws": 4,
+        "losses": 1,
+        "goals": "19:9",
+        "diff": "+10",
+        "points": 25,
+        "position": 3
       },
       {
         "team": "BFC Dynamo",
@@ -34,7 +45,7 @@
         "goals": "21:12",
         "diff": "+9",
         "points": 24,
-        "position": 3
+        "position": 4
       },
       {
         "team": "FC Carl Zeiss Jena",
@@ -45,18 +56,18 @@
         "goals": "21:11",
         "diff": "+10",
         "points": 22,
-        "position": 4
+        "position": 5
       },
       {
-        "team": "Hallescher FC",
-        "played": 11,
+        "team": "Greifswalder FC",
+        "played": 12,
         "wins": 6,
         "draws": 4,
-        "losses": 1,
-        "goals": "18:9",
-        "diff": "+9",
+        "losses": 2,
+        "goals": "24:16",
+        "diff": "+8",
         "points": 22,
-        "position": 5
+        "position": 6
       },
       {
         "team": "VSG Altglienicke",
@@ -67,28 +78,17 @@
         "goals": "20:15",
         "diff": "+5",
         "points": 21,
-        "position": 6
-      },
-      {
-        "team": "Erzgebirge Aue",
-        "played": 11,
-        "wins": 6,
-        "draws": 3,
-        "losses": 2,
-        "goals": "20:16",
-        "diff": "+4",
-        "points": 21,
         "position": 7
       },
       {
-        "team": "Greifswalder FC",
-        "played": 11,
-        "wins": 5,
-        "draws": 4,
-        "losses": 2,
-        "goals": "23:16",
-        "diff": "+7",
-        "points": 19,
+        "team": "Erzgebirge Aue",
+        "played": 12,
+        "wins": 6,
+        "draws": 3,
+        "losses": 3,
+        "goals": "20:17",
+        "diff": "+3",
+        "points": 21,
         "position": 8
       },
       {
@@ -104,14 +104,25 @@
       },
       {
         "team": "1. FC Lok Leipzig",
-        "played": 11,
+        "played": 12,
         "wins": 4,
-        "draws": 3,
+        "draws": 4,
         "losses": 4,
         "goals": "23:23",
         "diff": "0",
-        "points": 15,
+        "points": 16,
         "position": 10
+      },
+      {
+        "team": "SV Babelsberg 03",
+        "played": 12,
+        "wins": 3,
+        "draws": 4,
+        "losses": 5,
+        "goals": "14:17",
+        "diff": "-3",
+        "points": 13,
+        "position": 11
       },
       {
         "team": "1. FC Magdeburg II",
@@ -122,17 +133,6 @@
         "goals": "21:25",
         "diff": "-4",
         "points": 13,
-        "position": 11
-      },
-      {
-        "team": "SV Babelsberg 03",
-        "played": 11,
-        "wins": 3,
-        "draws": 3,
-        "losses": 5,
-        "goals": "14:17",
-        "diff": "-3",
-        "points": 12,
         "position": 12
       },
       {
@@ -170,12 +170,12 @@
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 11,
+        "played": 12,
         "wins": 1,
         "draws": 3,
-        "losses": 7,
-        "goals": "13:29",
-        "diff": "-16",
+        "losses": 8,
+        "goals": "13:30",
+        "diff": "-17",
         "points": 6,
         "position": 16
       },

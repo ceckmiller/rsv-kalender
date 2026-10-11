@@ -195,13 +195,24 @@
       "home": "Rot-Weiß Groß Glienicke",
       "away": "RSV Eintracht 1949 U21",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "6:2",
       "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
       "source_url": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-rsv-eintracht-1949-u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH",
       "match_number": "610480055",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008GVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "location_source": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-rsv-eintracht-1949-u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH"
+      "location_source": "https://www.fussball.de/spiel/rot-weiss-gross-glienicke-rsv-eintracht-1949-u21/-/spiel/031D5U7GR8000000VS5489BTVUS470OH",
+      "halftime_result": "1:1",
+      "scorers": [
+        "10. Minute – Fabian Breitz (Rot-Weiß Groß Glienicke) – 1:0",
+        "38. Minute – Louis Lekkos (RSV Eintracht 1949 U21) – 1:1",
+        "47. Minute – Jonathan David Patt (RSV Eintracht 1949 U21) – 1:2",
+        "57. Minute – Sean Flood (Rot-Weiß Groß Glienicke) – 2:2",
+        "66. Minute – Fabian Breitz (Rot-Weiß Groß Glienicke) – 3:2",
+        "80. Minute – Lasse Busch (Rot-Weiß Groß Glienicke) – 4:2",
+        "90. Minute – Lasse Busch (Rot-Weiß Groß Glienicke) – 5:2",
+        "90. Minute – Mika Maresch (Rot-Weiß Groß Glienicke) – 6:2"
+      ]
     },
     {
       "id": "u21-610480060",

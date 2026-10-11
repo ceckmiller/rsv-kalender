@@ -443,7 +443,7 @@
       "home": "Hallescher FC",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:0",
       "location": "LEUNA-CHEMIE-STADION, Kantstr. 2, 06110 Halle (Saale)",
       "source_url": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/12-spieltag/hallescher-fc-rsv-eintracht-1949-2426092",
@@ -451,7 +451,12 @@
       "location_source": "https://www.fussball.de/spiel/hallescher-fc-rsv-eintracht-1949/-/spiel/031DEIC3KO000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC4400006GVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "referee": "Oskar Lämpel"
+      "referee": "Oskar Lämpel",
+      "halftime_result": "0:0",
+      "scorers": [
+        "46. Minute – Osman Atilgan (Hallescher FC) – 1:0"
+      ],
+      "attendance": 5341
     },
     {
       "id": "rl-13",
