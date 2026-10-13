@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:19:25.850076+02:00",
+  "generated_at": "2026-10-14T00:50:43.027441+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -8034,31 +8034,6 @@
           "table_position": null
         },
         {
-          "id": "u23-610138036",
-          "matchday": 6,
-          "date": "2026-09-27",
-          "time": "14:00",
-          "competition": "Kreisoberliga",
-          "home": "RSV Eintracht 1949 U23",
-          "away": "Fortuna Babelsberg II",
-          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
-          "result": "3:3",
-          "halftime_result": "2:1",
-          "scorers": [
-            "4. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 1:0",
-            "27. Minute – Ali Hoseini (RSV Eintracht 1949 U23) – 2:0",
-            "45. Minute – Maximilian Lehe (Fortuna Babelsberg II) – 2:1",
-            "72. Minute – Niclas Donatz (Fortuna Babelsberg II) – 2:2",
-            "83. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 3:2",
-            "90. Minute – Cedrick Rzepka (Fortuna Babelsberg II) – 3:3"
-          ],
-          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-          "points": 5,
-          "table_position": null
-        },
-        {
           "id": "u23-710089074",
           "matchday": null,
           "date": "2026-10-04",
@@ -8086,7 +8061,7 @@
         },
         {
           "id": "u23-610138052",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8102,7 +8077,32 @@
           ],
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-          "points": 6,
+          "points": 5,
+          "table_position": null
+        },
+        {
+          "id": "u23-610138036",
+          "matchday": null,
+          "date": "2026-11-15",
+          "time": "14:00",
+          "competition": "Kreispokal",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "Fortuna Babelsberg II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+          "result": "3:3",
+          "halftime_result": "2:1",
+          "scorers": [
+            "4. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 1:0",
+            "27. Minute – Ali Hoseini (RSV Eintracht 1949 U23) – 2:0",
+            "45. Minute – Maximilian Lehe (Fortuna Babelsberg II) – 2:1",
+            "72. Minute – Niclas Donatz (Fortuna Babelsberg II) – 2:2",
+            "83. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 3:2",
+            "90. Minute – Cedrick Rzepka (Fortuna Babelsberg II) – 3:3"
+          ],
+          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "points": null,
           "table_position": null
         }
       ],
@@ -8278,23 +8278,6 @@
           "ticket_url": ""
         },
         {
-          "id": "u23-610138036",
-          "matchday": 6,
-          "date": "2026-09-27",
-          "time": "14:00",
-          "competition": "Kreisoberliga",
-          "home": "RSV Eintracht 1949 U23",
-          "away": "Fortuna Babelsberg II",
-          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
-          "result": "3:3",
-          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-          "is_home": true,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u23-710089074",
           "matchday": null,
           "date": "2026-10-04",
@@ -8313,7 +8296,7 @@
         },
         {
           "id": "u23-610138052",
-          "matchday": 7,
+          "matchday": 6,
           "date": "2026-10-11",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8330,7 +8313,7 @@
         },
         {
           "id": "u23-610138061",
-          "matchday": 8,
+          "matchday": 7,
           "date": "2026-10-18",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8347,7 +8330,7 @@
         },
         {
           "id": "u23-610138068",
-          "matchday": 9,
+          "matchday": 8,
           "date": "2026-10-25",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8364,7 +8347,7 @@
         },
         {
           "id": "u23-610138076",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-01",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8381,7 +8364,7 @@
         },
         {
           "id": "u23-610138082",
-          "matchday": 11,
+          "matchday": 10,
           "date": "2026-11-08",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8397,8 +8380,25 @@
           "ticket_url": ""
         },
         {
+          "id": "u23-610138036",
+          "matchday": null,
+          "date": "2026-11-15",
+          "time": "14:00",
+          "competition": "Kreispokal",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "Fortuna Babelsberg II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+          "result": "3:3",
+          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
+          "round": "Achtelfinale",
+          "ticket_url": ""
+        },
+        {
           "id": "u23-610138092",
-          "matchday": 12,
+          "matchday": 11,
           "date": "2026-11-15",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8415,7 +8415,7 @@
         },
         {
           "id": "u23-610138104",
-          "matchday": 13,
+          "matchday": 12,
           "date": "2026-11-22",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8432,7 +8432,7 @@
         },
         {
           "id": "u23-610138108",
-          "matchday": 14,
+          "matchday": 13,
           "date": "2026-11-29",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8449,7 +8449,7 @@
         },
         {
           "id": "u23-610138118",
-          "matchday": 15,
+          "matchday": 14,
           "date": "2026-12-06",
           "time": "15:30",
           "competition": "Kreisoberliga",
@@ -8466,7 +8466,7 @@
         },
         {
           "id": "u23-610138047",
-          "matchday": 16,
+          "matchday": 15,
           "date": "2026-12-13",
           "time": "13:00",
           "competition": "Kreisoberliga",
@@ -8483,7 +8483,7 @@
         },
         {
           "id": "u23-610138124",
-          "matchday": 17,
+          "matchday": 16,
           "date": "2027-02-21",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8500,7 +8500,7 @@
         },
         {
           "id": "u23-610138132",
-          "matchday": 18,
+          "matchday": 17,
           "date": "2027-02-28",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8517,7 +8517,7 @@
         },
         {
           "id": "u23-610138140",
-          "matchday": 19,
+          "matchday": 18,
           "date": "2027-03-07",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8534,7 +8534,7 @@
         },
         {
           "id": "u23-610138146",
-          "matchday": 20,
+          "matchday": 19,
           "date": "2027-03-14",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8551,7 +8551,7 @@
         },
         {
           "id": "u23-610138156",
-          "matchday": 21,
+          "matchday": 20,
           "date": "2027-03-21",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8568,7 +8568,7 @@
         },
         {
           "id": "u23-610138167",
-          "matchday": 22,
+          "matchday": 21,
           "date": "2027-04-04",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8585,7 +8585,7 @@
         },
         {
           "id": "u23-610138172",
-          "matchday": 23,
+          "matchday": 22,
           "date": "2027-04-11",
           "time": "14:30",
           "competition": "Kreisoberliga",
@@ -8602,7 +8602,7 @@
         },
         {
           "id": "u23-610138181",
-          "matchday": 24,
+          "matchday": 23,
           "date": "2027-04-18",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8619,7 +8619,7 @@
         },
         {
           "id": "u23-610138188",
-          "matchday": 25,
+          "matchday": 24,
           "date": "2027-04-25",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8636,7 +8636,7 @@
         },
         {
           "id": "u23-610138196",
-          "matchday": 26,
+          "matchday": 25,
           "date": "2027-05-02",
           "time": "11:00",
           "competition": "Kreisoberliga",
@@ -8653,7 +8653,7 @@
         },
         {
           "id": "u23-610138202",
-          "matchday": 27,
+          "matchday": 26,
           "date": "2027-05-09",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8670,7 +8670,7 @@
         },
         {
           "id": "u23-610138216",
-          "matchday": 28,
+          "matchday": 27,
           "date": "2027-05-23",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8687,7 +8687,7 @@
         },
         {
           "id": "u23-610138220",
-          "matchday": 29,
+          "matchday": 28,
           "date": "2027-05-30",
           "time": "15:00",
           "competition": "Kreisoberliga",
@@ -8704,7 +8704,7 @@
         },
         {
           "id": "u23-610138230",
-          "matchday": 30,
+          "matchday": 29,
           "date": "2027-06-06",
           "time": "14:00",
           "competition": "Kreisoberliga",
@@ -8721,7 +8721,7 @@
         },
         {
           "id": "u23-610138236",
-          "matchday": 31,
+          "matchday": 30,
           "date": "2027-06-12",
           "time": "17:00",
           "competition": "Kreisoberliga",
@@ -9423,31 +9423,6 @@
           "date_end": "2026-09-20"
         },
         {
-          "id": "league:Kreisoberliga:6",
-          "kind": "league",
-          "title": "Sechster Spieltag Kreisoberliga",
-          "competition": "Kreisoberliga",
-          "round": "6",
-          "matches": [
-            {
-              "id": "u23-610138036",
-              "date": "2026-09-27",
-              "time": "14:00",
-              "home": "RSV Eintracht 1949 U23",
-              "away": "Fortuna Babelsberg II",
-              "result": "3:3",
-              "halftime_result": "2:1",
-              "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 6,
-              "team_fixture_id": "u23-610138036",
-              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png"
-            }
-          ],
-          "date": "2026-09-27",
-          "date_end": "2026-09-27"
-        },
-        {
           "id": "cup:Kreispokal:3. Runde",
           "kind": "cup",
           "title": "3. Runde – Kreispokal",
@@ -9700,11 +9675,11 @@
           "date_end": "2026-10-04"
         },
         {
-          "id": "league:Kreisoberliga:7",
+          "id": "league:Kreisoberliga:6",
           "kind": "league",
-          "title": "Siebter Spieltag Kreisoberliga",
+          "title": "Sechster Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "7",
+          "round": "6",
           "matches": [
             {
               "id": "u23-610138052",
@@ -9715,7 +9690,7 @@
               "result": "1:1",
               "halftime_result": "1:0",
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 7,
+              "matchday": 6,
               "team_fixture_id": "u23-610138052",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-dallgow-47.png"
@@ -9725,11 +9700,11 @@
           "date_end": "2026-10-11"
         },
         {
-          "id": "league:Kreisoberliga:8",
+          "id": "league:Kreisoberliga:7",
           "kind": "league",
-          "title": "Achter Spieltag Kreisoberliga",
+          "title": "Siebter Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "8",
+          "round": "7",
           "matches": [
             {
               "id": "u23-610138061",
@@ -9740,7 +9715,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
-              "matchday": 8,
+              "matchday": 7,
               "team_fixture_id": "u23-610138061",
               "home_logo": "/assets/clubs/sg-eintracht-friesack.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9750,11 +9725,11 @@
           "date_end": "2026-10-18"
         },
         {
-          "id": "league:Kreisoberliga:9",
+          "id": "league:Kreisoberliga:8",
           "kind": "league",
-          "title": "Neunter Spieltag Kreisoberliga",
+          "title": "Achter Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "9",
+          "round": "8",
           "matches": [
             {
               "id": "u23-610138068",
@@ -9765,7 +9740,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 9,
+              "matchday": 8,
               "team_fixture_id": "u23-610138068",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-babelsberg-74-ii.png"
@@ -9775,11 +9750,11 @@
           "date_end": "2026-10-25"
         },
         {
-          "id": "league:Kreisoberliga:10",
+          "id": "league:Kreisoberliga:9",
           "kind": "league",
-          "title": "Zehnter Spieltag Kreisoberliga",
+          "title": "Neunter Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "10",
+          "round": "9",
           "matches": [
             {
               "id": "u23-610138076",
@@ -9790,7 +9765,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 10,
+              "matchday": 9,
               "team_fixture_id": "u23-610138076",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/united-teltow-fc.png"
@@ -9800,11 +9775,11 @@
           "date_end": "2026-11-01"
         },
         {
-          "id": "league:Kreisoberliga:11",
+          "id": "league:Kreisoberliga:10",
           "kind": "league",
-          "title": "11. Spieltag Kreisoberliga",
+          "title": "Zehnter Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "11",
+          "round": "10",
           "matches": [
             {
               "id": "u23-610138082",
@@ -9815,7 +9790,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
-              "matchday": 11,
+              "matchday": 10,
               "team_fixture_id": "u23-610138082",
               "home_logo": "/assets/clubs/bredower-sv.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9825,11 +9800,143 @@
           "date_end": "2026-11-08"
         },
         {
-          "id": "league:Kreisoberliga:12",
+          "id": "cup:Kreispokal:Achtelfinale",
+          "kind": "cup",
+          "title": "Achtelfinale – Kreispokal",
+          "competition": "Kreispokal",
+          "round": "Achtelfinale",
+          "matches": [
+            {
+              "id": "cup-rsv-eintracht-1949-u23-fortuna-babelsberg-ii",
+              "date": "2026-11-15",
+              "time": "14:00",
+              "home": "RSV Eintracht 1949 U23",
+              "away": "Fortuna Babelsberg II",
+              "result": "3:3",
+              "halftime_result": "2:1",
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+              "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58",
+              "team_fixture_id": "u23-610138036"
+            },
+            {
+              "id": "cup-fsv-babelsberg-74-iii-caputher-sv-1",
+              "date": "2026-11-13",
+              "time": "19:30",
+              "home": "FSV Babelsberg 74 III",
+              "away": "Caputher SV",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-babelsberg-74-iii.png",
+              "away_logo": "/assets/clubs/caputher-sv.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-caputher-sv-1/-/spiel/032CBPKE7G000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-esv-lok-potsdam-bredower-sv-i",
+              "date": "2026-11-15",
+              "time": "13:00",
+              "home": "ESV Lok Potsdam",
+              "away": "Bredower SV",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/esv-lok-potsdam.png",
+              "away_logo": "/assets/clubs/bredower-sv.png",
+              "source_url": "https://www.fussball.de/spiel/esv-lok-potsdam-bredower-sv-i/-/spiel/032CBPKEHC000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-fc-borussia-brandenburg-ii-sg-blau-weiss-pessin",
+              "date": "2026-11-15",
+              "time": "13:00",
+              "home": "FC Borussia Brandenburg II",
+              "away": "SG Blau-Weiß Pessin",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fc-borussia-brandenburg-ii.png",
+              "away_logo": "/assets/clubs/sg-blau-weiss-pessin.png",
+              "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sg-blau-weiss-pessin/-/spiel/032CBPKEBK000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-sg-blau-weiss-beelitz-sv-ruhlsdorf-i",
+              "date": "2026-11-15",
+              "time": "13:00",
+              "home": "SG Blau-Weiß Beelitz",
+              "away": "SV Ruhlsdorf",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/sg-blau-weiss-beelitz.png",
+              "away_logo": "/assets/clubs/sv-ruhlsdorf.png",
+              "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-beelitz-sv-ruhlsdorf-i/-/spiel/032CBPKEDK000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-sg-gruen-weiss-golm-ii-sv-dallgow-47",
+              "date": "2026-11-15",
+              "time": "13:00",
+              "home": "SG Grün-Weiß Golm II",
+              "away": "SV Dallgow 47",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/sg-gruen-weiss-golm-ii.png",
+              "away_logo": "/assets/clubs/sv-dallgow-47.png",
+              "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-sv-dallgow-47/-/spiel/032CBPKEFK000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-sv-1948-ferch-sg-michendorf-ii",
+              "date": "2026-11-15",
+              "time": "13:00",
+              "home": "SV 1948 Ferch",
+              "away": "SG Michendorf II",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/sv-1948-ferch.png",
+              "away_logo": "/assets/clubs/sg-michendorf-ii.png",
+              "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sg-michendorf-ii/-/spiel/032CBPKE9C000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde",
+              "date": "2026-11-15",
+              "time": "15:00",
+              "home": "FSV Babelsberg 74 II",
+              "away": "FSV 95 Ketzin/​Falkenrehde",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Kreispokal 2026/27",
+              "home_logo": "/assets/clubs/fsv-babelsberg-74-ii.png",
+              "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde/-/spiel/032CBPKE48000000VS5489BTVU989P58"
+            }
+          ],
+          "date": "2026-11-13",
+          "date_end": "2026-11-15"
+        },
+        {
+          "id": "league:Kreisoberliga:11",
           "kind": "league",
-          "title": "12. Spieltag Kreisoberliga",
+          "title": "11. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "12",
+          "round": "11",
           "matches": [
             {
               "id": "u23-610138092",
@@ -9840,7 +9947,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 12,
+              "matchday": 11,
               "team_fixture_id": "u23-610138092",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
@@ -9850,11 +9957,11 @@
           "date_end": "2026-11-15"
         },
         {
-          "id": "league:Kreisoberliga:13",
+          "id": "league:Kreisoberliga:12",
           "kind": "league",
-          "title": "13. Spieltag Kreisoberliga",
+          "title": "12. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "13",
+          "round": "12",
           "matches": [
             {
               "id": "u23-610138104",
@@ -9865,7 +9972,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Pessin, Straße der Jugend 26, 14641 Pessin",
-              "matchday": 13,
+              "matchday": 12,
               "team_fixture_id": "u23-610138104",
               "home_logo": "/assets/clubs/sg-blau-weiss-pessin.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9875,11 +9982,11 @@
           "date_end": "2026-11-22"
         },
         {
-          "id": "league:Kreisoberliga:14",
+          "id": "league:Kreisoberliga:13",
           "kind": "league",
-          "title": "14. Spieltag Kreisoberliga",
+          "title": "13. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "14",
+          "round": "13",
           "matches": [
             {
               "id": "u23-610138108",
@@ -9890,7 +9997,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 14,
+              "matchday": 13,
               "team_fixture_id": "u23-610138108",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png"
@@ -9900,11 +10007,11 @@
           "date_end": "2026-11-29"
         },
         {
-          "id": "league:Kreisoberliga:15",
+          "id": "league:Kreisoberliga:14",
           "kind": "league",
-          "title": "15. Spieltag Kreisoberliga",
+          "title": "14. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "15",
+          "round": "14",
           "matches": [
             {
               "id": "u23-610138118",
@@ -9915,7 +10022,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Hellerfichten, Hauptplatz KR, Teltower Str., 14552 Michendorf",
-              "matchday": 15,
+              "matchday": 14,
               "team_fixture_id": "u23-610138118",
               "home_logo": "/assets/clubs/sg-michendorf-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9925,11 +10032,11 @@
           "date_end": "2026-12-06"
         },
         {
-          "id": "league:Kreisoberliga:16",
+          "id": "league:Kreisoberliga:15",
           "kind": "league",
-          "title": "16. Spieltag Kreisoberliga",
+          "title": "15. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "16",
+          "round": "15",
           "matches": [
             {
               "id": "u23-610138047",
@@ -9940,7 +10047,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Stadion am Quenz, Platz 2, Thüringer Str. 251, 14770 Brandenburg an der Havel",
-              "matchday": 16,
+              "matchday": 15,
               "team_fixture_id": "u23-610138047",
               "home_logo": "/assets/clubs/bsg-stahl-brandenburg-u23.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9950,11 +10057,11 @@
           "date_end": "2026-12-13"
         },
         {
-          "id": "league:Kreisoberliga:17",
+          "id": "league:Kreisoberliga:16",
           "kind": "league",
-          "title": "17. Spieltag Kreisoberliga",
+          "title": "16. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "17",
+          "round": "16",
           "matches": [
             {
               "id": "u23-610138124",
@@ -9965,7 +10072,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Ketzin, Friedrich-Ludwig-Jahn-Weg 32, 14669 Ketzin/Havel",
-              "matchday": 17,
+              "matchday": 16,
               "team_fixture_id": "u23-610138124",
               "home_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -9975,11 +10082,11 @@
           "date_end": "2027-02-21"
         },
         {
-          "id": "league:Kreisoberliga:18",
+          "id": "league:Kreisoberliga:17",
           "kind": "league",
-          "title": "18. Spieltag Kreisoberliga",
+          "title": "17. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "18",
+          "round": "17",
           "matches": [
             {
               "id": "u23-610138132",
@@ -9990,7 +10097,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 18,
+              "matchday": 17,
               "team_fixture_id": "u23-610138132",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-ziesar-31.png"
@@ -10000,11 +10107,11 @@
           "date_end": "2027-02-28"
         },
         {
-          "id": "league:Kreisoberliga:19",
+          "id": "league:Kreisoberliga:18",
           "kind": "league",
-          "title": "19. Spieltag Kreisoberliga",
+          "title": "18. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "19",
+          "round": "18",
           "matches": [
             {
               "id": "u23-610138140",
@@ -10015,7 +10122,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Dittmar-Hartung-Sportplatz, Sputendorfer Str. 56, 14513 Teltow",
-              "matchday": 19,
+              "matchday": 18,
               "team_fixture_id": "u23-610138140",
               "home_logo": "/assets/clubs/sv-ruhlsdorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10025,11 +10132,11 @@
           "date_end": "2027-03-07"
         },
         {
-          "id": "league:Kreisoberliga:20",
+          "id": "league:Kreisoberliga:19",
           "kind": "league",
-          "title": "20. Spieltag Kreisoberliga",
+          "title": "19. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "20",
+          "round": "19",
           "matches": [
             {
               "id": "u23-610138146",
@@ -10040,7 +10147,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 20,
+              "matchday": 19,
               "team_fixture_id": "u23-610138146",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-geltow.png"
@@ -10050,11 +10157,11 @@
           "date_end": "2027-03-14"
         },
         {
-          "id": "league:Kreisoberliga:21",
+          "id": "league:Kreisoberliga:20",
           "kind": "league",
-          "title": "21. Spieltag Kreisoberliga",
+          "title": "20. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "21",
+          "round": "20",
           "matches": [
             {
               "id": "u23-610138156",
@@ -10065,7 +10172,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sternsportplatz Potsdam, Hauptplatz, Ziolkowskistr. 3, 14480 Potsdam",
-              "matchday": 21,
+              "matchday": 20,
               "team_fixture_id": "u23-610138156",
               "home_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10075,11 +10182,11 @@
           "date_end": "2027-03-21"
         },
         {
-          "id": "league:Kreisoberliga:22",
+          "id": "league:Kreisoberliga:21",
           "kind": "league",
-          "title": "22. Spieltag Kreisoberliga",
+          "title": "21. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "22",
+          "round": "21",
           "matches": [
             {
               "id": "u23-610138167",
@@ -10090,7 +10197,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 22,
+              "matchday": 21,
               "team_fixture_id": "u23-610138167",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
@@ -10100,11 +10207,11 @@
           "date_end": "2027-04-04"
         },
         {
-          "id": "league:Kreisoberliga:23",
+          "id": "league:Kreisoberliga:22",
           "kind": "league",
-          "title": "23. Spieltag Kreisoberliga",
+          "title": "22. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "23",
+          "round": "22",
           "matches": [
             {
               "id": "u23-610138172",
@@ -10115,7 +10222,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
-              "matchday": 23,
+              "matchday": 22,
               "team_fixture_id": "u23-610138172",
               "home_logo": "/assets/clubs/sv-dallgow-47.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10125,11 +10232,11 @@
           "date_end": "2027-04-11"
         },
         {
-          "id": "league:Kreisoberliga:24",
+          "id": "league:Kreisoberliga:23",
           "kind": "league",
-          "title": "24. Spieltag Kreisoberliga",
+          "title": "23. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "24",
+          "round": "23",
           "matches": [
             {
               "id": "u23-610138181",
@@ -10140,7 +10247,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 24,
+              "matchday": 23,
               "team_fixture_id": "u23-610138181",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-eintracht-friesack.png"
@@ -10150,11 +10257,11 @@
           "date_end": "2027-04-18"
         },
         {
-          "id": "league:Kreisoberliga:25",
+          "id": "league:Kreisoberliga:24",
           "kind": "league",
-          "title": "25. Spieltag Kreisoberliga",
+          "title": "24. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "25",
+          "round": "24",
           "matches": [
             {
               "id": "u23-610138188",
@@ -10165,7 +10272,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Rudolf-Breitscheid-Straße, KR-Hauptplatz, Rudolf-Breitscheid-Str. 173, 14482 Potsdam",
-              "matchday": 25,
+              "matchday": 24,
               "team_fixture_id": "u23-610138188",
               "home_logo": "/assets/clubs/fsv-babelsberg-74-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10175,11 +10282,11 @@
           "date_end": "2027-04-25"
         },
         {
-          "id": "league:Kreisoberliga:26",
+          "id": "league:Kreisoberliga:25",
           "kind": "league",
-          "title": "26. Spieltag Kreisoberliga",
+          "title": "25. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "26",
+          "round": "25",
           "matches": [
             {
               "id": "u23-610138196",
@@ -10190,7 +10297,7 @@
               "result": null,
               "halftime_result": null,
               "location": "John-Schehr-Platz KR, John-Schehr-Str. 18, 14513 Teltow",
-              "matchday": 26,
+              "matchday": 25,
               "team_fixture_id": "u23-610138196",
               "home_logo": "/assets/clubs/united-teltow-fc.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10200,11 +10307,11 @@
           "date_end": "2027-05-02"
         },
         {
-          "id": "league:Kreisoberliga:27",
+          "id": "league:Kreisoberliga:26",
           "kind": "league",
-          "title": "27. Spieltag Kreisoberliga",
+          "title": "26. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "27",
+          "round": "26",
           "matches": [
             {
               "id": "u23-610138202",
@@ -10215,7 +10322,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 27,
+              "matchday": 26,
               "team_fixture_id": "u23-610138202",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/bredower-sv.png"
@@ -10225,11 +10332,11 @@
           "date_end": "2027-05-09"
         },
         {
-          "id": "league:Kreisoberliga:28",
+          "id": "league:Kreisoberliga:27",
           "kind": "league",
-          "title": "28. Spieltag Kreisoberliga",
+          "title": "27. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "28",
+          "round": "27",
           "matches": [
             {
               "id": "u23-610138216",
@@ -10240,7 +10347,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 28,
+              "matchday": 27,
               "team_fixture_id": "u23-610138216",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-blau-weiss-pessin.png"
@@ -10250,11 +10357,11 @@
           "date_end": "2027-05-23"
         },
         {
-          "id": "league:Kreisoberliga:29",
+          "id": "league:Kreisoberliga:28",
           "kind": "league",
-          "title": "29. Spieltag Kreisoberliga",
+          "title": "28. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "29",
+          "round": "28",
           "matches": [
             {
               "id": "u23-610138220",
@@ -10265,7 +10372,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Werner-Seelenbinder-Sportplatz, Platz 2, Brielower Str. 7, 14770 Brandenburg an der Havel",
-              "matchday": 29,
+              "matchday": 28,
               "team_fixture_id": "u23-610138220",
               "home_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10275,11 +10382,11 @@
           "date_end": "2027-05-30"
         },
         {
-          "id": "league:Kreisoberliga:30",
+          "id": "league:Kreisoberliga:29",
           "kind": "league",
-          "title": "30. Spieltag Kreisoberliga",
+          "title": "29. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "30",
+          "round": "29",
           "matches": [
             {
               "id": "u23-610138230",
@@ -10290,7 +10397,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 30,
+              "matchday": 29,
               "team_fixture_id": "u23-610138230",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-michendorf-ii.png"
@@ -10300,11 +10407,11 @@
           "date_end": "2027-06-06"
         },
         {
-          "id": "league:Kreisoberliga:31",
+          "id": "league:Kreisoberliga:30",
           "kind": "league",
-          "title": "31. Spieltag Kreisoberliga",
+          "title": "30. Spieltag Kreisoberliga",
           "competition": "Kreisoberliga",
-          "round": "31",
+          "round": "30",
           "matches": [
             {
               "id": "u23-610138236",
@@ -10315,7 +10422,7 @@
               "result": null,
               "halftime_result": null,
               "location": "Sportpark Rosenstraße, KR 1, Rosenstr., 14612 Falkensee",
-              "matchday": 31,
+              "matchday": 30,
               "team_fixture_id": "u23-610138236",
               "home_logo": "/assets/clubs/sv-falkensee-finkenkrug-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -10327,7 +10434,7 @@
       ],
       "next_game": {
         "id": "u23-610138061",
-        "matchday": 8,
+        "matchday": 7,
         "date": "2026-10-18",
         "time": "15:00",
         "competition": "Kreisoberliga",
@@ -10343,7 +10450,7 @@
       },
       "next_home": {
         "id": "u23-610138068",
-        "matchday": 9,
+        "matchday": 8,
         "date": "2026-10-25",
         "time": "14:00",
         "competition": "Kreisoberliga",
@@ -15849,8 +15956,25 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001127",
+          "id": "u21-890001120",
           "matchday": 12,
+          "date": "2026-12-06",
+          "time": "13:30",
+          "competition": "2.Bundesliga",
+          "home": "Hannover 96",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/hannover-96.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Heinz+von+Heiden+Arena%2C+Robert-Enke-Str.+3%2C+30169+Hannover",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-890001127",
+          "matchday": 13,
           "date": "2026-12-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -15867,7 +15991,7 @@
         },
         {
           "id": "u21-890001137",
-          "matchday": 13,
+          "matchday": 14,
           "date": "2026-12-20",
           "time": "13:30",
           "competition": "2.Bundesliga",
