@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:00:55.779988+02:00",
+  "generated_at": "2026-10-14T19:18:10.404463+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4716,8 +4716,50 @@
               "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
             },
             {
-              "id": "rl-md16-0556052089f1",
-              "date": "2026-11-08",
+              "id": "rl-md16-94f641ceaab8",
+              "date": "2026-11-06",
+              "time": "19:00",
+              "home": "FC Carl Zeiss Jena",
+              "away": "BFC Preussen 1894",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
+              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+            },
+            {
+              "id": "rl-md16-f35d3703f637",
+              "date": "2026-11-06",
+              "time": "19:00",
+              "home": "Hallescher FC",
+              "away": "FSV 63 Luckenwalde",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/hallescher-fc.png",
+              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
+            },
+            {
+              "id": "rl-md16-5b5f165a755a",
+              "date": "2026-11-06",
+              "time": "19:00",
+              "home": "VSG Altglienicke",
+              "away": "SV Tasmania Berlin",
+              "result": null,
+              "halftime_result": null,
+              "location": "",
+              "matchday": 16,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/vsg-altglienicke.png",
+              "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
+            },
+            {
+              "id": "rl-md16-98a3c437124f",
+              "date": "2026-11-07",
               "time": "14:00",
               "home": "Chemnitzer FC",
               "away": "Greifswalder FC",
@@ -4730,18 +4772,18 @@
               "away_logo": "/assets/clubs/greifswalder-fc.png"
             },
             {
-              "id": "rl-md16-2c9670b1d775",
-              "date": "2026-11-08",
+              "id": "rl-md16-8104c5ad99ba",
+              "date": "2026-11-07",
               "time": "14:00",
-              "home": "FC Carl Zeiss Jena",
-              "away": "BFC Preussen 1894",
+              "home": "SV Babelsberg 03",
+              "away": "BFC Dynamo",
               "result": null,
               "halftime_result": null,
               "location": "",
               "matchday": 16,
               "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/fc-carl-zeiss-jena.png",
-              "away_logo": "/assets/clubs/bfc-preussen-1894.png"
+              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
+              "away_logo": "/assets/clubs/bfc-dynamo.png"
             },
             {
               "id": "rl-md16-96edd23db3e5",
@@ -4758,20 +4800,6 @@
               "away_logo": "/assets/clubs/1-fc-lok-leipzig.png"
             },
             {
-              "id": "rl-md16-2648f4b0ed84",
-              "date": "2026-11-08",
-              "time": "14:00",
-              "home": "Hallescher FC",
-              "away": "FSV 63 Luckenwalde",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 16,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/hallescher-fc.png",
-              "away_logo": "/assets/clubs/fsv-63-luckenwalde.png"
-            },
-            {
               "id": "rl-md16-f32b4320cfce",
               "date": "2026-11-08",
               "time": "14:00",
@@ -4784,34 +4812,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/hertha-bsc-ii.png",
               "away_logo": "/assets/clubs/1-fc-magdeburg-ii.png"
-            },
-            {
-              "id": "rl-md16-0cb1ec866de9",
-              "date": "2026-11-08",
-              "time": "14:00",
-              "home": "SV Babelsberg 03",
-              "away": "BFC Dynamo",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 16,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/sv-babelsberg-03.png",
-              "away_logo": "/assets/clubs/bfc-dynamo.png"
-            },
-            {
-              "id": "rl-md16-49f7ce35e6e7",
-              "date": "2026-11-08",
-              "time": "14:00",
-              "home": "VSG Altglienicke",
-              "away": "SV Tasmania Berlin",
-              "result": null,
-              "halftime_result": null,
-              "location": "",
-              "matchday": 16,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/vsg-altglienicke.png",
-              "away_logo": "/assets/clubs/sv-tasmania-berlin.png"
             }
           ],
           "date": "2026-11-06",
@@ -15956,25 +15956,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-890001120",
-          "matchday": 12,
-          "date": "2026-12-06",
-          "time": "13:30",
-          "competition": "2.Bundesliga",
-          "home": "Hannover 96",
-          "away": "Hertha BSC",
-          "home_logo": "/assets/clubs/hannover-96.png",
-          "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
-          "location": "Heinz von Heiden Arena, Robert-Enke-Str. 3, 30169 Hannover",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Heinz+von+Heiden+Arena%2C+Robert-Enke-Str.+3%2C+30169+Hannover",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-890001127",
-          "matchday": 13,
+          "matchday": 12,
           "date": "2026-12-13",
           "time": "13:30",
           "competition": "2.Bundesliga",
@@ -15991,7 +15974,7 @@
         },
         {
           "id": "u21-890001137",
-          "matchday": 14,
+          "matchday": 13,
           "date": "2026-12-20",
           "time": "13:30",
           "competition": "2.Bundesliga",
