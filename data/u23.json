@@ -314,6 +314,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
+      "id": "u23-610138092",
+      "date": "2026-11-15",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "FSV 95 Ketzin/​Falkenrehde",
+      "competition": "Kreisoberliga 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-95-ketzin-falkenrehde/-/spiel/031D1IIAAO000000VS5489BTVUS470OH",
+      "match_number": "610138092",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I"
+    },
+    {
       "id": "u23-710089095",
       "date": "2026-11-15",
       "time": "14:00",
@@ -327,19 +340,6 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I",
       "round": "Achtelfinale",
       "round_url": "https://www.fussball.de/spieltag/achtelfinale-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-11-15/staffel/0320RB3KF4000006VS5489BTVT7QHFUC-R"
-    },
-    {
-      "id": "u23-610138092",
-      "date": "2026-11-15",
-      "time": "14:00",
-      "home": "RSV Eintracht 1949 U23",
-      "away": "FSV 95 Ketzin/​Falkenrehde",
-      "competition": "Kreisoberliga 2026/27",
-      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-95-ketzin-falkenrehde/-/spiel/031D1IIAAO000000VS5489BTVUS470OH",
-      "match_number": "610138092",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000044VV0AG08LVUPGND5I"
     },
     {
       "id": "u23-610138104",

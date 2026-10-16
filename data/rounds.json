@@ -1430,7 +1430,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1442,7 +1441,6 @@
           "home": "Hertha BSC II",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27",
@@ -1455,7 +1453,6 @@
           "home": "SV Tasmania Berlin",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1467,7 +1464,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1479,7 +1475,6 @@
           "home": "BFC Preussen 1894",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1491,7 +1486,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1503,7 +1497,6 @@
           "home": "BFC Dynamo",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1515,7 +1508,6 @@
           "home": "Erzgebirge Aue",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1527,7 +1519,6 @@
           "home": "1. FC Magdeburg II",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1548,7 +1539,6 @@
           "home": "VSG Altglienicke",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1560,7 +1550,6 @@
           "home": "SV Babelsberg 03",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1572,7 +1561,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1584,7 +1572,6 @@
           "home": "Chemnitzer FC",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1596,7 +1583,6 @@
           "home": "RSV Eintracht 1949",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27",
@@ -1609,7 +1595,6 @@
           "home": "FSV Zwickau",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1621,7 +1606,6 @@
           "home": "Greifswalder FC",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1633,7 +1617,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1645,7 +1628,6 @@
           "home": "Hallescher FC",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1666,7 +1648,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1678,7 +1659,6 @@
           "home": "BFC Dynamo",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27",
@@ -1691,7 +1671,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1703,7 +1682,6 @@
           "home": "1. FC Magdeburg II",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1715,7 +1693,6 @@
           "home": "BFC Preussen 1894",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1727,7 +1704,6 @@
           "home": "Erzgebirge Aue",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1739,7 +1715,6 @@
           "home": "SV Tasmania Berlin",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1751,7 +1726,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1763,7 +1737,6 @@
           "home": "Greifswalder FC",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1784,7 +1757,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1796,7 +1768,6 @@
           "home": "Hallescher FC",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1808,7 +1779,6 @@
           "home": "VSG Altglienicke",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1820,7 +1790,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1832,7 +1801,6 @@
           "home": "SV Babelsberg 03",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1844,7 +1812,6 @@
           "home": "Chemnitzer FC",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1856,7 +1823,6 @@
           "home": "Hertha BSC II",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1868,7 +1834,6 @@
           "home": "RSV Eintracht 1949",
           "away": "FC Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27",
@@ -1881,7 +1846,6 @@
           "home": "FSV Zwickau",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1902,7 +1866,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1914,7 +1877,6 @@
           "home": "Erzgebirge Aue",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1926,7 +1888,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1938,7 +1899,6 @@
           "home": "1. FC Magdeburg II",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1950,7 +1910,6 @@
           "home": "SV Tasmania Berlin",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1962,7 +1921,6 @@
           "home": "BFC Preussen 1894",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1974,7 +1932,6 @@
           "home": "BFC Dynamo",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1986,7 +1943,6 @@
           "home": "Greifswalder FC",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1998,7 +1954,6 @@
           "home": "1. FC Lokomotive Leipzig",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2020,7 +1975,6 @@
           "home": "Hallescher FC",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2032,7 +1986,6 @@
           "home": "SV Tasmania Berlin",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2044,7 +1997,6 @@
           "home": "Chemnitzer FC",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2056,7 +2008,6 @@
           "home": "BFC Dynamo",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2068,7 +2019,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2080,7 +2030,6 @@
           "home": "RSV Eintracht 1949",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2093,7 +2042,6 @@
           "home": "VSG Altglienicke",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2105,7 +2053,6 @@
           "home": "FSV Zwickau",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2117,7 +2064,6 @@
           "home": "SV Babelsberg 03",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2138,7 +2084,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2150,7 +2095,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2163,7 +2107,6 @@
           "home": "1. FC Magdeburg II",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2175,7 +2118,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2187,7 +2129,6 @@
           "home": "Erzgebirge Aue",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2199,7 +2140,6 @@
           "home": "BFC Preussen 1894",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2211,7 +2151,6 @@
           "home": "Hertha BSC II",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2223,7 +2162,6 @@
           "home": "Greifswalder FC",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2235,7 +2173,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 19,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2256,7 +2193,6 @@
           "home": "RSV Eintracht 1949",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2269,7 +2205,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2281,7 +2216,6 @@
           "home": "SV Tasmania Berlin",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2293,7 +2227,6 @@
           "home": "BFC Dynamo",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2305,7 +2238,6 @@
           "home": "VSG Altglienicke",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2317,7 +2249,6 @@
           "home": "FSV Zwickau",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2329,7 +2260,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2341,7 +2271,6 @@
           "home": "Greifswalder FC",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2353,7 +2282,6 @@
           "home": "Hallescher FC",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 20,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2374,7 +2302,6 @@
           "home": "VSG Altglienicke",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2386,7 +2313,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2398,7 +2324,6 @@
           "home": "FSV Zwickau",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2410,7 +2335,6 @@
           "home": "Hertha BSC II",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2422,7 +2346,6 @@
           "home": "Chemnitzer FC",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2434,7 +2357,6 @@
           "home": "SV Babelsberg 03",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2446,7 +2368,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2459,7 +2380,6 @@
           "home": "SV Tasmania Berlin",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2471,7 +2391,6 @@
           "home": "BFC Preussen 1894",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 21,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2492,7 +2411,6 @@
           "home": "1. FC Magdeburg II",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2504,7 +2422,6 @@
           "home": "RSV Eintracht 1949",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2517,7 +2434,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2529,7 +2445,6 @@
           "home": "Erzgebirge Aue",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2541,7 +2456,6 @@
           "home": "BFC Dynamo",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2553,7 +2467,6 @@
           "home": "Hallescher FC",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2565,7 +2478,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2577,7 +2489,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2589,7 +2500,6 @@
           "home": "Greifswalder FC",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 22,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2610,7 +2520,6 @@
           "home": "VSG Altglienicke",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2622,7 +2531,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2634,7 +2542,6 @@
           "home": "FSV Zwickau",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2647,7 +2554,6 @@
           "home": "Hertha BSC II",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2659,7 +2565,6 @@
           "home": "Chemnitzer FC",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2671,7 +2576,6 @@
           "home": "SV Babelsberg 03",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2683,7 +2587,6 @@
           "home": "BFC Preussen 1894",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2695,7 +2598,6 @@
           "home": "SV Tasmania Berlin",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2707,7 +2609,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 23,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2728,7 +2629,6 @@
           "home": "SV Babelsberg 03",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2740,7 +2640,6 @@
           "home": "BFC Preussen 1894",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2752,7 +2651,6 @@
           "home": "Erzgebirge Aue",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2764,7 +2662,6 @@
           "home": "1. FC Magdeburg II",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2777,7 +2674,6 @@
           "home": "Greifswalder FC",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2789,7 +2685,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2801,7 +2696,6 @@
           "home": "BFC Dynamo",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2813,7 +2707,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2825,7 +2718,6 @@
           "home": "Hallescher FC",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 24,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2846,7 +2738,6 @@
           "home": "Hallescher FC",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2858,7 +2749,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2870,7 +2760,6 @@
           "home": "FSV Zwickau",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2882,7 +2771,6 @@
           "home": "Hertha BSC II",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2894,7 +2782,6 @@
           "home": "Chemnitzer FC",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2906,7 +2793,6 @@
           "home": "RSV Eintracht 1949",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27",
@@ -2919,7 +2805,6 @@
           "home": "SV Tasmania Berlin",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2931,7 +2816,6 @@
           "home": "1. FC Magdeburg II",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2943,7 +2827,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 25,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2964,7 +2847,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2976,7 +2858,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2988,7 +2869,6 @@
           "home": "Greifswalder FC",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3001,7 +2881,6 @@
           "home": "SV Babelsberg 03",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3013,7 +2892,6 @@
           "home": "Erzgebirge Aue",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3025,7 +2903,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3037,7 +2914,6 @@
           "home": "BFC Preussen 1894",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3049,7 +2925,6 @@
           "home": "BFC Dynamo",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3061,7 +2936,6 @@
           "home": "VSG Altglienicke",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 26,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3082,7 +2956,6 @@
           "home": "Hallescher FC",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3094,7 +2967,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3106,7 +2978,6 @@
           "home": "Hertha BSC II",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3118,7 +2989,6 @@
           "home": "Chemnitzer FC",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3130,7 +3000,6 @@
           "home": "RSV Eintracht 1949",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3143,7 +3012,6 @@
           "home": "Erzgebirge Aue",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3155,7 +3023,6 @@
           "home": "SV Tasmania Berlin",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3167,7 +3034,6 @@
           "home": "1. FC Magdeburg II",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3179,7 +3045,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 27,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3200,7 +3065,6 @@
           "home": "SV Babelsberg 03",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3212,7 +3076,6 @@
           "home": "VSG Altglienicke",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3224,7 +3087,6 @@
           "home": "Chemnitzer FC",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3237,7 +3099,6 @@
           "home": "Greifswalder FC",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3249,7 +3110,6 @@
           "home": "FSV Zwickau",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3261,7 +3121,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3273,7 +3132,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3285,7 +3143,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3297,7 +3154,6 @@
           "home": "BFC Preussen 1894",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 28,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3318,7 +3174,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3330,7 +3185,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3342,7 +3196,6 @@
           "home": "BFC Dynamo",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3354,7 +3207,6 @@
           "home": "SV Tasmania Berlin",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3366,7 +3218,6 @@
           "home": "1. FC Magdeburg II",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3378,7 +3229,6 @@
           "home": "Hertha BSC II",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3390,7 +3240,6 @@
           "home": "RSV Eintracht 1949",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3403,7 +3252,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3415,7 +3263,6 @@
           "home": "Erzgebirge Aue",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 29,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3436,7 +3283,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3448,7 +3294,6 @@
           "home": "FSV Zwickau",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3460,7 +3305,6 @@
           "home": "RSV Eintracht 1949",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3473,7 +3317,6 @@
           "home": "Chemnitzer FC",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3485,7 +3328,6 @@
           "home": "SV Babelsberg 03",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3497,7 +3339,6 @@
           "home": "Hallescher FC",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3509,7 +3350,6 @@
           "home": "VSG Altglienicke",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3521,7 +3361,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3533,7 +3372,6 @@
           "home": "Greifswalder FC",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 30,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3554,7 +3392,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3566,7 +3403,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3578,7 +3414,6 @@
           "home": "Hertha BSC II",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3590,7 +3425,6 @@
           "home": "BFC Preussen 1894",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3602,7 +3436,6 @@
           "home": "Erzgebirge Aue",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3614,7 +3447,6 @@
           "home": "SV Tasmania Berlin",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3627,7 +3459,6 @@
           "home": "1. FC Magdeburg II",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3639,7 +3470,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3651,7 +3481,6 @@
           "home": "BFC Dynamo",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 31,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3672,7 +3501,6 @@
           "home": "SV Babelsberg 03",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3684,7 +3512,6 @@
           "home": "Hertha BSC II",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3696,7 +3523,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3708,7 +3534,6 @@
           "home": "RSV Eintracht 1949",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3721,7 +3546,6 @@
           "home": "VSG Altglienicke",
           "away": "1. FC Lok Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3733,7 +3557,6 @@
           "home": "FSV Zwickau",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3745,7 +3568,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3757,7 +3579,6 @@
           "home": "Hallescher FC",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3769,7 +3590,6 @@
           "home": "Chemnitzer FC",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 32,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3790,7 +3610,6 @@
           "home": "FC Erzgebirge Aue",
           "away": "RSV Eintracht 1949",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3803,7 +3622,6 @@
           "home": "1. FC Magdeburg II",
           "away": "Hertha BSC II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3815,7 +3633,6 @@
           "home": "FSV 63 Luckenwalde",
           "away": "Hallescher FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3827,7 +3644,6 @@
           "home": "SV Tasmania Berlin",
           "away": "VSG Altglienicke",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3839,7 +3655,6 @@
           "home": "BFC Preussen 1894",
           "away": "FC Carl Zeiss Jena",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3851,7 +3666,6 @@
           "home": "BFC Dynamo",
           "away": "SV Babelsberg 03",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3863,7 +3677,6 @@
           "home": "Greifswalder FC",
           "away": "Chemnitzer FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3875,7 +3688,6 @@
           "home": "FC Rot-Weiß Erfurt",
           "away": "BSG Chemie Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3887,7 +3699,6 @@
           "home": "1. FC Lok Leipzig",
           "away": "FSV Zwickau",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 33,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3908,7 +3719,6 @@
           "home": "Hallescher FC",
           "away": "BFC Dynamo",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3920,7 +3730,6 @@
           "home": "FC Carl Zeiss Jena",
           "away": "Greifswalder FC",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3932,7 +3741,6 @@
           "home": "FSV Zwickau",
           "away": "1. FC Magdeburg II",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3944,7 +3752,6 @@
           "home": "Hertha BSC II",
           "away": "SV Tasmania Berlin",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3956,7 +3763,6 @@
           "home": "VSG Altglienicke",
           "away": "FC Rot-Weiß Erfurt",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3968,7 +3774,6 @@
           "home": "SV Babelsberg 03",
           "away": "Erzgebirge Aue",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -3980,7 +3785,6 @@
           "home": "RSV Eintracht 1949",
           "away": "1. FC Lokomotive Leipzig",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27",
@@ -3993,7 +3797,6 @@
           "home": "BSG Chemie Leipzig",
           "away": "BFC Preussen 1894",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
@@ -4005,7 +3808,6 @@
           "home": "Chemnitzer FC",
           "away": "FSV 63 Luckenwalde",
           "result": null,
-          "halftime_result": null,
           "location": "",
           "matchday": 34,
           "competition": "Regionalliga Nordost 2026/27"
