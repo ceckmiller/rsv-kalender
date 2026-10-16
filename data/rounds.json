@@ -7510,8 +7510,8 @@
       "matches": [
         {
           "id": "cup-fsv-63-luckenwalde-sv-falkensee-finkenkrug-i",
-          "date": "2026-11-01",
-          "time": "10:30",
+          "date": "2026-10-31",
+          "time": "11:00",
           "home": "FSV 63 Luckenwalde",
           "away": "SV Falkensee-Finkenkrug",
           "result": null,
@@ -7522,21 +7522,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000004AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-sv-falkensee-finkenkrug-i/-/spiel/032AQB5H18000000VS5489BTVU989P58"
-        },
-        {
-          "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
-          "date": "2026-11-01",
-          "time": "10:30",
-          "home": "BSG Stahl Brandenburg",
-          "away": "BSC Preußen 07 Blankenfelde-Mahlow",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u19-bsc-preussen-1/-/spiel/032AQB5H3C000000VS5489BTVU989P58"
         },
         {
           "id": "cup-brandenburger-sc-sued-fsv-bernau-u19",
@@ -7627,6 +7612,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00004NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
+          "date": "2026-12-19",
+          "time": "13:00",
+          "home": "BSG Stahl Brandenburg",
+          "away": "BSC Preußen 07 Blankenfelde-Mahlow",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBM800002KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u19-bsc-preussen-1/-/spiel/032AQB5H3C000000VS5489BTVU989P58"
         }
       ]
     }
