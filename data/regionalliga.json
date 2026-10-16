@@ -465,7 +465,7 @@
       "home": "Hertha BSC II",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "0:1",
       "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
       "source_url": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099",
@@ -473,7 +473,11 @@
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-u23-rsv-eintracht-1949/-/spiel/031DEIC4FC000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "referee": "Marvin Tennes"
+      "referee": "Marvin Tennes",
+      "halftime_result": "0:0",
+      "scorers": [
+        "90. Minute – Endi Jupolli (RSV Eintracht 1949) – 0:1"
+      ]
     },
     {
       "id": "rl-14",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:45:22.019679+02:00",
+  "generated_at": "2026-10-16T23:07:09.912522+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -480,6 +480,30 @@
           "referee": "Oskar Lämpel",
           "youtube_url": "https://www.youtube.com/results?search_query=Hallescher+FC+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/12-spieltag/hallescher-fc-rsv-eintracht-1949-2426092"
+        },
+        {
+          "id": "rl-13",
+          "matchday": 13,
+          "date": "2026-10-16",
+          "time": "19:00",
+          "competition": "Regionalliga",
+          "home": "Hertha BSC II",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/hertha-bsc-ii.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "0:1",
+          "halftime_result": "0:0",
+          "scorers": [
+            "90. Minute – Endi Jupolli (RSV Eintracht 1949) – 0:1"
+          ],
+          "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
+          "points": 9,
+          "table_position": 16,
+          "attendance": null,
+          "referee": "Marvin Tennes",
+          "youtube_url": "https://www.youtube.com/results?search_query=Hertha+BSC+II+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099"
         }
       ],
       "fixtures": [
@@ -850,7 +874,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/hertha-bsc-ii.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "0:1",
           "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
           "is_home": false,
@@ -4198,7 +4222,8 @@
               "time": "19:00",
               "home": "Hertha BSC II",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "0:1",
+              "halftime_result": "0:0",
               "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
               "matchday": 13,
               "team_fixture_id": "rl-13",
@@ -4222,7 +4247,8 @@
               "time": "19:00",
               "home": "Hertha BSC II",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "0:1",
+              "halftime_result": "0:0",
               "location": "",
               "matchday": 13,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4236,7 +4262,8 @@
               "time": "19:00",
               "home": "FC Rot-Weiß Erfurt",
               "away": "FSV Zwickau",
-              "result": null,
+              "result": "2:2",
+              "halftime_result": null,
               "location": "",
               "matchday": 13,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4249,7 +4276,8 @@
               "time": "19:00",
               "home": "SV Tasmania Berlin",
               "away": "SV Babelsberg 03",
-              "result": null,
+              "result": "6:0",
+              "halftime_result": null,
               "location": "",
               "matchday": 13,
               "competition": "Regionalliga Nordost 2026/27",
@@ -7553,22 +7581,6 @@
         }
       ],
       "next_game": {
-        "id": "rl-13",
-        "matchday": 13,
-        "date": "2026-10-16",
-        "time": "19:00",
-        "competition": "Regionalliga",
-        "home": "Hertha BSC II",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/hertha-bsc-ii.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Stadion auf dem Wurfplatz, Friedrich-Friesen-Allee, 14053 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "rl-14",
         "matchday": 14,
         "date": "2026-10-24",
@@ -7583,7 +7595,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041216/"
-      }
+      },
+      "next_home": null
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -15505,7 +15518,7 @@
           "away": "Hertha BSC",
           "home_logo": "/assets/clubs/holstein-kiel.png",
           "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
+          "result": "0:0",
           "location": "Kieler-Holstein-Stadion, Westring 501, 24106 Kiel",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Kieler-Holstein-Stadion%2C+Westring+501%2C+24106+Kiel",
           "is_home": false,
@@ -15647,22 +15660,39 @@
           "is_home": false,
           "round": "",
           "ticket_url": ""
+        },
+        {
+          "id": "u21-890001146",
+          "matchday": 14,
+          "date": "2027-01-17",
+          "time": "13:30",
+          "competition": "2.Bundesliga",
+          "home": "Hertha BSC",
+          "away": "1. FC Nürnberg",
+          "home_logo": "/assets/clubs/hertha-bsc.png",
+          "away_logo": "/assets/clubs/1-fc-nuernberg.png",
+          "result": "",
+          "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+          "is_home": true,
+          "round": "",
+          "ticket_url": ""
         }
       ],
       "next_game": {
-        "id": "u21-890001069",
-        "matchday": 6,
-        "date": "2026-10-16",
-        "time": "18:30",
+        "id": "u21-890001075",
+        "matchday": 7,
+        "date": "2026-10-24",
+        "time": "13:00",
         "competition": "2.Bundesliga",
-        "home": "Holstein Kiel",
-        "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/holstein-kiel.png",
-        "away_logo": "/assets/clubs/hertha-bsc.png",
+        "home": "Hertha BSC",
+        "away": "DSC Arminia Bielefeld",
+        "home_logo": "/assets/clubs/hertha-bsc.png",
+        "away_logo": "/assets/clubs/dsc-arminia-bielefeld.png",
         "result": "",
-        "location": "Kieler-Holstein-Stadion, Westring 501, 24106 Kiel",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kieler-Holstein-Stadion%2C+Westring+501%2C+24106+Kiel",
-        "is_home": false,
+        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
+        "is_home": true,
         "round": "",
         "ticket_url": ""
       }
@@ -15671,7 +15701,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 12. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 13. Spieltag)",
       "rows": [
         {
           "team": "Chemnitzer FC",
@@ -15687,13 +15717,13 @@
         },
         {
           "team": "FC Rot-Weiß Erfurt",
-          "played": 12,
+          "played": 13,
           "wins": 8,
-          "draws": 3,
+          "draws": 4,
           "losses": 1,
-          "goals": "37:14",
+          "goals": "39:16",
           "diff": "+23",
-          "points": 27,
+          "points": 28,
           "position": 2,
           "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
         },
@@ -15771,13 +15801,13 @@
         },
         {
           "team": "FSV Zwickau",
-          "played": 12,
+          "played": 13,
           "wins": 5,
-          "draws": 3,
+          "draws": 4,
           "losses": 4,
-          "goals": "15:17",
+          "goals": "17:19",
           "diff": "-2",
-          "points": 18,
+          "points": 19,
           "position": 9,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
@@ -15794,18 +15824,6 @@
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
-          "team": "SV Babelsberg 03",
-          "played": 12,
-          "wins": 3,
-          "draws": 4,
-          "losses": 5,
-          "goals": "14:17",
-          "diff": "-3",
-          "points": 13,
-          "position": 11,
-          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
-        },
-        {
           "team": "1. FC Magdeburg II",
           "played": 12,
           "wins": 4,
@@ -15814,8 +15832,20 @@
           "goals": "21:25",
           "diff": "-4",
           "points": 13,
-          "position": 12,
+          "position": 11,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
+        },
+        {
+          "team": "SV Babelsberg 03",
+          "played": 13,
+          "wins": 3,
+          "draws": 4,
+          "losses": 6,
+          "goals": "14:23",
+          "diff": "-9",
+          "points": 13,
+          "position": 12,
+          "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "BFC Preussen 1894",
@@ -15831,12 +15861,12 @@
         },
         {
           "team": "Hertha BSC II",
-          "played": 12,
+          "played": 13,
           "wins": 2,
           "draws": 4,
-          "losses": 6,
-          "goals": "10:22",
-          "diff": "-12",
+          "losses": 7,
+          "goals": "10:23",
+          "diff": "-13",
           "points": 10,
           "position": 14,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
@@ -15855,15 +15885,27 @@
         },
         {
           "team": "RSV Eintracht 1949",
-          "played": 12,
-          "wins": 1,
+          "played": 13,
+          "wins": 2,
           "draws": 3,
           "losses": 8,
-          "goals": "13:30",
-          "diff": "-17",
-          "points": 6,
+          "goals": "14:30",
+          "diff": "-16",
+          "points": 9,
           "position": 16,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+        },
+        {
+          "team": "SV Tasmania Berlin",
+          "played": 13,
+          "wins": 2,
+          "draws": 2,
+          "losses": 9,
+          "goals": "19:38",
+          "diff": "-19",
+          "points": 8,
+          "position": 17,
+          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         },
         {
           "team": "FSV 63 Luckenwalde",
@@ -15874,20 +15916,8 @@
           "goals": "12:29",
           "diff": "-17",
           "points": 6,
-          "position": 17,
-          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
-        },
-        {
-          "team": "SV Tasmania Berlin",
-          "played": 12,
-          "wins": 1,
-          "draws": 2,
-          "losses": 9,
-          "goals": "13:38",
-          "diff": "-25",
-          "points": 5,
           "position": 18,
-          "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
+          "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },
         {
           "position": 19,

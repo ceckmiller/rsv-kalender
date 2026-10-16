@@ -141,7 +141,9 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8JC000064VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Kieler-Holstein-Stadion, Westring 501, 24106 Kiel",
-      "location_source": "https://www.fussball.de/spiel/holstein-kiel-hertha-bsc/-/spiel/031BG6BC34000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/holstein-kiel-hertha-bsc/-/spiel/031BG6BC34000000VS5489BUVUR5FS5A",
+      "result": "0:0",
+      "halftime_result": "0:0"
     },
     {
       "id": "u21-890001075",
@@ -254,6 +256,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Millerntor-Stadion, Harald-Stender-Platz 1, 20359 Hamburg",
       "location_source": "https://www.fussball.de/spiel/fc-st-pauli-hertha-bsc/-/spiel/031BG6BHJ4000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001146",
+      "date": "2027-01-17",
+      "time": "13:30",
+      "home": "Hertha BSC",
+      "away": "1. FC Nürnberg",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/hertha-bsc-1fc-nuernberg/-/spiel/031BG6BIE0000000VS5489BUVUR5FS5A",
+      "match_number": "890001146",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNKEO00001HVV0AG08LVUPGND5I",
+      "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-1fc-nuernberg/-/spiel/031BG6BIE0000000VS5489BUVUR5FS5A"
     }
   ]
 }
