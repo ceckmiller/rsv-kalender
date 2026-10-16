@@ -62,6 +62,8 @@ def fixtures_are_same_slot(left, right):
     """Match the same fixture even when a cup placeholder later becomes a club name."""
     if not left or not right:
         return False
+    if not fixture_identifiers_compatible(left, right):
+        return False
     if left.get('id') and left.get('id') == right.get('id'):
         return True
     if left.get('date') and left.get('date') != right.get('date'):
@@ -901,6 +903,7 @@ def _prefer_game(existing, candidate):
         placeholder=1 if is_placeholder_team(game.get('home','')) or is_placeholder_team(game.get('away','')) else 0
         return (
             1 if re.fullmatch(r'\d{6,}', match_number) else 0,
+            1 if match_number and str(game.get('id','')).endswith('-'+match_number) else 0,
             0 if glued else 1,
             0 if placeholder else 1,
             detail,
@@ -1046,12 +1049,19 @@ def dedupe(games):
     for game in games:
         previous=by_id.get(game['id'])
         by_id[game['id']]=game if previous is None else _prefer_game(previous, game)
-    by_identity={}
+    by_number={}
     for game in by_id.values():
+        number=str(game.get('match_number') or '')
+        key=('number',number) if number.isdigit() else ('id',game['id'])
+        previous=by_number.get(key)
+        by_number[key]=game if previous is None else _prefer_game(previous, game)
+    by_identity={}
+    for game in by_number.values():
         identity=(
             game.get('date',''),
             normalize_match_name(game.get('home','')),
             normalize_match_name(game.get('away','')),
+            fixture_competition_key(game),
         )
         previous=by_identity.get(identity)
         by_identity[identity]=game if previous is None else _prefer_game(previous, game)
@@ -1098,23 +1108,49 @@ def _prefer_resolved_name(old_name, new_name):
         return old_name
     return new_name or old_name
 
+def fixture_competition_key(game):
+    label=competition_label(normalize_competition(game.get('competition', ''))).casefold()
+    # DFB uses the regional suffix; FUSSBALL.DE calls the same league Regionalliga.
+    return 'regionalliga' if label == 'regionalliga nordost' else label
+
+
+def fixture_identifiers_compatible(left, right):
+    """A league fixture and a cup tie against the same club are separate games."""
+    ln, rn = left.get('match_number'), right.get('match_number')
+    if ln and rn and str(ln).isdigit() and str(rn).isdigit() and str(ln) != str(rn):
+        return False
+    lc, rc = fixture_competition_key(left), fixture_competition_key(right)
+    return not (lc and rc and lc != rc)
+
+
 def merge(base, remote):
-    result={g['id']:deepcopy(g) for g in base}
-    for game in result.values():
+    result={}
+    for original in dedupe(base):
+        game=deepcopy(original)
+        # Older imports reused the league ID for a cup tie. Its official match
+        # number identifies the actual game; inherited scores belong to the league.
+        mid=re.fullmatch(r'(u(?:19|21|23))-(\d{6,})', str(game.get('id', '')))
+        number=str(game.get('match_number') or '')
+        if mid and number.isdigit() and mid.group(2) != number:
+            game['id']=f'{mid.group(1)}-{number}'
+            for field in ('result','halftime_result','halftime','scorers','points','table_position'):
+                game.pop(field, None)
         game['home']=_clean_team_name(game.get('home',''))
         game['away']=_clean_team_name(game.get('away',''))
-    # Secondary identity lets remote IDs change without duplicating games.
-    by_identity={(g['date'],g['home'],g['away']):g['id'] for g in result.values()}
-    by_pair={(normalize_match_name(g['home']), normalize_match_name(g['away'])):g['id'] for g in result.values()}
+        result[game['id']]=game
     for g in remote:
         g={**g,'home':_clean_team_name(g.get('home','')),'away':_clean_team_name(g.get('away',''))}
         if g.get('competition'):
             g['competition']=normalize_competition(g.get('competition',''))
         pair=(normalize_match_name(g['home']), normalize_match_name(g['away']))
+        candidates=[old for old in result.values() if fixture_identifiers_compatible(old, g)]
+        same_number=next((old['id'] for old in candidates if g.get('match_number') and old.get('match_number') == g['match_number']), None)
+        same_pair=[old for old in candidates if (normalize_match_name(old['home']), normalize_match_name(old['away'])) == pair]
         target=(
-            g['id'] if g['id'] in result
-            else by_identity.get((g['date'],g['home'],g['away']))
-            or by_pair.get(pair)
+            same_number
+            or (g['id'] if g['id'] in result and fixture_identifiers_compatible(result[g['id']], g) else None)
+            or next((old['id'] for old in same_pair if old.get('date') == g.get('date')), None)
+            or (same_pair[0]['id'] if len(same_pair) == 1 else None)
             or _placeholder_target_id(result, g)
             or g['id']
         )
@@ -1126,7 +1162,7 @@ def merge(base, remote):
             merged['competition']=normalize_competition(merged['competition'])
         merged['location']=prefer_location(old.get('location'), g.get('location'))
         result[target]=merged
-    return sorted(result.values(),key=lambda x:(x['date'],x.get('time','00:00')))
+    return sanitize_game_results(sorted(result.values(),key=lambda x:(x['date'],x.get('time','00:00'))))
 
 def apply_overrides(key,games,overrides):
     by={g['id']:g for g in games}
@@ -1356,6 +1392,88 @@ def parse_score(value):
     return (int(m.group(1)), int(m.group(2))) if m else None
 
 
+def sanitize_game_results(games, now=None):
+    """Never publish inherited scores for fixtures that have not kicked off."""
+    now=now or datetime.now(TZ)
+    out=[]
+    for original in games:
+        game=deepcopy(original)
+        kickoff=parse_kickoff_datetime(game)
+        if not parse_score(game.get('result')) or not kickoff or kickoff > now:
+            for field in ('result','halftime_result','halftime','scorers','points','table_position','attendance'):
+                if field == 'result' and game.get(field) in (None, ''):
+                    continue
+                game.pop(field, None)
+        out.append(game)
+    return out
+
+
+def parse_fussball_standings(html, team):
+    """Read the full official league table, preserving association rankings."""
+    soup=BeautifulSoup(html, 'html.parser')
+    for table in soup.select('table'):
+        ranked=table.select('tr:has(td.column-rank)')
+        if not ranked:
+            continue
+        rows=[]
+        for tr in ranked:
+            cells=tr.find_all('td', recursive=False)
+            club=tr.select_one('td.column-club')
+            rank=tr.select_one('td.column-rank')
+            if not club or not rank:
+                raise ValueError('Unvollständige offizielle Tabellenzeile')
+            values=[c.get_text(' ', strip=True) for c in cells[cells.index(club)+1:]]
+            name,_logo=_extract_team_cell(club)
+            position=re.fullmatch(r'(\d+)\.', rank.get_text(strip=True))
+            if len(values) != 7 or not position or not name:
+                raise ValueError('Offizielle Tabellenstruktur nicht vollständig lesbar')
+            played,wins,draws,losses=(int(v) for v in values[:4])
+            goals=parse_score(values[4])
+            diff,points=int(values[5]),int(values[6])
+            if not goals or played != wins+draws+losses or diff != goals[0]-goals[1]:
+                raise ValueError('Unplausible offizielle Tabellenwerte')
+            rows.append({'position':int(position.group(1)), 'team':_clean_team_name(name),
+                         'played':played, 'wins':wins, 'draws':draws, 'losses':losses,
+                         'goals':f'{goals[0]}:{goals[1]}', 'diff':f'{diff:+d}' if diff else '0', 'points':points})
+        if not any(_clean_team_name(r['team']).replace('\u200b','').casefold() == _clean_team_name(team).replace('\u200b','').casefold() for r in rows):
+            continue
+        if len(rows) < 2 or len({r['position'] for r in rows}) != len(rows):
+            raise ValueError('Offizielle Tabelle ist unvollständig')
+        return rows
+    raise ValueError('Keine vollständige offizielle Tabelle für die Mannschaft gefunden')
+
+
+def refresh_official_tables(team_configs, offline=False):
+    """Import U23/U21/U19 tables even when complete round pairings are absent."""
+    if offline:
+        return
+    tables=load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}
+    for key,meta,games in team_configs:
+        if key not in ('u23','u21','u19'):
+            continue
+        urls=[u for u in fussball_source_urls(meta) if '/mannschaft/' in u]
+        for url in urls:
+            try:
+                rows=parse_fussball_standings(fetch(url), meta['team_name'])
+                expected=int(meta.get('expected_league_games') or 0)//2+1
+                if expected > 1 and len(rows) != expected:
+                    raise ValueError(f'Nur {len(rows)}/{expected} Tabellenplätze erkannt')
+                previous=tables.get(key) or {}
+                if max(r['played'] for r in rows) < max((r.get('played',0) for r in previous.get('rows',[])), default=0):
+                    raise ValueError('Offizielle Antwort ist älter als die gespeicherte Tabelle')
+                league=next((g for g in games if is_league_game(g)), {})
+                tables[key]={'competition':competition_label(league.get('competition','')),
+                             'updated_at':f'Offizielle Tabelle · Stand: {datetime.now(TZ):%d.%m.%Y}',
+                             'source':'fussball.de', 'source_url':url, 'rows':rows}
+                print(f'{key}: offizielle Tabelle mit {len(rows)} Mannschaften aktualisiert')
+                break
+            except Exception as exc:
+                warnings.warn(f'{key}: Tabelle konnte nicht aktualisiert werden ({url}): {exc}')
+        else:
+            warnings.warn(f'{key}: bisherige Tabelle bleibt erhalten')
+    save_json(DATA/'tables.json', tables)
+
+
 def compute_standings(matches):
     """Build league table rows from finished matches."""
     stats={}
@@ -1363,7 +1481,7 @@ def compute_standings(matches):
         if team not in stats:
             stats[team]={'team':team,'played':0,'wins':0,'draws':0,'losses':0,'goals_for':0,'goals_against':0,'points':0}
         return stats[team]
-    for g in matches:
+    for g in sanitize_game_results(matches):
         score=parse_score(g.get('result'))
         if not score:
             continue
@@ -1405,6 +1523,8 @@ def refresh_tables_from_rounds():
     tables=load_json(DATA/'tables.json') if (DATA/'tables.json').exists() else {}
     changed=False
     for team_key in ('regionalliga','u23','u21','u19'):
+        if (tables.get(team_key) or {}).get('source') == 'fussball.de':
+            continue
         league_matches=[]
         rounds_with_results=set()
         for grp in rounds.get(team_key) or []:
@@ -1412,7 +1532,7 @@ def refresh_tables_from_rounds():
                 continue
             for m in grp.get('matches') or []:
                 league_matches.append(m)
-                if parse_score(m.get('result')) and grp.get('round'):
+                if parse_score(sanitize_game_results([m])[0].get('result')) and grp.get('round'):
                     rounds_with_results.add(int(grp['round']))
         if not league_matches:
             continue
@@ -1422,7 +1542,7 @@ def refresh_tables_from_rounds():
         comp=competition_label(league_matches[0].get('competition','')) if league_matches else ''
         comp=re.sub(r'\s+\d{4}/\d{2}$', '', comp).strip()
         finished=max(rounds_with_results) if rounds_with_results else None
-        played=sum(1 for m in league_matches if parse_score(m.get('result')))
+        played=sum(1 for m in sanitize_game_results(league_matches) if parse_score(m.get('result')))
         if finished:
             updated_at=f'Aktueller Stand (bis {finished}. Spieltag)'
         else:
@@ -1556,7 +1676,7 @@ def enrich_team_stats(meta, games, standings=None):
     positions={canonical_club_name(str(r.get('team','')).strip()): r.get('position') for r in (standings or {}).get('rows') or [] if r.get('team')}
     points_by_comp = {}
     enriched = []
-    for original in sorted(games, key=lambda x: (x['date'], x.get('time', '00:00'))):
+    for original in sorted(sanitize_game_results(games), key=lambda x: (x['date'], x.get('time', '00:00'))):
         g = deepcopy(original)
         comp = competition_label(g.get('competition', ''))
         is_league = not any(word in comp.lower() for word in ('pokal', 'freundschaft', 'testspiel'))
@@ -2067,14 +2187,13 @@ def sync_round_matches_with_team_schedule(groups, games):
     team_games=list(games or [])
     by_pair={}
     for g in team_games:
-        if not is_league_game(g):
-            continue
-        by_pair[(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')))]=g
+        by_pair[(normalize_match_name(g.get('home','')), normalize_match_name(g.get('away','')), fixture_competition_key(g))]=g
     for grp in groups:
         for match in grp.get('matches') or []:
-            team_game=by_pair.get((normalize_match_name(match.get('home','')), normalize_match_name(match.get('away',''))))
+            identified={**match, 'competition':match.get('competition') or grp.get('competition','')}
+            team_game=by_pair.get((normalize_match_name(match.get('home','')), normalize_match_name(match.get('away','')), fixture_competition_key(identified)))
             if not team_game:
-                team_game=next((g for g in team_games if fixtures_are_same_slot(match, g)), None)
+                team_game=next((g for g in team_games if fixtures_are_same_slot(identified, g)), None)
             if not team_game:
                 continue
             if team_game.get('date'):
@@ -2091,6 +2210,7 @@ def sync_round_matches_with_team_schedule(groups, games):
                 match['away']=team_game['away']
             if team_game.get('id'):
                 match['team_fixture_id']=team_game['id']
+        grp['matches']=sanitize_game_results(grp.get('matches') or [])
     return groups
 
 
@@ -2395,10 +2515,11 @@ def build_site_data(team_configs, ticket_events=None):
         league_games=[g for g in games if not any(w in competition_label(g.get('competition','')).lower() for w in ('pokal','freundschaft','testspiel'))]
         teams=sorted({str(g.get('home','')).strip() for g in league_games}|{str(g.get('away','')).strip() for g in league_games})
         teams=[t for t in teams if t]
+        season_started=any(parse_score(g.get('result')) for g in sanitize_game_results(league_games))
         payload['tables'][key]={
             'competition': competition_label(league_games[0].get('competition','')) if league_games else '',
-            'updated_at':'Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt',
-            'rows':[{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs, discovered_logos)} for i,t in enumerate(teams,1)]
+            'updated_at':'Offizielle Tabelle derzeit nicht verfügbar' if season_started else 'Saisonstart – alphabetisch, bis die offizielle Tabelle vorliegt',
+            'rows':[] if season_started else [{'position':i,'team':t,'played':0,'wins':0,'draws':0,'losses':0,'goals':'0:0','diff':'0','points':0,'logo_url':club_logo_url(t, clubs, discovered_logos)} for i,t in enumerate(teams,1)]
         }
 
     # Complete every table with every league participant seen in the full
@@ -2408,6 +2529,10 @@ def build_site_data(team_configs, ticket_events=None):
             continue
         table=payload.setdefault('tables',{}).setdefault(key,{'competition':'','updated_at':'','rows':[]})
         rows=table.setdefault('rows',[])
+        if table.get('source') == 'fussball.de' or not rows:
+            for row in rows:
+                row['logo_url']=club_logo_url(row.get('team',''), clubs, discovered_logos)
+            continue
         known={canonical_club_name(str(r.get('team','')).strip()) for r in rows if r.get('team')}
         league_games=[g for g in games if not any(w in competition_label(g.get('competition','')).lower() for w in ('pokal','freundschaft','testspiel'))]
         participants=sorted({str(g.get('home','')).strip() for g in league_games}|{str(g.get('away','')).strip() for g in league_games}, key=str.casefold)
@@ -2615,6 +2740,7 @@ def main():
     except Exception as exc:
         warnings.warn(f'Regionalliga-Spieltage konnten nicht aktualisiert werden: {exc}')
     refresh_tables_from_rounds()
+    refresh_official_tables(configs, offline=args.offline)
     build_site_data(configs, ticket_events)
     required=('rsv-herren.ics','rsv-regionalliga.ics','rsv-u23.ics','rsv-u21.ics','rsv-u19.ics','hertha-bsc.ics')
     if not ok:

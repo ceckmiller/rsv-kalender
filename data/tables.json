@@ -204,13 +204,533 @@
     ]
   },
   "u23": {
-    "competition": "Kreisoberliga Havelland",
-    "updated_at": "",
-    "rows": []
+    "competition": "Kreisoberliga",
+    "updated_at": "Offizielle Tabelle · Stand: 16.10.2026",
+    "source": "fussball.de",
+    "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
+    "rows": [
+      {
+        "position": 1,
+        "team": "SV Dallgow 47",
+        "played": 6,
+        "wins": 5,
+        "draws": 1,
+        "losses": 0,
+        "goals": "35:7",
+        "diff": "+28",
+        "points": 16
+      },
+      {
+        "position": 2,
+        "team": "Bredower SV",
+        "played": 6,
+        "wins": 4,
+        "draws": 1,
+        "losses": 1,
+        "goals": "25:9",
+        "diff": "+16",
+        "points": 13
+      },
+      {
+        "position": 3,
+        "team": "Fortuna Babelsberg II",
+        "played": 6,
+        "wins": 3,
+        "draws": 2,
+        "losses": 1,
+        "goals": "14:9",
+        "diff": "+5",
+        "points": 11
+      },
+      {
+        "position": 4,
+        "team": "FSV 95 Ketzin/​Falkenrehde",
+        "played": 6,
+        "wins": 3,
+        "draws": 2,
+        "losses": 1,
+        "goals": "9:6",
+        "diff": "+3",
+        "points": 11
+      },
+      {
+        "position": 5,
+        "team": "BSG Stahl Brandenburg U23",
+        "played": 6,
+        "wins": 3,
+        "draws": 1,
+        "losses": 2,
+        "goals": "19:17",
+        "diff": "+2",
+        "points": 10
+      },
+      {
+        "position": 6,
+        "team": "UNITED TELTOW FC",
+        "played": 5,
+        "wins": 3,
+        "draws": 0,
+        "losses": 2,
+        "goals": "12:15",
+        "diff": "-3",
+        "points": 9
+      },
+      {
+        "position": 7,
+        "team": "SG Blau-Weiß Pessin",
+        "played": 6,
+        "wins": 2,
+        "draws": 2,
+        "losses": 2,
+        "goals": "13:10",
+        "diff": "+3",
+        "points": 8
+      },
+      {
+        "position": 8,
+        "team": "SG Michendorf II",
+        "played": 5,
+        "wins": 2,
+        "draws": 2,
+        "losses": 1,
+        "goals": "3:3",
+        "diff": "0",
+        "points": 8
+      },
+      {
+        "position": 9,
+        "team": "Brandenburger SC Süd 05 II",
+        "played": 6,
+        "wins": 2,
+        "draws": 2,
+        "losses": 2,
+        "goals": "12:19",
+        "diff": "-7",
+        "points": 8
+      },
+      {
+        "position": 10,
+        "team": "SV Falkensee-Finkenkrug II",
+        "played": 6,
+        "wins": 2,
+        "draws": 1,
+        "losses": 3,
+        "goals": "10:14",
+        "diff": "-4",
+        "points": 7
+      },
+      {
+        "position": 11,
+        "team": "SV Ziesar 31",
+        "played": 6,
+        "wins": 2,
+        "draws": 0,
+        "losses": 4,
+        "goals": "15:15",
+        "diff": "0",
+        "points": 6
+      },
+      {
+        "position": 12,
+        "team": "FSV Babelsberg 74 II",
+        "played": 6,
+        "wins": 2,
+        "draws": 0,
+        "losses": 4,
+        "goals": "13:16",
+        "diff": "-3",
+        "points": 6
+      },
+      {
+        "position": 13,
+        "team": "RSV Eintracht 1949 U23",
+        "played": 6,
+        "wins": 1,
+        "draws": 3,
+        "losses": 2,
+        "goals": "11:14",
+        "diff": "-3",
+        "points": 6
+      },
+      {
+        "position": 14,
+        "team": "SG Geltow",
+        "played": 6,
+        "wins": 1,
+        "draws": 3,
+        "losses": 2,
+        "goals": "8:18",
+        "diff": "-10",
+        "points": 6
+      },
+      {
+        "position": 15,
+        "team": "SV Ruhlsdorf",
+        "played": 6,
+        "wins": 2,
+        "draws": 0,
+        "losses": 4,
+        "goals": "9:20",
+        "diff": "-11",
+        "points": 6
+      },
+      {
+        "position": 16,
+        "team": "SG Eintracht Friesack",
+        "played": 6,
+        "wins": 0,
+        "draws": 0,
+        "losses": 6,
+        "goals": "4:20",
+        "diff": "-16",
+        "points": 0
+      }
+    ]
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "",
-    "rows": []
+    "updated_at": "Offizielle Tabelle · Stand: 16.10.2026",
+    "source": "fussball.de",
+    "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
+    "rows": [
+      {
+        "position": 1,
+        "team": "SG Blau-Weiß Beelitz",
+        "played": 6,
+        "wins": 6,
+        "draws": 0,
+        "losses": 0,
+        "goals": "29:7",
+        "diff": "+22",
+        "points": 18
+      },
+      {
+        "position": 2,
+        "team": "Rot-Weiß Groß Glienicke",
+        "played": 6,
+        "wins": 5,
+        "draws": 1,
+        "losses": 0,
+        "goals": "17:3",
+        "diff": "+14",
+        "points": 16
+      },
+      {
+        "position": 3,
+        "team": "Potsdamer Kickers 94",
+        "played": 6,
+        "wins": 5,
+        "draws": 0,
+        "losses": 1,
+        "goals": "16:10",
+        "diff": "+6",
+        "points": 15
+      },
+      {
+        "position": 4,
+        "team": "FSV Grün-Weiß Niemegk",
+        "played": 7,
+        "wins": 4,
+        "draws": 1,
+        "losses": 2,
+        "goals": "26:24",
+        "diff": "+2",
+        "points": 13
+      },
+      {
+        "position": 5,
+        "team": "ESV Lok Seddin",
+        "played": 7,
+        "wins": 4,
+        "draws": 0,
+        "losses": 3,
+        "goals": "16:18",
+        "diff": "-2",
+        "points": 12
+      },
+      {
+        "position": 6,
+        "team": "RSV Eintracht 1949 U21",
+        "played": 6,
+        "wins": 3,
+        "draws": 1,
+        "losses": 2,
+        "goals": "21:16",
+        "diff": "+5",
+        "points": 10
+      },
+      {
+        "position": 7,
+        "team": "SV 05 Rehbrücke",
+        "played": 7,
+        "wins": 3,
+        "draws": 1,
+        "losses": 3,
+        "goals": "17:13",
+        "diff": "+4",
+        "points": 10
+      },
+      {
+        "position": 8,
+        "team": "Caputher SV",
+        "played": 6,
+        "wins": 3,
+        "draws": 1,
+        "losses": 2,
+        "goals": "20:17",
+        "diff": "+3",
+        "points": 10
+      },
+      {
+        "position": 9,
+        "team": "SV Viktoria Potsdam II",
+        "played": 6,
+        "wins": 3,
+        "draws": 0,
+        "losses": 3,
+        "goals": "18:11",
+        "diff": "+7",
+        "points": 9
+      },
+      {
+        "position": 10,
+        "team": "FV Turbine Potsdam 55",
+        "played": 7,
+        "wins": 2,
+        "draws": 2,
+        "losses": 3,
+        "goals": "10:18",
+        "diff": "-8",
+        "points": 8
+      },
+      {
+        "position": 11,
+        "team": "Teltower FV 1913 II",
+        "played": 6,
+        "wins": 2,
+        "draws": 1,
+        "losses": 3,
+        "goals": "10:13",
+        "diff": "-3",
+        "points": 7
+      },
+      {
+        "position": 12,
+        "team": "SG Grün-Weiß Golm II",
+        "played": 6,
+        "wins": 1,
+        "draws": 1,
+        "losses": 4,
+        "goals": "9:17",
+        "diff": "-8",
+        "points": 4
+      },
+      {
+        "position": 13,
+        "team": "SV 1948 Ferch",
+        "played": 6,
+        "wins": 1,
+        "draws": 1,
+        "losses": 4,
+        "goals": "10:20",
+        "diff": "-10",
+        "points": 4
+      },
+      {
+        "position": 14,
+        "team": "FSV Brück",
+        "played": 6,
+        "wins": 1,
+        "draws": 0,
+        "losses": 5,
+        "goals": "11:20",
+        "diff": "-9",
+        "points": 3
+      },
+      {
+        "position": 15,
+        "team": "SG Bornim II",
+        "played": 6,
+        "wins": 1,
+        "draws": 0,
+        "losses": 5,
+        "goals": "6:21",
+        "diff": "-15",
+        "points": 3
+      },
+      {
+        "position": 16,
+        "team": "SV 71 Busendorf",
+        "played": 6,
+        "wins": 0,
+        "draws": 2,
+        "losses": 4,
+        "goals": "11:19",
+        "diff": "-8",
+        "points": 2
+      }
+    ]
+  },
+  "u19": {
+    "competition": "Regionalliga",
+    "updated_at": "Offizielle Tabelle · Stand: 16.10.2026",
+    "source": "fussball.de",
+    "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
+    "rows": [
+      {
+        "position": 1,
+        "team": "1. FC Lokomotive Leipzig U19",
+        "played": 8,
+        "wins": 7,
+        "draws": 0,
+        "losses": 1,
+        "goals": "29:14",
+        "diff": "+15",
+        "points": 21
+      },
+      {
+        "position": 2,
+        "team": "FC Hertha 03 Zehlendorf",
+        "played": 8,
+        "wins": 6,
+        "draws": 1,
+        "losses": 1,
+        "goals": "31:10",
+        "diff": "+21",
+        "points": 19
+      },
+      {
+        "position": 3,
+        "team": "BFC Dynamo U19",
+        "played": 8,
+        "wins": 5,
+        "draws": 3,
+        "losses": 0,
+        "goals": "21:12",
+        "diff": "+9",
+        "points": 18
+      },
+      {
+        "position": 4,
+        "team": "Berliner SC",
+        "played": 7,
+        "wins": 4,
+        "draws": 1,
+        "losses": 2,
+        "goals": "25:14",
+        "diff": "+11",
+        "points": 13
+      },
+      {
+        "position": 5,
+        "team": "Sport-Club Staaken 1919 U19",
+        "played": 8,
+        "wins": 3,
+        "draws": 4,
+        "losses": 1,
+        "goals": "19:11",
+        "diff": "+8",
+        "points": 13
+      },
+      {
+        "position": 6,
+        "team": "Tennis Borussia Berlin U19",
+        "played": 7,
+        "wins": 4,
+        "draws": 0,
+        "losses": 3,
+        "goals": "22:14",
+        "diff": "+8",
+        "points": 12
+      },
+      {
+        "position": 7,
+        "team": "FSV Zwickau",
+        "played": 8,
+        "wins": 3,
+        "draws": 3,
+        "losses": 2,
+        "goals": "24:20",
+        "diff": "+4",
+        "points": 12
+      },
+      {
+        "position": 8,
+        "team": "SC Borea Dresden",
+        "played": 8,
+        "wins": 4,
+        "draws": 0,
+        "losses": 4,
+        "goals": "15:12",
+        "diff": "+3",
+        "points": 12
+      },
+      {
+        "position": 9,
+        "team": "1. FC Frankfurt /​O.",
+        "played": 8,
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "goals": "11:21",
+        "diff": "-10",
+        "points": 9
+      },
+      {
+        "position": 10,
+        "team": "Steglitzer FC Stern 1900",
+        "played": 8,
+        "wins": 2,
+        "draws": 1,
+        "losses": 5,
+        "goals": "11:19",
+        "diff": "-8",
+        "points": 7
+      },
+      {
+        "position": 11,
+        "team": "RSV Eintracht 1949 U19",
+        "played": 8,
+        "wins": 1,
+        "draws": 3,
+        "losses": 4,
+        "goals": "12:16",
+        "diff": "-4",
+        "points": 6
+      },
+      {
+        "position": 12,
+        "team": "FC Viktoria 1889 Berlin U19",
+        "played": 8,
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "goals": "12:27",
+        "diff": "-15",
+        "points": 6
+      },
+      {
+        "position": 13,
+        "team": "FC Mecklenburg Schwerin U19",
+        "played": 8,
+        "wins": 1,
+        "draws": 2,
+        "losses": 5,
+        "goals": "9:27",
+        "diff": "-18",
+        "points": 5
+      },
+      {
+        "position": 14,
+        "team": "VFC Plauen",
+        "played": 8,
+        "wins": 0,
+        "draws": 2,
+        "losses": 6,
+        "goals": "13:37",
+        "diff": "-24",
+        "points": 2
+      }
+    ]
   }
 }

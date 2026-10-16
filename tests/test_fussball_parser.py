@@ -16,7 +16,7 @@ def fixture_html(count=30):
 <tr><td class="column-club-left"><span data-responsive-image="//img/{i}h.png"></span><span class="club-name">{home}</span></td>
 <td class="column-score"><a href="/spiel/ABC{i:06d}">- : -</a></td>
 <td class="column-club-right"><span data-responsive-image="//img/{i}a.png"></span><span class="club-name">{away}</span></td></tr>
-<tr><td colspan="3"><a class="location">Sportplatz {i}, Musterweg {i}, 14532 Stahnsdorf</a></td></tr>''')
+<tr class="row-venue"><td colspan="3"><a class="location">Sportplatz {i}, Musterweg {i}, 14532 Stahnsdorf</a></td></tr>''')
     return '<table>'+''.join(rows)+'</table>'
 
 

@@ -3,7 +3,7 @@ name: RSV-Kalender aktualisieren
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
@@ -27,6 +27,9 @@ jobs:
 
       - name: Kalender erzeugen
         run: |
+          python tests/test_fussball_parser.py
+          python -m unittest discover -s tests -p 'test_schedule_integrity.py'
+          node --test tests/test_site_data.mjs
           python update_calendars.py
 
       - name: Live-Daten in Netlify Blobs veröffentlichen

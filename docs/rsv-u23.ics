@@ -147,39 +147,14 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:u23-liga-20260830-20260830T1500@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
-DTSTART:20260830T130000Z
-DTEND:20260830T150000Z
-SEQUENCE:1
-SUMMARY:2. Spieltag | Kreisoberliga | SV Ziesar 1 – RSV Eintracht 1949 
- U23 | Endstand: 6:2
-DESCRIPTION:2. Spieltag\nKreisoberliga\nSV Ziesar 1 – RSV Eintracht 1949 
- U23\nEndstand: 6:2\n\nPunkte: 0\n\nTore RSV\n34. Minute – Florian Janka 
- (SV Ziesar 1) – 1:0\n38. Minute – Ben Enderlein (RSV Eintracht 1949 
- U23) – 1:1\n60. Minute – Florian Janka (SV Ziesar 1) – 2:1\n63. 
- Minute – Florian Janka (SV Ziesar 1) – 3:1\n72. Minute – Timon 
- Rckwald (RSV Eintracht 1949 U23) – 3:2\n77. Minute – Felix Herbinger 
- (SV Ziesar 1) – 4:2\n86. Minute – Felix Herbinger (SV Ziesar 1) – 
- 5:2\n89. Minute – Florian Janka (SV Ziesar 1) – 6:2\n\nSpielort: 
- Sportplatz Ziesar\, Schopsdorfer Chaussee 17\, 14793 Ziesar\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Ziesar%2C+Schop
- sdorfer+Chaussee+17%2C+14793+Ziesar\n\nQuelle: 
- https://www.fussball.de/spiel/sv-ziesar-1-rsv-eintracht-1949-u23/-/spiel/0
- 31D1IIEGK000000VS5489BTVUS470OH
-LOCATION:Sportplatz Ziesar\, Schopsdorfer Chaussee 17\, 14793 Ziesar
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:u23-liga-20260906-20260906T1500@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
+DTSTAMP:20261016T123318Z
 DTSTART:20260906T130000Z
 DTEND:20260906T150000Z
 SEQUENCE:1
-SUMMARY:3. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV 
+SUMMARY:2. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV 
  Falkensee-Finkenkrug II | Endstand: 1:3
-DESCRIPTION:3. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV 
+DESCRIPTION:2. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV 
  Falkensee-Finkenkrug II\nEndstand: 1:3\n\nPunkte: 0\n\nTore RSV\n5. Minute
  – Christopher Hannemann (SV Falkensee-Finkenkrug II) – 0:1\n36. Minute
  – Oliver Schmidhauser (RSV Eintracht 1949 U23) – 1:1\n49. Minute – 
@@ -197,13 +172,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138020-20260913T1500@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
+DTSTAMP:20261016T123318Z
 DTSTART:20260913T130000Z
 DTEND:20260913T150000Z
 SEQUENCE:1
-SUMMARY:4. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV 
+SUMMARY:3. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV 
  Ruhlsdorf | Endstand: 3:0
-DESCRIPTION:4. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV 
+DESCRIPTION:3. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV 
  Ruhlsdorf\nEndstand: 3:0\n\nPunkte: 3\n\nTore RSV\n7. Minute – Ardit 
  Fazli (RSV Eintracht 1949 U23) – 1:0\n36. Minute – Ardit Fazli (RSV 
  Eintracht 1949 U23) – 2:0\n87. Minute – Noam Goldenblatt (RSV 
@@ -220,13 +195,13 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138026-20260920T1500@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
+DTSTAMP:20261016T123318Z
 DTSTART:20260920T130000Z
 DTEND:20260920T150000Z
 SEQUENCE:1
-SUMMARY:5. Spieltag | Kreisoberliga | SG Geltow – RSV Eintracht 1949 U23 
+SUMMARY:4. Spieltag | Kreisoberliga | SG Geltow – RSV Eintracht 1949 U23 
  | Endstand: 1:1
-DESCRIPTION:5. Spieltag\nKreisoberliga\nSG Geltow – RSV Eintracht 1949 
+DESCRIPTION:4. Spieltag\nKreisoberliga\nSG Geltow – RSV Eintracht 1949 
  U23\nEndstand: 1:1\n\nPunkte: 4\n\nTore RSV\n29. Minute – Charly 
  Schleicher (RSV Eintracht 1949 U23) – 0:1\n47. Minute – Julian Bocian 
  (SG Geltow) – 1:1\n\nSpielort: Sportplatz Geltow Am Mühlenberg\, Am 
@@ -237,6 +212,32 @@ DESCRIPTION:5. Spieltag\nKreisoberliga\nSG Geltow – RSV Eintracht 1949
  D1IIDF4000000VS5489BTVUS470OH
 LOCATION:Sportplatz Geltow Am Mühlenberg\, Am Wasser 3\, 14548 
  Schwielowsee
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:u23-610138036-20260927T1400@rsv-eintracht.de
+DTSTAMP:20261016T123318Z
+DTSTART:20260927T120000Z
+DTEND:20260927T140000Z
+SEQUENCE:1
+SUMMARY:5. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – Fortuna 
+ Babelsberg II | Endstand: 3:3
+DESCRIPTION:5. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – Fortuna 
+ Babelsberg II\nEndstand: 3:3\n\nPunkte: 5\n\nTore RSV\n4. Minute – 
+ Christian Gotzmann (RSV Eintracht 1949 U23) – 1:0\n27. Minute – Ali 
+ Hoseini (RSV Eintracht 1949 U23) – 2:0\n45. Minute – Maximilian Lehe 
+ (Fortuna Babelsberg II) – 2:1\n72. Minute – Niclas Donatz (Fortuna 
+ Babelsberg II) – 2:2\n83. Minute – Timon Rckwald (RSV Eintracht 1949 
+ U23) – 3:2\n90. Minute – Cedrick Rzepka (Fortuna Babelsberg II) – 
+ 3:3\n\nSpielort: Sportplatz Heinrich-Zille-Straße\, Platz 1\, 
+ Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
+ https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
+ Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nQu
+ elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsb
+ erg-ii/-/spiel/031D1IID4O000000VS5489BTVUS470OH
+LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
+ 32\, 14532 Stahnsdorf
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
@@ -271,14 +272,14 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:u23-610138052-20261011T1400@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
+DTSTAMP:20261016T123318Z
 DTSTART:20261011T120000Z
 DTEND:20261011T140000Z
 SEQUENCE:1
 SUMMARY:6. Spieltag | Kreisoberliga | RSV Eintracht 1949 U23 – SV Dallgow
  47 | Endstand: 1:1
 DESCRIPTION:6. Spieltag\nKreisoberliga\nRSV Eintracht 1949 U23 – SV 
- Dallgow 47\nEndstand: 1:1\n\nPunkte: 5\n\nTore RSV\n28. Minute – Ardit 
+ Dallgow 47\nEndstand: 1:1\n\nPunkte: 6\n\nTore RSV\n28. Minute – Ardit 
  Fazli (RSV Eintracht 1949 U23) – 1:0\n70. Minute – Elias Kuhnert (SV 
  Dallgow 47) – 1:1\n\nSpielort: Sportplatz Heinrich-Zille-Straße\, Platz
  1\, Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
@@ -370,26 +371,20 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:u23-610138036-20261115T1400@rsv-eintracht.de
-DTSTAMP:20261016T112924Z
+UID:u23-710089095-20261115T1400@rsv-eintracht.de
+DTSTAMP:20261016T123318Z
 DTSTART:20261115T130000Z
 DTEND:20261115T150000Z
 SEQUENCE:1
 SUMMARY:Kreispokal | Kreispokal | RSV Eintracht 1949 U23 – Fortuna 
- Babelsberg II | Endstand: 3:3
+ Babelsberg II | Anstoß: 14:00 Uhr
 DESCRIPTION:Kreispokal\nKreispokal\nRSV Eintracht 1949 U23 – Fortuna 
- Babelsberg II\nEndstand: 3:3\n\n\nTore RSV\n4. Minute – Christian 
- Gotzmann (RSV Eintracht 1949 U23) – 1:0\n27. Minute – Ali Hoseini (RSV
- Eintracht 1949 U23) – 2:0\n45. Minute – Maximilian Lehe (Fortuna 
- Babelsberg II) – 2:1\n72. Minute – Niclas Donatz (Fortuna Babelsberg 
- II) – 2:2\n83. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 
- 3:2\n90. Minute – Cedrick Rzepka (Fortuna Babelsberg II) – 
- 3:3\n\nSpielort: Sportplatz Heinrich-Zille-Straße\, Platz 1\, 
- Heinrich-Zille-Str. 32\, 14532 Stahnsdorf\nGoogle Maps: 
- https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-
- Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf\n\nQu
- elle: https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsb
- erg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58
+ Babelsberg II\nAnstoß: 14:00 Uhr\n\n\nSpielort: Sportplatz 
+ Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 32\, 14532 
+ Stahnsdorf\nGoogle Maps: https://www.google.com/maps/search/?api=1&query=S
+ portplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%
+ 2C+14532+Stahnsdorf\n\nQuelle: https://www.fussball.de/spiel/rsv-eintracht
+ -1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58
 LOCATION:Sportplatz Heinrich-Zille-Straße\, Platz 1\, Heinrich-Zille-Str. 
  32\, 14532 Stahnsdorf
 STATUS:CONFIRMED

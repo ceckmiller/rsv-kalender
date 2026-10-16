@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T13:30:15.091978+02:00",
+  "updated_at": "2026-10-16T14:30:45.494517+02:00",
   "games": {
     "rl-01": {
       "identity": "2026-07-25|14:00|BFC Preussen 1894|RSV Eintracht 1949",
@@ -26,10 +26,10 @@
       "updated_at": "2026-10-16T13:29:24.695369+02:00"
     },
     "610138004": {
-      "identity": "2026-08-30|15:00|SV Ziesar 1|RSV Eintracht 1949",
+      "identity": "2026-08-29|15:00|SV Ziesar 31|RSV Eintracht 1949",
       "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
       "source_url": "https://www.fussball.de/spiel/sv-ziesar-1-rsv-eintracht-1949-u23/-/spiel/031D1IIEGK000000VS5489BTVUS470OH",
-      "updated_at": "2026-10-16T13:29:24.695369+02:00"
+      "updated_at": "2026-10-16T14:30:37.920739+02:00"
     },
     "610138012": {
       "identity": "2026-09-06|15:00|RSV Eintracht 1949|SV Falkensee-Finkenkrug II",
