@@ -1466,7 +1466,8 @@
           "time": "14:00",
           "home": "FSV 63 Luckenwalde",
           "away": "FC Carl Zeiss Jena",
-          "result": null,
+          "result": "1:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1477,7 +1478,8 @@
           "time": "14:00",
           "home": "BFC Preussen 1894",
           "away": "VSG Altglienicke",
-          "result": null,
+          "result": "1:3",
+          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1488,7 +1490,8 @@
           "time": "14:00",
           "home": "1. FC Lok Leipzig",
           "away": "BSG Chemie Leipzig",
-          "result": null,
+          "result": "2:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 13,
           "competition": "Regionalliga Nordost 2026/27"
