@@ -590,6 +590,17 @@
       },
       {
         "position": 2,
+        "team": "BFC Dynamo U19",
+        "played": 9,
+        "wins": 6,
+        "draws": 3,
+        "losses": 0,
+        "goals": "26:14",
+        "diff": "+12",
+        "points": 21
+      },
+      {
+        "position": 3,
         "team": "FC Hertha 03 Zehlendorf",
         "played": 8,
         "wins": 6,
@@ -600,26 +611,15 @@
         "points": 19
       },
       {
-        "position": 3,
-        "team": "BFC Dynamo U19",
-        "played": 8,
-        "wins": 5,
-        "draws": 3,
-        "losses": 0,
-        "goals": "21:12",
-        "diff": "+9",
-        "points": 18
-      },
-      {
         "position": 4,
         "team": "Berliner SC",
-        "played": 7,
-        "wins": 4,
+        "played": 8,
+        "wins": 5,
         "draws": 1,
         "losses": 2,
-        "goals": "25:14",
-        "diff": "+11",
-        "points": 13
+        "goals": "30:15",
+        "diff": "+15",
+        "points": 16
       },
       {
         "position": 5,
@@ -667,6 +667,17 @@
       },
       {
         "position": 9,
+        "team": "RSV Eintracht 1949 U19",
+        "played": 9,
+        "wins": 2,
+        "draws": 3,
+        "losses": 4,
+        "goals": "18:17",
+        "diff": "+1",
+        "points": 9
+      },
+      {
+        "position": 10,
         "team": "1. FC Frankfurt /​O.",
         "played": 8,
         "wins": 3,
@@ -677,47 +688,36 @@
         "points": 9
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "Steglitzer FC Stern 1900",
-        "played": 8,
+        "played": 9,
         "wins": 2,
         "draws": 1,
-        "losses": 5,
-        "goals": "11:19",
-        "diff": "-8",
+        "losses": 6,
+        "goals": "13:24",
+        "diff": "-11",
         "points": 7
-      },
-      {
-        "position": 11,
-        "team": "RSV Eintracht 1949 U19",
-        "played": 8,
-        "wins": 1,
-        "draws": 3,
-        "losses": 4,
-        "goals": "12:16",
-        "diff": "-4",
-        "points": 6
       },
       {
         "position": 12,
         "team": "FC Viktoria 1889 Berlin U19",
-        "played": 8,
+        "played": 9,
         "wins": 2,
         "draws": 0,
-        "losses": 6,
-        "goals": "12:27",
-        "diff": "-15",
+        "losses": 7,
+        "goals": "13:33",
+        "diff": "-20",
         "points": 6
       },
       {
         "position": 13,
         "team": "FC Mecklenburg Schwerin U19",
-        "played": 8,
+        "played": 9,
         "wins": 1,
         "draws": 2,
-        "losses": 5,
-        "goals": "9:27",
-        "diff": "-18",
+        "losses": 6,
+        "goals": "10:32",
+        "diff": "-22",
         "points": 5
       },
       {

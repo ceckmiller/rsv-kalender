@@ -272,13 +272,23 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "FC Viktoria 1889 Berlin U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "6:1",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-viktoria-berlin-u19/-/spiel/031B3S0FEO000000VS5489BUVV628VP4",
       "match_number": "690007060",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003IVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003IVV0AG08LVUPGND5I",
+      "halftime_result": "3:0",
+      "scorers": [
+        "3. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 1:0",
+        "20. Minute – Kimon Damaskos (RSV Eintracht 1949 U19) – 2:0",
+        "45. Minute – Leonard Scheunemann (RSV Eintracht 1949 U19) – 3:0",
+        "77. Minute – Finley Herms (RSV Eintracht 1949 U19) – 4:0",
+        "79. Minute – Adrian Stojanovic (RSV Eintracht 1949 U19) – 5:0",
+        "81. Minute – Finley Herms (RSV Eintracht 1949 U19) – 6:0",
+        "89. Minute – Riyad Mouhamed (FC Viktoria 1889 Berlin U19) – 6:1"
+      ]
     },
     {
       "id": "u19-690007070",
