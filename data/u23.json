@@ -272,7 +272,15 @@
       "source_url": "https://www.fussball.de/spiel/sg-eintracht-friesack-rsv-eintracht-1949-u23/-/spiel/031D1IIBSS000000VS5489BTVUS470OH",
       "match_number": "610138061",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000041VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "2:2",
+      "halftime_result": "1:1",
+      "scorers": [
+        "17. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 0:1",
+        "29. Minute – Eric Hilgenfeld (SG Eintracht Friesack) – 1:1",
+        "50. Minute – Eric Hilgenfeld (SG Eintracht Friesack) – 2:1",
+        "69. Minute – Benjamin Kausch (RSV Eintracht 1949 U23) – 2:2"
+      ]
     },
     {
       "id": "u23-610138068",

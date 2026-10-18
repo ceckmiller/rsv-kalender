@@ -221,12 +221,17 @@
       "home": "RSV Eintracht 1949 U21",
       "away": "FSV Brück",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "2:0",
       "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-fsv-brueck-i/-/spiel/031D5U7GBS000000VS5489BTVUS470OH",
       "match_number": "610480060",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000020VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000020VV0AG08LVUPGND5I",
+      "halftime_result": "2:0",
+      "scorers": [
+        "17. Minute – Tonio Schttler (RSV Eintracht 1949 U21) – 1:0",
+        "44. Minute – Louis Lekkos (RSV Eintracht 1949 U21) – 2:0"
+      ]
     },
     {
       "id": "u21-610480069",
