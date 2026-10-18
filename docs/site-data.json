@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T00:20:02.798080+02:00",
+  "generated_at": "2026-10-18T16:03:04.497188+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -16011,17 +16011,29 @@
         {
           "position": 2,
           "team": "Bredower SV",
-          "played": 6,
+          "played": 7,
           "wins": 4,
           "draws": 1,
-          "losses": 1,
-          "goals": "25:9",
-          "diff": "+16",
+          "losses": 2,
+          "goals": "26:13",
+          "diff": "+13",
           "points": 13,
           "logo_url": "/assets/clubs/bredower-sv.png"
         },
         {
           "position": 3,
+          "team": "BSG Stahl Brandenburg U23",
+          "played": 7,
+          "wins": 4,
+          "draws": 1,
+          "losses": 2,
+          "goals": "23:18",
+          "diff": "+5",
+          "points": 13,
+          "logo_url": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
+        },
+        {
+          "position": 4,
           "team": "Fortuna Babelsberg II",
           "played": 6,
           "wins": 3,
@@ -16033,7 +16045,7 @@
           "logo_url": "/assets/clubs/fortuna-babelsberg-ii.png"
         },
         {
-          "position": 4,
+          "position": 5,
           "team": "FSV 95 Ketzin/​Falkenrehde",
           "played": 6,
           "wins": 3,
@@ -16043,18 +16055,6 @@
           "diff": "+3",
           "points": 11,
           "logo_url": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
-        },
-        {
-          "position": 5,
-          "team": "BSG Stahl Brandenburg U23",
-          "played": 6,
-          "wins": 3,
-          "draws": 1,
-          "losses": 2,
-          "goals": "19:17",
-          "diff": "+2",
-          "points": 10,
-          "logo_url": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
         },
         {
           "position": 6,
@@ -16435,17 +16435,53 @@
         {
           "position": 4,
           "team": "Berliner SC",
-          "played": 8,
-          "wins": 5,
+          "played": 9,
+          "wins": 6,
           "draws": 1,
           "losses": 2,
-          "goals": "30:15",
-          "diff": "+15",
-          "points": 16,
+          "goals": "32:15",
+          "diff": "+17",
+          "points": 19,
           "logo_url": "/assets/clubs/berliner-sc.png"
         },
         {
           "position": 5,
+          "team": "SC Borea Dresden",
+          "played": 9,
+          "wins": 5,
+          "draws": 0,
+          "losses": 4,
+          "goals": "23:12",
+          "diff": "+11",
+          "points": 15,
+          "logo_url": "/assets/clubs/sc-borea-dresden.png"
+        },
+        {
+          "position": 6,
+          "team": "FSV Zwickau",
+          "played": 9,
+          "wins": 4,
+          "draws": 3,
+          "losses": 2,
+          "goals": "29:23",
+          "diff": "+6",
+          "points": 15,
+          "logo_url": "/assets/clubs/fsv-zwickau.png"
+        },
+        {
+          "position": 7,
+          "team": "Tennis Borussia Berlin U19",
+          "played": 9,
+          "wins": 5,
+          "draws": 0,
+          "losses": 4,
+          "goals": "25:21",
+          "diff": "+4",
+          "points": 15,
+          "logo_url": "/assets/clubs/tennis-borussia-berlin.png"
+        },
+        {
+          "position": 8,
           "team": "Sport-Club Staaken 1919 U19",
           "played": 8,
           "wins": 3,
@@ -16455,42 +16491,6 @@
           "diff": "+8",
           "points": 13,
           "logo_url": "/assets/clubs/sport-club-staaken-1919.png"
-        },
-        {
-          "position": 6,
-          "team": "Tennis Borussia Berlin U19",
-          "played": 7,
-          "wins": 4,
-          "draws": 0,
-          "losses": 3,
-          "goals": "22:14",
-          "diff": "+8",
-          "points": 12,
-          "logo_url": "/assets/clubs/tennis-borussia-berlin.png"
-        },
-        {
-          "position": 7,
-          "team": "FSV Zwickau",
-          "played": 8,
-          "wins": 3,
-          "draws": 3,
-          "losses": 2,
-          "goals": "24:20",
-          "diff": "+4",
-          "points": 12,
-          "logo_url": "/assets/clubs/fsv-zwickau.png"
-        },
-        {
-          "position": 8,
-          "team": "SC Borea Dresden",
-          "played": 8,
-          "wins": 4,
-          "draws": 0,
-          "losses": 4,
-          "goals": "15:12",
-          "diff": "+3",
-          "points": 12,
-          "logo_url": "/assets/clubs/sc-borea-dresden.png"
         },
         {
           "position": 9,
@@ -16555,12 +16555,12 @@
         {
           "position": 14,
           "team": "VFC Plauen",
-          "played": 8,
+          "played": 9,
           "wins": 0,
           "draws": 2,
-          "losses": 6,
-          "goals": "13:37",
-          "diff": "-24",
+          "losses": 7,
+          "goals": "13:45",
+          "diff": "-32",
           "points": 2,
           "logo_url": "/assets/clubs/vfc-plauen.png"
         }
