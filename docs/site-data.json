@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T01:12:09.486257+02:00",
+  "generated_at": "2026-10-19T15:08:49.181076+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -500,7 +500,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+auf+dem+Wurfplatz%2C+Friedrich-Friesen-Allee%2C+14053+Berlin",
           "points": 9,
           "table_position": 16,
-          "attendance": null,
+          "attendance": 328,
           "referee": "Marvin Tennes",
           "youtube_url": "https://www.youtube.com/results?search_query=Hertha+BSC+II+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099"
