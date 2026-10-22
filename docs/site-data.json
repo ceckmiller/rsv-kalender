@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T02:03:42.882229+02:00",
+  "generated_at": "2026-10-22T17:17:46.064625+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -14947,20 +14947,6 @@
               "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
             },
             {
-              "id": "cup-sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19",
-              "date": "2026-11-04",
-              "time": "18:00",
-              "home": "SV 1908 Grün-Weiss Ahrensfelde",
-              "away": "FC Energie Cottbus",
-              "result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/sv-1908-gruen-weiss-ahrensfelde.png",
-              "away_logo": "/assets/clubs/fc-energie-cottbus.png",
-              "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
-            },
-            {
               "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
               "date": "2026-11-04",
               "time": "18:00",
@@ -14987,6 +14973,20 @@
               "home_logo": "/assets/clubs/spg-fk-hansa-wittstock-1919-meyenburger-sv-1922.png",
               "away_logo": "/assets/clubs/1-fc-frankfurt-o.png",
               "source_url": "https://www.fussball.de/spiel/spg-hansa-wittstock-meyenburger-sv-1-fc-frankfurt/-/spiel/032AQB5H2C000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19",
+              "date": "2026-11-04",
+              "time": "19:00",
+              "home": "SV 1908 Grün-Weiss Ahrensfelde",
+              "away": "FC Energie Cottbus",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/sv-1908-gruen-weiss-ahrensfelde.png",
+              "away_logo": "/assets/clubs/fc-energie-cottbus.png",
+              "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
             },
             {
               "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
