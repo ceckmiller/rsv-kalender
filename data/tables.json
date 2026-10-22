@@ -205,7 +205,7 @@
   },
   "u23": {
     "competition": "Kreisoberliga",
-    "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "rows": [
@@ -299,6 +299,17 @@
       },
       {
         "position": 9,
+        "team": "FSV Babelsberg 74 II",
+        "played": 8,
+        "wins": 3,
+        "draws": 0,
+        "losses": 5,
+        "goals": "18:20",
+        "diff": "-2",
+        "points": 9
+      },
+      {
+        "position": 10,
         "team": "UNITED TELTOW FC",
         "played": 6,
         "wins": 3,
@@ -309,7 +320,7 @@
         "points": 9
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "SG Geltow",
         "played": 7,
         "wins": 2,
@@ -320,7 +331,7 @@
         "points": 9
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "SG Blau-Weiß Pessin",
         "played": 7,
         "wins": 2,
@@ -331,18 +342,18 @@
         "points": 8
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "SG Michendorf II",
-        "played": 6,
+        "played": 7,
         "wins": 2,
         "draws": 2,
-        "losses": 2,
-        "goals": "3:4",
-        "diff": "-1",
+        "losses": 3,
+        "goals": "4:7",
+        "diff": "-3",
         "points": 8
       },
       {
-        "position": 13,
+        "position": 14,
         "team": "RSV Eintracht 1949 U23",
         "played": 7,
         "wins": 1,
@@ -351,17 +362,6 @@
         "goals": "13:16",
         "diff": "-3",
         "points": 7
-      },
-      {
-        "position": 14,
-        "team": "FSV Babelsberg 74 II",
-        "played": 7,
-        "wins": 2,
-        "draws": 0,
-        "losses": 5,
-        "goals": "15:19",
-        "diff": "-4",
-        "points": 6
       },
       {
         "position": 15,
@@ -389,7 +389,7 @@
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
     "rows": [
@@ -573,7 +573,7 @@
   },
   "u19": {
     "competition": "Regionalliga",
-    "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "rows": [

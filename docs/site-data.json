@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:17:46.064625+02:00",
+  "generated_at": "2026-10-23T00:22:12.956804+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -7732,7 +7732,7 @@
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Ziesar%2C+Schopsdorfer+Chaussee+17%2C+14793+Ziesar",
           "points": 0,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-liga-20260906",
@@ -7755,7 +7755,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 0,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-610138020",
@@ -7777,7 +7777,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 3,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-610138026",
@@ -7798,7 +7798,7 @@
           "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Geltow+Am+M%C3%BChlenberg%2C+Am+Wasser+3%2C+14548+Schwielowsee",
           "points": 4,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-610138036",
@@ -7823,7 +7823,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 5,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-710089074",
@@ -7870,7 +7870,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 6,
-          "table_position": 13
+          "table_position": 14
         },
         {
           "id": "u23-610138061",
@@ -7893,7 +7893,7 @@
           "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion%2C+Am+Schillerpark+3%2C+14662+Friesack",
           "points": 7,
-          "table_position": 13
+          "table_position": 14
         }
       ],
       "fixtures": [
@@ -16041,7 +16041,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16143,6 +16143,18 @@
         },
         {
           "position": 9,
+          "team": "FSV Babelsberg 74 II",
+          "played": 8,
+          "wins": 3,
+          "draws": 0,
+          "losses": 5,
+          "goals": "18:20",
+          "diff": "-2",
+          "points": 9,
+          "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
+        },
+        {
+          "position": 10,
           "team": "UNITED TELTOW FC",
           "played": 6,
           "wins": 3,
@@ -16154,7 +16166,7 @@
           "logo_url": "/assets/clubs/united-teltow-fc.png"
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "SG Geltow",
           "played": 7,
           "wins": 2,
@@ -16166,7 +16178,7 @@
           "logo_url": "/assets/clubs/sg-geltow.png"
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "SG Blau-Weiß Pessin",
           "played": 7,
           "wins": 2,
@@ -16178,19 +16190,19 @@
           "logo_url": "/assets/clubs/sg-blau-weiss-pessin.png"
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "SG Michendorf II",
-          "played": 6,
+          "played": 7,
           "wins": 2,
           "draws": 2,
-          "losses": 2,
-          "goals": "3:4",
-          "diff": "-1",
+          "losses": 3,
+          "goals": "4:7",
+          "diff": "-3",
           "points": 8,
           "logo_url": "/assets/clubs/sg-michendorf-ii.png"
         },
         {
-          "position": 13,
+          "position": 14,
           "team": "RSV Eintracht 1949 U23",
           "played": 7,
           "wins": 1,
@@ -16200,18 +16212,6 @@
           "diff": "-3",
           "points": 7,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
-        },
-        {
-          "position": 14,
-          "team": "FSV Babelsberg 74 II",
-          "played": 7,
-          "wins": 2,
-          "draws": 0,
-          "losses": 5,
-          "goals": "15:19",
-          "diff": "-4",
-          "points": 6,
-          "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
         },
         {
           "position": 15,
@@ -16241,7 +16241,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16441,7 +16441,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
