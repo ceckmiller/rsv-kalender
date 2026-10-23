@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T00:22:12.956804+02:00",
+  "generated_at": "2026-10-24T00:11:09.860840+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4399,7 +4399,8 @@
               "time": "19:00",
               "home": "FC Carl Zeiss Jena",
               "away": "BFC Dynamo",
-              "result": null,
+              "result": "0:0",
+              "halftime_result": null,
               "location": "",
               "matchday": 14,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4412,7 +4413,8 @@
               "time": "19:00",
               "home": "SV Babelsberg 03",
               "away": "BFC Preussen 1894",
-              "result": null,
+              "result": "1:0",
+              "halftime_result": null,
               "location": "",
               "matchday": 14,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4425,7 +4427,8 @@
               "time": "19:00",
               "home": "VSG Altglienicke",
               "away": "FSV 63 Luckenwalde",
-              "result": null,
+              "result": "3:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 14,
               "competition": "Regionalliga Nordost 2026/27",
@@ -15795,7 +15798,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 13. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 14. Spieltag)",
       "rows": [
         {
           "team": "Chemnitzer FC",
@@ -15834,40 +15837,40 @@
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
-          "team": "FC Carl Zeiss Jena",
-          "played": 13,
+          "team": "VSG Altglienicke",
+          "played": 14,
           "wins": 8,
-          "draws": 1,
+          "draws": 3,
+          "losses": 3,
+          "goals": "26:17",
+          "diff": "+9",
+          "points": 27,
+          "position": 4,
+          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+        },
+        {
+          "team": "FC Carl Zeiss Jena",
+          "played": 14,
+          "wins": 8,
+          "draws": 2,
           "losses": 4,
           "goals": "23:12",
           "diff": "+11",
-          "points": 25,
-          "position": 4,
+          "points": 26,
+          "position": 5,
           "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "BFC Dynamo",
-          "played": 13,
+          "played": 14,
           "wins": 7,
-          "draws": 4,
+          "draws": 5,
           "losses": 2,
           "goals": "22:13",
           "diff": "+9",
-          "points": 25,
-          "position": 5,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
-          "team": "VSG Altglienicke",
-          "played": 13,
-          "wins": 7,
-          "draws": 3,
-          "losses": 3,
-          "goals": "23:16",
-          "diff": "+7",
-          "points": 24,
+          "points": 26,
           "position": 6,
-          "logo_url": "/assets/clubs/vsg-altglienicke.png"
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "team": "Greifswalder FC",
@@ -15931,24 +15934,24 @@
         },
         {
           "team": "SV Babelsberg 03",
-          "played": 13,
-          "wins": 3,
+          "played": 14,
+          "wins": 4,
           "draws": 4,
           "losses": 6,
-          "goals": "14:23",
-          "diff": "-9",
-          "points": 13,
+          "goals": "15:23",
+          "diff": "-8",
+          "points": 16,
           "position": 12,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
         },
         {
           "team": "BFC Preussen 1894",
-          "played": 13,
+          "played": 14,
           "wins": 2,
           "draws": 5,
-          "losses": 6,
-          "goals": "16:21",
-          "diff": "-5",
+          "losses": 7,
+          "goals": "16:22",
+          "diff": "-6",
           "points": 11,
           "position": 13,
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
@@ -16003,12 +16006,12 @@
         },
         {
           "team": "FSV 63 Luckenwalde",
-          "played": 13,
+          "played": 14,
           "wins": 2,
           "draws": 0,
-          "losses": 11,
-          "goals": "13:31",
-          "diff": "-18",
+          "losses": 12,
+          "goals": "14:34",
+          "diff": "-20",
           "points": 6,
           "position": 18,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
@@ -16041,7 +16044,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16241,7 +16244,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16441,7 +16444,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
