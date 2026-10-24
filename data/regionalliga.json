@@ -494,7 +494,8 @@
       "match_number": "690047122",
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006DVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006DVV0AG08LVUPGND5I",
+      "referee": "John Bartsch"
     },
     {
       "id": "rl-15",

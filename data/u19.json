@@ -297,13 +297,14 @@
       "home": "1. FC Lokomotive Leipzig U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "0:0",
       "location": "Br.-Plache-Stadion Großfeld 1 KR, Connewitzer Str. 21, 04289 Leipzig",
       "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0F9S000000VS5489BUVV628VP4",
       "match_number": "690007070",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:0"
     },
     {
       "id": "u19-690007074",

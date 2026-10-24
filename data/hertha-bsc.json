@@ -157,7 +157,12 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8LS00009PVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
-      "location_source": "https://www.fussball.de/spiel/hertha-bsc-dsc-arminia-bielefeld/-/spiel/031BG6BCH8000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-dsc-arminia-bielefeld/-/spiel/031BG6BCH8000000VS5489BUVUR5FS5A",
+      "result": "1:0",
+      "halftime_result": "0:0",
+      "scorers": [
+        "90. Minute – Josip Brekalo (Hertha BSC) – 1:0"
+      ]
     },
     {
       "id": "u21-870049034",
@@ -270,6 +275,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNKEO00001HVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-1fc-nuernberg/-/spiel/031BG6BIE0000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001156",
+      "date": "2027-01-24",
+      "time": "13:30",
+      "home": "Hertha BSC",
+      "away": "VfL Bochum 1848",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/hertha-bsc-vfl-bochum-1848/-/spiel/031BG6BJDK000000VS5489BUVUR5FS5A",
+      "match_number": "890001156",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8N400001IVV0AG08LVUPGND5I",
+      "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-vfl-bochum-1848/-/spiel/031BG6BJDK000000VS5489BUVUR5FS5A"
     }
   ]
 }

@@ -5,12 +5,12 @@
     "rows": [
       {
         "team": "Chemnitzer FC",
-        "played": 13,
+        "played": 14,
         "wins": 9,
         "draws": 3,
-        "losses": 1,
-        "goals": "29:7",
-        "diff": "+22",
+        "losses": 2,
+        "goals": "30:9",
+        "diff": "+21",
         "points": 30,
         "position": 1
       },
@@ -70,6 +70,17 @@
         "position": 6
       },
       {
+        "team": "Erzgebirge Aue",
+        "played": 14,
+        "wins": 7,
+        "draws": 3,
+        "losses": 4,
+        "goals": "23:18",
+        "diff": "+5",
+        "points": 24,
+        "position": 7
+      },
+      {
         "team": "Greifswalder FC",
         "played": 13,
         "wins": 6,
@@ -78,29 +89,29 @@
         "goals": "26:20",
         "diff": "+6",
         "points": 22,
-        "position": 7
-      },
-      {
-        "team": "Erzgebirge Aue",
-        "played": 13,
-        "wins": 6,
-        "draws": 3,
-        "losses": 4,
-        "goals": "20:18",
-        "diff": "+2",
-        "points": 21,
         "position": 8
       },
       {
-        "team": "FSV Zwickau",
-        "played": 13,
-        "wins": 5,
-        "draws": 4,
-        "losses": 4,
-        "goals": "17:19",
-        "diff": "-2",
+        "team": "1. FC Magdeburg II",
+        "played": 14,
+        "wins": 6,
+        "draws": 1,
+        "losses": 7,
+        "goals": "27:28",
+        "diff": "-1",
         "points": 19,
         "position": 9
+      },
+      {
+        "team": "FSV Zwickau",
+        "played": 14,
+        "wins": 5,
+        "draws": 4,
+        "losses": 5,
+        "goals": "17:22",
+        "diff": "-5",
+        "points": 19,
+        "position": 10
       },
       {
         "team": "1. FC Lok Leipzig",
@@ -111,17 +122,6 @@
         "goals": "25:25",
         "diff": "0",
         "points": 17,
-        "position": 10
-      },
-      {
-        "team": "1. FC Magdeburg II",
-        "played": 13,
-        "wins": 5,
-        "draws": 1,
-        "losses": 7,
-        "goals": "25:27",
-        "diff": "-2",
-        "points": 16,
         "position": 11
       },
       {
@@ -147,6 +147,17 @@
         "position": 13
       },
       {
+        "team": "SV Tasmania Berlin",
+        "played": 14,
+        "wins": 3,
+        "draws": 2,
+        "losses": 9,
+        "goals": "21:39",
+        "diff": "-18",
+        "points": 11,
+        "position": 14
+      },
+      {
         "team": "BSG Chemie Leipzig",
         "played": 13,
         "wins": 2,
@@ -155,7 +166,7 @@
         "goals": "15:22",
         "diff": "-7",
         "points": 10,
-        "position": 14
+        "position": 15
       },
       {
         "team": "Hertha BSC II",
@@ -166,28 +177,17 @@
         "goals": "10:23",
         "diff": "-13",
         "points": 10,
-        "position": 15
-      },
-      {
-        "team": "RSV Eintracht 1949",
-        "played": 13,
-        "wins": 2,
-        "draws": 3,
-        "losses": 8,
-        "goals": "14:30",
-        "diff": "-16",
-        "points": 9,
         "position": 16
       },
       {
-        "team": "SV Tasmania Berlin",
-        "played": 13,
+        "team": "RSV Eintracht 1949",
+        "played": 14,
         "wins": 2,
-        "draws": 2,
+        "draws": 3,
         "losses": 9,
-        "goals": "19:38",
-        "diff": "-19",
-        "points": 8,
+        "goals": "15:32",
+        "diff": "-17",
+        "points": 9,
         "position": 17
       },
       {
@@ -591,13 +591,13 @@
       {
         "position": 2,
         "team": "1. FC Lokomotive Leipzig U19",
-        "played": 9,
+        "played": 10,
         "wins": 7,
-        "draws": 0,
+        "draws": 1,
         "losses": 2,
         "goals": "30:17",
         "diff": "+13",
-        "points": 21
+        "points": 22
       },
       {
         "position": 3,
@@ -623,6 +623,17 @@
       },
       {
         "position": 5,
+        "team": "Sport-Club Staaken 1919 U19",
+        "played": 9,
+        "wins": 4,
+        "draws": 4,
+        "losses": 1,
+        "goals": "22:13",
+        "diff": "+9",
+        "points": 16
+      },
+      {
+        "position": 6,
         "team": "SC Borea Dresden",
         "played": 9,
         "wins": 5,
@@ -633,7 +644,7 @@
         "points": 15
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "FSV Zwickau",
         "played": 9,
         "wins": 4,
@@ -642,17 +653,6 @@
         "goals": "29:23",
         "diff": "+6",
         "points": 15
-      },
-      {
-        "position": 7,
-        "team": "Sport-Club Staaken 1919 U19",
-        "played": 8,
-        "wins": 3,
-        "draws": 4,
-        "losses": 1,
-        "goals": "19:11",
-        "diff": "+8",
-        "points": 13
       },
       {
         "position": 8,
@@ -668,23 +668,23 @@
       {
         "position": 9,
         "team": "RSV Eintracht 1949 U19",
-        "played": 9,
+        "played": 10,
         "wins": 2,
-        "draws": 3,
+        "draws": 4,
         "losses": 4,
         "goals": "18:17",
         "diff": "+1",
-        "points": 9
+        "points": 10
       },
       {
         "position": 10,
         "team": "1. FC Frankfurt /​O.",
-        "played": 8,
+        "played": 9,
         "wins": 3,
         "draws": 0,
-        "losses": 5,
-        "goals": "11:21",
-        "diff": "-10",
+        "losses": 6,
+        "goals": "12:24",
+        "diff": "-12",
         "points": 9
       },
       {
@@ -701,12 +701,12 @@
       {
         "position": 12,
         "team": "FC Viktoria 1889 Berlin U19",
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 0,
-        "losses": 7,
-        "goals": "13:33",
-        "diff": "-20",
+        "losses": 8,
+        "goals": "15:36",
+        "diff": "-21",
         "points": 6
       },
       {
@@ -723,13 +723,13 @@
       {
         "position": 14,
         "team": "VFC Plauen",
-        "played": 9,
-        "wins": 0,
+        "played": 10,
+        "wins": 1,
         "draws": 2,
         "losses": 7,
-        "goals": "13:45",
-        "diff": "-32",
-        "points": 2
+        "goals": "16:46",
+        "diff": "-30",
+        "points": 5
       }
     ]
   }
