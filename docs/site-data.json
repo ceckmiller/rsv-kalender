@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T16:32:34.865374+02:00",
+  "generated_at": "2026-10-24T20:10:17.201802+02:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -504,6 +504,32 @@
           "referee": "Marvin Tennes",
           "youtube_url": "https://www.youtube.com/results?search_query=Hertha+BSC+II+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/13-spieltag/hertha-bsc-ii-rsv-eintracht-1949-2426099"
+        },
+        {
+          "id": "rl-14",
+          "matchday": 14,
+          "date": "2026-10-24",
+          "time": "14:00",
+          "competition": "Regionalliga",
+          "home": "RSV Eintracht 1949",
+          "away": "SV Tasmania Berlin",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/sv-tasmania-berlin.png",
+          "result": "1:2",
+          "halftime_result": "0:1",
+          "scorers": [
+            "21. Minute – Kerem Yayla (SV Tasmania Berlin) – 0:1",
+            "51. Minute – Konstantinos Grigoriadis (SV Tasmania Berlin) – 0:2",
+            "90. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:2"
+          ],
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+          "points": 9,
+          "table_position": 17,
+          "attendance": 157,
+          "referee": "John Bartsch",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+SV+Tasmania+Berlin+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110"
         }
       ],
       "fixtures": [
@@ -891,12 +917,12 @@
           "away": "SV Tasmania Berlin",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/sv-tasmania-berlin.png",
-          "result": "",
+          "result": "1:2",
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041216/"
+          "ticket_url": ""
         },
         {
           "id": "rl-15",
@@ -4386,7 +4412,7 @@
               "home": "RSV Eintracht 1949",
               "away": "SV Tasmania Berlin",
               "result": "1:2",
-              "halftime_result": null,
+              "halftime_result": "0:1",
               "location": "",
               "matchday": 14,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4520,7 +4546,8 @@
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "SV Tasmania Berlin",
-              "result": null,
+              "result": "1:2",
+              "halftime_result": "0:1",
               "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
               "matchday": 14,
               "team_fixture_id": "rl-14",
@@ -7593,22 +7620,37 @@
         }
       ],
       "next_game": {
-        "id": "rl-14",
-        "matchday": 14,
-        "date": "2026-10-24",
+        "id": "rl-15",
+        "matchday": 15,
+        "date": "2026-10-30",
+        "time": "19:00",
+        "competition": "Regionalliga",
+        "home": "BFC Dynamo",
+        "away": "RSV Eintracht 1949",
+        "home_logo": "/assets/clubs/bfc-dynamo.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Stadion%2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "rl-16",
+        "matchday": 16,
+        "date": "2026-11-08",
         "time": "14:00",
         "competition": "Regionalliga",
         "home": "RSV Eintracht 1949",
-        "away": "SV Tasmania Berlin",
+        "away": "FC Erzgebirge Aue",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/sv-tasmania-berlin.png",
+        "away_logo": "/assets/clubs/erzgebirge-aue.png",
         "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041216/"
-      },
-      "next_home": null
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/"
+      }
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -16075,24 +16117,24 @@
         {
           "position": 1,
           "team": "SV Dallgow 47",
-          "played": 7,
-          "wins": 6,
+          "played": 8,
+          "wins": 7,
           "draws": 1,
           "losses": 0,
-          "goals": "39:9",
-          "diff": "+30",
-          "points": 19,
+          "goals": "42:10",
+          "diff": "+32",
+          "points": 22,
           "logo_url": "/assets/clubs/sv-dallgow-47.png"
         },
         {
           "position": 2,
           "team": "Bredower SV",
-          "played": 7,
+          "played": 8,
           "wins": 4,
           "draws": 1,
-          "losses": 2,
-          "goals": "26:13",
-          "diff": "+13",
+          "losses": 3,
+          "goals": "27:16",
+          "diff": "+11",
           "points": 13,
           "logo_url": "/assets/clubs/bredower-sv.png"
         },

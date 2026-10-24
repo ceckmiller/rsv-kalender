@@ -212,23 +212,23 @@
       {
         "position": 1,
         "team": "SV Dallgow 47",
-        "played": 7,
-        "wins": 6,
+        "played": 8,
+        "wins": 7,
         "draws": 1,
         "losses": 0,
-        "goals": "39:9",
-        "diff": "+30",
-        "points": 19
+        "goals": "42:10",
+        "diff": "+32",
+        "points": 22
       },
       {
         "position": 2,
         "team": "Bredower SV",
-        "played": 7,
+        "played": 8,
         "wins": 4,
         "draws": 1,
-        "losses": 2,
-        "goals": "26:13",
-        "diff": "+13",
+        "losses": 3,
+        "goals": "27:16",
+        "diff": "+11",
         "points": 13
       },
       {

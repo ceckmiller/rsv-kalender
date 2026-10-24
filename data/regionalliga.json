@@ -487,7 +487,7 @@
       "home": "RSV Eintracht 1949",
       "away": "SV Tasmania Berlin",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:2",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110",
@@ -495,7 +495,14 @@
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-sv-tasmania-berlin/-/spiel/031DEIC50K000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006DVV0AG08LVUPGND5I",
-      "referee": "John Bartsch"
+      "referee": "John Bartsch",
+      "halftime_result": "0:1",
+      "scorers": [
+        "21. Minute – Kerem Yayla (SV Tasmania Berlin) – 0:1",
+        "51. Minute – Konstantinos Grigoriadis (SV Tasmania Berlin) – 0:2",
+        "90. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:2"
+      ],
+      "attendance": 157
     },
     {
       "id": "rl-15",
