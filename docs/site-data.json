@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T01:13:04.517229+02:00",
+  "generated_at": "2026-10-25T07:07:34.906758+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -4496,7 +4496,8 @@
               "time": "16:00",
               "home": "Greifswalder FC",
               "away": "FC Rot-Weiß Erfurt",
-              "result": null,
+              "result": "2:3",
+              "halftime_result": null,
               "location": "",
               "matchday": 14,
               "competition": "Regionalliga Nordost 2026/27",
@@ -15867,6 +15868,18 @@
       "updated_at": "Aktueller Stand (bis 14. Spieltag)",
       "rows": [
         {
+          "team": "FC Rot-Weiß Erfurt",
+          "played": 14,
+          "wins": 9,
+          "draws": 4,
+          "losses": 1,
+          "goals": "42:18",
+          "diff": "+24",
+          "points": 31,
+          "position": 1,
+          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
+        },
+        {
           "team": "Chemnitzer FC",
           "played": 14,
           "wins": 9,
@@ -15875,20 +15888,8 @@
           "goals": "30:9",
           "diff": "+21",
           "points": 30,
-          "position": 1,
-          "logo_url": "/assets/clubs/chemnitzer-fc.png"
-        },
-        {
-          "team": "FC Rot-Weiß Erfurt",
-          "played": 13,
-          "wins": 8,
-          "draws": 4,
-          "losses": 1,
-          "goals": "39:16",
-          "diff": "+23",
-          "points": 28,
           "position": 2,
-          "logo_url": "/assets/clubs/fc-rot-weiss-erfurt.png"
+          "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
           "team": "Hallescher FC",
@@ -15952,12 +15953,12 @@
         },
         {
           "team": "Greifswalder FC",
-          "played": 13,
+          "played": 14,
           "wins": 6,
           "draws": 4,
-          "losses": 3,
-          "goals": "26:20",
-          "diff": "+6",
+          "losses": 4,
+          "goals": "28:23",
+          "diff": "+5",
           "points": 22,
           "position": 8,
           "logo_url": "/assets/clubs/greifswalder-fc.png"

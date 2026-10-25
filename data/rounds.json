@@ -1620,7 +1620,8 @@
           "time": "16:00",
           "home": "Greifswalder FC",
           "away": "FC Rot-Weiß Erfurt",
-          "result": null,
+          "result": "2:3",
+          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
