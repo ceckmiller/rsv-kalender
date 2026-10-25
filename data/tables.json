@@ -255,6 +255,17 @@
       },
       {
         "position": 5,
+        "team": "Fortuna Babelsberg II",
+        "played": 8,
+        "wins": 3,
+        "draws": 4,
+        "losses": 1,
+        "goals": "19:14",
+        "diff": "+5",
+        "points": 13
+      },
+      {
+        "position": 6,
         "team": "FSV 95 Ketzin/​Falkenrehde",
         "played": 8,
         "wins": 3,
@@ -263,17 +274,6 @@
         "goals": "12:9",
         "diff": "+3",
         "points": 13
-      },
-      {
-        "position": 6,
-        "team": "Fortuna Babelsberg II",
-        "played": 7,
-        "wins": 3,
-        "draws": 3,
-        "losses": 1,
-        "goals": "15:10",
-        "diff": "+5",
-        "points": 12
       },
       {
         "position": 7,
@@ -288,6 +288,28 @@
       },
       {
         "position": 8,
+        "team": "UNITED TELTOW FC",
+        "played": 7,
+        "wins": 4,
+        "draws": 0,
+        "losses": 3,
+        "goals": "19:20",
+        "diff": "-1",
+        "points": 12
+      },
+      {
+        "position": 9,
+        "team": "SG Michendorf II",
+        "played": 8,
+        "wins": 3,
+        "draws": 2,
+        "losses": 3,
+        "goals": "9:9",
+        "diff": "0",
+        "points": 11
+      },
+      {
+        "position": 10,
         "team": "RSV Eintracht 1949 U23",
         "played": 8,
         "wins": 2,
@@ -298,7 +320,7 @@
         "points": 10
       },
       {
-        "position": 9,
+        "position": 11,
         "team": "SV Falkensee-Finkenkrug II",
         "played": 8,
         "wins": 3,
@@ -309,7 +331,18 @@
         "points": 10
       },
       {
-        "position": 10,
+        "position": 12,
+        "team": "SG Blau-Weiß Pessin",
+        "played": 8,
+        "wins": 2,
+        "draws": 3,
+        "losses": 3,
+        "goals": "21:19",
+        "diff": "+2",
+        "points": 9
+      },
+      {
+        "position": 13,
         "team": "FSV Babelsberg 74 II",
         "played": 9,
         "wins": 3,
@@ -320,18 +353,7 @@
         "points": 9
       },
       {
-        "position": 11,
-        "team": "UNITED TELTOW FC",
-        "played": 6,
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "goals": "14:19",
-        "diff": "-5",
-        "points": 9
-      },
-      {
-        "position": 12,
+        "position": 14,
         "team": "SG Geltow",
         "played": 8,
         "wins": 2,
@@ -342,47 +364,25 @@
         "points": 9
       },
       {
-        "position": 13,
-        "team": "SG Blau-Weiß Pessin",
-        "played": 7,
-        "wins": 2,
-        "draws": 2,
-        "losses": 3,
-        "goals": "17:15",
-        "diff": "+2",
-        "points": 8
-      },
-      {
-        "position": 14,
-        "team": "SG Michendorf II",
-        "played": 7,
-        "wins": 2,
-        "draws": 2,
-        "losses": 3,
-        "goals": "4:7",
-        "diff": "-3",
-        "points": 8
-      },
-      {
         "position": 15,
         "team": "SV Ruhlsdorf",
-        "played": 7,
+        "played": 8,
         "wins": 2,
         "draws": 0,
-        "losses": 5,
-        "goals": "12:24",
-        "diff": "-12",
+        "losses": 6,
+        "goals": "14:29",
+        "diff": "-15",
         "points": 6
       },
       {
         "position": 16,
         "team": "SG Eintracht Friesack",
-        "played": 7,
+        "played": 8,
         "wins": 0,
         "draws": 1,
-        "losses": 6,
-        "goals": "6:22",
-        "diff": "-16",
+        "losses": 7,
+        "goals": "7:27",
+        "diff": "-20",
         "points": 1
       }
     ]
@@ -439,6 +439,17 @@
       },
       {
         "position": 5,
+        "team": "FV Turbine Potsdam 55",
+        "played": 9,
+        "wins": 4,
+        "draws": 2,
+        "losses": 3,
+        "goals": "16:19",
+        "diff": "-3",
+        "points": 14
+      },
+      {
+        "position": 6,
         "team": "SV 05 Rehbrücke",
         "played": 9,
         "wins": 4,
@@ -449,7 +460,7 @@
         "points": 13
       },
       {
-        "position": 6,
+        "position": 7,
         "team": "FSV Grün-Weiß Niemegk",
         "played": 9,
         "wins": 4,
@@ -460,18 +471,18 @@
         "points": 13
       },
       {
-        "position": 7,
+        "position": 8,
         "team": "SV Viktoria Potsdam II",
-        "played": 7,
+        "played": 8,
         "wins": 4,
         "draws": 0,
-        "losses": 3,
-        "goals": "23:12",
-        "diff": "+11",
+        "losses": 4,
+        "goals": "23:16",
+        "diff": "+7",
         "points": 12
       },
       {
-        "position": 8,
+        "position": 9,
         "team": "ESV Lok Seddin",
         "played": 9,
         "wins": 4,
@@ -480,17 +491,6 @@
         "goals": "19:26",
         "diff": "-7",
         "points": 12
-      },
-      {
-        "position": 9,
-        "team": "FV Turbine Potsdam 55",
-        "played": 8,
-        "wins": 3,
-        "draws": 2,
-        "losses": 3,
-        "goals": "12:19",
-        "diff": "-7",
-        "points": 11
       },
       {
         "position": 10,
