@@ -1632,7 +1632,8 @@
           "time": "14:00",
           "home": "BSG Chemie Leipzig",
           "away": "Hertha BSC II",
-          "result": null,
+          "result": "2:0",
+          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1643,7 +1644,8 @@
           "time": "14:00",
           "home": "Hallescher FC",
           "away": "1. FC Lok Leipzig",
-          "result": null,
+          "result": "2:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 14,
           "competition": "Regionalliga Nordost 2026/27"

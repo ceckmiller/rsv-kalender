@@ -293,7 +293,18 @@
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fsv-babelsberg-74-ii/-/spiel/031D1IIBDK000000VS5489BTVUS470OH",
       "match_number": "610138068",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I",
+      "result": "4:3",
+      "halftime_result": "3:3",
+      "scorers": [
+        "2. Minute – Aaron Hagen Dix (FSV Babelsberg 74 II) – 0:1",
+        "3. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 1:1",
+        "28. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 2:1",
+        "34. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 3:1",
+        "42. Minute – Aaron Hagen Dix (FSV Babelsberg 74 II) – 3:2",
+        "43. Minute – Aaron Hagen Dix (FSV Babelsberg 74 II) – 3:3",
+        "85. Minute – Marvin Stahlberg (RSV Eintracht 1949 U23) – 4:3"
+      ]
     },
     {
       "id": "u23-610138076",

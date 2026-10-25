@@ -240,12 +240,20 @@
       "home": "SG Blau-Weiß Beelitz",
       "away": "RSV Eintracht 1949 U21",
       "competition": "Kreisliga 2026/27",
-      "result": null,
+      "result": "2:3",
       "location": "Stadion des Friedens, Bergstr. 1, 14547 Beelitz",
       "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-beelitz-rsv-eintracht-1949-u21/-/spiel/031D5U7G1C000000VS5489BTVUS470OH",
       "match_number": "610480069",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000084VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "0:2",
+      "scorers": [
+        "11. Minute – Luis Wiese (RSV Eintracht 1949 U21) – 0:1",
+        "39. Minute – Luis Wiese (RSV Eintracht 1949 U21) – 0:2",
+        "59. Minute – Noah von Oy (RSV Eintracht 1949 U21) – 0:3",
+        "72. Minute – Daniel Frahn (SG Blau-Weiß Beelitz) – 1:3",
+        "85. Minute – Nik Arnold (SG Blau-Weiß Beelitz) – 2:3"
+      ]
     },
     {
       "id": "u21-610480073",
