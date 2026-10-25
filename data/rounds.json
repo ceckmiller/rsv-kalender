@@ -7387,21 +7387,6 @@
           "source_url": "https://www.fussball.de/spiel/sv-dallgow-1-rsv-eintracht-1949-u19/-/spiel/032AQB5GT4000000VS5489BTVU989P58"
         },
         {
-          "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
-          "date": "2026-11-04",
-          "time": "18:00",
-          "home": "SV Germania 90 Schöneiche",
-          "away": "SV Babelsberg 03",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19/-/spiel/032AQB5GV8000000VS5489BTVU989P58"
-        },
-        {
           "id": "cup-spg-hansa-wittstock-meyenburger-sv-1-fc-frankfurt",
           "date": "2026-11-04",
           "time": "18:00",
@@ -7430,6 +7415,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002FVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00004NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
+          "date": "2026-11-25",
+          "time": "18:30",
+          "home": "SV Germania 90 Schöneiche",
+          "away": "SV Babelsberg 03",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19/-/spiel/032AQB5GV8000000VS5489BTVU989P58"
         },
         {
           "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
