@@ -1878,8 +1878,53 @@
       "round": "17",
       "matches": [
         {
-          "id": "rl-md17-d7f4b1f7cfc6",
-          "date": "2026-11-22",
+          "id": "rl-md17-af9c7215a19e",
+          "date": "2026-11-20",
+          "time": "19:00",
+          "home": "FC Rot-Weiß Erfurt",
+          "away": "VSG Altglienicke",
+          "result": null,
+          "location": "",
+          "matchday": 17,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md17-25f889ebb3ab",
+          "date": "2026-11-20",
+          "time": "19:00",
+          "home": "1. FC Magdeburg II",
+          "away": "FSV Zwickau",
+          "result": null,
+          "location": "",
+          "matchday": 17,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md17-c395ead44fc6",
+          "date": "2026-11-20",
+          "time": "19:00",
+          "home": "BFC Dynamo",
+          "away": "Hallescher FC",
+          "result": null,
+          "location": "",
+          "matchday": 17,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md17-d77989674d52",
+          "date": "2026-11-20",
+          "time": "19:00",
+          "home": "1. FC Lokomotive Leipzig",
+          "away": "RSV Eintracht 1949",
+          "result": null,
+          "location": "",
+          "matchday": 17,
+          "competition": "Regionalliga Nordost 2026/27",
+          "team_fixture_id": "rl-17"
+        },
+        {
+          "id": "rl-md17-44dd09068be3",
+          "date": "2026-11-21",
           "time": "14:00",
           "home": "FSV 63 Luckenwalde",
           "away": "Chemnitzer FC",
@@ -1889,8 +1934,8 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md17-16de408c7282",
-          "date": "2026-11-22",
+          "id": "rl-md17-95419f4b89bf",
+          "date": "2026-11-21",
           "time": "14:00",
           "home": "Erzgebirge Aue",
           "away": "SV Babelsberg 03",
@@ -1900,33 +1945,22 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md17-5c47b0933cd4",
-          "date": "2026-11-22",
-          "time": "14:00",
-          "home": "FC Rot-Weiß Erfurt",
-          "away": "VSG Altglienicke",
-          "result": null,
-          "location": "",
-          "matchday": 17,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md17-961f93741115",
-          "date": "2026-11-22",
-          "time": "14:00",
-          "home": "1. FC Magdeburg II",
-          "away": "FSV Zwickau",
-          "result": null,
-          "location": "",
-          "matchday": 17,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md17-4a89487ef9bd",
-          "date": "2026-11-22",
+          "id": "rl-md17-c1d864ac4d12",
+          "date": "2026-11-21",
           "time": "14:00",
           "home": "SV Tasmania Berlin",
           "away": "Hertha BSC II",
+          "result": null,
+          "location": "",
+          "matchday": 17,
+          "competition": "Regionalliga Nordost 2026/27"
+        },
+        {
+          "id": "rl-md17-28637f0147cc",
+          "date": "2026-11-21",
+          "time": "18:00",
+          "home": "Greifswalder FC",
+          "away": "FC Carl Zeiss Jena",
           "result": null,
           "location": "",
           "matchday": 17,
@@ -1942,40 +1976,6 @@
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md17-7d0806373a02",
-          "date": "2026-11-22",
-          "time": "14:00",
-          "home": "BFC Dynamo",
-          "away": "Hallescher FC",
-          "result": null,
-          "location": "",
-          "matchday": 17,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md17-00668298d544",
-          "date": "2026-11-22",
-          "time": "14:00",
-          "home": "Greifswalder FC",
-          "away": "FC Carl Zeiss Jena",
-          "result": null,
-          "location": "",
-          "matchday": 17,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
-          "id": "rl-md17-64b541fbd86e",
-          "date": "2026-11-20",
-          "time": "19:00",
-          "home": "1. FC Lokomotive Leipzig",
-          "away": "RSV Eintracht 1949",
-          "result": null,
-          "location": "",
-          "matchday": 17,
-          "competition": "Regionalliga Nordost 2026/27",
-          "team_fixture_id": "rl-17"
         }
       ]
     },
