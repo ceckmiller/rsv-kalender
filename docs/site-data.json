@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:10:59.736261+01:00",
+  "generated_at": "2026-10-27T15:30:05.889200+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -8453,7 +8453,7 @@
         {
           "id": "u23-610138172",
           "matchday": 22,
-          "date": "2027-04-11",
+          "date": "2027-04-10",
           "time": "14:30",
           "competition": "Kreisoberliga",
           "home": "SV Dallgow 47",
@@ -10059,7 +10059,7 @@
           "matches": [
             {
               "id": "u23-610138172",
-              "date": "2027-04-11",
+              "date": "2027-04-10",
               "time": "14:30",
               "home": "SV Dallgow 47",
               "away": "RSV Eintracht 1949 U23",
@@ -10071,8 +10071,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2027-04-11",
-          "date_end": "2027-04-11"
+          "date": "2027-04-10",
+          "date_end": "2027-04-10"
         },
         {
           "id": "league:Kreisoberliga:23",
