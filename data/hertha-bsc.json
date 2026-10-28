@@ -176,7 +176,13 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN7SS00009CVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "OL, Marschweg-Stadion (Flut), Marschweg 25, 26122 Oldenburg",
-      "location_source": "https://www.fussball.de/spiel/ssv-jeddeloh-hertha-bsc/-/spiel/03220F3U04000000VS5489BTVT7QHFUC"
+      "location_source": "https://www.fussball.de/spiel/ssv-jeddeloh-hertha-bsc/-/spiel/03220F3U04000000VS5489BTVT7QHFUC",
+      "result": "0:2",
+      "halftime_result": "0:0",
+      "scorers": [
+        "57. Minute – Josip Brekalo (Hertha BSC) – 0:1",
+        "63. Minute – Julian Eitschberger (Hertha BSC) – 0:2"
+      ]
     },
     {
       "id": "u21-890001086",
@@ -289,6 +295,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN8N400001IVV0AG08LVUPGND5I",
       "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-vfl-bochum-1848/-/spiel/031BG6BJDK000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001165",
+      "date": "2027-01-31",
+      "time": "13:30",
+      "home": "1. FC Heidenheim 1846",
+      "away": "Hertha BSC",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/1-fc-heidenheim-1846-e-v-hertha-bsc/-/spiel/031BG6BKAO000000VS5489BUVUR5FS5A",
+      "match_number": "890001165",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00RL1C8TPC000000VV0AG80NVV76V439",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "location": "Voith-Arena, Heeracker, 89522 Heidenheim an der Brenz",
+      "location_source": "https://www.fussball.de/spiel/1-fc-heidenheim-1846-e-v-hertha-bsc/-/spiel/031BG6BKAO000000VS5489BUVUR5FS5A"
     }
   ]
 }

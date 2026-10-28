@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T00:47:46.695201+01:00",
+  "generated_at": "2026-10-29T00:14:45.979004+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15753,7 +15753,7 @@
           "away": "Hertha BSC",
           "home_logo": "/assets/clubs/ssv-jeddeloh.png",
           "away_logo": "/assets/clubs/hertha-bsc.png",
-          "result": "",
+          "result": "0:2",
           "location": "OL, Marschweg-Stadion (Flut), Marschweg 25, 26122 Oldenburg",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=OL%2C+Marschweg-Stadion+%28Flut%29%2C+Marschweg+25%2C+26122+Oldenburg",
           "is_home": false,
@@ -15895,21 +15895,38 @@
           "is_home": true,
           "round": "",
           "ticket_url": ""
+        },
+        {
+          "id": "u21-890001165",
+          "matchday": 16,
+          "date": "2027-01-31",
+          "time": "13:30",
+          "competition": "2.Bundesliga",
+          "home": "1. FC Heidenheim 1846",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/1-fc-heidenheim-1846.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Voith-Arena, Heeracker, 89522 Heidenheim an der Brenz",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Voith-Arena%2C+Heeracker%2C+89522+Heidenheim+an+der+Brenz",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
         }
       ],
       "next_game": {
-        "id": "u21-870049034",
-        "matchday": null,
-        "date": "2026-10-28",
-        "time": "18:00",
-        "competition": "DFB-Pokal",
-        "home": "SSV Jeddeloh",
+        "id": "u21-890001086",
+        "matchday": 8,
+        "date": "2026-10-31",
+        "time": "13:00",
+        "competition": "2.Bundesliga",
+        "home": "1. FC Kaiserslautern",
         "away": "Hertha BSC",
-        "home_logo": "/assets/clubs/ssv-jeddeloh.png",
+        "home_logo": "/assets/clubs/1-fc-kaiserslautern.png",
         "away_logo": "/assets/clubs/hertha-bsc.png",
         "result": "",
-        "location": "OL, Marschweg-Stadion (Flut), Marschweg 25, 26122 Oldenburg",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=OL%2C+Marschweg-Stadion+%28Flut%29%2C+Marschweg+25%2C+26122+Oldenburg",
+        "location": "Fritz-Walter-Stadion, Fritz-Walter-Str. 1, 67663 Kaiserslautern",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Fritz-Walter-Stadion%2C+Fritz-Walter-Str.+1%2C+67663+Kaiserslautern",
         "is_home": false,
         "round": "",
         "ticket_url": ""
@@ -16165,7 +16182,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 28.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 29.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16365,7 +16382,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 28.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 29.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16565,7 +16582,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 28.10.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 29.10.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
