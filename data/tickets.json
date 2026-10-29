@@ -1,7 +1,12 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-10-29T17:54:03.836206+01:00",
+  "updated_at": "2026-10-29T22:47:20.695378+01:00",
   "events": [
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5238950/",
+      "date": "2026-10-31",
+      "opponent": "BFC Preussen"
+    },
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/",
       "date": "2026-11-08",
