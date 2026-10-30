@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T02:59:16.467978+01:00",
+  "generated_at": "2026-10-30T21:48:42.440187+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -530,6 +530,31 @@
           "referee": "John Bartsch",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+SV+Tasmania+Berlin+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/14-spieltag/rsv-eintracht-1949-sv-tasmania-berlin-2426110"
+        },
+        {
+          "id": "rl-15",
+          "matchday": 15,
+          "date": "2026-10-30",
+          "time": "19:00",
+          "competition": "Regionalliga",
+          "home": "BFC Dynamo",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/bfc-dynamo.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "2:0",
+          "halftime_result": "1:0",
+          "scorers": [
+            "25. Minute – Rufat Dadashov (BFC Dynamo) – 1:0",
+            "56. Minute – Ludwig Blke (BFC Dynamo) – 2:0"
+          ],
+          "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Stadion%2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin",
+          "points": 9,
+          "table_position": 17,
+          "attendance": 1825,
+          "referee": "Patrick Kluge",
+          "youtube_url": "https://www.youtube.com/results?search_query=BFC+Dynamo+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119"
         }
       ],
       "fixtures": [
@@ -934,7 +959,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/bfc-dynamo.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "2:0",
           "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Stadion%2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin",
           "is_home": false,
@@ -4574,7 +4599,8 @@
               "time": "19:00",
               "home": "BFC Dynamo",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "2:0",
+              "halftime_result": "1:0",
               "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
               "matchday": 15,
               "team_fixture_id": "rl-15",
@@ -4598,7 +4624,8 @@
               "time": "19:00",
               "home": "BFC Dynamo",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "2:0",
+              "halftime_result": "1:0",
               "location": "",
               "matchday": 15,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4612,7 +4639,8 @@
               "time": "19:00",
               "home": "1. FC Lok Leipzig",
               "away": "VSG Altglienicke",
-              "result": null,
+              "result": "3:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 15,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4625,7 +4653,8 @@
               "time": "19:00",
               "home": "FSV 63 Luckenwalde",
               "away": "Hertha BSC II",
-              "result": null,
+              "result": "1:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 15,
               "competition": "Regionalliga Nordost 2026/27",
@@ -7623,22 +7652,6 @@
         }
       ],
       "next_game": {
-        "id": "rl-15",
-        "matchday": 15,
-        "date": "2026-10-30",
-        "time": "19:00",
-        "competition": "Regionalliga",
-        "home": "BFC Dynamo",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/bfc-dynamo.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportforum+Stadion%2C+Wei%C3%9Fenseer+Weg+51-55%2C+13053+Berlin",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "rl-16",
         "matchday": 16,
         "date": "2026-11-08",
@@ -7653,7 +7666,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/"
-      }
+      },
+      "next_home": null
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -10747,25 +10761,8 @@
           "ticket_url": ""
         },
         {
-          "id": "u21-610480073",
-          "matchday": 9,
-          "date": "2026-11-01",
-          "time": "14:00",
-          "competition": "Kreisliga",
-          "home": "SV Viktoria Potsdam II",
-          "away": "RSV Eintracht 1949 U21",
-          "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
-          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
-          "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Templiner+Stra%C3%9Fe%2C+KR%2C+Templiner+Stra%C3%9Fe+24%2C+14473+Potsdam",
-          "is_home": false,
-          "round": "",
-          "ticket_url": ""
-        },
-        {
           "id": "u21-610480084",
-          "matchday": 10,
+          "matchday": 9,
           "date": "2026-11-08",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10782,7 +10779,7 @@
         },
         {
           "id": "u21-610480090",
-          "matchday": 11,
+          "matchday": 10,
           "date": "2026-11-15",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10799,7 +10796,7 @@
         },
         {
           "id": "u21-610480100",
-          "matchday": 12,
+          "matchday": 11,
           "date": "2026-11-22",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10816,7 +10813,7 @@
         },
         {
           "id": "u21-610480111",
-          "matchday": 13,
+          "matchday": 12,
           "date": "2026-11-29",
           "time": "15:30",
           "competition": "Kreisliga",
@@ -10833,7 +10830,7 @@
         },
         {
           "id": "u21-610480116",
-          "matchday": 14,
+          "matchday": 13,
           "date": "2026-12-06",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10850,7 +10847,7 @@
         },
         {
           "id": "u21-610480044",
-          "matchday": 15,
+          "matchday": 14,
           "date": "2026-12-13",
           "time": "13:00",
           "competition": "Kreisliga",
@@ -10867,7 +10864,7 @@
         },
         {
           "id": "u21-610480122",
-          "matchday": 16,
+          "matchday": 15,
           "date": "2027-02-21",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10884,7 +10881,7 @@
         },
         {
           "id": "u21-610480132",
-          "matchday": 17,
+          "matchday": 16,
           "date": "2027-02-28",
           "time": "15:30",
           "competition": "Kreisliga",
@@ -10901,7 +10898,7 @@
         },
         {
           "id": "u21-610480139",
-          "matchday": 18,
+          "matchday": 17,
           "date": "2027-03-07",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10918,7 +10915,7 @@
         },
         {
           "id": "u21-610480148",
-          "matchday": 19,
+          "matchday": 18,
           "date": "2027-03-14",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10935,7 +10932,7 @@
         },
         {
           "id": "u21-610480153",
-          "matchday": 20,
+          "matchday": 19,
           "date": "2027-03-21",
           "time": "14:00",
           "competition": "Kreisliga",
@@ -10947,6 +10944,23 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-610480073",
+          "matchday": 20,
+          "date": "2027-03-25",
+          "time": "19:00",
+          "competition": "Kreisliga",
+          "home": "SV Viktoria Potsdam II",
+          "away": "RSV Eintracht 1949 U21",
+          "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Templiner+Stra%C3%9Fe%2C+KR%2C+Templiner+Stra%C3%9Fe+24%2C+14473+Potsdam",
+          "is_home": false,
           "round": "",
           "ticket_url": ""
         },
@@ -12656,30 +12670,6 @@
           "round": "9",
           "matches": [
             {
-              "id": "u21-610480073",
-              "date": "2026-11-01",
-              "time": "14:00",
-              "home": "SV Viktoria Potsdam II",
-              "away": "RSV Eintracht 1949 U21",
-              "result": null,
-              "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
-              "matchday": 9,
-              "team_fixture_id": "u21-610480073",
-              "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
-              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
-            }
-          ],
-          "date": "2026-11-01",
-          "date_end": "2026-11-01"
-        },
-        {
-          "id": "league:Kreisliga:10",
-          "kind": "league",
-          "title": "Zehnter Spieltag Kreisliga",
-          "competition": "Kreisliga",
-          "round": "10",
-          "matches": [
-            {
               "id": "u21-610480084",
               "date": "2026-11-08",
               "time": "14:00",
@@ -12687,7 +12677,7 @@
               "away": "Caputher SV",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 10,
+              "matchday": 9,
               "team_fixture_id": "u21-610480084",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/caputher-sv.png"
@@ -12697,11 +12687,11 @@
           "date_end": "2026-11-08"
         },
         {
-          "id": "league:Kreisliga:11",
+          "id": "league:Kreisliga:10",
           "kind": "league",
-          "title": "11. Spieltag Kreisliga",
+          "title": "Zehnter Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "11",
+          "round": "10",
           "matches": [
             {
               "id": "u21-610480090",
@@ -12711,7 +12701,7 @@
               "away": "RSV Eintracht 1949 U21",
               "result": null,
               "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
-              "matchday": 11,
+              "matchday": 10,
               "team_fixture_id": "u21-610480090",
               "home_logo": "/assets/clubs/sv-71-busendorf.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -12721,11 +12711,11 @@
           "date_end": "2026-11-15"
         },
         {
-          "id": "league:Kreisliga:12",
+          "id": "league:Kreisliga:11",
           "kind": "league",
-          "title": "12. Spieltag Kreisliga",
+          "title": "11. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "12",
+          "round": "11",
           "matches": [
             {
               "id": "u21-610480100",
@@ -12735,7 +12725,7 @@
               "away": "ESV Lok Seddin",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 12,
+              "matchday": 11,
               "team_fixture_id": "u21-610480100",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/esv-lok-seddin.png"
@@ -12745,11 +12735,11 @@
           "date_end": "2026-11-22"
         },
         {
-          "id": "league:Kreisliga:13",
+          "id": "league:Kreisliga:12",
           "kind": "league",
-          "title": "13. Spieltag Kreisliga",
+          "title": "12. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "13",
+          "round": "12",
           "matches": [
             {
               "id": "u21-610480111",
@@ -12759,7 +12749,7 @@
               "away": "RSV Eintracht 1949 U21",
               "result": null,
               "location": "Sportplatz Rehbrücke, Kunstrasenplatz, Andersenweg, 14558 Nuthetal",
-              "matchday": 13,
+              "matchday": 12,
               "team_fixture_id": "u21-610480111",
               "home_logo": "/assets/clubs/sv-05-rehbruecke.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -12769,11 +12759,11 @@
           "date_end": "2026-11-29"
         },
         {
-          "id": "league:Kreisliga:14",
+          "id": "league:Kreisliga:13",
           "kind": "league",
-          "title": "14. Spieltag Kreisliga",
+          "title": "13. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "14",
+          "round": "13",
           "matches": [
             {
               "id": "u21-610480116",
@@ -12783,7 +12773,7 @@
               "away": "Potsdamer Kickers 94",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 14,
+              "matchday": 13,
               "team_fixture_id": "u21-610480116",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/potsdamer-kickers-94.png"
@@ -12793,11 +12783,11 @@
           "date_end": "2026-12-06"
         },
         {
-          "id": "league:Kreisliga:15",
+          "id": "league:Kreisliga:14",
           "kind": "league",
-          "title": "15. Spieltag Kreisliga",
+          "title": "14. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "15",
+          "round": "14",
           "matches": [
             {
               "id": "u21-610480044",
@@ -12807,7 +12797,7 @@
               "away": "SG Bornim II",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 15,
+              "matchday": 14,
               "team_fixture_id": "u21-610480044",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-bornim-ii.png"
@@ -12817,11 +12807,11 @@
           "date_end": "2026-12-13"
         },
         {
-          "id": "league:Kreisliga:16",
+          "id": "league:Kreisliga:15",
           "kind": "league",
-          "title": "16. Spieltag Kreisliga",
+          "title": "15. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "16",
+          "round": "15",
           "matches": [
             {
               "id": "u21-610480122",
@@ -12831,7 +12821,7 @@
               "away": "SV 71 Busendorf",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 16,
+              "matchday": 15,
               "team_fixture_id": "u21-610480122",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sv-71-busendorf.png"
@@ -12841,11 +12831,11 @@
           "date_end": "2027-02-21"
         },
         {
-          "id": "league:Kreisliga:17",
+          "id": "league:Kreisliga:16",
           "kind": "league",
-          "title": "17. Spieltag Kreisliga",
+          "title": "16. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "17",
+          "round": "16",
           "matches": [
             {
               "id": "u21-610480132",
@@ -12855,7 +12845,7 @@
               "away": "RSV Eintracht 1949 U21",
               "result": null,
               "location": "Sportforum Potsdam Waldstadt/Schlaatz, Kunstrasen, Drewitzer Str. 40, 14478 Potsdam",
-              "matchday": 17,
+              "matchday": 16,
               "team_fixture_id": "u21-610480132",
               "home_logo": "/assets/clubs/fv-turbine-potsdam-55.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -12865,11 +12855,11 @@
           "date_end": "2027-02-28"
         },
         {
-          "id": "league:Kreisliga:18",
+          "id": "league:Kreisliga:17",
           "kind": "league",
-          "title": "18. Spieltag Kreisliga",
+          "title": "17. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "18",
+          "round": "17",
           "matches": [
             {
               "id": "u21-610480139",
@@ -12879,7 +12869,7 @@
               "away": "FSV Grün-Weiß Niemegk",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 18,
+              "matchday": 17,
               "team_fixture_id": "u21-610480139",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
@@ -12889,11 +12879,11 @@
           "date_end": "2027-03-07"
         },
         {
-          "id": "league:Kreisliga:19",
+          "id": "league:Kreisliga:18",
           "kind": "league",
-          "title": "19. Spieltag Kreisliga",
+          "title": "18. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "19",
+          "round": "18",
           "matches": [
             {
               "id": "u21-610480148",
@@ -12903,7 +12893,7 @@
               "away": "RSV Eintracht 1949 U21",
               "result": null,
               "location": "Jahnsportplatz Teltow, Kunstrasen, Jahnstr. 4, 14513 Teltow",
-              "matchday": 19,
+              "matchday": 18,
               "team_fixture_id": "u21-610480148",
               "home_logo": "/assets/clubs/teltower-fv-1913-ii.png",
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
@@ -12913,11 +12903,11 @@
           "date_end": "2027-03-14"
         },
         {
-          "id": "league:Kreisliga:20",
+          "id": "league:Kreisliga:19",
           "kind": "league",
-          "title": "20. Spieltag Kreisliga",
+          "title": "19. Spieltag Kreisliga",
           "competition": "Kreisliga",
-          "round": "20",
+          "round": "19",
           "matches": [
             {
               "id": "u21-610480153",
@@ -12927,7 +12917,7 @@
               "away": "SG Grün-Weiß Golm II",
               "result": null,
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-              "matchday": 20,
+              "matchday": 19,
               "team_fixture_id": "u21-610480153",
               "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
               "away_logo": "/assets/clubs/sg-gruen-weiss-golm-ii.png"
@@ -12935,6 +12925,30 @@
           ],
           "date": "2027-03-21",
           "date_end": "2027-03-21"
+        },
+        {
+          "id": "league:Kreisliga:20",
+          "kind": "league",
+          "title": "20. Spieltag Kreisliga",
+          "competition": "Kreisliga",
+          "round": "20",
+          "matches": [
+            {
+              "id": "u21-610480073",
+              "date": "2027-03-25",
+              "time": "19:00",
+              "home": "SV Viktoria Potsdam II",
+              "away": "RSV Eintracht 1949 U21",
+              "result": null,
+              "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
+              "matchday": 20,
+              "team_fixture_id": "u21-610480073",
+              "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            }
+          ],
+          "date": "2027-03-25",
+          "date_end": "2027-03-25"
         },
         {
           "id": "league:Kreisliga:21",
@@ -13178,24 +13192,8 @@
         }
       ],
       "next_game": {
-        "id": "u21-610480073",
-        "matchday": 9,
-        "date": "2026-11-01",
-        "time": "14:00",
-        "competition": "Kreisliga",
-        "home": "SV Viktoria Potsdam II",
-        "away": "RSV Eintracht 1949 U21",
-        "home_logo": "/assets/clubs/sv-viktoria-potsdam-ii.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Templiner+Stra%C3%9Fe%2C+KR%2C+Templiner+Stra%C3%9Fe+24%2C+14473+Potsdam",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u21-610480084",
-        "matchday": 10,
+        "matchday": 9,
         "date": "2026-11-08",
         "time": "14:00",
         "competition": "Kreisliga",
@@ -13208,7 +13206,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u19": {
       "name": "RSV Eintracht – U19",
@@ -15055,20 +15054,6 @@
               "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-fsv-bernau-u19/-/spiel/032AQB5H08000000VS5489BTVU989P58"
             },
             {
-              "id": "cup-werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren",
-              "date": "2026-11-01",
-              "time": "11:00",
-              "home": "Werderaner FC Viktoria 1920",
-              "away": "SV Wacker 09 Cottbus-Ströbitz",
-              "result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/werderaner-fc-viktoria-1920.png",
-              "away_logo": "/assets/clubs/sv-wacker-09-cottbus-stroebitz.png",
-              "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
-            },
-            {
               "id": "cup-spg-hansa-wittstock-meyenburger-sv-1-fc-frankfurt",
               "date": "2026-11-04",
               "time": "18:00",
@@ -15109,6 +15094,20 @@
               "home_logo": "/assets/clubs/sv-germania-90-schoeneiche.png",
               "away_logo": "/assets/clubs/sv-babelsberg-03.png",
               "source_url": "https://www.fussball.de/spiel/sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19/-/spiel/032AQB5GV8000000VS5489BTVU989P58"
+            },
+            {
+              "id": "cup-werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren",
+              "date": "2026-11-25",
+              "time": "19:00",
+              "home": "Werderaner FC Viktoria 1920",
+              "away": "SV Wacker 09 Cottbus-Ströbitz",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/werderaner-fc-viktoria-1920.png",
+              "away_logo": "/assets/clubs/sv-wacker-09-cottbus-stroebitz.png",
+              "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
             },
             {
               "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",
@@ -15936,7 +15935,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 14. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 15. Spieltag)",
       "rows": [
         {
           "team": "FC Rot-Weiß Erfurt",
@@ -15963,6 +15962,18 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
+          "team": "BFC Dynamo",
+          "played": 15,
+          "wins": 8,
+          "draws": 5,
+          "losses": 2,
+          "goals": "24:13",
+          "diff": "+11",
+          "points": 29,
+          "position": 3,
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
+        },
+        {
           "team": "Hallescher FC",
           "played": 14,
           "wins": 8,
@@ -15971,19 +15982,19 @@
           "goals": "22:11",
           "diff": "+11",
           "points": 29,
-          "position": 3,
+          "position": 4,
           "logo_url": "/assets/clubs/hallescher-fc.png"
         },
         {
           "team": "VSG Altglienicke",
-          "played": 14,
+          "played": 15,
           "wins": 8,
           "draws": 3,
-          "losses": 3,
-          "goals": "26:17",
-          "diff": "+9",
+          "losses": 4,
+          "goals": "27:20",
+          "diff": "+7",
           "points": 27,
-          "position": 4,
+          "position": 5,
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
@@ -15995,20 +16006,8 @@
           "goals": "23:12",
           "diff": "+11",
           "points": 26,
-          "position": 5,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
-        },
-        {
-          "team": "BFC Dynamo",
-          "played": 14,
-          "wins": 7,
-          "draws": 5,
-          "losses": 2,
-          "goals": "22:13",
-          "diff": "+9",
-          "points": 26,
           "position": 6,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "Erzgebirge Aue",
@@ -16035,6 +16034,18 @@
           "logo_url": "/assets/clubs/greifswalder-fc.png"
         },
         {
+          "team": "1. FC Lok Leipzig",
+          "played": 15,
+          "wins": 5,
+          "draws": 6,
+          "losses": 4,
+          "goals": "30:28",
+          "diff": "+2",
+          "points": 21,
+          "position": 9,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+        },
+        {
           "team": "1. FC Magdeburg II",
           "played": 14,
           "wins": 6,
@@ -16043,7 +16054,7 @@
           "goals": "27:28",
           "diff": "-1",
           "points": 19,
-          "position": 9,
+          "position": 10,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
@@ -16055,20 +16066,8 @@
           "goals": "17:22",
           "diff": "-5",
           "points": 19,
-          "position": 10,
-          "logo_url": "/assets/clubs/fsv-zwickau.png"
-        },
-        {
-          "team": "1. FC Lok Leipzig",
-          "played": 14,
-          "wins": 4,
-          "draws": 6,
-          "losses": 4,
-          "goals": "27:27",
-          "diff": "0",
-          "points": 18,
           "position": 11,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+          "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
           "team": "SV Babelsberg 03",
@@ -16107,6 +16106,18 @@
           "logo_url": "/assets/clubs/bfc-preussen-1894.png"
         },
         {
+          "team": "Hertha BSC II",
+          "played": 15,
+          "wins": 2,
+          "draws": 5,
+          "losses": 8,
+          "goals": "11:26",
+          "diff": "-15",
+          "points": 11,
+          "position": 15,
+          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
+        },
+        {
           "team": "SV Tasmania Berlin",
           "played": 14,
           "wins": 3,
@@ -16115,42 +16126,30 @@
           "goals": "21:39",
           "diff": "-18",
           "points": 11,
-          "position": 15,
+          "position": 16,
           "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         },
         {
-          "team": "Hertha BSC II",
-          "played": 14,
-          "wins": 2,
-          "draws": 4,
-          "losses": 8,
-          "goals": "10:25",
-          "diff": "-15",
-          "points": 10,
-          "position": 16,
-          "logo_url": "/assets/clubs/hertha-bsc-ii.png"
-        },
-        {
           "team": "RSV Eintracht 1949",
-          "played": 14,
+          "played": 15,
           "wins": 2,
           "draws": 3,
-          "losses": 9,
-          "goals": "15:32",
-          "diff": "-17",
+          "losses": 10,
+          "goals": "15:34",
+          "diff": "-19",
           "points": 9,
           "position": 17,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
           "team": "FSV 63 Luckenwalde",
-          "played": 14,
+          "played": 15,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 12,
-          "goals": "14:34",
+          "goals": "15:35",
           "diff": "-20",
-          "points": 6,
+          "points": 7,
           "position": 18,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },

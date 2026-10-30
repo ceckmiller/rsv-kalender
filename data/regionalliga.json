@@ -511,14 +511,21 @@
       "home": "BFC Dynamo",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "2:0",
       "location": "Sportforum Stadion, Weißenseer Weg 51-55, 13053 Berlin",
       "source_url": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119",
       "match_number": "690047129",
       "location_source": "https://www.fussball.de/spiel/bfc-dynamo-rsv-eintracht-1949/-/spiel/031DEIC5J4000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00008KVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:0",
+      "scorers": [
+        "25. Minute – Rufat Dadashov (BFC Dynamo) – 1:0",
+        "56. Minute – Ludwig Blke (BFC Dynamo) – 2:0"
+      ],
+      "referee": "Patrick Kluge",
+      "attendance": 1825
     },
     {
       "id": "rl-16",

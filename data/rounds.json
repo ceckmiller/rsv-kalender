@@ -1665,7 +1665,8 @@
           "time": "19:00",
           "home": "FSV 63 Luckenwalde",
           "away": "Hertha BSC II",
-          "result": null,
+          "result": "1:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1676,7 +1677,8 @@
           "time": "19:00",
           "home": "BFC Dynamo",
           "away": "RSV Eintracht 1949",
-          "result": null,
+          "result": "2:0",
+          "halftime_result": "1:0",
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27",
@@ -1688,7 +1690,8 @@
           "time": "19:00",
           "home": "1. FC Lok Leipzig",
           "away": "VSG Altglienicke",
-          "result": null,
+          "result": "3:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -7359,21 +7362,6 @@
           "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-fsv-bernau-u19/-/spiel/032AQB5H08000000VS5489BTVU989P58"
         },
         {
-          "id": "cup-werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren",
-          "date": "2026-11-01",
-          "time": "11:00",
-          "home": "Werderaner FC Viktoria 1920",
-          "away": "SV Wacker 09 Cottbus-Ströbitz",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Landespokal Brandenburg 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
-        },
-        {
           "id": "cup-sv-dallgow-1-rsv-eintracht-1949-u19",
           "date": "2026-11-04",
           "time": "18:00",
@@ -7432,6 +7420,21 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO0000A7VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19/-/spiel/032AQB5GV8000000VS5489BTVU989P58"
+        },
+        {
+          "id": "cup-werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren",
+          "date": "2026-11-25",
+          "time": "19:00",
+          "home": "Werderaner FC Viktoria 1920",
+          "away": "SV Wacker 09 Cottbus-Ströbitz",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000053VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920-sv-wacker-09-a-junioren/-/spiel/032AQB5H58000000VS5489BTVU989P58"
         },
         {
           "id": "cup-bsg-stahl-brandenburg-u19-bsc-preussen-1",

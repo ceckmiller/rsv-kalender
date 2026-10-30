@@ -256,19 +256,6 @@
       ]
     },
     {
-      "id": "u21-610480073",
-      "date": "2026-11-01",
-      "time": "14:00",
-      "home": "SV Viktoria Potsdam II",
-      "away": "RSV Eintracht 1949 U21",
-      "competition": "Kreisliga 2026/27",
-      "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
-      "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7FH0000000VS5489BTVUS470OH",
-      "match_number": "610480073",
-      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
-    },
-    {
       "id": "u21-610480084",
       "date": "2026-11-08",
       "time": "14:00",
@@ -411,6 +398,19 @@
       "match_number": "610480153",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I"
+    },
+    {
+      "id": "u21-610480073",
+      "date": "2027-03-25",
+      "time": "19:00",
+      "home": "SV Viktoria Potsdam II",
+      "away": "RSV Eintracht 1949 U21",
+      "competition": "Kreisliga 2026/27",
+      "location": "Sportplatz Templiner Straße, KR, Templiner Straße 24, 14473 Potsdam",
+      "source_url": "https://www.fussball.de/spiel/sv-viktoria-potsdam-ii-rsv-eintracht-1949-u21/-/spiel/031D5U7FH0000000VS5489BTVUS470OH",
+      "match_number": "610480073",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/026EPS26LS000000VS5489B5VUMJBOFV",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
       "id": "u21-610480164",

@@ -1,7 +1,7 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 14. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 15. Spieltag)",
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
@@ -26,6 +26,17 @@
         "position": 2
       },
       {
+        "team": "BFC Dynamo",
+        "played": 15,
+        "wins": 8,
+        "draws": 5,
+        "losses": 2,
+        "goals": "24:13",
+        "diff": "+11",
+        "points": 29,
+        "position": 3
+      },
+      {
         "team": "Hallescher FC",
         "played": 14,
         "wins": 8,
@@ -34,18 +45,18 @@
         "goals": "22:11",
         "diff": "+11",
         "points": 29,
-        "position": 3
+        "position": 4
       },
       {
         "team": "VSG Altglienicke",
-        "played": 14,
+        "played": 15,
         "wins": 8,
         "draws": 3,
-        "losses": 3,
-        "goals": "26:17",
-        "diff": "+9",
+        "losses": 4,
+        "goals": "27:20",
+        "diff": "+7",
         "points": 27,
-        "position": 4
+        "position": 5
       },
       {
         "team": "FC Carl Zeiss Jena",
@@ -55,17 +66,6 @@
         "losses": 4,
         "goals": "23:12",
         "diff": "+11",
-        "points": 26,
-        "position": 5
-      },
-      {
-        "team": "BFC Dynamo",
-        "played": 14,
-        "wins": 7,
-        "draws": 5,
-        "losses": 2,
-        "goals": "22:13",
-        "diff": "+9",
         "points": 26,
         "position": 6
       },
@@ -92,6 +92,17 @@
         "position": 8
       },
       {
+        "team": "1. FC Lok Leipzig",
+        "played": 15,
+        "wins": 5,
+        "draws": 6,
+        "losses": 4,
+        "goals": "30:28",
+        "diff": "+2",
+        "points": 21,
+        "position": 9
+      },
+      {
         "team": "1. FC Magdeburg II",
         "played": 14,
         "wins": 6,
@@ -100,7 +111,7 @@
         "goals": "27:28",
         "diff": "-1",
         "points": 19,
-        "position": 9
+        "position": 10
       },
       {
         "team": "FSV Zwickau",
@@ -111,17 +122,6 @@
         "goals": "17:22",
         "diff": "-5",
         "points": 19,
-        "position": 10
-      },
-      {
-        "team": "1. FC Lok Leipzig",
-        "played": 14,
-        "wins": 4,
-        "draws": 6,
-        "losses": 4,
-        "goals": "27:27",
-        "diff": "0",
-        "points": 18,
         "position": 11
       },
       {
@@ -158,6 +158,17 @@
         "position": 14
       },
       {
+        "team": "Hertha BSC II",
+        "played": 15,
+        "wins": 2,
+        "draws": 5,
+        "losses": 8,
+        "goals": "11:26",
+        "diff": "-15",
+        "points": 11,
+        "position": 15
+      },
+      {
         "team": "SV Tasmania Berlin",
         "played": 14,
         "wins": 3,
@@ -166,39 +177,28 @@
         "goals": "21:39",
         "diff": "-18",
         "points": 11,
-        "position": 15
-      },
-      {
-        "team": "Hertha BSC II",
-        "played": 14,
-        "wins": 2,
-        "draws": 4,
-        "losses": 8,
-        "goals": "10:25",
-        "diff": "-15",
-        "points": 10,
         "position": 16
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 14,
+        "played": 15,
         "wins": 2,
         "draws": 3,
-        "losses": 9,
-        "goals": "15:32",
-        "diff": "-17",
+        "losses": 10,
+        "goals": "15:34",
+        "diff": "-19",
         "points": 9,
         "position": 17
       },
       {
         "team": "FSV 63 Luckenwalde",
-        "played": 14,
+        "played": 15,
         "wins": 2,
-        "draws": 0,
+        "draws": 1,
         "losses": 12,
-        "goals": "14:34",
+        "goals": "15:35",
         "diff": "-20",
-        "points": 6,
+        "points": 7,
         "position": 18
       }
     ]
