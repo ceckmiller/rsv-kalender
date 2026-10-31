@@ -313,13 +313,21 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "Berliner SC",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:4",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-berliner-sc/-/spiel/031B3S0ETO000000VS5489BUVV628VP4",
       "match_number": "690007074",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003DVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003DVV0AG08LVUPGND5I",
+      "halftime_result": "0:1",
+      "scorers": [
+        "45. Minute – David-Wilstel Esekuluwe (Berliner SC) – 0:1",
+        "49. Minute – Lavri-Tche Fosso Labi (Berliner SC) – 0:2",
+        "64. Minute – Hamza Korbosli (Berliner SC) – 0:3",
+        "74. Minute – Kayode Famson (Berliner SC) – 0:4",
+        "80. Minute – Yassin Boulehris (RSV Eintracht 1949 U19) – 1:4"
+      ]
     },
     {
       "id": "u19-710069003",
