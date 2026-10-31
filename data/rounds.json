@@ -1702,7 +1702,8 @@
           "time": "13:00",
           "home": "1. FC Magdeburg II",
           "away": "Hallescher FC",
-          "result": null,
+          "result": "1:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1713,7 +1714,8 @@
           "time": "14:00",
           "home": "BFC Preussen 1894",
           "away": "FSV Zwickau",
-          "result": null,
+          "result": "3:0",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1724,7 +1726,8 @@
           "time": "14:30",
           "home": "Erzgebirge Aue",
           "away": "FC Carl Zeiss Jena",
-          "result": null,
+          "result": "1:0",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"

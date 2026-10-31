@@ -196,7 +196,14 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBC800003DVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Fritz-Walter-Stadion, Fritz-Walter-Str. 1, 67663 Kaiserslautern",
-      "location_source": "https://www.fussball.de/spiel/1-fc-kaiserslautern-hertha-bsc/-/spiel/031BG6BDB4000000VS5489BUVUR5FS5A"
+      "location_source": "https://www.fussball.de/spiel/1-fc-kaiserslautern-hertha-bsc/-/spiel/031BG6BDB4000000VS5489BUVUR5FS5A",
+      "result": "0:3",
+      "halftime_result": "0:1",
+      "scorers": [
+        "17. Minute – Sebastian Grnning Andersen (Hertha BSC) – 0:1",
+        "52. Minute – Sebastian Grnning Andersen (Hertha BSC) – 0:2",
+        "59. Minute – Oluwaseun Adewumi (Hertha BSC) – 0:3"
+      ]
     },
     {
       "id": "u21-890001092",
@@ -309,6 +316,20 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
       "location": "Voith-Arena, Heeracker, 89522 Heidenheim an der Brenz",
       "location_source": "https://www.fussball.de/spiel/1-fc-heidenheim-1846-e-v-hertha-bsc/-/spiel/031BG6BKAO000000VS5489BUVUR5FS5A"
+    },
+    {
+      "id": "u21-890001175",
+      "date": "2027-02-07",
+      "time": "13:30",
+      "home": "Hertha BSC",
+      "away": "Eintracht Braunschweig",
+      "competition": "2.Bundesliga 2026/27",
+      "source_url": "https://www.fussball.de/spiel/hertha-bsc-eintracht-braunschweig/-/spiel/031BG6BLBK000000VS5489BUVUR5FS5A",
+      "match_number": "890001175",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GN6TK000009VV0AG08LVUPGND5I",
+      "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
+      "location_source": "https://www.fussball.de/spiel/hertha-bsc-eintracht-braunschweig/-/spiel/031BG6BLBK000000VS5489BUVUR5FS5A"
     }
   ]
 }
