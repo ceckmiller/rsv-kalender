@@ -1738,7 +1738,8 @@
           "time": "14:00",
           "home": "SV Tasmania Berlin",
           "away": "Chemnitzer FC",
-          "result": null,
+          "result": "3:4",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1749,7 +1750,8 @@
           "time": "14:00",
           "home": "FC Rot-Weiß Erfurt",
           "away": "SV Babelsberg 03",
-          "result": null,
+          "result": "4:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1760,7 +1762,8 @@
           "time": "14:00",
           "home": "Greifswalder FC",
           "away": "BSG Chemie Leipzig",
-          "result": null,
+          "result": "1:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 15,
           "competition": "Regionalliga Nordost 2026/27"
@@ -7355,14 +7358,14 @@
           "time": "11:00",
           "home": "Brandenburger SC Süd 05",
           "away": "FSV Bernau",
-          "result": null,
+          "result": "1:0",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Landespokal Brandenburg 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00002MVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-fsv-bernau-u19/-/spiel/032AQB5H08000000VS5489BTVU989P58"
+          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-fsv-bernau-u19/-/spiel/032AQB5H08000000VS5489BTVU989P58#!/section/course"
         },
         {
           "id": "cup-sv-dallgow-1-rsv-eintracht-1949-u19",

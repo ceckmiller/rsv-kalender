@@ -5,24 +5,24 @@
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 14,
-        "wins": 9,
+        "played": 15,
+        "wins": 10,
         "draws": 4,
         "losses": 1,
-        "goals": "42:18",
-        "diff": "+24",
-        "points": 31,
+        "goals": "46:19",
+        "diff": "+27",
+        "points": 34,
         "position": 1
       },
       {
         "team": "Chemnitzer FC",
-        "played": 14,
-        "wins": 9,
+        "played": 15,
+        "wins": 10,
         "draws": 3,
         "losses": 2,
-        "goals": "30:9",
-        "diff": "+21",
-        "points": 30,
+        "goals": "34:12",
+        "diff": "+22",
+        "points": 33,
         "position": 2
       },
       {
@@ -82,13 +82,13 @@
       },
       {
         "team": "Greifswalder FC",
-        "played": 14,
+        "played": 15,
         "wins": 6,
-        "draws": 4,
+        "draws": 5,
         "losses": 4,
-        "goals": "28:23",
+        "goals": "29:24",
         "diff": "+5",
-        "points": 22,
+        "points": 23,
         "position": 8
       },
       {
@@ -126,12 +126,12 @@
       },
       {
         "team": "SV Babelsberg 03",
-        "played": 14,
+        "played": 15,
         "wins": 4,
         "draws": 4,
-        "losses": 6,
-        "goals": "15:23",
-        "diff": "-8",
+        "losses": 7,
+        "goals": "16:27",
+        "diff": "-11",
         "points": 16,
         "position": 12
       },
@@ -148,13 +148,13 @@
       },
       {
         "team": "BSG Chemie Leipzig",
-        "played": 14,
+        "played": 15,
         "wins": 3,
-        "draws": 4,
+        "draws": 5,
         "losses": 7,
-        "goals": "17:22",
+        "goals": "18:23",
         "diff": "-5",
-        "points": 13,
+        "points": 14,
         "position": 14
       },
       {
@@ -170,12 +170,12 @@
       },
       {
         "team": "SV Tasmania Berlin",
-        "played": 14,
+        "played": 15,
         "wins": 3,
         "draws": 2,
-        "losses": 9,
-        "goals": "21:39",
-        "diff": "-18",
+        "losses": 10,
+        "goals": "24:43",
+        "diff": "-19",
         "points": 11,
         "position": 16
       },
@@ -212,115 +212,137 @@
       {
         "position": 1,
         "team": "SV Dallgow 47",
-        "played": 8,
-        "wins": 7,
+        "played": 9,
+        "wins": 8,
         "draws": 1,
         "losses": 0,
-        "goals": "42:10",
-        "diff": "+32",
-        "points": 22
+        "goals": "49:11",
+        "diff": "+38",
+        "points": 25
       },
       {
         "position": 2,
-        "team": "BSG Stahl Brandenburg U23",
-        "played": 8,
-        "wins": 4,
-        "draws": 2,
-        "losses": 2,
-        "goals": "25:20",
-        "diff": "+5",
-        "points": 14
+        "team": "Bredower SV",
+        "played": 9,
+        "wins": 5,
+        "draws": 1,
+        "losses": 3,
+        "goals": "29:17",
+        "diff": "+12",
+        "points": 16
       },
       {
         "position": 3,
-        "team": "Brandenburger SC Süd 05 II",
-        "played": 8,
+        "team": "Fortuna Babelsberg II",
+        "played": 9,
         "wins": 4,
-        "draws": 2,
-        "losses": 2,
-        "goals": "18:23",
-        "diff": "-5",
-        "points": 14
+        "draws": 4,
+        "losses": 1,
+        "goals": "22:15",
+        "diff": "+7",
+        "points": 16
       },
       {
         "position": 4,
-        "team": "Bredower SV",
-        "played": 8,
-        "wins": 4,
-        "draws": 1,
-        "losses": 3,
-        "goals": "27:16",
-        "diff": "+11",
-        "points": 13
+        "team": "SV Ziesar 31",
+        "played": 9,
+        "wins": 5,
+        "draws": 0,
+        "losses": 4,
+        "goals": "23:16",
+        "diff": "+7",
+        "points": 15
       },
       {
         "position": 5,
-        "team": "Fortuna Babelsberg II",
-        "played": 8,
-        "wins": 3,
-        "draws": 4,
-        "losses": 1,
-        "goals": "19:14",
+        "team": "BSG Stahl Brandenburg U23",
+        "played": 9,
+        "wins": 4,
+        "draws": 3,
+        "losses": 2,
+        "goals": "28:23",
         "diff": "+5",
-        "points": 13
+        "points": 15
       },
       {
         "position": 6,
-        "team": "FSV 95 Ketzin/​Falkenrehde",
-        "played": 8,
-        "wins": 3,
-        "draws": 4,
-        "losses": 1,
-        "goals": "12:9",
-        "diff": "+3",
-        "points": 13
+        "team": "Brandenburger SC Süd 05 II",
+        "played": 9,
+        "wins": 4,
+        "draws": 2,
+        "losses": 3,
+        "goals": "19:26",
+        "diff": "-7",
+        "points": 14
       },
       {
         "position": 7,
-        "team": "SV Ziesar 31",
+        "team": "RSV Eintracht 1949 U23",
+        "played": 9,
+        "wins": 3,
+        "draws": 4,
+        "losses": 2,
+        "goals": "20:20",
+        "diff": "0",
+        "points": 13
+      },
+      {
+        "position": 8,
+        "team": "FSV 95 Ketzin/​Falkenrehde",
+        "played": 9,
+        "wins": 3,
+        "draws": 4,
+        "losses": 2,
+        "goals": "13:16",
+        "diff": "-3",
+        "points": 13
+      },
+      {
+        "position": 9,
+        "team": "UNITED TELTOW FC",
         "played": 8,
         "wins": 4,
         "draws": 0,
         "losses": 4,
-        "goals": "19:16",
-        "diff": "+3",
+        "goals": "20:23",
+        "diff": "-3",
         "points": 12
-      },
-      {
-        "position": 8,
-        "team": "UNITED TELTOW FC",
-        "played": 7,
-        "wins": 4,
-        "draws": 0,
-        "losses": 3,
-        "goals": "19:20",
-        "diff": "-1",
-        "points": 12
-      },
-      {
-        "position": 9,
-        "team": "SG Michendorf II",
-        "played": 8,
-        "wins": 3,
-        "draws": 2,
-        "losses": 3,
-        "goals": "9:9",
-        "diff": "0",
-        "points": 11
       },
       {
         "position": 10,
-        "team": "RSV Eintracht 1949 U23",
-        "played": 8,
-        "wins": 2,
-        "draws": 4,
-        "losses": 2,
-        "goals": "17:19",
-        "diff": "-2",
-        "points": 10
+        "team": "SG Geltow",
+        "played": 9,
+        "wins": 3,
+        "draws": 3,
+        "losses": 3,
+        "goals": "16:25",
+        "diff": "-9",
+        "points": 12
       },
       {
         "position": 11,
+        "team": "SG Michendorf II",
+        "played": 9,
+        "wins": 3,
+        "draws": 2,
+        "losses": 4,
+        "goals": "10:11",
+        "diff": "-1",
+        "points": 11
+      },
+      {
+        "position": 12,
+        "team": "SG Blau-Weiß Pessin",
+        "played": 9,
+        "wins": 2,
+        "draws": 4,
+        "losses": 3,
+        "goals": "24:22",
+        "diff": "+2",
+        "points": 10
+      },
+      {
+        "position": 13,
         "team": "SV Falkensee-Finkenkrug II",
         "played": 8,
         "wins": 3,
@@ -331,36 +353,14 @@
         "points": 10
       },
       {
-        "position": 12,
-        "team": "SG Blau-Weiß Pessin",
-        "played": 8,
-        "wins": 2,
-        "draws": 3,
-        "losses": 3,
-        "goals": "21:19",
-        "diff": "+2",
-        "points": 9
-      },
-      {
-        "position": 13,
+        "position": 14,
         "team": "FSV Babelsberg 74 II",
-        "played": 9,
+        "played": 10,
         "wins": 3,
         "draws": 0,
-        "losses": 6,
-        "goals": "21:24",
-        "diff": "-3",
-        "points": 9
-      },
-      {
-        "position": 14,
-        "team": "SG Geltow",
-        "played": 8,
-        "wins": 2,
-        "draws": 3,
-        "losses": 3,
-        "goals": "14:24",
-        "diff": "-10",
+        "losses": 7,
+        "goals": "21:28",
+        "diff": "-7",
         "points": 9
       },
       {
@@ -377,12 +377,12 @@
       {
         "position": 16,
         "team": "SG Eintracht Friesack",
-        "played": 8,
+        "played": 9,
         "wins": 0,
         "draws": 1,
-        "losses": 7,
-        "goals": "7:27",
-        "diff": "-20",
+        "losses": 8,
+        "goals": "8:29",
+        "diff": "-21",
         "points": 1
       }
     ]
@@ -396,13 +396,13 @@
       {
         "position": 1,
         "team": "Rot-Weiß Groß Glienicke",
-        "played": 8,
-        "wins": 7,
+        "played": 9,
+        "wins": 8,
         "draws": 1,
         "losses": 0,
-        "goals": "27:6",
-        "diff": "+21",
-        "points": 22
+        "goals": "28:6",
+        "diff": "+22",
+        "points": 25
       },
       {
         "position": 2,
@@ -418,13 +418,13 @@
       {
         "position": 3,
         "team": "SG Blau-Weiß Beelitz",
-        "played": 8,
+        "played": 9,
         "wins": 6,
-        "draws": 0,
+        "draws": 1,
         "losses": 2,
-        "goals": "32:15",
+        "goals": "34:17",
         "diff": "+17",
-        "points": 18
+        "points": 19
       },
       {
         "position": 4,
@@ -484,24 +484,24 @@
       {
         "position": 9,
         "team": "ESV Lok Seddin",
-        "played": 9,
+        "played": 10,
         "wins": 4,
         "draws": 0,
-        "losses": 5,
-        "goals": "19:26",
-        "diff": "-7",
+        "losses": 6,
+        "goals": "19:27",
+        "diff": "-8",
         "points": 12
       },
       {
         "position": 10,
         "team": "Caputher SV",
-        "played": 7,
+        "played": 8,
         "wins": 3,
-        "draws": 1,
+        "draws": 2,
         "losses": 3,
-        "goals": "22:20",
+        "goals": "24:22",
         "diff": "+2",
-        "points": 10
+        "points": 11
       },
       {
         "position": 11,
@@ -516,24 +516,24 @@
       },
       {
         "position": 12,
-        "team": "Teltower FV 1913 II",
-        "played": 8,
-        "wins": 2,
+        "team": "SV 1948 Ferch",
+        "played": 9,
+        "wins": 3,
         "draws": 1,
         "losses": 5,
-        "goals": "12:21",
-        "diff": "-9",
-        "points": 7
+        "goals": "16:24",
+        "diff": "-8",
+        "points": 10
       },
       {
         "position": 13,
-        "team": "SV 1948 Ferch",
-        "played": 8,
+        "team": "Teltower FV 1913 II",
+        "played": 9,
         "wins": 2,
         "draws": 1,
-        "losses": 5,
-        "goals": "14:24",
-        "diff": "-10",
+        "losses": 6,
+        "goals": "12:23",
+        "diff": "-11",
         "points": 7
       },
       {
@@ -613,46 +613,46 @@
       {
         "position": 4,
         "team": "1. FC Lokomotive Leipzig U19",
-        "played": 10,
+        "played": 11,
         "wins": 7,
         "draws": 1,
-        "losses": 2,
-        "goals": "30:17",
-        "diff": "+13",
+        "losses": 3,
+        "goals": "30:18",
+        "diff": "+12",
         "points": 22
       },
       {
         "position": 5,
         "team": "Sport-Club Staaken 1919 U19",
-        "played": 9,
-        "wins": 4,
+        "played": 10,
+        "wins": 5,
         "draws": 4,
         "losses": 1,
-        "goals": "22:13",
-        "diff": "+9",
-        "points": 16
+        "goals": "23:13",
+        "diff": "+10",
+        "points": 19
       },
       {
         "position": 6,
         "team": "FSV Zwickau",
-        "played": 10,
+        "played": 11,
         "wins": 4,
-        "draws": 4,
+        "draws": 5,
         "losses": 2,
-        "goals": "33:27",
+        "goals": "35:29",
         "diff": "+6",
-        "points": 16
+        "points": 17
       },
       {
         "position": 7,
         "team": "SC Borea Dresden",
-        "played": 9,
+        "played": 10,
         "wins": 5,
-        "draws": 0,
+        "draws": 1,
         "losses": 4,
-        "goals": "23:12",
+        "goals": "25:14",
         "diff": "+11",
-        "points": 15
+        "points": 16
       },
       {
         "position": 8,

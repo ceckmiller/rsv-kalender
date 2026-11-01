@@ -317,7 +317,15 @@
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-united-teltow-fc-i/-/spiel/031D1IIB2K000000VS5489BTVUS470OH",
       "match_number": "610138076",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/02B5O3AS24000000VS5489B6VV6E1ENB"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/02B5O3AS24000000VS5489B6VV6E1ENB",
+      "result": "3:1",
+      "halftime_result": "2:0",
+      "scorers": [
+        "41. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 1:0",
+        "45. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 2:0",
+        "58. Minute – Julius Kniehase (UNITED TELTOW FC) – 2:1",
+        "78. Minute – Julius Graber (RSV Eintracht 1949 U23) – 3:1"
+      ]
     },
     {
       "id": "u23-610138082",
