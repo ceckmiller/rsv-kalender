@@ -344,12 +344,12 @@
       {
         "position": 13,
         "team": "SV Falkensee-Finkenkrug II",
-        "played": 8,
+        "played": 9,
         "wins": 3,
         "draws": 1,
-        "losses": 4,
-        "goals": "14:19",
-        "diff": "-5",
+        "losses": 5,
+        "goals": "15:22",
+        "diff": "-7",
         "points": 10
       },
       {
@@ -366,13 +366,13 @@
       {
         "position": 15,
         "team": "SV Ruhlsdorf",
-        "played": 8,
-        "wins": 2,
+        "played": 9,
+        "wins": 3,
         "draws": 0,
         "losses": 6,
-        "goals": "14:29",
-        "diff": "-15",
-        "points": 6
+        "goals": "17:30",
+        "diff": "-13",
+        "points": 9
       },
       {
         "position": 16,
@@ -407,13 +407,13 @@
       {
         "position": 2,
         "team": "Potsdamer Kickers 94",
-        "played": 8,
-        "wins": 7,
+        "played": 9,
+        "wins": 8,
         "draws": 0,
         "losses": 1,
-        "goals": "24:12",
-        "diff": "+12",
-        "points": 21
+        "goals": "28:15",
+        "diff": "+13",
+        "points": 24
       },
       {
         "position": 3,
@@ -428,6 +428,17 @@
       },
       {
         "position": 4,
+        "team": "FV Turbine Potsdam 55",
+        "played": 10,
+        "wins": 5,
+        "draws": 2,
+        "losses": 3,
+        "goals": "18:20",
+        "diff": "-2",
+        "points": 17
+      },
+      {
+        "position": 5,
         "team": "RSV Eintracht 1949 U21",
         "played": 8,
         "wins": 5,
@@ -438,36 +449,25 @@
         "points": 16
       },
       {
-        "position": 5,
-        "team": "FV Turbine Potsdam 55",
-        "played": 9,
-        "wins": 4,
-        "draws": 2,
-        "losses": 3,
-        "goals": "16:19",
-        "diff": "-3",
-        "points": 14
-      },
-      {
         "position": 6,
         "team": "SV 05 Rehbrücke",
-        "played": 9,
+        "played": 10,
         "wins": 4,
-        "draws": 1,
+        "draws": 2,
         "losses": 4,
-        "goals": "25:19",
+        "goals": "27:21",
         "diff": "+6",
-        "points": 13
+        "points": 14
       },
       {
         "position": 7,
         "team": "FSV Grün-Weiß Niemegk",
-        "played": 9,
+        "played": 10,
         "wins": 4,
         "draws": 1,
-        "losses": 4,
-        "goals": "29:32",
-        "diff": "-3",
+        "losses": 5,
+        "goals": "30:34",
+        "diff": "-4",
         "points": 13
       },
       {
@@ -506,12 +506,12 @@
       {
         "position": 11,
         "team": "SG Grün-Weiß Golm II",
-        "played": 8,
+        "played": 9,
         "wins": 3,
         "draws": 1,
-        "losses": 4,
-        "goals": "18:20",
-        "diff": "-2",
+        "losses": 5,
+        "goals": "21:24",
+        "diff": "-3",
         "points": 10
       },
       {
@@ -539,13 +539,13 @@
       {
         "position": 14,
         "team": "SG Bornim II",
-        "played": 8,
+        "played": 9,
         "wins": 2,
-        "draws": 0,
+        "draws": 1,
         "losses": 6,
-        "goals": "11:26",
+        "goals": "13:28",
         "diff": "-15",
-        "points": 6
+        "points": 7
       },
       {
         "position": 15,

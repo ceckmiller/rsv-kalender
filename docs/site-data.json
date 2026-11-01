@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T17:02:06.731136+01:00",
+  "generated_at": "2026-11-01T21:32:14.487302+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -10421,7 +10421,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 3,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480013",
@@ -10446,7 +10446,7 @@
           "location": "Sportplatz Schwielowsee, Glindower Weg 31, 14548 Schwielowsee",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Schwielowsee%2C+Glindower+Weg+31%2C+14548+Schwielowsee",
           "points": 4,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480019",
@@ -10474,7 +10474,7 @@
           "location": "Waldstadion Niemegk, Waldstr., 14823 Niemegk",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Waldstadion+Niemegk%2C+Waldstr.%2C+14823+Niemegk",
           "points": 4,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480028",
@@ -10497,7 +10497,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 7,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480033",
@@ -10521,7 +10521,7 @@
           "location": "Sportplatz Golm, Kuhfortdamm 7, 14476 Golm",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Golm%2C+Kuhfortdamm+7%2C+14476+Golm",
           "points": 10,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-710089084",
@@ -10569,7 +10569,7 @@
           "location": "Sportplatz Groß Glienicke, An der Sporthalle, 14476 Potsdam",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Gro%C3%9F+Glienicke%2C+An+der+Sporthalle%2C+14476+Potsdam",
           "points": 10,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480060",
@@ -10590,7 +10590,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 13,
-          "table_position": 4
+          "table_position": 5
         },
         {
           "id": "u21-610480069",
@@ -10614,7 +10614,7 @@
           "location": "Stadion des Friedens, Bergstr. 1, 14547 Beelitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+des+Friedens%2C+Bergstr.+1%2C+14547+Beelitz",
           "points": 16,
-          "table_position": 4
+          "table_position": 5
         }
       ],
       "fixtures": [
@@ -16436,12 +16436,12 @@
         {
           "position": 13,
           "team": "SV Falkensee-Finkenkrug II",
-          "played": 8,
+          "played": 9,
           "wins": 3,
           "draws": 1,
-          "losses": 4,
-          "goals": "14:19",
-          "diff": "-5",
+          "losses": 5,
+          "goals": "15:22",
+          "diff": "-7",
           "points": 10,
           "logo_url": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
         },
@@ -16460,13 +16460,13 @@
         {
           "position": 15,
           "team": "SV Ruhlsdorf",
-          "played": 8,
-          "wins": 2,
+          "played": 9,
+          "wins": 3,
           "draws": 0,
           "losses": 6,
-          "goals": "14:29",
-          "diff": "-15",
-          "points": 6,
+          "goals": "17:30",
+          "diff": "-13",
+          "points": 9,
           "logo_url": "/assets/clubs/sv-ruhlsdorf.png"
         },
         {
@@ -16504,13 +16504,13 @@
         {
           "position": 2,
           "team": "Potsdamer Kickers 94",
-          "played": 8,
-          "wins": 7,
+          "played": 9,
+          "wins": 8,
           "draws": 0,
           "losses": 1,
-          "goals": "24:12",
-          "diff": "+12",
-          "points": 21,
+          "goals": "28:15",
+          "diff": "+13",
+          "points": 24,
           "logo_url": "/assets/clubs/potsdamer-kickers-94.png"
         },
         {
@@ -16527,6 +16527,18 @@
         },
         {
           "position": 4,
+          "team": "FV Turbine Potsdam 55",
+          "played": 10,
+          "wins": 5,
+          "draws": 2,
+          "losses": 3,
+          "goals": "18:20",
+          "diff": "-2",
+          "points": 17,
+          "logo_url": "/assets/clubs/fv-turbine-potsdam-55.png"
+        },
+        {
+          "position": 5,
           "team": "RSV Eintracht 1949 U21",
           "played": 8,
           "wins": 5,
@@ -16538,38 +16550,26 @@
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
-          "position": 5,
-          "team": "FV Turbine Potsdam 55",
-          "played": 9,
-          "wins": 4,
-          "draws": 2,
-          "losses": 3,
-          "goals": "16:19",
-          "diff": "-3",
-          "points": 14,
-          "logo_url": "/assets/clubs/fv-turbine-potsdam-55.png"
-        },
-        {
           "position": 6,
           "team": "SV 05 Rehbrücke",
-          "played": 9,
+          "played": 10,
           "wins": 4,
-          "draws": 1,
+          "draws": 2,
           "losses": 4,
-          "goals": "25:19",
+          "goals": "27:21",
           "diff": "+6",
-          "points": 13,
+          "points": 14,
           "logo_url": "/assets/clubs/sv-05-rehbruecke.png"
         },
         {
           "position": 7,
           "team": "FSV Grün-Weiß Niemegk",
-          "played": 9,
+          "played": 10,
           "wins": 4,
           "draws": 1,
-          "losses": 4,
-          "goals": "29:32",
-          "diff": "-3",
+          "losses": 5,
+          "goals": "30:34",
+          "diff": "-4",
           "points": 13,
           "logo_url": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
         },
@@ -16612,12 +16612,12 @@
         {
           "position": 11,
           "team": "SG Grün-Weiß Golm II",
-          "played": 8,
+          "played": 9,
           "wins": 3,
           "draws": 1,
-          "losses": 4,
-          "goals": "18:20",
-          "diff": "-2",
+          "losses": 5,
+          "goals": "21:24",
+          "diff": "-3",
           "points": 10,
           "logo_url": "/assets/clubs/sg-gruen-weiss-golm-ii.png"
         },
@@ -16648,13 +16648,13 @@
         {
           "position": 14,
           "team": "SG Bornim II",
-          "played": 8,
+          "played": 9,
           "wins": 2,
-          "draws": 0,
+          "draws": 1,
           "losses": 6,
-          "goals": "11:26",
+          "goals": "13:28",
           "diff": "-15",
-          "points": 6,
+          "points": 7,
           "logo_url": "/assets/clubs/sg-bornim-ii.png"
         },
         {
