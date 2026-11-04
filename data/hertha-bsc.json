@@ -248,6 +248,20 @@
       "location_source": "https://www.fussball.de/spiel/hertha-bsc-karlsruher-sc/-/spiel/031BG6BF80000000VS5489BUVUR5FS5A"
     },
     {
+      "id": "u21-870049052",
+      "date": "2026-12-01",
+      "time": "20:45",
+      "home": "FC Bayern München",
+      "away": "Hertha BSC",
+      "competition": "DFB-Pokal 2026/27",
+      "source_url": "https://www.fussball.de/spiel/fc-bayern-muenchen-hertha-bsc/-/spiel/032JP5BT3C000000VS5489BUVSGKI48U",
+      "match_number": "870049052",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNHAK00001AVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "location": "Allianz Arena, Werner-Heisenberg-Allee 25, 80939 München",
+      "location_source": "https://www.fussball.de/spiel/fc-bayern-muenchen-hertha-bsc/-/spiel/032JP5BT3C000000VS5489BUVSGKI48U"
+    },
+    {
       "id": "u21-890001127",
       "date": "2026-12-13",
       "time": "13:30",

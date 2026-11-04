@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T03:20:39.290603+01:00",
+  "generated_at": "2026-11-04T19:41:35.401461+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15151,7 +15151,7 @@
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/sv-1908-gruen-weiss-ahrensfelde.png",
               "away_logo": "/assets/clubs/fc-energie-cottbus.png",
-              "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/sv-1908-gruen-weiss-ahrensfelde-u19-fc-energie-cottbus-u19/-/spiel/032AQB5H48000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
@@ -15911,6 +15911,23 @@
           "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
           "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
+          "id": "u21-870049052",
+          "matchday": null,
+          "date": "2026-12-01",
+          "time": "20:45",
+          "competition": "DFB-Pokal",
+          "home": "FC Bayern München",
+          "away": "Hertha BSC",
+          "home_logo": "/assets/clubs/fc-bayern-muenchen.png",
+          "away_logo": "/assets/clubs/hertha-bsc.png",
+          "result": "",
+          "location": "Allianz Arena, Werner-Heisenberg-Allee 25, 80939 München",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Allianz+Arena%2C+Werner-Heisenberg-Allee+25%2C+80939+M%C3%BCnchen",
+          "is_home": false,
           "round": "",
           "ticket_url": ""
         },
