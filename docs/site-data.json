@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T08:57:18.566364+01:00",
+  "generated_at": "2026-11-05T17:30:47.938052+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15965,8 +15965,8 @@
         {
           "id": "u21-890001127",
           "matchday": 12,
-          "date": "2026-12-13",
-          "time": "13:30",
+          "date": "2026-12-12",
+          "time": "13:00",
           "competition": "2.Bundesliga",
           "home": "Hertha BSC",
           "away": "SV Darmstadt 98",
@@ -15982,8 +15982,8 @@
         {
           "id": "u21-890001137",
           "matchday": 13,
-          "date": "2026-12-20",
-          "time": "13:30",
+          "date": "2026-12-19",
+          "time": "13:00",
           "competition": "2.Bundesliga",
           "home": "FC St. Pauli",
           "away": "Hertha BSC",
@@ -15999,8 +15999,8 @@
         {
           "id": "u21-890001146",
           "matchday": 14,
-          "date": "2027-01-17",
-          "time": "13:30",
+          "date": "2027-01-16",
+          "time": "20:30",
           "competition": "2.Bundesliga",
           "home": "Hertha BSC",
           "away": "1. FC Nürnberg",
@@ -16016,8 +16016,8 @@
         {
           "id": "u21-890001156",
           "matchday": 15,
-          "date": "2027-01-24",
-          "time": "13:30",
+          "date": "2027-01-23",
+          "time": "13:00",
           "competition": "2.Bundesliga",
           "home": "Hertha BSC",
           "away": "VfL Bochum 1848",
