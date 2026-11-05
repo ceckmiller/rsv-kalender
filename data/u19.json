@@ -342,7 +342,20 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "round": "Achtelfinale",
-      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-a-junioren-flb-pokal-a-junioren-saison2627-brandenburg/-/spieldatum/2026-11-04/staffel/031EMJDIUK000000VS5489BTVUS470OH-R"
+      "round_url": "https://www.fussball.de/spieltag/achtelfinale-brandenburg-a-junioren-flb-pokal-a-junioren-saison2627-brandenburg/-/spieldatum/2026-11-04/staffel/031EMJDIUK000000VS5489BTVUS470OH-R",
+      "result": "3:6",
+      "halftime_result": "3:2",
+      "scorers": [
+        "24. Minute – Luca Mahler (RSV Eintracht 1949) – 0:1",
+        "37. Minute – Ben Eschenbach (SV Dallgow 47) – 1:1",
+        "40. Minute – Kenan Hadzic (SV Dallgow 47) – 2:1",
+        "45. Minute – Ben Eschenbach (SV Dallgow 47) – 3:1",
+        "45. Minute – Luca Mahler (RSV Eintracht 1949) – 3:2",
+        "55. Minute – Leonard Scheunemann (RSV Eintracht 1949) – 3:3",
+        "61. Minute – Julius Graber (RSV Eintracht 1949) – 3:4",
+        "85. Minute – Lukas Gallien (RSV Eintracht 1949) – 3:5",
+        "90. Minute – Mohamed Diane (RSV Eintracht 1949) – 3:6"
+      ]
     },
     {
       "id": "u19-690007082",

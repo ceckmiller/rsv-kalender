@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T19:41:35.401461+01:00",
+  "generated_at": "2026-11-05T01:25:42.421021+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -13594,6 +13594,34 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 10,
           "table_position": 9
+        },
+        {
+          "id": "u19-710069003",
+          "matchday": null,
+          "date": "2026-11-04",
+          "time": "18:00",
+          "competition": "Landespokal Brandenburg",
+          "home": "SV Dallgow 47",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/sv-dallgow-47.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "3:6",
+          "halftime_result": "3:2",
+          "scorers": [
+            "24. Minute – Luca Mahler (RSV Eintracht 1949) – 0:1",
+            "37. Minute – Ben Eschenbach (SV Dallgow 47) – 1:1",
+            "40. Minute – Kenan Hadzic (SV Dallgow 47) – 2:1",
+            "45. Minute – Ben Eschenbach (SV Dallgow 47) – 3:1",
+            "45. Minute – Luca Mahler (RSV Eintracht 1949) – 3:2",
+            "55. Minute – Leonard Scheunemann (RSV Eintracht 1949) – 3:3",
+            "61. Minute – Julius Graber (RSV Eintracht 1949) – 3:4",
+            "85. Minute – Lukas Gallien (RSV Eintracht 1949) – 3:5",
+            "90. Minute – Mohamed Diane (RSV Eintracht 1949) – 3:6"
+          ],
+          "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Fu%C3%9Fballplatz+Dallgow%2C+Charlottenstr.+1-3%2C+14624+Dallgow-D%C3%B6beritz",
+          "points": null,
+          "table_position": null
         }
       ],
       "fixtures": [
@@ -13879,7 +13907,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/sv-dallgow-47.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "3:6",
           "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Fu%C3%9Fballplatz+Dallgow%2C+Charlottenstr.+1-3%2C+14624+Dallgow-D%C3%B6beritz",
           "is_home": false,
@@ -15086,7 +15114,8 @@
               "time": "18:00",
               "home": "SV Dallgow 47",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "3:6",
+              "halftime_result": "3:2",
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -15131,7 +15160,8 @@
               "time": "18:00",
               "home": "SpG FK Hansa Wittstock 1919/​Meyenburger SV 1922",
               "away": "1. FC Frankfurt/​O.",
-              "result": null,
+              "result": "0:17",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -15145,7 +15175,8 @@
               "time": "19:00",
               "home": "SV 1908 Grün-Weiss Ahrensfelde",
               "away": "FC Energie Cottbus",
-              "result": null,
+              "result": "2:6",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -15653,19 +15684,19 @@
         }
       ],
       "next_game": {
-        "id": "u19-710069003",
-        "matchday": null,
-        "date": "2026-11-04",
-        "time": "18:00",
-        "competition": "Landespokal Brandenburg",
-        "home": "SV Dallgow 47",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/sv-dallgow-47.png",
+        "id": "u19-690007082",
+        "matchday": 12,
+        "date": "2026-11-08",
+        "time": "13:00",
+        "competition": "Regionalliga",
+        "home": "Tennis Borussia Berlin U19",
+        "away": "RSV Eintracht 1949 U19",
+        "home_logo": "/assets/clubs/tennis-borussia-berlin.png",
         "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Fußballplatz Dallgow, Charlottenstr. 1-3, 14624 Dallgow-Döberitz",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Fu%C3%9Fballplatz+Dallgow%2C+Charlottenstr.+1-3%2C+14624+Dallgow-D%C3%B6beritz",
+        "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BChler+Weg+12%2C+14055+Berlin",
         "is_home": false,
-        "round": "Achtelfinale",
+        "round": "",
         "ticket_url": ""
       },
       "next_home": {
@@ -16302,7 +16333,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 04.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 05.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16502,7 +16533,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 04.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 05.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16702,7 +16733,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 04.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 05.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
