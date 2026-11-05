@@ -485,6 +485,21 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBRC000023VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-710069013",
+      "date": "2027-03-17",
+      "time": "18:00",
+      "home": "FSV 63 Luckenwalde",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landespokal Brandenburg 2026/27",
+      "location": "Ernst-Kloß-Stadion, An den Ziegeleien 16, 14943 Luckenwalde",
+      "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949-u19/-/spiel/032K4N9CO0000000VS5489BTVSIO88SN",
+      "match_number": "710069013",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "round": "Viertelfinale",
+      "round_url": "https://www.fussball.de/spieltag/viertelfinale-brandenburg-a-junioren-flb-pokal-a-junioren-saison2627-brandenburg/-/spieldatum/2027-03-17/staffel/031NOLKF9O000003VS5489BTVV1LNS7C-R"
+    },
+    {
       "id": "u19-690007116",
       "date": "2027-03-20",
       "time": "12:00",

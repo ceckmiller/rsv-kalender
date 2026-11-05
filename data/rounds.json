@@ -7458,6 +7458,75 @@
           "source_url": "https://www.fussball.de/spiel/bsg-stahl-brandenburg-u19-bsc-preussen-1/-/spiel/032AQB5H3C000000VS5489BTVU989P58"
         }
       ]
+    },
+    {
+      "id": "cup:Landespokal Brandenburg:Viertelfinale",
+      "kind": "cup",
+      "title": "Viertelfinale – Landespokal Brandenburg",
+      "competition": "Landespokal Brandenburg",
+      "round": "Viertelfinale",
+      "matches": [
+        {
+          "id": "cup-fsv-63-luckenwalde-rsv-eintracht-1949-u19",
+          "date": "2027-03-17",
+          "time": "18:00",
+          "home": "FSV 63 Luckenwalde",
+          "away": "RSV Eintracht 1949",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000037VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949-u19/-/spiel/032K4N9CO0000000VS5489BTVSIO88SN"
+        },
+        {
+          "id": "cup-1-fc-frankfurt-fc-energie-cottbus-u19",
+          "date": "2027-03-17",
+          "time": "18:00",
+          "home": "1. FC Frankfurt/​O.",
+          "away": "FC Energie Cottbus",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/01DGHPNFJS000000VV0AG80NVSS6ISDC/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO00004NVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-fc-energie-cottbus-u19/-/spiel/032K4N9COO000000VS5489BTVSIO88SN"
+        },
+        {
+          "id": "cup-brandenburger-sc-sued",
+          "date": "2027-03-21",
+          "time": "10:30",
+          "home": "Gewinner aus SV Germania 90 Schöneiche gegen SV Babelsberg 03 (PH)",
+          "away": "Brandenburger SC Süd 05",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/static/layout/fbde2/por/8.92.0.1/images/components/team/placeholder_team_image_44x44.png",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBJO000035VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued/-/spiel/032K4N9CL8000000VS5489BTVSIO88SN"
+        },
+        {
+          "id": "cup--",
+          "date": "2027-03-21",
+          "time": "10:30",
+          "home": "Gewinner aus BSG Stahl Brandenburg gegen BSC Preußen 07 Blankenfelde-Mahlow (PH)",
+          "away": "Gewinner aus Werderaner FC Viktoria 1920 gegen SV Wacker 09 Cottbus-Ströbitz (PH)",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Landespokal Brandenburg 2026/27",
+          "home_logo": "https://www.fussball.de/static/layout/fbde2/por/8.92.0.1/images/components/team/placeholder_team_image_44x44.png",
+          "away_logo": "https://www.fussball.de/static/layout/fbde2/por/8.92.0.1/images/components/team/placeholder_team_image_44x44.png",
+          "source_url": "https://www.fussball.de/spiel/-/spiel/032K4N9CN8000000VS5489BTVSIO88SN"
+        }
+      ]
     }
   ]
 }

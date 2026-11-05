@@ -617,6 +617,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNC6K0000AUVV0AG08LVUPGND5I"
     },
     {
+      "id": "u21-860002222",
+      "date": "2027-01-17",
+      "time": "14:30",
+      "home": "Berlin Türkspor",
+      "away": "RSV Eintracht 1949",
+      "competition": "Landesfreundschaftsspiele 2026/27",
+      "location": "Heckerdamm NR1, Heckerdamm 204, 13627 Berlin",
+      "source_url": "https://www.fussball.de/spiel/berlin-tuerkspor-rsv-eintracht-1949/-/spiel/032K4KCJA8000000VS5489BTVSIO88SN",
+      "match_number": "860002222",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000042VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+    },
+    {
       "id": "rl-21",
       "date": "2027-02-14",
       "time": "14:00",

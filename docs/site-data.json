@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:30:47.938052+01:00",
+  "generated_at": "2026-11-05T23:44:05.842706+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1067,6 +1067,23 @@
           "is_home": true,
           "round": "",
           "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+        },
+        {
+          "id": "u21-860002222",
+          "matchday": null,
+          "date": "2027-01-17",
+          "time": "14:30",
+          "competition": "Landesfreundschaftsspiele",
+          "home": "Berlin Türkspor",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/berlin-tuerkspor.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Heckerdamm NR1, Heckerdamm 204, 13627 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Heckerdamm+NR1%2C+Heckerdamm+204%2C+13627+Berlin",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
         },
         {
           "id": "rl-21",
@@ -5513,6 +5530,29 @@
           ],
           "date": "2026-12-13",
           "date_end": "2026-12-13"
+        },
+        {
+          "id": "game:u21-860002222",
+          "kind": "game",
+          "title": "Landesfreundschaftsspiele",
+          "competition": "Landesfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u21-860002222",
+              "date": "2027-01-17",
+              "time": "14:30",
+              "home": "Berlin Türkspor",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "location": "Heckerdamm NR1, Heckerdamm 204, 13627 Berlin",
+              "matchday": null,
+              "team_fixture_id": "u21-860002222",
+              "home_logo": "/assets/clubs/berlin-tuerkspor.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            }
+          ],
+          "date": "2027-01-17",
+          "date_end": "2027-01-17"
         },
         {
           "id": "league:Regionalliga:21",
@@ -14068,6 +14108,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-710069013",
+          "matchday": null,
+          "date": "2027-03-17",
+          "time": "18:00",
+          "competition": "Landespokal Brandenburg",
+          "home": "FSV 63 Luckenwalde",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Ernst-Kloß-Stadion, An den Ziegeleien 16, 14943 Luckenwalde",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Klo%C3%9F-Stadion%2C+An+den+Ziegeleien+16%2C+14943+Luckenwalde",
+          "is_home": false,
+          "round": "Viertelfinale",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690007116",
           "matchday": 17,
           "date": "2027-03-20",
@@ -15441,6 +15498,74 @@
           ],
           "date": "2027-03-13",
           "date_end": "2027-03-13"
+        },
+        {
+          "id": "cup:Landespokal Brandenburg:Viertelfinale",
+          "kind": "cup",
+          "title": "Viertelfinale – Landespokal Brandenburg",
+          "competition": "Landespokal Brandenburg",
+          "round": "Viertelfinale",
+          "matches": [
+            {
+              "id": "cup-fsv-63-luckenwalde-rsv-eintracht-1949-u19",
+              "date": "2027-03-17",
+              "time": "18:00",
+              "home": "FSV 63 Luckenwalde",
+              "away": "RSV Eintracht 1949",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/fsv-63-luckenwalde.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "source_url": "https://www.fussball.de/spiel/fsv-63-luckenwalde-rsv-eintracht-1949-u19/-/spiel/032K4N9CO0000000VS5489BTVSIO88SN",
+              "team_fixture_id": "u19-710069013"
+            },
+            {
+              "id": "cup-1-fc-frankfurt-fc-energie-cottbus-u19",
+              "date": "2027-03-17",
+              "time": "18:00",
+              "home": "1. FC Frankfurt/​O.",
+              "away": "FC Energie Cottbus",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/1-fc-frankfurt-o.png",
+              "away_logo": "/assets/clubs/fc-energie-cottbus.png",
+              "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-fc-energie-cottbus-u19/-/spiel/032K4N9COO000000VS5489BTVSIO88SN"
+            },
+            {
+              "id": "cup--",
+              "date": "2027-03-21",
+              "time": "10:30",
+              "home": "Gewinner aus BSG Stahl Brandenburg gegen BSC Preußen 07 Blankenfelde-Mahlow (PH)",
+              "away": "Gewinner aus Werderaner FC Viktoria 1920 gegen SV Wacker 09 Cottbus-Ströbitz (PH)",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/gewinner-aus-bsg-stahl-brandenburg-gegen-bsc-preussen-07-blankenfelde-mahlow-ph.png",
+              "away_logo": "/assets/clubs/gewinner-aus-werderaner-fc-viktoria-1920-gegen-sv-wacker-09-cottbus-stroebitz-ph.png",
+              "source_url": "https://www.fussball.de/spiel/-/spiel/032K4N9CN8000000VS5489BTVSIO88SN"
+            },
+            {
+              "id": "cup-brandenburger-sc-sued",
+              "date": "2027-03-21",
+              "time": "10:30",
+              "home": "Gewinner aus SV Germania 90 Schöneiche gegen SV Babelsberg 03 (PH)",
+              "away": "Brandenburger SC Süd 05",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/gewinner-aus-sv-germania-90-schoeneiche-gegen-sv-babelsberg-03-ph.png",
+              "away_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
+              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued/-/spiel/032K4N9CL8000000VS5489BTVSIO88SN"
+            }
+          ],
+          "date": "2027-03-17",
+          "date_end": "2027-03-21"
         },
         {
           "id": "league:Regionalliga:17",
