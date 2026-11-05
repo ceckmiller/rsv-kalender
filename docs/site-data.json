@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T01:25:42.421021+01:00",
+  "generated_at": "2026-11-05T08:57:18.566364+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -9745,7 +9745,7 @@
             {
               "id": "cup-esv-lok-potsdam-bredower-sv-i",
               "date": "2026-11-15",
-              "time": "13:00",
+              "time": "11:00",
               "home": "ESV Lok Potsdam",
               "away": "Bredower SV",
               "result": null,
