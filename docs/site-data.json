@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T04:28:56.389668+01:00",
+  "generated_at": "2026-11-06T20:23:39.778402+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -8330,6 +8330,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u23-710089095",
+          "matchday": null,
+          "date": "2026-11-13",
+          "time": "20:00",
+          "competition": "Kreispokal",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "Fortuna Babelsberg II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+          "result": "",
+          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
+          "round": "Achtelfinale",
+          "ticket_url": ""
+        },
+        {
           "id": "u23-610138092",
           "matchday": 11,
           "date": "2026-11-15",
@@ -8344,23 +8361,6 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
           "round": "",
-          "ticket_url": ""
-        },
-        {
-          "id": "u23-710089095",
-          "matchday": null,
-          "date": "2026-11-15",
-          "time": "14:00",
-          "competition": "Kreispokal",
-          "home": "RSV Eintracht 1949 U23",
-          "away": "Fortuna Babelsberg II",
-          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
-          "result": "",
-          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-          "is_home": true,
-          "round": "Achtelfinale",
           "ticket_url": ""
         },
         {
@@ -9755,8 +9755,8 @@
           "matches": [
             {
               "id": "cup-rsv-eintracht-1949-u23-fortuna-babelsberg-ii",
-              "date": "2026-11-15",
-              "time": "14:00",
+              "date": "2026-11-13",
+              "time": "20:00",
               "home": "RSV Eintracht 1949 U23",
               "away": "Fortuna Babelsberg II",
               "result": null,
@@ -10368,19 +10368,19 @@
         "ticket_url": ""
       },
       "next_home": {
-        "id": "u23-610138092",
-        "matchday": 11,
-        "date": "2026-11-15",
-        "time": "14:00",
-        "competition": "Kreisoberliga",
+        "id": "u23-710089095",
+        "matchday": null,
+        "date": "2026-11-13",
+        "time": "20:00",
+        "competition": "Kreispokal",
         "home": "RSV Eintracht 1949 U23",
-        "away": "FSV 95 Ketzin/​Falkenrehde",
+        "away": "Fortuna Babelsberg II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
-        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+        "away_logo": "/assets/clubs/fortuna-babelsberg-ii.png",
+        "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
-        "round": "",
+        "round": "Achtelfinale",
         "ticket_url": ""
       }
     },

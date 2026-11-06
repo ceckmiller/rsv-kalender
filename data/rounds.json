@@ -5414,6 +5414,21 @@
           "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-caputher-sv-1/-/spiel/032CBPKE7G000000VS5489BTVU989P58"
         },
         {
+          "id": "cup-rsv-eintracht-1949-u23-fortuna-babelsberg-ii",
+          "date": "2026-11-13",
+          "time": "20:00",
+          "home": "RSV Eintracht 1949 U23",
+          "away": "Fortuna Babelsberg II",
+          "result": null,
+          "halftime_result": null,
+          "location": "",
+          "matchday": null,
+          "competition": "Kreispokal 2026/27",
+          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
+          "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58"
+        },
+        {
           "id": "cup-esv-lok-potsdam-bredower-sv-i",
           "date": "2026-11-15",
           "time": "11:00",
@@ -5487,21 +5502,6 @@
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007AVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003UVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-sv-dallgow-47/-/spiel/032CBPKEFK000000VS5489BTVU989P58"
-        },
-        {
-          "id": "cup-rsv-eintracht-1949-u23-fortuna-babelsberg-ii",
-          "date": "2026-11-15",
-          "time": "14:00",
-          "home": "RSV Eintracht 1949 U23",
-          "away": "Fortuna Babelsberg II",
-          "result": null,
-          "halftime_result": null,
-          "location": "",
-          "matchday": null,
-          "competition": "Kreispokal 2026/27",
-          "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58"
         },
         {
           "id": "cup-fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde",
