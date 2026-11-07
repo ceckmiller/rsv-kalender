@@ -1831,7 +1831,8 @@
           "time": "14:00",
           "home": "SV Babelsberg 03",
           "away": "BFC Dynamo",
-          "result": null,
+          "result": "0:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1842,7 +1843,8 @@
           "time": "14:00",
           "home": "Chemnitzer FC",
           "away": "Greifswalder FC",
-          "result": null,
+          "result": "0:4",
+          "halftime_result": null,
           "location": "",
           "matchday": 16,
           "competition": "Regionalliga Nordost 2026/27"
