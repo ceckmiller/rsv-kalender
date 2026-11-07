@@ -1,17 +1,17 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 15. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 16. Spieltag)",
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 15,
-        "wins": 10,
+        "played": 16,
+        "wins": 11,
         "draws": 4,
         "losses": 1,
-        "goals": "46:19",
-        "diff": "+27",
-        "points": 34,
+        "goals": "48:19",
+        "diff": "+29",
+        "points": 37,
         "position": 1
       },
       {
@@ -27,14 +27,25 @@
       },
       {
         "team": "Hallescher FC",
-        "played": 15,
+        "played": 16,
         "wins": 8,
-        "draws": 6,
+        "draws": 7,
         "losses": 1,
-        "goals": "23:12",
+        "goals": "25:14",
         "diff": "+11",
-        "points": 30,
+        "points": 31,
         "position": 3
+      },
+      {
+        "team": "VSG Altglienicke",
+        "played": 16,
+        "wins": 9,
+        "draws": 3,
+        "losses": 4,
+        "goals": "32:20",
+        "diff": "+12",
+        "points": 30,
+        "position": 4
       },
       {
         "team": "BFC Dynamo",
@@ -45,18 +56,18 @@
         "goals": "24:13",
         "diff": "+11",
         "points": 29,
-        "position": 4
+        "position": 5
       },
       {
-        "team": "VSG Altglienicke",
-        "played": 15,
+        "team": "FC Carl Zeiss Jena",
+        "played": 16,
         "wins": 8,
         "draws": 3,
-        "losses": 4,
-        "goals": "27:20",
-        "diff": "+7",
+        "losses": 5,
+        "goals": "24:14",
+        "diff": "+10",
         "points": 27,
-        "position": 5
+        "position": 6
       },
       {
         "team": "Erzgebirge Aue",
@@ -67,17 +78,6 @@
         "goals": "24:18",
         "diff": "+6",
         "points": 27,
-        "position": 6
-      },
-      {
-        "team": "FC Carl Zeiss Jena",
-        "played": 15,
-        "wins": 8,
-        "draws": 2,
-        "losses": 5,
-        "goals": "23:13",
-        "diff": "+10",
-        "points": 26,
         "position": 7
       },
       {
@@ -137,23 +137,23 @@
       },
       {
         "team": "BFC Preussen 1894",
-        "played": 15,
+        "played": 16,
         "wins": 3,
-        "draws": 5,
+        "draws": 6,
         "losses": 7,
-        "goals": "19:22",
+        "goals": "20:23",
         "diff": "-3",
-        "points": 14,
+        "points": 15,
         "position": 13
       },
       {
         "team": "BSG Chemie Leipzig",
-        "played": 15,
+        "played": 16,
         "wins": 3,
         "draws": 5,
-        "losses": 7,
-        "goals": "18:23",
-        "diff": "-5",
+        "losses": 8,
+        "goals": "18:25",
+        "diff": "-7",
         "points": 14,
         "position": 14
       },
@@ -170,12 +170,12 @@
       },
       {
         "team": "SV Tasmania Berlin",
-        "played": 15,
+        "played": 16,
         "wins": 3,
         "draws": 2,
-        "losses": 10,
-        "goals": "24:43",
-        "diff": "-19",
+        "losses": 11,
+        "goals": "24:48",
+        "diff": "-24",
         "points": 11,
         "position": 16
       },
@@ -192,20 +192,20 @@
       },
       {
         "team": "FSV 63 Luckenwalde",
-        "played": 15,
+        "played": 16,
         "wins": 2,
-        "draws": 1,
+        "draws": 2,
         "losses": 12,
-        "goals": "15:35",
+        "goals": "17:37",
         "diff": "-20",
-        "points": 7,
+        "points": 8,
         "position": 18
       }
     ]
   },
   "u23": {
     "competition": "Kreisoberliga",
-    "updated_at": "Offizielle Tabelle · Stand: 06.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "rows": [
@@ -389,7 +389,7 @@
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "Offizielle Tabelle · Stand: 06.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
     "rows": [
@@ -573,7 +573,7 @@
   },
   "u19": {
     "competition": "Regionalliga",
-    "updated_at": "Offizielle Tabelle · Stand: 06.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "rows": [
