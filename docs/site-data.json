@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T02:27:59.345217+01:00",
+  "generated_at": "2026-11-08T16:59:44.158564+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -555,6 +555,32 @@
           "referee": "Patrick Kluge",
           "youtube_url": "https://www.youtube.com/results?search_query=BFC+Dynamo+RSV+Eintracht+1949+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/15-spieltag/bfc-dynamo-rsv-eintracht-1949-2426119"
+        },
+        {
+          "id": "rl-16",
+          "matchday": 16,
+          "date": "2026-11-08",
+          "time": "14:00",
+          "competition": "Regionalliga",
+          "home": "RSV Eintracht 1949",
+          "away": "FC Erzgebirge Aue",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/erzgebirge-aue.png",
+          "result": "1:2",
+          "halftime_result": "1:1",
+          "scorers": [
+            "29. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:0",
+            "35. Minute – Marcel Br (FC Erzgebirge Aue) – 1:1",
+            "86. Minute – Marcel Br (FC Erzgebirge Aue) – 1:2"
+          ],
+          "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+          "points": 9,
+          "table_position": 17,
+          "attendance": 1024,
+          "referee": "Paul Drößler",
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FC+Erzgebirge+Aue+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128"
         }
       ],
       "fixtures": [
@@ -976,12 +1002,12 @@
           "away": "FC Erzgebirge Aue",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/erzgebirge-aue.png",
-          "result": "",
+          "result": "1:2",
           "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/"
+          "ticket_url": ""
         },
         {
           "id": "rl-17",
@@ -4779,7 +4805,8 @@
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "FC Erzgebirge Aue",
-              "result": null,
+              "result": "1:2",
+              "halftime_result": "1:1",
               "location": "",
               "matchday": 16,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4877,7 +4904,8 @@
               "time": "14:00",
               "home": "FSV Zwickau",
               "away": "1. FC Lok Leipzig",
-              "result": null,
+              "result": "1:2",
+              "halftime_result": null,
               "location": "",
               "matchday": 16,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4890,7 +4918,8 @@
               "time": "14:00",
               "home": "Hertha BSC II",
               "away": "1. FC Magdeburg II",
-              "result": null,
+              "result": "4:4",
+              "halftime_result": null,
               "location": "",
               "matchday": 16,
               "competition": "Regionalliga Nordost 2026/27",
@@ -4914,7 +4943,8 @@
               "time": "14:00",
               "home": "RSV Eintracht 1949",
               "away": "FC Erzgebirge Aue",
-              "result": null,
+              "result": "1:2",
+              "halftime_result": "1:1",
               "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
               "matchday": 16,
               "team_fixture_id": "rl-16",
@@ -7704,22 +7734,37 @@
         }
       ],
       "next_game": {
-        "id": "rl-16",
-        "matchday": 16,
-        "date": "2026-11-08",
+        "id": "rl-17",
+        "matchday": 17,
+        "date": "2026-11-20",
+        "time": "19:00",
+        "competition": "Regionalliga",
+        "home": "1. FC Lokomotive Leipzig",
+        "away": "RSV Eintracht 1949",
+        "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "u21-690047158",
+        "matchday": 18,
+        "date": "2026-11-28",
         "time": "14:00",
         "competition": "Regionalliga",
         "home": "RSV Eintracht 1949",
-        "away": "FC Erzgebirge Aue",
+        "away": "BFC Preussen",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/erzgebirge-aue.png",
+        "away_logo": "/assets/clubs/bfc-preussen.png",
         "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041217/"
-      },
-      "next_home": null
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
+      }
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -7849,7 +7894,7 @@
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Ziesar%2C+Schopsdorfer+Chaussee+17%2C+14793+Ziesar",
           "points": 0,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-liga-20260906",
@@ -7872,7 +7917,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 0,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138020",
@@ -7894,7 +7939,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 3,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138026",
@@ -7915,7 +7960,7 @@
           "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Geltow+Am+M%C3%BChlenberg%2C+Am+Wasser+3%2C+14548+Schwielowsee",
           "points": 4,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138036",
@@ -7940,7 +7985,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 5,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-710089074",
@@ -7987,7 +8032,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 6,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138061",
@@ -8010,7 +8055,7 @@
           "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion%2C+Am+Schillerpark+3%2C+14662+Friesack",
           "points": 7,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138068",
@@ -8036,7 +8081,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 10,
-          "table_position": 7
+          "table_position": 8
         },
         {
           "id": "u23-610138076",
@@ -8059,7 +8104,31 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 13,
-          "table_position": 7
+          "table_position": 8
+        },
+        {
+          "id": "u23-610138082",
+          "matchday": 10,
+          "date": "2026-11-08",
+          "time": "14:00",
+          "competition": "Kreisoberliga",
+          "home": "Bredower SV",
+          "away": "RSV Eintracht 1949 U23",
+          "home_logo": "/assets/clubs/bredower-sv.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "3:2",
+          "halftime_result": "2:2",
+          "scorers": [
+            "17. Minute – Adrian Meiner (RSV Eintracht 1949 U23) – 0:1",
+            "27. Minute – Tom Eckert (Bredower SV) – 1:1",
+            "45. Minute – Moritz Christ (Bredower SV) – 2:1",
+            "45. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 2:2",
+            "75. Minute – Jerome Schneider (Bredower SV) – 3:2"
+          ],
+          "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Bredow%2C+Oranienburger+Str.+10b%2C+14656+Brieselang",
+          "points": 13,
+          "table_position": 8
         }
       ],
       "fixtures": [
@@ -8328,7 +8397,7 @@
           "away": "RSV Eintracht 1949 U23",
           "home_logo": "/assets/clubs/bredower-sv.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "3:2",
           "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Bredow%2C+Oranienburger+Str.+10b%2C+14656+Brieselang",
           "is_home": false,
@@ -9741,7 +9810,8 @@
               "time": "14:00",
               "home": "Bredower SV",
               "away": "RSV Eintracht 1949 U23",
-              "result": null,
+              "result": "3:2",
+              "halftime_result": "2:2",
               "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
               "matchday": 10,
               "team_fixture_id": "u23-610138082",
@@ -10358,22 +10428,6 @@
         }
       ],
       "next_game": {
-        "id": "u23-610138082",
-        "matchday": 10,
-        "date": "2026-11-08",
-        "time": "14:00",
-        "competition": "Kreisoberliga",
-        "home": "Bredower SV",
-        "away": "RSV Eintracht 1949 U23",
-        "home_logo": "/assets/clubs/bredower-sv.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Bredow%2C+Oranienburger+Str.+10b%2C+14656+Brieselang",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u23-710089095",
         "matchday": null,
         "date": "2026-11-13",
@@ -10388,7 +10442,8 @@
         "is_home": true,
         "round": "Achtelfinale",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u21": {
       "name": "RSV Eintracht – U21",
@@ -10661,6 +10716,26 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+des+Friedens%2C+Bergstr.+1%2C+14547+Beelitz",
           "points": 16,
           "table_position": 5
+        },
+        {
+          "id": "u21-610480084",
+          "matchday": 9,
+          "date": "2026-11-08",
+          "time": "14:00",
+          "competition": "Kreisliga",
+          "home": "RSV Eintracht 1949 U21",
+          "away": "Caputher SV",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/caputher-sv.png",
+          "result": "0:1",
+          "halftime_result": "0:0",
+          "scorers": [
+            "90. Minute – Jakob Hpfner (Caputher SV) – 0:1"
+          ],
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "points": 16,
+          "table_position": 5
         }
       ],
       "fixtures": [
@@ -10861,7 +10936,7 @@
           "away": "Caputher SV",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/caputher-sv.png",
-          "result": "",
+          "result": "0:1",
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
@@ -12766,7 +12841,8 @@
               "time": "14:00",
               "home": "RSV Eintracht 1949 U21",
               "away": "Caputher SV",
-              "result": null,
+              "result": "0:1",
+              "halftime_result": "0:0",
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 9,
               "team_fixture_id": "u21-610480084",
@@ -13283,22 +13359,37 @@
         }
       ],
       "next_game": {
-        "id": "u21-610480084",
-        "matchday": 9,
-        "date": "2026-11-08",
+        "id": "u21-610480090",
+        "matchday": 10,
+        "date": "2026-11-15",
+        "time": "14:00",
+        "competition": "Kreisliga",
+        "home": "SV 71 Busendorf",
+        "away": "RSV Eintracht 1949 U21",
+        "home_logo": "/assets/clubs/sv-71-busendorf.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Busendorf%2C+R%C3%A4deler+Weg%2C+14547+Beelitz",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "u21-610480100",
+        "matchday": 11,
+        "date": "2026-11-22",
         "time": "14:00",
         "competition": "Kreisliga",
         "home": "RSV Eintracht 1949 U21",
-        "away": "Caputher SV",
+        "away": "ESV Lok Seddin",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/caputher-sv.png",
+        "away_logo": "/assets/clubs/esv-lok-seddin.png",
         "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      },
-      "next_home": null
+      }
     },
     "u19": {
       "name": "RSV Eintracht – U19",
@@ -13668,6 +13759,30 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Fu%C3%9Fballplatz+Dallgow%2C+Charlottenstr.+1-3%2C+14624+Dallgow-D%C3%B6beritz",
           "points": null,
           "table_position": null
+        },
+        {
+          "id": "u19-690007082",
+          "matchday": 12,
+          "date": "2026-11-08",
+          "time": "13:00",
+          "competition": "Regionalliga",
+          "home": "Tennis Borussia Berlin U19",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/tennis-borussia-berlin.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "4:1",
+          "halftime_result": "3:0",
+          "scorers": [
+            "13. Minute – Malik Alic (Tennis Borussia Berlin U19) – 1:0",
+            "20. Minute – Belkacem Aghilas Azi (Tennis Borussia Berlin U19) – 2:0",
+            "31. Minute – Malik Alic (Tennis Borussia Berlin U19) – 3:0",
+            "79. Minute – Markus Gaevert (RSV Eintracht 1949 U19) – 3:1",
+            "84. Minute – Rodi Kato (Tennis Borussia Berlin U19) – 4:1"
+          ],
+          "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BChler+Weg+12%2C+14055+Berlin",
+          "points": 10,
+          "table_position": 10
         }
       ],
       "fixtures": [
@@ -13970,7 +14085,7 @@
           "away": "RSV Eintracht 1949 U19",
           "home_logo": "/assets/clubs/tennis-borussia-berlin.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "4:1",
           "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BChler+Weg+12%2C+14055+Berlin",
           "is_home": false,
@@ -15306,7 +15421,8 @@
               "time": "13:00",
               "home": "Tennis Borussia Berlin U19",
               "away": "RSV Eintracht 1949 U19",
-              "result": null,
+              "result": "4:1",
+              "halftime_result": "3:0",
               "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
               "matchday": 12,
               "team_fixture_id": "u19-690007082",
@@ -15815,22 +15931,6 @@
         }
       ],
       "next_game": {
-        "id": "u19-690007082",
-        "matchday": 12,
-        "date": "2026-11-08",
-        "time": "13:00",
-        "competition": "Regionalliga",
-        "home": "Tennis Borussia Berlin U19",
-        "away": "RSV Eintracht 1949 U19",
-        "home_logo": "/assets/clubs/tennis-borussia-berlin.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BChler+Weg+12%2C+14055+Berlin",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u19-690007088",
         "matchday": 13,
         "date": "2026-11-21",
@@ -15845,7 +15945,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     }
   },
   "calendar_teams": {
@@ -16318,36 +16419,36 @@
         },
         {
           "team": "1. FC Lok Leipzig",
-          "played": 15,
-          "wins": 5,
+          "played": 16,
+          "wins": 6,
           "draws": 6,
           "losses": 4,
-          "goals": "30:28",
-          "diff": "+2",
-          "points": 21,
+          "goals": "32:29",
+          "diff": "+3",
+          "points": 24,
           "position": 9,
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
         },
         {
           "team": "1. FC Magdeburg II",
-          "played": 15,
+          "played": 16,
           "wins": 6,
-          "draws": 2,
+          "draws": 3,
           "losses": 7,
-          "goals": "28:29",
+          "goals": "32:33",
           "diff": "-1",
-          "points": 20,
+          "points": 21,
           "position": 10,
           "logo_url": "/assets/clubs/1-fc-magdeburg-ii.png"
         },
         {
           "team": "FSV Zwickau",
-          "played": 15,
+          "played": 16,
           "wins": 5,
           "draws": 4,
-          "losses": 6,
-          "goals": "17:25",
-          "diff": "-8",
+          "losses": 7,
+          "goals": "18:27",
+          "diff": "-9",
           "points": 19,
           "position": 11,
           "logo_url": "/assets/clubs/fsv-zwickau.png"
@@ -16390,13 +16491,13 @@
         },
         {
           "team": "Hertha BSC II",
-          "played": 15,
+          "played": 16,
           "wins": 2,
-          "draws": 5,
+          "draws": 6,
           "losses": 8,
-          "goals": "11:26",
+          "goals": "15:30",
           "diff": "-15",
-          "points": 11,
+          "points": 12,
           "position": 15,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
         },
@@ -16414,12 +16515,12 @@
         },
         {
           "team": "RSV Eintracht 1949",
-          "played": 15,
+          "played": 16,
           "wins": 2,
           "draws": 3,
-          "losses": 10,
-          "goals": "15:34",
-          "diff": "-19",
+          "losses": 11,
+          "goals": "16:36",
+          "diff": "-20",
           "points": 9,
           "position": 17,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
@@ -16437,7 +16538,19 @@
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },
         {
+          "team": "FC Erzgebirge Aue",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "2:1",
+          "diff": "+1",
+          "points": 3,
           "position": 19,
+          "logo_url": "/assets/clubs/erzgebirge-aue.png"
+        },
+        {
+          "position": 20,
           "team": "BFC Preussen",
           "played": 0,
           "wins": 0,
@@ -16449,7 +16562,7 @@
           "logo_url": "/assets/clubs/bfc-preussen.png"
         },
         {
-          "position": 20,
+          "position": 21,
           "team": "VSG Altglienicke Berlin",
           "played": 0,
           "wins": 0,
@@ -16471,29 +16584,41 @@
         {
           "position": 1,
           "team": "SV Dallgow 47",
-          "played": 9,
+          "played": 10,
           "wins": 8,
-          "draws": 1,
+          "draws": 2,
           "losses": 0,
-          "goals": "49:11",
+          "goals": "51:13",
           "diff": "+38",
-          "points": 25,
+          "points": 26,
           "logo_url": "/assets/clubs/sv-dallgow-47.png"
         },
         {
           "position": 2,
           "team": "Bredower SV",
-          "played": 9,
-          "wins": 5,
+          "played": 10,
+          "wins": 6,
           "draws": 1,
           "losses": 3,
-          "goals": "29:17",
-          "diff": "+12",
-          "points": 16,
+          "goals": "32:19",
+          "diff": "+13",
+          "points": 19,
           "logo_url": "/assets/clubs/bredower-sv.png"
         },
         {
           "position": 3,
+          "team": "BSG Stahl Brandenburg U23",
+          "played": 10,
+          "wins": 5,
+          "draws": 3,
+          "losses": 2,
+          "goals": "33:24",
+          "diff": "+9",
+          "points": 18,
+          "logo_url": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
+        },
+        {
+          "position": 4,
           "team": "Fortuna Babelsberg II",
           "played": 9,
           "wins": 4,
@@ -16505,67 +16630,67 @@
           "logo_url": "/assets/clubs/fortuna-babelsberg-ii.png"
         },
         {
-          "position": 4,
+          "position": 5,
+          "team": "FSV 95 Ketzin/​Falkenrehde",
+          "played": 10,
+          "wins": 4,
+          "draws": 4,
+          "losses": 2,
+          "goals": "16:16",
+          "diff": "0",
+          "points": 16,
+          "logo_url": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
+        },
+        {
+          "position": 6,
           "team": "SV Ziesar 31",
-          "played": 9,
+          "played": 10,
           "wins": 5,
           "draws": 0,
-          "losses": 4,
-          "goals": "23:16",
-          "diff": "+7",
+          "losses": 5,
+          "goals": "26:20",
+          "diff": "+6",
           "points": 15,
           "logo_url": "/assets/clubs/sv-ziesar-31.png"
         },
         {
-          "position": 5,
-          "team": "BSG Stahl Brandenburg U23",
-          "played": 9,
-          "wins": 4,
-          "draws": 3,
-          "losses": 2,
-          "goals": "28:23",
-          "diff": "+5",
-          "points": 15,
-          "logo_url": "/assets/clubs/bsg-stahl-brandenburg-u23.png"
-        },
-        {
-          "position": 6,
+          "position": 7,
           "team": "Brandenburger SC Süd 05 II",
-          "played": 9,
+          "played": 10,
           "wins": 4,
           "draws": 2,
-          "losses": 3,
-          "goals": "19:26",
-          "diff": "-7",
+          "losses": 4,
+          "goals": "20:31",
+          "diff": "-11",
           "points": 14,
           "logo_url": "/assets/clubs/brandenburger-sc-sued-05-ii.png"
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "RSV Eintracht 1949 U23",
-          "played": 9,
+          "played": 10,
           "wins": 3,
           "draws": 4,
-          "losses": 2,
-          "goals": "20:20",
-          "diff": "0",
+          "losses": 3,
+          "goals": "22:23",
+          "diff": "-1",
           "points": 13,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
-          "position": 8,
-          "team": "FSV 95 Ketzin/​Falkenrehde",
-          "played": 9,
-          "wins": 3,
-          "draws": 4,
-          "losses": 2,
-          "goals": "13:16",
-          "diff": "-3",
+          "position": 9,
+          "team": "SV Falkensee-Finkenkrug II",
+          "played": 10,
+          "wins": 4,
+          "draws": 1,
+          "losses": 5,
+          "goals": "20:24",
+          "diff": "-4",
           "points": 13,
-          "logo_url": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
+          "logo_url": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
         },
         {
-          "position": 9,
+          "position": 10,
           "team": "UNITED TELTOW FC",
           "played": 8,
           "wins": 4,
@@ -16577,19 +16702,43 @@
           "logo_url": "/assets/clubs/united-teltow-fc.png"
         },
         {
-          "position": 10,
+          "position": 11,
+          "team": "SV Ruhlsdorf",
+          "played": 10,
+          "wins": 4,
+          "draws": 0,
+          "losses": 6,
+          "goals": "21:33",
+          "diff": "-12",
+          "points": 12,
+          "logo_url": "/assets/clubs/sv-ruhlsdorf.png"
+        },
+        {
+          "position": 12,
           "team": "SG Geltow",
-          "played": 9,
+          "played": 10,
           "wins": 3,
           "draws": 3,
-          "losses": 3,
-          "goals": "16:25",
-          "diff": "-9",
+          "losses": 4,
+          "goals": "18:30",
+          "diff": "-12",
           "points": 12,
           "logo_url": "/assets/clubs/sg-geltow.png"
         },
         {
-          "position": 11,
+          "position": 13,
+          "team": "SG Blau-Weiß Pessin",
+          "played": 10,
+          "wins": 2,
+          "draws": 5,
+          "losses": 3,
+          "goals": "26:24",
+          "diff": "+2",
+          "points": 11,
+          "logo_url": "/assets/clubs/sg-blau-weiss-pessin.png"
+        },
+        {
+          "position": 14,
           "team": "SG Michendorf II",
           "played": 9,
           "wins": 3,
@@ -16601,31 +16750,7 @@
           "logo_url": "/assets/clubs/sg-michendorf-ii.png"
         },
         {
-          "position": 12,
-          "team": "SG Blau-Weiß Pessin",
-          "played": 9,
-          "wins": 2,
-          "draws": 4,
-          "losses": 3,
-          "goals": "24:22",
-          "diff": "+2",
-          "points": 10,
-          "logo_url": "/assets/clubs/sg-blau-weiss-pessin.png"
-        },
-        {
-          "position": 13,
-          "team": "SV Falkensee-Finkenkrug II",
-          "played": 9,
-          "wins": 3,
-          "draws": 1,
-          "losses": 5,
-          "goals": "15:22",
-          "diff": "-7",
-          "points": 10,
-          "logo_url": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
-        },
-        {
-          "position": 14,
+          "position": 15,
           "team": "FSV Babelsberg 74 II",
           "played": 10,
           "wins": 3,
@@ -16637,26 +16762,14 @@
           "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
         },
         {
-          "position": 15,
-          "team": "SV Ruhlsdorf",
-          "played": 9,
-          "wins": 3,
-          "draws": 0,
-          "losses": 6,
-          "goals": "17:30",
-          "diff": "-13",
-          "points": 9,
-          "logo_url": "/assets/clubs/sv-ruhlsdorf.png"
-        },
-        {
           "position": 16,
           "team": "SG Eintracht Friesack",
-          "played": 9,
+          "played": 10,
           "wins": 0,
           "draws": 1,
-          "losses": 8,
-          "goals": "8:29",
-          "diff": "-21",
+          "losses": 9,
+          "goals": "8:32",
+          "diff": "-24",
           "points": 1,
           "logo_url": "/assets/clubs/sg-eintracht-friesack.png"
         }
@@ -16670,6 +16783,18 @@
       "rows": [
         {
           "position": 1,
+          "team": "Potsdamer Kickers 94",
+          "played": 10,
+          "wins": 9,
+          "draws": 0,
+          "losses": 1,
+          "goals": "33:15",
+          "diff": "+18",
+          "points": 27,
+          "logo_url": "/assets/clubs/potsdamer-kickers-94.png"
+        },
+        {
+          "position": 2,
           "team": "Rot-Weiß Groß Glienicke",
           "played": 9,
           "wins": 8,
@@ -16681,50 +16806,38 @@
           "logo_url": "/assets/clubs/rot-weiss-gross-glienicke.png"
         },
         {
-          "position": 2,
-          "team": "Potsdamer Kickers 94",
-          "played": 9,
-          "wins": 8,
-          "draws": 0,
-          "losses": 1,
-          "goals": "28:15",
-          "diff": "+13",
-          "points": 24,
-          "logo_url": "/assets/clubs/potsdamer-kickers-94.png"
-        },
-        {
           "position": 3,
           "team": "SG Blau-Weiß Beelitz",
-          "played": 9,
-          "wins": 6,
+          "played": 10,
+          "wins": 7,
           "draws": 1,
           "losses": 2,
-          "goals": "34:17",
-          "diff": "+17",
-          "points": 19,
+          "goals": "37:18",
+          "diff": "+19",
+          "points": 22,
           "logo_url": "/assets/clubs/sg-blau-weiss-beelitz.png"
         },
         {
           "position": 4,
           "team": "FV Turbine Potsdam 55",
-          "played": 10,
-          "wins": 5,
+          "played": 11,
+          "wins": 6,
           "draws": 2,
           "losses": 3,
-          "goals": "18:20",
-          "diff": "-2",
-          "points": 17,
+          "goals": "20:21",
+          "diff": "-1",
+          "points": 20,
           "logo_url": "/assets/clubs/fv-turbine-potsdam-55.png"
         },
         {
           "position": 5,
           "team": "RSV Eintracht 1949 U21",
-          "played": 8,
+          "played": 9,
           "wins": 5,
           "draws": 1,
-          "losses": 2,
-          "goals": "26:18",
-          "diff": "+8",
+          "losses": 3,
+          "goals": "26:19",
+          "diff": "+7",
           "points": 16,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
@@ -16742,123 +16855,123 @@
         },
         {
           "position": 7,
+          "team": "Caputher SV",
+          "played": 9,
+          "wins": 4,
+          "draws": 2,
+          "losses": 3,
+          "goals": "25:22",
+          "diff": "+3",
+          "points": 14,
+          "logo_url": "/assets/clubs/caputher-sv.png"
+        },
+        {
+          "position": 8,
           "team": "FSV Grün-Weiß Niemegk",
+          "played": 11,
+          "wins": 4,
+          "draws": 2,
+          "losses": 5,
+          "goals": "31:35",
+          "diff": "-4",
+          "points": 14,
+          "logo_url": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
+        },
+        {
+          "position": 9,
+          "team": "SV Viktoria Potsdam II",
+          "played": 9,
+          "wins": 4,
+          "draws": 1,
+          "losses": 4,
+          "goals": "24:17",
+          "diff": "+7",
+          "points": 13,
+          "logo_url": "/assets/clubs/sv-viktoria-potsdam-ii.png"
+        },
+        {
+          "position": 10,
+          "team": "SG Grün-Weiß Golm II",
           "played": 10,
           "wins": 4,
           "draws": 1,
           "losses": 5,
-          "goals": "30:34",
-          "diff": "-4",
+          "goals": "26:27",
+          "diff": "-1",
           "points": 13,
-          "logo_url": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
+          "logo_url": "/assets/clubs/sg-gruen-weiss-golm-ii.png"
         },
         {
-          "position": 8,
-          "team": "SV Viktoria Potsdam II",
-          "played": 8,
-          "wins": 4,
-          "draws": 0,
-          "losses": 4,
-          "goals": "23:16",
-          "diff": "+7",
-          "points": 12,
-          "logo_url": "/assets/clubs/sv-viktoria-potsdam-ii.png"
-        },
-        {
-          "position": 9,
+          "position": 11,
           "team": "ESV Lok Seddin",
-          "played": 10,
+          "played": 11,
           "wins": 4,
           "draws": 0,
-          "losses": 6,
-          "goals": "19:27",
-          "diff": "-8",
+          "losses": 7,
+          "goals": "19:33",
+          "diff": "-14",
           "points": 12,
           "logo_url": "/assets/clubs/esv-lok-seddin.png"
         },
         {
-          "position": 10,
-          "team": "Caputher SV",
-          "played": 8,
-          "wins": 3,
-          "draws": 2,
-          "losses": 3,
-          "goals": "24:22",
-          "diff": "+2",
-          "points": 11,
-          "logo_url": "/assets/clubs/caputher-sv.png"
-        },
-        {
-          "position": 11,
-          "team": "SG Grün-Weiß Golm II",
-          "played": 9,
-          "wins": 3,
-          "draws": 1,
-          "losses": 5,
-          "goals": "21:24",
-          "diff": "-3",
-          "points": 10,
-          "logo_url": "/assets/clubs/sg-gruen-weiss-golm-ii.png"
-        },
-        {
           "position": 12,
           "team": "SV 1948 Ferch",
-          "played": 9,
+          "played": 10,
           "wins": 3,
           "draws": 1,
-          "losses": 5,
-          "goals": "16:24",
-          "diff": "-8",
+          "losses": 6,
+          "goals": "19:29",
+          "diff": "-10",
           "points": 10,
           "logo_url": "/assets/clubs/sv-1948-ferch.png"
         },
         {
           "position": 13,
           "team": "Teltower FV 1913 II",
-          "played": 9,
+          "played": 10,
           "wins": 2,
           "draws": 1,
-          "losses": 6,
-          "goals": "12:23",
-          "diff": "-11",
+          "losses": 7,
+          "goals": "13:25",
+          "diff": "-12",
           "points": 7,
           "logo_url": "/assets/clubs/teltower-fv-1913-ii.png"
         },
         {
           "position": 14,
           "team": "SG Bornim II",
-          "played": 9,
+          "played": 10,
           "wins": 2,
           "draws": 1,
-          "losses": 6,
-          "goals": "13:28",
-          "diff": "-15",
+          "losses": 7,
+          "goals": "13:33",
+          "diff": "-20",
           "points": 7,
           "logo_url": "/assets/clubs/sg-bornim-ii.png"
         },
         {
           "position": 15,
-          "team": "SV 71 Busendorf",
+          "team": "FSV Brück",
           "played": 8,
-          "wins": 1,
-          "draws": 2,
-          "losses": 5,
-          "goals": "14:27",
-          "diff": "-13",
-          "points": 5,
-          "logo_url": "/assets/clubs/sv-71-busendorf.png"
+          "wins": 2,
+          "draws": 0,
+          "losses": 6,
+          "goals": "17:22",
+          "diff": "-5",
+          "points": 6,
+          "logo_url": "/assets/clubs/fsv-brueck.png"
         },
         {
           "position": 16,
-          "team": "FSV Brück",
-          "played": 7,
+          "team": "SV 71 Busendorf",
+          "played": 9,
           "wins": 1,
-          "draws": 0,
+          "draws": 2,
           "losses": 6,
-          "goals": "11:22",
-          "diff": "-11",
-          "points": 3,
-          "logo_url": "/assets/clubs/fsv-brueck.png"
+          "goals": "15:30",
+          "diff": "-15",
+          "points": 5,
+          "logo_url": "/assets/clubs/sv-71-busendorf.png"
         }
       ]
     },
@@ -16870,6 +16983,18 @@
       "rows": [
         {
           "position": 1,
+          "team": "FC Hertha 03 Zehlendorf",
+          "played": 11,
+          "wins": 9,
+          "draws": 1,
+          "losses": 1,
+          "goals": "41:14",
+          "diff": "+27",
+          "points": 28,
+          "logo_url": "/assets/clubs/fc-hertha-03-zehlendorf.png"
+        },
+        {
+          "position": 2,
           "team": "BFC Dynamo U19",
           "played": 11,
           "wins": 8,
@@ -16879,18 +17004,6 @@
           "diff": "+16",
           "points": 27,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
-          "position": 2,
-          "team": "FC Hertha 03 Zehlendorf",
-          "played": 10,
-          "wins": 8,
-          "draws": 1,
-          "losses": 1,
-          "goals": "37:12",
-          "diff": "+25",
-          "points": 25,
-          "logo_url": "/assets/clubs/fc-hertha-03-zehlendorf.png"
         },
         {
           "position": 3,
@@ -16930,6 +17043,18 @@
         },
         {
           "position": 6,
+          "team": "SC Borea Dresden",
+          "played": 11,
+          "wins": 6,
+          "draws": 1,
+          "losses": 4,
+          "goals": "26:14",
+          "diff": "+12",
+          "points": 19,
+          "logo_url": "/assets/clubs/sc-borea-dresden.png"
+        },
+        {
+          "position": 7,
           "team": "FSV Zwickau",
           "played": 12,
           "wins": 4,
@@ -16941,27 +17066,15 @@
           "logo_url": "/assets/clubs/fsv-zwickau.png"
         },
         {
-          "position": 7,
-          "team": "SC Borea Dresden",
-          "played": 10,
-          "wins": 5,
-          "draws": 1,
-          "losses": 4,
-          "goals": "25:14",
-          "diff": "+11",
-          "points": 16,
-          "logo_url": "/assets/clubs/sc-borea-dresden.png"
-        },
-        {
           "position": 8,
           "team": "Tennis Borussia Berlin U19",
-          "played": 11,
-          "wins": 4,
+          "played": 12,
+          "wins": 5,
           "draws": 0,
           "losses": 7,
-          "goals": "30:29",
-          "diff": "+1",
-          "points": 12,
+          "goals": "34:30",
+          "diff": "+4",
+          "points": 15,
           "logo_url": "/assets/clubs/tennis-borussia-berlin.png"
         },
         {
@@ -16979,36 +17092,36 @@
         {
           "position": 10,
           "team": "RSV Eintracht 1949 U19",
-          "played": 11,
+          "played": 12,
           "wins": 2,
           "draws": 4,
-          "losses": 5,
-          "goals": "19:21",
-          "diff": "-2",
+          "losses": 6,
+          "goals": "20:25",
+          "diff": "-5",
           "points": 10,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
           "position": 11,
           "team": "Steglitzer FC Stern 1900",
-          "played": 11,
+          "played": 12,
           "wins": 2,
           "draws": 3,
-          "losses": 6,
-          "goals": "19:30",
-          "diff": "-11",
+          "losses": 7,
+          "goals": "21:34",
+          "diff": "-13",
           "points": 9,
           "logo_url": "/assets/clubs/steglitzer-fc-stern-1900.png"
         },
         {
           "position": 12,
           "team": "FC Mecklenburg Schwerin U19",
-          "played": 11,
+          "played": 12,
           "wins": 2,
           "draws": 3,
-          "losses": 6,
-          "goals": "17:38",
-          "diff": "-21",
+          "losses": 7,
+          "goals": "17:39",
+          "diff": "-22",
           "points": 9,
           "logo_url": "/assets/clubs/fc-mecklenburg-schwerin.png"
         },

@@ -338,7 +338,16 @@
       "source_url": "https://www.fussball.de/spiel/bredower-sv-i-rsv-eintracht-1949-u23/-/spiel/031D1IIAIO000000VS5489BTVUS470OH",
       "match_number": "610138082",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000042VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "3:2",
+      "halftime_result": "2:2",
+      "scorers": [
+        "17. Minute – Adrian Meiner (RSV Eintracht 1949 U23) – 0:1",
+        "27. Minute – Tom Eckert (Bredower SV) – 1:1",
+        "45. Minute – Moritz Christ (Bredower SV) – 2:1",
+        "45. Minute – Timon Rckwald (RSV Eintracht 1949 U23) – 2:2",
+        "75. Minute – Jerome Schneider (Bredower SV) – 3:2"
+      ]
     },
     {
       "id": "u23-710089095",

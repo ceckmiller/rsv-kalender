@@ -534,14 +534,22 @@
       "home": "RSV Eintracht 1949",
       "away": "FC Erzgebirge Aue",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "1:2",
       "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-erzgebirge-aue/-/spiel/031DEIC6GK000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128",
       "match_number": "690047140",
       "location_source": "https://www.fussball.de/spiel/rsv-eintracht-1949-fc-erzgebirge-aue/-/spiel/031DEIC6GK000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO00000KVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBOO00000KVV0AG08LVUPGND5I",
+      "halftime_result": "1:1",
+      "scorers": [
+        "29. Minute – Endi Jupolli (RSV Eintracht 1949) – 1:0",
+        "35. Minute – Marcel Br (FC Erzgebirge Aue) – 1:1",
+        "86. Minute – Marcel Br (FC Erzgebirge Aue) – 1:2"
+      ],
+      "referee": "Paul Drößler",
+      "attendance": 1024
     },
     {
       "id": "rl-17",

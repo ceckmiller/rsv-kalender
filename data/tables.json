@@ -93,34 +93,34 @@
       },
       {
         "team": "1. FC Lok Leipzig",
-        "played": 15,
-        "wins": 5,
+        "played": 16,
+        "wins": 6,
         "draws": 6,
         "losses": 4,
-        "goals": "30:28",
-        "diff": "+2",
-        "points": 21,
+        "goals": "32:29",
+        "diff": "+3",
+        "points": 24,
         "position": 9
       },
       {
         "team": "1. FC Magdeburg II",
-        "played": 15,
+        "played": 16,
         "wins": 6,
-        "draws": 2,
+        "draws": 3,
         "losses": 7,
-        "goals": "28:29",
+        "goals": "32:33",
         "diff": "-1",
-        "points": 20,
+        "points": 21,
         "position": 10
       },
       {
         "team": "FSV Zwickau",
-        "played": 15,
+        "played": 16,
         "wins": 5,
         "draws": 4,
-        "losses": 6,
-        "goals": "17:25",
-        "diff": "-8",
+        "losses": 7,
+        "goals": "18:27",
+        "diff": "-9",
         "points": 19,
         "position": 11
       },
@@ -159,13 +159,13 @@
       },
       {
         "team": "Hertha BSC II",
-        "played": 15,
+        "played": 16,
         "wins": 2,
-        "draws": 5,
+        "draws": 6,
         "losses": 8,
-        "goals": "11:26",
+        "goals": "15:30",
         "diff": "-15",
-        "points": 11,
+        "points": 12,
         "position": 15
       },
       {
@@ -181,12 +181,12 @@
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 15,
+        "played": 16,
         "wins": 2,
         "draws": 3,
-        "losses": 10,
-        "goals": "15:34",
-        "diff": "-19",
+        "losses": 11,
+        "goals": "16:36",
+        "diff": "-20",
         "points": 9,
         "position": 17
       },
@@ -200,6 +200,17 @@
         "diff": "-20",
         "points": 8,
         "position": 18
+      },
+      {
+        "team": "FC Erzgebirge Aue",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "2:1",
+        "diff": "+1",
+        "points": 3,
+        "position": 19
       }
     ]
   },
@@ -212,27 +223,38 @@
       {
         "position": 1,
         "team": "SV Dallgow 47",
-        "played": 9,
+        "played": 10,
         "wins": 8,
-        "draws": 1,
+        "draws": 2,
         "losses": 0,
-        "goals": "49:11",
+        "goals": "51:13",
         "diff": "+38",
-        "points": 25
+        "points": 26
       },
       {
         "position": 2,
         "team": "Bredower SV",
-        "played": 9,
-        "wins": 5,
+        "played": 10,
+        "wins": 6,
         "draws": 1,
         "losses": 3,
-        "goals": "29:17",
-        "diff": "+12",
-        "points": 16
+        "goals": "32:19",
+        "diff": "+13",
+        "points": 19
       },
       {
         "position": 3,
+        "team": "BSG Stahl Brandenburg U23",
+        "played": 10,
+        "wins": 5,
+        "draws": 3,
+        "losses": 2,
+        "goals": "33:24",
+        "diff": "+9",
+        "points": 18
+      },
+      {
+        "position": 4,
         "team": "Fortuna Babelsberg II",
         "played": 9,
         "wins": 4,
@@ -243,62 +265,62 @@
         "points": 16
       },
       {
-        "position": 4,
-        "team": "SV Ziesar 31",
-        "played": 9,
-        "wins": 5,
-        "draws": 0,
-        "losses": 4,
-        "goals": "23:16",
-        "diff": "+7",
-        "points": 15
-      },
-      {
         "position": 5,
-        "team": "BSG Stahl Brandenburg U23",
-        "played": 9,
+        "team": "FSV 95 Ketzin/​Falkenrehde",
+        "played": 10,
         "wins": 4,
-        "draws": 3,
+        "draws": 4,
         "losses": 2,
-        "goals": "28:23",
-        "diff": "+5",
-        "points": 15
+        "goals": "16:16",
+        "diff": "0",
+        "points": 16
       },
       {
         "position": 6,
-        "team": "Brandenburger SC Süd 05 II",
-        "played": 9,
-        "wins": 4,
-        "draws": 2,
-        "losses": 3,
-        "goals": "19:26",
-        "diff": "-7",
-        "points": 14
+        "team": "SV Ziesar 31",
+        "played": 10,
+        "wins": 5,
+        "draws": 0,
+        "losses": 5,
+        "goals": "26:20",
+        "diff": "+6",
+        "points": 15
       },
       {
         "position": 7,
-        "team": "RSV Eintracht 1949 U23",
-        "played": 9,
-        "wins": 3,
-        "draws": 4,
-        "losses": 2,
-        "goals": "20:20",
-        "diff": "0",
-        "points": 13
+        "team": "Brandenburger SC Süd 05 II",
+        "played": 10,
+        "wins": 4,
+        "draws": 2,
+        "losses": 4,
+        "goals": "20:31",
+        "diff": "-11",
+        "points": 14
       },
       {
         "position": 8,
-        "team": "FSV 95 Ketzin/​Falkenrehde",
-        "played": 9,
+        "team": "RSV Eintracht 1949 U23",
+        "played": 10,
         "wins": 3,
         "draws": 4,
-        "losses": 2,
-        "goals": "13:16",
-        "diff": "-3",
+        "losses": 3,
+        "goals": "22:23",
+        "diff": "-1",
         "points": 13
       },
       {
         "position": 9,
+        "team": "SV Falkensee-Finkenkrug II",
+        "played": 10,
+        "wins": 4,
+        "draws": 1,
+        "losses": 5,
+        "goals": "20:24",
+        "diff": "-4",
+        "points": 13
+      },
+      {
+        "position": 10,
         "team": "UNITED TELTOW FC",
         "played": 8,
         "wins": 4,
@@ -309,18 +331,40 @@
         "points": 12
       },
       {
-        "position": 10,
-        "team": "SG Geltow",
-        "played": 9,
-        "wins": 3,
-        "draws": 3,
-        "losses": 3,
-        "goals": "16:25",
-        "diff": "-9",
+        "position": 11,
+        "team": "SV Ruhlsdorf",
+        "played": 10,
+        "wins": 4,
+        "draws": 0,
+        "losses": 6,
+        "goals": "21:33",
+        "diff": "-12",
         "points": 12
       },
       {
-        "position": 11,
+        "position": 12,
+        "team": "SG Geltow",
+        "played": 10,
+        "wins": 3,
+        "draws": 3,
+        "losses": 4,
+        "goals": "18:30",
+        "diff": "-12",
+        "points": 12
+      },
+      {
+        "position": 13,
+        "team": "SG Blau-Weiß Pessin",
+        "played": 10,
+        "wins": 2,
+        "draws": 5,
+        "losses": 3,
+        "goals": "26:24",
+        "diff": "+2",
+        "points": 11
+      },
+      {
+        "position": 14,
         "team": "SG Michendorf II",
         "played": 9,
         "wins": 3,
@@ -331,29 +375,7 @@
         "points": 11
       },
       {
-        "position": 12,
-        "team": "SG Blau-Weiß Pessin",
-        "played": 9,
-        "wins": 2,
-        "draws": 4,
-        "losses": 3,
-        "goals": "24:22",
-        "diff": "+2",
-        "points": 10
-      },
-      {
-        "position": 13,
-        "team": "SV Falkensee-Finkenkrug II",
-        "played": 9,
-        "wins": 3,
-        "draws": 1,
-        "losses": 5,
-        "goals": "15:22",
-        "diff": "-7",
-        "points": 10
-      },
-      {
-        "position": 14,
+        "position": 15,
         "team": "FSV Babelsberg 74 II",
         "played": 10,
         "wins": 3,
@@ -364,25 +386,14 @@
         "points": 9
       },
       {
-        "position": 15,
-        "team": "SV Ruhlsdorf",
-        "played": 9,
-        "wins": 3,
-        "draws": 0,
-        "losses": 6,
-        "goals": "17:30",
-        "diff": "-13",
-        "points": 9
-      },
-      {
         "position": 16,
         "team": "SG Eintracht Friesack",
-        "played": 9,
+        "played": 10,
         "wins": 0,
         "draws": 1,
-        "losses": 8,
-        "goals": "8:29",
-        "diff": "-21",
+        "losses": 9,
+        "goals": "8:32",
+        "diff": "-24",
         "points": 1
       }
     ]
@@ -395,6 +406,17 @@
     "rows": [
       {
         "position": 1,
+        "team": "Potsdamer Kickers 94",
+        "played": 10,
+        "wins": 9,
+        "draws": 0,
+        "losses": 1,
+        "goals": "33:15",
+        "diff": "+18",
+        "points": 27
+      },
+      {
+        "position": 2,
         "team": "Rot-Weiß Groß Glienicke",
         "played": 9,
         "wins": 8,
@@ -405,47 +427,36 @@
         "points": 25
       },
       {
-        "position": 2,
-        "team": "Potsdamer Kickers 94",
-        "played": 9,
-        "wins": 8,
-        "draws": 0,
-        "losses": 1,
-        "goals": "28:15",
-        "diff": "+13",
-        "points": 24
-      },
-      {
         "position": 3,
         "team": "SG Blau-Weiß Beelitz",
-        "played": 9,
-        "wins": 6,
+        "played": 10,
+        "wins": 7,
         "draws": 1,
         "losses": 2,
-        "goals": "34:17",
-        "diff": "+17",
-        "points": 19
+        "goals": "37:18",
+        "diff": "+19",
+        "points": 22
       },
       {
         "position": 4,
         "team": "FV Turbine Potsdam 55",
-        "played": 10,
-        "wins": 5,
+        "played": 11,
+        "wins": 6,
         "draws": 2,
         "losses": 3,
-        "goals": "18:20",
-        "diff": "-2",
-        "points": 17
+        "goals": "20:21",
+        "diff": "-1",
+        "points": 20
       },
       {
         "position": 5,
         "team": "RSV Eintracht 1949 U21",
-        "played": 8,
+        "played": 9,
         "wins": 5,
         "draws": 1,
-        "losses": 2,
-        "goals": "26:18",
-        "diff": "+8",
+        "losses": 3,
+        "goals": "26:19",
+        "diff": "+7",
         "points": 16
       },
       {
@@ -461,113 +472,113 @@
       },
       {
         "position": 7,
-        "team": "FSV Grün-Weiß Niemegk",
-        "played": 10,
+        "team": "Caputher SV",
+        "played": 9,
         "wins": 4,
-        "draws": 1,
-        "losses": 5,
-        "goals": "30:34",
-        "diff": "-4",
-        "points": 13
+        "draws": 2,
+        "losses": 3,
+        "goals": "25:22",
+        "diff": "+3",
+        "points": 14
       },
       {
         "position": 8,
-        "team": "SV Viktoria Potsdam II",
-        "played": 8,
+        "team": "FSV Grün-Weiß Niemegk",
+        "played": 11,
         "wins": 4,
-        "draws": 0,
-        "losses": 4,
-        "goals": "23:16",
-        "diff": "+7",
-        "points": 12
+        "draws": 2,
+        "losses": 5,
+        "goals": "31:35",
+        "diff": "-4",
+        "points": 14
       },
       {
         "position": 9,
-        "team": "ESV Lok Seddin",
-        "played": 10,
+        "team": "SV Viktoria Potsdam II",
+        "played": 9,
         "wins": 4,
-        "draws": 0,
-        "losses": 6,
-        "goals": "19:27",
-        "diff": "-8",
-        "points": 12
+        "draws": 1,
+        "losses": 4,
+        "goals": "24:17",
+        "diff": "+7",
+        "points": 13
       },
       {
         "position": 10,
-        "team": "Caputher SV",
-        "played": 8,
-        "wins": 3,
-        "draws": 2,
-        "losses": 3,
-        "goals": "24:22",
-        "diff": "+2",
-        "points": 11
+        "team": "SG Grün-Weiß Golm II",
+        "played": 10,
+        "wins": 4,
+        "draws": 1,
+        "losses": 5,
+        "goals": "26:27",
+        "diff": "-1",
+        "points": 13
       },
       {
         "position": 11,
-        "team": "SG Grün-Weiß Golm II",
-        "played": 9,
-        "wins": 3,
-        "draws": 1,
-        "losses": 5,
-        "goals": "21:24",
-        "diff": "-3",
-        "points": 10
+        "team": "ESV Lok Seddin",
+        "played": 11,
+        "wins": 4,
+        "draws": 0,
+        "losses": 7,
+        "goals": "19:33",
+        "diff": "-14",
+        "points": 12
       },
       {
         "position": 12,
         "team": "SV 1948 Ferch",
-        "played": 9,
+        "played": 10,
         "wins": 3,
         "draws": 1,
-        "losses": 5,
-        "goals": "16:24",
-        "diff": "-8",
+        "losses": 6,
+        "goals": "19:29",
+        "diff": "-10",
         "points": 10
       },
       {
         "position": 13,
         "team": "Teltower FV 1913 II",
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 1,
-        "losses": 6,
-        "goals": "12:23",
-        "diff": "-11",
+        "losses": 7,
+        "goals": "13:25",
+        "diff": "-12",
         "points": 7
       },
       {
         "position": 14,
         "team": "SG Bornim II",
-        "played": 9,
+        "played": 10,
         "wins": 2,
         "draws": 1,
-        "losses": 6,
-        "goals": "13:28",
-        "diff": "-15",
+        "losses": 7,
+        "goals": "13:33",
+        "diff": "-20",
         "points": 7
       },
       {
         "position": 15,
-        "team": "SV 71 Busendorf",
+        "team": "FSV Brück",
         "played": 8,
-        "wins": 1,
-        "draws": 2,
-        "losses": 5,
-        "goals": "14:27",
-        "diff": "-13",
-        "points": 5
+        "wins": 2,
+        "draws": 0,
+        "losses": 6,
+        "goals": "17:22",
+        "diff": "-5",
+        "points": 6
       },
       {
         "position": 16,
-        "team": "FSV Brück",
-        "played": 7,
+        "team": "SV 71 Busendorf",
+        "played": 9,
         "wins": 1,
-        "draws": 0,
+        "draws": 2,
         "losses": 6,
-        "goals": "11:22",
-        "diff": "-11",
-        "points": 3
+        "goals": "15:30",
+        "diff": "-15",
+        "points": 5
       }
     ]
   },
@@ -579,6 +590,17 @@
     "rows": [
       {
         "position": 1,
+        "team": "FC Hertha 03 Zehlendorf",
+        "played": 11,
+        "wins": 9,
+        "draws": 1,
+        "losses": 1,
+        "goals": "41:14",
+        "diff": "+27",
+        "points": 28
+      },
+      {
+        "position": 2,
         "team": "BFC Dynamo U19",
         "played": 11,
         "wins": 8,
@@ -587,17 +609,6 @@
         "goals": "35:19",
         "diff": "+16",
         "points": 27
-      },
-      {
-        "position": 2,
-        "team": "FC Hertha 03 Zehlendorf",
-        "played": 10,
-        "wins": 8,
-        "draws": 1,
-        "losses": 1,
-        "goals": "37:12",
-        "diff": "+25",
-        "points": 25
       },
       {
         "position": 3,
@@ -634,6 +645,17 @@
       },
       {
         "position": 6,
+        "team": "SC Borea Dresden",
+        "played": 11,
+        "wins": 6,
+        "draws": 1,
+        "losses": 4,
+        "goals": "26:14",
+        "diff": "+12",
+        "points": 19
+      },
+      {
+        "position": 7,
         "team": "FSV Zwickau",
         "played": 12,
         "wins": 4,
@@ -644,26 +666,15 @@
         "points": 17
       },
       {
-        "position": 7,
-        "team": "SC Borea Dresden",
-        "played": 10,
-        "wins": 5,
-        "draws": 1,
-        "losses": 4,
-        "goals": "25:14",
-        "diff": "+11",
-        "points": 16
-      },
-      {
         "position": 8,
         "team": "Tennis Borussia Berlin U19",
-        "played": 11,
-        "wins": 4,
+        "played": 12,
+        "wins": 5,
         "draws": 0,
         "losses": 7,
-        "goals": "30:29",
-        "diff": "+1",
-        "points": 12
+        "goals": "34:30",
+        "diff": "+4",
+        "points": 15
       },
       {
         "position": 9,
@@ -679,34 +690,34 @@
       {
         "position": 10,
         "team": "RSV Eintracht 1949 U19",
-        "played": 11,
+        "played": 12,
         "wins": 2,
         "draws": 4,
-        "losses": 5,
-        "goals": "19:21",
-        "diff": "-2",
+        "losses": 6,
+        "goals": "20:25",
+        "diff": "-5",
         "points": 10
       },
       {
         "position": 11,
         "team": "Steglitzer FC Stern 1900",
-        "played": 11,
+        "played": 12,
         "wins": 2,
         "draws": 3,
-        "losses": 6,
-        "goals": "19:30",
-        "diff": "-11",
+        "losses": 7,
+        "goals": "21:34",
+        "diff": "-13",
         "points": 9
       },
       {
         "position": 12,
         "team": "FC Mecklenburg Schwerin U19",
-        "played": 11,
+        "played": 12,
         "wins": 2,
         "draws": 3,
-        "losses": 6,
-        "goals": "17:38",
-        "diff": "-21",
+        "losses": 7,
+        "goals": "17:39",
+        "diff": "-22",
         "points": 9
       },
       {

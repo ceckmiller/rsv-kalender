@@ -364,13 +364,21 @@
       "home": "Tennis Borussia Berlin U19",
       "away": "RSV Eintracht 1949 U19",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "4:1",
       "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
       "source_url": "https://www.fussball.de/spiel/tennis-borussia-berlin-u19-rsv-eintracht-1949-u19/-/spiel/031B3S0ENC000000VS5489BUVV628VP4",
       "match_number": "690007082",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00005AVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "3:0",
+      "scorers": [
+        "13. Minute – Malik Alic (Tennis Borussia Berlin U19) – 1:0",
+        "20. Minute – Belkacem Aghilas Azi (Tennis Borussia Berlin U19) – 2:0",
+        "31. Minute – Malik Alic (Tennis Borussia Berlin U19) – 3:0",
+        "79. Minute – Markus Gaevert (RSV Eintracht 1949 U19) – 3:1",
+        "84. Minute – Rodi Kato (Tennis Borussia Berlin U19) – 4:1"
+      ]
     },
     {
       "id": "u19-690007088",
