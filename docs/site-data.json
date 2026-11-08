@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T19:05:25.642753+01:00",
+  "generated_at": "2026-11-08T02:27:59.345217+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -16035,7 +16035,7 @@
           "away": "VfL Wolfsburg",
           "home_logo": "/assets/clubs/hertha-bsc.png",
           "away_logo": "/assets/clubs/vfl-wolfsburg.png",
-          "result": "",
+          "result": "2:1",
           "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
           "is_home": true,
@@ -16197,19 +16197,19 @@
         }
       ],
       "next_game": {
-        "id": "u21-890001092",
-        "matchday": 9,
-        "date": "2026-11-07",
-        "time": "20:30",
+        "id": "u21-890001108",
+        "matchday": 10,
+        "date": "2026-11-22",
+        "time": "13:30",
         "competition": "2.Bundesliga",
-        "home": "Hertha BSC",
-        "away": "VfL Wolfsburg",
-        "home_logo": "/assets/clubs/hertha-bsc.png",
-        "away_logo": "/assets/clubs/vfl-wolfsburg.png",
+        "home": "FC Energie Cottbus",
+        "away": "Hertha BSC",
+        "home_logo": "/assets/clubs/fc-energie-cottbus.png",
+        "away_logo": "/assets/clubs/hertha-bsc.png",
         "result": "",
-        "location": "Olympiastadion, Olympischer Platz 3, 14053 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Olympiastadion%2C+Olympischer+Platz+3%2C+14053+Berlin",
-        "is_home": true,
+        "location": "LEAG Energie Stadion, Am Eliaspark 1, 03042 Cottbus",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=LEAG+Energie+Stadion%2C+Am+Eliaspark+1%2C+03042+Cottbus",
+        "is_home": false,
         "round": "",
         "ticket_url": ""
       }
@@ -16464,7 +16464,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 08.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16664,7 +16664,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 08.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16864,7 +16864,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 07.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 08.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
