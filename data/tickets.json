@@ -1,16 +1,21 @@
 {
   "overview_url": "https://rsv-eintracht.vereinsticket.de/herren/",
-  "updated_at": "2026-11-09T19:43:38.958705+01:00",
+  "updated_at": "2026-11-10T03:02:24.254847+01:00",
   "events": [
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5238950/",
       "date": "2026-10-31",
-      "opponent": "BFC Preussen"
+      "opponent": "FC Carl Zeiss Jena"
     },
     {
       "url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/",
       "date": "2026-11-28",
       "opponent": "BFC Preussen"
+    },
+    {
+      "url": "https://rsv-eintracht.vereinsticket.de/herren/5248831/",
+      "date": "2026-12-12",
+      "opponent": "FC Carl Zeiss Jena"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T01:53:10.116193+01:00",
+  "generated_at": "2026-11-10T03:06:03.354858+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1063,8 +1063,8 @@
         {
           "id": "rl-19",
           "matchday": 19,
-          "date": "2026-12-06",
-          "time": "14:00",
+          "date": "2026-12-04",
+          "time": "19:00",
           "competition": "Regionalliga",
           "home": "FSV 63 Luckenwalde",
           "away": "RSV Eintracht 1949",
@@ -1080,8 +1080,8 @@
         {
           "id": "rl-20",
           "matchday": 20,
-          "date": "2026-12-13",
-          "time": "14:00",
+          "date": "2026-12-12",
+          "time": "13:00",
           "competition": "Regionalliga",
           "home": "RSV Eintracht 1949",
           "away": "FC Carl Zeiss Jena",
@@ -1092,7 +1092,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5248831/"
         },
         {
           "id": "u21-860002222",
@@ -5270,8 +5270,8 @@
           "matches": [
             {
               "id": "rl-19",
-              "date": "2026-12-06",
-              "time": "14:00",
+              "date": "2026-12-04",
+              "time": "19:00",
               "home": "FSV 63 Luckenwalde",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -5282,8 +5282,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-12-06",
-          "date_end": "2026-12-06"
+          "date": "2026-12-04",
+          "date_end": "2026-12-04"
         },
         {
           "id": "league:Regionalliga Nordost:19",
@@ -5294,8 +5294,8 @@
           "matches": [
             {
               "id": "rl-md19-cd2f753b2fcd",
-              "date": "2026-12-06",
-              "time": "14:00",
+              "date": "2026-12-04",
+              "time": "19:00",
               "home": "FSV 63 Luckenwalde",
               "away": "RSV Eintracht 1949",
               "result": null,
@@ -5411,7 +5411,7 @@
               "away_logo": "/assets/clubs/vsg-altglienicke.png"
             }
           ],
-          "date": "2026-12-06",
+          "date": "2026-12-04",
           "date_end": "2026-12-06"
         },
         {
@@ -5423,8 +5423,8 @@
           "matches": [
             {
               "id": "rl-20",
-              "date": "2026-12-13",
-              "time": "14:00",
+              "date": "2026-12-12",
+              "time": "13:00",
               "home": "RSV Eintracht 1949",
               "away": "FC Carl Zeiss Jena",
               "result": null,
@@ -5435,8 +5435,8 @@
               "away_logo": "/assets/clubs/fc-carl-zeiss-jena.png"
             }
           ],
-          "date": "2026-12-13",
-          "date_end": "2026-12-13"
+          "date": "2026-12-12",
+          "date_end": "2026-12-12"
         },
         {
           "id": "league:Regionalliga Nordost:20",
@@ -5447,8 +5447,8 @@
           "matches": [
             {
               "id": "rl-md20-b3ab966130d5",
-              "date": "2026-12-13",
-              "time": "14:00",
+              "date": "2026-12-12",
+              "time": "13:00",
               "home": "RSV Eintracht 1949",
               "away": "FC Carl Zeiss Jena",
               "result": null,
@@ -5564,7 +5564,7 @@
               "away_logo": "/assets/clubs/sv-babelsberg-03.png"
             }
           ],
-          "date": "2026-12-13",
+          "date": "2026-12-12",
           "date_end": "2026-12-13"
         },
         {
@@ -16577,7 +16577,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 09.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 10.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16777,7 +16777,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 09.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 10.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16977,7 +16977,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 09.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 10.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
