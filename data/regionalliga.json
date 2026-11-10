@@ -552,6 +552,19 @@
       "attendance": 1024
     },
     {
+      "id": "u21-690001179",
+      "date": "2026-11-12",
+      "time": "18:30",
+      "home": "RSV Eintracht 1949",
+      "away": "Hertha BSC U23",
+      "competition": "Regionalfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hertha-bsc-u23/-/spiel/032LNEJKRG000000VS5489BTVSIO88SN",
+      "match_number": "690001179",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I"
+    },
+    {
       "id": "rl-17",
       "date": "2026-11-20",
       "time": "19:00",

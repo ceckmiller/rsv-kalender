@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T03:06:03.354858+01:00",
+  "generated_at": "2026-11-10T18:50:09.325869+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1008,6 +1008,23 @@
           "is_home": true,
           "round": "",
           "ticket_url": ""
+        },
+        {
+          "id": "u21-690001179",
+          "matchday": null,
+          "date": "2026-11-12",
+          "time": "18:30",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949",
+          "away": "Hertha BSC U23",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/hertha-bsc-u23.png",
+          "result": "",
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
+          "round": "",
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-17",
@@ -4956,6 +4973,29 @@
           "date_end": "2026-11-08"
         },
         {
+          "id": "game:u21-690001179",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u21-690001179",
+              "date": "2026-11-12",
+              "time": "18:30",
+              "home": "RSV Eintracht 1949",
+              "away": "Hertha BSC U23",
+              "result": null,
+              "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+              "matchday": null,
+              "team_fixture_id": "u21-690001179",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/hertha-bsc-u23.png"
+            }
+          ],
+          "date": "2026-11-12",
+          "date_end": "2026-11-12"
+        },
+        {
           "id": "league:Regionalliga:17",
           "kind": "league",
           "title": "17. Spieltag Regionalliga",
@@ -7734,37 +7774,22 @@
         }
       ],
       "next_game": {
-        "id": "rl-17",
-        "matchday": 17,
-        "date": "2026-11-20",
-        "time": "19:00",
-        "competition": "Regionalliga",
-        "home": "1. FC Lokomotive Leipzig",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
-        "id": "u21-690047158",
-        "matchday": 18,
-        "date": "2026-11-28",
-        "time": "14:00",
-        "competition": "Regionalliga",
+        "id": "u21-690001179",
+        "matchday": null,
+        "date": "2026-11-12",
+        "time": "18:30",
+        "competition": "Regionalfreundschaftsspiele",
         "home": "RSV Eintracht 1949",
-        "away": "BFC Preussen",
+        "away": "Hertha BSC U23",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/bfc-preussen.png",
-        "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
+        "away_logo": "/assets/clubs/hertha-bsc-u23.png",
+        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
-      }
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+      },
+      "next_home": null
     },
     "u23": {
       "name": "RSV Eintracht – U23",
