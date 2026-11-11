@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:19:33.087306+01:00",
+  "generated_at": "2026-11-11T11:54:20.195510+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -8467,7 +8467,7 @@
           "id": "u23-610138104",
           "matchday": 12,
           "date": "2026-11-22",
-          "time": "15:00",
+          "time": "14:00",
           "competition": "Kreisoberliga",
           "home": "SG Blau-Weiß Pessin",
           "away": "RSV Eintracht 1949 U23",
@@ -10005,7 +10005,7 @@
             {
               "id": "u23-610138104",
               "date": "2026-11-22",
-              "time": "15:00",
+              "time": "14:00",
               "home": "SG Blau-Weiß Pessin",
               "away": "RSV Eintracht 1949 U23",
               "result": null,
