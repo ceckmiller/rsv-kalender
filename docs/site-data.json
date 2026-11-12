@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T02:33:19.310944+01:00",
+  "generated_at": "2026-11-13T00:42:09.338697+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -581,6 +581,36 @@
           "referee": "Paul Drößler",
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+FC+Erzgebirge+Aue+OSTSPORT.TV",
           "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/16-spieltag/rsv-eintracht-1949-erzgebirge-aue-2426128"
+        },
+        {
+          "id": "u21-690001179",
+          "matchday": null,
+          "date": "2026-11-12",
+          "time": "18:30",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949",
+          "away": "Hertha BSC U23",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/hertha-bsc-u23.png",
+          "result": "3:4",
+          "halftime_result": "0:3",
+          "scorers": [
+            "4. Minute – Elijas Anastasios Aslanidis (Hertha BSC U23) – 0:1",
+            "36. Minute – Theophilus Gyamerah Akoto (Hertha BSC U23) – 0:2",
+            "38. Minute – Theophilus Gyamerah Akoto (Hertha BSC U23) – 0:3",
+            "46. Minute – Kebir Ali Canpolat (Hertha BSC U23) – 0:4",
+            "66. Minute – Yassin Boulehris (RSV Eintracht 1949) – 1:4",
+            "72. Minute – Dong Woo Kim (RSV Eintracht 1949) – 2:4",
+            "85. Minute – Endi Jupolli (RSV Eintracht 1949) – 3:4"
+          ],
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "points": null,
+          "table_position": null,
+          "attendance": null,
+          "referee": null,
+          "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+Hertha+BSC+U23+OSTSPORT.TV",
+          "report_url": ""
         }
       ],
       "fixtures": [
@@ -1019,12 +1049,12 @@
           "away": "Hertha BSC U23",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/hertha-bsc-u23.png",
-          "result": "",
+          "result": "3:4",
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
+          "ticket_url": ""
         },
         {
           "id": "rl-17",
@@ -4984,7 +5014,8 @@
               "time": "18:30",
               "home": "RSV Eintracht 1949",
               "away": "Hertha BSC U23",
-              "result": null,
+              "result": "3:4",
+              "halftime_result": "0:3",
               "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": null,
               "team_fixture_id": "u21-690001179",
@@ -7774,22 +7805,37 @@
         }
       ],
       "next_game": {
-        "id": "u21-690001179",
-        "matchday": null,
-        "date": "2026-11-12",
-        "time": "18:30",
-        "competition": "Regionalfreundschaftsspiele",
+        "id": "rl-17",
+        "matchday": 17,
+        "date": "2026-11-20",
+        "time": "19:00",
+        "competition": "Regionalliga",
+        "home": "1. FC Lokomotive Leipzig",
+        "away": "RSV Eintracht 1949",
+        "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "u21-690047158",
+        "matchday": 18,
+        "date": "2026-11-28",
+        "time": "14:00",
+        "competition": "Regionalliga",
         "home": "RSV Eintracht 1949",
-        "away": "Hertha BSC U23",
+        "away": "BFC Preussen",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/hertha-bsc-u23.png",
-        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+        "away_logo": "/assets/clubs/bfc-preussen.png",
+        "location": "Preussen-Stadion NR1, Malteserstr. 24, 12249 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
-      },
-      "next_home": null
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
+      }
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -16602,7 +16648,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 12.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 13.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16802,7 +16848,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 12.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 13.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17002,7 +17048,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 12.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 13.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [

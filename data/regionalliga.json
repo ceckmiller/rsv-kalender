@@ -562,7 +562,18 @@
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-hertha-bsc-u23/-/spiel/032LNEJKRG000000VS5489BTVSIO88SN",
       "match_number": "690001179",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00006LVV0AG08LVUPGND5I",
+      "result": "3:4",
+      "halftime_result": "0:3",
+      "scorers": [
+        "4. Minute – Elijas Anastasios Aslanidis (Hertha BSC U23) – 0:1",
+        "36. Minute – Theophilus Gyamerah Akoto (Hertha BSC U23) – 0:2",
+        "38. Minute – Theophilus Gyamerah Akoto (Hertha BSC U23) – 0:3",
+        "46. Minute – Kebir Ali Canpolat (Hertha BSC U23) – 0:4",
+        "66. Minute – Yassin Boulehris (RSV Eintracht 1949) – 1:4",
+        "72. Minute – Dong Woo Kim (RSV Eintracht 1949) – 2:4",
+        "85. Minute – Endi Jupolli (RSV Eintracht 1949) – 3:4"
+      ]
     },
     {
       "id": "rl-17",
