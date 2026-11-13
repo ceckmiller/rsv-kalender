@@ -5413,14 +5413,14 @@
           "time": "19:30",
           "home": "FSV Babelsberg 74 III",
           "away": "Caputher SV",
-          "result": null,
+          "result": "5:2",
           "halftime_result": null,
           "location": "",
           "matchday": null,
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000008DVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007SVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-caputher-sv-1/-/spiel/032CBPKE7G000000VS5489BTVU989P58"
+          "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-iii-caputher-sv-1/-/spiel/032CBPKE7G000000VS5489BTVU989P58#!/section/course"
         },
         {
           "id": "cup-rsv-eintracht-1949-u23-fortuna-babelsberg-ii",
@@ -5435,7 +5435,7 @@
           "competition": "Kreispokal 2026/27",
           "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
           "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I/verband/0123456789ABCDEF0123456700004250",
-          "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58"
+          "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-fortuna-babelsberg-ii/-/spiel/032CBPKEJ8000000VS5489BTVU989P58#!/section/course"
         },
         {
           "id": "cup-esv-lok-potsdam-bredower-sv-i",
