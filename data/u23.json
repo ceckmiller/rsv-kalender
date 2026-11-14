@@ -362,7 +362,15 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007KVV0AG08LVUPGND5I",
       "round": "Achtelfinale",
-      "round_url": "https://www.fussball.de/spieltag/achtelfinale-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-11-13/staffel/0320RB3KF4000006VS5489BTVT7QHFUC-R"
+      "round_url": "https://www.fussball.de/spieltag/achtelfinale-kreis-havelland-kreispokal-herren-saison2627-brandenburg/-/spieldatum/2026-11-13/staffel/0320RB3KF4000006VS5489BTVT7QHFUC-R",
+      "result": "5:7",
+      "halftime_result": "1:0",
+      "scorers": [
+        "41. Minute – Christian Gotzmann (RSV Eintracht 1949 U23) – 1:0",
+        "48. Minute – Dmytro Chornenkyi (RSV Eintracht 1949 U23) – 2:0",
+        "58. Minute – Phillipp Franz (Fortuna Babelsberg II) – 2:1",
+        "73. Minute – Ben Vetter (Fortuna Babelsberg II) – 2:2"
+      ]
     },
     {
       "id": "u23-610138092",
