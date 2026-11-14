@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T03:27:22.118065+01:00",
+  "generated_at": "2026-11-14T17:41:24.214428+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -17080,12 +17080,12 @@
         {
           "position": 1,
           "team": "FC Hertha 03 Zehlendorf",
-          "played": 11,
+          "played": 12,
           "wins": 9,
           "draws": 1,
-          "losses": 1,
-          "goals": "41:14",
-          "diff": "+27",
+          "losses": 2,
+          "goals": "43:17",
+          "diff": "+26",
           "points": 28,
           "logo_url": "/assets/clubs/fc-hertha-03-zehlendorf.png"
         },
@@ -17104,17 +17104,29 @@
         {
           "position": 3,
           "team": "Berliner SC",
-          "played": 11,
-          "wins": 7,
+          "played": 12,
+          "wins": 8,
           "draws": 2,
           "losses": 2,
-          "goals": "37:17",
-          "diff": "+20",
-          "points": 23,
+          "goals": "40:19",
+          "diff": "+21",
+          "points": 26,
           "logo_url": "/assets/clubs/berliner-sc.png"
         },
         {
           "position": 4,
+          "team": "Sport-Club Staaken 1919 U19",
+          "played": 12,
+          "wins": 6,
+          "draws": 5,
+          "losses": 1,
+          "goals": "28:15",
+          "diff": "+13",
+          "points": 23,
+          "logo_url": "/assets/clubs/sport-club-staaken-1919.png"
+        },
+        {
+          "position": 5,
           "team": "1. FC Lokomotive Leipzig U19",
           "played": 12,
           "wins": 7,
@@ -17124,18 +17136,6 @@
           "diff": "+10",
           "points": 22,
           "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
-        },
-        {
-          "position": 5,
-          "team": "Sport-Club Staaken 1919 U19",
-          "played": 11,
-          "wins": 5,
-          "draws": 5,
-          "losses": 1,
-          "goals": "24:14",
-          "diff": "+10",
-          "points": 20,
-          "logo_url": "/assets/clubs/sport-club-staaken-1919.png"
         },
         {
           "position": 6,
@@ -17176,12 +17176,12 @@
         {
           "position": 9,
           "team": "1. FC Frankfurt /​O.",
-          "played": 11,
+          "played": 12,
           "wins": 4,
           "draws": 0,
-          "losses": 7,
-          "goals": "16:27",
-          "diff": "-11",
+          "losses": 8,
+          "goals": "17:31",
+          "diff": "-14",
           "points": 12,
           "logo_url": "/assets/clubs/1-fc-frankfurt-oder.png"
         },
