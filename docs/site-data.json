@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:56:28.852059+01:00",
+  "generated_at": "2026-11-15T18:07:54.608831+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -7965,7 +7965,7 @@
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Ziesar%2C+Schopsdorfer+Chaussee+17%2C+14793+Ziesar",
           "points": 0,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-liga-20260906",
@@ -7988,7 +7988,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 0,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138020",
@@ -8010,7 +8010,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 3,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138026",
@@ -8031,7 +8031,7 @@
           "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Geltow+Am+M%C3%BChlenberg%2C+Am+Wasser+3%2C+14548+Schwielowsee",
           "points": 4,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138036",
@@ -8056,7 +8056,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 5,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-710089074",
@@ -8103,7 +8103,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 6,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138061",
@@ -8126,7 +8126,7 @@
           "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion%2C+Am+Schillerpark+3%2C+14662+Friesack",
           "points": 7,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138068",
@@ -8152,7 +8152,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 10,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138076",
@@ -8175,7 +8175,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 13,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-610138082",
@@ -8199,7 +8199,7 @@
           "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Bredow%2C+Oranienburger+Str.+10b%2C+14656+Brieselang",
           "points": 13,
-          "table_position": 8
+          "table_position": 9
         },
         {
           "id": "u23-710089095",
@@ -9960,13 +9960,14 @@
               "time": "11:00",
               "home": "ESV Lok Potsdam",
               "away": "Bredower SV",
-              "result": null,
+              "result": "0:10",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/esv-lok-potsdam.png",
               "away_logo": "/assets/clubs/bredower-sv.png",
-              "source_url": "https://www.fussball.de/spiel/esv-lok-potsdam-bredower-sv-i/-/spiel/032CBPKEHC000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/esv-lok-potsdam-bredower-sv-i/-/spiel/032CBPKEHC000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-fc-borussia-brandenburg-ii-sg-blau-weiss-pessin",
@@ -9974,13 +9975,14 @@
               "time": "13:00",
               "home": "FC Borussia Brandenburg II",
               "away": "SG Blau-Weiß Pessin",
-              "result": null,
+              "result": "0:6",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/fc-borussia-brandenburg-ii.png",
               "away_logo": "/assets/clubs/sg-blau-weiss-pessin.png",
-              "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sg-blau-weiss-pessin/-/spiel/032CBPKEBK000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/fc-borussia-brandenburg-ii-sg-blau-weiss-pessin/-/spiel/032CBPKEBK000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-sg-blau-weiss-beelitz-sv-ruhlsdorf-i",
@@ -9988,13 +9990,14 @@
               "time": "13:00",
               "home": "SG Blau-Weiß Beelitz",
               "away": "SV Ruhlsdorf",
-              "result": null,
+              "result": "4:0",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/sg-blau-weiss-beelitz.png",
               "away_logo": "/assets/clubs/sv-ruhlsdorf.png",
-              "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-beelitz-sv-ruhlsdorf-i/-/spiel/032CBPKEDK000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-beelitz-sv-ruhlsdorf-i/-/spiel/032CBPKEDK000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-sg-gruen-weiss-golm-ii-sv-dallgow-47",
@@ -10002,13 +10005,14 @@
               "time": "13:00",
               "home": "SG Grün-Weiß Golm II",
               "away": "SV Dallgow 47",
-              "result": null,
+              "result": "0:5",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/sg-gruen-weiss-golm-ii.png",
               "away_logo": "/assets/clubs/sv-dallgow-47.png",
-              "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-sv-dallgow-47/-/spiel/032CBPKEFK000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/sg-gruen-weiss-golm-ii-sv-dallgow-47/-/spiel/032CBPKEFK000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-sv-1948-ferch-sg-michendorf-ii",
@@ -10016,13 +10020,14 @@
               "time": "13:00",
               "home": "SV 1948 Ferch",
               "away": "SG Michendorf II",
-              "result": null,
+              "result": "4:1",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/sv-1948-ferch.png",
               "away_logo": "/assets/clubs/sg-michendorf-ii.png",
-              "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sg-michendorf-ii/-/spiel/032CBPKE9C000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/sv-1948-ferch-sg-michendorf-ii/-/spiel/032CBPKE9C000000VS5489BTVU989P58#!/section/course"
             },
             {
               "id": "cup-fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde",
@@ -10036,7 +10041,7 @@
               "competition": "Kreispokal 2026/27",
               "home_logo": "/assets/clubs/fsv-babelsberg-74-ii.png",
               "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
-              "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde/-/spiel/032CBPKE48000000VS5489BTVU989P58"
+              "source_url": "https://www.fussball.de/spiel/fsv-babelsberg-74-ii-fsv-95-ketzin-falkenrehde/-/spiel/032CBPKE48000000VS5489BTVU989P58#!/section/course"
             }
           ],
           "date": "2026-11-13",
@@ -16727,6 +16732,18 @@
         },
         {
           "position": 5,
+          "team": "SV Ziesar 31",
+          "played": 11,
+          "wins": 5,
+          "draws": 1,
+          "losses": 5,
+          "goals": "27:21",
+          "diff": "+6",
+          "points": 16,
+          "logo_url": "/assets/clubs/sv-ziesar-31.png"
+        },
+        {
+          "position": 6,
           "team": "FSV 95 Ketzin/​Falkenrehde",
           "played": 10,
           "wins": 4,
@@ -16738,31 +16755,31 @@
           "logo_url": "/assets/clubs/fsv-95-ketzin-falkenrehde.png"
         },
         {
-          "position": 6,
-          "team": "SV Ziesar 31",
-          "played": 10,
+          "position": 7,
+          "team": "SV Falkensee-Finkenkrug II",
+          "played": 11,
           "wins": 5,
-          "draws": 0,
+          "draws": 1,
           "losses": 5,
-          "goals": "26:20",
-          "diff": "+6",
-          "points": 15,
-          "logo_url": "/assets/clubs/sv-ziesar-31.png"
+          "goals": "22:25",
+          "diff": "-3",
+          "points": 16,
+          "logo_url": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
         },
         {
-          "position": 7,
+          "position": 8,
           "team": "Brandenburger SC Süd 05 II",
-          "played": 10,
+          "played": 11,
           "wins": 4,
           "draws": 2,
-          "losses": 4,
-          "goals": "20:31",
-          "diff": "-11",
+          "losses": 5,
+          "goals": "21:33",
+          "diff": "-12",
           "points": 14,
           "logo_url": "/assets/clubs/brandenburger-sc-sued-05-ii.png"
         },
         {
-          "position": 8,
+          "position": 9,
           "team": "RSV Eintracht 1949 U23",
           "played": 10,
           "wins": 3,
@@ -16774,19 +16791,19 @@
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
-          "position": 9,
-          "team": "SV Falkensee-Finkenkrug II",
-          "played": 10,
-          "wins": 4,
-          "draws": 1,
-          "losses": 5,
-          "goals": "20:24",
-          "diff": "-4",
+          "position": 10,
+          "team": "SG Geltow",
+          "played": 11,
+          "wins": 3,
+          "draws": 4,
+          "losses": 4,
+          "goals": "19:31",
+          "diff": "-12",
           "points": 13,
-          "logo_url": "/assets/clubs/sv-falkensee-finkenkrug-ii.png"
+          "logo_url": "/assets/clubs/sg-geltow.png"
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "FSV Babelsberg 74 II",
           "played": 11,
           "wins": 4,
@@ -16798,7 +16815,7 @@
           "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
         },
         {
-          "position": 11,
+          "position": 12,
           "team": "UNITED TELTOW FC",
           "played": 9,
           "wins": 4,
@@ -16810,7 +16827,7 @@
           "logo_url": "/assets/clubs/united-teltow-fc.png"
         },
         {
-          "position": 12,
+          "position": 13,
           "team": "SV Ruhlsdorf",
           "played": 10,
           "wins": 4,
@@ -16820,18 +16837,6 @@
           "diff": "-12",
           "points": 12,
           "logo_url": "/assets/clubs/sv-ruhlsdorf.png"
-        },
-        {
-          "position": 13,
-          "team": "SG Geltow",
-          "played": 10,
-          "wins": 3,
-          "draws": 3,
-          "losses": 4,
-          "goals": "18:30",
-          "diff": "-12",
-          "points": 12,
-          "logo_url": "/assets/clubs/sg-geltow.png"
         },
         {
           "position": 14,
@@ -16880,24 +16885,24 @@
         {
           "position": 1,
           "team": "Rot-Weiß Groß Glienicke",
-          "played": 10,
-          "wins": 9,
+          "played": 11,
+          "wins": 10,
           "draws": 1,
           "losses": 0,
-          "goals": "30:7",
-          "diff": "+23",
-          "points": 28,
+          "goals": "34:8",
+          "diff": "+26",
+          "points": 31,
           "logo_url": "/assets/clubs/rot-weiss-gross-glienicke.png"
         },
         {
           "position": 2,
           "team": "Potsdamer Kickers 94",
-          "played": 10,
+          "played": 11,
           "wins": 9,
           "draws": 0,
-          "losses": 1,
-          "goals": "33:15",
-          "diff": "+18",
+          "losses": 2,
+          "goals": "34:19",
+          "diff": "+15",
           "points": 27,
           "logo_url": "/assets/clubs/potsdamer-kickers-94.png"
         },
@@ -16939,15 +16944,15 @@
         },
         {
           "position": 6,
-          "team": "SV 05 Rehbrücke",
-          "played": 11,
+          "team": "FSV Grün-Weiß Niemegk",
+          "played": 12,
           "wins": 4,
-          "draws": 2,
+          "draws": 3,
           "losses": 5,
-          "goals": "28:23",
-          "diff": "+5",
-          "points": 14,
-          "logo_url": "/assets/clubs/sv-05-rehbruecke.png"
+          "goals": "33:37",
+          "diff": "-4",
+          "points": 15,
+          "logo_url": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
         },
         {
           "position": 7,
@@ -16963,15 +16968,15 @@
         },
         {
           "position": 8,
-          "team": "FSV Grün-Weiß Niemegk",
-          "played": 11,
+          "team": "SV 05 Rehbrücke",
+          "played": 12,
           "wins": 4,
           "draws": 2,
-          "losses": 5,
-          "goals": "31:35",
-          "diff": "-4",
+          "losses": 6,
+          "goals": "28:27",
+          "diff": "+1",
           "points": 14,
-          "logo_url": "/assets/clubs/fsv-gruen-weiss-niemegk.png"
+          "logo_url": "/assets/clubs/sv-05-rehbruecke.png"
         },
         {
           "position": 9,
@@ -17023,18 +17028,30 @@
         },
         {
           "position": 13,
-          "team": "Teltower FV 1913 II",
-          "played": 10,
-          "wins": 2,
-          "draws": 1,
-          "losses": 7,
-          "goals": "13:25",
-          "diff": "-12",
-          "points": 7,
-          "logo_url": "/assets/clubs/teltower-fv-1913-ii.png"
+          "team": "FSV Brück",
+          "played": 9,
+          "wins": 3,
+          "draws": 0,
+          "losses": 6,
+          "goals": "21:22",
+          "diff": "-1",
+          "points": 9,
+          "logo_url": "/assets/clubs/fsv-brueck.png"
         },
         {
           "position": 14,
+          "team": "Teltower FV 1913 II",
+          "played": 11,
+          "wins": 2,
+          "draws": 2,
+          "losses": 7,
+          "goals": "15:27",
+          "diff": "-12",
+          "points": 8,
+          "logo_url": "/assets/clubs/teltower-fv-1913-ii.png"
+        },
+        {
+          "position": 15,
           "team": "SG Bornim II",
           "played": 10,
           "wins": 2,
@@ -17044,18 +17061,6 @@
           "diff": "-20",
           "points": 7,
           "logo_url": "/assets/clubs/sg-bornim-ii.png"
-        },
-        {
-          "position": 15,
-          "team": "FSV Brück",
-          "played": 8,
-          "wins": 2,
-          "draws": 0,
-          "losses": 6,
-          "goals": "17:22",
-          "diff": "-5",
-          "points": 6,
-          "logo_url": "/assets/clubs/fsv-brueck.png"
         },
         {
           "position": 16,
@@ -17079,6 +17084,18 @@
       "rows": [
         {
           "position": 1,
+          "team": "BFC Dynamo U19",
+          "played": 12,
+          "wins": 9,
+          "draws": 3,
+          "losses": 0,
+          "goals": "37:20",
+          "diff": "+17",
+          "points": 30,
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
+        },
+        {
+          "position": 2,
           "team": "FC Hertha 03 Zehlendorf",
           "played": 12,
           "wins": 9,
@@ -17088,18 +17105,6 @@
           "diff": "+26",
           "points": 28,
           "logo_url": "/assets/clubs/fc-hertha-03-zehlendorf.png"
-        },
-        {
-          "position": 2,
-          "team": "BFC Dynamo U19",
-          "played": 11,
-          "wins": 8,
-          "draws": 3,
-          "losses": 0,
-          "goals": "35:19",
-          "diff": "+16",
-          "points": 27,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "position": 3,
@@ -17140,12 +17145,12 @@
         {
           "position": 6,
           "team": "SC Borea Dresden",
-          "played": 11,
+          "played": 12,
           "wins": 6,
           "draws": 1,
-          "losses": 4,
-          "goals": "26:14",
-          "diff": "+12",
+          "losses": 5,
+          "goals": "27:16",
+          "diff": "+11",
           "points": 19,
           "logo_url": "/assets/clubs/sc-borea-dresden.png"
         },

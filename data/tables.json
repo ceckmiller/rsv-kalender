@@ -266,6 +266,17 @@
       },
       {
         "position": 5,
+        "team": "SV Ziesar 31",
+        "played": 11,
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "goals": "27:21",
+        "diff": "+6",
+        "points": 16
+      },
+      {
+        "position": 6,
         "team": "FSV 95 Ketzin/​Falkenrehde",
         "played": 10,
         "wins": 4,
@@ -276,29 +287,29 @@
         "points": 16
       },
       {
-        "position": 6,
-        "team": "SV Ziesar 31",
-        "played": 10,
-        "wins": 5,
-        "draws": 0,
-        "losses": 5,
-        "goals": "26:20",
-        "diff": "+6",
-        "points": 15
-      },
-      {
         "position": 7,
-        "team": "Brandenburger SC Süd 05 II",
-        "played": 10,
-        "wins": 4,
-        "draws": 2,
-        "losses": 4,
-        "goals": "20:31",
-        "diff": "-11",
-        "points": 14
+        "team": "SV Falkensee-Finkenkrug II",
+        "played": 11,
+        "wins": 5,
+        "draws": 1,
+        "losses": 5,
+        "goals": "22:25",
+        "diff": "-3",
+        "points": 16
       },
       {
         "position": 8,
+        "team": "Brandenburger SC Süd 05 II",
+        "played": 11,
+        "wins": 4,
+        "draws": 2,
+        "losses": 5,
+        "goals": "21:33",
+        "diff": "-12",
+        "points": 14
+      },
+      {
+        "position": 9,
         "team": "RSV Eintracht 1949 U23",
         "played": 10,
         "wins": 3,
@@ -309,18 +320,18 @@
         "points": 13
       },
       {
-        "position": 9,
-        "team": "SV Falkensee-Finkenkrug II",
-        "played": 10,
-        "wins": 4,
-        "draws": 1,
-        "losses": 5,
-        "goals": "20:24",
-        "diff": "-4",
+        "position": 10,
+        "team": "SG Geltow",
+        "played": 11,
+        "wins": 3,
+        "draws": 4,
+        "losses": 4,
+        "goals": "19:31",
+        "diff": "-12",
         "points": 13
       },
       {
-        "position": 10,
+        "position": 11,
         "team": "FSV Babelsberg 74 II",
         "played": 11,
         "wins": 4,
@@ -331,7 +342,7 @@
         "points": 12
       },
       {
-        "position": 11,
+        "position": 12,
         "team": "UNITED TELTOW FC",
         "played": 9,
         "wins": 4,
@@ -342,24 +353,13 @@
         "points": 12
       },
       {
-        "position": 12,
+        "position": 13,
         "team": "SV Ruhlsdorf",
         "played": 10,
         "wins": 4,
         "draws": 0,
         "losses": 6,
         "goals": "21:33",
-        "diff": "-12",
-        "points": 12
-      },
-      {
-        "position": 13,
-        "team": "SG Geltow",
-        "played": 10,
-        "wins": 3,
-        "draws": 3,
-        "losses": 4,
-        "goals": "18:30",
         "diff": "-12",
         "points": 12
       },
@@ -407,23 +407,23 @@
       {
         "position": 1,
         "team": "Rot-Weiß Groß Glienicke",
-        "played": 10,
-        "wins": 9,
+        "played": 11,
+        "wins": 10,
         "draws": 1,
         "losses": 0,
-        "goals": "30:7",
-        "diff": "+23",
-        "points": 28
+        "goals": "34:8",
+        "diff": "+26",
+        "points": 31
       },
       {
         "position": 2,
         "team": "Potsdamer Kickers 94",
-        "played": 10,
+        "played": 11,
         "wins": 9,
         "draws": 0,
-        "losses": 1,
-        "goals": "33:15",
-        "diff": "+18",
+        "losses": 2,
+        "goals": "34:19",
+        "diff": "+15",
         "points": 27
       },
       {
@@ -461,14 +461,14 @@
       },
       {
         "position": 6,
-        "team": "SV 05 Rehbrücke",
-        "played": 11,
+        "team": "FSV Grün-Weiß Niemegk",
+        "played": 12,
         "wins": 4,
-        "draws": 2,
+        "draws": 3,
         "losses": 5,
-        "goals": "28:23",
-        "diff": "+5",
-        "points": 14
+        "goals": "33:37",
+        "diff": "-4",
+        "points": 15
       },
       {
         "position": 7,
@@ -483,13 +483,13 @@
       },
       {
         "position": 8,
-        "team": "FSV Grün-Weiß Niemegk",
-        "played": 11,
+        "team": "SV 05 Rehbrücke",
+        "played": 12,
         "wins": 4,
         "draws": 2,
-        "losses": 5,
-        "goals": "31:35",
-        "diff": "-4",
+        "losses": 6,
+        "goals": "28:27",
+        "diff": "+1",
         "points": 14
       },
       {
@@ -538,17 +538,28 @@
       },
       {
         "position": 13,
-        "team": "Teltower FV 1913 II",
-        "played": 10,
-        "wins": 2,
-        "draws": 1,
-        "losses": 7,
-        "goals": "13:25",
-        "diff": "-12",
-        "points": 7
+        "team": "FSV Brück",
+        "played": 9,
+        "wins": 3,
+        "draws": 0,
+        "losses": 6,
+        "goals": "21:22",
+        "diff": "-1",
+        "points": 9
       },
       {
         "position": 14,
+        "team": "Teltower FV 1913 II",
+        "played": 11,
+        "wins": 2,
+        "draws": 2,
+        "losses": 7,
+        "goals": "15:27",
+        "diff": "-12",
+        "points": 8
+      },
+      {
+        "position": 15,
         "team": "SG Bornim II",
         "played": 10,
         "wins": 2,
@@ -557,17 +568,6 @@
         "goals": "13:33",
         "diff": "-20",
         "points": 7
-      },
-      {
-        "position": 15,
-        "team": "FSV Brück",
-        "played": 8,
-        "wins": 2,
-        "draws": 0,
-        "losses": 6,
-        "goals": "17:22",
-        "diff": "-5",
-        "points": 6
       },
       {
         "position": 16,
@@ -590,6 +590,17 @@
     "rows": [
       {
         "position": 1,
+        "team": "BFC Dynamo U19",
+        "played": 12,
+        "wins": 9,
+        "draws": 3,
+        "losses": 0,
+        "goals": "37:20",
+        "diff": "+17",
+        "points": 30
+      },
+      {
+        "position": 2,
         "team": "FC Hertha 03 Zehlendorf",
         "played": 12,
         "wins": 9,
@@ -598,17 +609,6 @@
         "goals": "43:17",
         "diff": "+26",
         "points": 28
-      },
-      {
-        "position": 2,
-        "team": "BFC Dynamo U19",
-        "played": 11,
-        "wins": 8,
-        "draws": 3,
-        "losses": 0,
-        "goals": "35:19",
-        "diff": "+16",
-        "points": 27
       },
       {
         "position": 3,
@@ -646,12 +646,12 @@
       {
         "position": 6,
         "team": "SC Borea Dresden",
-        "played": 11,
+        "played": 12,
         "wins": 6,
         "draws": 1,
-        "losses": 4,
-        "goals": "26:14",
-        "diff": "+12",
+        "losses": 5,
+        "goals": "27:16",
+        "diff": "+11",
         "points": 19
       },
       {
