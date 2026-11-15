@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T18:07:54.608831+01:00",
+  "generated_at": "2026-11-15T22:48:35.219485+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -10035,7 +10035,8 @@
               "time": "15:00",
               "home": "FSV Babelsberg 74 II",
               "away": "FSV 95 Ketzin/​Falkenrehde",
-              "result": null,
+              "result": "3:4",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Kreispokal 2026/27",
