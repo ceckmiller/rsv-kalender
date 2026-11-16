@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T22:48:35.219485+01:00",
+  "generated_at": "2026-11-16T03:03:43.672255+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -10530,22 +10530,37 @@
         }
       ],
       "next_game": {
-        "id": "u23-610138092",
-        "matchday": 11,
-        "date": "2026-11-15",
+        "id": "u23-610138104",
+        "matchday": 12,
+        "date": "2026-11-22",
+        "time": "14:00",
+        "competition": "Kreisoberliga",
+        "home": "SG Blau-Weiß Pessin",
+        "away": "RSV Eintracht 1949 U23",
+        "home_logo": "/assets/clubs/sg-blau-weiss-pessin.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Sportplatz Pessin, Straße der Jugend 26, 14641 Pessin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Pessin%2C+Stra%C3%9Fe+der+Jugend+26%2C+14641+Pessin",
+        "is_home": false,
+        "round": "",
+        "ticket_url": ""
+      },
+      "next_home": {
+        "id": "u23-610138108",
+        "matchday": 13,
+        "date": "2026-11-29",
         "time": "14:00",
         "competition": "Kreisoberliga",
         "home": "RSV Eintracht 1949 U23",
-        "away": "FSV 95 Ketzin/​Falkenrehde",
+        "away": "Brandenburger SC Süd 05 II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fsv-95-ketzin-falkenrehde.png",
+        "away_logo": "/assets/clubs/brandenburger-sc-sued-05-ii.png",
         "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      },
-      "next_home": null
+      }
     },
     "u21": {
       "name": "RSV Eintracht – U21",
@@ -13461,22 +13476,6 @@
         }
       ],
       "next_game": {
-        "id": "u21-610480090",
-        "matchday": 10,
-        "date": "2026-11-15",
-        "time": "14:00",
-        "competition": "Kreisliga",
-        "home": "SV 71 Busendorf",
-        "away": "RSV Eintracht 1949 U21",
-        "home_logo": "/assets/clubs/sv-71-busendorf.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Busendorf%2C+R%C3%A4deler+Weg%2C+14547+Beelitz",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u21-610480100",
         "matchday": 11,
         "date": "2026-11-22",
@@ -13491,7 +13490,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": ""
-      }
+      },
+      "next_home": null
     },
     "u19": {
       "name": "RSV Eintracht – U19",
@@ -16679,7 +16679,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 15.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 16.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16879,7 +16879,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 15.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 16.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17079,7 +17079,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 15.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 16.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
