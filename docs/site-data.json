@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T04:45:54.199202+01:00",
+  "generated_at": "2026-11-18T22:27:31.671381+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -14212,6 +14212,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-860002238",
+          "matchday": null,
+          "date": "2026-11-28",
+          "time": "14:00",
+          "competition": "Landesfreundschaftsspiele",
+          "home": "Viktoria Berlin",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/viktoria-berlin.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde+KR2%2C+Ostpreu%C3%9Fendamm+3-17%2C+12207+Berlin",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690002051",
           "matchday": null,
           "date": "2027-01-30",
@@ -15558,6 +15575,29 @@
           ],
           "date": "2026-11-21",
           "date_end": "2026-11-21"
+        },
+        {
+          "id": "game:u19-860002238",
+          "kind": "game",
+          "title": "Landesfreundschaftsspiele",
+          "competition": "Landesfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-860002238",
+              "date": "2026-11-28",
+              "time": "14:00",
+              "home": "Viktoria Berlin",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
+              "matchday": null,
+              "team_fixture_id": "u19-860002238",
+              "home_logo": "/assets/clubs/viktoria-berlin.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            }
+          ],
+          "date": "2026-11-28",
+          "date_end": "2026-11-28"
         },
         {
           "id": "game:u19-690002051",

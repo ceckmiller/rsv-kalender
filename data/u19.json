@@ -396,6 +396,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I"
     },
     {
+      "id": "u19-860002238",
+      "date": "2026-11-28",
+      "time": "14:00",
+      "home": "Viktoria Berlin",
+      "away": "RSV Eintracht 1949 U19",
+      "competition": "Landesfreundschaftsspiele 2026/27",
+      "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
+      "source_url": "https://www.fussball.de/spiel/viktoria-berlin-rsv-eintracht-1949-u19/-/spiel/032O9EAOCS000000VS5489BTVSIO88SN",
+      "match_number": "860002238",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC00003IVV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+    },
+    {
       "id": "u19-690002051",
       "date": "2027-01-30",
       "time": "12:00",
