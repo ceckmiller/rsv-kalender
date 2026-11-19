@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T04:26:14.962155+01:00",
+  "generated_at": "2026-11-19T14:02:03.640407+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1077,7 +1077,7 @@
           "id": "u21-690047158",
           "matchday": 18,
           "date": "2026-11-28",
-          "time": "14:00",
+          "time": "13:00",
           "competition": "Regionalliga",
           "home": "RSV Eintracht 1949",
           "away": "BFC Preussen",
@@ -5318,7 +5318,7 @@
             {
               "id": "u21-690047158",
               "date": "2026-11-28",
-              "time": "14:00",
+              "time": "13:00",
               "home": "RSV Eintracht 1949",
               "away": "BFC Preussen",
               "result": null,
@@ -7824,7 +7824,7 @@
         "id": "u21-690047158",
         "matchday": 18,
         "date": "2026-11-28",
-        "time": "14:00",
+        "time": "13:00",
         "competition": "Regionalliga",
         "home": "RSV Eintracht 1949",
         "away": "BFC Preussen",
