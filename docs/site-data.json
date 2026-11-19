@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T14:02:03.640407+01:00",
+  "generated_at": "2026-11-19T22:32:16.669881+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -7965,7 +7965,7 @@
           "location": "Sportplatz Ziesar, Schopsdorfer Chaussee 17, 14793 Ziesar",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Ziesar%2C+Schopsdorfer+Chaussee+17%2C+14793+Ziesar",
           "points": 0,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-liga-20260906",
@@ -7988,7 +7988,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 0,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138020",
@@ -8010,7 +8010,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 3,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138026",
@@ -8031,7 +8031,7 @@
           "location": "Sportplatz Geltow Am Mühlenberg, Am Wasser 3, 14548 Schwielowsee",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Geltow+Am+M%C3%BChlenberg%2C+Am+Wasser+3%2C+14548+Schwielowsee",
           "points": 4,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138036",
@@ -8056,7 +8056,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 5,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-710089074",
@@ -8103,7 +8103,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 6,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138061",
@@ -8126,7 +8126,7 @@
           "location": "Rudolf-Harbig-Stadion, Am Schillerpark 3, 14662 Friesack",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Rudolf-Harbig-Stadion%2C+Am+Schillerpark+3%2C+14662+Friesack",
           "points": 7,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138068",
@@ -8152,7 +8152,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 10,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138076",
@@ -8175,7 +8175,7 @@
           "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 13,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-610138082",
@@ -8199,7 +8199,7 @@
           "location": "Sportplatz Bredow, Oranienburger Str. 10b, 14656 Brieselang",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Bredow%2C+Oranienburger+Str.+10b%2C+14656+Brieselang",
           "points": 13,
-          "table_position": 9
+          "table_position": 10
         },
         {
           "id": "u23-710089095",
@@ -14214,8 +14214,8 @@
         {
           "id": "u19-860002238",
           "matchday": null,
-          "date": "2026-11-28",
-          "time": "14:00",
+          "date": "2026-11-29",
+          "time": "13:00",
           "competition": "Landesfreundschaftsspiele",
           "home": "Viktoria Berlin",
           "away": "RSV Eintracht 1949 U19",
@@ -15584,8 +15584,8 @@
           "matches": [
             {
               "id": "u19-860002238",
-              "date": "2026-11-28",
-              "time": "14:00",
+              "date": "2026-11-29",
+              "time": "13:00",
               "home": "Viktoria Berlin",
               "away": "RSV Eintracht 1949 U19",
               "result": null,
@@ -15596,8 +15596,8 @@
               "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
             }
           ],
-          "date": "2026-11-28",
-          "date_end": "2026-11-28"
+          "date": "2026-11-29",
+          "date_end": "2026-11-29"
         },
         {
           "id": "game:u19-690002051",
@@ -16809,6 +16809,18 @@
         },
         {
           "position": 8,
+          "team": "FSV Babelsberg 74 II",
+          "played": 12,
+          "wins": 5,
+          "draws": 0,
+          "losses": 7,
+          "goals": "27:31",
+          "diff": "-4",
+          "points": 15,
+          "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
+        },
+        {
+          "position": 9,
           "team": "Brandenburger SC Süd 05 II",
           "played": 11,
           "wins": 4,
@@ -16820,7 +16832,7 @@
           "logo_url": "/assets/clubs/brandenburger-sc-sued-05-ii.png"
         },
         {
-          "position": 9,
+          "position": 10,
           "team": "RSV Eintracht 1949 U23",
           "played": 10,
           "wins": 3,
@@ -16832,7 +16844,7 @@
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
-          "position": 10,
+          "position": 11,
           "team": "SG Geltow",
           "played": 11,
           "wins": 3,
@@ -16842,18 +16854,6 @@
           "diff": "-12",
           "points": 13,
           "logo_url": "/assets/clubs/sg-geltow.png"
-        },
-        {
-          "position": 11,
-          "team": "FSV Babelsberg 74 II",
-          "played": 11,
-          "wins": 4,
-          "draws": 0,
-          "losses": 7,
-          "goals": "23:28",
-          "diff": "-5",
-          "points": 12,
-          "logo_url": "/assets/clubs/fsv-babelsberg-74-ii.png"
         },
         {
           "position": 12,
@@ -16870,12 +16870,12 @@
         {
           "position": 13,
           "team": "SV Ruhlsdorf",
-          "played": 10,
+          "played": 11,
           "wins": 4,
           "draws": 0,
-          "losses": 6,
-          "goals": "21:33",
-          "diff": "-12",
+          "losses": 7,
+          "goals": "24:37",
+          "diff": "-13",
           "points": 12,
           "logo_url": "/assets/clubs/sv-ruhlsdorf.png"
         },
