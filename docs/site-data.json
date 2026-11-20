@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T12:33:36.565645+01:00",
+  "generated_at": "2026-11-20T21:11:36.101369+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -611,6 +611,28 @@
           "referee": null,
           "youtube_url": "https://www.youtube.com/results?search_query=RSV+Eintracht+1949+Hertha+BSC+U23+OSTSPORT.TV",
           "report_url": ""
+        },
+        {
+          "id": "rl-17",
+          "matchday": 17,
+          "date": "2026-11-20",
+          "time": "19:00",
+          "competition": "Regionalliga",
+          "home": "1. FC Lokomotive Leipzig",
+          "away": "RSV Eintracht 1949",
+          "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "3:0",
+          "halftime_result": "1:0",
+          "scorers": [],
+          "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
+          "points": 9,
+          "table_position": 17,
+          "attendance": null,
+          "referee": "Julius Hanft",
+          "youtube_url": "https://www.youtube.com/results?search_query=1.+FC+Lokomotive+Leipzig+RSV+Eintracht+1949+OSTSPORT.TV",
+          "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-spieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141"
         }
       ],
       "fixtures": [
@@ -1066,7 +1088,7 @@
           "away": "RSV Eintracht 1949",
           "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "3:0",
           "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
           "is_home": false,
@@ -5039,7 +5061,8 @@
               "time": "19:00",
               "home": "1. FC Lokomotive Leipzig",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "3:0",
+              "halftime_result": "1:0",
               "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
               "matchday": 17,
               "team_fixture_id": "rl-17",
@@ -5063,7 +5086,8 @@
               "time": "19:00",
               "home": "1. FC Lokomotive Leipzig",
               "away": "RSV Eintracht 1949",
-              "result": null,
+              "result": "3:0",
+              "halftime_result": "1:0",
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -7805,22 +7829,6 @@
         }
       ],
       "next_game": {
-        "id": "rl-17",
-        "matchday": 17,
-        "date": "2026-11-20",
-        "time": "19:00",
-        "competition": "Regionalliga",
-        "home": "1. FC Lokomotive Leipzig",
-        "away": "RSV Eintracht 1949",
-        "home_logo": "/assets/clubs/1-fc-lok-leipzig.png",
-        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bruno-Plache-Stadion+Hauptfeld%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
-        "is_home": false,
-        "round": "",
-        "ticket_url": ""
-      },
-      "next_home": {
         "id": "u21-690047158",
         "matchday": 18,
         "date": "2026-11-28",
@@ -7835,7 +7843,8 @@
         "is_home": true,
         "round": "",
         "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
-      }
+      },
+      "next_home": null
     },
     "u23": {
       "name": "RSV Eintracht – U23",
@@ -16461,7 +16470,7 @@
   "tables": {
     "regionalliga": {
       "competition": "Regionalliga Nordost",
-      "updated_at": "Aktueller Stand (bis 16. Spieltag)",
+      "updated_at": "Aktueller Stand (bis 17. Spieltag)",
       "rows": [
         {
           "team": "FC Rot-Weiß Erfurt",
@@ -16657,12 +16666,12 @@
         },
         {
           "team": "RSV Eintracht 1949",
-          "played": 16,
+          "played": 17,
           "wins": 2,
           "draws": 3,
-          "losses": 11,
-          "goals": "16:36",
-          "diff": "-20",
+          "losses": 12,
+          "goals": "16:39",
+          "diff": "-23",
           "points": 9,
           "position": 17,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
@@ -16680,6 +16689,18 @@
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
         },
         {
+          "team": "1. FC Lokomotive Leipzig",
+          "played": 1,
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": "3:0",
+          "diff": "+3",
+          "points": 3,
+          "position": 19,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+        },
+        {
           "team": "FC Erzgebirge Aue",
           "played": 1,
           "wins": 1,
@@ -16688,11 +16709,11 @@
           "goals": "2:1",
           "diff": "+1",
           "points": 3,
-          "position": 19,
+          "position": 20,
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
-          "position": 20,
+          "position": 21,
           "team": "BFC Preussen",
           "played": 0,
           "wins": 0,
@@ -16704,7 +16725,7 @@
           "logo_url": "/assets/clubs/bfc-preussen.png"
         },
         {
-          "position": 21,
+          "position": 22,
           "team": "VSG Altglienicke Berlin",
           "played": 0,
           "wins": 0,

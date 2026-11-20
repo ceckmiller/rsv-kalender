@@ -582,14 +582,16 @@
       "home": "1. FC Lokomotive Leipzig",
       "away": "RSV Eintracht 1949",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "3:0",
       "location": "Bruno-Plache-Stadion Hauptfeld, Connewitzer Str. 21, 04289 Leipzig",
       "source_url": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-rsv-eintracht-1949/-/spiel/031DEIC6UG000000VS5489BUVUR5FS5A",
       "report_url": "https://datencenter.dfb.de/datencenter/regionalliga-nordost/2026-2027/17-spieltag/1-fc-lok-leipzig-rsv-eintracht-1949-2426141",
       "match_number": "690047145",
       "location_source": "https://www.fussball.de/spiel/1-fc-lokomotive-leipzig-rsv-eintracht-1949/-/spiel/031DEIC6UG000000VS5489BUVUR5FS5A",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "halftime_result": "1:0",
+      "referee": "Julius Hanft"
     },
     {
       "id": "u21-690047158",

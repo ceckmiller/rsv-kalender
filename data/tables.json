@@ -1,7 +1,7 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 16. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 17. Spieltag)",
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
@@ -181,12 +181,12 @@
       },
       {
         "team": "RSV Eintracht 1949",
-        "played": 16,
+        "played": 17,
         "wins": 2,
         "draws": 3,
-        "losses": 11,
-        "goals": "16:36",
-        "diff": "-20",
+        "losses": 12,
+        "goals": "16:39",
+        "diff": "-23",
         "points": 9,
         "position": 17
       },
@@ -202,6 +202,17 @@
         "position": 18
       },
       {
+        "team": "1. FC Lokomotive Leipzig",
+        "played": 1,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goals": "3:0",
+        "diff": "+3",
+        "points": 3,
+        "position": 19
+      },
+      {
         "team": "FC Erzgebirge Aue",
         "played": 1,
         "wins": 1,
@@ -210,7 +221,7 @@
         "goals": "2:1",
         "diff": "+1",
         "points": 3,
-        "position": 19
+        "position": 20
       }
     ]
   },
