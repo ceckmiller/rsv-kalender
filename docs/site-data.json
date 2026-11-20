@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T04:11:31.446682+01:00",
+  "generated_at": "2026-11-20T12:33:36.565645+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -11081,7 +11081,7 @@
           "id": "u21-610480100",
           "matchday": 11,
           "date": "2026-11-22",
-          "time": "14:00",
+          "time": "15:00",
           "competition": "Kreisliga",
           "home": "RSV Eintracht 1949 U21",
           "away": "ESV Lok Seddin",
@@ -13004,7 +13004,7 @@
             {
               "id": "u21-610480100",
               "date": "2026-11-22",
-              "time": "14:00",
+              "time": "15:00",
               "home": "RSV Eintracht 1949 U21",
               "away": "ESV Lok Seddin",
               "result": null,
@@ -13479,7 +13479,7 @@
         "id": "u21-610480100",
         "matchday": 11,
         "date": "2026-11-22",
-        "time": "14:00",
+        "time": "15:00",
         "competition": "Kreisliga",
         "home": "RSV Eintracht 1949 U21",
         "away": "ESV Lok Seddin",
