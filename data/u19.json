@@ -387,13 +387,23 @@
       "home": "RSV Eintracht 1949 U19",
       "away": "Steglitzer FC Stern 1900",
       "competition": "Regionalliga 2026/27",
-      "result": null,
+      "result": "5:2",
       "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u19-sfc-stern/-/spiel/031B3S0EFC000000VS5489BUVV628VP4",
       "match_number": "690007088",
       "time_provisional": true,
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNCAC000057VV0AG08LVUPGND5I",
+      "halftime_result": "1:2",
+      "scorers": [
+        "5. Minute – Emanuel Duarte Lopes (Steglitzer FC Stern 1900) – 0:1",
+        "36. Minute – Jannik Ross-Arzapalo (Steglitzer FC Stern 1900) – 0:2",
+        "45. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 1:2",
+        "47. Minute – Mohamed Diane (RSV Eintracht 1949 U19) – 2:2",
+        "61. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 3:2",
+        "69. Minute – Timm Mller (RSV Eintracht 1949 U19) – 4:2",
+        "79. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 5:2"
+      ]
     },
     {
       "id": "u19-860002238",

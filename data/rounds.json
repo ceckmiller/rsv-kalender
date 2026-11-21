@@ -1938,7 +1938,8 @@
           "time": "14:00",
           "home": "FSV 63 Luckenwalde",
           "away": "Chemnitzer FC",
-          "result": null,
+          "result": "1:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1949,7 +1950,8 @@
           "time": "14:00",
           "home": "Erzgebirge Aue",
           "away": "SV Babelsberg 03",
-          "result": null,
+          "result": "3:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1960,7 +1962,8 @@
           "time": "14:00",
           "home": "SV Tasmania Berlin",
           "away": "Hertha BSC II",
-          "result": null,
+          "result": "3:3",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"

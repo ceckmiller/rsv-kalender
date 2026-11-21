@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T02:31:41.066357+01:00",
+  "generated_at": "2026-11-21T18:31:08.174863+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5133,7 +5133,8 @@
               "time": "14:00",
               "home": "Erzgebirge Aue",
               "away": "SV Babelsberg 03",
-              "result": null,
+              "result": "3:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -5146,7 +5147,8 @@
               "time": "14:00",
               "home": "FSV 63 Luckenwalde",
               "away": "Chemnitzer FC",
-              "result": null,
+              "result": "1:2",
+              "halftime_result": null,
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -5159,7 +5161,8 @@
               "time": "14:00",
               "home": "SV Tasmania Berlin",
               "away": "Hertha BSC II",
-              "result": null,
+              "result": "3:3",
+              "halftime_result": null,
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -13618,7 +13621,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 1,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007021",
@@ -13641,7 +13644,7 @@
           "location": "Hauptplatz Bürgerschacht, Saarstr. 50, 08056 Zwickau",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Hauptplatz+B%C3%BCrgerschacht%2C+Saarstr.+50%2C+08056+Zwickau",
           "points": 2,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007025",
@@ -13664,7 +13667,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 2,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007033",
@@ -13686,7 +13689,7 @@
           "location": "Ernst-Reuter-Sportf. NR1, Onkel-Tom-Str. 40, 14169 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+NR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
           "points": 2,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007039",
@@ -13713,7 +13716,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 5,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007046",
@@ -13736,7 +13739,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 6,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007003",
@@ -13758,7 +13761,7 @@
           "location": "Sportpark SG Weißig Rasen, Heinrich-Lange-Str. 37, 01328 Dresden",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportpark+SG+Wei%C3%9Fig+Rasen%2C+Heinrich-Lange-Str.+37%2C+01328+Dresden",
           "points": 6,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007051",
@@ -13779,7 +13782,7 @@
           "location": "Stadion der Freundschaft, Dieter-Schulz-Platz, Buschmühlenweg 172, 15230 Frankfurt (Oder)",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+der+Freundschaft%2C+Dieter-Schulz-Platz%2C+Buschm%C3%BChlenweg+172%2C+15230+Frankfurt+%28Oder%29",
           "points": 6,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007060",
@@ -13805,7 +13808,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 9,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007070",
@@ -13823,7 +13826,7 @@
           "location": "Br.-Plache-Stadion Großfeld 1 KR, Connewitzer Str. 21, 04289 Leipzig",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Br.-Plache-Stadion+Gro%C3%9Ffeld+1+KR%2C+Connewitzer+Str.+21%2C+04289+Leipzig",
           "points": 10,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-690007074",
@@ -13847,7 +13850,7 @@
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "points": 10,
-          "table_position": 10
+          "table_position": 9
         },
         {
           "id": "u19-710069003",
@@ -13899,7 +13902,33 @@
           "location": "H.-Rosenthal-Sp.anl. NR1, Kühler Weg 12, 14055 Berlin",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=H.-Rosenthal-Sp.anl.+NR1%2C+K%C3%BChler+Weg+12%2C+14055+Berlin",
           "points": 10,
-          "table_position": 10
+          "table_position": 9
+        },
+        {
+          "id": "u19-690007088",
+          "matchday": 13,
+          "date": "2026-11-21",
+          "time": "12:00",
+          "competition": "Regionalliga",
+          "home": "RSV Eintracht 1949 U19",
+          "away": "Steglitzer FC Stern 1900",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/steglitzer-fc-stern-1900.png",
+          "result": "5:2",
+          "halftime_result": "1:2",
+          "scorers": [
+            "5. Minute – Emanuel Duarte Lopes (Steglitzer FC Stern 1900) – 0:1",
+            "36. Minute – Jannik Ross-Arzapalo (Steglitzer FC Stern 1900) – 0:2",
+            "45. Minute – Theodor Wiesner (RSV Eintracht 1949 U19) – 1:2",
+            "47. Minute – Mohamed Diane (RSV Eintracht 1949 U19) – 2:2",
+            "61. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 3:2",
+            "69. Minute – Timm Mller (RSV Eintracht 1949 U19) – 4:2",
+            "79. Minute – Luca Mahler (RSV Eintracht 1949 U19) – 5:2"
+          ],
+          "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "points": 13,
+          "table_position": 9
         }
       ],
       "fixtures": [
@@ -14219,7 +14248,7 @@
           "away": "Steglitzer FC Stern 1900",
           "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
           "away_logo": "/assets/clubs/steglitzer-fc-stern-1900.png",
-          "result": "",
+          "result": "5:2",
           "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
           "is_home": true,
@@ -15580,7 +15609,8 @@
               "time": "12:00",
               "home": "RSV Eintracht 1949 U19",
               "away": "Steglitzer FC Stern 1900",
-              "result": null,
+              "result": "5:2",
+              "halftime_result": "1:2",
               "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
               "matchday": 13,
               "team_fixture_id": "u19-690007088",
@@ -16088,22 +16118,37 @@
         }
       ],
       "next_game": {
-        "id": "u19-690007088",
-        "matchday": 13,
-        "date": "2026-11-21",
-        "time": "12:00",
-        "competition": "Regionalliga",
-        "home": "RSV Eintracht 1949 U19",
-        "away": "Steglitzer FC Stern 1900",
-        "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/steglitzer-fc-stern-1900.png",
-        "location": "Sportplatz Heinrich-Zille-Straße, Platz 1, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Stra%C3%9Fe%2C+Platz+1%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
-        "is_home": true,
+        "id": "u19-860002238",
+        "matchday": null,
+        "date": "2026-11-29",
+        "time": "13:00",
+        "competition": "Landesfreundschaftsspiele",
+        "home": "Viktoria Berlin",
+        "away": "RSV Eintracht 1949 U19",
+        "home_logo": "/assets/clubs/viktoria-berlin.png",
+        "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "location": "Stadion Lichterfelde KR2, Ostpreußendamm 3-17, 12207 Berlin",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Stadion+Lichterfelde+KR2%2C+Ostpreu%C3%9Fendamm+3-17%2C+12207+Berlin",
+        "is_home": false,
         "round": "",
         "ticket_url": ""
       },
-      "next_home": null
+      "next_home": {
+        "id": "u19-690002051",
+        "matchday": null,
+        "date": "2027-01-30",
+        "time": "12:00",
+        "competition": "Regionalfreundschaftsspiele",
+        "home": "RSV Eintracht 1949 U19",
+        "away": "Ludwigsfelder FC",
+        "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+        "away_logo": "/assets/clubs/ludwigsfelder-fc.png",
+        "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow",
+        "is_home": true,
+        "round": "",
+        "ticket_url": ""
+      }
     }
   },
   "calendar_teams": {
@@ -16492,13 +16537,13 @@
         },
         {
           "team": "Chemnitzer FC",
-          "played": 16,
-          "wins": 10,
+          "played": 17,
+          "wins": 11,
           "draws": 3,
           "losses": 3,
-          "goals": "34:16",
-          "diff": "+18",
-          "points": 33,
+          "goals": "36:17",
+          "diff": "+19",
+          "points": 36,
           "position": 2,
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
@@ -16539,6 +16584,18 @@
           "logo_url": "/assets/clubs/vsg-altglienicke.png"
         },
         {
+          "team": "Erzgebirge Aue",
+          "played": 16,
+          "wins": 9,
+          "draws": 3,
+          "losses": 4,
+          "goals": "27:19",
+          "diff": "+8",
+          "points": 30,
+          "position": 6,
+          "logo_url": "/assets/clubs/erzgebirge-aue.png"
+        },
+        {
           "team": "FC Carl Zeiss Jena",
           "played": 16,
           "wins": 8,
@@ -16547,20 +16604,8 @@
           "goals": "24:14",
           "diff": "+10",
           "points": 27,
-          "position": 6,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
-        },
-        {
-          "team": "Erzgebirge Aue",
-          "played": 15,
-          "wins": 8,
-          "draws": 3,
-          "losses": 4,
-          "goals": "24:18",
-          "diff": "+6",
-          "points": 27,
           "position": 7,
-          "logo_url": "/assets/clubs/erzgebirge-aue.png"
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "Greifswalder FC",
@@ -16612,12 +16657,12 @@
         },
         {
           "team": "SV Babelsberg 03",
-          "played": 16,
+          "played": 17,
           "wins": 4,
           "draws": 4,
-          "losses": 8,
-          "goals": "16:28",
-          "diff": "-12",
+          "losses": 9,
+          "goals": "17:31",
+          "diff": "-14",
           "points": 16,
           "position": 12,
           "logo_url": "/assets/clubs/sv-babelsberg-03.png"
@@ -16648,25 +16693,25 @@
         },
         {
           "team": "Hertha BSC II",
-          "played": 16,
+          "played": 17,
           "wins": 2,
-          "draws": 6,
+          "draws": 7,
           "losses": 8,
-          "goals": "15:30",
+          "goals": "18:33",
           "diff": "-15",
-          "points": 12,
+          "points": 13,
           "position": 15,
           "logo_url": "/assets/clubs/hertha-bsc-ii.png"
         },
         {
           "team": "SV Tasmania Berlin",
-          "played": 16,
+          "played": 17,
           "wins": 3,
-          "draws": 2,
+          "draws": 3,
           "losses": 11,
-          "goals": "24:48",
+          "goals": "27:51",
           "diff": "-24",
-          "points": 11,
+          "points": 12,
           "position": 16,
           "logo_url": "/assets/clubs/sv-tasmania-berlin.png"
         },
@@ -16684,12 +16729,12 @@
         },
         {
           "team": "FSV 63 Luckenwalde",
-          "played": 16,
+          "played": 17,
           "wins": 2,
           "draws": 2,
-          "losses": 12,
-          "goals": "17:37",
-          "diff": "-20",
+          "losses": 13,
+          "goals": "18:39",
+          "diff": "-21",
           "points": 8,
           "position": 18,
           "logo_url": "/assets/clubs/fsv-63-luckenwalde.png"
@@ -17153,41 +17198,53 @@
         {
           "position": 1,
           "team": "BFC Dynamo U19",
-          "played": 12,
-          "wins": 9,
+          "played": 13,
+          "wins": 10,
           "draws": 3,
           "losses": 0,
-          "goals": "37:20",
-          "diff": "+17",
-          "points": 30,
+          "goals": "40:20",
+          "diff": "+20",
+          "points": 33,
           "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "position": 2,
           "team": "FC Hertha 03 Zehlendorf",
-          "played": 12,
-          "wins": 9,
+          "played": 13,
+          "wins": 10,
           "draws": 1,
           "losses": 2,
-          "goals": "43:17",
-          "diff": "+26",
-          "points": 28,
+          "goals": "44:17",
+          "diff": "+27",
+          "points": 31,
           "logo_url": "/assets/clubs/fc-hertha-03-zehlendorf.png"
         },
         {
           "position": 3,
           "team": "Berliner SC",
-          "played": 12,
+          "played": 13,
           "wins": 8,
-          "draws": 2,
+          "draws": 3,
           "losses": 2,
           "goals": "40:19",
           "diff": "+21",
-          "points": 26,
+          "points": 27,
           "logo_url": "/assets/clubs/berliner-sc.png"
         },
         {
           "position": 4,
+          "team": "1. FC Lokomotive Leipzig U19",
+          "played": 13,
+          "wins": 8,
+          "draws": 1,
+          "losses": 4,
+          "goals": "34:22",
+          "diff": "+12",
+          "points": 25,
+          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
+        },
+        {
+          "position": 5,
           "team": "Sport-Club Staaken 1919 U19",
           "played": 12,
           "wins": 6,
@@ -17199,26 +17256,14 @@
           "logo_url": "/assets/clubs/sport-club-staaken-1919.png"
         },
         {
-          "position": 5,
-          "team": "1. FC Lokomotive Leipzig U19",
-          "played": 12,
-          "wins": 7,
-          "draws": 1,
-          "losses": 4,
-          "goals": "31:21",
-          "diff": "+10",
-          "points": 22,
-          "logo_url": "/assets/clubs/1-fc-lok-leipzig.png"
-        },
-        {
           "position": 6,
           "team": "SC Borea Dresden",
-          "played": 12,
+          "played": 13,
           "wins": 6,
           "draws": 1,
-          "losses": 5,
-          "goals": "27:16",
-          "diff": "+11",
+          "losses": 6,
+          "goals": "27:17",
+          "diff": "+10",
           "points": 19,
           "logo_url": "/assets/clubs/sc-borea-dresden.png"
         },
@@ -17248,63 +17293,63 @@
         },
         {
           "position": 9,
-          "team": "1. FC Frankfurt /​O.",
-          "played": 12,
-          "wins": 4,
-          "draws": 0,
-          "losses": 8,
-          "goals": "17:31",
-          "diff": "-14",
-          "points": 12,
-          "logo_url": "/assets/clubs/1-fc-frankfurt-oder.png"
+          "team": "RSV Eintracht 1949 U19",
+          "played": 13,
+          "wins": 3,
+          "draws": 4,
+          "losses": 6,
+          "goals": "25:27",
+          "diff": "-2",
+          "points": 13,
+          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
         {
           "position": 10,
-          "team": "RSV Eintracht 1949 U19",
-          "played": 12,
-          "wins": 2,
-          "draws": 4,
-          "losses": 6,
-          "goals": "20:25",
-          "diff": "-5",
-          "points": 10,
-          "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
+          "team": "1. FC Frankfurt /​O.",
+          "played": 13,
+          "wins": 4,
+          "draws": 1,
+          "losses": 8,
+          "goals": "17:31",
+          "diff": "-14",
+          "points": 13,
+          "logo_url": "/assets/clubs/1-fc-frankfurt-oder.png"
         },
         {
           "position": 11,
           "team": "Steglitzer FC Stern 1900",
-          "played": 12,
+          "played": 13,
           "wins": 2,
           "draws": 3,
-          "losses": 7,
-          "goals": "21:34",
-          "diff": "-13",
+          "losses": 8,
+          "goals": "23:39",
+          "diff": "-16",
           "points": 9,
           "logo_url": "/assets/clubs/steglitzer-fc-stern-1900.png"
         },
         {
           "position": 12,
-          "team": "FC Mecklenburg Schwerin U19",
-          "played": 12,
-          "wins": 2,
-          "draws": 3,
-          "losses": 7,
-          "goals": "17:39",
-          "diff": "-22",
+          "team": "FC Viktoria 1889 Berlin U19",
+          "played": 13,
+          "wins": 3,
+          "draws": 0,
+          "losses": 10,
+          "goals": "18:43",
+          "diff": "-25",
           "points": 9,
-          "logo_url": "/assets/clubs/fc-mecklenburg-schwerin.png"
+          "logo_url": "/assets/clubs/fc-viktoria-1889-berlin.png"
         },
         {
           "position": 13,
-          "team": "FC Viktoria 1889 Berlin U19",
-          "played": 12,
-          "wins": 3,
-          "draws": 0,
-          "losses": 9,
-          "goals": "17:40",
-          "diff": "-23",
+          "team": "FC Mecklenburg Schwerin U19",
+          "played": 13,
+          "wins": 2,
+          "draws": 3,
+          "losses": 8,
+          "goals": "17:42",
+          "diff": "-25",
           "points": 9,
-          "logo_url": "/assets/clubs/fc-viktoria-1889-berlin.png"
+          "logo_url": "/assets/clubs/fc-mecklenburg-schwerin.png"
         },
         {
           "position": 14,
