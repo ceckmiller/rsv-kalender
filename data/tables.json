@@ -5,13 +5,13 @@
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 16,
-        "wins": 11,
+        "played": 17,
+        "wins": 12,
         "draws": 4,
         "losses": 1,
-        "goals": "48:19",
-        "diff": "+29",
-        "points": 37,
+        "goals": "51:19",
+        "diff": "+32",
+        "points": 40,
         "position": 1
       },
       {
@@ -49,12 +49,12 @@
       },
       {
         "team": "VSG Altglienicke",
-        "played": 16,
+        "played": 17,
         "wins": 9,
         "draws": 3,
-        "losses": 4,
-        "goals": "32:20",
-        "diff": "+12",
+        "losses": 5,
+        "goals": "32:23",
+        "diff": "+9",
         "points": 30,
         "position": 5
       },
@@ -104,24 +104,24 @@
       },
       {
         "team": "1. FC Magdeburg II",
-        "played": 16,
+        "played": 17,
         "wins": 6,
-        "draws": 3,
+        "draws": 4,
         "losses": 7,
-        "goals": "32:33",
+        "goals": "35:36",
         "diff": "-1",
-        "points": 21,
+        "points": 22,
         "position": 10
       },
       {
         "team": "FSV Zwickau",
-        "played": 16,
+        "played": 17,
         "wins": 5,
-        "draws": 4,
+        "draws": 5,
         "losses": 7,
-        "goals": "18:27",
+        "goals": "21:30",
         "diff": "-9",
-        "points": 19,
+        "points": 20,
         "position": 11
       },
       {
@@ -227,7 +227,7 @@
   },
   "u23": {
     "competition": "Kreisoberliga",
-    "updated_at": "Offizielle Tabelle · Stand: 20.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "rows": [
@@ -411,7 +411,7 @@
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "Offizielle Tabelle · Stand: 20.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
     "rows": [
@@ -595,7 +595,7 @@
   },
   "u19": {
     "competition": "Regionalliga",
-    "updated_at": "Offizielle Tabelle · Stand: 20.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "rows": [

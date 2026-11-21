@@ -591,7 +591,13 @@
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00IT28CTO0000000VTVG0001VSAQC3F6",
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
       "halftime_result": "1:0",
-      "referee": "Julius Hanft"
+      "referee": "Julius Hanft",
+      "scorers": [
+        "42. Minute – Alexander Siebeck (1. FC Lokomotive Leipzig) – 1:0",
+        "59. Minute – Eren ztrk (1. FC Lokomotive Leipzig) – 2:0",
+        "89. Minute – Arne Rhlemann (1. FC Lokomotive Leipzig) – 3:0"
+      ],
+      "attendance": 4049
     },
     {
       "id": "u21-690047158",

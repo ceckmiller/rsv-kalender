@@ -1901,7 +1901,8 @@
           "time": "19:00",
           "home": "FC Rot-Weiß Erfurt",
           "away": "VSG Altglienicke",
-          "result": null,
+          "result": "3:0",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
@@ -1912,7 +1913,8 @@
           "time": "19:00",
           "home": "1. FC Magdeburg II",
           "away": "FSV Zwickau",
-          "result": null,
+          "result": "3:3",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
