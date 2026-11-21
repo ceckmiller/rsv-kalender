@@ -70,25 +70,25 @@
         "position": 6
       },
       {
-        "team": "FC Carl Zeiss Jena",
-        "played": 16,
+        "team": "Greifswalder FC",
+        "played": 17,
         "wins": 8,
-        "draws": 3,
-        "losses": 5,
-        "goals": "24:14",
-        "diff": "+10",
-        "points": 27,
+        "draws": 5,
+        "losses": 4,
+        "goals": "36:25",
+        "diff": "+11",
+        "points": 29,
         "position": 7
       },
       {
-        "team": "Greifswalder FC",
-        "played": 16,
-        "wins": 7,
-        "draws": 5,
-        "losses": 4,
-        "goals": "33:24",
-        "diff": "+9",
-        "points": 26,
+        "team": "FC Carl Zeiss Jena",
+        "played": 17,
+        "wins": 8,
+        "draws": 3,
+        "losses": 6,
+        "goals": "25:17",
+        "diff": "+8",
+        "points": 27,
         "position": 8
       },
       {
@@ -227,7 +227,7 @@
   },
   "u23": {
     "competition": "Kreisoberliga",
-    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "rows": [
@@ -411,7 +411,7 @@
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
     "rows": [
@@ -595,7 +595,7 @@
   },
   "u19": {
     "competition": "Regionalliga",
-    "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "rows": [

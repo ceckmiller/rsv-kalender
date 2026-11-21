@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T18:31:08.174863+01:00",
+  "generated_at": "2026-11-22T00:13:55.713661+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5175,7 +5175,8 @@
               "time": "18:00",
               "home": "Greifswalder FC",
               "away": "FC Carl Zeiss Jena",
-              "result": null,
+              "result": "3:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -14273,6 +14274,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-690002062",
+          "matchday": null,
+          "date": "2027-01-23",
+          "time": "11:30",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949 U19",
+          "away": "FC Hertha 03 II",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/fc-hertha-03-ii.png",
+          "result": "",
+          "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+          "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690002051",
           "matchday": null,
           "date": "2027-01-30",
@@ -15645,6 +15663,29 @@
           "date_end": "2026-11-29"
         },
         {
+          "id": "game:u19-690002062",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002062",
+              "date": "2027-01-23",
+              "time": "11:30",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "FC Hertha 03 II",
+              "result": null,
+              "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+              "matchday": null,
+              "team_fixture_id": "u19-690002062",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/fc-hertha-03-ii.png"
+            }
+          ],
+          "date": "2027-01-23",
+          "date_end": "2027-01-23"
+        },
+        {
           "id": "game:u19-690002051",
           "kind": "game",
           "title": "Regionalfreundschaftsspiele",
@@ -16134,17 +16175,17 @@
         "ticket_url": ""
       },
       "next_home": {
-        "id": "u19-690002051",
+        "id": "u19-690002062",
         "matchday": null,
-        "date": "2027-01-30",
-        "time": "12:00",
+        "date": "2027-01-23",
+        "time": "11:30",
         "competition": "Regionalfreundschaftsspiele",
         "home": "RSV Eintracht 1949 U19",
-        "away": "Ludwigsfelder FC",
+        "away": "FC Hertha 03 II",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/ludwigsfelder-fc.png",
-        "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow",
+        "away_logo": "/assets/clubs/fc-hertha-03-ii.png",
+        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
         "is_home": true,
         "round": "",
         "ticket_url": ""
@@ -16596,28 +16637,28 @@
           "logo_url": "/assets/clubs/erzgebirge-aue.png"
         },
         {
-          "team": "FC Carl Zeiss Jena",
-          "played": 16,
-          "wins": 8,
-          "draws": 3,
-          "losses": 5,
-          "goals": "24:14",
-          "diff": "+10",
-          "points": 27,
-          "position": 7,
-          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
-        },
-        {
           "team": "Greifswalder FC",
-          "played": 16,
-          "wins": 7,
+          "played": 17,
+          "wins": 8,
           "draws": 5,
           "losses": 4,
-          "goals": "33:24",
-          "diff": "+9",
-          "points": 26,
-          "position": 8,
+          "goals": "36:25",
+          "diff": "+11",
+          "points": 29,
+          "position": 7,
           "logo_url": "/assets/clubs/greifswalder-fc.png"
+        },
+        {
+          "team": "FC Carl Zeiss Jena",
+          "played": 17,
+          "wins": 8,
+          "draws": 3,
+          "losses": 6,
+          "goals": "25:17",
+          "diff": "+8",
+          "points": 27,
+          "position": 8,
+          "logo_url": "/assets/clubs/fc-carl-zeiss-jena.png"
         },
         {
           "team": "1. FC Lok Leipzig",
@@ -16791,7 +16832,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -16991,7 +17032,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17191,7 +17232,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 21.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
