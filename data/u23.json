@@ -396,7 +396,14 @@
       "source_url": "https://www.fussball.de/spiel/sg-blau-weiss-pessin-rsv-eintracht-1949-u23/-/spiel/031D1IIA2G000000VS5489BTVUS470OH",
       "match_number": "610138104",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000003OVV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "result": "3:0",
+      "halftime_result": "1:0",
+      "scorers": [
+        "42. Minute – Hugo Alexander Zerbe (SG Blau-Weiß Pessin) – 1:0",
+        "79. Minute – Moritz Klimanski (SG Blau-Weiß Pessin) – 2:0",
+        "90. Minute – David Ferchland (SG Blau-Weiß Pessin) – 3:0"
+      ]
     },
     {
       "id": "u23-610138108",

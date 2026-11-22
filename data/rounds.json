@@ -1983,10 +1983,11 @@
         {
           "id": "rl-md17-1e3962217442",
           "date": "2026-11-22",
-          "time": "14:00",
+          "time": "13:30",
           "home": "BFC Preussen 1894",
           "away": "BSG Chemie Leipzig",
-          "result": null,
+          "result": "2:0",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"

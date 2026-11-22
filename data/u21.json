@@ -297,7 +297,15 @@
       "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u21-esv-lok-seddin/-/spiel/031D5U7ENG000000VS5489BTVUS470OH",
       "match_number": "610480100",
       "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
-      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007PVV0AG08LVUPGND5I"
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL000007PVV0AG08LVUPGND5I",
+      "result": "1:3",
+      "halftime_result": "1:2",
+      "scorers": [
+        "21. Minute – Gerd-Paul Hencke (RSV Eintracht 1949 U21) – 1:0",
+        "37. Minute – Dennis Schendel (ESV Lok Seddin) – 1:1",
+        "39. Minute – Philipp Bald (ESV Lok Seddin) – 1:2",
+        "78. Minute – Philipp Bald (ESV Lok Seddin) – 1:3"
+      ]
     },
     {
       "id": "u21-610480111",
