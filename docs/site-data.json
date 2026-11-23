@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:19:14.255146+01:00",
+  "generated_at": "2026-11-23T21:12:36.778022+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -10884,6 +10884,24 @@
           "table_position": 7
         },
         {
+          "id": "u21-610480090",
+          "matchday": 10,
+          "date": "2026-11-15",
+          "time": "14:00",
+          "competition": "Kreisliga",
+          "home": "SV 71 Busendorf",
+          "away": "RSV Eintracht 1949 U21",
+          "home_logo": "/assets/clubs/sv-71-busendorf.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "2:0",
+          "halftime_result": "",
+          "scorers": [],
+          "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Busendorf%2C+R%C3%A4deler+Weg%2C+14547+Beelitz",
+          "points": 16,
+          "table_position": 7
+        },
+        {
           "id": "u21-610480100",
           "matchday": 11,
           "date": "2026-11-22",
@@ -11122,7 +11140,7 @@
           "away": "RSV Eintracht 1949 U21",
           "home_logo": "/assets/clubs/sv-71-busendorf.png",
           "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
-          "result": "",
+          "result": "2:0",
           "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Busendorf%2C+R%C3%A4deler+Weg%2C+14547+Beelitz",
           "is_home": false,
@@ -13035,7 +13053,8 @@
               "time": "14:00",
               "home": "SV 71 Busendorf",
               "away": "RSV Eintracht 1949 U21",
-              "result": null,
+              "result": "2:0",
+              "halftime_result": null,
               "location": "Sportplatz Busendorf, Rädeler Weg, 14547 Beelitz",
               "matchday": 10,
               "team_fixture_id": "u21-610480090",
@@ -17177,12 +17196,12 @@
         {
           "position": 7,
           "team": "RSV Eintracht 1949 U21",
-          "played": 10,
+          "played": 11,
           "wins": 5,
           "draws": 1,
-          "losses": 4,
-          "goals": "27:22",
-          "diff": "+5",
+          "losses": 5,
+          "goals": "27:24",
+          "diff": "+3",
           "points": 16,
           "logo_url": "/assets/clubs/rsv-eintracht-1949.png"
         },
@@ -17272,6 +17291,18 @@
         },
         {
           "position": 15,
+          "team": "SV 71 Busendorf",
+          "played": 11,
+          "wins": 2,
+          "draws": 2,
+          "losses": 7,
+          "goals": "17:35",
+          "diff": "-18",
+          "points": 8,
+          "logo_url": "/assets/clubs/sv-71-busendorf.png"
+        },
+        {
+          "position": 16,
           "team": "SG Bornim II",
           "played": 11,
           "wins": 2,
@@ -17281,18 +17312,6 @@
           "diff": "-26",
           "points": 7,
           "logo_url": "/assets/clubs/sg-bornim-ii.png"
-        },
-        {
-          "position": 16,
-          "team": "SV 71 Busendorf",
-          "played": 10,
-          "wins": 1,
-          "draws": 2,
-          "losses": 7,
-          "goals": "15:35",
-          "diff": "-20",
-          "points": 5,
-          "logo_url": "/assets/clubs/sv-71-busendorf.png"
         }
       ]
     },

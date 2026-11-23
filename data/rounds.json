@@ -2047,17 +2047,6 @@
           "competition": "Regionalliga Nordost 2026/27"
         },
         {
-          "id": "rl-md18-a0f38ade0eb7",
-          "date": "2026-11-28",
-          "time": "14:00",
-          "home": "1. FC Lok Leipzig",
-          "away": "FSV 63 Luckenwalde",
-          "result": null,
-          "location": "",
-          "matchday": 18,
-          "competition": "Regionalliga Nordost 2026/27"
-        },
-        {
           "id": "rl-md18-0c314337cf79",
           "date": "2026-11-29",
           "time": "14:00",
@@ -2068,6 +2057,17 @@
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27",
           "team_fixture_id": "rl-18"
+        },
+        {
+          "id": "rl-md18-a0f38ade0eb7",
+          "date": "2026-11-28",
+          "time": "14:00",
+          "home": "1. FC Lok Leipzig",
+          "away": "FSV 63 Luckenwalde",
+          "result": null,
+          "location": "",
+          "matchday": 18,
+          "competition": "Regionalliga Nordost 2026/27"
         },
         {
           "id": "rl-md18-142b93952a28",

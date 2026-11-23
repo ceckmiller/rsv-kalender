@@ -484,12 +484,12 @@
       {
         "position": 7,
         "team": "RSV Eintracht 1949 U21",
-        "played": 10,
+        "played": 11,
         "wins": 5,
         "draws": 1,
-        "losses": 4,
-        "goals": "27:22",
-        "diff": "+5",
+        "losses": 5,
+        "goals": "27:24",
+        "diff": "+3",
         "points": 16
       },
       {
@@ -571,6 +571,17 @@
       },
       {
         "position": 15,
+        "team": "SV 71 Busendorf",
+        "played": 11,
+        "wins": 2,
+        "draws": 2,
+        "losses": 7,
+        "goals": "17:35",
+        "diff": "-18",
+        "points": 8
+      },
+      {
+        "position": 16,
         "team": "SG Bornim II",
         "played": 11,
         "wins": 2,
@@ -579,17 +590,6 @@
         "goals": "13:39",
         "diff": "-26",
         "points": 7
-      },
-      {
-        "position": 16,
-        "team": "SV 71 Busendorf",
-        "played": 10,
-        "wins": 1,
-        "draws": 2,
-        "losses": 7,
-        "goals": "15:35",
-        "diff": "-20",
-        "points": 5
       }
     ]
   },
