@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T19:33:45.801740+01:00",
+  "generated_at": "2026-11-23T01:19:14.255146+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5203,7 +5203,8 @@
               "time": "18:00",
               "home": "BFC Dynamo",
               "away": "Hallescher FC",
-              "result": null,
+              "result": "0:1",
+              "halftime_result": null,
               "location": "",
               "matchday": 17,
               "competition": "Regionalliga Nordost 2026/27",
@@ -16654,28 +16655,28 @@
           "logo_url": "/assets/clubs/chemnitzer-fc.png"
         },
         {
-          "team": "BFC Dynamo",
-          "played": 16,
-          "wins": 9,
-          "draws": 5,
-          "losses": 2,
-          "goals": "25:13",
-          "diff": "+12",
-          "points": 32,
-          "position": 3,
-          "logo_url": "/assets/clubs/bfc-dynamo.png"
-        },
-        {
           "team": "Hallescher FC",
-          "played": 16,
-          "wins": 8,
+          "played": 17,
+          "wins": 9,
           "draws": 7,
           "losses": 1,
+          "goals": "26:14",
+          "diff": "+12",
+          "points": 34,
+          "position": 3,
+          "logo_url": "/assets/clubs/hallescher-fc.png"
+        },
+        {
+          "team": "BFC Dynamo",
+          "played": 17,
+          "wins": 9,
+          "draws": 5,
+          "losses": 3,
           "goals": "25:14",
           "diff": "+11",
-          "points": 31,
+          "points": 32,
           "position": 4,
-          "logo_url": "/assets/clubs/hallescher-fc.png"
+          "logo_url": "/assets/clubs/bfc-dynamo.png"
         },
         {
           "team": "VSG Altglienicke",
@@ -16897,7 +16898,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17097,7 +17098,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17297,7 +17298,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 22.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [

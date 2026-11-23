@@ -1998,7 +1998,8 @@
           "time": "18:00",
           "home": "BFC Dynamo",
           "away": "Hallescher FC",
-          "result": null,
+          "result": "0:1",
+          "halftime_result": null,
           "location": "",
           "matchday": 17,
           "competition": "Regionalliga Nordost 2026/27"
