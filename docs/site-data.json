@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T05:49:02.870190+01:00",
+  "generated_at": "2026-11-24T16:52:39.239182+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -14342,6 +14342,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-690002065",
+          "matchday": null,
+          "date": "2026-12-05",
+          "time": "13:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "FC Hertha 03",
+          "away": "RSV Eintracht 1949 U19",
+          "home_logo": "/assets/clubs/fc-hertha-03.png",
+          "away_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "result": "",
+          "location": "Ernst-Reuter-Sportf. KR1, Onkel-Tom-Str. 40, 14169 Berlin",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Ernst-Reuter-Sportf.+KR1%2C+Onkel-Tom-Str.+40%2C+14169+Berlin",
+          "is_home": false,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690002063",
           "matchday": null,
           "date": "2026-12-13",
@@ -15631,7 +15648,7 @@
             {
               "id": "cup-sv-germania-90-schoeneiche-u19-sv-babelsberg-03-u19",
               "date": "2026-11-25",
-              "time": "18:30",
+              "time": "18:45",
               "home": "SV Germania 90 Schöneiche",
               "away": "SV Babelsberg 03",
               "result": null,
@@ -15746,6 +15763,29 @@
           ],
           "date": "2026-11-29",
           "date_end": "2026-11-29"
+        },
+        {
+          "id": "game:u19-690002065",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002065",
+              "date": "2026-12-05",
+              "time": "13:00",
+              "home": "FC Hertha 03",
+              "away": "RSV Eintracht 1949 U19",
+              "result": null,
+              "location": "Ernst-Reuter-Sportf. KR1, Onkel-Tom-Str. 40, 14169 Berlin",
+              "matchday": null,
+              "team_fixture_id": "u19-690002065",
+              "home_logo": "/assets/clubs/fc-hertha-03.png",
+              "away_logo": "/assets/clubs/rsv-eintracht-1949.png"
+            }
+          ],
+          "date": "2026-12-05",
+          "date_end": "2026-12-05"
         },
         {
           "id": "game:u19-690002063",
