@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T21:12:36.778022+01:00",
+  "generated_at": "2026-11-24T05:49:02.870190+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -14342,6 +14342,23 @@
           "ticket_url": ""
         },
         {
+          "id": "u19-690002063",
+          "matchday": null,
+          "date": "2026-12-13",
+          "time": "12:00",
+          "competition": "Regionalfreundschaftsspiele",
+          "home": "RSV Eintracht 1949 U19",
+          "away": "SV Babelsberg 03 U19",
+          "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+          "away_logo": "/assets/clubs/sv-babelsberg-03-u19.png",
+          "result": "",
+          "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+          "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow",
+          "is_home": true,
+          "round": "",
+          "ticket_url": ""
+        },
+        {
           "id": "u19-690002062",
           "matchday": null,
           "date": "2027-01-23",
@@ -15731,6 +15748,29 @@
           "date_end": "2026-11-29"
         },
         {
+          "id": "game:u19-690002063",
+          "kind": "game",
+          "title": "Regionalfreundschaftsspiele",
+          "competition": "Regionalfreundschaftsspiele",
+          "matches": [
+            {
+              "id": "u19-690002063",
+              "date": "2026-12-13",
+              "time": "12:00",
+              "home": "RSV Eintracht 1949 U19",
+              "away": "SV Babelsberg 03 U19",
+              "result": null,
+              "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+              "matchday": null,
+              "team_fixture_id": "u19-690002063",
+              "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
+              "away_logo": "/assets/clubs/sv-babelsberg-03-u19.png"
+            }
+          ],
+          "date": "2026-12-13",
+          "date_end": "2026-12-13"
+        },
+        {
           "id": "game:u19-690002062",
           "kind": "game",
           "title": "Regionalfreundschaftsspiele",
@@ -16243,17 +16283,17 @@
         "ticket_url": ""
       },
       "next_home": {
-        "id": "u19-690002062",
+        "id": "u19-690002063",
         "matchday": null,
-        "date": "2027-01-23",
-        "time": "11:30",
+        "date": "2026-12-13",
+        "time": "12:00",
         "competition": "Regionalfreundschaftsspiele",
         "home": "RSV Eintracht 1949 U19",
-        "away": "FC Hertha 03 II",
+        "away": "SV Babelsberg 03 U19",
         "home_logo": "/assets/clubs/rsv-eintracht-1949.png",
-        "away_logo": "/assets/clubs/fc-hertha-03-ii.png",
-        "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
-        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Heinrich-Zille-Str.%2C+KR%2C+Heinrich-Zille-Str.+32%2C+14532+Stahnsdorf",
+        "away_logo": "/assets/clubs/sv-babelsberg-03-u19.png",
+        "location": "Sportplatz Dreilinden, Celsiusstraße, 14532 Kleinmachnow",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sportplatz+Dreilinden%2C+Celsiusstra%C3%9Fe%2C+14532+Kleinmachnow",
         "is_home": true,
         "round": "",
         "ticket_url": ""
@@ -16917,7 +16957,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17117,7 +17157,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17317,7 +17357,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 23.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 24.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
