@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:43:25.385003+01:00",
+  "generated_at": "2026-11-25T20:59:34.135129+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -5237,6 +5237,19 @@
               "away_logo": "/assets/clubs/bfc-preussen-1894.png"
             },
             {
+              "id": "rl-md18-d818facf5c23",
+              "date": "",
+              "time": "",
+              "home": "Chemnitzer FC",
+              "away": "Hertha BSC II",
+              "result": null,
+              "location": "",
+              "matchday": 18,
+              "competition": "Regionalliga Nordost 2026/27",
+              "home_logo": "/assets/clubs/chemnitzer-fc.png",
+              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
+            },
+            {
               "id": "rl-md18-6745fb91df73",
               "date": "2026-11-27",
               "time": "19:00",
@@ -5248,19 +5261,6 @@
               "competition": "Regionalliga Nordost 2026/27",
               "home_logo": "/assets/clubs/bfc-dynamo.png",
               "away_logo": "/assets/clubs/fc-rot-weiss-erfurt.png"
-            },
-            {
-              "id": "rl-md18-d82e3d462de2",
-              "date": "2026-11-27",
-              "time": "19:00",
-              "home": "Chemnitzer FC",
-              "away": "Hertha BSC II",
-              "result": null,
-              "location": "",
-              "matchday": 18,
-              "competition": "Regionalliga Nordost 2026/27",
-              "home_logo": "/assets/clubs/chemnitzer-fc.png",
-              "away_logo": "/assets/clubs/hertha-bsc-ii.png"
             },
             {
               "id": "rl-md18-5cec0d12dc2f",
