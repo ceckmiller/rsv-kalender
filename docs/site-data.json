@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T20:59:34.135129+01:00",
+  "generated_at": "2026-11-26T03:52:55.713829+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -15651,7 +15651,8 @@
               "time": "18:45",
               "home": "SV Germania 90 Schöneiche",
               "away": "SV Babelsberg 03",
-              "result": null,
+              "result": "1:12",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -15665,7 +15666,8 @@
               "time": "19:00",
               "home": "Werderaner FC Viktoria 1920",
               "away": "SV Wacker 09 Cottbus-Ströbitz",
-              "result": null,
+              "result": "9:8",
+              "halftime_result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
@@ -16034,32 +16036,32 @@
               "source_url": "https://www.fussball.de/spiel/1-fc-frankfurt-fc-energie-cottbus-u19/-/spiel/032K4N9COO000000VS5489BTVSIO88SN"
             },
             {
-              "id": "cup--",
+              "id": "cup-brandenburger-sc-sued-sv-babelsberg-03-u19",
+              "date": "2027-03-17",
+              "time": "18:00",
+              "home": "Brandenburger SC Süd 05",
+              "away": "SV Babelsberg 03",
+              "result": null,
+              "location": "",
+              "matchday": null,
+              "competition": "Landespokal Brandenburg 2026/27",
+              "home_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
+              "away_logo": "/assets/clubs/sv-babelsberg-03.png",
+              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued-sv-babelsberg-03-u19/-/spiel/032K4N9CL8000000VS5489BTVSIO88SN"
+            },
+            {
+              "id": "cup-werderaner-fc-viktoria-1920",
               "date": "2027-03-21",
               "time": "10:30",
               "home": "Gewinner aus BSG Stahl Brandenburg gegen BSC Preußen 07 Blankenfelde-Mahlow (PH)",
-              "away": "Gewinner aus Werderaner FC Viktoria 1920 gegen SV Wacker 09 Cottbus-Ströbitz (PH)",
+              "away": "Werderaner FC Viktoria 1920",
               "result": null,
               "location": "",
               "matchday": null,
               "competition": "Landespokal Brandenburg 2026/27",
               "home_logo": "/assets/clubs/gewinner-aus-bsg-stahl-brandenburg-gegen-bsc-preussen-07-blankenfelde-mahlow-ph.png",
-              "away_logo": "/assets/clubs/gewinner-aus-werderaner-fc-viktoria-1920-gegen-sv-wacker-09-cottbus-stroebitz-ph.png",
-              "source_url": "https://www.fussball.de/spiel/-/spiel/032K4N9CN8000000VS5489BTVSIO88SN"
-            },
-            {
-              "id": "cup-brandenburger-sc-sued",
-              "date": "2027-03-21",
-              "time": "10:30",
-              "home": "Gewinner aus SV Germania 90 Schöneiche gegen SV Babelsberg 03 (PH)",
-              "away": "Brandenburger SC Süd 05",
-              "result": null,
-              "location": "",
-              "matchday": null,
-              "competition": "Landespokal Brandenburg 2026/27",
-              "home_logo": "/assets/clubs/gewinner-aus-sv-germania-90-schoeneiche-gegen-sv-babelsberg-03-ph.png",
-              "away_logo": "/assets/clubs/brandenburger-sc-sued-05.png",
-              "source_url": "https://www.fussball.de/spiel/brandenburger-sc-sued/-/spiel/032K4N9CL8000000VS5489BTVSIO88SN"
+              "away_logo": "/assets/clubs/werderaner-fc-viktoria-1920.png",
+              "source_url": "https://www.fussball.de/spiel/werderaner-fc-viktoria-1920/-/spiel/032K4N9CN8000000VS5489BTVSIO88SN"
             }
           ],
           "date": "2027-03-17",
@@ -16997,7 +16999,7 @@
     },
     "u23": {
       "competition": "Kreisoberliga",
-      "updated_at": "Offizielle Tabelle · Stand: 25.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 26.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17197,7 +17199,7 @@
     },
     "u21": {
       "competition": "Kreisliga",
-      "updated_at": "Offizielle Tabelle · Stand: 25.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 26.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
       "rows": [
@@ -17397,7 +17399,7 @@
     },
     "u19": {
       "competition": "Regionalliga",
-      "updated_at": "Offizielle Tabelle · Stand: 25.11.2026",
+      "updated_at": "Offizielle Tabelle · Stand: 26.11.2026",
       "source": "fussball.de",
       "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
       "rows": [
