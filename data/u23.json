@@ -446,6 +446,19 @@
       "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I"
     },
     {
+      "id": "u23-810005217",
+      "date": "2027-01-23",
+      "time": "14:00",
+      "home": "RSV Eintracht 1949 U23",
+      "away": "VfB Trebbin",
+      "competition": "Kreisfreundschaftsspiele 2026/27",
+      "location": "Sportplatz Heinrich-Zille-Str., KR, Heinrich-Zille-Str. 32, 14532 Stahnsdorf",
+      "source_url": "https://www.fussball.de/spiel/rsv-eintracht-1949-u23-vfb-trebbin/-/spiel/032QTSD6Q4000000VS5489BUVU5G371E",
+      "match_number": "810005217",
+      "home_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000087VV0AG08LVUPGND5I",
+      "away_logo": "https://www.fussball.de/export.media/-/action/getLogo/format/0/id/00ES8GNBL0000030VV0AG08LVUPGND5I"
+    },
+    {
       "id": "u23-610138124",
       "date": "2027-02-21",
       "time": "14:00",
