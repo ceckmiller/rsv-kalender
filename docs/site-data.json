@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T06:04:02.974230+01:00",
+  "generated_at": "2026-11-27T16:03:41.315367+01:00",
   "teams": {
     "regionalliga": {
       "name": "RSV Eintracht Herren",
@@ -1114,7 +1114,7 @@
           "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
           "is_home": true,
           "round": "",
-          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
+          "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
         },
         {
           "id": "rl-18",
@@ -7854,7 +7854,7 @@
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Preussen-Stadion+NR1%2C+Malteserstr.+24%2C+12249+Berlin",
         "is_home": true,
         "round": "",
-        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/5041218/"
+        "ticket_url": "https://rsv-eintracht.vereinsticket.de/herren/"
       },
       "next_home": null
     },
