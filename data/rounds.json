@@ -2030,7 +2030,8 @@
           "time": "19:00",
           "home": "BFC Dynamo",
           "away": "FC Rot-Weiß Erfurt",
-          "result": null,
+          "result": "0:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"
@@ -2041,7 +2042,8 @@
           "time": "19:00",
           "home": "SV Babelsberg 03",
           "away": "BSG Chemie Leipzig",
-          "result": null,
+          "result": "1:2",
+          "halftime_result": null,
           "location": "",
           "matchday": 18,
           "competition": "Regionalliga Nordost 2026/27"

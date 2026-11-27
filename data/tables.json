@@ -1,17 +1,17 @@
 {
   "regionalliga": {
     "competition": "Regionalliga Nordost",
-    "updated_at": "Aktueller Stand (bis 17. Spieltag)",
+    "updated_at": "Aktueller Stand (bis 18. Spieltag)",
     "rows": [
       {
         "team": "FC Rot-Weiß Erfurt",
-        "played": 17,
-        "wins": 12,
+        "played": 18,
+        "wins": 13,
         "draws": 4,
         "losses": 1,
-        "goals": "51:19",
-        "diff": "+32",
-        "points": 40,
+        "goals": "53:19",
+        "diff": "+34",
+        "points": 43,
         "position": 1
       },
       {
@@ -38,12 +38,12 @@
       },
       {
         "team": "BFC Dynamo",
-        "played": 17,
+        "played": 18,
         "wins": 9,
         "draws": 5,
-        "losses": 3,
-        "goals": "25:14",
-        "diff": "+11",
+        "losses": 4,
+        "goals": "25:16",
+        "diff": "+9",
         "points": 32,
         "position": 4
       },
@@ -136,25 +136,25 @@
         "position": 12
       },
       {
-        "team": "SV Babelsberg 03",
-        "played": 17,
+        "team": "BSG Chemie Leipzig",
+        "played": 18,
         "wins": 4,
-        "draws": 4,
+        "draws": 5,
         "losses": 9,
-        "goals": "17:31",
-        "diff": "-14",
-        "points": 16,
+        "goals": "20:28",
+        "diff": "-8",
+        "points": 17,
         "position": 13
       },
       {
-        "team": "BSG Chemie Leipzig",
-        "played": 17,
-        "wins": 3,
-        "draws": 5,
-        "losses": 9,
-        "goals": "18:27",
-        "diff": "-9",
-        "points": 14,
+        "team": "SV Babelsberg 03",
+        "played": 18,
+        "wins": 4,
+        "draws": 4,
+        "losses": 10,
+        "goals": "18:33",
+        "diff": "-15",
+        "points": 16,
         "position": 14
       },
       {
@@ -227,7 +227,7 @@
   },
   "u23": {
     "competition": "Kreisoberliga",
-    "updated_at": "Offizielle Tabelle · Stand: 27.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 28.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u23-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBRREG000000VTVG0001VTR8C1K7",
     "rows": [
@@ -411,7 +411,7 @@
   },
   "u21": {
     "competition": "Kreisliga",
-    "updated_at": "Offizielle Tabelle · Stand: 27.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 28.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u21-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIDHKSO000000VTVG0001VTR8C1K7",
     "rows": [
@@ -595,7 +595,7 @@
   },
   "u19": {
     "competition": "Regionalliga",
-    "updated_at": "Offizielle Tabelle · Stand: 27.11.2026",
+    "updated_at": "Offizielle Tabelle · Stand: 28.11.2026",
     "source": "fussball.de",
     "source_url": "https://www.fussball.de/mannschaft/rsv-eintracht-1949-u19-rsv-eintracht-1949-brandenburg/-/saison/2627/team-id/011MIBBD8K000000VTVG0001VTR8C1K7",
     "rows": [
